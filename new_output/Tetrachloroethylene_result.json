@@ -1,0 +1,54 @@
+[
+  {
+    "title": "The Risk of MTBE Relative to Other VOCs in Public Drinking Water in California",
+    "doi": "10.1111/j.0272-4332.2004.00463.x",
+    "year": 2004,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract compares MTBE to tetrachloroethylene and other VOCs, stating that MTBE poses one of the least cancer risks and has the lowest estimated cancer potency value among them. It suggests MTBE poses an insignificant threat to public drinking water and public health relative to tetrachloroethylene, indicating a safety advantage. Therefore, MTBE is presented as a safer alternative to tetrachloroethylene.",
+    "alternatives": "MTBE",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions the detection frequency and concentration levels of tetrachloroethylene in drinking water but does not explicitly state any harms or hazards associated with tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Life Cycle Assessment of A Hydrocarbon-based Electrified Cleaning Agent",
+    "doi": "10.17737/TRE.2021.7.1.00129",
+    "year": 2021,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract compares the production process of the developed hydrocarbon-based electrified cleaning agent with that of tetrachloroethylene, indicating advantages in terms of carbon footprint and other environmental impact indicators. This suggests that the new cleaning agent is a safer alternative due to its lower environmental impact compared to tetrachloroethylene.",
+    "alternatives": "hydrocarbon-based electrified cleaning agent",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to tetrachloroethylene such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards. It focuses on environmental impact indicators and production process improvements without detailing specific chemical hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Analysis of Solvent Properties of Mandarin Oil",
+    "doi": "10.4028/www.scientific.net/MSF.852.1201",
+    "year": 2016,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract explicitly states that Mandarin oil, which contains 85% limonene, can replace tetrachloroethylene and highlights that limonene is a 'safe, non-toxic organic solvent.' This indicates that Mandarin oil is presented as a safer alternative to tetrachloroethylene.",
+    "alternatives": "Mandarin oil; limonene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to tetrachloroethylene. It only mentions that mandarin oil can replace benzene, methylbenzene, and tetrachloroethylene as a solvent, and describes limonene as safe and non-toxic, without specifying any toxicity or hazards for tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Catalytic performance and mechanism of biochars for dechlorination of tetrachloroethylene in sulfide aqueous solution",
+    "doi": "10.1016/j.apcatb.2020.119285",
+    "year": 2020,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract discusses the use of biochar (BC) as a catalyst for the dechlorination of tetrachloroethylene (PCE) and highlights its ability to achieve over 99% nontoxic transformation. This indicates that biochar presents a safer alternative to tetrachloroethylene due to its nontoxic transformation products, which can be interpreted as a safety advantage over the original compound.",
+    "alternatives": "biochar",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the degradation of tetrachloroethylene (PCE) using biochar catalysts and mentions the transformation to nontoxic products, but does not explicitly state any harms or hazards associated with tetrachloroethylene itself."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

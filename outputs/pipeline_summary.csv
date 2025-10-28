@@ -1,0 +1,13 @@
+compound,step01,step02,step03,step04,all_steps_success
+Dimethylformamide (DMF),True,True,True,True,True
+Benzene,True,True,True,True,True
+Bis(2-ethylhexyl)phthalate (DEHP),True,True,True,True,True
+"1,3-Butadiene (BD)",True,True,True,True,True
+Acetonitrile,True,True,True,True,True
+Dichlorodifluoromethane (R-12),True,True,True,True,True
+Tetrachloroethylene,True,True,True,True,True
+Nonylphenol Ethoxylates (NPEs),True,True,True,True,True
+Methylene Chloride,True,True,True,True,True
+"Phthalate (PAEs), e.g., DINP",True,True,True,True,True
+Tetrabromobisphenol A (TBBPA),True,True,True,True,True
+Hexabromocyclododecane (HBCD),True,True,True,True,True

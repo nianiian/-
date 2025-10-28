@@ -1,0 +1,2047 @@
+[
+  {
+    "paperId": "01fcd69c8fe1f5c201ea533008f4776a9b2742ad",
+    "externalIds": {
+      "MAG": "2128033880",
+      "DOI": "10.1579/0044-7447-38.2.115",
+      "CorpusId": 23654554,
+      "PubMed": "19431944"
+    },
+    "url": "https://www.semanticscholar.org/paper/01fcd69c8fe1f5c201ea533008f4776a9b2742ad",
+    "title": "Toxic Octabromodiphenyl Ether Is Being Transported from Rich to Poor via Electronic Waste",
+    "venue": "Ambio",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1579/0044-7447-38.2.115?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1579/0044-7447-38.2.115, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2153389353",
+        "name": "Ying Zhang"
+      },
+      {
+        "authorId": "3992372",
+        "name": "Jinming Song"
+      },
+      {
+        "authorId": "7686682",
+        "name": "Zhipeng He"
+      },
+      {
+        "authorId": "7740823",
+        "name": "Huamao Yuan"
+      },
+      {
+        "authorId": "12125749",
+        "name": "Ya-yan Xu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "05d831fa342c83c30587424bb6147741ea175b73",
+    "externalIds": {
+      "PubMedCentral": "11930881",
+      "DOI": "10.1007/s12640-025-00741-7",
+      "CorpusId": 277262654,
+      "PubMed": "40123016"
+    },
+    "url": "https://www.semanticscholar.org/paper/05d831fa342c83c30587424bb6147741ea175b73",
+    "title": "Mechanistic Analysis of Decabromodiphenyl Ether-Induced Neurotoxicity in Humans Using Network Toxicology and Molecular Docking",
+    "venue": "Neurotoxicity research",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1007/s12640-025-00741-7",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11930881, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2361414",
+        "name": "Fuat Karakuş"
+      },
+      {
+        "authorId": "14091453",
+        "name": "Burak Kuzu"
+      }
+    ],
+    "abstract": "Commercial decabromodiphenyl ether (c-decaBDE) is a widely used additive flame retardant in textiles and plastics. This formulation predominantly consists of the congener BDE-209, with trace amounts of other brominated diphenyl ether congeners, such as nonabromodiphenyl ether and octabromodiphenyl ether. Recognized as a persistent organic pollutant due to its potential for long-range environmental transport, c-decaBDE poses significant environmental threats and serious human health risks, including endocrine, reproductive, developmental, and neurotoxic effects. The mechanisms underlying its neurotoxicity remain largely undefined. This study investigates the neurotoxic effects of BDE-209 in humans through network toxicology, multi-level bioinformatics approaches, and molecular docking analyses. Prediction results indicate that BDE-209 can cross the blood-brain barrier, entering the central nervous system and inducing neurotoxic effects. A comprehensive analysis has identified 294 potential targets linked to the neurotoxicity induced by BDE-209. Gene-gene interaction and pathway enrichment analyses revealed significant associations related to cellular responses to chemical stress and synaptic transmission. Further investigation of protein-protein interactions, combined with centrality analysis, identified 14 hub targets, including CaMK-II alpha, PSD-95, GluR-1, and GluN2B, as key proteins in this process. Molecular docking results indicate that BDE-209 exhibits a stronger binding affinity to GluN2B, a subunit of the N-methyl-D-aspartate (NMDA) receptors, compared to other key targets. These findings suggest that BDE-209 may disrupt the function of GluN2B-containing NMDA receptors, potentially leading to their inhibition. Such inhibition could result in reduced excitatory neurotransmission, impairing synaptic potentiation and plasticity, and ultimately contributing to neurotoxicity. Supplementary Information The online version contains supplementary material available at 10.1007/s12640-025-00741-7."
+  },
+  {
+    "paperId": "096b460ee857f94720445b7a1fb6ab723028a70c",
+    "externalIds": {
+      "MAG": "2394093118",
+      "CorpusId": 99434574
+    },
+    "url": "https://www.semanticscholar.org/paper/096b460ee857f94720445b7a1fb6ab723028a70c",
+    "title": "Study on Degradation Mechanism of Decabromodiphenyl Ethers",
+    "venue": "",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "47302941",
+        "name": "Deng Xin"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0af02a7cbecd437d2fc0afa21b4d6ca0cdabc55c",
+    "externalIds": {
+      "MAG": "2080985187",
+      "DOI": "10.1021/es304785f",
+      "CorpusId": 7426380,
+      "PubMed": "23472584"
+    },
+    "url": "https://www.semanticscholar.org/paper/0af02a7cbecd437d2fc0afa21b4d6ca0cdabc55c",
+    "title": "UV-induced formation of bromophenols from polybrominated diphenyl ethers.",
+    "venue": "Environmental Science and Technology",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/es304785f?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/es304785f, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "12756272",
+        "name": "Paul Bendig"
+      },
+      {
+        "authorId": "39877983",
+        "name": "W. Vetter"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0bca8addd72df2d41eac7245277d19cab62b3ff6",
+    "externalIds": {
+      "MAG": "2065221416",
+      "DOI": "10.1002/etc.1736",
+      "CorpusId": 34916426,
+      "PubMed": "22213441"
+    },
+    "url": "https://www.semanticscholar.org/paper/0bca8addd72df2d41eac7245277d19cab62b3ff6",
+    "title": "Vapor pressure of three brominated flame retardants determined by using the Knudsen effusion method",
+    "venue": "Environmental Toxicology and Chemistry",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "https://europepmc.org/articles/pmc3288591?pdf=render",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/etc.1736?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/etc.1736, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "12861560",
+        "name": "Jinxia Fu"
+      },
+      {
+        "authorId": "2069718",
+        "name": "E. Suuberg"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0e5f3c4a2af8d62eb38a3d915b8b173fc473c220",
+    "externalIds": {
+      "MAG": "2925146128",
+      "CorpusId": 109738926
+    },
+    "url": "https://www.semanticscholar.org/paper/0e5f3c4a2af8d62eb38a3d915b8b173fc473c220",
+    "title": "Congeners, chlorinated, brominated and / or iodinated, fluorinated aromatic compounds having two benzene rings in their basic structure, processes for their preparation and their use",
+    "venue": "",
+    "year": 2004,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "48964587",
+        "name": "Liu Huiling"
+      },
+      {
+        "authorId": "92405560",
+        "name": "L. Gregor"
+      },
+      {
+        "authorId": "1391835515",
+        "name": "Johansen Jon Eigill"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "119f6098061705808c6a863c19a6f26e415c7da8",
+    "externalIds": {
+      "MAG": "2070637022",
+      "DOI": "10.1007/s13361-011-0200-2",
+      "CorpusId": 21998786,
+      "PubMed": "21952898"
+    },
+    "url": "https://www.semanticscholar.org/paper/119f6098061705808c6a863c19a6f26e415c7da8",
+    "title": "Comprehensive Two-Dimensional Separation of Hydroxylated Polybrominated Diphenyl Ethers by Ultra-Performance Liquid Chromatography Coupled with Ion Mobility-Mass Spectrometry",
+    "venue": "Journal of the American Society for Mass Spectrometry",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s13361-011-0200-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s13361-011-0200-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "50450115",
+        "name": "Q. Ma"
+      },
+      {
+        "authorId": "47074227",
+        "name": "Chao Wang"
+      },
+      {
+        "authorId": "47467908",
+        "name": "H. Bai"
+      },
+      {
+        "authorId": "93081590",
+        "name": "H. Xi"
+      },
+      {
+        "authorId": "2314869",
+        "name": "Guangcheng Xi"
+      },
+      {
+        "authorId": "3263095",
+        "name": "Xiaomin Ren"
+      },
+      {
+        "authorId": "86921829",
+        "name": "Yu Yang"
+      },
+      {
+        "authorId": "5980661",
+        "name": "Liang-Hong Guo"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "11a1abadae99884577151b973a190b4553cb0206",
+    "externalIds": {
+      "MAG": "2078050462",
+      "DOI": "10.1007/s11356-014-3266-0",
+      "CorpusId": 1414752,
+      "PubMed": "25062546"
+    },
+    "url": "https://www.semanticscholar.org/paper/11a1abadae99884577151b973a190b4553cb0206",
+    "title": "Polybrominated diphenyl ethers listed as Stockholm Convention POPs, other brominated flame retardants and heavy metals in e-waste polymers in Nigeria",
+    "venue": "Environmental science and pollution research international",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "http://doc.rero.ch/record/331828/files/11356_2014_Article_3266.pdf",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11356-014-3266-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11356-014-3266-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "13448700",
+        "name": "Omotayo Sindiku"
+      },
+      {
+        "authorId": "12524276",
+        "name": "J. Babayemi"
+      },
+      {
+        "authorId": "3266159",
+        "name": "O. Osibanjo"
+      },
+      {
+        "authorId": "6054135",
+        "name": "M. Schlummer"
+      },
+      {
+        "authorId": "35452741",
+        "name": "M. Schluep"
+      },
+      {
+        "authorId": "144813881",
+        "name": "A. Watson"
+      },
+      {
+        "authorId": "145743802",
+        "name": "R. Weber"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "16f40f25c4ded5c655b0ee4fea27c40c8a06019d",
+    "externalIds": {
+      "MAG": "2114937708",
+      "DOI": "10.1093/TOXSCI/KFI147",
+      "CorpusId": 9692946,
+      "PubMed": "15772365"
+    },
+    "url": "https://www.semanticscholar.org/paper/16f40f25c4ded5c655b0ee4fea27c40c8a06019d",
+    "title": "Differential effects of commercial polybrominated diphenyl ether and polychlorinated biphenyl mixtures on intracellular signaling in rat brain in vitro.",
+    "venue": "Toxicological Sciences",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/toxsci/article-pdf/85/2/952/4687934/kfi147.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/TOXSCI/KFI147?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/TOXSCI/KFI147, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "5703905",
+        "name": "P. Kodavanti"
+      },
+      {
+        "authorId": "50010934",
+        "name": "T. Ward"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "179aa63f515632fa74b2a89659e4bdfa57613672",
+    "externalIds": {
+      "MAG": "2149003068",
+      "DOI": "10.2478/s13382-014-0312-6",
+      "CorpusId": 22424049,
+      "PubMed": "25323988"
+    },
+    "url": "https://www.semanticscholar.org/paper/179aa63f515632fa74b2a89659e4bdfa57613672",
+    "title": "Selected oxidative stress parameters after single and repeated administration of octabromodiphenyl ether to rats",
+    "venue": "International Journal of Occupational Medicine and Environmental Health",
+    "year": 2014,
+    "openAccessPdf": {
+      "url": "http://ijomeh.eu/pdf-2109-2344?filename=Selected oxidative stress.pdf",
+      "status": "GOLD",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2478/s13382-014-0312-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2478/s13382-014-0312-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "10340192",
+        "name": "E. Bruchajzer"
+      },
+      {
+        "authorId": "5628851",
+        "name": "B. Frydrych"
+      },
+      {
+        "authorId": "5347713",
+        "name": "A. Kilanowicz"
+      },
+      {
+        "authorId": "3716335",
+        "name": "A. Sapota"
+      },
+      {
+        "authorId": "40436436",
+        "name": "J. Szymańska"
+      }
+    ],
+    "abstract": "ObjectivesOctabromodiphenyl ether (OctaBDE) was used as a flame retardant applied mostly in the manufacture of plastics utilized in the electrical and electronic industries. Owing to its long half-life and being regarded as an environmental pollutant, OctaBDE, like other polybrominated diphenyl ethers, has been classified as a persistent organic pollutant (POP). This study was carried out to assess the effects of oxidative stress (redox homeostasis) induced in rats by OctaBDE.Material and MethodsFemale Wistar rats exposed intragastrically to OctaBDE at single (25, 200 or 2000 mg/kg b.w.), or repeated (0.4, 2, 8, 40 or 200 mg/kg/day) doses during 7–28 days were used in the experiment. Selected oxidative stress parameters were determined in the liver and blood serum.ResultsAdministration (single or repeated) of OctaBDE to rats resulted in the impaired redox homeostasis, as evidenced by the increased levels of reduced (GSH) and oxidized (GSSG) glutathione in the liver, the reduced total antioxidant status (TAS) in serum and the increased concentration of malondialdehyde (MDA) in the liver. After multiple doses of OctaBDE, elevated activity of glutathione transferase (GST) in the liver was also noted.ConclusionsAfter repeated administration of OctaBDE at the lowest dose (0.4 mg/kg/day), changes were observed in the parameters (MDA, TAS, GSSG) indicative of oxidative stress."
+  },
+  {
+    "paperId": "17e7225f1786d2e498b9d7b9b2870fdf8b8d4bbb",
+    "externalIds": {
+      "MAG": "2141309478",
+      "DOI": "10.1093/TOXSCI/68.2.451",
+      "CorpusId": 15193137,
+      "PubMed": "12151641"
+    },
+    "url": "https://www.semanticscholar.org/paper/17e7225f1786d2e498b9d7b9b2870fdf8b8d4bbb",
+    "title": "Differential effects of polybrominated diphenyl ethers and polychlorinated biphenyls on [3H]arachidonic acid release in rat cerebellar granule neurons.",
+    "venue": "Toxicological Sciences",
+    "year": 2002,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/toxsci/article-pdf/68/2/451/10888141/120802000451.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/TOXSCI/68.2.451?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/TOXSCI/68.2.451, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Study"
+    ],
+    "authors": [
+      {
+        "authorId": "5703905",
+        "name": "P. Kodavanti"
+      },
+      {
+        "authorId": "1400842330",
+        "name": "E. Derr-Yellin"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "2151dfa3f6f1b4593752950725765845fac8b6ec",
+    "externalIds": {
+      "MAG": "8511904",
+      "CorpusId": 92691888
+    },
+    "url": "https://www.semanticscholar.org/paper/2151dfa3f6f1b4593752950725765845fac8b6ec",
+    "title": "Molecular and supramolecular structure of 2,2',3,3',4,5,5',6-OctabromoDiphenyl ether (BDE-198); 2,2',3,3',4,5',6,6'-OctabromoDiphenyl ether (BDE-201); 2,2',3,3',5,5',6,6'-OctabromoDiphenyl ether (BDE-202); 2,2',3,4,4',5,5',6-OctabromoDiphenyl ether (203) and 2,2',3,4,4',5,6,6'-Octabromodiphenyl ethe",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "15926323",
+        "name": "Daniel Teclechiel"
+      },
+      {
+        "authorId": "40131463",
+        "name": "L. Eriksson"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "253d8c64a3038309a5b72ee21bca0a4852e5b73d",
+    "externalIds": {
+      "MAG": "2029746936",
+      "DOI": "10.1021/ES702586R",
+      "CorpusId": 27261837,
+      "PubMed": "18800504"
+    },
+    "url": "https://www.semanticscholar.org/paper/253d8c64a3038309a5b72ee21bca0a4852e5b73d",
+    "title": "Temporal trends, congener patterns, and sources of octa-, nona-, and decabromodiphenyl ethers (PBDE) and hexabromocyclododecanes (HBCD) in Swiss lake sediments.",
+    "venue": "Environmental Science and Technology",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ES702586R?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ES702586R, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "49335672",
+        "name": "M. Kohler"
+      },
+      {
+        "authorId": "7449103",
+        "name": "M. Zennegg"
+      },
+      {
+        "authorId": "9735401",
+        "name": "C. Bogdal"
+      },
+      {
+        "authorId": "8064829",
+        "name": "A. Gerecke"
+      },
+      {
+        "authorId": "92515205",
+        "name": "P. Schmid"
+      },
+      {
+        "authorId": "8220541",
+        "name": "N. Heeb"
+      },
+      {
+        "authorId": "49547037",
+        "name": "M. Sturm"
+      },
+      {
+        "authorId": "13241115",
+        "name": "H. Vonmont"
+      },
+      {
+        "authorId": "2059482778",
+        "name": "H. Kohler"
+      },
+      {
+        "authorId": "3606641",
+        "name": "W. Giger"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "28df6357e6aeb6708ca7afb674d31ca927da544d",
+    "externalIds": {
+      "MAG": "2005149088",
+      "DOI": "10.1021/ES048634J",
+      "CorpusId": 46491913,
+      "PubMed": "15773480"
+    },
+    "url": "https://www.semanticscholar.org/paper/28df6357e6aeb6708ca7afb674d31ca927da544d",
+    "title": "Anaerobic degradation of decabromodiphenyl ether.",
+    "venue": "Environmental Science and Technology",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ES048634J?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ES048634J, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "8064829",
+        "name": "A. Gerecke"
+      },
+      {
+        "authorId": "39089067",
+        "name": "P. Hartmann"
+      },
+      {
+        "authorId": "8220541",
+        "name": "N. Heeb"
+      },
+      {
+        "authorId": "2059482778",
+        "name": "H. Kohler"
+      },
+      {
+        "authorId": "3606641",
+        "name": "W. Giger"
+      },
+      {
+        "authorId": "92515205",
+        "name": "P. Schmid"
+      },
+      {
+        "authorId": "7449103",
+        "name": "M. Zennegg"
+      },
+      {
+        "authorId": "49335672",
+        "name": "M. Kohler"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "2aa8ee09a2b90cc704bf69c2c2e08a12dec796d7",
+    "externalIds": {
+      "MAG": "2058903946",
+      "DOI": "10.1289/EHP.112-1253686",
+      "CorpusId": 52817391
+    },
+    "url": "https://www.semanticscholar.org/paper/2aa8ee09a2b90cc704bf69c2c2e08a12dec796d7",
+    "title": "PBDEs: Sjodin's Response",
+    "venue": "",
+    "year": 2004,
+    "openAccessPdf": {
+      "url": "https://ehp.niehs.nih.gov/doi/pdf/10.1289/ehp.112-1253686",
+      "status": "GOLD",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1289/EHP.112-1253686?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1289/EHP.112-1253686, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2067581267",
+        "name": "A. Sjödin"
+      }
+    ],
+    "abstract": "I appreciate Cleet’s response to our paper concerning time trends of polybrominated diphenyl ethers (PBDEs) and related compounds in the U.S. population (Sjodin et al. 2004), and I appreciate the opportunity to address his comments. \n \nPentabromodiphenyl ether (pentaBDE), along with the lower brominated congeners, was the topic of our investigation (Sjodin et al. (2004). Cleet’s statement emphasizing that the current production of PBDEs is solely in the form of decabromodiphenyl ether belittles the fact that, in 2001, 95% of the 7,500 metric tons of pentaBDE was produced and consumed in the United States [Bromine Science and Environmental Forum (BSEF) 2003]. The industry’s withdrawal of pentaBDE and octabromodiphenyl ether (octaBDE) from the market by the end of 2004 will decrease environmental output. However, continued monitoring of environmental and human levels is needed to measure exposures originating from pentaBDE and octaBDE manufactured before 2005 and to study potential exposure to decaBDE, which will continue to be manufactured. \n \nCleet’s second remark proposes the possibility that current human PBDE levels have reached a plateau. Because of the variability in our data (Sjodin et al. (2004) and the regionalized sampling, we believe such a conclusion may be premature. As Cleet mentions later in his letter, these studies may not be representative of U.S. and European populations. We did not claim that the sampled pools are representative. To further confirm and track our preliminary observations of human exposure to PBDEs, broader representative studies have been proposed. \n \nCleet’s third issue concerns comparability of our data on BDE-47 with earlier studies. We referenced several publications regarding the similarity of our measured levels to earlier findings. In a 1988 Illinois study, human levels of BDE-47 were reported to be 0.63 ng/g lipid, with a range of < 0.4–24 ng/g lipid (Sjodin et al. 2001). These Illinois levels can be contrasted to the data from serum pools collected in the southeastern United States, where we found a range of < 1–6 ng/g lipid for the same year [see Figure 1 in our paper (Sjodin et al. 2004)]. We also compared our BDE-47 levels to those in other studies: for example, 33 ng/g lipid in breast adipose tissue (range 7–200 ng/g) collected in the late 1990s (She et al. 2002); 83 ng/g lipid in a milk pool (n = 19) collected in 1997 in New York (Betts 2002); 130 ng/g lipid in a milk pool collected in 2000 in Austin, Texas, and Denver, Colorado (Papke et al. 2001); and 41 ng/g lipid in milk collected in 2001 in Texas (Schecter et al. 2003). These authors reported concentrations in the same range as our study [e.g., Figure 1 in our paper (Sjodin et al. 2004)]. \n \nI appreciate Cleet’s clarification concerning production stoppage of hexabromobiphenyl (hexaBB) in Europe. Also, Cleet’s speculation about the differences in outcomes in animal studies is potentially useful. Although we did not study toxic effects of PBDEs, we asserted the cited studies to be examples of potential concern. We selected the work of Eriksson and colleagues in this regard, demonstrating observed effects in four publications: Eriksson et al. (2001, 2002), Viberg et al. (2002), and Sand et al. (2004)."
+  },
+  {
+    "paperId": "2f0538f93044db8e946e6ade6197b2d75a7ee9dc",
+    "externalIds": {
+      "MAG": "2071372295",
+      "DOI": "10.1007/S00216-007-1681-5",
+      "CorpusId": 21769007,
+      "PubMed": "17987284"
+    },
+    "url": "https://www.semanticscholar.org/paper/2f0538f93044db8e946e6ade6197b2d75a7ee9dc",
+    "title": "Results of an interlaboratory comparison on the determination of polybrominated flame retardants in poly(ethyleneterephthalate)",
+    "venue": "Analytical and Bioanalytical Chemistry",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/S00216-007-1681-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/S00216-007-1681-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "10120154",
+        "name": "T. Linsinger"
+      },
+      {
+        "authorId": "6471141",
+        "name": "S. Voorspoels"
+      },
+      {
+        "authorId": "11724557",
+        "name": "A. Liebich"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "32ccb70f76cf0198b4ca4dd07c36cba5be48f222",
+    "externalIds": {
+      "MAG": "2605592276",
+      "CorpusId": 100197007
+    },
+    "url": "https://www.semanticscholar.org/paper/32ccb70f76cf0198b4ca4dd07c36cba5be48f222",
+    "title": "Pysyviä orgaanisia yhdisteitä koskevan Tukholman yleissopimuksen velvoitteiden kansallinen täytäntöönpanosuunnitelma (NIP). Kansallinen tahattomasti tuotettujen POP-yhdisteiden päästöjen vähentämissuunnitelma (NAP)",
+    "venue": "",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2096067906",
+        "name": "Päivi Munne"
+      },
+      {
+        "authorId": "9337575",
+        "name": "T. Seppälä"
+      },
+      {
+        "authorId": "133895142",
+        "name": "Eevaleena Häkkinen"
+      },
+      {
+        "authorId": "94093128",
+        "name": "Liisa Vikström"
+      },
+      {
+        "authorId": "13950907",
+        "name": "Outi Pyy"
+      },
+      {
+        "authorId": "93666751",
+        "name": "Timo Jouttijärvi"
+      },
+      {
+        "authorId": "39496032",
+        "name": "Jukka Mehtonen"
+      },
+      {
+        "authorId": "2055293717",
+        "name": "Marianne Johansson"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "40da578d60e6bf3eac04e5ce5463e86d728362af",
+    "externalIds": {
+      "MAG": "2467247557",
+      "CorpusId": 99176846
+    },
+    "url": "https://www.semanticscholar.org/paper/40da578d60e6bf3eac04e5ce5463e86d728362af",
+    "title": "A mass balance feeding study of a commercial octabromodiphenyl ether mixture in rats",
+    "venue": "",
+    "year": 2002,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "9915406",
+        "name": "J. Huwe"
+      },
+      {
+        "authorId": "9887097",
+        "name": "H. Hakk"
+      },
+      {
+        "authorId": "14750383",
+        "name": "Margaret Lorentzsen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "4a390b9ce7189156cb920e30a6ce538020e0a383",
+    "externalIds": {
+      "MAG": "1971134396",
+      "DOI": "10.1002/JSSC.200500121",
+      "CorpusId": 30722068,
+      "PubMed": "16342790"
+    },
+    "url": "https://www.semanticscholar.org/paper/4a390b9ce7189156cb920e30a6ce538020e0a383",
+    "title": "HPLC isolation and NMR structure elucidation of the most prominent octabromo isomer in technical octabromo diphenyl ether.",
+    "venue": "Journal of Separation Science",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/JSSC.200500121?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/JSSC.200500121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "48582098",
+        "name": "S. Gaul"
+      },
+      {
+        "authorId": "30277231",
+        "name": "K. Lehnert"
+      },
+      {
+        "authorId": "6237762",
+        "name": "J. Conrad"
+      },
+      {
+        "authorId": "39877983",
+        "name": "W. Vetter"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "4bdf88824772e7f82e68091ed5c527179e318145",
+    "externalIds": {
+      "MAG": "3004583143",
+      "DOI": "10.1016/j.taap.2020.114914",
+      "CorpusId": 211064365,
+      "PubMed": "32032643"
+    },
+    "url": "https://www.semanticscholar.org/paper/4bdf88824772e7f82e68091ed5c527179e318145",
+    "title": "Perinatal exposure to octabromodiphenyl ether mixture, DE-79, alters the vasopressinergic system in adult rats.",
+    "venue": "Toxicology and Applied Pharmacology",
+    "year": 2020,
+    "openAccessPdf": {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8103815",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.taap.2020.114914?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.taap.2020.114914, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "1400082513",
+        "name": "M. Y. Alvarez-Gonzalez"
+      },
+      {
+        "authorId": "1398732917",
+        "name": "E. Sánchez-Islas"
+      },
+      {
+        "authorId": "101937363",
+        "name": "S. Mucio-Ramírez"
+      },
+      {
+        "authorId": "8485506",
+        "name": "P. de Gortari"
+      },
+      {
+        "authorId": "31631801",
+        "name": "M. Amaya"
+      },
+      {
+        "authorId": "5703905",
+        "name": "P. Kodavanti"
+      },
+      {
+        "authorId": "1398732919",
+        "name": "M. León‐Olea"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "5829b4ec75a98e4c0e233761909739daceb2b5a8",
+    "externalIds": {
+      "MAG": "2389747495",
+      "DOI": "10.1360/ZB2010-40-2-99",
+      "CorpusId": 202884552
+    },
+    "url": "https://www.semanticscholar.org/paper/5829b4ec75a98e4c0e233761909739daceb2b5a8",
+    "title": "Research processes of persistent organic pollutants (POPs) newly listed and candidate POPs in Stockholm Convention",
+    "venue": "",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1360/ZB2010-40-2-99?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1360/ZB2010-40-2-99, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "145017169",
+        "name": "Yaqi Cai"
+      },
+      {
+        "authorId": "91858060",
+        "name": "江 桂斌"
+      },
+      {
+        "authorId": "8871525",
+        "name": "Yawei Wang"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "59ac6d962649a304d25bf37832c2e683a34814f8",
+    "externalIds": {
+      "MAG": "2160798190",
+      "DOI": "10.1007/s11356-009-0150-4",
+      "CorpusId": 5130604,
+      "PubMed": "19360447"
+    },
+    "url": "https://www.semanticscholar.org/paper/59ac6d962649a304d25bf37832c2e683a34814f8",
+    "title": "Identification and quantification of products formed via photolysis of decabromodiphenyl ether",
+    "venue": "Environmental science and pollution research international",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11356-009-0150-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11356-009-0150-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "37924109",
+        "name": "Anna-Karin Christiansson"
+      },
+      {
+        "authorId": "48752103",
+        "name": "L. Eriksson"
+      },
+      {
+        "authorId": "15926323",
+        "name": "Daniel Teclechiel"
+      },
+      {
+        "authorId": "51915775",
+        "name": "A. Bergman"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "60402bcadb742b83ef7be713ad1d561046644d48",
+    "externalIds": {
+      "MAG": "2032443108",
+      "DOI": "10.1016/j.chemosphere.2010.11.016",
+      "CorpusId": 28169403,
+      "PubMed": "21122891"
+    },
+    "url": "https://www.semanticscholar.org/paper/60402bcadb742b83ef7be713ad1d561046644d48",
+    "title": "Is BDE-175 an important enough component of commercial octabromodiphenyl ether mixtures to be listed in Annex A of the Stockholm Convention?",
+    "venue": "Chemosphere",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.chemosphere.2010.11.016?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.chemosphere.2010.11.016, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2063994739",
+        "name": "A. Konstantinov"
+      },
+      {
+        "authorId": "4124859",
+        "name": "B. Chittim"
+      },
+      {
+        "authorId": "38326729",
+        "name": "Dave Potter"
+      },
+      {
+        "authorId": "48563371",
+        "name": "Jeff Klein"
+      },
+      {
+        "authorId": "3943378",
+        "name": "N. Riddell"
+      },
+      {
+        "authorId": "2349039",
+        "name": "R. McCrindle"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "685480912557b20507eea75f53a854793794ccef",
+    "externalIds": {
+      "MAG": "1983938258",
+      "DOI": "10.1016/j.chroma.2015.04.019",
+      "CorpusId": 5695407,
+      "PubMed": "25913330"
+    },
+    "url": "https://www.semanticscholar.org/paper/685480912557b20507eea75f53a854793794ccef",
+    "title": "Fractionation of technical octabromodiphenyl ether by countercurrent chromatography combined with gas chromatography/mass spectrometry and offline and online (1)H nuclear magnetic resonance spectroscopy.",
+    "venue": "Journal of Chromatography A",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.chroma.2015.04.019?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.chroma.2015.04.019, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "4076090",
+        "name": "S. Hammann"
+      },
+      {
+        "authorId": "6237762",
+        "name": "J. Conrad"
+      },
+      {
+        "authorId": "39877983",
+        "name": "W. Vetter"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "6c495efad72a4157b3fac3c298f2635f15544f7f",
+    "externalIds": {
+      "MAG": "2038351534",
+      "DOI": "10.1117/12.887127",
+      "CorpusId": 122339416
+    },
+    "url": "https://www.semanticscholar.org/paper/6c495efad72a4157b3fac3c298f2635f15544f7f",
+    "title": "Environmental monitoring of brominated flame retardants",
+    "venue": "Defense + Commercial Sensing",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1117/12.887127?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1117/12.887127, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "6369165",
+        "name": "Mary Vagula"
+      },
+      {
+        "authorId": "3922902",
+        "name": "Nathan Kubeldis"
+      },
+      {
+        "authorId": "4517841",
+        "name": "C. Nelatury"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "6dc2246f5c08edb340e8c597f86d8a904c2a33fb",
+    "externalIds": {
+      "MAG": "167502770",
+      "DOI": "10.1289/EHP.114-1551981",
+      "CorpusId": 263410752
+    },
+    "url": "https://www.semanticscholar.org/paper/6dc2246f5c08edb340e8c597f86d8a904c2a33fb",
+    "title": "High Tech Trash: Digital Devices, Hidden Toxins, and Human Health",
+    "venue": "",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1289/ehp.114-1551981",
+      "status": "GOLD",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1289/EHP.114-1551981?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1289/EHP.114-1551981, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2250196673",
+        "name": "Andreas Sjödin"
+      }
+    ],
+    "abstract": "By Elizabeth Grossman \n \nWashington, DC:Island Press, 2006. 334 pp. ISBN: 1-55963-554-1, $25.95 \n \nIn High Tech Trash, Elizabeth Grossman traces the effects of the high-tech computer industry on the environment, from the raw materials to the chemicals and solvents used to produce silicone chips as well as other persistent organic compounds used to produce high-tech equipment. Grossman then describes the subsequent recycling of electronics for reuse as well as the recovery and recycling of raw materials such as copper, zinc, gold, and plastics. \n \nThis journey through electronics, which formerly had been recognized as a “clean” industry, begins in the mines that supply many of the raw materials—including copper, aluminum, lead, gold, zinc, nickel, tin, silver, and iron—used in modern electronics. Grossman then discusses the different chemicals and solvents used in the production of silicone chips. She gives a close-up view of the electronics industry, recognizing the improvements in chemical safety from the early days when many of the tasks involving solvents such as trichloroethylene (TCE) and trichloroethane (TCA) were performed manually. These improvements have helped ensure that workers’ exposures to chemicals have been substantially reduced in the automated factories of today. Grossman further points out that the groundwater at current Superfund sites is now contaminated with TCE and TCA as a result of leaks and spills that occurred in the early days of the electronics industry. The fact that several residential areas once drew drinking water from these sites and that vapors may pass upward from soil to air has, says Grossman, affected thousands of people. \n \nIn her review of the available literature on polybrominated diphenyl ethers (PBDEs), Grossman discusses the likely link between human exposure to PBDEs and the high levels of PBDEs in residential dust. Unfortunately, Grossman frequently uses the generic term “PBDEs” rather than specifying which congeners are present in the technical-grade preparation of the PBDEs she discusses. Primarily, technical-grade octabromodiphenyl ether (octaBDE) and decabromodiphenyl ether (decaBDE) are used in the plastic housings of electronics, whereas technical-grade pentabromodiphenyl ether (pentaBDE) is used primarily in polyurethane to manufacture foam and padding materials. The congeners present in the pentaBDE mixture have been shown to accumulate in biological tissues, but the PBDEs in octaBDE and decaBDE have much shorter half-lives in people and are unlikely to biomagnify, although they are detectable in many human tissues. \n \nThe chapters on recycling and on the flow of electronic waste from consumers to landfills and the export of waste to developing countries are well written and detailed. For example, Grossman states that the United States discards enough electronic waste annually to cover a football field a mile high and that of this waste, only 10% is recycled for materials recovery. Most of the waste goes to landfills or to waste incinerators. \n \nGrossman describes the handling of electronic waste that is exported from developed countries into developing countries and the tremendous environmental impact this waste has had in certain countries. For example, in Taizhou in southern China, circuit boards containing lead, flame retardants, and plasticizers are melted for the recovery of metals in uncovered pans only steps away from the workers’ dormitories. In addition, the author offers an interesting description of the different recycling processes used by industrial companies such as Boliden Mineral AB in Sweden and Noranda in the United States. These companies have discovered a “rich ore stream” in the circuit boards they “mine” for metals. \n \nClearly, the increasing tide of electronic waste will be brought under control only if all parties involved (manufacturers, legislators, consumers, and recyclers) implement improvements such as reducing the amount of hazardous materials used in the manufacture of electronic products, producing electronics that are easier to disassemble for recycling, enacting legislation governing the electronics and recycling industries, and ensuring that consumers are informed about the issues associated with the production of electronics and with electronic waste so they can make educated decisions about the issues. Unfortunately, we have just now begun to address these issues, and changes will not be quick or easy."
+  },
+  {
+    "paperId": "7037cf5de1fff0a47fe07577a0df390316fc5b76",
+    "externalIds": {
+      "MAG": "51584777",
+      "DOI": "10.1007/698_2010_97",
+      "CorpusId": 127282474
+    },
+    "url": "https://www.semanticscholar.org/paper/7037cf5de1fff0a47fe07577a0df390316fc5b76",
+    "title": "Human Health Effects of Brominated Flame Retardants",
+    "venue": "",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/698_2010_97?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/698_2010_97, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "10671251",
+        "name": "D. Wikoff"
+      },
+      {
+        "authorId": "5405995",
+        "name": "L. Birnbaum"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "77aaf12729908dad1100212ff622698c43e0ee55",
+    "externalIds": {
+      "MAG": "2019756701",
+      "DOI": "10.1021/es9038648",
+      "CorpusId": 27400185,
+      "PubMed": "20405938"
+    },
+    "url": "https://www.semanticscholar.org/paper/77aaf12729908dad1100212ff622698c43e0ee55",
+    "title": "Identification of hydroxylated octa- and nona-bromodiphenyl ethers in human serum from electronic waste dismantling workers.",
+    "venue": "Environmental Science and Technology",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/es9038648?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/es9038648, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "33007635",
+        "name": "Zhiqiang Yu"
+      },
+      {
+        "authorId": "47422009",
+        "name": "Kewen Zheng"
+      },
+      {
+        "authorId": "15419469",
+        "name": "Guofa Ren"
+      },
+      {
+        "authorId": "2149514350",
+        "name": "Y. Zheng"
+      },
+      {
+        "authorId": "9347591",
+        "name": "Shengtao Ma"
+      },
+      {
+        "authorId": "13317765",
+        "name": "P. Peng"
+      },
+      {
+        "authorId": "123804746",
+        "name": "Ming-hong Wu"
+      },
+      {
+        "authorId": "83701797",
+        "name": "G. Sheng"
+      },
+      {
+        "authorId": "94461808",
+        "name": "Jia-mo Fu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "811bdd5d67657adef3995e9c64105b7cdd1c1f57",
+    "externalIds": {
+      "MAG": "2145355238",
+      "CorpusId": 167657621
+    },
+    "url": "https://www.semanticscholar.org/paper/811bdd5d67657adef3995e9c64105b7cdd1c1f57",
+    "title": "Draft risk management evaluation: octabromodiphenyl ether",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "92881262",
+        "name": "Stockholm Convention"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "86b6934bc6d3ed2d36b4c9efe780452b3ce577b0",
+    "externalIds": {
+      "MAG": "1976961690",
+      "DOI": "10.1021/ES060573X",
+      "CorpusId": 25505186,
+      "PubMed": "16913120"
+    },
+    "url": "https://www.semanticscholar.org/paper/86b6934bc6d3ed2d36b4c9efe780452b3ce577b0",
+    "title": "In vivo and in vitro debromination of decabromodiphenyl ether (BDE 209) by juvenile rainbow trout and common carp.",
+    "venue": "Environmental Science and Technology",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ES060573X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ES060573X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Study"
+    ],
+    "authors": [
+      {
+        "authorId": "6542092",
+        "name": "H. Stapleton"
+      },
+      {
+        "authorId": "50357628",
+        "name": "B. Brazil"
+      },
+      {
+        "authorId": "1395856787",
+        "name": "R. Holbrook"
+      },
+      {
+        "authorId": "3583230",
+        "name": "C. Mitchelmore"
+      },
+      {
+        "authorId": "13451114",
+        "name": "R. Benedict"
+      },
+      {
+        "authorId": "144121131",
+        "name": "A. Konstantinov"
+      },
+      {
+        "authorId": "38326729",
+        "name": "Dave Potter"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "90e75e34eb9b300e45e7f24725a3ab6596718fc9",
+    "externalIds": {
+      "MAG": "431647826",
+      "DOI": "10.1021/acs.est.5b00977",
+      "CorpusId": 24477797,
+      "PubMed": "25985095"
+    },
+    "url": "https://www.semanticscholar.org/paper/90e75e34eb9b300e45e7f24725a3ab6596718fc9",
+    "title": "Gene transcription, metabolite and lipid profiling in eco-indicator daphnia magna indicate diverse mechanisms of toxicity by legacy and emerging flame-retardants.",
+    "venue": "Environmental Science and Technology",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "https://europepmc.org/articles/pmc4835823?pdf=render",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.est.5b00977?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.est.5b00977, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "5896874",
+        "name": "Leona D Scanlan"
+      },
+      {
+        "authorId": "4005709",
+        "name": "A. Loguinov"
+      },
+      {
+        "authorId": "38657449",
+        "name": "Q. Teng"
+      },
+      {
+        "authorId": "3153877",
+        "name": "P. Antczak"
+      },
+      {
+        "authorId": "48609181",
+        "name": "Kathleen P Dailey"
+      },
+      {
+        "authorId": "47507909",
+        "name": "D. T. Nowinski"
+      },
+      {
+        "authorId": "15241350",
+        "name": "Jonah Kornbluh"
+      },
+      {
+        "authorId": "2053757641",
+        "name": "X. Lin"
+      },
+      {
+        "authorId": "13721017",
+        "name": "Erica R Lachenauer"
+      },
+      {
+        "authorId": "40437300",
+        "name": "A. Arai"
+      },
+      {
+        "authorId": "2065956497",
+        "name": "Nora K. Douglas"
+      },
+      {
+        "authorId": "1767971",
+        "name": "F. Falciani"
+      },
+      {
+        "authorId": "6542092",
+        "name": "H. Stapleton"
+      },
+      {
+        "authorId": "145925096",
+        "name": "C. Vulpe"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "93f4e2cc46df11aa75debef357b1ceb88974f35b",
+    "externalIds": {
+      "MAG": "1528352044",
+      "CorpusId": 94529738
+    },
+    "url": "https://www.semanticscholar.org/paper/93f4e2cc46df11aa75debef357b1ceb88974f35b",
+    "title": "Brominated Flame Retardants and their metabolites: Novel insights into endocrine disruptive properties.",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "32200980",
+        "name": "R. F. Cantón"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "96766528267c346541adf67488c4a5af65a0b03b",
+    "externalIds": {
+      "MAG": "2330427055",
+      "DOI": "10.4209/AAQR.2014.14.0002",
+      "CorpusId": 101972049
+    },
+    "url": "https://www.semanticscholar.org/paper/96766528267c346541adf67488c4a5af65a0b03b",
+    "title": "Preface to Special Issue - Observation, Control Technologies and Impact Studies of POPs",
+    "venue": "",
+    "year": 2014,
+    "openAccessPdf": {
+      "url": "https://aaqr.org/articles/aaqr-14-14-oa-0002.pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2014.14.0002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2014.14.0002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "46659416",
+        "name": "Lin-Chi Wang"
+      },
+      {
+        "authorId": "9367570",
+        "name": "K. Chi"
+      }
+    ],
+    "abstract": "ABSTRACTPersistent organic pollutants (POPs) include pesticides which are organochlorine compounds, such as aldrin, chlordane, DDT, dieldrin, endrin, heptachlor, hexachlorobenzene, mirex, alpha and beta hexachlorocyclohexane (also by-products), chlordecone, and lindane. Industrial chemicals such as PCBs, hexachlorobenzene (also a pesticide), hexabromobiphenyl, hexa- and heptabromodiphenyl ether (commercial octabromodiphenyl ether), pentachlorobenzene, perfluorooctane sulfonic acid and its salts perfluorooctane sulfonyl fluoride, tetra- and pentabromodiphenyl ether (commercial pentabromodiphenyl ether), and unintentional by-product compounds, such as polychlorinated dioxins and furans (PCDD/Fs). The international community has repeatedly called for urgent global action to reduce and eventually eliminate the release of these chemicals. However, the emission characteristics, control technologies, atmosphere transport and toxicities of dioxins are not well investigated.\nThis special issue in Aerosol and Air Quality Research features 24 papers submitted by researchers from Australia, Canada, China, Italy, Japan, Malaysia, Norway, Switzerland, Taiwan, Thailand, United Kingdom, USA and Vietnam. In these studies, the characteristics of POPs are investigated in air filters, tree bark, house dust, road dust, ambient air, fugitive nanoparticle, stack flue gas, fly ash, and serum samples."
+  },
+  {
+    "paperId": "9f4f915eb1e43dbe95274977b5a124009d108b44",
+    "externalIds": {
+      "MAG": "2134559707",
+      "DOI": "10.1007/978-90-481-2903-4_1",
+      "CorpusId": 131186032
+    },
+    "url": "https://www.semanticscholar.org/paper/9f4f915eb1e43dbe95274977b5a124009d108b44",
+    "title": "Brominated Flame Retardants in the Environment",
+    "venue": "",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-90-481-2903-4_1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-90-481-2903-4_1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "11409417",
+        "name": "J. Boer"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "a39ddcb6b0b8ca69d4b45472b89a185841ab2e1c",
+    "externalIds": {
+      "MAG": "2290136292",
+      "CorpusId": 59450947
+    },
+    "url": "https://www.semanticscholar.org/paper/a39ddcb6b0b8ca69d4b45472b89a185841ab2e1c",
+    "title": "AIRBORNE POLYBROMINATED DIPHENYL ETHERS IN A COMPUTER CLASSROOM OF COLLEGE IN TAIWAN",
+    "venue": "",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "48445198",
+        "name": "F. Chang"
+      },
+      {
+        "authorId": "2117953296",
+        "name": "C. R. Yang"
+      },
+      {
+        "authorId": "2107232318",
+        "name": "C. Tsai"
+      },
+      {
+        "authorId": "2220036326",
+        "name": "W. C. Lin"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "a56a6569b437a7a9ea1dc450de14a281950d0d32",
+    "externalIds": {
+      "MAG": "2093384835",
+      "DOI": "10.1021/es903023m",
+      "CorpusId": 36806752,
+      "PubMed": "20121183"
+    },
+    "url": "https://www.semanticscholar.org/paper/a56a6569b437a7a9ea1dc450de14a281950d0d32",
+    "title": "Photolytical transformation rates of individual polybrominated diphenyl ethers in technical octabromo diphenyl ether (DE-79).",
+    "venue": "Environmental Science and Technology",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/es903023m?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/es903023m, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "12756272",
+        "name": "Paul Bendig"
+      },
+      {
+        "authorId": "39877983",
+        "name": "W. Vetter"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "a6dfa0678b32ba81a8928ed92abd9ddb0caf3cb9",
+    "externalIds": {
+      "MAG": "1986968472",
+      "DOI": "10.1021/ES071496O",
+      "CorpusId": 39325163,
+      "PubMed": "18044526"
+    },
+    "url": "https://www.semanticscholar.org/paper/a6dfa0678b32ba81a8928ed92abd9ddb0caf3cb9",
+    "title": "Synthesis of octabrominated diphenyl ethers from aminodiphenyl ethers.",
+    "venue": "Environmental Science and Technology",
+    "year": 2007,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ES071496O?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ES071496O, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "15926323",
+        "name": "Daniel Teclechiel"
+      },
+      {
+        "authorId": "37924109",
+        "name": "Anna-Karin Christiansson"
+      },
+      {
+        "authorId": "51915775",
+        "name": "A. Bergman"
+      },
+      {
+        "authorId": "2362616",
+        "name": "G. Marsh"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "aceb72b9d295d111a31cb77bb95839c51152aea7",
+    "externalIds": {
+      "MAG": "2328998688",
+      "DOI": "10.1021/CEN-V087N020.P009A",
+      "CorpusId": 111431153
+    },
+    "url": "https://www.semanticscholar.org/paper/aceb72b9d295d111a31cb77bb95839c51152aea7",
+    "title": "PERSISTENT ORGANIC POLLUTANTS: Treaty now includes PFOS and brominated flame retardants",
+    "venue": "",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/CEN-V087N020.P009A?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/CEN-V087N020.P009A, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "73639295",
+        "name": "C. Hogue"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "b1a098eed36a1b0a6255a920f4867debdcc5365d",
+    "externalIds": {
+      "MAG": "82240815",
+      "DOI": "10.2478/S13382-012-0055-1",
+      "CorpusId": 11135654,
+      "PubMed": "23086635"
+    },
+    "url": "https://www.semanticscholar.org/paper/b1a098eed36a1b0a6255a920f4867debdcc5365d",
+    "title": "Octabromodiphenyl ether — porphyrogenicity after repeated administration to rats",
+    "venue": "International Journal of Occupational Medicine and Environmental Health",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "http://ijomeh.eu/pdf-2232-2162?filename=Octabromodiphenyl ether _.pdf",
+      "status": "GOLD",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.2478/S13382-012-0055-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2478/S13382-012-0055-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "10340192",
+        "name": "E. Bruchajzer"
+      },
+      {
+        "authorId": "5628851",
+        "name": "B. Frydrych"
+      },
+      {
+        "authorId": "40436436",
+        "name": "J. Szymańska"
+      }
+    ],
+    "abstract": "ObjectivesOctabromodiphenyl ether (OctaBDE) is a flame retardant which has been withdrawn from common use due to its negative effect on the environment. The literature data regarding its toxicity addresses its effect on liver function, the endocrine and reproductive systems, as well as its developmental toxicology aspects. The aim of this study was to investigate the effect of repeated administration of OctaBDE on heme biosynthesis in rats.Materials and MethodsThe study was performed on female Wistar rats. OctaBDE was administered intragastrically at four different doses (2, 8, 40 or 200 mg/kg/day) for 7, 14, 21 or 28 days. The following measures of heme synthesis disturbance were used: urinary excretion of porphyrins, liver concentration of porphyrins, the activity of delta-aminolevulinate synthase (ALA-S) and delta-aminolevulinate dehydratase (ALA-D) in the liver.ResultsAfter 28 days of exposure, lower ALA-S and ALA-D activity was observed in the liver. Additionally, increased concentrations of high carboxylated porphyrins (octa- and heptacarboxyporphyrins) were found in the liver: from 2- to 10-fold after the 2 mg/kg/day doses and from 4- to 14-fold after the 8-200 mg/kg/day doses. The porphyrogenic effect of OctaBDE was also evidenced by augmented, dose-dependent and exposure time-dependent, concentrations of total porphyrins in urine (2–7.5-fold increase) and their urinary excretion (2-9-fold increase). Tetracarboxyporphyrins predominated in the urine; their concentrations increased 2.5–10 fold. Conclusions: The study revealed that repeated exposure to OctaBDE affects heme biosynthesis and the levels of porphyrins. The lowest effective level which induced changes in porphyrin concentration was 2 mg/kg/day."
+  },
+  {
+    "paperId": "bb9f45b748435d5243b0b0acfc9c7ea9ae77fa7a",
+    "externalIds": {
+      "MAG": "2772009003",
+      "CorpusId": 103435244
+    },
+    "url": "https://www.semanticscholar.org/paper/bb9f45b748435d5243b0b0acfc9c7ea9ae77fa7a",
+    "title": "Process for the preparation of derivatives of brominated diphenyl ether",
+    "venue": "",
+    "year": 1985,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "91260586",
+        "name": "Robert Decaudin"
+      },
+      {
+        "authorId": "47530963",
+        "name": "B. Gurtner"
+      },
+      {
+        "authorId": "91472948",
+        "name": "Andre Gagnieur"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "bde126c4ddfa5434bd1612fb8c6d1c61bad12178",
+    "externalIds": {
+      "MAG": "2521847635",
+      "DOI": "10.1021/CEN-V081N045.P013A",
+      "CorpusId": 114452396
+    },
+    "url": "https://www.semanticscholar.org/paper/bde126c4ddfa5434bd1612fb8c6d1c61bad12178",
+    "title": "Great Lakes To Phase Out Flame Retardants",
+    "venue": "",
+    "year": 2003,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/CEN-V081N045.P013A?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/CEN-V081N045.P013A, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "73393099",
+        "name": "A. Tullo"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "c0a301702bcb351dfdda2856f8d67bdca993e15d",
+    "externalIds": {
+      "DOI": "10.1007/s11356-022-20046-y",
+      "CorpusId": 247975559,
+      "PubMed": "35384541"
+    },
+    "url": "https://www.semanticscholar.org/paper/c0a301702bcb351dfdda2856f8d67bdca993e15d",
+    "title": "Removal of polybrominated diphenyl ethers in high impact polystyrene (HIPS) from waste TV sets",
+    "venue": "Environmental science and pollution research international",
+    "year": 2022,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11356-022-20046-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11356-022-20046-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "3377529",
+        "name": "Xinran Guo"
+      },
+      {
+        "authorId": "94193290",
+        "name": "Shaohong Peng"
+      },
+      {
+        "authorId": "9372054",
+        "name": "Liwang Jiang"
+      },
+      {
+        "authorId": "2161503385",
+        "name": "Xiaoning Mo"
+      },
+      {
+        "authorId": "6878387",
+        "name": "Yunhong Zhu"
+      },
+      {
+        "authorId": "2152803129",
+        "name": "Yang Liu"
+      },
+      {
+        "authorId": "1433006439",
+        "name": "Kaihan Cai"
+      },
+      {
+        "authorId": "6909705",
+        "name": "Qingbin Song"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "c274eb0a55947e2589da2fdbbb64773f16fc508f",
+    "externalIds": {
+      "MAG": "2166703134",
+      "DOI": "10.1897/03-03",
+      "CorpusId": 5654007,
+      "PubMed": "15285359"
+    },
+    "url": "https://www.semanticscholar.org/paper/c274eb0a55947e2589da2fdbbb64773f16fc508f",
+    "title": "A comparison of the fish bioconcentration factors for brominated flame retardants with their nonbrominated analogues",
+    "venue": "Environmental Toxicology and Chemistry",
+    "year": 2004,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1897/03-03?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1897/03-03, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Study"
+    ],
+    "authors": [
+      {
+        "authorId": "5154812",
+        "name": "M. Hardy"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "c3e9afcf8160b3147e9a29551c21d1ff0bb11c43",
+    "externalIds": {
+      "MAG": "2123424849",
+      "DOI": "10.3121/CMR.1.4.281",
+      "CorpusId": 24203303,
+      "PubMed": "15931321"
+    },
+    "url": "https://www.semanticscholar.org/paper/c3e9afcf8160b3147e9a29551c21d1ff0bb11c43",
+    "title": "Polybrominated diphenyl ethers (PBDEs): new pollutants-old diseases.",
+    "venue": "Clinical Medicine Research",
+    "year": 2003,
+    "openAccessPdf": {
+      "url": "http://www.clinmedres.org/content/1/4/281.full.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3121/CMR.1.4.281?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3121/CMR.1.4.281, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review",
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "145097655",
+        "name": "M. Siddiqi"
+      },
+      {
+        "authorId": "4866311",
+        "name": "R. Laessig"
+      },
+      {
+        "authorId": "144688169",
+        "name": "K. Reed"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "c923ebd3cf13f0647fbc63dec878e013435599ba",
+    "externalIds": {
+      "MAG": "2187638473",
+      "CorpusId": 111037990
+    },
+    "url": "https://www.semanticscholar.org/paper/c923ebd3cf13f0647fbc63dec878e013435599ba",
+    "title": "Draft Risk Management Evaluation for Commercial octabromodiphenyl ether Note: In accordance with the procedure laid down in Article 8 of the Stockholm Convention, this draft was prepared by the Persistent Organic Review Committee (POPRC) during its intersessional work.",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "104623039",
+        "name": "A. Cueva"
+      },
+      {
+        "authorId": "105063135",
+        "name": "Mohammed Khashashneh"
+      },
+      {
+        "authorId": "14107077",
+        "name": "J. Tarazona"
+      },
+      {
+        "authorId": "97612114",
+        "name": "B. Wahlström"
+      },
+      {
+        "authorId": "4064232",
+        "name": "M. Guil"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "c97b12d7ebe8291de87449d7f38a98bf1e44d5ed",
+    "externalIds": {
+      "MAG": "2007621324",
+      "DOI": "10.1021/es404969e",
+      "CorpusId": 26222519,
+      "PubMed": "24559155"
+    },
+    "url": "https://www.semanticscholar.org/paper/c97b12d7ebe8291de87449d7f38a98bf1e44d5ed",
+    "title": "Novel octabrominated phenolic diphenyl ether identified in blue mussels from the Swedish West Coast.",
+    "venue": "Environmental Science and Technology",
+    "year": 2014,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/es404969e?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/es404969e, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "4182644",
+        "name": "Ulrika Winnberg"
+      },
+      {
+        "authorId": "38001380",
+        "name": "Andreas Rydén"
+      },
+      {
+        "authorId": "13249691",
+        "name": "Karin Löfstrand"
+      },
+      {
+        "authorId": "34282535",
+        "name": "L. Asplund"
+      },
+      {
+        "authorId": "4833469",
+        "name": "A. Bignert"
+      },
+      {
+        "authorId": "2362616",
+        "name": "G. Marsh"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "da41c51015222c9bfbf1dd53526a57c9448b3b57",
+    "externalIds": {
+      "CorpusId": 53477632
+    },
+    "url": "https://www.semanticscholar.org/paper/da41c51015222c9bfbf1dd53526a57c9448b3b57",
+    "title": "Gheorghe Asachi ” Technical University of Iasi , Romania P 42 HORMONAL ACTIVITIES OF NOVEL BROMINATED FLAME RETARDANTS AND THEIR BIODEGRADATION BY WHITE ROT FUNGI",
+    "venue": "",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "13752890",
+        "name": "M. Ezechiáš"
+      },
+      {
+        "authorId": "3545842",
+        "name": "K. Svobodová"
+      },
+      {
+        "authorId": "4117136",
+        "name": "T. Cajthaml"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "e722a36b2f3927b1009e08c2a2ffc8cde6bad331",
+    "externalIds": {
+      "MAG": "2104125840",
+      "DOI": "10.1093/TOXSCI/KFJ196",
+      "CorpusId": 2353632,
+      "PubMed": "16611620"
+    },
+    "url": "https://www.semanticscholar.org/paper/e722a36b2f3927b1009e08c2a2ffc8cde6bad331",
+    "title": "Neonatal exposure to higher brominated diphenyl ethers, hepta-, octa-, or nonabromodiphenyl ether, impairs spontaneous behavior and learning and memory functions of adult mice.",
+    "venue": "Toxicological Sciences",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/toxsci/article-pdf/92/1/211/10955330/kfj196.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/TOXSCI/KFJ196?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/TOXSCI/KFJ196, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "5295905",
+        "name": "H. Viberg"
+      },
+      {
+        "authorId": "48951810",
+        "name": "N. Johansson"
+      },
+      {
+        "authorId": "101896264",
+        "name": "A. Fredriksson"
+      },
+      {
+        "authorId": "2086426646",
+        "name": "J. Eriksson"
+      },
+      {
+        "authorId": "2362616",
+        "name": "G. Marsh"
+      },
+      {
+        "authorId": "2068238134",
+        "name": "P. Eriksson"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "e950c21286c823f50a2b52851c6f2b754f9f99de",
+    "externalIds": {
+      "MAG": "2329030489",
+      "DOI": "10.2116/BUNSEKIKAGAKU.60.171",
+      "CorpusId": 100638787
+    },
+    "url": "https://www.semanticscholar.org/paper/e950c21286c823f50a2b52851c6f2b754f9f99de",
+    "title": "Analysis of Structurally Analogous Polybrominated Flame Retardants by Derivative Spectrum Chromatogram Method",
+    "venue": "",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "https://www.jstage.jst.go.jp/article/bunsekikagaku/60/2/60_2_171/_pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.2116/BUNSEKIKAGAKU.60.171?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.2116/BUNSEKIKAGAKU.60.171, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "120864629",
+        "name": "Kazuhisa Uchiyama"
+      },
+      {
+        "authorId": "47454019",
+        "name": "M. Kondô"
+      },
+      {
+        "authorId": "32136390",
+        "name": "R. Yokochi"
+      },
+      {
+        "authorId": "2110351649",
+        "name": "Hiroshi Ito"
+      },
+      {
+        "authorId": "27126064",
+        "name": "I. Tajima"
+      },
+      {
+        "authorId": "87155497",
+        "name": "Miyuki Tonegawa"
+      },
+      {
+        "authorId": "93941226",
+        "name": "Yoshiharu Namegaya"
+      },
+      {
+        "authorId": "2114708140",
+        "name": "A. Yamamoto"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "ebcb1ffe1b67b6306201b5f3e8efce524fe450b3",
+    "externalIds": {
+      "MAG": "2375418550",
+      "CorpusId": 202082268
+    },
+    "url": "https://www.semanticscholar.org/paper/ebcb1ffe1b67b6306201b5f3e8efce524fe450b3",
+    "title": "STUDY ON PYROLYSIS KINETICS OF TV HOUSINGS",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "9362205",
+        "name": "Huang Hua-jie"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "f63b35ee3fc53d45b971755795ddccec36589565",
+    "externalIds": {
+      "MAG": "1563163245",
+      "DOI": "10.1002/jat.2809",
+      "CorpusId": 25156813,
+      "PubMed": "22972382"
+    },
+    "url": "https://www.semanticscholar.org/paper/f63b35ee3fc53d45b971755795ddccec36589565",
+    "title": "Brominated flame retardants stimulate mouse immune cells in vitro",
+    "venue": "Journal of Applied Toxicology",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/jat.2809?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/jat.2809, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "4149319",
+        "name": "E. Koike"
+      },
+      {
+        "authorId": "6753772",
+        "name": "R. Yanagisawa"
+      },
+      {
+        "authorId": "5391868",
+        "name": "H. Takigami"
+      },
+      {
+        "authorId": "26944388",
+        "name": "H. Takano"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "fa0491d2c27889d0efcf7e505de69c8fd883e721",
+    "externalIds": {
+      "MAG": "2461251595",
+      "CorpusId": 132231649
+    },
+    "url": "https://www.semanticscholar.org/paper/fa0491d2c27889d0efcf7e505de69c8fd883e721",
+    "title": "Polybrominated Diphenyl Ethers (PBDEs) Action Plan",
+    "venue": "",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "52270033",
+        "name": "I. Overview"
+      }
+    ],
+    "abstract": null
+  }
+]

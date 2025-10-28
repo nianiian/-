@@ -1,0 +1,764 @@
+[
+  {
+    "title": "Mechanochemical Degradation of Poly(vinyl chloride) into Nontoxic Water‐Soluble Products via Sequential Dechlorination, Heterolytic Oxirane Ring‐Opening, and Hydrolysis",
+    "doi": "10.1002/adma.202304113",
+    "year": 2023,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses a mechanochemical degradation process that transforms poly(vinyl chloride) (PVC) into water-soluble biocompatible products, highlighting its low cytotoxicity and phytotoxicity. This indicates a safety advantage over traditional PVC disposal methods, which generate toxic byproducts, thus presenting a safer alternative to vinyl chloride.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the toxicity of hydrogen chloride and dioxins generated during the end-of-life treatment of PVC, but does not explicitly state harms or hazards associated with vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "An Internal Reference Technique for Accurately Quantifying Specific mRNAs by Real-Time PCR with Application to the tceA Reductive Dehalogenase Gene",
+    "doi": "10.1128/AEM.71.7.3866-3871.2005",
+    "year": 2005,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that exposure to TCE or cis-1,2-dichloroethene resulted in significantly higher quantities of tceA mRNA compared to exposure to vinyl chloride. This suggests that TCE and cis-1,2-dichloroethene may be safer alternatives in the context of mRNA expression related to dehalogenation processes, as they lead to a more favorable biological response.",
+    "alternatives": "trichloroethylene (TCE); cis-1,2-dichloroethene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It only mentions that exposure to vinyl chloride results in lower quantities of tceA mRNA compared to other chlorinated ethenes, without specifying any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Graft-modified HCPE with methyl methacrylate by the mechanochemistry reaction. II. Physical-mechanical properties and processability",
+    "doi": "10.1002/APP.13166",
+    "year": 2004,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares the HCPE-g-MMA system to PVC and CPVC, noting that it has superior processability and lacks a toxic monomer, which implies a safety advantage. Since PVC and CPVC are related to vinyl chloride polymers, the HCPE-g-MMA system is presented as a safer alternative to vinyl chloride-based materials.",
+    "alternatives": "HCPE-g-MMA",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It only compares physical-mechanical properties and mentions the lack of a toxic monomer in the HCPE-g-MMA system, without specifying any toxicity or hazards of vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Estimation of environmental impacts of wood plastic composites (WPC)",
+    "doi": "10.58837/chula.the.2006.1630",
+    "year": "",
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares the environmental impacts of wood-plastic composites based on poly (vinyl chloride) (PVC) and polypropylene (PP). It explicitly states that the environmental impacts of WPC-PVC are approximately 1.3 times higher than those of WPC-PP, indicating that WPC-PP is a safer alternative due to its lower environmental impact.",
+    "alternatives": "polypropylene (PP)",
+    "target_chemical_harm": {
+      "harms": [
+        "acidification",
+        "heavy metals",
+        "respiration of inorganic substances"
+      ],
+      "rationale": "The reasoning text explicitly states that the environmental impacts caused by poly (vinyl chloride) include acidification, heavy metals, and respiration of inorganic substances."
+    },
+    "CHEMICAL HARM": "acidification, heavy metals, respiration of inorganic substances"
+  },
+  {
+    "title": "Mutagenecity of vinyl chloride, vinylidene chloride and chloroprene in V79 Chinese hamster cells",
+    "doi": "10.1016/0165-1218(79)90129-0",
+    "year": 1979,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares vinyl chloride with vinylidene chloride and chloroprene, noting that vinyl chloride induced mutations while the other two compounds did not show mutagenicity under the assay conditions. This suggests that vinylidene chloride and chloroprene may have a safety advantage in terms of mutagenicity compared to vinyl chloride.",
+    "alternatives": "vinylidene chloride; chloroprene",
+    "target_chemical_harm": {
+      "harms": [
+        "mutagenicity",
+        "carcinogenicity"
+      ],
+      "rationale": "The text explicitly states that vinyl chloride induced mutations in V79 Chinese hamster cells in a dose-related fashion, indicating mutagenicity. It also mentions a correlation with carcinogenicity in humans and experimental animals."
+    },
+    "CHEMICAL HARM": "mutagenicity, carcinogenicity"
+  },
+  {
+    "title": "Quantitative Evaluation of Bacillus Cereus Spore Attachment to the Surface of Disposable Medical Gloves Made from Various Materials",
+    "doi": "10.4058/JSEI.35.198",
+    "year": 2020,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that nitrile rubber gloves had significantly lower attachment of Bacillus cereus spores compared to vinyl chloride gloves, suggesting that nitrile rubber is a safer alternative for medical use due to reduced contamination risk.",
+    "alternatives": "nitrile rubber",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the attachment behavior of B. cereus spores to gloves made from various materials, including vinyl chloride plastic, but does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Stability study of docetaxel solution (0.9%, saline) using Non-PVC and PVC tubes for intravenous administration",
+    "doi": "10.1186/s40824-014-0023-x",
+    "year": 2015,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of non-PVC tubes as an alternative to PVC tubes containing DEHP, highlighting that the docetaxel solution had better stability when circulated through non-PVC tubes. This implies a safety advantage over PVC due to the absence of DEHP, which is known to have disadvantages. Therefore, non-PVC tubes can be interpreted as a safer alternative to vinyl chloride in this context.",
+    "alternatives": "non-PVC",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the disadvantages of DEHP released from PVC tubes and its interaction with anticancer drug solutions, but it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The composition of poly(vinyl chloride) with polylactide/poly(butylene terephthalate-co-butylene sebacate) and its biodegradation by Phanerochaete chrysosporium",
+    "doi": "10.1016/j.ibiod.2020.105153",
+    "year": 2021,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the modification of poly(vinyl chloride) (PVC) with a polyester binary blend composed of recycled polylactide/poly(butylene terephthalate-co-butylene sebacate) (rPLA/PBTSe). It highlights that this blend reduces the leaching of bis(2-ethylhexyl) phthalate (DEHP) into the environment, which suggests a safety advantage over traditional PVC, indicating that rPLA/PBTSe could be a safer alternative.",
+    "alternatives": "polylactide; poly(butylene terephthalate-co-butylene sebacate)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the migration of plasticisers from PVC into the environment and the modification of PVC to reduce this migration, but it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Occupational allergic contact dermatitis from bisphenol A in vinyl gloves",
+    "doi": "10.1111/j.0105-1873.2003.0241.x",
+    "year": 2003,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract reports that replacing high-density vinyl (HDV) gloves containing bisphenol A with nitrile rubber gloves resulted in complete clearance of hand dermatitis, indicating a safety advantage. This suggests nitrile rubber gloves are a safer alternative to vinyl gloves in terms of occupational allergic contact dermatitis.",
+    "alternatives": "nitrile rubber",
+    "target_chemical_harm": {
+      "harms": [
+        "allergic contact dermatitis"
+      ],
+      "rationale": "The reasoning text explicitly states that allergic contact dermatitis occurred in a patient after using high-density vinyl gloves, with bisphenol A identified as the responsible sensitizer."
+    },
+    "CHEMICAL HARM": "allergic contact dermatitis"
+  },
+  {
+    "title": "Characterization and thermal stability of poly(vinyl chloride) plasticized with epoxidized soybean oil for food packaging.",
+    "doi": "10.1016/J.POLYMDEGRADSTAB.2010.01.027",
+    "year": 2010,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract explicitly mentions that phthalates, which are commonly used in PVC formulations, can be replaced by epoxidized soybean oil (ESBO), described as harmless and environmentally friendly. This indicates that ESBO is presented as a safer alternative to the conventional plasticizers used in vinyl chloride formulations.",
+    "alternatives": "epoxidized soybean oil (ESBO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the potential toxicity of phthalates used in PVC formulations and the use of ESBO as a safer alternative. However, it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evaluation of Antithrombogenic Thermodilution Catheter",
+    "doi": "10.1177/088532828900400102",
+    "year": 1989,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares Anthron-coated thermodilution catheters to poly(vinyl chloride) catheters and shows that Anthron-coated catheters prevent thrombus formation and maintain function better, indicating improved safety in use. This suggests Anthron coating is a safer alternative to vinyl chloride catheters in terms of antithrombogenicity and catheter performance.",
+    "alternatives": "Anthron",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the use of poly(vinyl chloride) thermodilution catheters and compares them to Anthron-coated catheters in terms of thrombus formation and sensing function. It does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Utilizing a blend of expandable graphite and calcium/zinc stearate as a heat stabilizer environmentally friendly for polyvinyl chloride",
+    "doi": "10.1002/pls2.10109",
+    "year": 2023,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract presents a blend of calcium/zinc stearate and expandable graphite as heat stabilizers for PVC, emphasizing their nontoxic and environmentally friendly nature compared to traditional toxic stabilizers. It explicitly states that these additives are safe and eco-friendly, implying a safety advantage over conventional toxic stabilizers used with PVC (which includes vinyl chloride products). Therefore, it clearly indicates a safer alternative to vinyl chloride stabilizers.",
+    "alternatives": "calcium stearate; zinc stearate; expandable graphite",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with vinyl chloride itself. It discusses the toxicity of heat stabilizers used in PVC processing, but does not mention harms directly related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Studies on the stabilization of poly(vinyl chloride) with a stabilizer containing nitrate compounds",
+    "doi": "10.1016/0165-2370(89)80016-6",
+    "year": 1989,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that 'Dynamic', a new stabilizer for poly(vinyl chloride), is less toxic compared to widely used stabilizers based on lead salts. This suggests a safety advantage, which can be interpreted as a safer alternative to vinyl chloride in its stabilization context.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses stabilizers for poly(vinyl chloride) and compares their toxicity, stating that the new stabilizer 'Dynamic' is less toxic than lead salt stabilizers. However, it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis, performance evaluation, and plasticization dynamics of biobased vanillic acid plasticizer for poly(vinyl chloride)",
+    "doi": "10.1016/j.cej.2024.154991",
+    "year": 2024,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract presents vanillic acid ester derivatives (VAE) as a sustainable and low-risk alternative to phthalate-based plasticizers, which are commonly used with poly(vinyl chloride). It highlights that VAE is harmless to rats even at high doses, indicating a safety advantage over traditional plasticizers, thus suggesting it is a safer alternative to vinyl chloride.",
+    "alternatives": "vanillic acid ester derivatives (VAE)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on plasticizers for PVC and their properties, without mentioning toxicity or hazards of vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Aqueous leaching of di-2-ethylhexyl phthalate and \"green\" plasticizers from poly(vinyl chloride).",
+    "doi": "10.1016/j.scitotenv.2012.06.014",
+    "year": 2012,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses several 'green' plasticizers that were found to minimize aqueous leaching rates to levels ten times below that of di-2-ethylhexyl phthalate (DEHP), which is a standard PVC plasticizer. This indicates that these alternatives, such as dioctyl succinate (DOS) and Hexamoll® DINCH, are safer in terms of leaching compared to DEHP, which can be interpreted as a safer alternative to vinyl chloride plasticizers.",
+    "alternatives": "dioctyl succinate (DOS); Hexamoll® DINCH",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses methods to assess leaching of plasticizers from PVC and compares different plasticizers, but it does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Hydrogeological investigations in preparation of an in situ bioremediation strategy based on a novel bacterial desulfitobacterium dichloroeliminans strain DCAl",
+    "doi": "10.15626/eco-tech.2005.042",
+    "year": 2020,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract describes a novel bacterial strain, Desulfitobacterium dichloroeliminans strain DCAI, that degrades 1,2-dichloroethane to ethene without producing toxic vinyl chloride. This indicates a safer alternative bioremediation method that avoids the formation of vinyl chloride, a toxic compound, thus presenting a safety advantage related to vinyl chloride contamination.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that 1,2-dichloroethane (1,2-DCA) has a putative carcinogenic effect and that the bacterial strain degrades 1,2-DCA to ethene without producing toxic vinyl chloride. However, no explicit harms or hazards related to vinyl chloride itself are stated in the text."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Characterization of alternative plasticizers in poly(vinyl chloride) sheets for blood containers",
+    "doi": "10.1002/vnl.21472",
+    "year": 2016,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the optimization of DOTH and DINCH as plasticizers in PVC sheets and evaluates the biological safety of DOTH, indicating that it does not show adverse effects on organs. While it does not explicitly compare DOTH to vinyl chloride, it suggests that DOTH/DINCH is a promising candidate for replacement in blood containers, implying a safer alternative in a similar context.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the evaluation of plasticizers for PVC sheets and mentions toxicity testing of DOTH, but does not provide any information on harms associated with vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Nonmigratory internal plasticization of poly(vinyl chloride) via pendant triazoles bearing alkyl or polyether esters",
+    "doi": "10.1002/POLA.29205",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the development of non-migratory internal plasticizers based on triazole-phthalate mimics, which are presented as less toxic alternatives to traditional phthalates used in PVC. While it does not explicitly state that these alternatives are safer than vinyl chloride, it implies a safety advantage by addressing the negative effects of phthalates, which are commonly associated with PVC. Therefore, it can be interpreted that these new plasticizers are a safer alternative in the context of PVC applications.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the properties and modifications of PVC and phthalate plasticizers, including their endocrine-disrupting effects, but does not explicitly state any harms or hazards specifically associated with vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Experiments on MIC of Steel and FRP Downhole Tubulars in West Kuwait Brines",
+    "doi": "10.5006/c2007-07113",
+    "year": 2007,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that vinyl ester and epoxy-based FRP materials showed no evidence of attack by microorganisms, suggesting they are more resistant to corrosion compared to the tested steels and potentially safer alternatives to vinyl chloride in the context of microbial induced corrosion (MIC).",
+    "alternatives": "vinyl ester; epoxy",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses corrosion resistance of various materials in high salinity water and microbial attack on materials, but does not mention toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards of vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis of a bio‐based plasticizer from vanillic acid and its effects on poly(vinyl chloride)",
+    "doi": "10.1002/app.53288",
+    "year": 2022,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses a new bio-based plasticizer, VA8-8, derived from vanillic acid, which is evaluated as a replacement for dioctyl phthalate (DOP) in poly(vinyl chloride) (PVC). While it does not explicitly compare VA8-8 to vinyl chloride, it implies a safer alternative in the context of plasticizers used with PVC, suggesting improved thermal stability and migration resistance, which can be interpreted as safety advantages.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the preparation and evaluation of a new plasticizer for PVC and does not mention toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards associated with vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Inhalation toxicity of vinyl chloride and Vinylidene chloride*",
+    "doi": "10.1289/EHP.772125",
+    "year": 1977,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares the effects of vinyl chloride (VC) and vinylidene chloride (VDC) on mice and rats. It indicates that VDC exposure did not lead to the development of mammary gland tumors, which were prevalent with VC exposure, suggesting a safety advantage of VDC over VC. Therefore, VDC can be interpreted as a safer alternative to vinyl chloride.",
+    "alternatives": "vinylidene chloride",
+    "target_chemical_harm": {
+      "harms": [
+        "acute deaths",
+        "toxic hepatitis",
+        "tubular necrosis of the renal cortex",
+        "lethargy",
+        "weight loss",
+        "elevated pulmonary macrophage count",
+        "bronchiolo-alveolar adenoma",
+        "mammary gland tumors including ductular adenocarcinoma",
+        "squamous and anaplastic cell carcinomas with metastasis to the lung",
+        "hemangiosarcoma in the liver and other organs",
+        "malignant lymphoma",
+        "depressed body weight",
+        "inflammatory, degenerative, and mitotic changes in the liver"
+      ],
+      "rationale": "The reasoning text explicitly states multiple toxic effects and tumor formations in mice and rats exposed to vinyl chloride, including acute deaths, organ-specific toxicities (liver, kidney), various tumors, weight loss, and immune cell changes, all directly linked to vinyl chloride exposure."
+    },
+    "CHEMICAL HARM": "acute deaths, toxic hepatitis, tubular necrosis of the renal cortex, lethargy, weight loss, elevated pulmonary macrophage count, bronchiolo-alveolar adenoma, mammary gland tumors including ductular adenocarcinoma, squamous and anaplastic cell carcinomas with metastasis to the lung, hemangiosarcoma in the liver and other organs, malignant lymphoma, depressed body weight, inflammatory, degenerative, and mitotic changes in the liver"
+  },
+  {
+    "title": "Polyolefins for the 21st century",
+    "doi": "10.3144/EXPRESSPOLYMLETT.2011.91",
+    "year": 2011,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract mentions the substitution of plasticized poly(vinyl chloride) (PVC) by advanced super-soft polypropylene (PP) grades for medical applications, indicating that PP is presented as a safer alternative to PVC, which is related to vinyl chloride. This suggests a clear safety advantage in the context of medical applications.",
+    "alternatives": "polypropylene (PP)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses plastics and polyolefins broadly, including issues like endocrine disruptors in general, but does not specifically mention vinyl chloride or its associated hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Uptake and Effects of Nanoplastics on the Dinoflagellate Gymnodinium corollarium",
+    "doi": "10.1002/etc.5604",
+    "year": 2023,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares the toxicity of various plastic nanoparticles including poly(vinyl chloride) and poly(methyl methacrylate). It explicitly states that the introduction of a methyl group in poly(methyl methacrylate) causes a drastic reduction in toxicity, indicating a safety advantage. This suggests poly(methyl methacrylate) nanoparticles are safer than vinyl chloride nanoparticles.",
+    "alternatives": "poly(methyl methacrylate)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to unicellular organisms",
+        "increase in reactive oxygen species in dinoflagellate cells"
+      ],
+      "rationale": "The text explicitly states that plastic nanoparticles, including poly(vinyl chloride) NPs, have toxic effects on unicellular organisms such as dinoflagellates. It also mentions a dose-dependent increase in reactive oxygen species in these cells caused by nanoplastics, indicating cellular stress or damage."
+    },
+    "CHEMICAL HARM": "toxicity to unicellular organisms, increase in reactive oxygen species in dinoflagellate cells"
+  },
+  {
+    "title": "TECNOLOGIAS PARA A PRODUÇÃO E PURIFICAÇÃO DO PVC PRODUCTION AND PURIFICATION PVC TECHNOLOGIES",
+    "doi": "10.5335/CIATEC.V5I1.3119",
+    "year": 2013,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses techniques for reducing the vinyl chloride monomer (VCM) content in PVC, indicating that the new compounds generated must be nontoxic or less volatile than VCM. This implies a safer alternative to vinyl chloride, as it suggests the development of substances that are less harmful.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [
+        "cancer causing agent"
+      ],
+      "rationale": "The reasoning text explicitly states that vinyl chloride is a cancer causing agent. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "cancer causing agent"
+  },
+  {
+    "title": "Nitrogen-doped Carbon Derived from ZIF-8 as a High-performance Metal-free Catalyst for Acetylene Hydrochlorination",
+    "doi": "10.1038/srep39789",
+    "year": 2017,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the development of a nonmercury catalyst derived from ZIF-8, which is presented as a safer alternative to the mercury(II) chloride catalyst used in the acetylene hydrochlorination process. While it does not explicitly compare safety to vinyl chloride, the context implies a safer option in the conventional process of vinyl chloride production.",
+    "alternatives": "nonmercury catalyst derived from ZIF-8",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the industrial production of vinyl chloride monomer and catalyst development but does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative mammalian metabolism of vinyl chloride and vinylidene chloride in relation to oncogenic potential.",
+    "doi": "10.1289/EHP.772155",
+    "year": 1977,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares vinyl chloride with vinylidene chloride and states that vinylidene chloride has a lower oncogenic potential and is likely to be damaging only under special circumstances, suggesting a safety advantage. This indicates vinylidene chloride as a safer alternative to vinyl chloride.",
+    "alternatives": "vinylidene chloride",
+    "target_chemical_harm": {
+      "harms": [
+        "oncogenic properties"
+      ],
+      "rationale": "The reasoning text explicitly mentions the oncogenic properties associated with vinyl chloride due to its metabolites interacting with DNA. No other explicit harms or hazards are stated."
+    },
+    "CHEMICAL HARM": "oncogenic properties"
+  },
+  {
+    "title": "Residual ethylene oxide: levels in medical grade tubing and effects on an in vitro biologic system.",
+    "doi": "10.1002/JBM.820090304",
+    "year": 1975,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that silicone tubing absorbs significantly less ethylene oxide compared to poly(vinylchloride) and polyether–polyurethane tubing, suggesting a safety advantage in terms of lower residual toxicity. This implies that silicone tubing could be considered a safer alternative to vinyl chloride in the context of residual ethylene oxide exposure.",
+    "alternatives": "silicone",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses toxicity related to residual ethylene oxide in various tubing materials, including poly(vinylchloride), but does not explicitly state any harms or hazards specifically associated with vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Thiophene diester amine as a novel solid plasticizer for poly(vinyl chloride)",
+    "doi": "10.1016/J.MATPR.2018.06.008",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the replacement of carcinogenic phthalates, specifically dioctyl phthalate (DOP), with a novel plasticizer, thiophene diester amine (THP). While it does not explicitly compare the safety of THP to vinyl chloride, it implies that THP is a safer alternative to phthalates used in PVC applications, which can be interpreted as a safer alternative in the context of PVC plasticization.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses the use of plasticizers in PVC and mentions the carcinogenic nature of some phthalates, but does not mention any explicit harms or hazards of vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A Comprehensive Life-Cycle Assessment of Locally Oriented Small-Scale Toy Industries: A Study of traditional Channapatna Toys as Against Low-cost PVC (Poly-Vinyl Chloride) Toys Made in China",
+    "doi": "10.1016/J.PROCIR.2017.12.164",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract explicitly states that Channapatna toys are 'less toxic' and have 'minimum environmental impacts' compared to PVC toys, indicating that they are a safer alternative to vinyl chloride. This comparison highlights the safety advantages of Channapatna toys over PVC.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It only compares the environmental impacts of PVC toys to wooden toys, mentioning that PVC toys are more toxic, but does not specify the types of toxicity or hazards associated with vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Natural fiber reinforced poly(vinyl chloride) composites: A review",
+    "doi": "10.1177/0731684412458553",
+    "year": 2013,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses natural fiber reinforced plastics composites as an alternative to conventional plastics, including polyvinyl chloride. It highlights the biodegradability and recyclability of natural fibers, which can be interpreted as safety advantages compared to vinyl chloride, suggesting a safer alternative.",
+    "alternatives": "natural fibers",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the use of natural fibers and polyvinyl chloride composites, their properties, and applications without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Self-Plasticized PVC Prepared by Introducing Fatty Acid to the PVC with Triglycidyl Isocyanurate as an Intermediate Bridge",
+    "doi": "10.1021/acsomega.2c03655",
+    "year": 2022,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the development of phthalate-free self-plasticized PVC (4-an-TG-X-PVC) that reduces human health and ecological risks compared to traditional PVC, which typically contains phthalates. While it does not explicitly state that it is safer than vinyl chloride, the context implies a safer alternative due to the reduction of harmful substances and improved properties.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the modification of poly(vinyl chloride) to improve properties and reduce health and ecological risks, but does not mention specific toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards of vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A Comprehensive Study on the Effect of Plasticizers on the Characteristics of Polymer Inclusion Membranes (PIMs): Exploring Butyl Stearate as a Promising Alternative",
+    "doi": "10.3390/membranes14010019",
+    "year": 2024,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that butyl stearate (BTS) is evaluated as a plasticizer in polymer inclusion membranes (PIMs) and is described as having a non-toxic nature compared to phthalates, which suggests a safety advantage. While it does not explicitly state that BTS is safer than vinyl chloride, it implies a safer alternative in the context of plasticizers used in PVC-based PIMs.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the use of plasticizers in polymer inclusion membranes made from poly(vinyl chloride) (PVC) but does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "First Exploration on a Poly(vinyl chloride) Ultrafiltration Membrane Prepared by Using the Sustainable Green Solvent PolarClean",
+    "doi": "10.1021/acssuschemeng.9b04287",
+    "year": 2020,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of a novel green solvent, methyl-5-(dimethylamino)-2-methyl-5-oxopentanoate (Rhodiasolv® PolarClean), which is employed to completely replace traditional toxic solvents in the preparation of poly(vinyl chloride) ultrafiltration membranes. While it does not explicitly state that this green solvent is safer than vinyl chloride, it implies a safer alternative by highlighting the toxicity and environmental risks associated with traditional solvents, thus suggesting an improvement in safety.",
+    "alternatives": "methyl-5-(dimethylamino)-2-methyl-5-oxopentanoate (Rhodiasolv® PolarClean)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses the toxicity and hazards of traditional solvents used in membrane fabrication, but does not mention any specific harms associated with vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Salt-scaling resistance of biomimetic PEG-PVA-modified concrete",
+    "doi": "10.1617/s11527-025-02623-y",
+    "year": 2025,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of biomimetic antifreeze polymers, specifically poly(ethylene)-graft-poly(vinyl alcohol) (PEG-PVA), as a modification to concrete that improves its salt-scaling resistance compared to traditional air-entraining admixtures (AEAs). While it does not explicitly state that PEG-PVA is safer than vinyl chloride, it implies a safer alternative in the context of concrete durability and performance under deicing conditions, which can be interpreted as a safer option compared to conventional methods that may involve vinyl chloride.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the effects of deicing salts on concrete and the use of biomimetic antifreeze polymers to improve salt-scaling resistance. There is no explicit mention of any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evaluation of Plastic Depletion by Replacing Eco-Dining Palm-Plates (Areca Catechu)",
+    "doi": "10.17762/jaz.v44is-5.1517",
+    "year": 2023,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the health risks posed by plastic plates made from materials including polyvinyl chloride (vinyl chloride) and highlights the use of biodegradable palm plates made from plant leaves as renewable and decomposable alternatives. It explicitly mentions the harmful toxins released by vinyl chloride and suggests palm plates as a sustainable substitute with cultural and medicinal benefits, implying a safety advantage over vinyl chloride-based plastics.",
+    "alternatives": "biodegradable palm plates",
+    "target_chemical_harm": {
+      "harms": [
+        "release of noxious compounds"
+      ],
+      "rationale": "The reasoning text explicitly states that disposable plates made from materials including polyvinyl chloride pose health risks due to the release of noxious compounds, including vinyl chloride. No other specific harms or hazards related to vinyl chloride are mentioned."
+    },
+    "CHEMICAL HARM": "release of noxious compounds"
+  },
+  {
+    "title": "Effect of varying nitric oxide release to prevent platelet consumption and preserve platelet function in an in vivo model of extracorporeal circulation",
+    "doi": "10.1177/0267659107080877",
+    "year": 2007,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of a nitric oxide-releasing coating (Norel-b) that effectively reduces platelet activation and thrombus formation, which implies a safety advantage over traditional systemic heparinization used in extracorporeal circulation. While it does not explicitly state that Norel-b is safer than vinyl chloride, it suggests a safer alternative in the context of anticoagulation during ECC, which typically involves the use of PVC tubing.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It only mentions the use of poly(vinyl)chloride (PVC) tubing in an extracorporeal circulation model without discussing toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Development of zwitterionic sulfobetaine block copolymer conjugation strategies for reduced platelet deposition in respiratory assist devices.",
+    "doi": "10.1002/jbm.b.34085",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the functionalization of polymethylpentene (PMP) hollow fiber membranes with zwitterionic sulfobetaine (SB) block copolymers, which significantly reduces platelet deposition compared to non-modified HFMs and poly(vinyl chloride). This indicates that the modified surfaces are a safer alternative due to their thromboresistance and stability, suggesting a lower risk of thrombus formation compared to traditional materials like vinyl chloride.",
+    "alternatives": "zwitterionic sulfobetaine (SB) block copolymers; polymethylpentene (PMP)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses the functionalization of materials including poly(vinyl chloride) to reduce platelet deposition and improve biocompatibility, but does not mention toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Improved Polymer Hemocompatibility for Blood-Contacting Applications via S-Nitrosoglutathione Impregnation.",
+    "doi": "10.1021/acsami.1c24557",
+    "year": 2022,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the impregnation of S-nitrosoglutathione (GSNO) into poly(vinyl chloride) (PVC) tubing, which enhances hemocompatibility and reduces thrombi formation compared to unmodified PVC. While it does not explicitly state that GSNO-PVC is safer than vinyl chloride, it implies that GSNO-PVC could serve as a safer alternative in blood-contacting medical devices by reducing the need for systemic anticoagulation and demonstrating better biocompatibility.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the use of poly(vinyl chloride) (PVC) tubing impregnated with S-nitrosoglutathione (GSNO) for medical devices, highlighting its biocompatibility and antithrombotic properties without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Rheology of Green Plasticizer/Poly(vinyl chloride) Blends via Time–Temperature Superposition",
+    "doi": "10.3390/PR5030043",
+    "year": 2017,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract presents green plasticizers (succinates, maleates, and dibenzoates) as replacements for DEHP, a common PVC plasticizer linked to toxicities. It explicitly states these replacements have low toxicity profiles and are less toxic alternatives with comparable processing performance. Although the focus is on plasticizers for PVC rather than vinyl chloride monomer itself, the context is clearly about safer alternatives related to vinyl chloride-based materials.",
+    "alternatives": "succinates; maleates; dibenzoates",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the toxicity of phthalate plasticizers such as DEHP, but does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Fishbone-Like Polymer from Green Cationic Polymerization of Methyl Eleostearate as Biobased Nontoxic PVC Plasticizer",
+    "doi": "10.1021/acssuschemeng.9b04394",
+    "year": 2019,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract presents fishbone-like poly(methyl eleostearate) (PME) as a biobased plasticizer that is biologically safe and nontoxic, indicating a safety advantage over traditional plasticizers derived from alkyl halides, which are noted for their toxicity and volatility. This suggests that PME is a safer alternative to vinyl chloride in the context of PVC production.",
+    "alternatives": "poly(methyl eleostearate)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It discusses the development of a plasticizer for PVC and mentions toxicity and volatility only in reference to traditional alkyl halides, not vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Stabilization of epoxidized soybean oil‐plasticized poly(vinyl chloride) blends via thermal curing with genistein",
+    "doi": "10.1002/APP.46472",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of genistein modified epoxidized soybean oil (ESBO) as a 'green' plasticizer for poly(vinyl chloride) (PVC), which is presented as an alternative to phthalate derivatives known for their toxicity. While it does not explicitly compare ESBO to vinyl chloride in terms of safety, it implies a safer alternative by addressing the toxicity of phthalates, which are often used in conjunction with PVC. Therefore, it can be interpreted that ESBO is a safer alternative in the context of PVC applications.",
+    "alternatives": "epoxidized soybean oil (ESBO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the use of genistein modified epoxidized soybean oil as a plasticizer for poly(vinyl chloride) and its applications, but does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Polymerization and Wet-spinning of Flame Retardant Poly(acrylonitrile-co-vinylidene chloride) Copolymers : Effect of Vinylidene Chloride Content",
+    "doi": "10.7317/PK.2018.42.6.1077",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract states that the PANVDC copolymers have better flame retardant properties than poly(acrylonitrile-co-vinyl chloride), which implies a safety advantage in terms of fire risk. This suggests that PANVDC could be considered a safer alternative to vinyl chloride in applications where flame retardancy is a concern.",
+    "alternatives": "poly(acrylonitrile-co-vinylidene chloride)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the polymerization and properties of poly(acrylonitrile-co-vinylidene chloride) copolymers and their fibers, including flame retardant properties and tensile strength. It does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Chloride‐Selective Electrodes with Poly(n‐butyl acrylate) Based Membranes",
+    "doi": "10.1002/ELAN.200603721",
+    "year": 2007,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that the chloride-selective electrodes made with poly(n-butyl acrylate) membranes have a significant advantage over poly(vinyl chloride) membranes due to the absence of plasticizers that can leach and contaminate samples. This suggests a safety advantage, as it implies lower risk of contamination compared to vinyl chloride, which is associated with plasticizer leaching.",
+    "alternatives": "poly(n-butyl acrylate)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the properties and analytical characteristics of chloride-selective electrodes and membranes, including poly(vinyl chloride) and poly(n-butyl acrylate), but does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Vanillin–Schiff’s bases as organic thermal stabilizers and co-stabilizers for rigid poly(vinyl chloride)",
+    "doi": "10.1016/J.EURPOLYMJ.2009.08.018",
+    "year": 2009,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that Vanillin–Schiff’s bases (VSB) derivatives serve as thermal stabilizers for rigid poly(vinyl chloride) and improve thermal stability and discoloration compared to traditional stabilizers like dibasic lead carbonate and cadmium–zinc soap. The mention of replacing labile chlorine atoms with a more stable moiety suggests a safer alternative to vinyl chloride, as it implies a reduction in the risks associated with chlorine.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses thermal stabilizers for poly(vinyl chloride) and their effects on stability and discoloration. It does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Cytoplasmic calcium levels and membrane fluidity of platelets in contact with polyether-polyamide multiblock-copolymer surfaces.",
+    "doi": "10.1111/J.1525-1594.1996.TB00709.X",
+    "year": 2008,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract compares polyether-polyamide multiblock-copolymer surfaces to poly(vinyl chloride) surfaces used in blood bags, noting that the copolymer surfaces cause fewer changes in platelet membrane fluidity and calcium levels, suggesting less platelet activation. This implies a safety advantage in terms of platelet activation and biocompatibility, indicating the copolymer as a safer alternative to vinyl chloride in this context.",
+    "alternatives": "polyether-polyamide multiblock-copolymer",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the effects of poly(vinyl chloride) surfaces on platelet metabolism, specifically a decrease in membrane fluidity and an increase in cytoplasmic calcium levels, which may activate platelets. However, it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Clean Synthesis of Epoxidized Tung Oil Derivatives via Phase Transfer Catalyst and Thiol–ene Reaction: A Detailed Study",
+    "doi": "10.1021/ACSSUSCHEMENG.8B02446",
+    "year": 2018,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the production of epoxy plasticizers from renewable tung oil as a substitute for toxic dioctyl phthalate (DOP), which is a known plasticizer. While it does not explicitly compare these alternatives to vinyl chloride, it indicates that the resulting plasticizers (ETM and TEP) provide better thermal stability and solvent resistance, suggesting a safer profile in comparison to conventional plasticizers like DOP, which is often used in conjunction with vinyl chloride. Therefore, it can be interpreted as presenting a safer alternative in the context of plasticizers used with PVC.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the production of epoxy plasticizers as substitutes for toxic dioctyl phthalate (DOP) and mentions improvements in thermal stability and solvent resistance of PVC films, without discussing any specific hazards of vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Inhibitory effect of hydrophilic polymer brushes on surface-induced platelet activation and adhesion.",
+    "doi": "10.1002/mabi.201000223",
+    "year": 2010,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the use of poly(N,N‐dimethylacrylamide) (PDMA) brushes as a modification to unplasticized poly(vinyl chloride) (uPVC) that significantly reduces platelet activation and adhesion. While it does not explicitly state that PDMA is a safer alternative to vinyl chloride, the reduction in platelet activation and adhesion suggests a safety advantage in a biomedical context, indicating a potential safer alternative.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the modification of poly(vinyl chloride) surfaces and their effects on platelet activation and adhesion, but it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Multi‐branched octopus‐like plasticizers with excellent plasticizing performance in poly(vinyl chloride)",
+    "doi": "10.1002/app.56344",
+    "year": 2024,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the development of multi-branched octopus-like plasticizers that demonstrate superior properties compared to phthalate plasticizers, which are known to have reproductive toxicity and potential carcinogenicity. While it does not explicitly mention vinyl chloride, it implies a safer alternative to conventional plasticizers used in PVC applications, suggesting a focus on safety improvements.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on the synthesis and properties of plasticizers used in poly(vinyl chloride) without mentioning toxicity, carcinogenicity, or other hazards of vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of Solar Water Disinfection on Microbial Load and Concentration of Bisphenol-A in Rivers State, Nigeria",
+    "doi": "10.4314/jasem.v26i11.7",
+    "year": 2022,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract recommends the use of PET (Polyethylene Terephthalate) bottles for water purification using sunlight because PET bottles contain much fewer additives than bottles made from Poly Vinyl Chloride (PVC). This implies a safety advantage of PET over PVC, suggesting PET as a safer alternative to PVC (which is related to vinyl chloride).",
+    "alternatives": "Polyethylene Terephthalate (PET)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It only mentions that PET bottles contain fewer additives than PVC bottles, without specifying any toxicity or hazard information about vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Lanthanum histidine with pentaerythritol and zinc stearate as thermal stabilizers for poly(vinyl chloride)",
+    "doi": "10.1002/APP.42878",
+    "year": 2016,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract explicitly states that La(His)2/Pe/ZnSt2 is a nontoxic stabilizer with the potential to replace toxic stabilizers widely used in PVC manufacturing, which implies a safer alternative to vinyl chloride. The mention of 'nontoxic' suggests a safety advantage over conventional stabilizers, which can be interpreted as a safer alternative.",
+    "alternatives": "lanthanum histidine (La(His)2); pentaerythritol; zinc stearate (ZnSt2)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the use of La(His)2 as a nontoxic stabilizer for PVC and mentions replacing toxic stabilizers, but it does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Oxidative degradation of poly(vinyl chloride)",
+    "doi": "10.1002/APP.1976.070201213",
+    "year": 1976,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the oxidative degradation of poly(vinyl chloride) (PVC) and mentions that polystyrene is much more resistant to oxidation than PVC. This implies that polystyrene could be considered a safer alternative due to its lower susceptibility to oxidation, which can be interpreted as a safety advantage in terms of stability and potential environmental impact.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the oxidation processes and chemical reactions involving poly(vinyl chloride) (PVC) but does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Kinetics of thermal oxidative degradation of poly (vinyl chloride) containing Ca and Sn at low temperature.",
+    "doi": "10.1016/j.wasman.2020.11.019",
+    "year": 2020,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that calcium metal soap and dipentaerythritol are replacing or partially replacing organotin in PVC heat stabilizers due to their low cost and nontoxicity, which suggests they are safer alternatives to organotin. While vinyl chloride is not explicitly mentioned, the context implies a comparison to conventional PVC stabilizers, indicating a safer option. Therefore, the mention of nontoxicity can be interpreted as a safety advantage over traditional materials used in PVC.",
+    "alternatives": "calcium metal soap; dipentaerythritol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the thermal degradation and stabilization of PVC materials and mentions the inhibition of hydrogen chloride release, but it does not explicitly state any harms or hazards related to vinyl chloride."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Constructing green mercury-free catalysts with single pyridinic N species for acetylene hydrochlorination and mechanism investigation",
+    "doi": "10.1039/D0CY01950J",
+    "year": 2021,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract presents a green poly(o-phenylenediamine) polymer and its derived N-doped carbon catalyst as mercury-free alternatives for acetylene hydrochlorination, achieving activity comparable to the traditional mercury chloride catalyst. It explicitly highlights the environmental problems caused by mercury and proposes these catalysts as highly efficient mercury-free options, implying a safer alternative to mercury-based catalysts used in vinyl chloride production.",
+    "alternatives": "poly(o-phenylenediamine) polymer; N-doped carbon catalyst",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses catalysts for producing vinyl chloride and environmental problems caused by mercury use, but it does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Electron Beam Damage in Poly(vinyl chloride) and Poly(acrylonitrile) as Observed by Auger Electron Spectroscopy",
+    "doi": "10.1116/11.20030904",
+    "year": 2003,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract indicates that poly(acrylonitrile) (PAN) exhibits significantly less damage compared to poly(vinyl chloride) (PVC) when exposed to an electron beam, suggesting that PAN is a safer alternative due to its greater resistance to damage. This implies lower risks associated with the use of PAN compared to PVC.",
+    "alternatives": "poly(acrylonitrile)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the loss of chlorine from poly(vinyl chloride) films under electron beam exposure, indicating specimen damage, but does not explicitly state any harms or hazards related to vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Detoxification of 1,1,2-Trichloroethane to Ethene by Desulfitobacterium and Identification of Its Functional Reductase Gene",
+    "doi": "10.1371/journal.pone.0119507",
+    "year": 2015,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract describes a co-culture method that dechlorinates 1,1,2-TCA and TCE to ethene without producing vinyl chloride, a carcinogenic intermediate. This pathway is explicitly stated to be more environmentally friendly and avoids the harmful vinyl chloride, indicating a safer alternative to vinyl chloride in the context of detoxification.",
+    "alternatives": "ethene",
+    "target_chemical_harm": {
+      "harms": [
+        "carcinogenic intermediate dechlorination product vinyl chloride"
+      ],
+      "rationale": "The reasoning text explicitly states that vinyl chloride is a carcinogenic intermediate dechlorination product."
+    },
+    "CHEMICAL HARM": "carcinogenic intermediate dechlorination product vinyl chloride"
+  },
+  {
+    "title": "Novel biologically derived tartaric acid plasticizer: Synthesis and application",
+    "doi": "10.1002/app.54707",
+    "year": 2023,
+    "target": "vinyl chloride",
+    "reasoning": "The abstract discusses the development of a new green bio-based plasticizer, 2,3-diacetyl tartrate dialkyl esters (DATAE-Cn), which is presented as a replacement for phthalate plasticizers like DEHP. While it does not explicitly compare DATAE-Cn to vinyl chloride, it implies a safer alternative by highlighting its advantages such as increased thermal stability, migration resistance, and reduced risk of harmful metabolites, which can be interpreted as safety improvements over conventional plasticizers typically used with PVC.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to vinyl chloride. It focuses on plasticizers used with poly(vinyl chloride) (PVC) and compares their properties, without mentioning toxicity, persistence, bioaccumulation, or other hazards of vinyl chloride itself."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Properties of aqueous solution of a fluorocarbon surfactant and a nonionic surfactant, and their mixtures",
+    "doi": "10.1007/BF02887328",
+    "year": 1981,
+    "abstract": "AbstractThe surface tensions of aqueous solutions of lithium perfluorooctane sulfonate (LiFOS) and hexaethyleneglycoln‐dodecylether (6ED), and of their mixtures, were measured. The effect of each surfactant additives on the adsorption and the micelle formation was discussed on the basis of the surface tension values using the Langmuir adsorption equation for the mixture of both surfactants and the modified Szyszkowski equation. From these results, in the range of low concentrations of 6ED or LiFOS, some of the 6ED molecules which had already adsorbed on the solution surface were found to be replaced by LiFOS molecules in an addition of LiFOS surfactant and vice‐versa. In the ranges of higher concentration above critical micelle concentration (CMC) of each surfactant, it was concluded that the mixed micelle could be formed in the mixed system of both surfactants as well as in the mixed system of two kinds of ordinary hydrocarbon surfactants.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the properties and interactions of lithium perfluorooctane sulfonate (LiFOS) and hexaethyleneglycoln‐dodecylether (6ED) but does not explicitly state that 6ED is a safer alternative to LiFOS. There is no mention of safety advantages such as lower toxicity or environmental risks associated with 6ED compared to LiFOS.",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Design, Synthesis, and Characterization of Functional Materials for Battery Electrolyte and Marine Antifouling Applications",
+    "doi": "",
+    "year": 2017,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Synthesis of Cyclic Type Semi-Fluorinated Disodium Alkanesulfonate",
+    "doi": "10.5012/JKCS.2016.60.4.257",
+    "year": 2016,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Association of nonionic polymer with hydrocarbon/fluorocarbon surfactant in aqueous solution",
+    "doi": "10.1007/BF02635879",
+    "year": 1992,
+    "abstract": "The interaction between a nonionic polymer and a hydrocarbon or fluorocarbon surfactant has been investigated by means of surface tension, viscosity, electroconductivity, fluorescence probing, solubilization of a waterinsoluble dye, and electron spin resonance (ESR). The systems studied consisted of polyvinylpyrrolidone (PVP) with lithium dodecyl sulfate (LiDS) or lithium perfluorooctane sulfonate (LiFOS). Surface tension measurements indicated that formation of PVP‐surfactant complex is more favorable in the PVP‐LiFOS system than in the PVP‐LiDS system, and that the adsorbed amount of LiFOS is less than that of LiDS, although the CMCs of the surfactants are almost the same. In the PVP‐LiFOS system, the relative viscosity and the solubilized amount of a water‐insoluble dye showed a maximum at a certain concentration of LiFOS in the region between two transitions observed in the surface tension, where also a change in the slope of the electroconductivity is observed. These results indicate that shielding of effective charge of the PVP‐LiFOS complex causes a conformational change of PVP wrapped around the aggregate of LiFOS with an increase of free surfactant in the bulk phase. The conformational change can be correlated with microenvironmental properties of PVP‐surfactant complexes. The microviscosity estimated with ESR indicated that the headgroups of LiFOS adsorbed on PVP are less tightly packed than those of LiFOS micelles, while an opposite result was obtained in the PVP‐LiDS system. In particular, the marked high viscosity at a low concentration of LiFOS in the PVP‐LiFOS system can probably be attributed to rigidity of the fluorocarbon chain of LiFOS.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract compares lithium perfluorooctane sulfonate (LiFOS) with lithium dodecyl sulfate (LiDS) in terms of their interaction with polyvinylpyrrolidone (PVP), but it does not explicitly state that either is safer than the other. There is no mention of toxicity, environmental risk, or safety advantages that would indicate a safer alternative to LiFOS. The focus is on physicochemical properties rather than safety.",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Perfluorooctanesulfonic acid (PFOS) and its salts",
+    "doi": "",
+    "year": 2015,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Effect of \"Iceberg\" formation of water on the enthalpy and entropy of solution of paraffin chain compounds: the effect of temperature on the critical micelle concentration of lithium perfluorooctane sulfonate",
+    "doi": "10.1021/J100304A031",
+    "year": 1987,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Shear-induced structural transformation of pentaethylene glycol n-dodecyl ether and lithium perfluorooctane sulfonate mixed-surfactant lamellar solution",
+    "doi": "10.1007/S00396-002-0793-X",
+    "year": 2003,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "The interaction between co-polymer of vinylpyrrolidone and vinylacetate and anionic surfactants in aqueous solutions",
+    "doi": "10.1007/BF02635792",
+    "year": 1995,
+    "abstract": "AbstractThe interaction of co‐polymers of vinylpyrrolidone‐vinylacetate with anionic surfactants, such as lithium dodecyl sulfate (LiDS), lithium perfluorooctane sulfonate (LiFOS) in aqueous solution, has been studied. When the content of vinylacetate in the co‐polymers increases, reduction in the surface tension of co‐polymers alone becomes significant. In mixtures of co‐polymers and surfactants, co‐polymer‐LiFOS complexes are formed at lower surfactant concentration than that of co‐polymer‐LiDS. The micropolarity of the co‐polymers‐surfactant complexes depends on the composition of co‐polymers and is higher for co‐polymer‐LiFOS than that for co‐polymer‐LiDS. Further, the solubilization behavior of α‐(o‐tolylazo‐)‐β‐naphthylamine (Yellow OB) (Tokyo Kasei Co., Ltd., Tokyo, Japan) in the co‐polymer‐surfactant complexes is almost independent of the co‐polymer composition, but different from the surfactants, where a very low solubilized amount of Yellow OB is observed for co‐polymer‐LiFOS.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses interactions involving lithium perfluorooctane sulfonate (LiFOS) but does not explicitly present any substance, material, or method as a safer alternative to LiFOS. There is no mention of safety advantages or comparisons indicating a safer replacement.",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Miscibility of Hydrocarbon and Fluorocarbon Surfactants in Adsorbed Film and Micelle.",
+    "doi": "10.1006/JCIS.2000.7251",
+    "year": 2001,
+    "abstract": "We investigated the miscibility of nonionic hydrocarbon and fluorocarbon surfactants in the adsorbed film and the micelle by surface tension measurements of the aqueous solution. The combination of tetraethyleneglycol monodecyl ether (C10E4) and tetraethyleneglycol mono-1,1,7-trihydrododecafluoroheptyl ether (FC7E4) was chosen because they have the same hydrophilic groups and about the same surface activity. The extent of nonideal mixing was estimated quantitatively in terms of the excess Gibbs energy in the adsorbed film g\n                     H,E and that in the micelle g\n                     M,E. The excess area per adsorbed molecule, A\n                     H,E, was also evaluated and discussed. The ionic hydrocarbon and fluorocarbon mixed surfactant systems, lithium dodecyl sulfate (LiDS)/lithium perfluorooctane sulfonate (LiFOS) and lithium tetradecyl sulfate (LiTS)/LiFOS systems are also investigated from the standpoint of excess Gibbs energy and excess area. It is also clearly shown that the regular solution approach does not fit in the systems that contain ionic species.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses various surfactant systems, including lithium perfluorooctane sulfonate (LiFOS), but does not explicitly present a safer alternative or make a safety comparison to LiFOS. It focuses on the miscibility and properties of surfactants without indicating any safety advantages or a replacement for LiFOS.",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Perfluorooctane sulfonate (PFOS) impairs the proliferation of C17.2 neural stem cells via the downregulation of GSK‐3β/β‐catenin signaling",
+    "doi": "10.1002/jat.3320",
+    "year": 2016,
+    "abstract": "AbstractThe neurotoxic effects of perfluorooctane sulfonate (PFOS) have attracted significant research attention in recent years. In the present study, we investigated the impact of PFOS exposure on the physiology of neural stem cells (NSCs) in vitro. We showed that PFOS exposure markedly attenuated the proliferation of C17.2 neural stem cells in both dose‐ and time‐dependent manners. Additionally, we found that PFOS decreased Ser9 phosphorylation of glycogen synthase kinase‐3β (pSer9‐GSK‐3β), leading to the activation of GSK‐3β and resultant downregulation of cellular β‐catenin. Furthermore, blockage of GSK‐3β with lithium chloride significantly attenuated both the PFOS‐induced downregulation of GSK‐3β/β‐catenin and the proliferative impairment of C17.2 cells. Notably, the expression of various downstream targets was altered accordingly, such as c‐myc, cyclin D1 and survivin. In conclusion, the present study demonstrated that PFOS decreased the proliferation of C17.2 cells via the negative modulation of the GSK‐3β/β‐catenin pathway. We present the potential mechanisms underlying the PFOS‐induced toxic effects on NSCs to provide novel insights into the neurotoxic mechanism of PFOS. Copyright © 2016 John Wiley &amp; Sons, Ltd.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the neurotoxic effects of perfluorooctane sulfonate (PFOS) and the protective effect of lithium chloride against PFOS-induced toxicity in neural stem cells. However, it does not present lithium (perfluorooctane)sulfonate or any other substance as a safer alternative to lithium (perfluorooctane)sulfonate, nor does it compare safety profiles or suggest replacements.",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Mixed micellar properties of octyl-β-d-glucoside and lithium perfluorooctane sulfonate",
+    "doi": "10.1016/0927-7757(96)03550-9",
+    "year": 1996,
+    "abstract": "Mixed micellar properties of octyl-β-d-glucoside (AG8) and lithium perfluoroonate sulfonate in aqueous solution have been studied. The mixture CMC values are lower than data for ideal mixing, indicating that a favorable interaction in the mixed micelles arises, having the interaction parameter −1.85. The aggregation number of mixed micelles increases gradually until the mole fraction of AG8=0.8 and the increases sharply. A similar change is observed for the micellar radius. Thus, the micellar properties of mixed micelles are markedly affected by incorporation of the fluorocarbon surfactant.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the mixed micellar properties of octyl-β-d-glucoside and lithium perfluorooctane sulfonate but does not provide any explicit safety comparison or advantages of octyl-β-d-glucoside over lithium perfluorooctane sulfonate. There is no indication that octyl-β-d-glucoside is a safer alternative.",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Study on the miscibility of lithium tetradecyl sulfate and lithium perfluorooctane sulfonate in the adsorbed film and micelle",
+    "doi": "10.1016/0021-9797(92)90161-E",
+    "year": 1992,
+    "abstract": "The surface tension of the aqueous solution of lithium tetradecyl sulfate (LiTS) and lithium perfluorooctane sulfonate (LiFOS) mixture was measured as a function of the total molality and composition of surfactants at 298.15 K under atmospheric pressure. The compositions in the adsorbed film and micelle were evaluated numerically by applying the thermodynamic equations derived previously. It was found that the adsorbed film is enriched in LiFOS molecules at a small concentration, while it is enriched in LiTS molecules at a large concentration, as compared to the aqueous solution, and both molecules mix nonideally with each other. On the other hand, they were proved to be partially immiscible in the micellar state and to form the two kinds of micelles which coexist in equilibrium only at the composition of the heterogeneous azeotropic (hetero-azeotropic) point. It was also observed that the LiTS molecules expel the LiFOS molecules from the micelles in a composition range where the mole fraction of LiFOS is small. Comparing the above results to those of a lithium dodecyl sulfate (LiDS) and LiFOS mixture, the chain length of hydrocarbon surfactant was concluded to have a considerable influence on the miscibility of hydrocarbon and fluorocarbon surfactants in the adsorbed film and micelle.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the miscibility and behavior of lithium tetradecyl sulfate (LiTS) and lithium perfluorooctane sulfonate (LiFOS) mixtures but does not mention any safety comparison or advantages of LiTS or any other substance over LiFOS. There is no explicit statement about a safer alternative to lithium perfluorooctane sulfonate.",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Laboratory and field evaluations of lithium perfluorooctane sulfonate baits against domiciliary and peridomestic cockroaches in Penang, Malaysia",
+    "doi": "10.7601/MEZ.54.381",
+    "year": 2003,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Study on the miscibility of lithium dodecyl sulfate and lithium perfluorooctane sulfonate in the adsorbed film and micelle",
+    "doi": "10.1016/0021-9797(92)90202-W",
+    "year": 1992,
+    "abstract": "The surface tension of the aqueous solution of lithium dodecyl sulfate (LiDS) and lithium perfluorooctane sulfonate (LiFOS) mixture was measured as a function of the total molality and composition of surfactants at 298.15 K under atmospheric pressure. The compositions in the adsorbed film and micelle were evaluated by applying the thermodynamic equations to the experimental results. It was found that the LiDS and LiFOS molecules mix homogeneously with each other in the adsorbed film and the mole fraction of LiFOS in the total surfactant in the adsorbed film is larger than that in the solution. However, the molecules turned out to be partially immiscible in the micellar state and to form the two kinds of micelles which coexist in equilibrium only at the composition of the maximum of critical micelle concentration vs composition curve. This behavior was attributed to the repulsive interaction between the hydrocarbon and fluorocarbon chains of the surfactants. Further, it was suggested that the interaction between LiDS and LiFOS molecules in the micelle is weaker than that in the adsorbed film.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the miscibility and interactions between lithium dodecyl sulfate (LiDS) and lithium perfluorooctane sulfonate (LiFOS) but does not mention any safety comparison or advantages of LiDS over LiFOS. There is no explicit statement indicating that LiDS is a safer alternative to LiFOS.",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Solute‐solvent interactions in micellar electrokinetic chromatography: IV. Characterization of electroosmotic flow and micellar markers",
+    "doi": "10.1002/1522-2683(200201)23:1<56::AID-ELPS56>3.0.CO;2-7",
+    "year": 2002,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "THE CRITICAL MICELLE CONCENTRATIONS OF MIXTURES OF LITHIUM PERFLUOROOCTANE SULFONATE AND LITHIUM DODECANE SULFATE IN AQUEOUS SOLUTIONS",
+    "doi": "10.1016/B978-0-12-404502-6.50046-9",
+    "year": 1976,
+    "abstract": "",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4.1-mini"
+  },
+  {
+    "title": "Study on Colloid Vibration Current in Aqueous Solution of Binary Surfactant Mixtures: Effects of Counterions and Hydrophobic Chains.",
+    "doi": "10.5650/JOS.ESS16101",
+    "year": 2016,
+    "abstract": "In order to elucidate an electroacoustic phenomenon of mixed micelles in an aqueous solution, we measured the colloid vibration current (CVI) in aqueous solutions of binary surfactant mixtures. Based on the thermodynamic treatment of critical micelle concentration (cmc) values determined by conductivity measurements, it was expected that dodecyltrimethylammonium bromide (DTAB) and dodecyltrimethylammonium chloride (DTAC) molecules would mix ideally in the micelle. However, the micelle composition as evaluated from the CVI measurement, based on the linear dependence of the CVI value on the micelle composition, differed from the aforementioned ideality. Considering these observations, we concluded that the CVI measurement was more sensitive to the counterion distribution near the micelle surface, whereas the thermodynamically determined micelle composition included the counterions more loosely bound in the diffuse double layer due to the electroneutrality condition included in its assumption. On the other hand, the phase diagram illustrating micelle formation in the lithium dodecyl sulfate (LiDS) - lithium perfluorooctane sulfonate (LiFOS) mixture system showed a heteroazeotropic point arising from the stronger interactions between homologous surfactants than between heterologous ones. Although the concentration dependence of CVI values was expected to drastically change at a heteroazeotropic point due to the enormous variation in the density of the micelle core, the results showed a monotonous change, which suggests that the density of the micelle core varies continuously. By taking the partial molar volume of fluorocarbon compounds in the hydrocarbon compounds into account, the density of the micelle core was affected by the size of the micelle as well as its constituents.",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the behavior of lithium dodecyl sulfate and lithium perfluorooctane sulfonate in a mixture but does not present any alternative that is explicitly stated to be safer than lithium perfluorooctane sulfonate. There are no claims of lower toxicity or other safety advantages that could be interpreted as a safer alternative.",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Oxygen-enriched electrolytes based on perfluorochemicals for high-capacity lithium–oxygen batteries",
+    "doi": "10.1039/C5TA02219C",
+    "year": 2015,
+    "abstract": "Enhanced discharging capacity of a Li–O2 cell was accomplished by using an electrolyte containing high amounts of dissolved oxygen composed of perfluorochemicals (PFCs).",
+    "target": "lithium (perfluorooctane)sulfonate",
+    "alternatives provided": "no",
+    "reasoning": "The abstract only mentions the use of perfluorochemicals (PFCs) in the electrolyte to enhance discharging capacity of a Li–O2 cell. It does not provide any information about safety advantages or explicitly state that PFCs are safer alternatives to lithium (perfluorooctane)sulfonate.",
+    "model_used": "gpt-4.1-mini"
+  }
+]

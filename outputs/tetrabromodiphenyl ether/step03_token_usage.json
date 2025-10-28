@@ -1,0 +1,9 @@
+{
+  "model_list": [
+    "gpt-4o-mini",
+    "gpt-4.1-mini"
+  ],
+  "prompt_tokens": 217379,
+  "completion_tokens": 27057,
+  "total_tokens": 244436
+}

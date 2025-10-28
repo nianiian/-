@@ -1,0 +1,15 @@
+[
+  {
+    "title": "\"SYNTHESIS OF METAL ORGANIC FRAMEWORKS AND THEIR APPLICATION AS PHOTOCATALYSTS \"",
+    "doi": "10.48081/uuwo4979",
+    "year": 2024,
+    "target": "cumene",
+    "reasoning": "The abstract addresses challenges in conventional acetone production methods such as the cumene process and presents titanium dioxide-modified metal-organic frameworks (MOFs) using hydrogen peroxide as an oxidizing agent as an eco-friendly and economically viable solution. This implies a safer alternative to the cumene process due to the mention of eco-friendliness and improved catalytic stability, suggesting safety advantages over cumene.",
+    "alternatives": "hydrogen peroxide",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cumene. It focuses on catalytic applications and synthesis methods without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

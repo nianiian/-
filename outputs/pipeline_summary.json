@@ -1,0 +1,74 @@
+{
+  "Dimethylformamide (DMF)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Benzene": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Bis(2-ethylhexyl)phthalate (DEHP)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "1,3-Butadiene (BD)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Acetonitrile": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Dichlorodifluoromethane (R-12)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Tetrachloroethylene": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Nonylphenol Ethoxylates (NPEs)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Methylene Chloride": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Phthalate (PAEs), e.g., DINP": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Tetrabromobisphenol A (TBBPA)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  },
+  "Hexabromocyclododecane (HBCD)": {
+    "step01": true,
+    "step02": true,
+    "step03": true,
+    "step04": true
+  }
+}

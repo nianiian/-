@@ -1,0 +1,136 @@
+[
+  {
+    "title": "Short-chain fluorocarbon-based polymeric coating with excellent nonwetting ability against chemical warfare agents",
+    "doi": "10.1039/d1ra08326k",
+    "year": 2022,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract discusses a copolymeric coating that is synthesized as a sustainable alternative to long-chain fluorinated compounds, including perfluorooctanesulfonic acid (PFOS). It highlights favorable health and environmental properties, suggesting a safety advantage over PFOS, which indicates it is a safer alternative.",
+    "alternatives": "short-chain fluorocarbon-based copolymeric coating",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with perfluorooctanesulfonic acid (PFOS). It only mentions safety against PFOS and perfluorooctanoic acid (PFOA) in the context of the coating's application, without detailing any specific toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Environmentally benign perfluorooctanesulfonate alternatives using a Zn/CuI mediated Michael-type addition in imidazolium ionic liquids",
+    "doi": "10.1039/C3GC42642D",
+    "year": 2014,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly states the synthesis of bio-degradable and efficient alternatives to perfluorooctanesulfonic acid using Michael-type addition in imidazolium ionic liquids. The term 'bio-degradable' implies a safety advantage in terms of environmental impact, indicating these alternatives are safer than perfluorooctanesulfonic acid.",
+    "alternatives": "bio-degradable alternatives synthesized via Michael-type addition in imidazolium ionic liquids",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to perfluorooctanesulfonic acid."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "SAT423 Regulation Of The Male Neuroendocrine Axis By Per- And Polyfluoroalkyl Substances (PFASs)",
+    "doi": "10.1210/jendso/bvad114.1054",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly states that short-chain or emerging PFASs, such as perfluorobutanoic acid (PFBA) and perfluorobutanesulfonic acid (PFBS), are thought to be safer than perfluorooctanesulfonic acid (PFOS) due to decreased toxicity and rapid environmental degradation. This indicates a clear safety advantage over perfluorooctanesulfonic acid.",
+    "alternatives": "perfluorobutanoic acid (PFBA); perfluorobutanesulfonic acid (PFBS)",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disruption",
+        "altered testosterone production",
+        "impacts on male neuroendocrine-reproductive axis",
+        "potential effects on germ cell development",
+        "potential effects on sperm production",
+        "potential effects on male fertility"
+      ],
+      "rationale": "The reasoning text explicitly states that perfluorooctanesulfonic acid (PFOS) impacts the male neuroendocrine-reproductive axis by altering testosterone production (both increases and decreases), affecting testicular protein expression related to reproductive function, and implying consequences for germ cell development, sperm production, and male fertility. These effects indicate endocrine disruption and reproductive toxicity. No other explicit harms such as toxicity types beyond endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "endocrine disruption, altered testosterone production, impacts on male neuroendocrine-reproductive axis, potential effects on germ cell development, potential effects on sperm production, potential effects on male fertility"
+  },
+  {
+    "title": "Comparing Ocular Toxicity of Legacy and Alternative Per- and Polyfluoroalkyl Substances in Zebrafish Larvae",
+    "doi": "10.3390/toxics11121021",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract indicates that the alternatives, perfluorobutanesulfonic acid (PFBS) and perfluorobutanoic acid (PFBA), had no effect on visual behaviors at all tested concentrations, suggesting they do not exhibit the same toxic effects as perfluorooctanesulfonic acid (PFOS). This implies that PFBS and PFBA are safer alternatives to PFOS in terms of ocular toxicity.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS); perfluorobutanoic acid (PFBA)",
+    "target_chemical_harm": {
+      "harms": [
+        "visual toxicity",
+        "ocular toxicity",
+        "gene expression downregulation in visual function pathways"
+      ],
+      "rationale": "The reasoning explicitly states that PFOS exposure caused concentration-dependent reductions in phototactic responses and decreased optomotor responses in zebrafish larvae, indicating visual toxicity. Additionally, PFOS markedly downregulated genes involved in photoreceptor opsins and phototransduction cascade, explaining the observed visual behavior changes."
+    },
+    "CHEMICAL HARM": "visual toxicity, ocular toxicity, gene expression downregulation in visual function pathways"
+  },
+  {
+    "title": "Cannabidiol Alleviates Perfluorooctanesulfonic Acid-Induced Cardiomyocyte Apoptosis by Maintaining Mitochondrial Dynamic Balance and Energy Metabolic Homeostasis.",
+    "doi": "10.1021/acs.jafc.2c08378",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract indicates that cannabidiol (CBD) has properties that alleviate the cardiotoxic effects caused by perfluorooctanesulfonic acid (PFOS), suggesting that CBD may serve as a safer alternative due to its lack of adverse cardiotoxicity and its antioxidant and anti-inflammatory properties. This comparison implies that CBD is a safer option in the context of PFOS-induced damage.",
+    "alternatives": "cannabidiol (CBD)",
+    "target_chemical_harm": {
+      "harms": [
+        "cardiac toxicity",
+        "oxidative stress",
+        "apoptosis of cardiomyocytes",
+        "mitochondrial dynamic imbalance",
+        "energy metabolism disorders"
+      ],
+      "rationale": "The reasoning text explicitly states that PFOS causes heart injury characterized by cardiac toxicity, increased oxidative stress, increased apoptosis-related markers, mitochondrial dynamic imbalance, and energy metabolism disorders in mouse heart and H9C2 cells."
+    },
+    "CHEMICAL HARM": "cardiac toxicity, oxidative stress, apoptosis of cardiomyocytes, mitochondrial dynamic imbalance, energy metabolism disorders"
+  },
+  {
+    "title": "Integrative multi-omics reveals analogous developmental neurotoxicity mechanisms between perfluorobutanesulfonic acid and perfluorooctanesulfonic acid in zebrafish.",
+    "doi": "10.1016/j.jhazmat.2023.131714",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract indicates that perfluorobutanesulfonic acid (PFBS) is approximately 700 times less toxic than perfluorooctanesulfonic acid (PFOS), which suggests that PFBS is a safer alternative. However, it also notes that PFBS exhibits similar dysregulated molecular mechanisms, indicating that while it is less toxic, it may not be entirely free from neurotoxic effects.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS)",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental neurotoxicity",
+        "neurobehavioral changes",
+        "oxidative stress",
+        "disruption of lipid metabolism",
+        "disruption of glycolysis/gluconeogenesis",
+        "disruption of calcium signaling pathway",
+        "disruption of lipid homeostasis",
+        "disruption of primary bile acid biosynthesis"
+      ],
+      "rationale": "The reasoning text explicitly states that PFOS exhibits developmental neurotoxicity and neurobehavioral changes in zebrafish embryos, with associated biomolecular perturbations including oxidative stress, lipid metabolism disruption, glycolysis/gluconeogenesis disruption, and interference with calcium signaling, lipid homeostasis, and bile acid biosynthesis pathways."
+    },
+    "CHEMICAL HARM": "developmental neurotoxicity, neurobehavioral changes, oxidative stress, disruption of lipid metabolism, disruption of glycolysis/gluconeogenesis, disruption of calcium signaling pathway, disruption of lipid homeostasis, disruption of primary bile acid biosynthesis"
+  },
+  {
+    "title": "Structure and surface properties of polyacrylates with short fluorocarbon side chain: Role of the main chain and spacer group",
+    "doi": "10.1002/POLA.24038",
+    "year": 2010,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract discusses the synthesis of nonbiopersistent fluorinated polymers with perfluorohexyl groups as substitutes for poly(fluoroalkyl acrylate)s that release perfluorooctanoic acid (PFOA) or perfluorooctanesulfonic acid (PFOS). It implies that these new polymers are environmentally friendly alternatives, suggesting a safety advantage over PFOS due to their nonbiopersistent nature.",
+    "alternatives": "nonbiopersistent fluorinated polymers with perfluorohexyl groups",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that perfluorooctanesulfonic acid (PFOS) is biopersistent, but does not explicitly state any harms or hazards such as toxicity, endocrine disruption, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis, Surface Activity, and Foamability of Two Short-Chain Fluorinated Sulfonate Surfactants with Ether Bonds.",
+    "doi": "10.1021/acs.langmuir.3c01623",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly discusses the synthesis of two short-chain fluorinated surfactants (6:2 FTESNa and C72 FEESNa) as alternatives to PFOS. It highlights that these alternatives have superior surface activity and foam performance compared to 6:2 FTSNa, a current alternative for PFOS, and implies reduced environmental issues by focusing on short-chain compounds to reduce persistence, bioaccumulation, and biotoxicity. Thus, it clearly presents these substances as safer alternatives to perfluorooctanesulfonic acid.",
+    "alternatives": "6:2 FTESNa; C72 FEESNa",
+    "target_chemical_harm": {
+      "harms": [
+        "environmental persistence",
+        "bioaccumulation",
+        "biotoxicity"
+      ],
+      "rationale": "The reasoning explicitly states that perfluorooctanesulfonic acid (PFOS) is a classical long-chain fluorinated surfactant whose high stability has caused many environmental problems, leading to its ban and restriction worldwide. It mentions the need to reduce environmental persistence, bioaccumulation, and biotoxicity, indicating these as explicit harms associated with PFOS."
+    },
+    "CHEMICAL HARM": "environmental persistence, bioaccumulation, biotoxicity"
+  }
+]

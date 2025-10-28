@@ -1,0 +1,41 @@
+# Core dependencies for the research pipeline
+# Python 3.8+ required
+
+# OpenAI API client
+openai>=1.0.0
+
+# Data manipulation and analysis
+pandas>=1.5.0
+numpy>=1.20.0
+
+# HTTP requests and web APIs
+requests>=2.28.0
+
+# Progress bars and CLI
+tqdm>=4.64.0
+argparse  # Built-in, but included for completeness
+
+# JSON handling (built-in)
+# json - built-in module
+
+# File and path handling
+pathlib  # Built-in in Python 3.4+
+
+# Logging and system utilities (built-in modules)
+# logging - built-in module
+# os - built-in module
+# sys - built-in module
+# time - built-in module
+# subprocess - built-in module
+
+# Type hints
+typing  # Built-in in Python 3.5+
+
+# Data classes (Python 3.7+)
+dataclasses  # Built-in in Python 3.7+
+
+# Regular expressions (built-in)
+# re - built-in module
+
+# Random utilities (built-in)
+# random - built-in module

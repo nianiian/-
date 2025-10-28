@@ -1,0 +1,341 @@
+2025-08-18 11:15:09,669 - INFO - Starting full pipeline for all compounds
+2025-08-18 11:15:09,669 - INFO - Processing compound nonylphenol
+2025-08-18 11:15:09,669 - INFO - Starting pipeline for compound: nonylphenol
+2025-08-18 11:15:09,669 - INFO - Running Step 01 for compound: nonylphenol
+2025-08-18 11:15:56,755 - INFO - Step 01 completed for nonylphenol
+2025-08-18 11:15:56,755 - INFO - Running Step 02 for compound: nonylphenol
+2025-08-18 11:25:04,800 - INFO - Step 01 completed successfully for nonylphenol
+2025-08-18 12:12:12,441 - INFO - Step 02 completed successfully for nonylphenol
+2025-08-18 13:52:27,251 - INFO - Step 03 completed successfully for nonylphenol
+2025-08-18 13:53:02,500 - INFO - Step 04 completed successfully for nonylphenol
+2025-08-18 13:53:02,501 - INFO - Pipeline completed for nonylphenol
+2025-10-02 23:38:07,821 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-02 23:59:32,599 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-03 00:28:55,746 - ERROR - Step 01 failed for nonylphenol with return code 3221225786
+2025-10-03 00:31:02,580 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-03 02:08:46,536 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-03 02:08:47,013 - ERROR - Step 03 failed for nonylphenol with return code 1
+2025-10-03 02:08:47,013 - WARNING - Step 03 failed for nonylphenol, skipping remaining steps
+2025-10-03 02:24:52,984 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-03 02:25:18,283 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-03 02:36:27,777 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-03 04:14:22,033 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-03 05:36:27,925 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-03 05:36:56,029 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-03 05:36:56,030 - INFO - Pipeline completed for nonylphenol
+2025-10-03 09:32:39,713 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-03 09:38:18,815 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-03 09:45:01,485 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-03 09:58:48,533 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-03 10:33:17,548 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-03 10:33:25,254 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-03 10:33:25,255 - INFO - Pipeline completed for nonylphenol
+2025-10-03 22:34:25,610 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-04 00:13:12,653 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-04 01:37:34,280 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-04 01:37:57,803 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-04 01:37:57,804 - INFO - Pipeline completed for nonylphenol
+2025-10-12 21:52:45,856 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-12 22:15:53,953 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-12 22:21:08,696 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-12 22:24:40,013 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-12 22:30:10,781 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 00:05:09,438 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-13 01:44:03,508 - ERROR - Step 03 failed for nonylphenol with return code 3221225786
+2025-10-13 01:44:40,874 - ERROR - Step 01 failed for nonylphenol with return code 3221225786
+2025-10-13 01:45:41,413 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 01:50:21,217 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-13 01:50:36,825 - ERROR - Step 01 failed for nonylphenol with return code 3221225786
+2025-10-13 01:51:36,166 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 01:51:46,303 - ERROR - Step 02 failed for nonylphenol with return code 3221225786
+2025-10-13 01:52:40,630 - ERROR - Step 01 failed for nonylphenol with return code 3221225786
+2025-10-13 01:54:19,950 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 01:56:12,461 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-13 01:57:24,285 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-13 02:01:12,081 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-13 02:01:12,083 - INFO - Pipeline completed for nonylphenol
+2025-10-13 02:08:58,237 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 02:10:19,757 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-13 02:11:38,544 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-13 02:11:39,250 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-13 02:11:39,251 - INFO - Pipeline completed for nonylphenol
+2025-10-13 02:13:20,160 - INFO - Step 01 completed successfully for nonylphenol
+2025-10-13 02:26:40,153 - INFO - Step 02 completed successfully for nonylphenol
+2025-10-13 02:39:29,743 - INFO - Step 03 completed successfully for nonylphenol
+2025-10-13 02:39:33,536 - INFO - Step 04 completed successfully for nonylphenol
+2025-10-13 02:39:33,536 - INFO - Pipeline completed for nonylphenol
+2025-10-13 02:47:19,924 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-13 03:03:55,635 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-13 03:16:18,466 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2025-10-13 03:16:21,845 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2025-10-13 03:16:21,846 - INFO - Pipeline completed for 1,2-dichloroethane
+2025-10-13 03:16:31,432 - INFO - Step 01 completed successfully for ethylbenzene
+2025-10-13 03:18:41,320 - ERROR - Step 02 failed for ethylbenzene with return code 3221225786
+2025-10-13 03:20:24,820 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-13 05:03:18,992 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-13 06:19:24,952 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2025-10-13 06:19:35,486 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2025-10-13 06:19:35,486 - INFO - Pipeline completed for 1,2-dichloroethane
+2025-10-13 06:21:04,646 - INFO - Step 01 completed successfully for ethylbenzene
+2025-10-13 08:39:20,421 - INFO - Step 02 completed successfully for ethylbenzene
+2025-10-13 10:30:09,516 - INFO - Step 03 completed successfully for ethylbenzene
+2025-10-13 10:30:26,328 - INFO - Step 04 completed successfully for ethylbenzene
+2025-10-13 10:30:26,329 - INFO - Pipeline completed for ethylbenzene
+2025-10-13 10:31:42,879 - INFO - Step 01 completed successfully for butyl acrylate
+2025-10-13 12:57:31,308 - INFO - Step 02 completed successfully for butyl acrylate
+2025-10-13 15:02:01,028 - INFO - Step 03 completed successfully for butyl acrylate
+2025-10-13 15:02:14,900 - INFO - Step 04 completed successfully for butyl acrylate
+2025-10-13 15:02:14,900 - INFO - Pipeline completed for butyl acrylate
+2025-10-13 15:03:40,368 - INFO - Step 01 completed successfully for acrylonitrile
+2025-10-13 15:49:58,410 - ERROR - Step 02 failed for acrylonitrile with return code 3221225786
+2025-10-24 01:39:57,978 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-24 01:46:24,957 - ERROR - Step 01 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-24 01:47:59,562 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-24 01:48:33,906 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-24 01:52:13,103 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-24 01:59:02,673 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-24 18:15:29,728 - ERROR - Step 03 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-24 18:20:06,671 - ERROR - Step 01 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-24 18:22:38,512 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-24 18:31:49,413 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-24 18:40:27,123 - ERROR - Step 03 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-24 18:43:35,639 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-24 18:52:39,796 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-24 19:04:44,040 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2025-10-24 19:04:55,204 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2025-10-24 19:04:55,204 - INFO - Pipeline completed for 1,2-dichloroethane
+2025-10-24 19:05:06,329 - ERROR - Step 01 failed for ethylbenzene with return code 3221225786
+2025-10-27 18:01:39,440 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:02:03,940 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 18:03:17,364 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:03:30,355 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 18:04:30,772 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:09:19,437 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 18:17:13,763 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:26:12,110 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-27 18:41:22,061 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2025-10-27 18:42:07,489 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2025-10-27 18:42:07,491 - INFO - Pipeline completed for 1,2-dichloroethane
+2025-10-27 18:43:19,048 - ERROR - Step 01 failed for ethylbenzene with return code 3221225786
+2025-10-27 18:50:08,797 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:50:14,268 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 18:51:11,134 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 18:59:02,580 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2025-10-27 19:08:30,485 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2025-10-27 19:09:05,146 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2025-10-27 19:09:05,148 - INFO - Pipeline completed for 1,2-dichloroethane
+2025-10-27 19:10:39,213 - INFO - Step 01 completed successfully for ethylbenzene
+2025-10-27 19:21:22,443 - INFO - Step 02 completed successfully for ethylbenzene
+2025-10-27 19:35:50,535 - INFO - Step 03 completed successfully for ethylbenzene
+2025-10-27 19:36:26,923 - INFO - Step 04 completed successfully for ethylbenzene
+2025-10-27 19:36:26,925 - INFO - Pipeline completed for ethylbenzene
+2025-10-27 19:37:48,579 - INFO - Step 01 completed successfully for butyl acrylate
+2025-10-27 19:48:32,443 - INFO - Step 02 completed successfully for butyl acrylate
+2025-10-27 20:03:34,784 - INFO - Step 03 completed successfully for butyl acrylate
+2025-10-27 20:04:05,718 - INFO - Step 04 completed successfully for butyl acrylate
+2025-10-27 20:04:05,720 - INFO - Pipeline completed for butyl acrylate
+2025-10-27 20:05:30,484 - INFO - Step 01 completed successfully for acrylonitrile
+2025-10-27 20:16:09,946 - INFO - Step 02 completed successfully for acrylonitrile
+2025-10-27 20:32:23,832 - INFO - Step 03 completed successfully for acrylonitrile
+2025-10-27 20:33:01,895 - INFO - Step 04 completed successfully for acrylonitrile
+2025-10-27 20:33:01,897 - INFO - Pipeline completed for acrylonitrile
+2025-10-27 20:33:07,912 - INFO - Step 01 completed successfully for formaldehyde
+2025-10-27 20:33:56,283 - INFO - Step 02 completed successfully for formaldehyde
+2025-10-27 20:35:22,551 - INFO - Step 03 completed successfully for formaldehyde
+2025-10-27 20:36:00,250 - INFO - Step 04 completed successfully for formaldehyde
+2025-10-27 20:36:00,253 - INFO - Pipeline completed for formaldehyde
+2025-10-27 20:36:51,563 - INFO - Step 01 completed successfully for allyl alcohol
+2025-10-27 20:43:54,872 - INFO - Step 02 completed successfully for allyl alcohol
+2025-10-27 20:53:52,230 - INFO - Step 03 completed successfully for allyl alcohol
+2025-10-27 20:54:15,277 - INFO - Step 04 completed successfully for allyl alcohol
+2025-10-27 20:54:15,278 - INFO - Pipeline completed for allyl alcohol
+2025-10-27 20:55:34,552 - INFO - Step 01 completed successfully for bisphenol A
+2025-10-27 21:05:02,239 - ERROR - Step 02 failed for bisphenol A with return code 3221225786
+2025-10-27 21:06:49,387 - ERROR - Step 01 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 21:07:08,926 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2025-10-27 21:07:13,671 - ERROR - Step 02 failed for 1,2-dichloroethane with return code 3221225786
+2025-10-27 21:07:27,391 - ERROR - Step 01 failed for nonylphenol with return code 3221225786
+2025-10-27 21:08:58,109 - INFO - Step 01 completed successfully for bisphenol A
+2025-10-27 21:18:52,936 - INFO - Step 02 completed successfully for bisphenol A
+2025-10-27 21:52:42,292 - INFO - Step 03 completed successfully for bisphenol A
+2025-10-27 21:55:50,959 - INFO - Step 04 completed successfully for bisphenol A
+2025-10-27 21:55:50,961 - INFO - Pipeline completed for bisphenol A
+2025-10-27 21:55:55,539 - INFO - Step 01 completed successfully for cumene
+2025-10-27 21:57:02,160 - INFO - Step 02 completed successfully for cumene
+2025-10-27 21:59:16,669 - INFO - Step 03 completed successfully for cumene
+2025-10-27 21:59:19,779 - INFO - Step 04 completed successfully for cumene
+2025-10-27 21:59:19,780 - INFO - Pipeline completed for cumene
+2025-10-27 21:59:25,500 - INFO - Step 01 completed successfully for vinyl acetate
+2025-10-27 22:00:34,205 - INFO - Step 02 completed successfully for vinyl acetate
+2025-10-27 22:00:59,443 - ERROR - Step 03 failed for vinyl acetate with return code 3221225786
+2025-10-27 22:01:35,263 - INFO - Step 01 completed successfully for bisphenol A
+2025-10-27 22:02:02,172 - ERROR - Step 02 failed for bisphenol A with return code 3221225786
+2025-10-27 22:03:51,558 - INFO - Step 01 completed successfully for bisphenol A
+2025-10-27 22:12:22,685 - INFO - Step 02 completed successfully for bisphenol A
+2025-10-27 22:45:19,088 - INFO - Step 03 completed successfully for bisphenol A
+2025-10-27 22:48:45,842 - INFO - Step 04 completed successfully for bisphenol A
+2025-10-27 22:48:45,843 - INFO - Pipeline completed for bisphenol A
+2025-10-27 22:49:21,801 - INFO - Step 01 completed successfully for cumene
+2025-10-27 22:54:18,959 - INFO - Step 02 completed successfully for cumene
+2025-10-27 23:04:54,196 - INFO - Step 03 completed successfully for cumene
+2025-10-27 23:04:59,674 - INFO - Step 04 completed successfully for cumene
+2025-10-27 23:04:59,674 - INFO - Pipeline completed for cumene
+2025-10-27 23:06:27,970 - INFO - Step 01 completed successfully for vinyl acetate
+2025-10-27 23:15:50,806 - INFO - Step 02 completed successfully for vinyl acetate
+2025-10-27 23:42:24,719 - INFO - Step 03 completed successfully for vinyl acetate
+2025-10-27 23:43:09,624 - INFO - Step 04 completed successfully for vinyl acetate
+2025-10-27 23:43:09,626 - INFO - Pipeline completed for vinyl acetate
+2025-10-27 23:44:02,321 - INFO - Step 01 completed successfully for oxirane
+2025-10-27 23:51:40,387 - INFO - Step 02 completed successfully for oxirane
+2025-10-27 23:55:13,825 - ERROR - Step 03 failed for oxirane with return code 3221225786
+2025-10-27 23:55:39,570 - ERROR - Step 01 failed for oxirane with return code 3221225786
+2025-10-27 23:56:55,201 - INFO - Step 01 completed successfully for oxirane
+2025-10-28 00:04:33,395 - INFO - Step 02 completed successfully for oxirane
+2025-10-28 00:33:29,446 - ERROR - Step 03 failed for oxirane with return code 3221225786
+2025-10-28 00:34:32,335 - INFO - Step 01 completed successfully for oxirane
+2025-10-28 00:42:40,418 - INFO - Step 02 completed successfully for oxirane
+2025-10-28 01:08:48,899 - INFO - Step 03 completed successfully for oxirane
+2025-10-28 01:09:57,484 - INFO - Step 04 completed successfully for oxirane
+2025-10-28 01:09:57,486 - INFO - Pipeline completed for oxirane
+2025-10-28 01:11:27,075 - INFO - Step 01 completed successfully for vinyl chloride
+2025-10-28 01:22:28,130 - INFO - Step 02 completed successfully for vinyl chloride
+2025-10-28 01:43:22,473 - INFO - Step 03 completed successfully for vinyl chloride
+2025-10-28 01:45:48,345 - INFO - Step 04 completed successfully for vinyl chloride
+2025-10-28 01:45:48,347 - INFO - Pipeline completed for vinyl chloride
+2025-10-28 01:46:24,393 - INFO - Step 01 completed successfully for tert-butyl methyl ether
+2025-10-28 01:51:21,878 - INFO - Step 02 completed successfully for tert-butyl methyl ether
+2025-10-28 01:58:41,341 - INFO - Step 03 completed successfully for tert-butyl methyl ether
+2025-10-28 02:00:00,464 - INFO - Step 04 completed successfully for tert-butyl methyl ether
+2025-10-28 02:00:00,466 - INFO - Pipeline completed for tert-butyl methyl ether
+2025-10-28 02:01:24,963 - INFO - Step 01 completed successfully for benzene
+2025-10-28 02:12:12,150 - INFO - Step 02 completed successfully for benzene
+2025-10-28 02:30:52,481 - INFO - Step 03 completed successfully for benzene
+2025-10-28 02:31:50,266 - INFO - Step 04 completed successfully for benzene
+2025-10-28 02:31:50,269 - INFO - Pipeline completed for benzene
+2025-10-28 02:33:11,451 - INFO - Step 01 completed successfully for 1,3-butadiene
+2025-10-28 02:46:14,084 - INFO - Step 02 completed successfully for 1,3-butadiene
+2025-10-28 03:14:03,169 - INFO - Step 03 completed successfully for 1,3-butadiene
+2025-10-28 03:15:11,894 - INFO - Step 04 completed successfully for 1,3-butadiene
+2025-10-28 03:15:11,895 - INFO - Pipeline completed for 1,3-butadiene
+2025-10-28 03:15:15,626 - INFO - Step 01 completed successfully for perfluorooctanesulfonic acid
+2025-10-28 03:15:42,497 - INFO - Step 02 completed successfully for perfluorooctanesulfonic acid
+2025-10-28 03:18:15,200 - INFO - Step 03 completed successfully for perfluorooctanesulfonic acid
+2025-10-28 03:18:45,618 - INFO - Step 04 completed successfully for perfluorooctanesulfonic acid
+2025-10-28 03:18:45,619 - INFO - Pipeline completed for perfluorooctanesulfonic acid
+2025-10-28 03:18:49,534 - INFO - Step 01 completed successfully for lithium (perfluorooctane)sulfonate
+2025-10-28 03:18:52,387 - INFO - Step 02 completed successfully for lithium (perfluorooctane)sulfonate
+2025-10-28 03:18:57,450 - INFO - Step 03 completed successfully for lithium (perfluorooctane)sulfonate
+2025-10-28 03:18:58,096 - INFO - Step 04 completed successfully for lithium (perfluorooctane)sulfonate
+2025-10-28 03:18:58,096 - INFO - Pipeline completed for lithium (perfluorooctane)sulfonate
+2025-10-28 03:19:01,019 - INFO - Step 01 completed successfully for perfluorooctanesulfonyl fluoride
+2025-10-28 03:19:04,332 - INFO - Step 02 completed successfully for perfluorooctanesulfonyl fluoride
+2025-10-28 03:19:09,435 - INFO - Step 03 completed successfully for perfluorooctanesulfonyl fluoride
+2025-10-28 03:19:10,074 - INFO - Step 04 completed successfully for perfluorooctanesulfonyl fluoride
+2025-10-28 03:19:10,075 - INFO - Pipeline completed for perfluorooctanesulfonyl fluoride
+2025-10-28 03:19:48,529 - INFO - Step 01 completed successfully for perfluorooctanoic acid
+2025-10-28 03:23:38,686 - INFO - Step 02 completed successfully for perfluorooctanoic acid
+2025-10-28 03:37:24,245 - INFO - Step 03 completed successfully for perfluorooctanoic acid
+2025-10-28 03:40:16,892 - INFO - Step 04 completed successfully for perfluorooctanoic acid
+2025-10-28 03:40:16,893 - INFO - Pipeline completed for perfluorooctanoic acid
+2025-10-28 03:40:21,583 - INFO - Step 01 completed successfully for perfluorohexanesulfonic acid
+2025-10-28 03:40:36,385 - INFO - Step 02 completed successfully for perfluorohexanesulfonic acid
+2025-10-28 03:41:11,705 - INFO - Step 03 completed successfully for perfluorohexanesulfonic acid
+2025-10-28 03:41:16,076 - INFO - Step 04 completed successfully for perfluorohexanesulfonic acid
+2025-10-28 03:41:16,077 - INFO - Pipeline completed for perfluorohexanesulfonic acid
+2025-10-28 03:42:36,622 - INFO - Step 01 completed successfully for chlorpyrifos
+2025-10-28 03:50:57,581 - INFO - Step 02 completed successfully for chlorpyrifos
+2025-10-28 04:10:40,538 - INFO - Step 03 completed successfully for chlorpyrifos
+2025-10-28 04:21:00,197 - INFO - Step 04 completed successfully for chlorpyrifos
+2025-10-28 04:21:00,199 - INFO - Pipeline completed for chlorpyrifos
+2025-10-28 04:21:11,221 - INFO - Step 01 completed successfully for dicofol
+2025-10-28 04:22:22,791 - INFO - Step 02 completed successfully for dicofol
+2025-10-28 04:23:51,556 - INFO - Step 03 completed successfully for dicofol
+2025-10-28 04:24:25,521 - INFO - Step 04 completed successfully for dicofol
+2025-10-28 04:24:25,523 - INFO - Pipeline completed for dicofol
+2025-10-28 04:24:30,177 - INFO - Step 01 completed successfully for decabromodiphenyl ether
+2025-10-28 04:25:30,031 - INFO - Step 02 completed successfully for decabromodiphenyl ether
+2025-10-28 04:27:42,605 - INFO - Step 03 completed successfully for decabromodiphenyl ether
+2025-10-28 04:28:17,403 - INFO - Step 04 completed successfully for decabromodiphenyl ether
+2025-10-28 04:28:17,407 - INFO - Pipeline completed for decabromodiphenyl ether
+2025-10-28 04:28:20,051 - INFO - Step 01 completed successfully for octabromodiphenyl ethers
+2025-10-28 04:28:25,282 - INFO - Step 02 completed successfully for octabromodiphenyl ethers
+2025-10-28 04:28:31,198 - INFO - Step 03 completed successfully for octabromodiphenyl ethers
+2025-10-28 04:28:31,843 - INFO - Step 04 completed successfully for octabromodiphenyl ethers
+2025-10-28 04:28:31,844 - INFO - Pipeline completed for octabromodiphenyl ethers
+2025-10-28 04:28:36,850 - INFO - Step 01 completed successfully for tetrabromodiphenyl ether
+2025-10-28 04:29:10,756 - INFO - Step 02 completed successfully for tetrabromodiphenyl ether
+2025-10-28 04:30:23,713 - INFO - Step 03 completed successfully for tetrabromodiphenyl ether
+2025-10-28 04:30:36,278 - INFO - Step 04 completed successfully for tetrabromodiphenyl ether
+2025-10-28 04:30:36,279 - INFO - Pipeline completed for tetrabromodiphenyl ether
+2025-10-28 04:31:57,267 - INFO - Step 01 completed successfully for cypermethrin
+2025-10-28 04:37:52,871 - INFO - Step 02 completed successfully for cypermethrin
+2025-10-28 05:01:20,700 - INFO - Step 03 completed successfully for cypermethrin
+2025-10-28 05:12:52,230 - INFO - Step 04 completed successfully for cypermethrin
+2025-10-28 05:12:52,232 - INFO - Pipeline completed for cypermethrin
+2025-10-28 05:12:55,127 - INFO - Step 01 completed successfully for isoprocarb
+2025-10-28 05:13:05,494 - INFO - Step 02 completed successfully for isoprocarb
+2025-10-28 05:13:30,297 - INFO - Step 03 completed successfully for isoprocarb
+2025-10-28 05:13:33,836 - INFO - Step 04 completed successfully for isoprocarb
+2025-10-28 05:13:33,836 - INFO - Pipeline completed for isoprocarb
+2025-10-28 15:37:04,053 - ERROR - Step 01 failed for oxirane with return code 3221225786
+2025-10-28 15:41:02,681 - INFO - Step 01 completed successfully for Dimethylformamide (DMF)
+2025-10-28 15:48:52,233 - INFO - Step 01 completed successfully for Dimethylformamide (DMF)
+2025-10-28 16:00:57,457 - INFO - Step 02 completed successfully for Dimethylformamide (DMF)
+2025-10-28 16:20:14,413 - INFO - Step 03 completed successfully for Dimethylformamide (DMF)
+2025-10-28 16:25:03,876 - INFO - Step 04 completed successfully for Dimethylformamide (DMF)
+2025-10-28 16:25:03,876 - INFO - Pipeline completed for Dimethylformamide (DMF)
+2025-10-28 16:26:27,344 - INFO - Step 01 completed successfully for Benzene
+2025-10-28 16:37:17,590 - INFO - Step 02 completed successfully for Benzene
+2025-10-28 16:53:37,294 - INFO - Step 03 completed successfully for Benzene
+2025-10-28 16:54:32,165 - INFO - Step 04 completed successfully for Benzene
+2025-10-28 16:54:32,167 - INFO - Pipeline completed for Benzene
+2025-10-28 16:54:35,547 - INFO - Step 01 completed successfully for Bis(2-ethylhexyl)phthalate (DEHP)
+2025-10-28 16:54:57,365 - INFO - Step 02 completed successfully for Bis(2-ethylhexyl)phthalate (DEHP)
+2025-10-28 16:55:47,892 - INFO - Step 03 completed successfully for Bis(2-ethylhexyl)phthalate (DEHP)
+2025-10-28 16:56:10,844 - INFO - Step 04 completed successfully for Bis(2-ethylhexyl)phthalate (DEHP)
+2025-10-28 16:56:10,845 - INFO - Pipeline completed for Bis(2-ethylhexyl)phthalate (DEHP)
+2025-10-28 16:56:15,096 - INFO - Step 01 completed successfully for 1,3-Butadiene (BD)
+2025-10-28 16:56:45,387 - INFO - Step 02 completed successfully for 1,3-Butadiene (BD)
+2025-10-28 16:57:31,280 - INFO - Step 03 completed successfully for 1,3-Butadiene (BD)
+2025-10-28 16:57:37,101 - INFO - Step 04 completed successfully for 1,3-Butadiene (BD)
+2025-10-28 16:57:37,102 - INFO - Pipeline completed for 1,3-Butadiene (BD)
+2025-10-28 16:58:53,672 - INFO - Step 01 completed successfully for Acetonitrile
+2025-10-28 17:08:31,460 - INFO - Step 02 completed successfully for Acetonitrile
+2025-10-28 17:22:14,296 - INFO - Step 03 completed successfully for Acetonitrile
+2025-10-28 17:23:06,651 - INFO - Step 04 completed successfully for Acetonitrile
+2025-10-28 17:23:06,654 - INFO - Pipeline completed for Acetonitrile
+2025-10-28 17:23:10,247 - INFO - Step 01 completed successfully for Dichlorodifluoromethane (R-12)
+2025-10-28 17:23:14,065 - INFO - Step 02 completed successfully for Dichlorodifluoromethane (R-12)
+2025-10-28 17:23:20,116 - INFO - Step 03 completed successfully for Dichlorodifluoromethane (R-12)
+2025-10-28 17:23:20,742 - INFO - Step 04 completed successfully for Dichlorodifluoromethane (R-12)
+2025-10-28 17:23:20,742 - INFO - Pipeline completed for Dichlorodifluoromethane (R-12)
+2025-10-28 17:23:45,520 - INFO - Step 01 completed successfully for Tetrachloroethylene
+2025-10-28 17:27:34,226 - INFO - Step 02 completed successfully for Tetrachloroethylene
+2025-10-28 17:31:56,000 - INFO - Step 03 completed successfully for Tetrachloroethylene
+2025-10-28 17:32:17,309 - INFO - Step 04 completed successfully for Tetrachloroethylene
+2025-10-28 17:32:17,310 - INFO - Pipeline completed for Tetrachloroethylene
+2025-10-28 17:32:21,578 - INFO - Step 01 completed successfully for Nonylphenol Ethoxylates (NPEs)
+2025-10-28 17:32:30,117 - INFO - Step 02 completed successfully for Nonylphenol Ethoxylates (NPEs)
+2025-10-28 17:32:45,719 - INFO - Step 03 completed successfully for Nonylphenol Ethoxylates (NPEs)
+2025-10-28 17:32:57,478 - INFO - Step 04 completed successfully for Nonylphenol Ethoxylates (NPEs)
+2025-10-28 17:32:57,479 - INFO - Pipeline completed for Nonylphenol Ethoxylates (NPEs)
+2025-10-28 17:33:02,512 - INFO - Step 01 completed successfully for Methylene Chloride
+2025-10-28 17:34:03,766 - INFO - Step 02 completed successfully for Methylene Chloride
+2025-10-28 17:35:11,927 - INFO - Step 03 completed successfully for Methylene Chloride
+2025-10-28 17:35:16,112 - INFO - Step 04 completed successfully for Methylene Chloride
+2025-10-28 17:35:16,112 - INFO - Pipeline completed for Methylene Chloride
+2025-10-28 17:35:19,204 - INFO - Step 01 completed successfully for Phthalate (PAEs), e.g., DINP
+2025-10-28 17:35:19,367 - INFO - Step 02 completed successfully for Phthalate (PAEs), e.g., DINP
+2025-10-28 17:35:20,201 - INFO - Step 03 completed successfully for Phthalate (PAEs), e.g., DINP
+2025-10-28 17:35:20,836 - INFO - Step 04 completed successfully for Phthalate (PAEs), e.g., DINP
+2025-10-28 17:35:20,837 - INFO - Pipeline completed for Phthalate (PAEs), e.g., DINP
+2025-10-28 17:35:25,631 - INFO - Step 01 completed successfully for Tetrabromobisphenol A (TBBPA)
+2025-10-28 17:36:09,998 - INFO - Step 02 completed successfully for Tetrabromobisphenol A (TBBPA)
+2025-10-28 17:38:14,827 - INFO - Step 03 completed successfully for Tetrabromobisphenol A (TBBPA)
+2025-10-28 17:38:43,466 - INFO - Step 04 completed successfully for Tetrabromobisphenol A (TBBPA)
+2025-10-28 17:38:43,467 - INFO - Pipeline completed for Tetrabromobisphenol A (TBBPA)
+2025-10-28 17:38:48,255 - INFO - Step 01 completed successfully for Hexabromocyclododecane (HBCD)
+2025-10-28 17:39:31,400 - INFO - Step 02 completed successfully for Hexabromocyclododecane (HBCD)
+2025-10-28 17:40:47,365 - INFO - Step 03 completed successfully for Hexabromocyclododecane (HBCD)
+2025-10-28 17:40:58,132 - INFO - Step 04 completed successfully for Hexabromocyclododecane (HBCD)
+2025-10-28 17:40:58,133 - INFO - Pipeline completed for Hexabromocyclododecane (HBCD)

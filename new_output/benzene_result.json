@@ -1,0 +1,168 @@
+[
+  {
+    "title": "Benzyl-methylbenzyl-benzene: Improving hydrogen storage and release performance of dibenzyltoluene based liquid organic hydrogen carrier",
+    "doi": "10.1016/j.cej.2024.150927",
+    "year": 2024,
+    "target": "Benzene",
+    "reasoning": "The abstract discusses the development of benzyl-methylbenzyl-benzene (BMB) as a new chemical structure that improves hydrogen storage performance compared to dibenzyltoluene (DBT). It highlights BMB's low toxicity and non-flammable properties, which can be interpreted as safety advantages, suggesting it is a safer alternative to conventional LOHC materials like DBT, which is associated with Benzene. Therefore, BMB is presented as a safer alternative.",
+    "alternatives": "benzyl-methylbenzyl-benzene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to benzene. It focuses on the development and optimization of LOHC materials, specifically dibenzyltoluene and benzyl-methylbenzyl-benzene, and mentions low toxicity only in relation to Marlotherm SH, not benzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Reduction of benzene in reformate by ethylene alkylation with benzene",
+    "doi": "10.58837/chula.the.2009.1710",
+    "year": "",
+    "target": "Benzene",
+    "reasoning": "The abstract discusses the alkylation of reformate with ethylene, resulting in the production of ethylbenzene instead of benzene. This indicates a process that reduces benzene content, which is a known carcinogen, thus suggesting a safer alternative in terms of reducing exposure to a harmful substance.",
+    "alternatives": "ethylbenzene",
+    "target_chemical_harm": {
+      "harms": [
+        "human carcinogen",
+        "high vapor pressure leading to high evaporative emissions"
+      ],
+      "rationale": "The reasoning explicitly states that benzene is known as a human carcinogen and has high vapor pressure resulting in high evaporative emissions, which are hazards associated with the chemical."
+    },
+    "CHEMICAL HARM": "human carcinogen, high vapor pressure leading to high evaporative emissions"
+  },
+  {
+    "title": "By-products of a former phenol manufacturing site in a small lake adjacent to a Superfund site in the Aberjona watershed.",
+    "doi": "10.1289/EHP.98106S41069",
+    "year": 1998,
+    "target": "Benzene",
+    "reasoning": "The abstract indicates that diphenyl sulfone (DPS), ortho-hydroxybiphenyl (OPP), and para-hydroxybiphenyl (PPP) are not mutagenic in tests, which suggests a safety advantage compared to benzene, known to be toxic and a human carcinogen. This implies that these substances may serve as safer alternatives to benzene in certain contexts.",
+    "alternatives": "diphenyl sulfone (DPS); ortho-hydroxybiphenyl (OPP); para-hydroxybiphenyl (PPP)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "human carcinogen"
+      ],
+      "rationale": "The reasoning explicitly states that benzene is known to be toxic and a human carcinogen."
+    },
+    "CHEMICAL HARM": "toxicity, human carcinogen"
+  },
+  {
+    "title": "Beta sitosterol and Daucosterol (phytosterols identified in Grewia tiliaefolia) perturbs cell cycle and induces apoptotic cell death in A549 cells",
+    "doi": "10.1038/s41598-017-03511-4",
+    "year": 2017,
+    "target": "Benzene",
+    "reasoning": "The abstract indicates that the benzene extract of Grewia tiliaefolia (BGT) is non-toxic to normal human cells and demonstrates non-mutagenic and non-genotoxic properties, suggesting it is a safer alternative to conventional treatments that may harm normal cells. Additionally, it highlights that phytosterols (β-sitosterol and daucosterol) derived from the plant can be considered safe and potential drug candidates for lung cancer treatment, implying a safer alternative to benzene-based therapies.",
+    "alternatives": "phytosterols (β-sitosterol and daucosterol)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to benzene. Instead, it discusses the safety and non-toxicity of a benzene extract from a medicinal plant, emphasizing its non-mutagenic, non-genotoxic nature and tolerability in toxicity studies."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Aliphatic extractive effects on acetic acid catalysis of typical agricultural residues to xylo-oligosaccharide and enzymatic hydrolyzability of cellulose",
+    "doi": "10.1186/s13068-021-01952-8",
+    "year": 2021,
+    "target": "Benzene",
+    "reasoning": "The abstract compares benzene–ethanol extraction with single ethanol extraction and explicitly states that single ethanol extraction is safer, more environmentally friendly, and more cost-effective than benzene–ethanol solvent. This indicates that ethanol extraction is presented as a safer alternative to benzene-containing solvent.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to benzene. It only compares the effectiveness and safety of benzene–ethanol extraction versus ethanol extraction, mentioning that ethanol extraction is safer and more environmentally friendly, but does not specify particular harms of benzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Soot and Flame Structures in Turbulent Partially Premixed Jet Flames of Pre-Evaporated Diesel Surrogates with Admixture of OMEn",
+    "doi": "10.3390/fluids9090210",
+    "year": 2024,
+    "target": "Benzene",
+    "reasoning": "The abstract discusses the addition of poly(oxymethylene) dimethyl ether (OME) to diesel surrogates, which results in a significant reduction of soot formation compared to the pure diesel surrogate. This implies that OME may serve as a safer alternative due to its ability to reduce harmful soot emissions, which can be associated with the use of benzene and similar compounds.",
+    "alternatives": "poly(oxymethylene) dimethyl ether (OME)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to benzene. It focuses on soot formation and oxidation in diesel surrogate flames and the effects of OME addition, without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards of benzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Assessment of Harmful Emissions from Multiple Binder Systems in Pilot-Scale Sand Casting",
+    "doi": "10.3390/molecules30132765",
+    "year": 2025,
+    "target": "Benzene",
+    "reasoning": "The abstract explicitly states that inorganic binders, specifically sodium silicate and geopolymer, achieved significant reductions in BTEX compounds, which include benzene. This indicates that these alternatives are safer due to their lower emissions of hazardous substances compared to organic systems, which implies a safety advantage over benzene.",
+    "alternatives": "sodium silicate; geopolymer",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with benzene. It mentions reductions in BTEX compounds, including benzene, when using inorganic binders, implying benzene is a pollutant, but does not specify explicit harms or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Properties of substitute motor fuels produced from ethanol in biorefineries",
+    "doi": "10.19206/ce-184488",
+    "year": 2024,
+    "target": "Benzene",
+    "reasoning": "The abstract presents EtG fuel (Ethanol to Gasoline) as a replacement fuel for motor gasoline with a limited content of benzene and sulfur, implying lower toxicity and environmental risk. This indicates a safety advantage over conventional gasoline, which contains benzene, thus suggesting EtG as a safer alternative to benzene-containing fuels.",
+    "alternatives": "EtG fuel (Ethanol to Gasoline)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to benzene. It only mentions that EtG fuel has a limited content of benzene, without specifying any toxicological or environmental effects."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effects of co-exposure of benzene, toluene and xylene to Drosophila melanogaster: alteration in hsp70, hsp60, hsp83, hsp26, ROS generation and oxidative stress markers.",
+    "doi": "10.1016/j.chemosphere.2010.01.054",
+    "year": 2010,
+    "target": "Benzene",
+    "reasoning": "The abstract indicates that toluene and xylene, when mixed with benzene, result in lower toxicity compared to benzene alone. This suggests that toluene and xylene can be considered safer alternatives to benzene in terms of toxicity, as their combination reduces the harmful effects associated with benzene exposure.",
+    "alternatives": "toluene; xylene",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "oxidative stress (generation of reactive oxygen species)",
+        "cellular stress (expression of stress genes encoding heat shock proteins)"
+      ],
+      "rationale": "The reasoning explicitly states that benzene is more toxic compared to toluene or xylene, and that exposure to benzene alters stress gene expression, generates reactive oxygen species (ROS), and induces antioxidant stress markers, indicating oxidative and cellular stress. No other specific harms such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity, oxidative stress (generation of reactive oxygen species), cellular stress (expression of stress genes encoding heat shock proteins)"
+  },
+  {
+    "title": "Effectiveness of chinese insecticidal plants with reference to the comparative toxicity of botanical and synthetic insecticides",
+    "doi": "10.1002/JSFA.2740010906",
+    "year": 1950,
+    "target": "Benzene",
+    "reasoning": "The abstract discusses various insecticidal plants, particularly Millettia pachycarpa, which is compared to γ-benzene hexachloride and found to be less toxic. It states that these insecticidal plants are not very toxic to humans and pose a lower risk of chronic poisoning compared to synthetic insecticides, suggesting they are safer alternatives to conventional insecticides like benzene derivatives. Therefore, it implies a safer alternative to benzene through the use of these botanical insecticides.",
+    "alternatives": "Millettia pachycarpa; botanical insecticides",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Benzene. It discusses the toxicity of various insecticidal plants and compares the toxicity of γ-benzene hexachloride (a different chemical) to other insecticides, but does not mention Benzene itself or its hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The impact of biodegradable surfactants on water quality",
+    "doi": "10.1007/BF02655501",
+    "year": 1968,
+    "target": "Benzene",
+    "reasoning": "The abstract explicitly states that the detergent industry voluntarily converted from alkyl benzene sulfonate (ABS) to linear alkylate sulfonate (LAS) and other biodegradable surfactants, highlighting a significant improvement in water quality due to lower surfactant residue levels. Since ABS is a benzene-derived surfactant and LAS is biodegradable with demonstrated environmental benefits, LAS can be reasonably interpreted as a safer alternative to benzene-based surfactants.",
+    "alternatives": "linear alkylate sulfonate (LAS)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Benzene. It focuses on the detergent industry's conversion from ABS to LAS and its impact on water quality, without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards of Benzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Hydrogenated Benzene in Circumstellar Environments: Insights into the Photostability of Super-hydrogenated PAHs",
+    "doi": "10.3847/1538-4357/aaa977",
+    "year": 2018,
+    "target": "Benzene",
+    "reasoning": "The abstract discusses cyclohexane (fully hydrogenated benzene) and its stability under stellar radiation, indicating a higher tendency toward dissociation compared to benzene. This suggests that cyclohexane may have safety advantages in certain environments, implying it could be a safer alternative to benzene, particularly in terms of photodissociation efficiency.",
+    "alternatives": "cyclohexane",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the photodissociation and photoionization properties of benzene and related compounds in astrophysical environments but does not explicitly state any harms or hazards related to benzene such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "The Risk of MTBE Relative to Other VOCs in Public Drinking Water in California",
+    "doi": "10.1111/j.0272-4332.2004.00463.x",
+    "year": 2004,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract compares MTBE to tetrachloroethylene and other VOCs, stating that MTBE poses one of the least cancer risks and has the lowest estimated cancer potency value among them. It suggests MTBE poses an insignificant threat to public drinking water and public health relative to tetrachloroethylene, indicating a safety advantage. Therefore, MTBE is presented as a safer alternative to tetrachloroethylene.",
+    "alternatives": "MTBE",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions the detection frequency and concentration levels of tetrachloroethylene in drinking water but does not explicitly state any harms or hazards associated with tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Final disposal of VOCs from industrial wastewaters",
+    "doi": "10.1002/EP.670130315",
+    "year": 1994,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract discusses a new commercial catalyst that can completely destroy stable VOCs such as trichloroethylene and tetrachloroethylene at relatively low temperatures. This indicates a method that could be considered a safer alternative for the disposal of these compounds, as it suggests effective destruction rather than mere containment or replacement.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses methods for disposal of volatile organic compounds including tetrachloroethylene, but does not explicitly state any harms or hazards associated with tetrachloroethylene itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Life Cycle Assessment of A Hydrocarbon-based Electrified Cleaning Agent",
+    "doi": "10.17737/TRE.2021.7.1.00129",
+    "year": 2021,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract compares the production process of the developed hydrocarbon-based electrified cleaning agent with that of tetrachloroethylene, indicating advantages in terms of carbon footprint and other environmental impact indicators. This suggests that the new cleaning agent is a safer alternative due to its lower environmental impact compared to tetrachloroethylene.",
+    "alternatives": "hydrocarbon-based electrified cleaning agent",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to tetrachloroethylene such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards. It focuses on environmental impact indicators and production process improvements without detailing specific chemical hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "In Situ Bioremediation via Horizontal Wells",
+    "doi": "10.1201/9781003070153-6",
+    "year": 1993,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract indicates that the in situ bioremediation method using methanotrophic bacteria resulted in significant decreases in concentrations of trichloroethylene and tetrachloroethylene, suggesting that this method is effective in reducing these contaminants. While it does not explicitly state that this method is safer than tetrachloroethylene, the context implies a safer alternative through the reduction of these harmful solvents.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text describes remediation technologies and microbial degradation of tetrachloroethylene but does not explicitly state any harms or hazards associated with tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Analysis of Solvent Properties of Mandarin Oil",
+    "doi": "10.4028/www.scientific.net/MSF.852.1201",
+    "year": 2016,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract explicitly states that Mandarin oil, which contains 85% limonene, can replace tetrachloroethylene and highlights that limonene is a 'safe, non-toxic organic solvent.' This indicates that Mandarin oil is presented as a safer alternative to tetrachloroethylene.",
+    "alternatives": "Mandarin oil; limonene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to tetrachloroethylene. It only mentions that mandarin oil can replace benzene, methylbenzene, and tetrachloroethylene as a solvent, and describes limonene as safe and non-toxic, without specifying any toxicity or hazards for tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Performance assessment on combined process of the oxidation and Biological Activated Carbon filtration for removal of Chlorinated Volatile Organic Carbons from river water",
+    "doi": "10.1007/S12205-017-1665-8",
+    "year": 2018,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract discusses a combination of Biological Activated Carbon (BAC) biofiltration and ozonation as an alternative to conventional chlorination and filtration processes for the removal of Chlorinated Volatile Organic Carbons (CVOCs), which include Tetrachloroethylene. While it does not explicitly state that BAC is safer than Tetrachloroethylene, it implies a safer alternative by highlighting the efficiency of the removal process compared to traditional methods that may involve Tetrachloroethylene.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [
+        "acute toxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that Chlorinated Volatile Organic Carbons (CVOCs), which include tetrachloroethylene, are of increasing concern due to their acute toxicity."
+    },
+    "CHEMICAL HARM": "acute toxicity"
+  },
+  {
+    "title": "Novel Oxidation Strategies for the In Situ Remediation of Chlorinated Solvents from Groundwater—A Bench-Scale Study",
+    "doi": "10.3390/w16091241",
+    "year": 2024,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract presents a combined oxidation treatment using persulfate (PS) and sulfidated nano-zero valent iron (S-nZVI) that effectively removes tetrachloroethylene from groundwater and significantly reduces the environmental risk quotient from high to low. It also notes the absence of harmful transformation products, indicating a safer remediation method. This clearly indicates a safer alternative method for dealing with tetrachloroethylene contamination.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the pollution of groundwater by industrial chlorinated solvents including tetrachloroethylene and the effectiveness of remediation treatments. However, it does not explicitly state any harms or hazards related to tetrachloroethylene such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Catalytic performance and mechanism of biochars for dechlorination of tetrachloroethylene in sulfide aqueous solution",
+    "doi": "10.1016/j.apcatb.2020.119285",
+    "year": 2020,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract discusses the use of biochar (BC) as a catalyst for the dechlorination of tetrachloroethylene (PCE) and highlights its ability to achieve over 99% nontoxic transformation. This indicates that biochar presents a safer alternative to tetrachloroethylene due to its nontoxic transformation products, which can be interpreted as a safety advantage over the original compound.",
+    "alternatives": "biochar",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the degradation of tetrachloroethylene (PCE) using biochar catalysts and mentions the transformation to nontoxic products, but does not explicitly state any harms or hazards associated with tetrachloroethylene itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Performance assessment on combined process of the oxidation and Biological Activated Carbon filtration for removal of Chlorinated Volatile Organic Carbons from river water",
+    "doi": "10.1007/s12205-017-1665-8",
+    "year": 2017,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract discusses a combination of Biological Activated Carbon (BAC) biofiltration and ozonation as an alternative to conventional chlorination and filtration processes for the removal of Chlorinated Volatile Organic Carbons (CVOCs), which include Tetrachloroethylene. While it does not explicitly state that BAC is safer than Tetrachloroethylene, it implies a safer alternative by highlighting the efficiency of the removal process compared to traditional methods, which are associated with the use of CVOCs.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [
+        "acute toxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that Chlorinated Volatile Organic Carbons (CVOCs), which include tetrachloroethylene (PCE), are of increasing concern due to their acute toxicity."
+    },
+    "CHEMICAL HARM": "acute toxicity"
+  }
+]

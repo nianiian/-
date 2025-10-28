@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Assessment of Harmful Emissions from Multiple Binder Systems in Pilot-Scale Sand Casting",
+    "doi": "10.3390/molecules30132765",
+    "year": 2025,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract explicitly states that inorganic binders, specifically sodium silicate and geopolymer, achieved significant reductions in gas emissions and priority pollutants, including over 90% reductions in BTEX compounds, which include ethylbenzene. This indicates that these alternatives are safer than ethylbenzene due to their lower emissions and associated risks.",
+    "alternatives": "sodium silicate; geopolymer",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with ethylbenzene. It only mentions that emissions of ethylbenzene (as part of BTEX compounds) were significantly reduced by using inorganic binders, implying a concern about emissions but not explicitly describing specific harms or hazards of ethylbenzene itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Studies on the Gases Emission under High Temperature Condition from Moulding Sands Bonded by Modified Starch CMS-Na",
+    "doi": "10.1515/AFE-2017-0014",
+    "year": 2017,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract indicates that the biopolymer binder (water-soluble modified potato starch) results in lower emissions of aromatic hydrocarbons compared to a resin binder (Kaltharz U404) commonly used in foundries. This suggests a safety advantage in terms of reduced gaseous pollutants, which can be interpreted as a safer alternative to ethylbenzene, as it is part of the BTEX compounds mentioned.",
+    "alternatives": "water-soluble modified potato starch",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the emission of gases including ethylbenzene during the decomposition of starch binders at high temperatures and their impact on casting quality and the environment. However, it does not explicitly state any specific harms or hazards related to ethylbenzene such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Predictive kinetics on the formation and decomposition of ethylbenzene",
+    "doi": "10.1016/J.PROCI.2016.05.031",
+    "year": 2017,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract suggests that the ethylbenzene system should serve as a better and safer reference, implying that there may be alternatives that are safer than ethylbenzene, although it does not explicitly name any specific alternative. Therefore, it can be interpreted as indicating a safer alternative in the context of its use.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text focuses on the kinetics and reaction mechanisms involving ethylbenzene and does not explicitly state any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Kinetic Experimental and Modeling Evaluations of Asphaltene Morphology and Growth Rate under Varying Temperature and Brine Conditions",
+    "doi": "10.2118/213811-ms",
+    "year": 2023,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract indicates that the accurate prediction of asphaltene precipitation will eliminate the need for harmful remediation solvents like benzene/toluene/ethylbenzene/xylene (BTEX). This suggests that the methods discussed provide a safer alternative to ethylbenzene by reducing reliance on harmful solvents.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to ethylbenzene. It only mentions ethylbenzene as part of harmful remediation solvents (BTEX) that could be eliminated by accurate prediction of asphaltene precipitation, but does not specify any particular toxicity, persistence, bioaccumulation, or occupational hazards for ethylbenzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Influence of Biodiesel on Emissions of Criteria and Non-Criteria Primary and Secondary Pollutants",
+    "doi": "10.21577/0103-5053.20250160",
+    "year": 2025,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the use of biodiesel as a fuel alternative and indicates a clear reduction in emissions of ethylbenzene and other harmful pollutants when using biodiesel mixtures. This suggests that biodiesel may be a safer alternative to ethylbenzene due to the reduction in emissions of harmful compounds.",
+    "alternatives": "biodiesel",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards specifically associated with ethylbenzene. It mentions changes in emissions including a reduction in ethylbenzene levels in exhaust gases when biodiesel mixtures are used, but does not describe any toxicity, persistence, bioaccumulation, or other hazards related to ethylbenzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparing the Effects of Weathering and Microbial Degradation on Gasoline Using Principal Components Analysis *",
+    "doi": "10.1111/j.1556-4029.2011.01989.x",
+    "year": 2012,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the vulnerability of ethylbenzene to weathering and microbial degradation compared to 1,3,5-trimethylbenzene and 2-ethyltoluene, which are noted as more resistant. This implies that 1,3,5-trimethylbenzene and 2-ethyltoluene could be considered safer alternatives due to their resistance to degradation processes that affect ethylbenzene.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text only discusses the susceptibility of ethylbenzene to weathering and microbial degradation, without explicitly stating any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Guanidine Nitrate Enhanced Catalysis of Nitrogen‐Doped Carbon Nanotubes for Metal‐Free Styrene Production through Direct Dehydrogenation",
+    "doi": "10.1002/cctc.201402934",
+    "year": 2015,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the use of nitrogen-doped carbon nanotubes (N-doped CNTs) for the direct dehydrogenation of ethylbenzene to styrene, highlighting their environmentally benign features and energy-saving capabilities. While it does not explicitly state that N-doped CNTs are a safer alternative to ethylbenzene, it implies a safer production method by emphasizing the absence of oxidants and steam, which suggests a reduction in potential hazards associated with traditional methods. Therefore, it can be interpreted as a safer alternative in the context of the production process.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to ethylbenzene. It focuses on the catalytic performance and preparation of nitrogen-doped carbon nanotubes for the dehydrogenation of ethylbenzene, without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Carbohydrate-mediated purification of petrochemicals.",
+    "doi": "10.1021/ja511878b",
+    "year": 2015,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the use of CD-MOFs as a green alternative for the separation of aromatic hydrocarbons, including ethylbenzene, indicating that they provide an efficient and reliable method compared to current isolation protocols. This suggests that CD-MOFs are a safer alternative due to their green chemistry approach, although specific safety advantages are not explicitly detailed.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to ethylbenzene. It focuses on the separation capabilities of CD-MOFs for aromatic hydrocarbons, including ethylbenzene, without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Toxicological Response of the BEAS‐2B Cell After Acute Exposure at the Air–Liquid Interface to Ethylbenzene and m‐Xylene Alone and in Binary Mixtures",
+    "doi": "10.1002/jat.4806",
+    "year": 2025,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the toxicological response of ethylbenzene and m-xylene, highlighting that m-xylene is metabolized and induces protective mechanisms in cells, while ethylbenzene does not. This suggests that m-xylene may be a safer alternative due to its ability to activate antioxidant defenses and metabolize effectively, contrasting with the toxicity profile of ethylbenzene.",
+    "alternatives": "m-xylene",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "inhibition of gene expression of xenobiotic metabolizing enzymes",
+        "slight inflammatory response"
+      ],
+      "rationale": "The reasoning text explicitly states that ethylbenzene is part of a family of VOCs known for toxicity. It also mentions that ethylbenzene inhibited gene expression of xenobiotic metabolizing enzymes and caused a slight inflammatory response in human bronchial epithelial cells. No other explicit harms such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity, inhibition of gene expression of xenobiotic metabolizing enzymes, slight inflammatory response"
+  },
+  {
+    "title": "A Shape Selective Shift in the Mechanism of Transethylation and Its Effect on the Ability to Hydrodeethylate Ethylbenzene",
+    "doi": "10.1016/S0167-2991(09)60653-4",
+    "year": 1988,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the use of medium pore molecular sieves, specifically AMS-1B, in the transethylation process, which allows for the conversion of ethylbenzene to by-products while suppressing undesirable reactions. This indicates a safer alternative to ethylbenzene in the context of its conversion processes, as it highlights a method that prevents excessive methyl transfer and promotes hydrodeethylation, which can be interpreted as a safer approach.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses chemical processes involving ethylbenzene, such as transethylation and hydrodeethylation, but does not explicitly state any harms or hazards related to ethylbenzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis of Hierarchical Porous Ti-ZSM-5: A High Active Catalyst for Benzene Alkylation with Methanol",
+    "doi": "10.3390/catal10060693",
+    "year": 2020,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the development of hierarchical porous Ti-ZSM-5, which shows high utilization efficiency of methanol and a significant suppression of ethylbenzene formation. This indicates that Ti-ZSM-5 is a safer alternative as it reduces the generation of ethylbenzene, which is a byproduct associated with safety concerns.",
+    "alternatives": "hierarchical porous Ti-ZSM-5",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the production process and suppression of ethylbenzene formation but does not explicitly state any harms or hazards related to ethylbenzene."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "dl‐Limonene as an Alternative Sustainable Solvent to Xylenes for the Industrial Preparation of Release Formulations",
+    "doi": "10.1002/open.202400259",
+    "year": 2024,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the use of dl‐limonene as an alternative to BTEX solvents, which include ethylbenzene. It highlights the toxicological concerns associated with traditional aromatic hydrocarbons and implies that dl‐limonene is a more sustainable option, suggesting safety advantages over ethylbenzene.",
+    "alternatives": "dl-limonene",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicological profile"
+      ],
+      "rationale": "The reasoning text explicitly states that the use of aromatic hydrocarbons including ethylbenzene is discouraged due to their toxicological profile, indicating toxicity as a harm. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicological profile"
+  },
+  {
+    "title": "Degradation of BTEX by anaerobic bacteria: physiology and application",
+    "doi": "10.1007/S11157-010-9219-2",
+    "year": 2010,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract discusses the degradation of BTEX compounds, including ethylbenzene, by anaerobic bacteria and mentions 'perchlorate stimulated degradation' as an interesting new alternative option for bioremediation. This implies a potential safer alternative to traditional methods involving ethylbenzene, although it does not explicitly state that it is safer than ethylbenzene itself.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions pollution of the environment with ethylbenzene as part of aromatic hydrocarbons and refers to these compounds as toxic, but does not explicitly state specific harms or hazards related to ethylbenzene itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative Bioaccumulation of PAH and BTEX in Malapterurus electricus (Siluriformes: Malapteruridae) and its Enteric Parasite, Electrotaenia malopteruri Sampled from Lekki Lagoon, Lagos, Nigeria.",
+    "doi": "10.1590/1519-6984.236827",
+    "year": 2020,
+    "target": "ethylbenzene",
+    "reasoning": "The abstract indicates that the enteric parasite, E. malopteruri, has the ability to depurate ethylbenzene from the intestine of its host fish, M. electricus. This suggests a potential for the parasite to serve as a safer alternative to ethylbenzene, as it may help reduce the concentration of this contaminant in the fish.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [
+        "oxidative stress indicated by decrease in superoxide dismutase (SOD), catalase (CAT), and reduced glutathione (GSH)",
+        "increase in Malondialdehyde (MDA) indicating lipid peroxidation",
+        "tissue injuries in fish intestine"
+      ],
+      "rationale": "The reasoning text explicitly mentions that exposure to ethylbenzene (as part of BTEX) is associated with oxidative stress markers (decreased antioxidant enzymes and increased lipid peroxidation) and tissue injuries in the fish intestine, indicating harm. No other explicit harms such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are stated."
+    },
+    "CHEMICAL HARM": "oxidative stress indicated by decrease in superoxide dismutase (SOD), catalase (CAT), and reduced glutathione (GSH), increase in Malondialdehyde (MDA) indicating lipid peroxidation, tissue injuries in fish intestine"
+  }
+]

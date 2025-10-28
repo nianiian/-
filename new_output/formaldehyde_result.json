@@ -1,0 +1,149 @@
+[
+  {
+    "title": "2-[(Hydroxymethyl)amino]ethanol in water as a preservative: Study of formaldehyde released by Taguchi's method",
+    "doi": "10.1088/1755-1315/36/1/012049",
+    "year": 2016,
+    "target": "formaldehyde",
+    "reasoning": "The abstract indicates that 2-[(hydroxymethyl)amino]ethanol (HAE) can be used as a preservative to replace current systems, implying it is a safer alternative to formaldehyde due to its reduced impact on environmental toxicity. This suggests a safety advantage over formaldehyde, which is known for its toxicity.",
+    "alternatives": "2-[(hydroxymethyl)amino]ethanol (HAE)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It discusses the release of formaldehyde from a preservative system and mentions reduced environmental toxicity impact, but no specific toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are explicitly mentioned."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Towards the Removal of HMTA Molecules in the Chemical Bath Deposition of ZnO Nanowires",
+    "doi": "10.3390/nano15201574",
+    "year": 2025,
+    "target": "formaldehyde",
+    "reasoning": "The abstract indicates that HMTA, which forms formaldehyde, is being replaced by ammonia in the high-pH region for the deposition of ZnO nanowires. This substitution suggests a safer alternative due to the harmful nature of formaldehyde, aligning with green chemistry principles.",
+    "alternatives": "ammonia",
+    "target_chemical_harm": {
+      "harms": [
+        "formaldehyde as a harmful substance raises health, environment, and regulation issues"
+      ],
+      "rationale": "The text explicitly states that formaldehyde, formed from HMTA molecules, is a harmful substance raising health, environment, and regulation issues. No specific types of toxicity or hazards are detailed beyond this general statement."
+    },
+    "CHEMICAL HARM": "formaldehyde as a harmful substance raises health, environment, and regulation issues"
+  },
+  {
+    "title": "What do we need to know about hair straightening?",
+    "doi": "10.18203/issn.2455-4529.intjresdermatol20213356",
+    "year": 2021,
+    "target": "formaldehyde",
+    "reasoning": "The abstract explicitly mentions the evolution from formaldehyde-based permanent relaxers to formaldehyde-free hair strengthening procedures like hair Botox, which produces less chemical damage. This indicates that hair Botox is presented as a safer alternative to formaldehyde in hair straightening.",
+    "alternatives": "hair Botox",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Kualitas Fisis Kulit Ikan Lencam (Lethrinus lentjan) dengan Penyamakan Menggunakan Glutaraldehyde",
+    "doi": "10.36706/fishtech.v12i1.17087",
+    "year": 2023,
+    "target": "formaldehyde",
+    "reasoning": "The abstract explicitly states that glutaraldehyde is considered a safer and more environmentally friendly alternative to formaldehyde for tanning fish skin. This indicates a clear safety advantage over formaldehyde, fulfilling the criteria for a safer alternative.",
+    "alternatives": "glutaraldehyde",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that formaldehyde is currently used as a tanning agent but is considered unsafe, and glutaraldehyde is considered safer and more environmentally friendly. However, no explicit harms or hazards related to formaldehyde are directly stated in the text."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Flame‐retardant finishing in cotton fabrics using zinc oxide co‐catalyst",
+    "doi": "10.1002/APP.33738",
+    "year": 2011,
+    "target": "formaldehyde",
+    "reasoning": "The abstract indicates that the addition of ZnO or nano-ZnO co-catalyst results in a decrease in free formaldehyde content in the treated cotton fabrics. This suggests that the use of ZnO or nano-ZnO may be a safer alternative to formaldehyde due to the reduction of formaldehyde levels, which is associated with lower toxicity and environmental risks.",
+    "alternatives": "zinc oxide (ZnO); nano-zinc oxide (nano-ZnO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It only mentions that the free formaldehyde content was reduced when ZnO and nano-ZnO co-catalysts were added, without specifying any toxicity or hazard information."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "NOVEL TEMPLATED POLYPHENOL FOR IONIC CONDUCTIVITY",
+    "doi": "10.1557/PROC-702-U6.6.1",
+    "year": 2001,
+    "target": "formaldehyde",
+    "reasoning": "The abstract presents a biocatalytic approach using horseradish peroxidase to polymerize phenol with polyethylene oxide as a template, highlighting mild reaction conditions and avoiding the toxic formaldehyde starting material. This indicates a safer alternative to formaldehyde-based phenol formaldehyde resins by reducing toxicity and harsh conditions.",
+    "alternatives": "phenol with polyethylene oxide",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic nature of formaldehyde"
+      ],
+      "rationale": "The reasoning text explicitly states that formaldehyde is toxic, referring to the 'toxic nature of the starting materials (formaldehyde)'. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxic nature of formaldehyde"
+  },
+  {
+    "title": "3D-Printed PLA Medical Devices: Physicochemical Changes and Biological Response after Sterilisation Treatments",
+    "doi": "10.3390/polym14194117",
+    "year": 2022,
+    "target": "formaldehyde",
+    "reasoning": "The abstract discusses various sterilisation techniques for 3D-printed PLA medical devices, including low temperature steam with formaldehyde (LTSF). It concludes that gamma irradiation (GR) sterilisation is the least reactive technique and has good perspectives in terms of biological response and toxicity, suggesting it is a safer alternative to LTSF. Therefore, GR can be interpreted as a safer alternative to formaldehyde.",
+    "alternatives": "gamma irradiation (GR)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It only mentions formaldehyde as part of a sterilisation technique (low temperature steam with formaldehyde) and reports that none of the sterilisation techniques, including the one with formaldehyde, promoted the release of toxic compounds or caused toxicity effects."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "LIFE CYCLE ASSESSMENT FOR OIL PALM BASED PLYWOOD: A GATE-TO-GATE CASE STUDY",
+    "doi": "10.3844/AJESSP.2014.86.93",
+    "year": 2014,
+    "target": "formaldehyde",
+    "reasoning": "The abstract mentions the use of substitutes for inorganic chemical adhesives, including groundnut shell lignin adhesive and modified phenol formaldehyde adhesive, which can be interpreted as safer alternatives to formaldehyde. The context implies that these substitutes may have lower environmental impacts compared to traditional formaldehyde-based adhesives.",
+    "alternatives": "groundnut shell lignin adhesive; modified phenol formaldehyde adhesive",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It mentions the use of modified phenol formaldehyde adhesive as a substitute but does not describe any toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards associated with formaldehyde."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Glyoxal as an alternative fixative to formaldehyde in immunostaining and super‐resolution microscopy",
+    "doi": "10.15252/embj.201695709",
+    "year": 2017,
+    "target": "formaldehyde",
+    "reasoning": "The abstract explicitly states that glyoxal is less toxic than paraformaldehyde (PFA, a polymer of formaldehyde) and can successfully replace PFA as a fixative. It highlights glyoxal's improved efficiency and better preservation of cellular morphology, supporting its use as a safer alternative to formaldehyde-based fixatives.",
+    "alternatives": "glyoxal",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with formaldehyde. It only mentions that paraformaldehyde (PFA) has been associated with problems such as loss of antigenicity and changes in morphology during fixation, but does not explicitly list toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards for formaldehyde."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Carbon Aerogels From Softwood Kraft Lignin for High Performance Supercapacitor Electrodes",
+    "doi": "10.3389/fmats.2022.894061",
+    "year": 2022,
+    "target": "formaldehyde",
+    "reasoning": "The abstract discusses the use of lignin as a promising alternative for carbon aerogel production, which is compared to resorcinol-formaldehyde based carbon aerogel. The performance metrics indicate that the lignin-based aerogels have better electrochemical performance and stability, suggesting a safety advantage over formaldehyde-based alternatives, thus implying that lignin is a safer alternative.",
+    "alternatives": "lignin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It only mentions formaldehyde in comparison to other carbon aerogels but does not describe any toxicity, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "No-Aldehydes Glucose/Sucrose-Triacetin-Diamine Wood Adhesives for\nParticleboard",
+    "doi": "10.32604/jrm.2020.010882",
+    "year": 2020,
+    "target": "formaldehyde",
+    "reasoning": "The abstract presents a wood adhesive system that does not contain any aldehyde and results in extremely low formaldehyde emission, indicating a safety advantage over formaldehyde-based adhesives. This glucose/sucrose-triacetin-diamine adhesive is thus a safer alternative to formaldehyde adhesives.",
+    "alternatives": "glucose/sucrose-triacetin-diamine adhesive",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to formaldehyde. It only mentions that the adhesive system developed has extremely low formaldehyde emission, implying a reduction in potential harm but not explicitly describing any specific hazards."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

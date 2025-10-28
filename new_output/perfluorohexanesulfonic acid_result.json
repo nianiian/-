@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Evaluation of Developmental Toxicity, Developmental Neurotoxicity, and Tissue Dose in Zebrafish Exposed to GenX and Other PFAS",
+    "doi": "10.1289/EHP5843",
+    "year": 2020,
+    "target": "perfluorohexanesulfonic acid",
+    "reasoning": "The abstract compares the toxicity of several PFAS including perfluorohexanesulfonic acid (PFHxS) and emerging fluoroether PFAS such as GenX, ADONA, and PFESA1. It states that all emerging fluoroether PFAS tested were negative for evaluated developmental toxicity and neurotoxicity outcomes, whereas PFHxS caused developmental neurotoxicity effects. This indicates that these fluoroether PFAS, including GenX, have safety advantages relative to PFHxS and can be interpreted as safer alternatives.",
+    "alternatives": "GenX; ADONA; PFESA1",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental neurotoxicity",
+        "failed swim bladder inflation",
+        "abnormal ventroflexion of the tail",
+        "hyperactivity at nonteratogenic concentrations"
+      ],
+      "rationale": "The reasoning text explicitly states that exposure to perfluorohexanesulfonic acid (PFHxS) caused failed swim bladder inflation, abnormal ventroflexion of the tail, and hyperactivity at nonteratogenic concentrations, indicating developmental neurotoxicity. These are the explicit harms mentioned for PFHxS."
+    },
+    "CHEMICAL HARM": "developmental neurotoxicity, failed swim bladder inflation, abnormal ventroflexion of the tail, hyperactivity at nonteratogenic concentrations"
+  }
+]

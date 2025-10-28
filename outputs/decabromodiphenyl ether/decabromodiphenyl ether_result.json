@@ -1,0 +1,195 @@
+[
+  {
+    "title": "Effect of exposure to decabromodiphenyl ether and tetrabromobisphenol A in combination with lead and cadmium on soil enzyme activity",
+    "doi": "10.1016/J.IBIOD.2016.10.032",
+    "year": 2017,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares the eco-toxicological potential of decabromodiphenyl ether (BDE209) with tetrabromobisphenol A (TBBPA), indicating that BDE209 has a higher eco-toxicological potential to soil enzymatic activity than TBBPA. This suggests that TBBPA may be a safer alternative to BDE209 in terms of its impact on soil enzymes.",
+    "alternatives": "tetrabromobisphenol A (TBBPA)",
+    "target_chemical_harm": {
+      "harms": [
+        "eco-toxicological potential to soil enzymatic activity"
+      ],
+      "rationale": "The reasoning states that BDE209 (decabromodiphenyl ether) exhibited a higher eco-toxicological potential to soil enzymatic activity than TBBPA, indicating harm to soil enzymes. No other explicit harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "eco-toxicological potential to soil enzymatic activity"
+  },
+  {
+    "title": "Effect of Organo‐Modified Nanosepiolite on Fire Behaviors and Mechanical Performance of Polypropylene Composites",
+    "doi": "10.1002/CJOC.201400828",
+    "year": 2015,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract indicates that the addition of organo-modified nanosepiolite (ONSep) improves the fire safety of polypropylene composites that contain decabromodiphenyl ether (DBDPE). It suggests that ONSep enhances the fire safety and allows for a decrease in the total amount of brominated fire retardants, which implies that ONSep could be a safer alternative to DBDPE.",
+    "alternatives": "organo-modified nanosepiolite",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to decabromodiphenyl ether. It only discusses its use as a flame retardant and improvements in fire safety and mechanical properties when combined with other materials."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Quantification of Zinc Hydroxystannate** and Stannate** Synergies in Halogen-containing Flame-retardant Polymeric Formulations",
+    "doi": "10.1177/0734904109344302",
+    "year": 2010,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract indicates that zinc stannate (ZS) and zinc hydroxystannate (ZHS) are used as synergists in fire-retardant systems and offers properties of relative nontoxicity compared to antimony III oxide (ATO) and decabromodiphenyl ether. It suggests that these alternatives provide safety advantages, particularly in terms of lower toxicity, which can be interpreted as a safer alternative to decabromodiphenyl ether.",
+    "alternatives": "zinc stannate; zinc hydroxystannate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the synergistic effectiveness of various compounds, including decabromodiphenyl ether, in flame-retardant formulations but does not explicitly state any harms or hazards related to decabromodiphenyl ether."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Rapid removal of decabromodiphenyl ether by mechanochemically prepared submicron zero-valent iron with FeC2O4·2 H2O layers: Kinetics, mechanisms and pathways.",
+    "doi": "10.1016/j.jhazmat.2023.133309",
+    "year": 2023,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract discusses the synthesis and performance of OX-smZVI, which shows a significantly faster removal rate of decabromodiphenyl ether compared to nZVI. While it does not explicitly state that OX-smZVI is safer than decabromodiphenyl ether, the context implies it is a more effective alternative for remediation, suggesting potential safety advantages in terms of efficiency and cost-effectiveness.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the synthesis and effectiveness of OX-smZVI for degrading decabromodiphenyl ether but does not explicitly state any harms or hazards related to decabromodiphenyl ether."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Assess flame retardants with care",
+    "doi": "10.1126/science.aay7649",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract explicitly states that recent flame retardants, such as polymeric compounds with high molecular weight, are safer than older alternatives because they do not migrate from polymers and are essentially not bioavailable, reducing harm. It also references a U.S. EPA alternatives assessment for decabromodiphenyl ether, indicating safer alternatives exist. Therefore, it clearly presents safer alternatives to decabromodiphenyl ether.",
+    "alternatives": "polymeric flame retardants",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards specifically associated with decabromodiphenyl ether. It discusses general issues with older halogenated flame retardants and the need for careful assessment, but no explicit toxicity, bioaccumulation, persistence, or occupational hazards are mentioned for the target chemical."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A comparison of the thyroid disruption induced by decabrominated diphenyl ethers (BDE-209) and decabromodiphenyl ethane (DBDPE) in rats.",
+    "doi": "10.1016/j.ecoenv.2019.02.080",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares decabromodiphenyl ethane (DBDPE) as an alternative flame retardant to decabrominated diphenyl ethers (BDE-209) and finds that both disrupt thyroid function. However, it explicitly states that DBDPE was found to be less toxic than BDE-209, indicating a safety advantage.",
+    "alternatives": "decabromodiphenyl ethane (DBDPE)",
+    "target_chemical_harm": {
+      "harms": [
+        "thyroid function disruption",
+        "thyrotoxicosis",
+        "oxidative damage to thyroid gland",
+        "histological and ultrastructural changes in thyroid gland",
+        "perturbations of hypothalamic-pituitary-thyroid (HPT) axis"
+      ],
+      "rationale": "The reasoning text explicitly states that decabromodiphenyl ether (BDE-209) exposure causes thyroid function disruption including thyrotoxicosis, oxidative damage to the thyroid gland, histological and ultrastructural changes in the thyroid, and affects the expression of HPT axis related genes. These are direct harms mentioned. No other explicit harms such as persistence, bioaccumulation, or occupational hazards are stated."
+    },
+    "CHEMICAL HARM": "thyroid function disruption, thyrotoxicosis, oxidative damage to thyroid gland, histological and ultrastructural changes in thyroid gland, perturbations of hypothalamic-pituitary-thyroid (HPT) axis"
+  },
+  {
+    "title": "Combining In Silico Tools with Multicriteria Analysis for Alternatives Assessment of Hazardous Chemicals: Accounting for the Transformation Products of decaBDE and Its Alternatives",
+    "doi": "10.1021/acs.est.0c02593",
+    "year": 2020,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract explicitly states that even when considering transformation products, the five alternatives to decabromodiphenyl ether remain less hazardous than decaBDE. It identifies melamine and bis(2-ethylhexyl)-tetrabromophthalate as the least hazardous alternatives, indicating a clear safety advantage over decaBDE.",
+    "alternatives": "melamine; bis(2-ethylhexyl)-tetrabromophthalate",
+    "target_chemical_harm": {
+      "harms": [
+        "persistence",
+        "bioaccumulation",
+        "toxicity"
+      ],
+      "rationale": "The reasoning explicitly states that decabromodiphenyl ether (decaBDE) and its transformation products are persistent, bioaccumulative, and toxic, as indicated by the PBT (persistence, bioaccumulation, toxicity) composite scoring. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "persistence, bioaccumulation, toxicity"
+  },
+  {
+    "title": "Melatonin as an Alleviator in Decabromodiphenyl Ether-Induced Aberrant Hippocampal Neurogenesis and Synaptogenesis: The Role of Wnt7a",
+    "doi": "10.3390/biom15081087",
+    "year": 2025,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract discusses the neuroprotective effects of melatonin in the context of cognitive impairments caused by decabromodiphenyl ether (BDE-209). It suggests that melatonin could serve as a potential intervention for the cognitive deficits induced by PBDEs, indicating it may be a safer alternative due to its alleviating effects on neurogenesis and synaptogenesis disrupted by BDE-209.",
+    "alternatives": "melatonin",
+    "target_chemical_harm": {
+      "harms": [
+        "irreversible cognitive impairments",
+        "inhibition of hippocampal neural progenitor pool",
+        "inhibition of immature neuron differentiation",
+        "inhibition of mature neuron survival",
+        "reduced dendritic branching and spine density",
+        "long-lasting suppression of Wnt7a-FZD5/β-catenin pathway and related gene expression"
+      ],
+      "rationale": "The reasoning explicitly states that developmental exposure to decabromodiphenyl ether (BDE-209) results in irreversible cognitive impairments and negatively affects hippocampal neurogenesis and synaptogenesis, including inhibition of neural progenitor cells, immature neurons, and mature neurons, as well as reduced dendritic branching and spine density. It also mentions suppression of critical signaling pathways and gene expression related to neurogenesis."
+    },
+    "CHEMICAL HARM": "irreversible cognitive impairments, inhibition of hippocampal neural progenitor pool, inhibition of immature neuron differentiation, inhibition of mature neuron survival, reduced dendritic branching and spine density, long-lasting suppression of Wnt7a-FZD5/β-catenin pathway and related gene expression"
+  },
+  {
+    "title": "Selenomethionine alleviates decabromodiphenyl ether-induced oxidative stress and ferroptosis via the NRF2/GPX4 pathway in the chicken brain.",
+    "doi": "10.1016/j.jhazmat.2023.133307",
+    "year": 2023,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract suggests that selenomethionine (Se-Met) has a significant detoxification effect and protects the nervous system, indicating it may serve as a preventative and control measure against the toxic effects of decabromodiphenyl ether (BDE209). This implies that Se-Met could be a safer alternative to BDE209, as it alleviates the neurotoxic effects caused by BDE209.",
+    "alternatives": "selenomethionine",
+    "target_chemical_harm": {
+      "harms": [
+        "neurotoxicity",
+        "behavioral abnormalities",
+        "cognitive impairment",
+        "oxidative stress",
+        "ferroptosis",
+        "mitochondrial atrophy",
+        "cristae breakage",
+        "increased Fe2+ content",
+        "increased MDA content",
+        "decreased antioxidant enzyme activity",
+        "inhibition of the NRF2/GPX4 signaling pathway"
+      ],
+      "rationale": "The reasoning explicitly states that decabromodiphenyl ether (BDE209) is a toxic environmental pollutant causing neurotoxicity, behavioral abnormalities, and cognitive impairment in animals. It induces oxidative stress and ferroptosis in brain neurons, characterized by mitochondrial atrophy, cristae breakage, increased Fe2+ and MDA content, decreased antioxidant enzyme activity, and inhibition of the NRF2/GPX4 signaling pathway."
+    },
+    "CHEMICAL HARM": "neurotoxicity, behavioral abnormalities, cognitive impairment, oxidative stress, ferroptosis, mitochondrial atrophy, cristae breakage, increased Fe2+ content, increased MDA content, decreased antioxidant enzyme activity, inhibition of the NRF2/GPX4 signaling pathway"
+  },
+  {
+    "title": "Enhancement of fire retardancy properties of glass fibre–reinforced polyesters composites",
+    "doi": "10.1002/fam.2733",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares alumina trihydrate (ATH) and decabromodiphenyl ether (DBDE) in fire retardancy tests and states that ATH at 47.7 phr completely inhibits ignition, whereas DBDE-containing materials exhibit ignition and flame propagation. This indicates a safety advantage of ATH over DBDE in terms of fire retardancy, which can reasonably be interpreted as a safer alternative to DBDE.",
+    "alternatives": "alumina trihydrate (ATH)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the fire retardant properties of decabromodiphenyl ether (DBDE) in composites but does not explicitly state any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Flame Retardancy Research of Rubber Powder Modified Asphalt",
+    "doi": "10.4028/www.scientific.net/KEM.561.19",
+    "year": 2013,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract mentions the use of Decabromodiphenyl ethane as a replacement for decabromodiphenyl ether, which implies a safer alternative. Additionally, it discusses the use of dimethyl silicone oil, zinc borate, and aluminum hydroxide, which can be interpreted as contributing to improved flame retardant performance, suggesting safety advantages over decabromodiphenyl ether.",
+    "alternatives": "decabromodiphenyl ethane; dimethyl silicone oil; zinc borate; aluminum hydroxide",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to decabromodiphenyl ether."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Hesperidin prevents the combined toxicity of decabromodiphenyl ether and sodium nitrite in vitro.",
+    "doi": "10.1016/j.fct.2021.112410",
+    "year": 2021,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract discusses the protective effect of hesperidin (Hsp) against the toxicity of decabromodiphenyl ether (BDE-209) and sodium nitrite, indicating that hesperidin can alleviate the damage caused by these substances. While it does not explicitly state that hesperidin is a safer alternative to BDE-209, it implies that the presence of natural flavonoids like hesperidin can reduce the toxicological risk associated with BDE-209, suggesting a safer context for its use.",
+    "alternatives": "",
+    "target_chemical_harm": {
+      "harms": [
+        "cytotoxicity (impairing viability of HepG2 cells)",
+        "oxidative stress",
+        "Ca2+ accumulation",
+        "mitochondrial dysfunction",
+        "genotoxicity"
+      ],
+      "rationale": "The reasoning explicitly states that the binary mixture of decabromodiphenyl ether (BDE-209) and sodium nitrite causes synergistic toxic effects including impaired cell viability, oxidative stress, calcium accumulation, mitochondrial dysfunction, and genotoxicity as indicated by increased γ-H2AX fluorescent foci and micronuclei number."
+    },
+    "CHEMICAL HARM": "cytotoxicity (impairing viability of HepG2 cells), oxidative stress, Ca2+ accumulation, mitochondrial dysfunction, genotoxicity"
+  }
+]

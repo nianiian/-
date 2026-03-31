@@ -10,3 +10,8 @@ test_outputs/
 *output/
 *outputs/
 *outputy/
+
+# Environment files and folders
+.env
+env/
+.venv/

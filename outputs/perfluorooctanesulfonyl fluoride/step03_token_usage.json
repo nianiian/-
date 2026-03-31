@@ -1,9 +1,0 @@
-{
-  "model_list": [
-    "gpt-4o-mini"
-  ],
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
-  "total_tokens": 0,
-  "per_model": {}
-}

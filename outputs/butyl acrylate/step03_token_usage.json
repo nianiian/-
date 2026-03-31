@@ -1,9 +1,0 @@
-{
-  "model_list": [
-    "gemini-2.0-flash"
-  ],
-  "prompt_tokens": 0,
-  "completion_tokens": 0,
-  "total_tokens": 0,
-  "per_model": {}
-}

@@ -1,0 +1,12 @@
+# Output directories
+final_output/
+new_output/
+outputs/
+test_outputs/
+
+# Generic output naming patterns
+*_output/
+*_outputs/
+*output/
+*outputs/
+*outputy/

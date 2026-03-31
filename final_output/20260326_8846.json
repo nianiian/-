@@ -1,0 +1,390 @@
+[
+  {
+    "title": "Renewable Terpene Derivative as a Biosourced Elastomeric Building Block in the Design of Functional Acrylic Copolymers.",
+    "doi": "10.1021/acs.biomac.9b00185",
+    "year": 2019,
+    "abstract": "In order to move away from traditional petrochemical-based polymer materials, it is imperative that new monomer systems be sought out based on renewable resources. In this work, the synthesis of a functional terpene-containing acrylate monomer (tetrahydrogeraniol acrylate, THGA) is reported. This monomer was polymerized in toluene and bulk via free-radical polymerizations, achieving high conversion and molecular weights up to 278 kg·mol-1. The synthesized poly(THGA) shows a relatively low Tg (-46 °C), making it useful as a replacement for low Tg acrylic monomers, such as the widely used n-butyl acrylate. RAFT polymerization in toluene ([M]0 = 3.6 mol·L-1) allowed for the well-controlled polymerization of THGA with degrees of polymerization (DP n) from 25 to 500, achieving narrow molecular weight distributions ( D̵ ≈ 1.2) even up to high conversions. At lower monomer concentrations ([M]0 = 1.8 mol·L-1), some evidence of intramolecular chain transfer to polymer was seen by the detection of branching (arising from propagation of midchain radicals) and terminal double bonds (arising from β-scission of midchain radicals). Poly(THGA) was subsequently utilized for the synthesis of poly(THGA)- b-poly(styrene)- b-poly(THGA) and poly(styrene)- b-poly(THGA)- b-poly(styrene) triblock copolymers, demonstrating its potential as a component of thermoplastic elastomers. The phase separation and mechanical properties of the resulting triblock copolymer were studied by atomic force microscopy and rheology.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "tetrahydrogeraniol acrylate (THGA)"
+    ],
+    "reasoning": "'butyl acrylate' is explicitly mentioned in the abstract as 'n-butyl acrylate'. The alternative, tetrahydrogeraniol acrylate (THGA), is described as a replacement for low Tg acrylic monomers, including n-butyl acrylate, indicating that it can replace butyl acrylate in applications.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (78212 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "replacement of low Tg acrylic monomers to reduce reliance on petrochemical-based materials",
+        "traditional_material_replaced": "n-butyl acrylate",
+        "alternative_solution": "tetrahydrogeraniol acrylate (THGA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "3.6 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "initial concentration for RAFT polymerization in toluene"
+        },
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "1.8 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "lower concentration for RAFT polymerization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "time duration for polymerization not explicitly mentioned"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "molecular_weight",
+          "value": "up to 278 kg·mol-1",
+          "evidence_location": "Section Y.Z",
+          "context": "characterization of synthesized poly(THGA)"
+        },
+        {
+          "property": "Tg",
+          "value": "-46 °C",
+          "evidence_location": "Section Y.Z",
+          "context": "thermal property of poly(THGA)"
+        },
+        {
+          "property": "degree of polymerization (DP n)",
+          "value": "from 25 to 500",
+          "evidence_location": "Section Y.Z",
+          "context": "range of polymerization degrees achieved"
+        },
+        {
+          "property": "molecular weight distribution",
+          "value": "D̵ ≈ 1.2",
+          "evidence_location": "Section Y.Z",
+          "context": "narrow molecular weight distributions achieved"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_rate",
+          "metric_value": "high conversion",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78212 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Multi‐Property Machine Learning Models to Accelerate the Transition Toward Bio‐Based Emulsion Polymers",
+    "doi": "10.1002/aidi.202500248",
+    "year": 2026,
+    "abstract": "The transition toward sustainable polymer materials would be helped by the replacement of petroleum‐based monomers with bio‐based alternatives. This work presents an integrated machine learning framework that aims at accelerating this transition by simultaneously predicting four critical properties of bio‐based monomers to be used in emulsion polymerization processes: propagation rate constant, reactivity ratios, glass transition temperature, and water solubility. Improved models for each property were developed using neural networks and gradient boosting approaches, demonstrating enhanced predictive accuracy compared to existing methods. These models were integrated into a unified selection tool that systematically evaluates candidate bio‐based monomer pairs as replacements for conventional formulations, while maintaining target copolymer properties. The framework was validated through two experimental case studies: replacement of n‐butyl acrylate/methyl methacrylate for coating applications, and replacement of n‐butyl acrylate/styrene for adhesive applications. Using the selected bio‐based candidates, both bio‐based systems achieved high conversions and demonstrated glass transition temperatures comparable to their conventional counterparts, confirming the framework's capability to identify viable bio‐based alternatives to conventional petrochemical based polymeric systems.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "bio-based monomers"
+    ],
+    "reasoning": "'butyl acrylate' is explicitly mentioned in the abstract. The alternative bio-based monomers are described as replacements for butyl acrylate in specific applications, indicating that they are intended to replace butyl acrylate itself.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (78835 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "insufficient_data",
+      "substitution_logic": {
+        "target_problem": "replacement of petroleum-based monomers with bio-based alternatives for sustainable polymer materials",
+        "traditional_material_replaced": "n-butyl acrylate/methyl methacrylate and n-butyl acrylate/styrene",
+        "alternative_solution": "bio-based monomers",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_rate",
+          "metric_value": "high conversions",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "glass_transition_temperature",
+          "metric_value": "comparable to conventional counterparts",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78835 bytes)",
+      "confidence": "high",
+      "data_gaps": [
+        "Total weight or volume of the carrier/substrate",
+        "Percentage ratio of bio-based monomers to be used",
+        "Any explicit mass or volume values related to the alternative solution"
+      ],
+      "recommendation": "insufficient_data"
+    }
+  },
+  {
+    "title": "Thiol-Functionalized TiO2 as Reactive Nanoadsorbents for Residual Monomer Removal from Waterborne Polymer Dispersions",
+    "doi": "10.1021/acs.iecr.5c04301",
+    "year": 2026,
+    "abstract": "This study explores the use of thiol-functionalized TiO2 nanoparticles to reduce residual methyl methacrylate (MMA) and butyl acrylate (BA) monomers in waterborne polymer dispersions (latexes). TiO2 nanoparticles were modified with (3-mercaptopropyl)triethoxysilane (MPTES) to introduce −SH groups capable of thiol–ene type reaction with CC bonds of monomers. The effects of functionalization density, nanoparticle concentration, and mixing time on monomer removal were systematically evaluated. Compared with unmodified TiO2, MPTES-modified nanoparticles achieved up to 90% removal of MMA and nearly complete removal of BA, lowering total residual monomer content from ∼1900 ppm to 120 ppm. About 80–90% of the adsorbed monomers were chemically, thus, irreversibly bonded to the TiO2 surface. DLS, TEM, and zeta potential analyses revealed improved dispersion and reduced aggregation of modified nanoparticles in the latex, leading to uniform distribution in films obtained by water evaporation. TEM imaging further showed preferential localization of modified TiO2 at the polymer particle surfaces, enabling efficient monomer capture while maintaining good dispersion. The resulting films displayed unchanged water sensitivity but significantly improved mechanical properties, with Young’s modulus increasing by 75%. Overall, thiol-functionalized TiO2 nanoparticles act as reactive, multifunctional adsorbents that effectively reduce residual monomer content and enhance the mechanical performance of MMA/BA polymer latex coatings.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "thiol-functionalized TiO2 nanoparticles"
+    ],
+    "reasoning": "'butyl acrylate' is explicitly mentioned in the abstract. The alternative, thiol-functionalized TiO2 nanoparticles, is described as effectively reducing the residual content of butyl acrylate, indicating a reduction in its usage rather than a replacement in the formulation itself.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (77798 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "insufficient_data",
+      "substitution_logic": {
+        "target_problem": "removal of residual monomers from waterborne polymer dispersions",
+        "traditional_material_replaced": "unmodified TiO2 nanoparticles",
+        "alternative_solution": "thiol-functionalized TiO2 nanoparticles",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "MMA_removal",
+          "metric_value": "up to 90%",
+          "comparison_baseline": "unmodified TiO2"
+        },
+        {
+          "metric_name": "BA_removal",
+          "metric_value": "nearly complete removal",
+          "comparison_baseline": "unmodified TiO2"
+        },
+        {
+          "metric_name": "total_residual_monomer_content",
+          "metric_value": "from ∼1900 ppm to 120 ppm",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "Young's_modulus_increase",
+          "metric_value": "75%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (77798 bytes)",
+      "confidence": "high",
+      "data_gaps": [
+        "Total weight or volume of the carrier/substrate",
+        "Percentage ratio of thiol-functionalized TiO2 nanoparticles to the carrier",
+        "Any explicit mass or volume values for the nanoparticles or the carrier"
+      ],
+      "recommendation": "insufficient_data"
+    }
+  },
+  {
+    "title": "Biobased Itaconate Acrylic Pressure-Sensitive Adhesives via Emulsion Polymerization: Sustainable Design for High Peel Resistance",
+    "doi": "10.1021/acsomega.5c03586",
+    "year": 2025,
+    "abstract": "Pressure-sensitive adhesives (PSAs) are widely used materials, yet most of their raw materials are currently derived from nonrenewable petroleum resources. The PSA industry faces challenges including the depletion of petroleum resources, high solvent emissions, and carbon-intensive manufacturing processes. To address these issues, a series of poly(dibutyl itaconate-co-butyl acrylate-co-acrylic acid-co-glycidyl methacrylate) (PDBAG) copolymers were synthesized via high-temperature semicontinuous emulsion polymerization, using fully biobased dibutyl itaconate (DBI) as a monomer. The structures and properties of PDBAG with varying DBI and glycidyl methacrylate (GMA) contents were systematically characterized. An optimal balance between adhesion and cohesion was achieved at a GMA content of 0.5 wt %. Remarkably, increasing DBI content from 30 wt % to 50 wt % enhances the high-frequency shear loss modulus (G″) from 55.5 to 87.3 kPa (measured at T = 40 °C, ε = 1%) and correspondingly improves the 180° peel strength with SUS from 10.7 N/25 mm to 16.5 N/25 mm. This enhancement mechanism is attributed to increased energy dissipation within the PSA network during peel deformation. They surpass commercial acrylic PSAs in both peel strength and shear holding power. Biobased PSA partially replaces petroleum-based acrylics in the polymer backbone and features simpler, more eco-friendly processing while maintaining outstanding adhesion. This establishes a sustainable pathway for next-generation adhesive development.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "dibutyl itaconate"
+    ],
+    "reasoning": "'butyl acrylate' is explicitly mentioned in the abstract. The alternative, dibutyl itaconate (DBI), is described as partially replacing petroleum-based acrylics in the polymer backbone, which includes butyl acrylate.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (77938 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "high solvent emissions and carbon-intensive manufacturing processes in pressure-sensitive adhesives",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "dibutyl itaconate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "glycidyl methacrylate",
+          "value": "0.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "optimal balance between adhesion and cohesion"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "initial content for copolymer synthesis"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "increased content for enhanced properties"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "high-temperature",
+          "evidence_location": "Section Y.Z",
+          "context": "synthesis via semicontinuous emulsion polymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "high_frequency_shear_loss_modulus",
+          "metric_value": "87.3 kPa",
+          "comparison_baseline": "55.5 kPa at 30 wt% DBI"
+        },
+        {
+          "metric_name": "180°_peel_strength",
+          "metric_value": "16.5 N/25 mm",
+          "comparison_baseline": "10.7 N/25 mm at 30 wt% DBI"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (77938 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Tailored Interactions of the Secondary Coordination Sphere Enhance the Hydrolytic Activity of Cross-Linked Microgels",
+    "doi": "10.1021/ACSCATAL.8B04740",
+    "year": 2019,
+    "abstract": "A series of mannose-templated microgels with immobilized catalytic sites and catalysis-supporting co-monomers was synthesized and evaluated for catalytic hydrolyses of glycosidic bonds. Interactions of the secondary coordination sphere around the catalytic center were implemented between the sugar and surrounding monomers by copolymerization of corresponding acrylates. The obtained microgels were evaluated for their ability to enhance the catalytic hydrolysis of glycosidic bonds in neutral and alkaline solution. The catalytic proficiency of the microgels reaches a remarkable value of 1.4 × 107 at neutral pH when hydrogen-bond-accepting 2-methoxyethyl acrylate is embedded in 20 mol % as a co-monomer, instead of butyl acrylate. The results indicate a strong influence of hydrogen-bond-accepting co-monomers on the stability of the transition state of glycoside hydrolyses in the designed biomimetic catalysts. The overall performance of all microgels correlates very well with the calculated dipole moments of th...",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "2-methoxyethyl acrylate"
+    ],
+    "reasoning": "'butyl acrylate' is explicitly mentioned in the abstract. The alternative, 2-methoxyethyl acrylate, is described as being used instead of butyl acrylate, indicating that it partially replaces butyl acrylate in the formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (78222 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "enhancement of catalytic hydrolysis of glycosidic bonds",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-methoxyethyl acrylate",
+        "relationship_type": "monomer_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "2-methoxyethyl acrylate",
+          "value": "20 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used as a co-monomer in the synthesis of microgels"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "catalytic_proficiency",
+          "metric_value": "1.4 × 10^7",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78222 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Derivatives of linseed oil and camelina oil as monomers for emulsion polymerization",
+    "doi": "10.1007/s10853-023-08969-4",
+    "year": 2023,
+    "abstract": "Acrylated methyl esters of higher fatty acids derived from camelina oil and linseed oil were synthesized through transesterification, epoxidation, and subsequent acrylation. Methyl methacrylate and butyl acrylate were copolymerized with various amounts of bio-based derivatives (5 – 30 wt% in monomer mixture) to obtain polymeric latexes for coating applications. Successful emulsion polymerizations with up to 25 wt% of the bio-based derivatives were performed with low coagulum (below 2%) and high monomer conversion (around 95%). The incorporation of bio-based derivatives into polymeric latexes was confirmed with infrared spectroscopy. Asymmetric flow field flow fractionation coupled with a multi-angle light scattering was used to analyze the synthesized copolymers in terms of their molar mass distribution. The results revealed that copolymerizing the bio-based derivatives resulted in ultra-high molar mass nanogel fractions formed because of multi-acrylated ingredients derived from polyunsaturated fatty acids. The phenomenon of nanogel formation became more pronounced for the linseed oil-based derivative. Evaluated coating properties showed that latexes comprising the bio-based derivatives provided increased water repellence (about 10° higher water contact angles were achieved for all bio-based coating compositions in contrast to a reference latex). Moreover, latexes comprising chemically modified oils in the content of 25 and 30 wt% provided water whitening-resistant coatings, making the bio-based derivatives promising candidates for replacing petroleum-based monomers in the production of sustainable latex coatings. Graphical abstract",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "bio-based derivatives from camelina oil",
+      "bio-based derivatives from linseed oil"
+    ],
+    "reasoning": "The abstract explicitly mentions 'butyl acrylate' by name. It indicates that bio-based derivatives are used in copolymerization with butyl acrylate, suggesting that these derivatives can partially replace butyl acrylate in the formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for sustainable latex coatings that do not rely on petroleum-based monomers",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "bio-based derivatives from camelina oil and linseed oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "bio-based derivatives",
+          "value": "5-30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "used in the monomer mixture for copolymerization"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "maximum amount used in successful emulsion polymerizations"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "amount providing water whitening-resistant coatings"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "water_repellence",
+          "metric_value": "about 10° higher",
+          "comparison_baseline": "reference latex"
+        },
+        {
+          "metric_name": "monomer_conversion",
+          "metric_value": "around 95%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "coagulum",
+          "metric_value": "below 2%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+      "confidence": "high"
+    }
+  }
+]

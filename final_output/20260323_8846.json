@@ -1,0 +1,1376 @@
+[
+  {
+    "title": "Enzymatic synthesis of kraft lignin-acrylate copolymers using an alkaline tolerant laccase",
+    "doi": "10.1007/s00253-022-11916-z",
+    "year": 2022,
+    "abstract": "Softwood kraft lignin is a major bioresource relevant to the production of sustainable bio-based products. Continued challenges to lignin valorization, however, include poor solubility in organic solvents and in aqueous solutions at neutral pH. Herein, an alkaline tolerant laccase was used to graft acrylate functionalities onto softwood kraft lignin, which is expected to enhance the reactivity of lignin with isocyanate when producing bio-based polyurethanes. Proton nuclear magnetic resonance, Fourier-transform infrared spectroscopy, and high-performance liquid chromatography were used to confirm successful grafting of the acrylate monomer onto lignin and verify the importance of including tert-butyl hydroperoxide as an initiator in the grafting reaction. Laccase-mediated grafting of softwood kraft lignin under alkaline conditions produced lignin products with approximately 30% higher hydroxyl value and higher reactivity toward isocyanate. The reported enzymatic and aqueous process presents an opportunity for the sustainable valorization of softwood kraft lignin. • Softwood kraft lignin displayed high phenolic hydroxyl content, polydispersity index and average molecular weight • Grafting hydroxyethyl acrylate (HEA) monomer onto kraft lignin by laccase was successful at 60 °C and alkaline conditions • Lignin-HEA grafted copolymer showed an increase in total OH value and an increase in average molecular weight",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "hydroxyethyl acrylate (HEA)"
+    ],
+    "reasoning": "The abstract discusses the grafting of hydroxyethyl acrylate (HEA) onto softwood kraft lignin, which suggests that HEA can serve as a functional substitute for butyl acrylate in producing bio-based polyurethanes. This indicates that butyl acrylate is no longer needed in this application.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Record openAccessPdf) (2074743 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "low reactivity and poor solubility of kraft lignin in organic solvents and aqueous solutions",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "hydroxyethyl acrylate (HEA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "HEA",
+          "value": "0.7% (w/v)",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used in the copolymerization reaction with kraft lignin"
+        },
+        {
+          "material": "t-BHP",
+          "value": "0.7% (w/v)",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used as an initiator in the grafting reaction"
+        },
+        {
+          "material": "lignin",
+          "value": "7% (w/v)",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "solubilized lignin concentration in the grafting reaction"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "60 °C",
+          "evidence_location": "Section Materials and Methods",
+          "context": "temperature at which the grafting reaction was conducted"
+        },
+        {
+          "parameter": "reaction_time",
+          "value": "12 h",
+          "evidence_location": "Section Materials and Methods",
+          "context": "duration of the grafting reaction after adding HEA and t-BHP"
+        },
+        {
+          "parameter": "pH",
+          "value": "11",
+          "evidence_location": "Section Materials and Methods",
+          "context": "pH level maintained during the grafting reaction"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "average_molecular_weight",
+          "value": "17,200 Da",
+          "evidence_location": "Section Results",
+          "context": "measured after grafting HEA onto lignin"
+        },
+        {
+          "property": "polydispersity_index",
+          "value": "6.04",
+          "evidence_location": "Section Results",
+          "context": "measured after grafting HEA onto lignin"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "hydroxyl_value_increase",
+          "metric_value": "31%",
+          "comparison_baseline": "compared to unmodified lignin"
+        },
+        {
+          "metric_name": "HEA_depletion",
+          "metric_value": "94%",
+          "comparison_baseline": "compared to reactions without laccase"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (2074743 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Akrilik kopolimerlerdeki siklik borat ester gruplarının boya ve vernik kaplamalara etkisinin araştırılması",
+    "doi": "10.30728/boron.1275704",
+    "year": 2023,
+    "abstract": "In this study, cyclic borate ester-bearing methacrylic monomers were created and employed to synthesize acrylic copolymers with varying boron acrylate monomer contents (5, 10, and 20%). The monomers, methyl methacrylate, butyl acrylate, acrylic acid, and boron acrylate, were used to synthesize all of the polymers using free radical polymerization in a solvent medium. The polymers were characterized using FTIR (Fourier transform infrared spectroscopy), DSC (differential scanning calorimetry), Gel permeation chromatography (GPC), 1H and 11B NMR (proton and boron nuclear magnetic resonance), and HPLC. Metal surfaces, such as sheet metal, galvanized steel, and aluminum, were covered with varnish and paint compositions that had a fixed thickness. Contact angle value, glossiness, hardness, drying time, pot life, yellowing resistance, and gloss loss following UV were all measured to assess the coatings' physical characteristics. According to the findings, adding more borate ester groups to polymers increased their hardness as well as decreased the drying time of the coatings. When compared to the binders used in commercially available paints, the polymer with 10% boron acrylate monomer can be utilized to produce paints and varnishes with equal or superior physical properties.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "boron acrylate"
+    ],
+    "reasoning": "The abstract discusses the synthesis of acrylic copolymers using boron acrylate monomers, which can potentially replace butyl acrylate in paint and varnish applications. The findings suggest that the polymer with 10% boron acrylate can produce coatings with equal or superior properties compared to those using butyl acrylate, indicating a functional substitute.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (197709 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "limited performance of traditional acrylic coatings",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "boron acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "boron acrylate monomer",
+          "value": "10 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "used in the synthesis of acrylic copolymers"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "hardness",
+          "metric_value": "increased",
+          "comparison_baseline": "compared to traditional binders in commercially available paints"
+        },
+        {
+          "metric_name": "drying_time",
+          "metric_value": "decreased",
+          "comparison_baseline": "compared to traditional binders in commercially available paints"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_webpage_capture",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (197709 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Development of a novel dismantlable adhesive for orthodontic use triggered by thermal stimulation",
+    "doi": "10.1038/s41598-026-38044-2",
+    "year": 2026,
+    "abstract": "This study aimed to develop a novel orthodontic adhesive material whose bond strength decreases under external stimuli for easy removal. Stearyl acrylate (SA) and methyl acrylate (MA) copolymerization gels with monomer ratios of 1:1 (SA/MA(1:1) gel) or 3:1 (SA/MA(3:1) gel) were synthesized and added to 4-methacryloxyethyl trimellitate anhydride/methyl methacrylate-tri-n-butyl borane resin (4META resin) at 30 wt% (4META resin-30% SA/MA(1:1) gel, 4META resin-30% SA/MA(3:1) gel). The thermal and mechanical properties of obtained adhesive were characterized. Bond strength was measured by shear testing at room temperature and at elevated temperatures (50 °C). Transition temperatures of 4META resin-30% SA/MA (1:1) gel and 4META resin-30% SA/MA (3:1) gel were 37.9 °C and 41.6 °C respectively from differential scanning calorimetry measurement. The shear strength of 4META resin, 4META resin-30%SA/MA(3:1) gel, and 4META resin-30%SA/MA(1:1) gel was 8.0 MPa, 8.4 MPa, and 7.1 MPa at room temperature and 6.0 MPa, 3.9 MPa, and 4.7 MPa at 50 °C. In 4META resin containing the copolymerized gel, Young’s modulus and tensile strength, as well as shear strength, decreased significantly when the measurement temperature was set to 50 °C from room temperature. A novel adhesive that reduces bond strength by half or less upon temperature stimulation was successfully developed using SA and MA copolymer gels.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "stearyl acrylate",
+      "methyl acrylate"
+    ],
+    "reasoning": "The abstract describes the development of a novel adhesive using stearyl acrylate (SA) and methyl acrylate (MA) copolymer gels, which can serve as a functional substitute for butyl acrylate in orthodontic applications. The adhesive is designed to reduce bond strength under thermal stimulation, indicating that butyl acrylate is no longer needed in this context.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded JATS XML (Springer OA) (90582 bytes)",
+    "fulltext_source": "xml",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for orthodontic adhesive materials that maintain high adhesive strength during treatment but reduce their strength when the devices are removed",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "stearyl acrylate and methyl acrylate copolymer gels",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "4-methacryloxyethyl trimellitate anhydride/methyl methacrylate-tri-n-butyl borane resin",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "added to the adhesive formulation"
+        },
+        {
+          "material": "stearyl acrylate/methyl acrylate copolymer gel",
+          "value": "1:1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "copolymerization ratio for the gel"
+        },
+        {
+          "material": "stearyl acrylate/methyl acrylate copolymer gel",
+          "value": "3:1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "copolymerization ratio for the gel"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "8 h",
+          "evidence_location": "Materials and Methods",
+          "context": "exposed to UV light under an argon atmosphere"
+        },
+        {
+          "parameter": "temperature",
+          "value": "-50 °C",
+          "evidence_location": "Materials and Methods",
+          "context": "gel was frozen before freeze-drying"
+        },
+        {
+          "parameter": "pressure",
+          "value": "10 Pa",
+          "evidence_location": "Materials and Methods",
+          "context": "reduced pressure during freeze-drying"
+        },
+        {
+          "parameter": "freeze-drying temperature",
+          "value": "-50 °C to -20 °C",
+          "evidence_location": "Materials and Methods",
+          "context": "maintained for 6 h at each temperature"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "particle_size",
+          "value": "20 to 200 µm",
+          "evidence_location": "Results",
+          "context": "observed using scanning electron microscope (SEM)"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "8.4 MPa",
+          "comparison_baseline": "4META resin"
+        },
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "7.1 MPa",
+          "comparison_baseline": "4META resin"
+        },
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "3.9 MPa",
+          "comparison_baseline": "4META resin-30% SA/MA(3:1) gel"
+        },
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "4.7 MPa",
+          "comparison_baseline": "4META resin-30% SA/MA(1:1) gel"
+        },
+        {
+          "metric_name": "transition_temperature",
+          "metric_value": "37.9 °C",
+          "comparison_baseline": "4META resin-30% SA/MA(1:1) gel"
+        },
+        {
+          "metric_name": "transition_temperature",
+          "metric_value": "41.6 °C",
+          "comparison_baseline": "4META resin-30% SA/MA(3:1) gel"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "xml",
+      "extraction_method": "fulltext_xml_springer",
+      "download_strategy": "Downloaded JATS XML (Springer OA) (90582 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Enabling zero added-coalescent waterborne acrylic coatings with cellulose nanocrystals",
+    "doi": "10.1016/J.PORGCOAT.2020.105969",
+    "year": 2021,
+    "abstract": "Abstract Waterborne acrylic coatings contain volatile and non-volatile coalescents. Volatile organic compound (VOC) coalescents enable film formation of hard acrylic polymers at ambient temperature, but their evaporation results in air pollution and health concerns. Non-volatile alternatives are available, but they remain in the coating long-term and as a result films are often tacky and lack adequate hardness. Reinforcing mineral fillers are available, but are associated with sustainability challenges inherent to mineral mining. An alternative approach demonstrated here utilizes a renewably-sourced, plant-based hardening filler dispersed in the water phase, with soft polymer latexes that don’t require VOCs for film formation. We reinforced coalescent-free and ambient film-forming butyl acrylate/methyl methacrylate/methacrylic acid latexes with cellulose nanocrystals (CNCs) by a post-synthesis blending approach. CNCs possess high elastic modulus and tensile strength, making them promising candidates to improve the mechanical performance of soft ambient film-forming acrylic latexes. CNCs form aggregates within the interstices between latex particles as water dries, however film coalescence is not compromised. Films with 15 wt% CNC showed almost 230 % improvement in Koenig hardness and 10x improvement in the nanoindentation hardness compared to neat films, achieving properties similar to hard VOC-containing acrylic binders in a zero-added VOC formulation.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "cellulose nanocrystals (CNCs)"
+    ],
+    "reasoning": "The abstract describes the use of cellulose nanocrystals (CNCs) as a hardening filler in waterborne acrylic coatings, which allows for the elimination of volatile organic compounds (VOCs) in the film formation process. This indicates that CNCs can functionally replace butyl acrylate in the coating application, as they enable the formation of films without the need for butyl acrylate.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (240177 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for coalescent-free film formation in waterborne acrylic coatings",
+        "traditional_material_replaced": "volatile organic compound (VOC) coalescents",
+        "alternative_solution": "cellulose nanocrystals (CNCs)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "cellulose nanocrystals (CNCs)",
+          "value": "15 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "used to reinforce coalescent-free and ambient film-forming latexes"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "Koenig_hardness_improvement",
+          "metric_value": "230 %",
+          "comparison_baseline": "neat films"
+        },
+        {
+          "metric_name": "nanoindentation_hardness_improvement",
+          "metric_value": "10x",
+          "comparison_baseline": "neat films"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (240177 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Building Tunable Degradation into High-Performance Poly(acrylate) Pressure-Sensitive Adhesives.",
+    "doi": "10.1021/acsmacrolett.3c00204",
+    "year": 2023,
+    "abstract": "Pressure-sensitive adhesives (PSAs) based on poly(acrylate) chemistry are common in a wide variety of applications, but the absence of backbone degradability causes issues with recycling and sustainability. Here, we report a strategy to create degradable poly(acrylate) PSAs using simple, scalable, and functional 1,2-dithiolanes as drop-in replacements for traditional acrylate comonomers. Our key building block is α-lipoic acid, a natural, biocompatible, and commercially available antioxidant found in various consumer supplements. α-Lipoic acid and its derivative ethyl lipoate efficiently copolymerize with n-butyl acrylate under conventional free-radical conditions leading to high-molecular-weight copolymers (Mn > 100 kg mol-1) containing a tunable concentration of degradable disulfide bonds along the backbone. The thermal and viscoelastic properties of these materials are practically indistinguishable from nondegradable poly(acrylate) analogues, but a significant reduction in molecular weight is realized upon exposure to reducing agents such as tris (2-carboxyethyl) phosphine (e.g., Mn = 198 kg mol-1 → 2.6 kg mol-1). By virtue of the thiol chain ends produced after disulfide cleavage, degraded oligomers can be further cycled between high and low molecular weights through oxidative repolymerization and reductive degradation. Transforming otherwise persistent poly(acrylates) into recyclable materials using simple and versatile chemistry could play a pivotal role in improving the sustainability of contemporary adhesives.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "α-lipoic acid",
+      "ethyl lipoate"
+    ],
+    "reasoning": "The abstract discusses the use of α-lipoic acid and its derivative ethyl lipoate as drop-in replacements for traditional acrylate comonomers in the production of degradable poly(acrylate) pressure-sensitive adhesives. This indicates that these substances can functionally replace butyl acrylate in the same application, allowing for the elimination of butyl acrylate.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the absence of backbone degradability in poly(acrylate) PSAs causing issues with recycling and sustainability",
+        "traditional_material_replaced": "traditional acrylate comonomers",
+        "alternative_solution": "α-lipoic acid and ethyl lipoate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "n-butyl acrylate",
+          "value": "Mn > 100 kg mol-1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "copolymerization with α-lipoic acid and ethyl lipoate"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_conditions",
+          "value": "conventional free-radical conditions",
+          "evidence_location": "Abstract",
+          "context": "describes the method used for copolymerization"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "molecular_weight",
+          "value": "Mn = 198 kg mol-1",
+          "evidence_location": "Abstract",
+          "context": "before exposure to reducing agents"
+        },
+        {
+          "property": "molecular_weight",
+          "value": "Mn = 2.6 kg mol-1",
+          "evidence_location": "Abstract",
+          "context": "after exposure to reducing agents"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "molecular_weight_reduction",
+          "metric_value": "from 198 kg mol-1 to 2.6 kg mol-1",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Preparation of Biobased Copolymer from Acrylated Epoxydized Soyabean Oil with Other Known and Synthesised Monomers",
+    "doi": "10.36948/ijfmr.2024.v06i02.17394",
+    "year": 2024,
+    "abstract": "The objective of this research is to develop biobased copolymer from epoxy soybean oil. Triglyceride based copolymers are produce from free radical copolymerization between acrylated epoxidized soybean oil (AESO) and Glycidyl mathacrylate, styrene, methyl methacrylate and n butyl methacrylate. AESO has been produce by acrylation reaction with acrylic acid. Triethylamine has act as catalyst and hydroquinone as a free radical inhibitor. The acrylate groups in soybean oil have been determined by using the nuclear magnetic resonance spectroscopy (1H-NMR). Copolymerisation of AESO with above mentioned monomers as a comonomer done to form rigid polymer using benzoyl peroxide as a free radical initiator. The mixture have been cured at 90-100°C for 30 min in the oven. The biopolymer prepared as copolymer, is characterized by using the Fourier transform infrared spectrometer (FTIR) to confirm molecular structure",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "acrylated epoxidized soybean oil (AESO)"
+    ],
+    "reasoning": "The abstract describes the development of a biobased copolymer using acrylated epoxidized soybean oil (AESO) as a primary component, which can serve as a functional substitute for butyl acrylate in copolymer applications. Since AESO is derived from soybean oil and can replace butyl acrylate in the same application, butyl acrylate is no longer needed.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Record openAccessPdf) (895024 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for a sustainable and biodegradable alternative to conventional polymers",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "acrylated epoxidized soybean oil (AESO)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Hydroquinone",
+          "value": "0.04 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 2.1.1",
+          "context": "added as a free radical inhibitor in the synthesis of AESO"
+        },
+        {
+          "material": "Triethylamine",
+          "value": "0.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 2.1.1",
+          "context": "added as a catalyst in the synthesis of AESO"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "95 °C",
+          "evidence_location": "Section 2.1.1",
+          "context": "temperature for the reaction of acrylic acid with epoxidized soybean oil"
+        },
+        {
+          "parameter": "reaction_time",
+          "value": "12 h",
+          "evidence_location": "Section 2.1.1",
+          "context": "duration of the reaction for synthesizing AESO"
+        },
+        {
+          "parameter": "polymerization_temperature",
+          "value": "98 °C",
+          "evidence_location": "Section 2.1.3",
+          "context": "temperature for the copolymerization process"
+        },
+        {
+          "parameter": "solvent_removal_temperature",
+          "value": "1400 °C",
+          "evidence_location": "Section 2.1.3",
+          "context": "temperature raised to ensure maximum removal of solvent"
+        },
+        {
+          "parameter": "polymerization_duration",
+          "value": "300 min",
+          "evidence_location": "Section 2.1.3",
+          "context": "duration of the copolymerization process"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (895024 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Synthesis of Monoacryloxypropyl-POSS-based Hybrid Epoxyacrylate Copolymers and Their Application in Thermally Curable Structural Self-Adhesive Tapes",
+    "doi": "10.3390/polym11122058",
+    "year": 2019,
+    "abstract": "New organic-inorganic hybrid copolymers (EA-POSSs) based on butyl acrylate, glycidyl methacylate, hydroxybutyl acrylate, acryloiloxybenzophenone and acryloxypropyl-heptaisobutyl-POSS (A-POSS) were prepared via free-radical solution polymerization (FRP) and applied as a component of thermally curable structural self-adhesive tapes (SATs). The EA-POSS with 0.25, 0.5 or 1 mol % of A-POSS exhibited significantly higher dynamic viscosity (ca. +104%), Mw (+61%) and polydispersity (+109%; measured using gel permeation chromatography) as well as lower Tg value (−16 °C) in relation to the A-POSS-free copolymer (EA-0). Differential scanning calorimetry (DSC) measurements (one glass transition process) confirmed statistic chain structure of the EA-POSS materials. Replacement of EA-0 by the EA-POSS copolymers in a SATs recipe caused simultaneous improvement of their self-adhesive features, i.e., adhesion (+70%), tack (+21%) and cohesion (+1590%). Moreover, the POSS-based copolymers improved the shear strength of thermally cured Al/SAT/Al overlap joints; the best mechanical resistance (before and after accelerated ageing tests) was observed for the sample containing 0.5 mol % of A-POSS (an increment range of 50–294% in relation to the A-POSS-free joints). Thermogravimetric analysis (TGA) revealed markedly improved thermal stability of the A-POSS-based SATs as well.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "EA-POSS copolymers"
+    ],
+    "reasoning": "The abstract describes the synthesis of new organic-inorganic hybrid copolymers (EA-POSSs) that replace butyl acrylate in the formulation of thermally curable structural self-adhesive tapes (SATs). The EA-POSS copolymers improve the self-adhesive features and mechanical resistance of the tapes, indicating that butyl acrylate is no longer needed in this application.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "improvement of self-adhesive features in structural self-adhesive tapes",
+        "traditional_material_replaced": "butyl acrylate-based copolymers",
+        "alternative_solution": "EA-POSS copolymers",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "A-POSS",
+          "value": "0.25 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used in the preparation of EA-POSS copolymers"
+        },
+        {
+          "material": "A-POSS",
+          "value": "0.5 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used in the preparation of EA-POSS copolymers"
+        },
+        {
+          "material": "A-POSS",
+          "value": "1 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used in the preparation of EA-POSS copolymers"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Abstract",
+          "context": "free-radical solution polymerization process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "dynamic_viscosity",
+          "value": "ca. +104%",
+          "evidence_location": "Abstract",
+          "context": "compared to A-POSS-free copolymer"
+        },
+        {
+          "property": "Mw",
+          "value": "+61%",
+          "evidence_location": "Abstract",
+          "context": "compared to A-POSS-free copolymer"
+        },
+        {
+          "property": "polydispersity",
+          "value": "+109%",
+          "evidence_location": "Abstract",
+          "context": "measured using gel permeation chromatography"
+        },
+        {
+          "property": "Tg",
+          "value": "-16 °C",
+          "evidence_location": "Abstract",
+          "context": "compared to A-POSS-free copolymer"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesion",
+          "metric_value": "+70%",
+          "comparison_baseline": "A-POSS-free copolymer"
+        },
+        {
+          "metric_name": "tack",
+          "metric_value": "+21%",
+          "comparison_baseline": "A-POSS-free copolymer"
+        },
+        {
+          "metric_name": "cohesion",
+          "metric_value": "+1590%",
+          "comparison_baseline": "A-POSS-free copolymer"
+        },
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "50–294%",
+          "comparison_baseline": "A-POSS-free joints"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Investigation of the Effect of Particle Surface Charge and Dispersion Stability on Latex Behavior in Cement Using Non-Ionic and Traditional Latexes",
+    "doi": "10.3390/ma15176145",
+    "year": 2022,
+    "abstract": "In this work, a novel total non-ionic polystyrene-polyurethane (PS-PU) composite latex was synthesized with polymerizable polyethylene glycol ether. Contrary to traditional styrene-butyl acrylate latex (St-BA), PS-PU has a smaller size and superior dispersion stability, and it is stable in saturated Ca(OH)2 even after 72 h. In fresh-mixed mortars, PS-PU showed a little adverse effect on workability and insignificant air entrainment, with little defoamer consumption. The retardation effect of PS-PU is also much milder than traditional St-BA. As for strength, PS-PU showed a less adverse effect on early and late age compressive strength, but its effect on flexural strength is not as pronounced as St-BA at high dosages (4% and 6%). The different behavior in cementitious materials between PS-PU and St-BA can be reasoned from their different adsorption behavior and surface charge properties, as the results from characterizations suggest. The non-ionic nature of PS-PU made it less prone to destabilization and adsorption, which turned out as the aforementioned behavior in cementitious systems. The difference can further be ascribed to the difference in their polymeric structure and properties.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "polystyrene-polyurethane (PS-PU) composite latex"
+    ],
+    "reasoning": "The abstract presents a novel polystyrene-polyurethane (PS-PU) composite latex that serves as a functional substitute for traditional styrene-butyl acrylate (St-BA) in cementitious materials. PS-PU demonstrates superior properties and performance, indicating that it can replace butyl acrylate in this application.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "less adverse effect on early and late age compressive strength compared to traditional St-BA",
+        "traditional_material_replaced": "traditional styrene-butyl acrylate latex (St-BA)",
+        "alternative_solution": "polystyrene-polyurethane (PS-PU) composite latex",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "polystyrene-polyurethane (PS-PU)",
+          "value": "4%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "high dosage effect on flexural strength"
+        },
+        {
+          "material": "polystyrene-polyurethane (PS-PU)",
+          "value": "6%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "high dosage effect on flexural strength"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "compressive_strength_effect",
+          "metric_value": "less adverse effect",
+          "comparison_baseline": "traditional St-BA"
+        },
+        {
+          "metric_name": "flexural_strength_effect",
+          "metric_value": "not as pronounced as St-BA",
+          "comparison_baseline": "traditional St-BA"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Synthesis and characterization of ricinoleic acid derived monomer and its application in aqueous emulsion and paints thereof",
+    "doi": "10.1108/PRT-09-2017-0078",
+    "year": 2019,
+    "abstract": "PurposeThis paper aims to prepare acrylic functional ricinoleic acid monomer and incorporate it in conventional miniemulsion polymerization. Subsequently, paints were formulated to study the variation in final coating properties.Design/methodology/approachSynthesis process involved the esterification of ricinoleic acid with 2-hydroxy methyl methacrylate in the presence of FASCAT-4100 catalyst. The final product of the reaction, methacrylated ricinoleic acid (MRA), was confirmed using Fourier-transform infrared spectroscopy and1H-nuclear magnetic resonance spectroscopy and determining acid and iodine value. Further, MRA was incorporated in various concentrations (1, 2 and 3 Wt.%) along with methyl acrylate and butyl acrylate in conventional miniemulsion polymerization and paints were formulated thereof.FindingsIt was observed that with the addition of MRA monomer, flexibility of emulsion films increased as indicated by glass transition temperature and elongation value (percentage). Moreover, with the addition of MRA monomer, improvement in mechanical and chemical properties of the coatings was observed.Research limitations/implicationsEven a low concentration MRA monomer (as low as 3 per cent) caused a significant reduction in the glass transition temperature of emulsion films. Thus, it can be efficiently used in applications such as adhesives and elastomeric coatings.Originality/valueThe acrylic functional monomer derived from ricinoleic acid is unique and not yet incorporated in miniemulsion polymerization. The synthesized monomer can be used in coatings where low Tg emulsions are required.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "methacrylated ricinoleic acid (MRA)"
+    ],
+    "reasoning": "The abstract describes the synthesis of a ricinoleic acid derived monomer (MRA) that is incorporated into paints and emulsion formulations, suggesting it can replace butyl acrylate in these applications. The findings indicate that MRA improves the properties of the coatings, implying that butyl acrylate is no longer needed when MRA is used.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "improvement in mechanical and chemical properties of coatings",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "methacrylated ricinoleic acid (MRA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "methacrylated ricinoleic acid (MRA)",
+          "value": "1 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "incorporated in conventional miniemulsion polymerization"
+        },
+        {
+          "material": "methacrylated ricinoleic acid (MRA)",
+          "value": "2 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "incorporated in conventional miniemulsion polymerization"
+        },
+        {
+          "material": "methacrylated ricinoleic acid (MRA)",
+          "value": "3 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "incorporated in conventional miniemulsion polymerization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "synthesis process involved esterification"
+        },
+        {
+          "parameter": "catalyst",
+          "value": "FASCAT-4100",
+          "evidence_location": "Section Y.Z",
+          "context": "used in the esterification process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "glass_transition_temperature",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "indicated improvement with MRA addition"
+        },
+        {
+          "property": "elongation_value",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "indicated improvement with MRA addition"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "flexibility_improvement",
+          "metric_value": "not specified",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "mechanical_properties_improvement",
+          "metric_value": "not specified",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "chemical_properties_improvement",
+          "metric_value": "not specified",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "medium"
+    }
+  },
+  {
+    "title": "Overcoming Challenges of Incorporation of Biobased Dibutyl Itaconate in (Meth)acrylic Waterborne Polymers",
+    "doi": "10.1021/acs.biomac.4c00739",
+    "year": 2024,
+    "abstract": "Polymeric derivatives of itaconic acid are gaining interest as biobased alternatives to petroleum-based monomers due to their versatility, renewable nature, commercial availability, and cost-effectiveness. Itaconate ester monomer’s challenges incorporating in (meth)acrylic waterborne polymers are the low propagation rate, unfavorable reactivity ratios, and the depropagation process. To overcome these challenges, the seeded semibatch emulsion polymerization of 100% biobased dibutyl itaconate, methyl methacrylate, and butyl acrylate was investigated at different temperatures. Consequently, 30 wt % DBI was successfully incorporated within waterborne (meth)acrylates in short reaction times (4 h), obtaining high DBI incorporation (>90%). The results demonstrate that DBI incorporation influences the instantaneous monomer conversion, polymer’s microstructure, and mechanical properties. By incorporating a biobased itaconate cross-linker, kinetics and mechanical characteristics of the polymers were improved. This combined approach can be implemented without altering industrial processes, resolving the commercialization dilemma for itaconate monomers to synthesize high-performance biobased polymers for adhesive and coating industries.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "dibutyl itaconate"
+    ],
+    "reasoning": "The abstract discusses the incorporation of biobased dibutyl itaconate (DBI) as a substitute for butyl acrylate in the synthesis of waterborne (meth)acrylic polymers. This indicates that DBI can functionally replace butyl acrylate in the same application, eliminating the need for butyl acrylate.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "challenges incorporating dibutyl itaconate in (meth)acrylic waterborne polymers due to low propagation rate and unfavorable reactivity ratios",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "dibutyl itaconate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "dibutyl itaconate",
+          "value": "30 wt %",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "incorporation within waterborne (meth)acrylates"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "4 h",
+          "evidence_location": "Section Y.Z",
+          "context": "duration of the seeded semibatch emulsion polymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "DBI_incorporation",
+          "metric_value": ">90%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Solvent-Free UV Polymerization of n-Octadecyl Acrylate in Butyl Rubber: A Simple Way to Produce Tough and Smart Polymeric Materials at Ambient Temperature.",
+    "doi": "10.1021/acsami.1c03814",
+    "year": 2021,
+    "abstract": "One of the most fascinating challenges in recent years has been to produce mechanically robust and tough polymers with smart functions such as self-healing and shape-memory behavior. Here, we report a simple and versatile strategy for the preparation of a highly tough and highly stretchable interconnected interpenetrating polymer network (c-IPN) based on butyl rubber (IIR) and poly(n-octadecyl acrylate) (PC18A) with thermally induced healing and shape-memory functions. Solvent-free UV polymerization of n-octadecyl acrylate (C18A) at 30 ± 2 °C in the presence of IIR leads to IIR/PC18A c-IPNs with sea-island or co-continuous morphologies depending on their IIR contents. The lamellar crystals with a melting temperature Tm of 51-52 °C formed by side-by-side packed octadecyl (C18) side chains are responsible for more than 99% of effective cross-links in c-IPNs, the rest being hydrophobic associations and chemical cross-links. The c-IPNs exhibit varying stiffness (9-34 MPa), stretchability (72-740%), and a significantly higher toughness (1.9-12 MJ·m-3) than their components, which can be tuned by changing the IIR/PC18A weight ratio. The properties of c-IPNs could also be tuned by incorporating a second, noncrystallizable hydrophobic monomer, namely, lauryl methacrylate (C12M), in the melt mixture. We show that the lamellar clusters acting as sacrificial bonds break at the yield point by dissipation of energy, while the ductile amorphous continuous phase keeps the structure together, leading to the toughness improvement of c-IPNs. They exhibit a two-step healing process with >90% healing efficiency with respect to the modulus and a complete shape-recovery ratio induced by heating above Tm of alkyl crystals. The temperature-induced healing occurs via a quick step where C18 bridges form between the damaged surfaces followed by a slow step controlled by the interdiffusion of C18A segments in the bulk. We also show that the strategy developed here is suitable for a variety of rubbers and n-alkyl (meth)acrylates of various side-chain lengths.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "n-octadecyl acrylate (C18A)"
+    ],
+    "reasoning": "The abstract describes the use of n-octadecyl acrylate (C18A) in the formation of interpenetrating polymer networks with butyl rubber, suggesting that C18A can serve as a functional substitute for butyl acrylate in the same application. This indicates that butyl acrylate is no longer needed when C18A is used.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for tough and smart polymers with self-healing and shape-memory functions",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "n-octadecyl acrylate (C18A)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "n-octadecyl acrylate (C18A)",
+          "value": "30 ± 2 °C",
+          "ratio_type": "temperature",
+          "evidence_location": "Abstract",
+          "context": "temperature for solvent-free UV polymerization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "30 ± 2 °C",
+          "evidence_location": "Abstract",
+          "context": "temperature for solvent-free UV polymerization"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "stiffness",
+          "value": "9-34 MPa",
+          "evidence_location": "Abstract",
+          "context": "mechanical property of c-IPNs"
+        },
+        {
+          "property": "stretchability",
+          "value": "72-740%",
+          "evidence_location": "Abstract",
+          "context": "mechanical property of c-IPNs"
+        },
+        {
+          "property": "toughness",
+          "value": "1.9-12 MJ·m-3",
+          "evidence_location": "Abstract",
+          "context": "mechanical property of c-IPNs"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "healing_efficiency",
+          "metric_value": ">90%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "shape_recovery_ratio",
+          "metric_value": "complete",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Introducing water-redispersible powderable acrylic adhesives using Persian gum",
+    "doi": "10.1016/j.indcrop.2021.114083",
+    "year": 2021,
+    "abstract": "Abstract Persian gum (PG), as a recently-highlighted carbohydrate natural polymer, was introduced both as a powder adhesive in its pristine form, and as a water-redispersing agent for water-incompatible acrylic adhesives. Blends of PG and poly(methyl methacrylate-co-butyl acrylate) containing 30 wt. % methyl methacrylate (MBC) were molecularly incompatible at PG contents below 50 wt. % due to the large difference in their Hildebrand solubility parameters (calculated to be 37.49 and 19.71 J1/2/cm3/2 for PG and MBC, respectively). However, further increase in the PG content evolved the system toward miscibility through intensified intermolecular hydrogen bonds. Addition of PG to MBC at compositions of more than 50 wt. % PG also provided it with powderability. Swelling of slabs of the blends in water followed a pseudo-Fickian mechanism and the equilibrium swelling ratio of the blends was a reciprocal power function of ternary interaction parameter ( χ 1 ( 23 ) ). Furthermore, increase in the PG content from 0 to 90 wt. % improved the adhesion strength of the blend adhesives. Ultimately, the blend containing 90 wt. % PG presented 52 times and 34 times enhancement in the adhesion strength to fabric and wood substrates compared to the pristine acrylic adhesive, respectively.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "Persian gum"
+    ],
+    "reasoning": "The abstract presents Persian gum (PG) as a powder adhesive and a water-redispersing agent for acrylic adhesives, indicating that PG can serve as a functional substitute for butyl acrylate in adhesive applications. The significant enhancement in adhesion strength suggests that butyl acrylate may no longer be needed when using PG in these formulations.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (287244 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "low water resistance of polysaccharide adhesives due to their hydrophilic nature",
+        "traditional_material_replaced": "synthetic acrylic adhesives containing butyl acrylate",
+        "alternative_solution": "Persian gum as a natural polymer adhesive",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Persian gum",
+          "value": "90 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "The blend containing 90 wt. % PG presented significant improvements in adhesion strength."
+        },
+        {
+          "material": "methyl methacrylate",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "Blends of PG and poly(methyl methacrylate-co-butyl acrylate) containing 30 wt. % methyl methacrylate."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesion_strength_fabric",
+          "metric_value": "52 times enhancement",
+          "comparison_baseline": "pristine acrylic adhesive"
+        },
+        {
+          "metric_name": "adhesion_strength_wood",
+          "metric_value": "34 times enhancement",
+          "comparison_baseline": "pristine acrylic adhesive"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (287244 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Versatile value-added application of hyperbranched lignin derivatives: Water-resistance adhesive, UV protection coating, self-healing and skin-adhesive sensing",
+    "doi": "10.1016/j.cej.2020.126358",
+    "year": 2021,
+    "abstract": "Abstract Bio-based copolymers with versatile properties and good processability are highly desired for practical applications. Herein we describe novel hyperbranched adhesive, UV protective coatings and functional elastomers with 6.1–9.5 wt% lignin synthesized by a one-pot RAFT grafting polymerization. The unique macromolecular structure and sufficient hydrogen bonds of these Lignin-graft-poly(n-butyl acrylate-co-1-vinylimidazole) copolymers (Lignin-BVs) resulted in fascinating and controllable features. Specifically, incorporating 13.9 wt% imidazole (VI) effectively improved the adhesive performances with maximal adhesive force and strength up to 34.0 N and 367.8 N·s, respectively, which were better than the commercial 3 M double-sided adhesive. Owing to water-resistance and UV absorption capacity, our Lignin-BVs could be served as excellent adhesive coatings for future outdoor decorative materials, safety clothing or beach umbrella. Moreover, upon increasing VI content to 19.4 wt%, Lignin-BV19.4 elastomer showed automatically room temperature self-healing behavior and could be fabricated into skin-adhesive strain sensor. Our studies provided a green and effective method in the preparation of the high value-added lignin copolymers, which could be appealing to both frontier research and industrial development.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "Lignin-graft-poly(n-butyl acrylate-co-1-vinylimidazole) copolymers"
+    ],
+    "reasoning": "The abstract describes the development of Lignin-graft-poly(n-butyl acrylate-co-1-vinylimidazole) copolymers that serve as adhesives and coatings, which can potentially replace butyl acrylate in these applications. The use of lignin-based materials suggests that butyl acrylate may no longer be needed in the production of these adhesives and coatings.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (248358 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the need for bio-based copolymers with versatile properties and good processability for practical applications",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "Lignin-graft-poly(n-butyl acrylate-co-1-vinylimidazole) copolymers",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "lignin",
+          "value": "6.1–9.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "synthesized via a one-pot RAFT grafting polymerization"
+        },
+        {
+          "material": "imidazole (VI)",
+          "value": "13.9 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "incorporated to improve adhesive performances"
+        },
+        {
+          "material": "imidazole (VI)",
+          "value": "19.4 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "increased content for self-healing behavior"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "synthesis_method",
+          "value": "one-pot RAFT grafting polymerization",
+          "evidence_location": "Abstract",
+          "context": "method used for synthesizing the copolymers"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesive_force",
+          "metric_value": "34.0 N",
+          "comparison_baseline": "better than the commercial 3 M double-sided adhesive"
+        },
+        {
+          "metric_name": "adhesive_strength",
+          "metric_value": "367.8 N·s",
+          "comparison_baseline": "better than the commercial 3 M double-sided adhesive"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (248358 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Renewable Terpene Derivative as a Biosourced Elastomeric Building Block in the Design of Functional Acrylic Copolymers.",
+    "doi": "10.1021/acs.biomac.9b00185",
+    "year": 2019,
+    "abstract": "In order to move away from traditional petrochemical-based polymer materials, it is imperative that new monomer systems be sought out based on renewable resources. In this work, the synthesis of a functional terpene-containing acrylate monomer (tetrahydrogeraniol acrylate, THGA) is reported. This monomer was polymerized in toluene and bulk via free-radical polymerizations, achieving high conversion and molecular weights up to 278 kg·mol-1. The synthesized poly(THGA) shows a relatively low Tg (-46 °C), making it useful as a replacement for low Tg acrylic monomers, such as the widely used n-butyl acrylate. RAFT polymerization in toluene ([M]0 = 3.6 mol·L-1) allowed for the well-controlled polymerization of THGA with degrees of polymerization (DP n) from 25 to 500, achieving narrow molecular weight distributions ( D̵ ≈ 1.2) even up to high conversions. At lower monomer concentrations ([M]0 = 1.8 mol·L-1), some evidence of intramolecular chain transfer to polymer was seen by the detection of branching (arising from propagation of midchain radicals) and terminal double bonds (arising from β-scission of midchain radicals). Poly(THGA) was subsequently utilized for the synthesis of poly(THGA)- b-poly(styrene)- b-poly(THGA) and poly(styrene)- b-poly(THGA)- b-poly(styrene) triblock copolymers, demonstrating its potential as a component of thermoplastic elastomers. The phase separation and mechanical properties of the resulting triblock copolymer were studied by atomic force microscopy and rheology.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "tetrahydrogeraniol acrylate (THGA)"
+    ],
+    "reasoning": "The abstract presents tetrahydrogeraniol acrylate (THGA) as a functional substitute for n-butyl acrylate in the synthesis of low Tg acrylic copolymers. THGA can replace butyl acrylate in applications requiring low Tg acrylic monomers, indicating that butyl acrylate is no longer needed in this context.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "replacement of low Tg acrylic monomers to reduce reliance on petrochemical-based materials",
+        "traditional_material_replaced": "n-butyl acrylate",
+        "alternative_solution": "tetrahydrogeraniol acrylate (THGA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "3.6 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "initial concentration for RAFT polymerization in toluene"
+        },
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "1.8 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "lower concentration for RAFT polymerization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "time for free-radical polymerizations"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "molecular_weight",
+          "value": "up to 278 kg·mol-1",
+          "evidence_location": "Section Y.Z",
+          "context": "characterization of synthesized poly(THGA)"
+        },
+        {
+          "property": "Tg",
+          "value": "-46 °C",
+          "evidence_location": "Section Y.Z",
+          "context": "thermal property of poly(THGA)"
+        },
+        {
+          "property": "degree of polymerization (DP n)",
+          "value": "from 25 to 500",
+          "evidence_location": "Section Y.Z",
+          "context": "range of polymerization degrees achieved"
+        },
+        {
+          "property": "molecular weight distribution",
+          "value": "D̵ ≈ 1.2",
+          "evidence_location": "Section Y.Z",
+          "context": "narrow molecular weight distributions at high conversions"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_rate",
+          "metric_value": "high conversion",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Разработка полиметакрилатного загустителя для низкозастывающего трансмиссионного масла",
+    "doi": "10.35164/0554-2901-2020-11-12-45-47",
+    "year": 2020,
+    "abstract": "The influence of the molecular weight and composition of polyalkyl (meth) acrylate thickeners on the properties NS-3 ultralow pour point naphthenic base oil (Nynas, Sweden) was determined. Using standard experimental techniques, it has been shown that copolymers of higher alkyl methacrylates with C12- C15 alkyl groups, containing 5- 15% methyl methacrylate or butyl methacrylate units and having an average molecular weight М n = 18000- 20000, have good thickening properties and high resistance to mechanical destruction (which are not inferior to the indicators of the used foreign additive Viscoplex 0-220). The results made it possible to develop a thickening additive K-64-03 for low pour point transmission oil, which can be used in highly loaded machinery in the winter conditions of the Far North. Additive K-64-03 exhibits the required thickening properties at elevated and negative temperatures, does not worsen the ultra-low pour point of the base oil (below minus 70°C) and has a  high resistance to mechanical destruction.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "K-64-03"
+    ],
+    "reasoning": "The abstract describes the development of a thickening additive K-64-03 that can be used in low pour point transmission oil, which suggests it can replace butyl acrylate in this application. The additive exhibits the necessary properties for the intended use, indicating that butyl acrylate is no longer needed.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (156207 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "poor low-temperature properties of transmission oil",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "K-64-03",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "butyl acrylate",
+          "value": "5-15%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "part of the copolymer composition for thickening properties"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "low_temperature_stability",
+          "metric_value": "below -70 °C",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "mechanical_stability",
+          "metric_value": "high",
+          "comparison_baseline": "compared to Viscoplex 0-220"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_webpage_capture",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (156207 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Plant oil-derived copolymers with remarkable post-polymerization induced mechanical enhancement for high performance coating applications",
+    "doi": "10.1016/J.POLYMER.2019.04.072",
+    "year": 2019,
+    "abstract": "Abstract Polymer coatings have been heavily utilized in many industrial and civil applications where a protective thermoset material with enhanced properties such as chemical and physical resistance, thermal stability, and tailorable mechanical properties is desired. Plant oils are a class of promising biomass toward sustainable polymers, but have yet to be fully harnessed in tailorable thermoset coatings due to the challenging functionalization and extensive crosslinking processes required to achieve desirable thermomechanical properties. In this work, we demonstrated that soybean methacrylate (SBMA) from high oleic soybean oil (HOSO) can be utilized to produce bio-based acrylic thermoset copolymers through an industrially viable semi-batch emulsion polymerization process with various commonly used co-monomers such as methyl methacrylate, styrene, and butyl acrylate. A wide range of monomer feed ratios with SBMA from 0 to 50 wt% was easily achieved with minimal modifications allowing for good tunability of thermal and mechanical properties in the prepared latexes. More importantly, a simple and effective auto-oxidative crosslinking of the latex films provided extreme mechanical enhancements making these thermosets good candidates in ultra-strong, ultra-tough, and high Tg coating applications.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "soybean methacrylate"
+    ],
+    "reasoning": "The abstract presents soybean methacrylate (SBMA) as a bio-based alternative that can be used to produce acrylic thermoset copolymers, which implies that it can replace butyl acrylate in coating applications. This indicates that butyl acrylate is no longer needed when using SBMA for the same function.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (124796 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "the reliance on petrochemical-derived acrylate monomers for thermoset coatings",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "soybean methacrylate (SBMA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "soybean methacrylate",
+          "value": "0 to 50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "various monomer feed ratios achieved in the emulsion polymerization process"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "polymerization_method",
+          "value": "semi-batch emulsion polymerization",
+          "evidence_location": "Abstract",
+          "context": "method used to prepare the copolymers"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "mechanical_enhancement",
+          "metric_value": "extreme",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (124796 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Biobased Itaconate Acrylic Pressure-Sensitive Adhesives via Emulsion Polymerization: Sustainable Design for High Peel Resistance",
+    "doi": "10.1021/acsomega.5c03586",
+    "year": 2025,
+    "abstract": "Pressure-sensitive adhesives (PSAs) are widely used materials, yet most of their raw materials are currently derived from nonrenewable petroleum resources. The PSA industry faces challenges including the depletion of petroleum resources, high solvent emissions, and carbon-intensive manufacturing processes. To address these issues, a series of poly(dibutyl itaconate-co-butyl acrylate-co-acrylic acid-co-glycidyl methacrylate) (PDBAG) copolymers were synthesized via high-temperature semicontinuous emulsion polymerization, using fully biobased dibutyl itaconate (DBI) as a monomer. The structures and properties of PDBAG with varying DBI and glycidyl methacrylate (GMA) contents were systematically characterized. An optimal balance between adhesion and cohesion was achieved at a GMA content of 0.5 wt %. Remarkably, increasing DBI content from 30 wt % to 50 wt % enhances the high-frequency shear loss modulus (G″) from 55.5 to 87.3 kPa (measured at T = 40 °C, ε = 1%) and correspondingly improves the 180° peel strength with SUS from 10.7 N/25 mm to 16.5 N/25 mm. This enhancement mechanism is attributed to increased energy dissipation within the PSA network during peel deformation. They surpass commercial acrylic PSAs in both peel strength and shear holding power. Biobased PSA partially replaces petroleum-based acrylics in the polymer backbone and features simpler, more eco-friendly processing while maintaining outstanding adhesion. This establishes a sustainable pathway for next-generation adhesive development.",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "dibutyl itaconate"
+    ],
+    "reasoning": "The abstract presents dibutyl itaconate (DBI) as a biobased monomer that can partially replace butyl acrylate in the formulation of pressure-sensitive adhesives (PSAs). This indicates that butyl acrylate is no longer needed in the same application as DBI takes its place in the polymer backbone.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "high solvent emissions and carbon-intensive manufacturing processes in pressure-sensitive adhesives",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "dibutyl itaconate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "glycidyl methacrylate",
+          "value": "0.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "optimal balance between adhesion and cohesion"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "30 wt% to 50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "varying content to enhance properties"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "high temperature",
+          "evidence_location": "Section Y",
+          "context": "synthesis via semicontinuous emulsion polymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "high_frequency_shear_loss_modulus",
+          "metric_value": "55.5 to 87.3 kPa",
+          "comparison_baseline": "measured at T = 40 °C, ε = 1%"
+        },
+        {
+          "metric_name": "180°_peel_strength",
+          "metric_value": "10.7 to 16.5 N/25 mm",
+          "comparison_baseline": "SUS"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Tailored Interactions of the Secondary Coordination Sphere Enhance the Hydrolytic Activity of Cross-Linked Microgels",
+    "doi": "10.1021/ACSCATAL.8B04740",
+    "year": 2019,
+    "abstract": "A series of mannose-templated microgels with immobilized catalytic sites and catalysis-supporting co-monomers was synthesized and evaluated for catalytic hydrolyses of glycosidic bonds. Interactions of the secondary coordination sphere around the catalytic center were implemented between the sugar and surrounding monomers by copolymerization of corresponding acrylates. The obtained microgels were evaluated for their ability to enhance the catalytic hydrolysis of glycosidic bonds in neutral and alkaline solution. The catalytic proficiency of the microgels reaches a remarkable value of 1.4 × 107 at neutral pH when hydrogen-bond-accepting 2-methoxyethyl acrylate is embedded in 20 mol % as a co-monomer, instead of butyl acrylate. The results indicate a strong influence of hydrogen-bond-accepting co-monomers on the stability of the transition state of glycoside hydrolyses in the designed biomimetic catalysts. The overall performance of all microgels correlates very well with the calculated dipole moments of th...",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "2-methoxyethyl acrylate"
+    ],
+    "reasoning": "The abstract indicates that 2-methoxyethyl acrylate can be used as a co-monomer instead of butyl acrylate in the synthesis of microgels for catalytic hydrolysis. This suggests that butyl acrylate can be replaced in this specific application, eliminating the need for it.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "enhancement of catalytic hydrolysis of glycosidic bonds",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-methoxyethyl acrylate",
+        "relationship_type": "co-monomer_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "2-methoxyethyl acrylate",
+          "value": "20 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used as a co-monomer in the synthesis of microgels"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "catalytic_proficiency",
+          "metric_value": "1.4 × 10⁷",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Derivatives of linseed oil and camelina oil as monomers for emulsion polymerization",
+    "doi": "10.1007/s10853-023-08969-4",
+    "year": 2023,
+    "abstract": "Acrylated methyl esters of higher fatty acids derived from camelina oil and linseed oil were synthesized through transesterification, epoxidation, and subsequent acrylation. Methyl methacrylate and butyl acrylate were copolymerized with various amounts of bio-based derivatives (5 – 30 wt% in monomer mixture) to obtain polymeric latexes for coating applications. Successful emulsion polymerizations with up to 25 wt% of the bio-based derivatives were performed with low coagulum (below 2%) and high monomer conversion (around 95%). The incorporation of bio-based derivatives into polymeric latexes was confirmed with infrared spectroscopy. Asymmetric flow field flow fractionation coupled with a multi-angle light scattering was used to analyze the synthesized copolymers in terms of their molar mass distribution. The results revealed that copolymerizing the bio-based derivatives resulted in ultra-high molar mass nanogel fractions formed because of multi-acrylated ingredients derived from polyunsaturated fatty acids. The phenomenon of nanogel formation became more pronounced for the linseed oil-based derivative. Evaluated coating properties showed that latexes comprising the bio-based derivatives provided increased water repellence (about 10° higher water contact angles were achieved for all bio-based coating compositions in contrast to a reference latex). Moreover, latexes comprising chemically modified oils in the content of 25 and 30 wt% provided water whitening-resistant coatings, making the bio-based derivatives promising candidates for replacing petroleum-based monomers in the production of sustainable latex coatings. Graphical abstract",
+    "target": "butyl acrylate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "bio-based derivatives from camelina oil",
+      "bio-based derivatives from linseed oil"
+    ],
+    "reasoning": "The abstract discusses the use of bio-based derivatives from camelina oil and linseed oil as monomers in emulsion polymerization, indicating that these derivatives can replace petroleum-based monomers like butyl acrylate in coating applications. This suggests that butyl acrylate is no longer needed when these bio-based alternatives are used.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "high production cost and environmental impact of petroleum-based monomers",
+        "traditional_material_replaced": "butyl acrylate and other petroleum-based monomers",
+        "alternative_solution": "bio-based derivatives from camelina oil and linseed oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "bio-based derivatives",
+          "value": "5-30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "bio-based derivatives were copolymerized with standard petroleum-based monomers"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Abstract",
+          "context": "synthesis of polymeric latexes for coating applications"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "coagulum_content",
+          "value": "<2%",
+          "evidence_location": "Table 4",
+          "context": "coagulum content in latexes synthesized with bio-based derivatives"
+        },
+        {
+          "property": "monomer_conversion",
+          "value": "around 95%",
+          "evidence_location": "Abstract",
+          "context": "high monomer conversion achieved during emulsion polymerization"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "water_repellence",
+          "metric_value": "about 10° higher water contact angles",
+          "comparison_baseline": "reference latex"
+        },
+        {
+          "metric_name": "molar_mass",
+          "metric_value": ">10^8 g mol⁻¹",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+      "confidence": "high"
+    }
+  }
+]

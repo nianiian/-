@@ -1,0 +1,70 @@
+{
+  "target": "1,2-dichloroethane",
+  "total_records": 10,
+  "statistics": {
+    "extracted": 1,
+    "partial_data": 0,
+    "partial_with_calculation": 0,
+    "insufficient_data": 2,
+    "not_found": 0,
+    "irrelevant": 7
+  },
+  "records_with_dosage": [
+    {
+      "title": "Novel and Efficient Synthesis of Phenethyl Formate via Enzymatic Esterification ",
+      "doi": "10.3390/biom10010070",
+      "alternative": [
+        "toluene"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf",
+      "download_strategy": "Downloaded PDF (Europe PMC PMC7022603) (1078024 bytes)",
+      "substitution_logic": {
+        "target_problem": "the use of 1,2-dichloroethane as a solvent in enzymatic synthesis of phenethyl formate, which may affect enzyme stability and reuse",
+        "traditional_material_replaced": "1,2-dichloroethane",
+        "alternative_solution": "toluene",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Novozym 435 enzyme",
+          "value": "15 g/L",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "optimal enzyme concentration for the synthesis of phenethyl formate"
+        },
+        {
+          "material": "formic acid:phenethyl alcohol",
+          "value": "1:5",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "optimal molar ratio for the synthesis of phenethyl formate"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "40 °C",
+          "evidence_location": "Abstract",
+          "context": "reaction temperature for the enzymatic synthesis"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_yield",
+          "metric_value": "95.92%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "enzyme_reuse_conversion",
+          "metric_value": ">92%",
+          "comparison_baseline": "after 20 reactions with toluene"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

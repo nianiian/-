@@ -2505,6 +2505,56 @@
     "abstract": null
   },
   {
+    "paperId": "05981c79cfb4fe5401fdbd0c827732c15e60538a",
+    "externalIds": {
+      "MAG": "2017275383",
+      "PubMedCentral": "2432054",
+      "DOI": "10.1186/1476-069X-7-24",
+      "CorpusId": 421966,
+      "PubMed": "18518975"
+    },
+    "url": "https://www.semanticscholar.org/paper/05981c79cfb4fe5401fdbd0c827732c15e60538a",
+    "title": "Evaluation of the Webler-Brown model for estimating tetrachloroethylene exposure from vinyl-lined asbestos-cement pipes",
+    "venue": "Environmental Health",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "https://ehjournal.biomedcentral.com/counter/pdf/10.1186/1476-069X-7-24",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2432054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "28788029",
+        "name": "L. Spence"
+      },
+      {
+        "authorId": "6122120",
+        "name": "A. Aschengrau"
+      },
+      {
+        "authorId": "47082052",
+        "name": "L. Gallagher"
+      },
+      {
+        "authorId": "2079173",
+        "name": "T. Webster"
+      },
+      {
+        "authorId": "3288749",
+        "name": "T. Heeren"
+      },
+      {
+        "authorId": "1860718",
+        "name": "D. Ozonoff"
+      }
+    ],
+    "abstract": "BackgroundFrom May 1968 through March 1980, vinyl-lined asbestos-cement (VL/AC) water distribution pipes were installed in New England to avoid taste and odor problems associated with asbestos-cement pipes. The vinyl resin was applied to the inner pipe surface in a solution of tetrachloroethylene (perchloroethylene, PCE). Substantial amounts of PCE remained in the liner and subsequently leached into public drinking water supplies.MethodsOnce aware of the leaching problem and prior to remediation (April-November 1980), Massachusetts regulators collected drinking water samples from VL/AC pipes to determine the extent and severity of the PCE contamination. This study compares newly obtained historical records of PCE concentrations in water samples (n = 88) with concentrations estimated using an exposure model employed in epidemiologic studies on the cancer risk associated with PCE-contaminated drinking water. The exposure model was developed by Webler and Brown to estimate the mass of PCE delivered to subjects' residences.ResultsThe mean and median measured PCE concentrations in the water samples were 66 and 0.5 μg/L, respectively, and the range extended from non-detectable to 2432 μg/L. The model-generated concentration estimates and water sample concentrations were moderately correlated (Spearman rank correlation coefficient = 0.48, p < 0.0001). Correlations were higher in samples taken at taps and spigots vs. hydrants (ρ = 0.84 vs. 0.34), in areas with simple vs. complex geometry (ρ = 0.51 vs. 0.38), and near pipes installed in 1973–1976 vs. other years (ρ = 0.56 vs. 0.42 for 1968–1972 and 0.37 for 1977–1980). Overall, 24% of the variance in measured PCE concentrations was explained by the model-generated concentration estimates (p < 0.0001). Almost half of the water samples had undetectable concentrations of PCE. Undetectable levels were more common in areas with the earliest installed VL/AC pipes, at the beginning and middle of VL/AC pipes, at hydrants, and in complex pipe configurations.ConclusionPCE concentration estimates generated using the Webler-Brown model were moderately correlated with measured water concentrations. The present analysis suggests that the exposure assessment process used in prior epidemiological studies could be improved with more accurate characterization of water flow. This study illustrates one method of validating an exposure model in an epidemiological study when historical measurements are not available."
+  },
+  {
     "paperId": "05a185d3822c9ceb593f89932291c293895a10d5",
     "externalIds": {
       "MAG": "315453712",
@@ -2675,7 +2725,7 @@
         "name": "P. Jardine"
       }
     ],
-    "abstract": "AbstractImproved surface‐based geophysical technologies that are commercially available provide a new level of detail that can be used to guide ground water remediation. Surface‐based multielectrode resistivity methods and tomographic seismic refraction techniques were used to image to a depth of ~30 m below the surface at the Natural and Accelerated Bioremediation Research Field Research Center. The U.S. Department of Energy (DOE) established the research center on the DOE Oak Ridge Reservation in Oak Ridge, Tennessee, to conduct in situ field‐scale studies on bioremediation of metals and radionuclides. Bioremediation studies are being conducted on the saprolite, shale bedrock, and ground water at the site that have been contaminated with nitrate, uranium, technetium, tetrachloroethylene, and other contaminants (U.S. DOE 1997). Geophysical methods were effective in imaging the high‐ionic strength plume and in defining the transition zone between saprolite and bedrock zones that appears to have a significant influence on contaminant transport. The geophysical data were used to help select the location and depth of investigation for field research plots. Drilling, borehole geophysics, and ground water sampling were used to verify the surface geophysical studies."
+    "abstract": "Abstract\n                  Improved surface‐based geophysical technologies that are commercially available provide a new level of detail that can be used to guide ground water remediation. Surface‐based multielectrode resistivity methods and tomographic seismic refraction techniques were used to image to a depth of ~30 m below the surface at the Natural and Accelerated Bioremediation Research Field Research Center. The U.S. Department of Energy (DOE) established the research center on the DOE Oak Ridge Reservation in Oak Ridge, Tennessee, to conduct in situ field‐scale studies on bioremediation of metals and radionuclides. Bioremediation studies are being conducted on the saprolite, shale bedrock, and ground water at the site that have been contaminated with nitrate, uranium, technetium, tetrachloroethylene, and other contaminants (). Geophysical methods were effective in imaging the high‐ionic strength plume and in defining the transition zone between saprolite and bedrock zones that appears to have a significant influence on contaminant transport. The geophysical data were used to help select the location and depth of investigation for field research plots. Drilling, borehole geophysics, and ground water sampling were used to verify the surface geophysical studies."
   },
   {
     "paperId": "05dad4c17866f56883f4e08d45f0ec89dc1a9ece",
@@ -6211,7 +6261,7 @@
         "name": "May Mah"
       }
     ],
-    "abstract": "AbstractThis paper describes a field experiment involving the release of 230.9 liters of tetrachloroethylene (PCE) below the water table in a naturally occurring, unconfined sand aquifer. The release was executed in a 3 m X 3 m X 3.4 m deep, scalable‐joint steel sheet‐pile cell anchored into an underlying clay aquitard. After allowing 28 days for redistribution, excavation of the upper approximately 0.9 m of the cell revealed PCE pools and residual to be present in relatively coarser grained horizons, with substantial degrees of lateral flow having taken place. This lateral flow was observed in laminations and lenses ranging in thickness from a few mm to a few cm, with only subtle variations in texture separating individual migration pathways. Detailed sampling during the excavation procedure and subsampling of three cores extended down to the clay aquitard revealed a spatially variable distribution of PCE with saturations ranging from 1% to 38% of pore space. Laboratory measurement of a fully hysteretic capillary pressure curve demonstrated that the degree of nonwetting phase residual is a function of the maximum saturation attained along main drainage during the initial infiltration process. Various models for consolidated petroleum reservoir materials did not fit the experimental data well. The theory governing pool formation in heterogeneous porous media is also presented, and it is demonstrated that pools can form in homogeneous media exhibiting a distinct entry pressure."
+    "abstract": "Abstract\n                  This paper describes a field experiment involving the release of 230.9 liters of tetrachloroethylene (PCE) below the water table in a naturally occurring, unconfined sand aquifer. The release was executed in a 3 m X 3 m X 3.4 m deep, scalable‐joint steel sheet‐pile cell anchored into an underlying clay aquitard. After allowing 28 days for redistribution, excavation of the upper approximately 0.9 m of the cell revealed PCE pools and residual to be present in relatively coarser grained horizons, with substantial degrees of lateral flow having taken place. This lateral flow was observed in laminations and lenses ranging in thickness from a few mm to a few cm, with only subtle variations in texture separating individual migration pathways. Detailed sampling during the excavation procedure and subsampling of three cores extended down to the clay aquitard revealed a spatially variable distribution of PCE with saturations ranging from 1% to 38% of pore space. Laboratory measurement of a fully hysteretic capillary pressure curve demonstrated that the degree of nonwetting phase residual is a function of the maximum saturation attained along main drainage during the initial infiltration process. Various models for consolidated petroleum reservoir materials did not fit the experimental data well. The theory governing pool formation in heterogeneous porous media is also presented, and it is demonstrated that pools can form in homogeneous media exhibiting a distinct entry pressure."
   },
   {
     "paperId": "0d489d510d8fead1b753c562d45cd9b226531158",
@@ -6660,7 +6710,7 @@
         "name": "M. Broholm"
       }
     ],
-    "abstract": "AbstractPreliminary risk assessment for prioritisation of site investigations requires efficient screening to reveal type and level of contamination. The screening methods, tree coring and soil gas sampling were applied and compared at two forested sites contaminated with tetrachloroethylene (PCE) or trichloroethylene (TCE) to evaluate their ability to locate source zones and contaminant hot spots. One test site represented a relatively homogeneous sandy soil and aquifer, and the second a more heterogeneous geology with both sandy and less permeable clay till layers overlying a chalk aquifer. Tree cores from different tree species were sampled and analysed, and compared to soil gas measurements and existing soil gas data. Both methods were found useful as screening tools to locate hot spots of PCE and TCE in the shallow subsurface. Tree coring was found to be particularly beneficial as a complement to soil gas sampling at sites with low permeable soils, and where contamination was located in the capillary rise or shallow groundwater. The shorter time required for tree coring reduced the costs compared to soil gas sampling, but the sensitivity and precision of tree coring were lower. However, this did not affect the feasibility of using tree coring to locate the hot spots. Moreover, a combination of the two methods can help to focus any subsequent investigations like soil or groundwater sampling. The use of tree coring to complement soil gas sampling for pre‐screening is expected to result in higher certainty for revealing hot spots and source zones at contaminated sites."
+    "abstract": "Abstract\n                  \n                    Preliminary risk assessment for prioritisation of site investigations requires efficient screening to reveal type and level of contamination. The screening methods, tree coring and soil gas sampling were applied and compared at two forested sites contaminated with tetrachloroethylene (\n                    PCE\n                    ) or trichloroethylene (\n                    TCE\n                    ) to evaluate their ability to locate source zones and contaminant hot spots. One test site represented a relatively homogeneous sandy soil and aquifer, and the second a more heterogeneous geology with both sandy and less permeable clay till layers overlying a chalk aquifer. Tree cores from different tree species were sampled and analysed, and compared to soil gas measurements and existing soil gas data. Both methods were found useful as screening tools to locate hot spots of\n                    PCE\n                    and\n                    TCE\n                    in the shallow subsurface. Tree coring was found to be particularly beneficial as a complement to soil gas sampling at sites with low permeable soils, and where contamination was located in the capillary rise or shallow groundwater. The shorter time required for tree coring reduced the costs compared to soil gas sampling, but the sensitivity and precision of tree coring were lower. However, this did not affect the feasibility of using tree coring to locate the hot spots. Moreover, a combination of the two methods can help to focus any subsequent investigations like soil or groundwater sampling. The use of tree coring to complement soil gas sampling for pre‐screening is expected to result in higher certainty for revealing hot spots and source zones at contaminated sites."
   },
   {
     "paperId": "0e0760763225fe9fbb5024bfd674b747db7f0809",
@@ -8500,7 +8550,7 @@
         "name": "B. Kueper"
       }
     ],
-    "abstract": "AbstractA two‐dimensional, transient‐flow, and transport numerical model was developed to simulate in situ chemical oxidation (ISCO) of trichloroethylene and tetrachloroethylene by potassium permanganate in fractured clay. This computer model incorporates dense, nonaqueous phase liquid dissolution, reactive aquifer material, multispecies matrix diffusion, and kinetic formulations for the oxidation reactions. A sensitivity analysis for two types of parameters, hydrogeological and engineering, including matrix porosity, matrix organic carbon, fracture aperture, potassium permanganate dosage, and hydraulic gradient, was conducted. Remediation metrics investigated were the relative rebound concentrations arising from back diffusion and percent mass destroyed. No well‐defined correlation was found between the magnitude of rebound concentrations during postremedy monitoring and the amount of contaminant mass destroyed during the application. Results indicate that all investigated parameters affect ISCO remediation in some form. Results indicate that when advective transport through the fracture is dominant relative to diffusive transport into the clay matrix (large System Peclet Number), permanganate is more likely to be flushed out of the system and treatment is not optimal. If the System Peclet Number is too small, indicating that diffusion into the matrix is dominant relative to advection through the fracture, permanganate does not traverse the entire fracture, leading to postremediation concentration rebound. Optimal application of ISCO requires balancing advective transport through the fracture with diffusive transport into the clay matrix."
+    "abstract": "Abstract\n                  A two‐dimensional, transient‐flow, and transport numerical model was developed to simulate in situ chemical oxidation (ISCO) of trichloroethylene and tetrachloroethylene by potassium permanganate in fractured clay. This computer model incorporates dense, nonaqueous phase liquid dissolution, reactive aquifer material, multispecies matrix diffusion, and kinetic formulations for the oxidation reactions. A sensitivity analysis for two types of parameters, hydrogeological and engineering, including matrix porosity, matrix organic carbon, fracture aperture, potassium permanganate dosage, and hydraulic gradient, was conducted. Remediation metrics investigated were the relative rebound concentrations arising from back diffusion and percent mass destroyed. No well‐defined correlation was found between the magnitude of rebound concentrations during postremedy monitoring and the amount of contaminant mass destroyed during the application. Results indicate that all investigated parameters affect ISCO remediation in some form. Results indicate that when advective transport through the fracture is dominant relative to diffusive transport into the clay matrix (large System Peclet Number), permanganate is more likely to be flushed out of the system and treatment is not optimal. If the System Peclet Number is too small, indicating that diffusion into the matrix is dominant relative to advection through the fracture, permanganate does not traverse the entire fracture, leading to postremediation concentration rebound. Optimal application of ISCO requires balancing advective transport through the fracture with diffusive transport into the clay matrix."
   },
   {
     "paperId": "123dcbebe25dce8e44b3c71a2fb8e858a08dd9f0",
@@ -8890,7 +8940,7 @@
         "name": "M. Broholm"
       }
     ],
-    "abstract": "AbstractThis study applies an optimized phytoscreening method to locate a chlorinated ethene plume discharging into a stream. To evaluate the conditions most suitable for successful phytoscreening, trees along the stream bank were monitored through different seasons with different environmental conditions and hence different uptake/loss scenarios. Vinyl chloride (VC) as well as cis‐dichloroethylene (cis‐DCE), trichloroethylene (TCE), and tetrachloroethylene (PCE) were detected in the trees, documenting that phytoscreening is a viable method to locate chlorinated ethene plumes, including VC, discharging to streams. The results reveal, that phytoscreening for VC is more sensitive to environmental conditions affecting transpiration than for the other chlorinated ethenes detected. Conditions leading to higher groundwater uptake by transpiration than contaminant loss by diffusion from the tree trunks are optimal (e.g., low relative humidity, plentiful hours of sunshine and an intermediate air temperature). Additionally, low precipitation prior to the sampling event is beneficial, as uptake of infiltrating precipitation dilutes the concentration in the trees. All chlorinated ethenes were sensitive to dilution by clean precipitation and in some months, this resulted in no detection of contaminants in the trees at all. Under optimal environmental conditions the tree cores allowed detection of chlorinated solvents and their metabolites in the underlying groundwater. Whereas, for less ideal conditions there was a risk of no detection of the more volatile VC. This study is promising for the future applicability of phytoscreening to locate shallow groundwater contamination with the degradation products of chlorinated solvents."
+    "abstract": "Abstract\n                  This study applies an optimized phytoscreening method to locate a chlorinated ethene plume discharging into a stream. To evaluate the conditions most suitable for successful phytoscreening, trees along the stream bank were monitored through different seasons with different environmental conditions and hence different uptake/loss scenarios. Vinyl chloride (VC) as well as cis‐dichloroethylene (cis‐DCE), trichloroethylene (TCE), and tetrachloroethylene (PCE) were detected in the trees, documenting that phytoscreening is a viable method to locate chlorinated ethene plumes, including VC, discharging to streams. The results reveal, that phytoscreening for VC is more sensitive to environmental conditions affecting transpiration than for the other chlorinated ethenes detected. Conditions leading to higher groundwater uptake by transpiration than contaminant loss by diffusion from the tree trunks are optimal (e.g., low relative humidity, plentiful hours of sunshine and an intermediate air temperature). Additionally, low precipitation prior to the sampling event is beneficial, as uptake of infiltrating precipitation dilutes the concentration in the trees. All chlorinated ethenes were sensitive to dilution by clean precipitation and in some months, this resulted in no detection of contaminants in the trees at all. Under optimal environmental conditions the tree cores allowed detection of chlorinated solvents and their metabolites in the underlying groundwater. Whereas, for less ideal conditions there was a risk of no detection of the more volatile VC. This study is promising for the future applicability of phytoscreening to locate shallow groundwater contamination with the degradation products of chlorinated solvents."
   },
   {
     "paperId": "13303e2e1549b9f85c9a64f5659bc2bfd10b25f5",
@@ -10506,7 +10556,7 @@
         "name": "P. F. Andersen"
       }
     ],
-    "abstract": "AbstractThe Kalman filter is an efficient data assimilation tool to refine an estimate of a state variable using measured data and the variable's correlations in space and/or time. The ensemble Kalman filter (EnKF) (Evensen 2004, 2009) is a Kalman filter variant that employs Monte Carlo analysis to define the correlations that help to refine the updated state. While use of EnKF in hydrology is somewhat limited, it has been successfully applied in other fields of engineering (e.g., oil reservoir modeling, weather forecasting). Here, EnKF is used to refine a simulated groundwater tetrachloroethylene (TCE) plume that underlies the Tooele Army Depot‐North (TEAD‐N) in Utah, based on observations of TCE in the aquifer. The resulting EnKF‐based assimilated plume is simulated forward in time to predict future plume migration. The correlations that underpin EnKF updating implicitly contain information about how the plume developed over time under the influence of complex site hydrology and variable source history, as they are predicated on multiple realizations of a well‐calibrated numerical groundwater flow and transport model. The EnKF methodology is compared to an ordinary kriging‐based assimilation method with respect to the accurate representation of plume concentrations in order to determine the relative efficacy of EnKF for water quality data assimilation."
+    "abstract": "Abstract\n                  The Kalman filter is an efficient data assimilation tool to refine an estimate of a state variable using measured data and the variable's correlations in space and/or time. The ensemble Kalman filter (EnKF) (Evensen 2004, 2009) is a Kalman filter variant that employs Monte Carlo analysis to define the correlations that help to refine the updated state. While use of EnKF in hydrology is somewhat limited, it has been successfully applied in other fields of engineering (e.g., oil reservoir modeling, weather forecasting). Here, EnKF is used to refine a simulated groundwater tetrachloroethylene (TCE) plume that underlies the Tooele Army Depot‐North (TEAD‐N) in Utah, based on observations of TCE in the aquifer. The resulting EnKF‐based assimilated plume is simulated forward in time to predict future plume migration. The correlations that underpin EnKF updating implicitly contain information about how the plume developed over time under the influence of complex site hydrology and variable source history, as they are predicated on multiple realizations of a well‐calibrated numerical groundwater flow and transport model. The EnKF methodology is compared to an ordinary kriging‐based assimilation method with respect to the accurate representation of plume concentrations in order to determine the relative efficacy of EnKF for water quality data assimilation."
   },
   {
     "paperId": "16669655a7ffbe4b8d38860818fecb5d785a9c1b",
@@ -11665,7 +11715,7 @@
         "name": "W. Ghiorse"
       }
     ],
-    "abstract": "ABSTRACTRegions of the earth below the root zone of soil have conventionally been considered void of life. However, widespread pollution of ground water in the U.S. by organic compounds has kindled interest in the numbers of microbes that might be found in aquifers and associated regions of the deeper unsaturated zone, and in their ability to degrade organic pollutants.Newly developed techniques in microbial ecology allow the direct enumeration and examination of soil microbes without recourse to their cultivation on growth media. These techniques reduce many uncertainties associated with the use of culture media, such as the growth of contaminants or the failure of indigenous forms to grow on a particular medium. Samples were recovered aseptically from depths of 1·2, 3·0, and 5·0 meters (m) at the margin of a small floodplain near Lula, Oklahoma. Depth to the water table was 3·6 m; depth to bedrock was 6·0 m. Numbers of microbes were surprisingly similar at all three depths (3 to 9 × 106/g dry material). Although both Gram‐positive and Gram‐negative bacteria were encountered, small Gram‐positive coccoid forms predominated. No protozoa, yeasts, or other fungi were seen. The indigenous bacteria could rapidly degrade toluene. Chlorobenzene was degraded in material from the vadose zone, while bromodichloromethane was degraded in material from the saturated zone. There was no detectable degradation of 1,2‐dichloroethane, 1,1,2‐trichloroethane, trichloroethylene, or tetrachloroethylene."
+    "abstract": "ABSTRACT\n                  Regions of the earth below the root zone of soil have conventionally been considered void of life. However, widespread pollution of ground water in the U.S. by organic compounds has kindled interest in the numbers of microbes that might be found in aquifers and associated regions of the deeper unsaturated zone, and in their ability to degrade organic pollutants.\n                  \n                    Newly developed techniques in microbial ecology allow the direct enumeration and examination of soil microbes without recourse to their cultivation on growth media. These techniques reduce many uncertainties associated with the use of culture media, such as the growth of contaminants or the failure of indigenous forms to grow on a particular medium. Samples were recovered aseptically from depths of 1·2, 3·0, and 5·0 meters (m) at the margin of a small floodplain near Lula, Oklahoma. Depth to the water table was 3·6 m; depth to bedrock was 6·0 m. Numbers of microbes were surprisingly similar at all three depths (3 to 9 × 10\n                    6\n                    /g dry material). Although both Gram‐positive and Gram‐negative bacteria were encountered, small Gram‐positive coccoid forms predominated. No protozoa, yeasts, or other fungi were seen. The indigenous bacteria could rapidly degrade toluene. Chlorobenzene was degraded in material from the vadose zone, while bromodichloromethane was degraded in material from the saturated zone. There was no detectable degradation of 1,2‐dichloroethane, 1,1,2‐trichloroethane, trichloroethylene, or tetrachloroethylene."
   },
   {
     "paperId": "1854d723d88c808e06a9724d03da7aece837b954",
@@ -12715,7 +12765,7 @@
         "name": "W. Heiger-Bernays"
       }
     ],
-    "abstract": "AbstractThe United States Environmental Protection Agency (USEPA) is finalizing its vapor intrusion guidelines. One of the important issues related to vapor intrusion is background concentrations of volatile organic compounds (VOCs) in indoor air, typically attributed to consumer products and building materials. Background concentrations can exist even in the absence of vapor intrusion and are an important consideration when conducting site assessments. In addition, the development of accurate conceptual models that depict pathways for vapor entry into buildings is important during vapor intrusion site assessments. Sewer gas, either as a contributor to background concentrations or as part of the site conceptual model, is not routinely evaluated during vapor intrusion site assessments. The research described herein identifies an instance where vapors emanating directly from a sanitary sewer pipe within a residence were determined to be a source of tetrachloroethylene (PCE) detected in indoor air. Concentrations of PCE in the bathroom range from 2.1 to 190 µg/m3 and exceed typical indoor air concentrations by orders of magnitude resulting in human health risk classified as an “Imminent Hazard” condition. The results suggest that infiltration of sewer gas resulted in PCE concentrations in indoor air that were nearly two orders of magnitude higher as compared to when infiltration of sewer gas was not known to be occurring. This previously understudied pathway whereby sewers serve as sources of PCE (and potentially other VOC) vapors is highlighted. Implications for vapor intrusion investigations are also discussed."
+    "abstract": "Abstract\n                  \n                    The United States Environmental Protection Agency (\n                    USEPA\n                    ) is finalizing its vapor intrusion guidelines. One of the important issues related to vapor intrusion is background concentrations of volatile organic compounds (\n                    VOCs\n                    ) in indoor air, typically attributed to consumer products and building materials. Background concentrations can exist even in the absence of vapor intrusion and are an important consideration when conducting site assessments. In addition, the development of accurate conceptual models that depict pathways for vapor entry into buildings is important during vapor intrusion site assessments. Sewer gas, either as a contributor to background concentrations or as part of the site conceptual model, is not routinely evaluated during vapor intrusion site assessments. The research described herein identifies an instance where vapors emanating directly from a sanitary sewer pipe within a residence were determined to be a source of tetrachloroethylene (\n                    PCE\n                    ) detected in indoor air. Concentrations of\n                    PCE\n                    in the bathroom range from 2.1 to 190 µg/m\n                    3\n                    and exceed typical indoor air concentrations by orders of magnitude resulting in human health risk classified as an “Imminent Hazard” condition. The results suggest that infiltration of sewer gas resulted in\n                    PCE\n                    concentrations in indoor air that were nearly two orders of magnitude higher as compared to when infiltration of sewer gas was not known to be occurring. This previously understudied pathway whereby sewers serve as sources of\n                    PCE\n                    (and potentially other\n                    VOC\n                    ) vapors is highlighted. Implications for vapor intrusion investigations are also discussed."
   },
   {
     "paperId": "1b32be8e1e7bffe071e759a8a9b5a866f6b50947",
@@ -12938,7 +12988,7 @@
     "publicationTypes": null,
     "authors": [
       {
-        "authorId": "2383626498",
+        "authorId": "2390379445",
         "name": "Brian A. Beach"
       }
     ],
@@ -13310,7 +13360,7 @@
         "name": "T. Ranney"
       }
     ],
-    "abstract": "AbstractThis report examines sorption of low ppb levels of organic solutions by polytetra‐ fluoroethylene (PTFE), rigid polyvinyl chloride (PVC), and stainless steel 304 and 316 well casings. Nineteen organics were selected, including several munitions and chlorinated solvents. Compounds were selected to offer a range of physical properties, such as solubility in water, octanol/water partition coefficient, and molecular structure. When these results were compared with the results from a similar study conducted at ppm levels, the rate and extent of sorption by PTFE and PVC were the same as seen previously for almost all analytes. There were no losses of any compounds associated with stainless steel. At these low levels (ppm and ppb), the rate of diffusion within the polymer (PVC and PTFE) is independent of concentration. Only with PTFE are the rates rapid enough to be of concern when monitoring for some contaminants in ground water. Tetrachloroethylene was the compound PTFE sorbed the most rapidly. The study showed that PVC well casings are suitable for monitoring low levels (ppm and ppb) of organics."
+    "abstract": "Abstract\n                  This report examines sorption of low ppb levels of organic solutions by polytetra‐ fluoroethylene (PTFE), rigid polyvinyl chloride (PVC), and stainless steel 304 and 316 well casings. Nineteen organics were selected, including several munitions and chlorinated solvents. Compounds were selected to offer a range of physical properties, such as solubility in water, octanol/water partition coefficient, and molecular structure. When these results were compared with the results from a similar study conducted at ppm levels, the rate and extent of sorption by PTFE and PVC were the same as seen previously for almost all analytes. There were no losses of any compounds associated with stainless steel. At these low levels (ppm and ppb), the rate of diffusion within the polymer (PVC and PTFE) is independent of concentration. Only with PTFE are the rates rapid enough to be of concern when monitoring for some contaminants in ground water. Tetrachloroethylene was the compound PTFE sorbed the most rapidly. The study showed that PVC well casings are suitable for monitoring low levels (ppm and ppb) of organics."
   },
   {
     "paperId": "1ca4b20d187e313791429e90fc00873aa5391b85",
@@ -15582,56 +15632,6 @@
     "abstract": "Background Many studies of adults with occupational exposure to solvents such as tetrachloroethylene (PCE) have shown adverse effects on cognition, mood and behavioral problems. Much less is known about neurotoxic effects in early life at lower exposure levels seen in community settings. We recently reported that illicit drug use was more frequent among adults from Cape Cod, Massachusetts who were exposed to PCE-contaminated drinking water during gestation and early childhood than their unexposed counterparts. Using newly collected data from this population-based retrospective cohort study, the current analysis examines whether early life PCE exposure is also associated with drug use disorder over the life course. Methods Three-hundred and sixty-three subjects with prenatal and early childhood PCE exposure and 255 unexposed subjects were studied. These individuals (median age: 40–41 years) completed self-administered questionnaires on the eleven established diagnostic criteria for drug use disorder and confounding variables. A validated leaching and transport model was used to estimate exposure to PCE-contaminated water. Results Overall, 23.3% of subjects reported having at least one criterion for drug use disorder over their lifetime. Early life PCE exposure was associated with a modest increase in the lifetime presence of one or more diagnostic criteria for drug use disorder (adjusted RR: 1.4, 95% CI: 1.0–1.8). Compared to unexposed subjects, PCE-exposed subjects were more likely to report having most diagnostic criteria of drug use disorder, including neglecting major roles due to drug use, physical and psychological problems related to drug use, and giving up activities due to drug use. No dose-response relationships were observed with increasing levels of PCE exposure. Conclusions These results suggest that exposure to PCE-contaminated drinking water during early life modestly increases the risk of developing diagnostic criteria for drug use disorder later in life. Because this study has several limitations, these findings should be confirmed in follow-up investigations of other exposed populations with more diverse racial and socioeconomic characteristics."
   },
   {
-    "paperId": "20cd91a46e7bb8d655b6c487895ec4ea5bd2a48e",
-    "externalIds": {
-      "MAG": "2017275383",
-      "PubMedCentral": "2432054",
-      "DOI": "10.1186/1476-069X-7-24",
-      "CorpusId": 421966,
-      "PubMed": "18518975"
-    },
-    "url": "https://www.semanticscholar.org/paper/20cd91a46e7bb8d655b6c487895ec4ea5bd2a48e",
-    "title": "Evaluation of the Webler-Brown model for estimating tetrachloroethylene exposure from vinyl-lined asbestos-cement pipes",
-    "venue": "Environmental Health",
-    "year": 2008,
-    "openAccessPdf": {
-      "url": "https://ehjournal.biomedcentral.com/counter/pdf/10.1186/1476-069X-7-24",
-      "status": "GOLD",
-      "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2432054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": [
-      "JournalArticle"
-    ],
-    "authors": [
-      {
-        "authorId": "28788029",
-        "name": "L. Spence"
-      },
-      {
-        "authorId": "6122120",
-        "name": "A. Aschengrau"
-      },
-      {
-        "authorId": "47082052",
-        "name": "L. Gallagher"
-      },
-      {
-        "authorId": "2079173",
-        "name": "T. Webster"
-      },
-      {
-        "authorId": "3288749",
-        "name": "T. Heeren"
-      },
-      {
-        "authorId": "1860718",
-        "name": "D. Ozonoff"
-      }
-    ],
-    "abstract": "BackgroundFrom May 1968 through March 1980, vinyl-lined asbestos-cement (VL/AC) water distribution pipes were installed in New England to avoid taste and odor problems associated with asbestos-cement pipes. The vinyl resin was applied to the inner pipe surface in a solution of tetrachloroethylene (perchloroethylene, PCE). Substantial amounts of PCE remained in the liner and subsequently leached into public drinking water supplies.MethodsOnce aware of the leaching problem and prior to remediation (April-November 1980), Massachusetts regulators collected drinking water samples from VL/AC pipes to determine the extent and severity of the PCE contamination. This study compares newly obtained historical records of PCE concentrations in water samples (n = 88) with concentrations estimated using an exposure model employed in epidemiologic studies on the cancer risk associated with PCE-contaminated drinking water. The exposure model was developed by Webler and Brown to estimate the mass of PCE delivered to subjects' residences.ResultsThe mean and median measured PCE concentrations in the water samples were 66 and 0.5 μg/L, respectively, and the range extended from non-detectable to 2432 μg/L. The model-generated concentration estimates and water sample concentrations were moderately correlated (Spearman rank correlation coefficient = 0.48, p < 0.0001). Correlations were higher in samples taken at taps and spigots vs. hydrants (ρ = 0.84 vs. 0.34), in areas with simple vs. complex geometry (ρ = 0.51 vs. 0.38), and near pipes installed in 1973–1976 vs. other years (ρ = 0.56 vs. 0.42 for 1968–1972 and 0.37 for 1977–1980). Overall, 24% of the variance in measured PCE concentrations was explained by the model-generated concentration estimates (p < 0.0001). Almost half of the water samples had undetectable concentrations of PCE. Undetectable levels were more common in areas with the earliest installed VL/AC pipes, at the beginning and middle of VL/AC pipes, at hydrants, and in complex pipe configurations.ConclusionPCE concentration estimates generated using the Webler-Brown model were moderately correlated with measured water concentrations. The present analysis suggests that the exposure assessment process used in prior epidemiological studies could be improved with more accurate characterization of water flow. This study illustrates one method of validating an exposure model in an epidemiological study when historical measurements are not available."
-  },
-  {
     "paperId": "20ebf1244c297da4515f8c98d6bae2ac96644409",
     "externalIds": {
       "MAG": "2742958141",
@@ -16370,6 +16370,41 @@
       {
         "authorId": "5315890",
         "name": "A. Axmon"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "22e13213a36c9f53cbdae5882d137230f08028f9",
+    "externalIds": {
+      "DOI": "10.1007/s10953-025-01430-x",
+      "CorpusId": 276729868
+    },
+    "url": "https://www.semanticscholar.org/paper/22e13213a36c9f53cbdae5882d137230f08028f9",
+    "title": "Thermodynamic Analysis and Modeling Excess Molar Enthalpy in Mixtures Containing Acetonitrile + Chlorinated Ethane or Ethylene",
+    "venue": "Journal of Solution Chemistry",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10953-025-01430-x?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10953-025-01430-x, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2284095052",
+        "name": "Hadi Taheri Parsa"
+      },
+      {
+        "authorId": "2249647394",
+        "name": "H. Iloukhani"
+      },
+      {
+        "authorId": "92814446",
+        "name": "K. Khanlarzadeh"
       }
     ],
     "abstract": null
@@ -17483,7 +17518,7 @@
       "PubMed": "31059379"
     },
     "url": "https://www.semanticscholar.org/paper/25401db67d2a787168eb5e9b687034f17c119e90",
-    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases.",
+    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases",
     "venue": "Journal of Women's Health",
     "year": 2019,
     "openAccessPdf": {
@@ -19352,7 +19387,7 @@
         "name": "Stephen P. Trimble"
       }
     ],
-    "abstract": "AbstractForty passive vapor samplers were placed in creek‐bottom sediment in an area where ground water contaminated with volatile organic compounds is discharging to surface water. The vapor samplers were composed of activated carbon fused to a ferromagnetic wire in a test tube. The samplers were analyzed in a laboratory using an extranuclear quadrupole mass spectrometer. Data from the samplers reveal distributions of chloroform, tetrachloroethylene, trichloroethylene, and benzene in the bottom sediment that closely correspond to the distribution of those compounds in the adjacent ground water. Moreover, concentrations of tetrachloroethylene in bottom sediment estimated from the samplers are similar to those measured in observation wells near the shoreline. Thus, the passive vapor samplers may be used to locate and map areas where contaminated ground water is being discharged to surface water and to determine the approximate concentrations of specific contaminants in the discharging ground water."
+    "abstract": "Abstract\n                  Forty passive vapor samplers were placed in creek‐bottom sediment in an area where ground water contaminated with volatile organic compounds is discharging to surface water. The vapor samplers were composed of activated carbon fused to a ferromagnetic wire in a test tube. The samplers were analyzed in a laboratory using an extranuclear quadrupole mass spectrometer. Data from the samplers reveal distributions of chloroform, tetrachloroethylene, trichloroethylene, and benzene in the bottom sediment that closely correspond to the distribution of those compounds in the adjacent ground water. Moreover, concentrations of tetrachloroethylene in bottom sediment estimated from the samplers are similar to those measured in observation wells near the shoreline. Thus, the passive vapor samplers may be used to locate and map areas where contaminated ground water is being discharged to surface water and to determine the approximate concentrations of specific contaminants in the discharging ground water."
   },
   {
     "paperId": "28bf4136b965f9d6470259d98d9ed57953927bf6",
@@ -20134,6 +20169,50 @@
       }
     ],
     "abstract": "BackgroundBirths during 1968-1985 at Camp Lejeune were exposed to drinking water contaminated with trichloroethylene (TCE), tetrachloroethylene (PCE), and benzene.MethodsWe conducted a cross-sectional study to evaluate associations between residential prenatal exposure to contaminated drinking water at Camp Lejeune during 1968–1985 and preterm birth, small for gestational age (SGA), term low birth weight (TLBW), and mean birth weight (MBW) deficit. Birth certificates identified mothers residing at Camp Lejeune at delivery. We analyzed exposure data for the entire pregnancy and individual trimesters. For each period examined, births were categorized as unexposed if mothers did not reside at Camp Lejeune or if their residence on base received uncontaminated drinking water. Ground water contaminant fate/transport and distribution system models provided monthly estimated contaminant levels at residences. For PCE and TCE, the exposed group was divided into four levels: < median value, ≥ median value, ≥75th percentile, and ≥90th percentile. For benzene, the exposed group was categorized as <1 part per billion (ppb) versus ≥1 ppb because of sparse data. Magnitude of effect estimates and exposure response relationships were used to assess associations. Confidence intervals (CIs) indicated precision of estimates.ResultsFor the highest TCE exposure category during the entire pregnancy, odds ratios (ORs) were 1.5 (95% CI: 1.2, 1.9) and 1.3 (95% CI: 0.8, 2.2) for SGA and TLBW, respectively, and reduced MBW β = −78.3 g (95% CI: −115.0, −41.7). The OR =1.3 (95% CI: 1.0, 1.6) for preterm birth and the highest PCE exposure category during the entire pregnancy. Monotonic exposure-response relationships were observed for benzene exposure during the entire pregnancy and TLBW (highest category OR =1.5, 85% CI: 0.9, 2.3). Although a monotonic association between benzene and adjusted MBW difference was also observed (highest category β = −36.2 g, 95% CI: −72.3, −0.1), the association disappeared when TCE was also added to the model. We found no evidence suggesting any other associations between outcomes and exposures.ConclusionFindings suggested associations between in utero exposures to TCE and SGA, TLBW and reduced MBW; benzene and TLBW; and PCE and preterm birth."
+  },
+  {
+    "paperId": "2aba125f467c486c8dbd953159c8abd29bd83100",
+    "externalIds": {
+      "DOI": "10.1080/15320383.2024.2438152",
+      "CorpusId": 274592236
+    },
+    "url": "https://www.semanticscholar.org/paper/2aba125f467c486c8dbd953159c8abd29bd83100",
+    "title": "Temporal and Spatial Distribution and Risk Assessment of Volatile Chlorinated Hydrocarbons in Soils of Typical Industrial Parks in Chongqing Under the “Dual Carbon” Background",
+    "venue": "Soil & sediment contamination",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/15320383.2024.2438152?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/15320383.2024.2438152, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2315904575",
+        "name": "Xihong Ke"
+      },
+      {
+        "authorId": "2334416934",
+        "name": "Guibing Pu"
+      },
+      {
+        "authorId": "108453667",
+        "name": "Shang-Ming Chen"
+      },
+      {
+        "authorId": "2315950697",
+        "name": "Jiangfeng Guo"
+      },
+      {
+        "authorId": "2330789319",
+        "name": "Zhilin Xing"
+      }
+    ],
+    "abstract": "ABSTRACT In the context of China’s “Dual Carbon” initiative, controlling volatile compounds (VOCs) in industrial park soils was crucial for pollution control and carbon mitigation efforts. This study examined the distribution and risks of chlorinated hydrocarbons in the soils of Chongqing’s chemical and mechanical industrial parks. Through site surveys, in situ sampling, pollutant extraction and detection, and soil microbial diversity sequencing, we identified a higher pollution risk in chemical parks (detection rate of 18.5%) and compared to mechanical parks (1%). Surface soils exhibited greater pollutant concentrations (11.8%) than deeper soils (8.8%), with higher contamination levels in winter (27.8%) than in summer (9.3%). Microbial diversity analysis revealed richer microbial communities in summer, suggesting their role in the natural degradation of pollutants, with Proteobacteria dominating but remaining largely functionally uncharacterized. Trichloroethylene and tetrachloroethylene were the primary detected pollutants, though at concentrations below regulatory thresholds. These findings provided crucial data for refining carbon emission policies and environmental management strategies in industrial parks under the “Dual Carbon” framework."
   },
   {
     "paperId": "2ad04a7a620011a4fa315639e906b576091a8e2b",
@@ -22176,7 +22255,7 @@
         "name": "Y. Wu"
       }
     ],
-    "abstract": null
+    "abstract": "Sub-micron spherical SiO2 particles were prepared by co-precipitation process, and further surface modification of the SiO2 particles by butanedioic acid (BA) for charging and electrophoresis in tetrachloroethylene was attempted. The obtained composites were characterized by Fourier-transform infrared spectra (FTIR), X-ray Photoelectron Spectrometer (XPS), scanning electron microscope (SEM) and Zetasizer. FTIR and XPS results indicate that the chemical bonding by esterification between BA and SiO2 particles was achieved. SEM measurement shows that the modified SiO2 particles are spherical and about 250 nm and are dispersed into tetrachloroethylene stably. Zetasizer results reveal that the Zeta potential of the modified SiO2 particles in tetrachloroethylene medium was −27.84 mv, which was much higher than that of the unmodified SiO2 particles."
   },
   {
     "paperId": "2f8401efa0df8abadd267d5c3aabe2434acb8c9f",
@@ -22476,7 +22555,7 @@
         "name": "M. Corapcioglu"
       }
     ],
-    "abstract": "ABSTRACTChlorinated hydrocarbons, such as trichloroethylene (TCE), trichloroethane (TCA), tetrachloroethylene (PCE), chloroform, and carbon tetrachloride enter soils and ground water from chemical waste disposal sites and from accidents. The migration of such high‐density hydrocarbons in a natural gradient unconfined gravel aquifer is studied. The Buckley‐Leverett approach is extended to a two‐dimensional case to simulate a high‐density immiscible hydrocarbon displacing ground water in a gravity‐driven system. Governing equations that were developed earlier by Corapcioglu and Hossain (1988) are solved by modifying the U.S.G.S. solute transport model (Konikow and Bredehoeft, 1978). The modification incorporates the fractional flow curves of water and their saturation derivatives in vertical and horizontal directions as functions of degree of water saturation. The details of the modification techniques are given, and the numerical results are presented for a hydrocarbon spill. Numerical results show that high‐density, low‐viscosity immiscible chlorinated hydrocarbons can travel deeper and further in contrast to lower‐density, higher‐viscosity compounds, and that the migration is dominated by gravity largely uncoupled from the horizontal component until the plume reaches the lower boundary."
+    "abstract": "ABSTRACT\n                  Chlorinated hydrocarbons, such as trichloroethylene (TCE), trichloroethane (TCA), tetrachloroethylene (PCE), chloroform, and carbon tetrachloride enter soils and ground water from chemical waste disposal sites and from accidents. The migration of such high‐density hydrocarbons in a natural gradient unconfined gravel aquifer is studied. The Buckley‐Leverett approach is extended to a two‐dimensional case to simulate a high‐density immiscible hydrocarbon displacing ground water in a gravity‐driven system. Governing equations that were developed earlier by Corapcioglu and Hossain (1988) are solved by modifying the U.S.G.S. solute transport model (Konikow and Bredehoeft, 1978). The modification incorporates the fractional flow curves of water and their saturation derivatives in vertical and horizontal directions as functions of degree of water saturation. The details of the modification techniques are given, and the numerical results are presented for a hydrocarbon spill. Numerical results show that high‐density, low‐viscosity immiscible chlorinated hydrocarbons can travel deeper and further in contrast to lower‐density, higher‐viscosity compounds, and that the migration is dominated by gravity largely uncoupled from the horizontal component until the plume reaches the lower boundary."
   },
   {
     "paperId": "3035ca6284a99b40c842946ea4c307e403101d8f",
@@ -24411,7 +24490,7 @@
         "name": "Aijie Wang"
       }
     ],
-    "abstract": null
+    "abstract": "Bioelectrochemical stimulation is regarded as a promising approach for enhanced dechlorination of chlorinated aliphatic hydrocarbons (CAHs). However, variation in microbiome structure and function corresponding to different carbon substrates remain poorly understood. In this study, tetrachloroethylene (PCE)-dechlorinating biocathode systems were established acclimating with glucose, sodium acetate (NaAc), or NaHCO3 as the carbon substrates. The dechlorination rates achieved in the constructed biocathode were 4.1–26.5 times higher than those in sole electrochemical or microbial systems, verifying the outstanding dechlorination capacity by bioelectrochemical stimulation. Carbon substrate types markedly affected cathodic biofilm microbiome structure and function. Different PCE dechlorination rates were observed with first-order kinetic constants (k) of 0.110 ± 0.002, 0.056 ± 0.002, and 0.032 ± 0.001 h−1 for glucose, NaAc, and NaHCO3, respectively. Cis-1,2-dichloroethene and ethene were the major and minor dechlorination products for all systems. Microbiome structure and network analysis revealed that all three kinds of carbon substrate-fed systems enriched large proportions of dechlorinators and cathode-respiring bacteria but were significantly distinct in composition, such as Lactococcus and Anaeroarcus by glucose, Geobacter and Pseudomonas by NaAc, and Bacillus by NaHCO3. However, several cathode-respiring dechlorinators shared the center of network, such as Desulfovibrio and Pseudomonas. Difference in microbiome function was further supported by the abundance of putative functional genes, and heterotrophic (glucose/NaAc) systems were more conducive to enrich reductive dehalogenase (pceA and tceA) and electroactive omcX genes than the autotrophic (NaHCO3) system. This study provides insights into microbiome working mechanism for bioelectrochemical dechlorination of CAHs under different carbon substrate surroundings."
   },
   {
     "paperId": "33f7d3dc6a55b5418574858245f6c83d6ebc0420",
@@ -25496,6 +25575,61 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "3610abfdc7a29ecac2000726719cade2d91706d6",
+    "externalIds": {
+      "DOI": "10.20517/jeea.2025.50",
+      "CorpusId": 282668230
+    },
+    "url": "https://www.semanticscholar.org/paper/3610abfdc7a29ecac2000726719cade2d91706d6",
+    "title": "Impact of rainfall, snowpack and storms on contaminant levels in groundwater beneath two U.S. Superfund sites in New York",
+    "venue": "Journal of Environmental Exposure Assessment",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.20517/jeea.2025.50?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.20517/jeea.2025.50, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2386358966",
+        "name": "Dimitrios E. Bakatsias"
+      },
+      {
+        "authorId": "2389534051",
+        "name": "Jasmeen Kaur"
+      },
+      {
+        "authorId": "2389865620",
+        "name": "Tanish Parlapall"
+      },
+      {
+        "authorId": "2314902737",
+        "name": "Lissa Soares"
+      },
+      {
+        "authorId": "2270139138",
+        "name": "Arjun K. Venkatesan"
+      },
+      {
+        "authorId": "152155184",
+        "name": "Roxanne Karimi"
+      },
+      {
+        "authorId": "2238827484",
+        "name": "Kevin A. Reed"
+      },
+      {
+        "authorId": "2267293723",
+        "name": "Jaymie R. Meliker"
+      }
+    ],
+    "abstract": "Superfund sites are polluted locations in the U.S. designated by the Environmental Protection Agency for cleanup due to hazardous waste contamination. The U.S. Government Accountability Office estimates that 50% of U.S. Superfund sites are at risk of flooding, potentially leading to mobility of contaminants into the environment. We investigate the relationships between rainfall, snowpack, and storms with levels of contaminants in well water beneath Dzus Fasteners Co. in West Islip, New York (NY, 2011-2019) and American Thermostat Co. in South Cairo, NY (2005-2011) using data shared by the New York State Department of Environmental Conservation. At Dzus, sampling was conducted approximately yearly. During Superstorm Sandy in October 2012, the water table beneath Dzus rose 1 to 2 meters due to storm surge, then receded into the Atlantic Ocean via Willetts Creek. In a Dzus monitoring well (MW), cadmium (Cd) increased from 64.4 µg/L in August 2012, to 120 µg/L in November 2013; lower levels of Cd were seen in other MWs. In April 2013, after Sandy, 14 out of 70 sediment samples collected along Willetts Creek were above 90 mg/kg Cd, with a maximum of 1,600 mg/kg; the previous maximum was 133 mg/kg. At American Thermostat, positive correlations were detected between volatile organic compounds and both rainfall and snowpack in three out of six observation wells. For example, in well observation well 12, snowpack showed strong correlations with the on-site main contaminants: trichloroethylene (r = 0.96) and tetrachloroethylene (r = 0.86). Despite limited sampling data, these case studies suggest that contaminant levels in groundwater and nearby sediment at Superfund sites can increase with rainfall, snowpack, and intense storms. Increased monitoring frequency is recommended to better understand the impacts of storms and precipitation at Superfund sites."
   },
   {
     "paperId": "36129ebc79c5da3d5301c941851531b94e64b1cd",
@@ -30009,7 +30143,7 @@
         "name": "D. McWhorter"
       }
     ],
-    "abstract": "AbstractUpward water flow can arrest the downward migration of dense, non aqueous phase liquids (DNAPLS) through rough‐walled fractures provided that a sufficient hydraulic gradient exists. An exact analytical solution to predict the arresting gradient demonstrates that there is little difference between the gradient required to arrest DNAPL migration near the top of the fracture, and the gradient required to arrest migration once DNAPL has extended to the bottom of the fracture. Laboratory experiments involving the migration of tetrachloroethylene (PCE) through two samples of fractured limestone demonstrate the ability of upward water flow to arrest downward DNAPL migration under both wetting and drainage conditions. It is suggested that upward gradients can be generated beneath contaminated regions of the subsurface to provide a “hydraulic bottom.” A hydraulic bottom at a site would protect against potential downward mobilization of DNAPL in response to the application of aggressive remediation technologies such as surfactant flooding, alcohol flooding, and steam flooding. Upward gradients applied during drilling may also protect against downward mobilization of DNAPL in the formation while drilling through source zones."
+    "abstract": "Abstract\n                  Upward water flow can arrest the downward migration of dense, non aqueous phase liquids (DNAPLS) through rough‐walled fractures provided that a sufficient hydraulic gradient exists. An exact analytical solution to predict the arresting gradient demonstrates that there is little difference between the gradient required to arrest DNAPL migration near the top of the fracture, and the gradient required to arrest migration once DNAPL has extended to the bottom of the fracture. Laboratory experiments involving the migration of tetrachloroethylene (PCE) through two samples of fractured limestone demonstrate the ability of upward water flow to arrest downward DNAPL migration under both wetting and drainage conditions. It is suggested that upward gradients can be generated beneath contaminated regions of the subsurface to provide a “hydraulic bottom.” A hydraulic bottom at a site would protect against potential downward mobilization of DNAPL in response to the application of aggressive remediation technologies such as surfactant flooding, alcohol flooding, and steam flooding. Upward gradients applied during drilling may also protect against downward mobilization of DNAPL in the formation while drilling through source zones."
   },
   {
     "paperId": "3fcd5899f63f6c5a8de089edc422f7b149582cfd",
@@ -33263,7 +33397,7 @@
         "name": "S. Flanagan"
       }
     ],
-    "abstract": "A new tool called ESASS (Enhanced Screen Auger Sampling System) was developed by the U.S. Geological Survey. The use of ESASS, because of its unique U.S. patent design (U.S. patent no. 7,631,705 B1), allows for the collection of representative, depth‐specific groundwater samples (vertical profiling) in a quick and efficient manner using a 0.305‐m long screen auger during hollow‐stem auger drilling. With ESASS, the water column in the flights above the screen auger is separated from the water in the screen auger by a specially designed removable plug and collar. The tool fits inside an auger of standard inner diameter (82.55 mm). The novel design of the system constituted by the plug, collar, and A‐rod allows the plug to be retrieved using conventional drilling A‐rods. After retrieval, standard‐diameter (50.8 mm) observation wells can be installed within the hollow‐stem augers. Testing of ESASS was conducted at one waste‐disposal site with tetrachloroethylene (PCE) contamination and at two reference sites with no known waste‐disposal history. All three sites have similar geology and are underlain by glacial, stratified‐drift deposits. For the applications tested, ESASS proved to be a useful tool in vertical profiling of groundwater quality. At the waste site, PCE concentrations measured with ESASS profiling at several depths were comparable (relative percent difference &lt;25%) to PCE concentrations sampled from wells. Vertical profiling with ESASS at the reference sites illustrated the vertical resolution achievable in the profile system; shallow groundwater quality varied by a factor of five in concentration of some constituents (nitrate and nitrite) over short (0.61 m) distances."
+    "abstract": "A new tool called ESASS (\n                    E\n                    nhanced\n                    S\n                    creen\n                    A\n                    uger\n                    S\n                    ampling\n                    S\n                    ystem) was developed by the U.S. Geological Survey. The use of ESASS, because of its unique U.S. patent design (U.S. patent no. 7,631,705 B1), allows for the collection of representative, depth‐specific groundwater samples (vertical profiling) in a quick and efficient manner using a 0.305‐m long screen auger during hollow‐stem auger drilling. With ESASS, the water column in the flights above the screen auger is separated from the water in the screen auger by a specially designed removable plug and collar. The tool fits inside an auger of standard inner diameter (82.55 mm). The novel design of the system constituted by the plug, collar, and A‐rod allows the plug to be retrieved using conventional drilling A‐rods. After retrieval, standard‐diameter (50.8 mm) observation wells can be installed within the hollow‐stem augers. Testing of ESASS was conducted at one waste‐disposal site with tetrachloroethylene (PCE) contamination and at two reference sites with no known waste‐disposal history. All three sites have similar geology and are underlain by glacial, stratified‐drift deposits. For the applications tested, ESASS proved to be a useful tool in vertical profiling of groundwater quality. At the waste site, PCE concentrations measured with ESASS profiling at several depths were comparable (relative percent difference &lt;25%) to PCE concentrations sampled from wells. Vertical profiling with ESASS at the reference sites illustrated the vertical resolution achievable in the profile system; shallow groundwater quality varied by a factor of five in concentration of some constituents (nitrate and nitrite) over short (0.61 m) distances."
   },
   {
     "paperId": "470963f23d952dc76983517db5bee4a98cca6c34",
@@ -34100,7 +34234,7 @@
         "name": "D. G. Lord"
       }
     ],
-    "abstract": "ABSTRACTSamples for analysis of volatile organic compounds were collected from 315 wells in the Potomac‐Raritan‐Magothy aquifer system in southwestern New Jersey and a small adjacent area in Pennsylvania during 1980–82. Volatile organic compounds were detected in all three aquifer units of the Potomac‐Raritan‐Magothy aquifer system in the study area. Most of the contamination appears to be confined to the outcrop area at present. Low levels of contamination, however, were found downdip of the outcrop area in the upper and middle aquifers.Trichloroethylene, tetrachloroethylene, and benzene were the most frequently detected compounds. Differences in the areal distributions of light chlorinated hydrocarbons, such as trichloroethylene, and aromatic hydrocarbons, such as benzene, were noted and are probably due to differences in the uses of the compounds and the distribution patterns of potential contamination sources.The distribution patterns of volatile organic compounds differed greatly among the three aquifer units. The upper aquifer, which crops out mostly in less‐developed areas, had the lowest percentage of wells with volatile organic compounds detected (10 percent of wells sampled). The concentrations in most wells in the upper aquifer which had detectable levels were less than 10 /μg/1. In the middle aquifer, which crops out beneath much of the urban and industrial area adjacent to the Delaware River, detectable levels of volatile organic compounds were found in 22 percent of wells sampled, and several wells contained concentrations above 100 μ/1. The lower aquifer, which is confined beneath much of the outcrop area of the aquifer system, had the highest percentage of wells (28 percent) with detectable levels. This is probably due to (1) vertical leakage of contamination from the middle aquifer, and (2) the high percentage of wells tapping the lower aquifer in the most heavily developed areas of the outcrop."
+    "abstract": "ABSTRACT\n                  Samples for analysis of volatile organic compounds were collected from 315 wells in the Potomac‐Raritan‐Magothy aquifer system in southwestern New Jersey and a small adjacent area in Pennsylvania during 1980–82. Volatile organic compounds were detected in all three aquifer units of the Potomac‐Raritan‐Magothy aquifer system in the study area. Most of the contamination appears to be confined to the outcrop area at present. Low levels of contamination, however, were found downdip of the outcrop area in the upper and middle aquifers.\n                  Trichloroethylene, tetrachloroethylene, and benzene were the most frequently detected compounds. Differences in the areal distributions of light chlorinated hydrocarbons, such as trichloroethylene, and aromatic hydrocarbons, such as benzene, were noted and are probably due to differences in the uses of the compounds and the distribution patterns of potential contamination sources.\n                  The distribution patterns of volatile organic compounds differed greatly among the three aquifer units. The upper aquifer, which crops out mostly in less‐developed areas, had the lowest percentage of wells with volatile organic compounds detected (10 percent of wells sampled). The concentrations in most wells in the upper aquifer which had detectable levels were less than 10 /μg/1. In the middle aquifer, which crops out beneath much of the urban and industrial area adjacent to the Delaware River, detectable levels of volatile organic compounds were found in 22 percent of wells sampled, and several wells contained concentrations above 100 μ/1. The lower aquifer, which is confined beneath much of the outcrop area of the aquifer system, had the highest percentage of wells (28 percent) with detectable levels. This is probably due to (1) vertical leakage of contamination from the middle aquifer, and (2) the high percentage of wells tapping the lower aquifer in the most heavily developed areas of the outcrop."
   },
   {
     "paperId": "48c2a5a894d8a556a252131d66e5dbb4db745b9f",
@@ -34508,7 +34642,7 @@
         "name": "C. Enfield"
       }
     ],
-    "abstract": "AbstractAir sparging was evaluated for remediation of tetrachloroethylene (PCE) present as dense nonaqueous phase liquid (DNAPL) in aquifers. A two‐dimensional laboratory tank with a transparent front wall allowed for visual observation of DNAPL mobilization. A DNAPL zone 50 cm high was created, with a PCE pool accumulating on an aquitard. Detailed process control and analysis yielded accurate mass balances and insight into the mass‐transfer limitations during air sparging.Initial PCE recovery rates were high, corresponding to fast removal of residual DNAPL within the zone influenced directly by air channels. The vadose zone DNAPL was removed within a few days, and the recovery in the extracted soil vapors decreased to low values. Increasing the sparge rate and pulsing the air injection led to improved mass recovery, as the pulsing induced water circulation and increased the DNAPL dissolution rate. Dissolved PCE concentrations both within and outside the zone of air channels were affected by the pulsing. Inside the sparge zone, aqueous concentrations decreased rapidly, matching the declining effluent PCE flux. Outside the sparge zone, PCE concentrations increased because highly contaminated water was pushed away from the air injection point.This overall circulation of water may lead to limited spreading of the contaminant, but accelerated the time‐weighted average mass removal by 40% to 600%, depending on the aggressiveness of the pulsing. For field applications, pulsing with a daily or diurnal cycling time may increase the average mass removal rate, thus reducing the treatment time and saving in the order of 40% to 80% of the energy cost used to run the blowers. However, air sparging will always fail to remove DNAPL pools located below the sparge point because the air will rise upward from the top of a screen, unless very localized geological layers force the air to migrate horizontally. Unrecognized presence of DNAPL at chlorinated solvent sites residual and pools could potentially hamper success of air sparging cleanups, since the presence of small DNAPL pools, ganglia or droplets can greatly extend the treatment time."
+    "abstract": "Abstract\n                  Air sparging was evaluated for remediation of tetrachloroethylene (PCE) present as dense nonaqueous phase liquid (DNAPL) in aquifers. A two‐dimensional laboratory tank with a transparent front wall allowed for visual observation of DNAPL mobilization. A DNAPL zone 50 cm high was created, with a PCE pool accumulating on an aquitard. Detailed process control and analysis yielded accurate mass balances and insight into the mass‐transfer limitations during air sparging.\n                  Initial PCE recovery rates were high, corresponding to fast removal of residual DNAPL within the zone influenced directly by air channels. The vadose zone DNAPL was removed within a few days, and the recovery in the extracted soil vapors decreased to low values. Increasing the sparge rate and pulsing the air injection led to improved mass recovery, as the pulsing induced water circulation and increased the DNAPL dissolution rate. Dissolved PCE concentrations both within and outside the zone of air channels were affected by the pulsing. Inside the sparge zone, aqueous concentrations decreased rapidly, matching the declining effluent PCE flux. Outside the sparge zone, PCE concentrations increased because highly contaminated water was pushed away from the air injection point.\n                  This overall circulation of water may lead to limited spreading of the contaminant, but accelerated the time‐weighted average mass removal by 40% to 600%, depending on the aggressiveness of the pulsing. For field applications, pulsing with a daily or diurnal cycling time may increase the average mass removal rate, thus reducing the treatment time and saving in the order of 40% to 80% of the energy cost used to run the blowers. However, air sparging will always fail to remove DNAPL pools located below the sparge point because the air will rise upward from the top of a screen, unless very localized geological layers force the air to migrate horizontally. Unrecognized presence of DNAPL at chlorinated solvent sites residual and pools could potentially hamper success of air sparging cleanups, since the presence of small DNAPL pools, ganglia or droplets can greatly extend the treatment time."
   },
   {
     "paperId": "49c98a0cfc814fbd1dcc038a8e03fe4011b5b6ac",
@@ -35250,7 +35384,7 @@
         "name": "D. Rai"
       }
     ],
-    "abstract": "AbstractA laboratory study was undertaken to evaluate the flow of the following organic solvents and their aqueous solutions through bentonite and kaolin clays: benzene, toluene, p‐xylene, nitrobenzene, trichloroethylene, tetrachloroethylene, ethyl acetate, 2‐butanone, and phenol. In each experiment, one pore volume of a 0.005 N CaSO4 solution (water) flowed through the clays, followed by several pore volumes of an aqueous solution of one of the organic solvents, and then by about three pore volumes of the neat organic solvent. The hydraulic conductivity for the aqueous organic solutions was not significantly different from those for water, and ranged from 4.6 × 10‐7 to 14.4 × 10‐7 and from 0.6 × 10‐7 to 0.8 × 10‐7 cm/sec through the kaolin and bentonite clays, respectively. The flow of the neat solvents through either the bentonite or kaolin clay increased by up to two orders of magnitude. The aqueous solutions did not change the physical appearance of the clays. In general, the more hydrophobic solvents caused the clays to shrink, producing distinct large vertical cracks. The hydrophilic solvents typically caused the clays to aggregate and fracture, forming a network of cracks. The kaolin clay appeared to aggregate more readily than the bentonite clay. The higher swelling of the clays in water than in the neat organic solvents likely caused the physical changes in the clays and the rapid flow of the neat solvents through them."
+    "abstract": "Abstract\n                  \n                    A laboratory study was undertaken to evaluate the flow of the following organic solvents and their aqueous solutions through bentonite and kaolin clays: benzene, toluene, p‐xylene, nitrobenzene, trichloroethylene, tetrachloroethylene, ethyl acetate, 2‐butanone, and phenol. In each experiment, one pore volume of a 0.005 N CaSO\n                    4\n                    solution (water) flowed through the clays, followed by several pore volumes of an aqueous solution of one of the organic solvents, and then by about three pore volumes of the neat organic solvent. The hydraulic conductivity for the aqueous organic solutions was not significantly different from those for water, and ranged from 4.6 × 10\n                    ‐7\n                    to 14.4 × 10\n                    ‐7\n                    and from 0.6 × 10\n                    ‐7\n                    to 0.8 × 10\n                    ‐7\n                    cm/sec through the kaolin and bentonite clays, respectively. The flow of the neat solvents through either the bentonite or kaolin clay increased by up to two orders of magnitude. The aqueous solutions did not change the physical appearance of the clays. In general, the more hydrophobic solvents caused the clays to shrink, producing distinct large vertical cracks. The hydrophilic solvents typically caused the clays to aggregate and fracture, forming a network of cracks. The kaolin clay appeared to aggregate more readily than the bentonite clay. The higher swelling of the clays in water than in the neat organic solvents likely caused the physical changes in the clays and the rapid flow of the neat solvents through them."
   },
   {
     "paperId": "4b62a8e8bd116654dad3461b84b7909268291f2d",
@@ -38148,7 +38282,7 @@
         "name": "B. Kueper"
       }
     ],
-    "abstract": "AbstractThe migration of five dense nonaqueous phase liquids (DNAPLs) through a single fracture in a clay aquitard was numerically simulated with the use of a compositional simulator. The effects of fracture aperture, fracture dip, matrix porosity, and matrix organic carbon content on the migration of chlorobenzene, 1,2‐dichloroethylene, trichloroethyiene, tetrachloroethylene, and 1,2‐dibromoethane were examined. Boundary conditions were chosen such that DNAPL entry into the system was allowed to vary according to the stresses applied. The aperture is the most important factor of those studied controlling the migration rate of DNAPL through a single fracture embedded in a clay matrix. Loss of mass to the matrix through diffusion does not significantly retard the migration rate of the DNAPL, particularly in larger aperture fractures (e.g., 50 urn). With time, the ratio of diffusive loss to the matrix to DNAPL flux into the fracture approaches an asymptotic value lower than unity. The implication is that matrix diffusion cannot arrest the migration of DNAPL in a single fracture. The complex relationships between density, viscosity, and solubility that, to some extent, govern the migration of DNAPL through these systems prevent accurate predictions without the use of numerical models. The contamination potential of the migrating DNAPL is significantly increased through the transfer of mass to the matrix. The occurrence of opposite concentration gradients within the matrix can cause dissolved phase contamination to exist in the system for more than 1000 years after the DNAPL has been completely removed from the fracture."
+    "abstract": "Abstract\n                  The migration of five dense nonaqueous phase liquids (DNAPLs) through a single fracture in a clay aquitard was numerically simulated with the use of a compositional simulator. The effects of fracture aperture, fracture dip, matrix porosity, and matrix organic carbon content on the migration of chlorobenzene, 1,2‐dichloroethylene, trichloroethyiene, tetrachloroethylene, and 1,2‐dibromoethane were examined. Boundary conditions were chosen such that DNAPL entry into the system was allowed to vary according to the stresses applied. The aperture is the most important factor of those studied controlling the migration rate of DNAPL through a single fracture embedded in a clay matrix. Loss of mass to the matrix through diffusion does not significantly retard the migration rate of the DNAPL, particularly in larger aperture fractures (e.g., 50 urn). With time, the ratio of diffusive loss to the matrix to DNAPL flux into the fracture approaches an asymptotic value lower than unity. The implication is that matrix diffusion cannot arrest the migration of DNAPL in a single fracture. The complex relationships between density, viscosity, and solubility that, to some extent, govern the migration of DNAPL through these systems prevent accurate predictions without the use of numerical models. The contamination potential of the migrating DNAPL is significantly increased through the transfer of mass to the matrix. The occurrence of opposite concentration gradients within the matrix can cause dissolved phase contamination to exist in the system for more than 1000 years after the DNAPL has been completely removed from the fracture."
   },
   {
     "paperId": "511324eec4e935a702e198686f3d40aaa0cfac20",
@@ -40082,7 +40216,7 @@
         "name": "J. Bello"
       }
     ],
-    "abstract": "AbstractCone penctrometer test (CPT) based Raman spectroscopy was used to identify separate phase tetrachloroethylene (PCE) and trichlorocthylene (TCE) contamination in the subsurface at two locations during field tests conducted at the U.S. Department of Energy's (DOE) Savannah River site. Clear characteristic Raman spectral peaks for PCE and TCE were observed at two sites and several depths during CPT deployment. Because of the uniqueness of a Raman spectrum for a given compound, these data are compelling evidence of the presence of the two compounds. The Raman spectral results correlated with high PCE and TCE concentrations in soil samples collected from the same subsurface zones, confirming that the method is a viable dense nonaqueous phase liquid (DNAPL) characterization technique. The Raman spectroscopic identification of PCE and TCE in these tests represents the first time that DNAPLs have been unequivocally located in the subsurface by an in situ technique.The detection limit of the Raman spectroscopy is related to the probability of contaminant droplets appearing on the optical window in the path of the probe light. Based on data from this fieldwork the Raman technique may require a threshold quantity of DNAPL to provide an adequate optical cross section for spectroscopic response. The low aqueous solubility of PCE and TCE and relatively weak optical intensity of the Raman signal precludes the detection of aqueous phase contaminants by this method, making it selective for DNAPL contaminants only."
+    "abstract": "Abstract\n                  Cone penctrometer test (CPT) based Raman spectroscopy was used to identify separate phase tetrachloroethylene (PCE) and trichlorocthylene (TCE) contamination in the subsurface at two locations during field tests conducted at the U.S. Department of Energy's (DOE) Savannah River site. Clear characteristic Raman spectral peaks for PCE and TCE were observed at two sites and several depths during CPT deployment. Because of the uniqueness of a Raman spectrum for a given compound, these data are compelling evidence of the presence of the two compounds. The Raman spectral results correlated with high PCE and TCE concentrations in soil samples collected from the same subsurface zones, confirming that the method is a viable dense nonaqueous phase liquid (DNAPL) characterization technique. The Raman spectroscopic identification of PCE and TCE in these tests represents the first time that DNAPLs have been unequivocally located in the subsurface by an in situ technique.\n                  The detection limit of the Raman spectroscopy is related to the probability of contaminant droplets appearing on the optical window in the path of the probe light. Based on data from this fieldwork the Raman technique may require a threshold quantity of DNAPL to provide an adequate optical cross section for spectroscopic response. The low aqueous solubility of PCE and TCE and relatively weak optical intensity of the Raman signal precludes the detection of aqueous phase contaminants by this method, making it selective for DNAPL contaminants only."
   },
   {
     "paperId": "55736e7a0c8d85589a0e6ea93cb908c7c40488c3",
@@ -41286,6 +41420,52 @@
     "abstract": "Alveolar air was analyzed for tetrachloroethylene (PER) in 136 residents living near 12 dry-cleaning shops. The PER concentrations found were distinctly higher in subjects living closer to the shops. The geometrical mean concentration was 5 mg/m3 in subjects living in the flats (maximum five floors) above the dry-cleaning shops, 1 mg/m3 in houses adjacent to the shops, 0.2 mg/m3 in the next houses, and <0.1 mg/m3 in those living across the street opposite the shops. Eighteen workers in the shops had a mean concentration of 73 mg/m3. The concentrations appeared to be influenced by the direction of the prevailing wind. It is concluded that a certain part of the general population is exposed to PER, and that biological monitoring of exhaled air seems feasable to measure it."
   },
   {
+    "paperId": "5849b2184dd5dd32bbde5bee8bf72084b81a27a1",
+    "externalIds": {
+      "MAG": "2117050166",
+      "DOI": "10.5194/ACP-5-1963-2005",
+      "CorpusId": 12952200
+    },
+    "url": "https://www.semanticscholar.org/paper/5849b2184dd5dd32bbde5bee8bf72084b81a27a1",
+    "title": "Sources and sinks of acetone, methanol, and acetaldehyde in North Atlantic marine air",
+    "venue": "",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "https://acp.copernicus.org/articles/5/1963/2005/acp-5-1963-2005.pdf",
+      "status": "GOLD",
+      "license": "CCBYNCSA",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/ACP-5-1963-2005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/ACP-5-1963-2005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2245353815",
+        "name": "A. C. Lewis"
+      },
+      {
+        "authorId": "145844052",
+        "name": "J. Hopkins"
+      },
+      {
+        "authorId": "2247439336",
+        "name": "L. J. Carpenter"
+      },
+      {
+        "authorId": "123316096",
+        "name": "J. Stanton"
+      },
+      {
+        "authorId": "152472841",
+        "name": "K. Read"
+      },
+      {
+        "authorId": "1731434",
+        "name": "M. Pilling"
+      }
+    ],
+    "abstract": "Abstract. Measurements of acetone, methanol, acetaldehyde and a range of non-methane hydrocarbons have been made in North Atlantic marine air at the Mace Head observatory. Under maritime conditions the combination of OVOCs (acetone, methanol and acetaldehyde) contributed up to 85% of the total mass of measured non methane organics in air and up to 80% of the OH radical organic sink, when compared with the sum of all other organic compounds including non-methane hydrocarbons, DMS and OH-reactive halocarbons (trichloromethane and tetrachloroethylene). The observations showed anomalies in the variance and abundance of acetaldehyde and acetone over that expected for species with a remote terrestrial emission source and OH controlled chemical lifetime. A detailed model incorporating an explicit chemical degradation mechanism indicated in situ formation during air mass transport was on timescales longer than the atmospheric lifetime of precursor hydrocarbons or primary emission. The period over which this process was significant was similar to that of airmass motion on intercontinental scales, and formation via this route may reproduce that of a widespread diffuse source. The model indicates that continued short chain OVOC formation occurs many days from the point of emission, via longer lived intermediates of oxidation such as organic peroxides and long chain alcohols."
+  },
+  {
     "paperId": "584f7b0f84d66326e213b87049e00b8c052278d0",
     "externalIds": {
       "MAG": "2202805685",
@@ -41660,7 +41840,7 @@
         "name": "F. Díez"
       }
     ],
-    "abstract": "Hydrodechlorination of tetrachloroethylene was investigated using red mud (RM, a by-product in the production of alumina by the Bayer process) as the catalyst. Use of RM as a hydrodechlorination catalyst is of interest from an industrial point of view because its cost is much lower than that of commercial catalysts.\n                  Hydrodechlorination reactions were carried out in a continuous fixed bed reactor. The influence of catalyst sulfiding, temperature (50–350°C), pressure (2–10MPa), hydrogen flow rate and the presence of solvents (hexane, heptane, benzene and toluene) on the reaction was studied. Sulfided red mud is active as a hydrodechlorination catalyst, conversion of tetrachloroethylene increases as the pressure and temperature increase. The solvents did not influence the conversion, nor were side reactions involving the solvent observed.\n                  The kinetics of the reaction was studied at 350°C and 10MPa, conditions for which mass transfer limitations were negligible. A good fit of a Langmuir–Hinselwood model to the experimental data was obtained."
+    "abstract": null
   },
   {
     "paperId": "58c844225efcd09939b3c42c6c0caf09c0b7eca3",
@@ -41702,7 +41882,7 @@
         "name": "H. Nichipor"
       }
     ],
-    "abstract": "Theoretical simulation calculations of tetrachloroethylene (PCE) decomposition in air mixtures under electron beam (EB) irradiation have been carried out based on the experimental results. A computer code Kinetic and a Gear method were used and 324 reactions and 76 species were considered. From calculated results, we learn that more than 99% PCE is decomposed at 4.4kGy dose when the initial concentration of PCE is 322ppm; concentrations of inorganic carbons (CO+CO2) increases with the dose, and the relative carbon concentration of inorganic carbons is about 17% at 13.1kGy; phosgene (COCl2) and trichloroacetyl chloride (CCl3COCl) are predicted as main organic products and are confirmed by the experimental results. The good agreement is obtained between the calculated results and the experimental data."
+    "abstract": null
   },
   {
     "paperId": "58cc30797f9c634f95aab02e2eb61b09d5905a89",
@@ -42685,7 +42865,7 @@
         "name": "Ravi Naidu"
       }
     ],
-    "abstract": "As a widely used industrial solvent, tetrachloroethylene (PCE) has become a typical pollutant of surface and groundwater, posing ecological and human health risks. Sulfite activation of ferrate (Fe(VI)) is effective for PCE removal, but activator selection has largely focused on reaction kinetics, overlooking engineering constraints from by-products such as solid precipitation. Here, we investigated the activation mechanisms of two sulfites, sodium bisulfite (NaHSO3) and calcium sulfite (CaSO3), in PCE degradation by ferrate and assessed their applicability for in situ and ex situ remediation. Under the optimal experimental condition, the reaction rate of PCE by ferrate activated by NaHSO3 and CaSO3 increased by 4.5- and 3.5-fold, respectively. Oxidative degradation dominated both systems (76.3 % for NaHSO3, 70.4 % for CaSO3), with adsorption contributing 7.6 % and 11.0 %, respectively. The oxidation mechanism revealed a dual activation pathway involving both iron species (Fe(VI) and Fe(V)) and radicals (SO4\n                     ●− and ●OH), with radical dominance increasing at higher sulfite/Fe(VI) ratios. The sulfites/ferrate system achieved high removal efficiency while minimizing environmental risk and demonstrating successful detoxification. Crucially, the CaSO3/Fe(VI) system promotes the formation of stable crystalline solids and enhances adsorption of pollutants, offering advantages in ex situ remediation. In contrast, the NaHSO3/Fe(VI) system, with higher reactivity, low precipitation yield, and non-blocking amorphous colloids, is making it ideal for in-situ aquifer treatment. This study elucidates sulfite-dependent activation differences and provides a theoretical basis for the practical application of sulfite-activated ferrate in water pollution control."
+    "abstract": "As a widely used industrial solvent, tetrachloroethylene (PCE) has become a typical pollutant of surface water and groundwater, posing ecological and human health risks. Sulfite activation of ferrate (Fe(VI)) is effective for PCE removal, but activator selection has largely focused on reaction kinetics, overlooking engineering constraints from by-products such as solid precipitation. Here, we investigated the activation mechanisms of two sulfites, sodium bisulfite (NaHSO3) and calcium sulfite (CaSO3), in PCE degradation by ferrate and assessed their applicability for in situ and ex situ remediation. Under the optimal experimental condition, the reaction rate of PCE by ferrate activated by NaHSO3 and CaSO3 increased by 4.5- and 3.5-fold, respectively. Oxidative degradation dominated both systems (76.3 % for NaHSO3 and 70.4 % for CaSO3), with adsorption contributing 7.6 % and 11.0 %, respectively. The oxidation mechanism revealed a dual activation pathway involving both iron species (Fe(VI) and Fe(V)) and radicals (SO4\n                     ●− and ●OH), with radical dominance increasing at higher sulfite/Fe(VI) ratios. The sulfites/ferrate system achieved high removal efficiency while minimizing environmental risk and demonstrating successful detoxification. Crucially, the CaSO3/Fe(VI) system promotes the formation of stable crystalline solids and enhances adsorption of pollutants, offering advantages in ex situ remediation. In contrast, the NaHSO3/Fe(VI) system, with higher reactivity, low precipitation yield, and non-blocking amorphous colloids, is making it ideal for in-situ aquifer treatment. This study elucidates sulfite-dependent activation differences and provides a theoretical basis for the practical application of sulfite-activated ferrate in water pollution control."
   },
   {
     "paperId": "5b999ca48d56d0b27c01038dab6f58b7871b3b09",
@@ -46562,7 +46742,7 @@
         "name": "Sangsuk Lee"
       }
     ],
-    "abstract": "AbstractPhase transfer catalysts (PTCs) can enhance the oxidation of pure DNAPLs using potassium permanganate by facilitating reactions in the organic phase. This study examined the influence of pentyltriphenylphosphonium bromide (PTPP) as a PTC on the rate of permanganate (MnO4‐) oxidation of DNAPLs in pure phases and mixtures. Kinetic batch experiments with trichloroethylene (TCE), 1,1,2‐trichloroethane (TCA), tetrachloroethylene (PCE), 1,1,2,2‐tetrachloroethane (TECA), and their mixtures, (1:1, v/v) were performed in test tubes to assess reaction rates. The disappearance of MnO4‐ was quantified by capturing digital images pf the tubes. This rapid photographic monitoring approach was validated by comparison with an UV‐Vis spectrometer method. The PCE/TCA mixture was selected to examine the impact of relative contents of a component in the binary mixture on the MnO4‐ disappearance. The comparative rates of MnO4‐ consumption for pure phases were TCE &gt; TECA &gt; PCE &gt; TCA. PTPP increased MnO4‐ consumption rates, especially for TCE and TECA as pure, phases. The consumption rates of mixtures without PTPP were lower than those including the pure phases. However, due to their high extraction capability for PTPP‐MnO4‐ ion pairs, TCA and TECA appeared to increase the MnO4‐ consumption significantly when they were mixed with TCE or PCE, The increase in consumption rates with PTPP was most remarkable with the mixture of PCE and TCA. Chloride concentration showed faster increases for the mixtures with relative PCE contents ranging about 5 % to 90%, maximum at about 50% PCE, than for pure phases of PCE and TCA when the PTC assisted the reactions. The PTC appears to be promising in its ability to increase oxidation rates of DNAPL mixtures."
+    "abstract": "Abstract\n                  \n                    Phase transfer catalysts (PTCs) can enhance the oxidation of pure DNAPLs using potassium permanganate by facilitating reactions in the organic phase. This study examined the influence of pentyltriphenylphosphonium bromide (PTPP) as a PTC on the rate of permanganate (MnO\n                    4\n                    ‐\n                    ) oxidation of DNAPLs in pure phases and mixtures. Kinetic batch experiments with trichloroethylene (TCE), 1,1,2‐trichloroethane (TCA), tetrachloroethylene (PCE), 1,1,2,2‐tetrachloroethane (TECA), and their mixtures, (1:1, v/v) were performed in test tubes to assess reaction rates. The disappearance of MnO\n                    4\n                    ‐\n                    was quantified by capturing digital images pf the tubes. This rapid photographic monitoring approach was validated by comparison with an UV‐Vis spectrometer method. The PCE/TCA mixture was selected to examine the impact of relative contents of a component in the binary mixture on the MnO\n                    4\n                    ‐\n                    disappearance. The comparative rates of MnO\n                    4\n                    ‐\n                    consumption for pure phases were TCE &gt; TECA &gt; PCE &gt; TCA. PTPP increased MnO\n                    4\n                    ‐\n                    consumption rates, especially for TCE and TECA as pure, phases. The consumption rates of mixtures without PTPP were lower than those including the pure phases. However, due to their high extraction capability for PTPP‐MnO\n                    4\n                    ‐\n                    ion pairs, TCA and TECA appeared to increase the MnO\n                    4\n                    ‐\n                    consumption significantly when they were mixed with TCE or PCE, The increase in consumption rates with PTPP was most remarkable with the mixture of PCE and TCA. Chloride concentration showed faster increases for the mixtures with relative PCE contents ranging about 5 % to 90%, maximum at about 50% PCE, than for pure phases of PCE and TCA when the PTC assisted the reactions. The PTC appears to be promising in its ability to increase oxidation rates of DNAPL mixtures."
   },
   {
     "paperId": "62d0f292e0fe728090acd11f3809972f2ff4913a",
@@ -47850,7 +48030,7 @@
         "name": "J. T. Coates"
       }
     ],
-    "abstract": "AbstractCosolvent flooding is a technology with the potential to remove nonaqueous phase liquid (NAPL) sources from the subsurface. It can be used to initiate separate phase mobilization, which allows removal of NAPL within very few pore volumes. Mobilization may result in a sinking DNAPL bank during horizontal flooding of NAPLs denser than water. Reversal of phase density difference between aqueous and DNAPL phases could potentially avoid this downward migration of mobilized DNAPLs. We achieved phase density difference reversal and made DNAPLs float using two components in the cosolvent flooding solution. A low‐density cosolvent partitions preferentially into the DNAPL and swells it, which causes a reduction in density of the DNAPL and reversal of the density difference between the NAPL and aqueous phases. A highdensity additive that remains in the aqueous phase allows the cosolvent flooding solution overall to have a density greater than that of water and permits control of the flooding instability. This study focused on tert‐butanol as the swelling cosolvent and tetrachloroethylene as the contaminant. In batch tests with sucrose and glycerol as dense additives, phase density difference reversal occurred. To investigate the applicability of phase density difference reversal as a remediation technology, horizontal column and sandbox experiments were performed. These experiments demonstrated the occurrence of phase density difference reversal and effective remediation in horizontal cosolvent floods."
+    "abstract": "Abstract\n                  Cosolvent flooding is a technology with the potential to remove nonaqueous phase liquid (NAPL) sources from the subsurface. It can be used to initiate separate phase mobilization, which allows removal of NAPL within very few pore volumes. Mobilization may result in a sinking DNAPL bank during horizontal flooding of NAPLs denser than water. Reversal of phase density difference between aqueous and DNAPL phases could potentially avoid this downward migration of mobilized DNAPLs. We achieved phase density difference reversal and made DNAPLs float using two components in the cosolvent flooding solution. A low‐density cosolvent partitions preferentially into the DNAPL and swells it, which causes a reduction in density of the DNAPL and reversal of the density difference between the NAPL and aqueous phases. A highdensity additive that remains in the aqueous phase allows the cosolvent flooding solution overall to have a density greater than that of water and permits control of the flooding instability. This study focused on tert‐butanol as the swelling cosolvent and tetrachloroethylene as the contaminant. In batch tests with sucrose and glycerol as dense additives, phase density difference reversal occurred. To investigate the applicability of phase density difference reversal as a remediation technology, horizontal column and sandbox experiments were performed. These experiments demonstrated the occurrence of phase density difference reversal and effective remediation in horizontal cosolvent floods."
   },
   {
     "paperId": "65758e5dba7f54de0db3589c22c9a293fe14582a",
@@ -49699,7 +49879,7 @@
         "name": "K. Sander"
       }
     ],
-    "abstract": "AbstractSeven hundred seventy liters of a dense nonaqueous phase liquid (DNAPL), tetrachloroethylene (PCE), were released into an isolated volume of a completely saturated natural sandy aquifer. The release was monitored over a period of 984 hours with a variety of geophysical methods including ground penetrating radar, time domain reflectometry, in situ resistivity, and a neutron soil moisture probe. The PCE formed a pool on a low permeability layer at approximately 1 m depth and spread over an area exceeding 32 m2. In its course of downward migration, the PCE subsequently formed eight smaller pools. At the end of the experiment an estimated 41 percent of the total PCE volume remained trapped in the upper pool.The PCE mass and its spatial moments were calculated from radar reflection amplitudes. Between 48 and 100 percent of the PCE mass was accounted for by radar measurements. The center of mass moved a total of 0.5 m south southeast and 1.3 m downward. Spatial variances showed that the greatest lateral spreading occurred in the east‐west direction. The results demonstrate that natural heterogeneities, even in a relatively homogeneous aquifer, can cause DNAPLs to spread laterally over large areas in the subsurface. This experiment also demonstrated that while the ability of geophysics to uniquely measure the presence of DNAPL is limited, certain techniques are well‐suited to monitoring changes in DNAPL saturation."
+    "abstract": "Abstract\n                  \n                    Seven hundred seventy liters of a dense nonaqueous phase liquid (DNAPL), tetrachloroethylene (PCE), were released into an isolated volume of a completely saturated natural sandy aquifer. The release was monitored over a period of 984 hours with a variety of geophysical methods including ground penetrating radar, time domain reflectometry, in situ resistivity, and a neutron soil moisture probe. The PCE formed a pool on a low permeability layer at approximately 1 m depth and spread over an area exceeding 32 m\n                    2\n                    . In its course of downward migration, the PCE subsequently formed eight smaller pools. At the end of the experiment an estimated 41 percent of the total PCE volume remained trapped in the upper pool.\n                  \n                  The PCE mass and its spatial moments were calculated from radar reflection amplitudes. Between 48 and 100 percent of the PCE mass was accounted for by radar measurements. The center of mass moved a total of 0.5 m south southeast and 1.3 m downward. Spatial variances showed that the greatest lateral spreading occurred in the east‐west direction. The results demonstrate that natural heterogeneities, even in a relatively homogeneous aquifer, can cause DNAPLs to spread laterally over large areas in the subsurface. This experiment also demonstrated that while the ability of geophysics to uniquely measure the presence of DNAPL is limited, certain techniques are well‐suited to monitoring changes in DNAPL saturation."
   },
   {
     "paperId": "6a69cd66aa3e21a2b4c61852f548c618ded478f7",
@@ -50713,7 +50893,7 @@
         "name": "M. Singletary"
       }
     ],
-    "abstract": "AbstractLaboratory characterization studies, one‐dimensional flow‐through studies, and numerical model simulations were conducted to examine site conditions and system features that may have adversely affected in situ chemical oxidation (ISCO) performance at the Naval Training Center’s (NTC) Operable Unit 4 located in Orlando, Florida, and to identify potential ISCO system modifications to achieve the desired remediation performance. At the NTC site, ISCO was implemented using vertical injection wells to deliver potassium permanganate into a ground water zone for treatment of tetrachloroethylene and its breakdown products. However, oxidant distribution was much more limited than anticipated. Characterization studies revealed that the ground water zone being treated by ISCO was very fine sand with a small effective particle size and low uniformity coefficient, along with a high organic carbon content, high natural oxidant demand (NOD), and a high ground water dissolved solids concentration, all of which contributed to full‐scale ISCO application difficulties. These site conditions contributed to injection well permeability loss and an inability to achieve the design oxidant injection flow rate, limiting the actual oxidant distribution at the site. Flow‐through experiments demonstrated that more favorable oxidant delivery and distribution conditions are enabled by applying a lower oxidant concentration at a faster delivery rate for a greater number of pore volumes. Numerical simulations, run for a variety of conditions (injection/extraction well flow rates, injected oxidant concentration, amount of NOD present, and NOD oxidation rate), also revealed that low–oxidant concentration injection at a high flow rate is a more effective method to deliver the required mass of oxidant to the target treatment zone."
+    "abstract": "Abstract\n                  Laboratory characterization studies, one‐dimensional flow‐through studies, and numerical model simulations were conducted to examine site conditions and system features that may have adversely affected in situ chemical oxidation (ISCO) performance at the Naval Training Center’s (NTC) Operable Unit 4 located in Orlando, Florida, and to identify potential ISCO system modifications to achieve the desired remediation performance. At the NTC site, ISCO was implemented using vertical injection wells to deliver potassium permanganate into a ground water zone for treatment of tetrachloroethylene and its breakdown products. However, oxidant distribution was much more limited than anticipated. Characterization studies revealed that the ground water zone being treated by ISCO was very fine sand with a small effective particle size and low uniformity coefficient, along with a high organic carbon content, high natural oxidant demand (NOD), and a high ground water dissolved solids concentration, all of which contributed to full‐scale ISCO application difficulties. These site conditions contributed to injection well permeability loss and an inability to achieve the design oxidant injection flow rate, limiting the actual oxidant distribution at the site. Flow‐through experiments demonstrated that more favorable oxidant delivery and distribution conditions are enabled by applying a lower oxidant concentration at a faster delivery rate for a greater number of pore volumes. Numerical simulations, run for a variety of conditions (injection/extraction well flow rates, injected oxidant concentration, amount of NOD present, and NOD oxidation rate), also revealed that low–oxidant concentration injection at a high flow rate is a more effective method to deliver the required mass of oxidant to the target treatment zone."
   },
   {
     "paperId": "6c294eb18d1d6681e02b1e51608af4a9b0edb338",
@@ -57991,7 +58171,7 @@
       },
       {
         "authorId": "2286650197",
-        "name": "Chris Lutes"
+        "name": "C. Lutes"
       },
       {
         "authorId": "16053127",
@@ -58376,7 +58556,7 @@
         "name": "M. Urynowicz"
       }
     ],
-    "abstract": "AbstractAn experimental study was completed to assess the impact of sampling methods, contaminant levels, and subsurface temperatures on the quantification of tetrachloroethylene (PCE) and trichloroethylene (TCE) in source zones contaminated by dense non–aqueous phase liquids (DNAPLs). Intact cores of clean aquifer solids (fine‐grained uniform sand with low foc) from a DNAPL site in Florida were spiked with neat PCE and TCE to yield concentrations such that DNAPL‐phase contamination would be absent or present. Three methods characterized by different levels of media disaggregation and atmospheric exposure (MDE) were used to obtain samples from intact cores, which were at temperatures of 2°C, 20°C, and 38°C. The results of this study demonstrated that sampling of intact cores can yield negative bias, ranging from 0% to 98% or more, in the concentrations of PCE and TCE measured. Larger negative bias was correlated with higher MDE methods, presumably due to elevated volatilization losses during sample collection and containerization. Larger negative bias was also correlated with higher temperatures but only during sampling using higher MDE methods. The results of this study suggest that intact core sampling procedures may or may not lead to erroneous conclusions about a DNAPL source zone. For example, sampling data may lead to a conclusion that a potential source zone has no DNAPL‐phase contamination present when in fact it is present, or that remediation has achieved source zone cleanup to a residual concentration goal, when in fact the goal was not met. Conversely, if a remediation goal is to achieve a specified mass depletion level (e.g., 90%), measurement bias may not result in an erroneous conclusion. Further research is planned to examine a wider range of aquifer properties and sampling conditions and to assess the impacts of measurement errors on DNAPL source zone characterization and assessment of remediation performance."
+    "abstract": "Abstract\n                  \n                    An experimental study was completed to assess the impact of sampling methods, contaminant levels, and subsurface temperatures on the quantification of tetrachloroethylene (PCE) and trichloroethylene (TCE) in source zones contaminated by dense non–aqueous phase liquids (DNAPLs). Intact cores of clean aquifer solids (fine‐grained uniform sand with low\n                    f\n                    oc\n                    ) from a DNAPL site in Florida were spiked with neat PCE and TCE to yield concentrations such that DNAPL‐phase contamination would be absent or present. Three methods characterized by different levels of media disaggregation and atmospheric exposure (MDE) were used to obtain samples from intact cores, which were at temperatures of 2°C, 20°C, and 38°C. The results of this study demonstrated that sampling of intact cores can yield negative bias, ranging from 0% to 98% or more, in the concentrations of PCE and TCE measured. Larger negative bias was correlated with higher MDE methods, presumably due to elevated volatilization losses during sample collection and containerization. Larger negative bias was also correlated with higher temperatures but only during sampling using higher MDE methods. The results of this study suggest that intact core sampling procedures may or may not lead to erroneous conclusions about a DNAPL source zone. For example, sampling data may lead to a conclusion that a potential source zone has no DNAPL‐phase contamination present when in fact it is present, or that remediation has achieved source zone cleanup to a residual concentration goal, when in fact the goal was not met. Conversely, if a remediation goal is to achieve a specified mass depletion level (e.g., 90%), measurement bias may not result in an erroneous conclusion. Further research is planned to examine a wider range of aquifer properties and sampling conditions and to assess the impacts of measurement errors on DNAPL source zone characterization and assessment of remediation performance."
   },
   {
     "paperId": "7d83de79a6480982211f7766b0fc4628c73385b8",
@@ -58916,7 +59096,7 @@
         "name": "Woojin Lee"
       }
     ],
-    "abstract": "Experiments were conducted to investigate the reductive dechlorination of tetrachloroethylene (PCE) by nano-Mackinawite (nFeS) with cyano-cobalamin (Cbl(III)) in cement slurries. Almost complete degradation of PCE by nFeS-Cbl(III) was observed in cement slurries in 5h and its degradation kinetics (kobs-PCE\n                     =0.57h−1) was 6-times faster than that of nFeS-Cbl(III) without the cement slurries. PCE was finally transformed to non-chlorinated organic compounds such as ethylene, acetylene, and C3-C4 hydrocarbons by nFeS-Cbl(III) in cement slurries. X-ray photoelectron spectroscopy and PCE degradation by cement components (SiO2, Al2O3, and CaO) revealed that both the reduced Co species in Cbl(III) and the presence of Ca in cement played an important role for the enhanced reductive dechlorination of PCE. The increase in the concentration of Cbl(III) (0.005–0.1mM), cement ratio (0.05–0.2), and suspension pH (11.5–13.5) accelerated the PCE degradation kinetics by providing more favorable environments for the production of reactive Ca species and reduction of Co species. We also observed that the degradation efficiency of PCE by nFeS-Cbl(III)-cement lasted even at high concentration of PCE. The experimental results obtained from this study could provide fundamental knowledge of redox interactions among nFeS, Cbl(III), and cement, which could significantly enhance reductive dechlorination of chlorinated organics in contaminated natural and engineered environments."
+    "abstract": null
   },
   {
     "paperId": "7ef65e06bd36dbd1dfbdac77db0198ba0cdd0015",
@@ -62244,6 +62424,65 @@
     "abstract": null
   },
   {
+    "paperId": "8604ed597833f0a1f37a2ec9f099e47edaec8936",
+    "externalIds": {
+      "DOI": "10.4314/bcse.v39i11.12",
+      "CorpusId": 282473436
+    },
+    "url": "https://www.semanticscholar.org/paper/8604ed597833f0a1f37a2ec9f099e47edaec8936",
+    "title": "Green ultrasound-assisted emulsification dispersive liquid-liquid microextraction combined with spectrophotometry for preconcentration and quantification of nickel in environmental samples",
+    "venue": "Bulletin of the Chemical Society of Ethiopia",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4314/bcse.v39i11.12?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4314/bcse.v39i11.12, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2211308766",
+        "name": "Samya Sh. Alenezi"
+      },
+      {
+        "authorId": "2183623422",
+        "name": "Ayman A. Gouda"
+      },
+      {
+        "authorId": "2388410130",
+        "name": "Ragaa El Sheik"
+      },
+      {
+        "authorId": "2388421508",
+        "name": "Ahmed H. Moustafa"
+      },
+      {
+        "authorId": "2388412404",
+        "name": "Fatma A. Ibraheem"
+      },
+      {
+        "authorId": "2343685282",
+        "name": "Mohamed Elgafary"
+      },
+      {
+        "authorId": "2388408558",
+        "name": "Lamis Eh. Al-Enani"
+      },
+      {
+        "authorId": "2388412729",
+        "name": "Mahmoud A. Almasry"
+      },
+      {
+        "authorId": "2388409018",
+        "name": "Abdalla M. Khedr"
+      }
+    ],
+    "abstract": "An efficient, quick, sensitive, and eco-friendly ultrasound-assisted emulsification dispersive liquid-liquid microextraction (UAE-DLLME) method was developed for the separation and preconcentration of trace nickel (Ni(II)) in environmental samples before spectrophotometric analysis. The non-ionic water-soluble surfactant Triton X-114 (TX-114) was used as a dispersive solvent, while tetrachloroethylene served as the extractive solvent, rendering the microextraction method more environmentally friendly. The novel complexing agent, 4-((2, 4-Dihydroxyphenyl)diazenyl)-N-(pyrimidin-2-yl)benzene sulfonamide (DHPDPNS), was employed for the complexation of Ni(II) at a pH of 7.0. The impact of multiple variables on the efficacy of the UAE-DLLME approach was optimized. Under ideal conditions, the calibration graph exhibited linearity within the range of 2.0-500 μg L-1. The detection and quantification limits were established at 0.6 μg L-1 and 2.0 μg L-1, respectively. The preconcentration factor and enhancement factor were determined to be 60 and 30, respectively. The relative standard deviation (%RSD) indicating precisions at 200 and 400 µg L-1 of Ni(II) was 1.7% and 2.0%, respectively (n=10). The developed UAE-DLLME microextraction method was ultimately employed to preconcentrate and quantify trace quantities of Ni(II) in environmental samples. \nKEY WORDS: Ultrasound-assisted emulsification dispersive liquid-liquid microextraction, Preconcentration, Nickel, Non-ionic surfactant, Environmental samples, Spectrophotometry \nBull. Chem. Soc. Ethiop. 2025, 39(11), 2243-2259.                                                 \nDOI: https://dx.doi.org/10.4314/bcse.v39i11.12                                                               "
+  },
+  {
     "paperId": "860bdfd27a05b59e998228a5f0a3d64814ae6ae3",
     "externalIds": {
       "MAG": "2008602363",
@@ -64996,7 +65235,7 @@
         "name": "J. Cherry"
       }
     ],
-    "abstract": "AbstractA small‐scale field experiment was carried out to demonstrate the effectiveness of using septic system ‐type infiltration beds for on‐site treatment of landfill leachate. Using an infiltration bed with a 3‐m‐thick vadose zone of medium sand, and loaded at a rate 01 18 cm/day, a treatment efficiency of &gt;99 percent was obtained for Fe, 94 percent for NH4+, and 54 percent for dissolved organic carbon (DOC). Attenuation occurred during one‐ to two‐day residency in the aerobic vadose zone (pore gas O2 &gt; 12 percent by volume) as a result of oxidation reactions that caused nitrification of NH4+, convened Fe2+ to Fe3+ allowing subsequent precipitation of sparingly soluble Fe oxyhydroxide minerals, and biodegraded DOC. Attenuation of an aerobically degradable trace volatile organic compound (dichlorobenzene) was also noted, although other less degradable compounds (trichloroethylene and tetrachloroethylene) persisted.Fe mineral precipitation caused a discontinuous hardpan layer to occur in the zone immediately below the infiltration pipes. However, this layer did not become impermeable or continuous enough to significantly impede infiltration during the 82‐day experiment.Advantages of this technology for leachate treatment are that it is low cost, it is simple to construct and operate. and treatment occurs on‐site, avoiding the cost of transporting leachate off‐site for treatment."
+    "abstract": "Abstract\n                  \n                    A small‐scale field experiment was carried out to demonstrate the effectiveness of using septic system ‐type infiltration beds for on‐site treatment of landfill leachate. Using an infiltration bed with a 3‐m‐thick vadose zone of medium sand, and loaded at a rate 01 18 cm/day, a treatment efficiency of &gt;99 percent was obtained for Fe, 94 percent for NH\n                    4\n                    +\n                    , and 54 percent for dissolved organic carbon (DOC). Attenuation occurred during one‐ to two‐day residency in the aerobic vadose zone (pore gas O\n                    2\n                    &gt; 12 percent by volume) as a result of oxidation reactions that caused nitrification of NH\n                    4\n                    +\n                    , convened Fe\n                    2+\n                    to Fe\n                    3+\n                    allowing subsequent precipitation of sparingly soluble Fe oxyhydroxide minerals, and biodegraded DOC. Attenuation of an aerobically degradable trace volatile organic compound (dichlorobenzene) was also noted, although other less degradable compounds (trichloroethylene and tetrachloroethylene) persisted.\n                  \n                  Fe mineral precipitation caused a discontinuous hardpan layer to occur in the zone immediately below the infiltration pipes. However, this layer did not become impermeable or continuous enough to significantly impede infiltration during the 82‐day experiment.\n                  Advantages of this technology for leachate treatment are that it is low cost, it is simple to construct and operate. and treatment occurs on‐site, avoiding the cost of transporting leachate off‐site for treatment."
   },
   {
     "paperId": "8d55b0afc2c19abcbb80dac367411bcaef142d70",
@@ -67775,7 +68014,7 @@
         "name": "D. Murzin"
       }
     ],
-    "abstract": "\n \n To develop effective adsorbents and carriers for removing harmful impurities from waste, due to the shortage of natural bauxite for alumina production.\n \n \n To determine the influence of various impurities present in the waste—spent alumina adsorbent (SAA) on the characteristics of adsorbents for chlorine-containing compounds, samples with a different content of V, Ti and Na have been synthesized. Properties of adsorbents based on a commercial alumina and extensively treated SAA, both types undergoing impregnation with sodium hydroxide and sodium vanadate, have been compared. Alumina adsorbents and alumina-kaolin-borate catalyst carriers with the Ti content of ca. 0.2% were prepared by atomic layer deposition (ALD) of TiCl4 on the ready granules, while introduction of large quantities of titania have been performed by addition of ground alumina-titania carrier waste into the extrusion paste. Adsorption of steam, tetrachloroethylene and hydrochloric acid has been investigated.\n \n \n It was found that the adsorption capacity for water vapor reached 43.6 g H2O/100 g SA and 38.9 g H2O/100 g AN-2, while after ALD modification it decreased by ca. 1 and 35%, respectively and with the introduction of SA-Ti(15.0) with the same amount of titanium by ca. 35%. Modification of AN-2 with sodium vanadate at about 0.3% Na and 0.4% V had no effect on water adsorption; while as the concentration of sodium introduced by impregnation with NaOH increased, the adsorption ability deteriorated. Modification of AN-2 and SA using ALD technology sharply diminished efficiency of adsorption of water vapors, tetrachlorethylene and hydrochloric acid. By adsorption of a mixture simulating reforming exhaust gases, formation of chlorinated oligomers on AKB, AN-2 and SA was established. NaOH modification effectively suppressed oligomerization; thus SAA-based adsorbents containing more than 5% Na can be used for drying and purification of reforming exhaust gases, as the most effective, cheapest and resource-saving option.\n \n \n \n"
+    "abstract": "To develop effective adsorbents and carriers for removing harmful impurities from waste, due to the shortage of natural bauxite for alumina production. To determine the influence of various impurities present in the waste—spent alumina adsorbent (SAA) on the characteristics of adsorbents for chlorine-containing compounds, samples with a different content of V, Ti and Na have been synthesized. Properties of adsorbents based on a commercial alumina and extensively treated SAA, both types undergoing impregnation with sodium hydroxide and sodium vanadate, have been compared. Alumina adsorbents and alumina-kaolin-borate catalyst carriers with the Ti content of ca. 0.2% were prepared by atomic layer deposition (ALD) of TiCl4 on the ready granules, while introduction of large quantities of titania have been performed by addition of ground alumina-titania carrier waste into the extrusion paste. Adsorption of steam, tetrachloroethylene and hydrochloric acid has been investigated. It was found that the adsorption capacity for water vapor reached 43.6 g H2O/100 g SA and 38.9 g H2O/100 g AN-2, while after ALD modification it decreased by ca. 1 and 35%, respectively and with the introduction of SA-Ti(15.0) with the same amount of titanium by ca. 35%. Modification of AN-2 with sodium vanadate at about 0.3% Na and 0.4% V had no effect on water adsorption; while as the concentration of sodium introduced by impregnation with NaOH increased, the adsorption ability deteriorated. Modification of AN-2 and SA using ALD technology sharply diminished efficiency of adsorption of water vapors, tetrachlorethylene and hydrochloric acid. By adsorption of a mixture simulating reforming exhaust gases, formation of chlorinated oligomers on AKB, AN-2 and SA was established. NaOH modification effectively suppressed oligomerization; thus SAA-based adsorbents containing more than 5% Na can be used for drying and purification of reforming exhaust gases, as the most effective, cheapest and resource-saving option."
   },
   {
     "paperId": "934eeec2b4265c9e8fc8266c60ba49bbf7bb3700",
@@ -69042,20 +69281,60 @@
   {
     "paperId": "960926cbf43db94e87ee0bf078bbe3875d5a8913",
     "externalIds": {
-      "CorpusId": 12002248
+      "PubMedCentral": "2430239",
+      "MAG": "2033571511",
+      "DOI": "10.1289/ehp.10414",
+      "CorpusId": 12002248,
+      "PubMed": "18560539"
     },
     "url": "https://www.semanticscholar.org/paper/960926cbf43db94e87ee0bf078bbe3875d5a8913",
-    "title": "Research | Children’s Health Prenatal Exposure to Tetrachloroethylene-Contaminated Drinking Water and the Risk of Adverse Birth Outcomes",
-    "venue": "",
-    "year": null,
+    "title": "Prenatal Exposure to Tetrachloroethylene-Contaminated Drinking Water and the Risk of Adverse Birth Outcomes",
+    "venue": "Environmental Health Perspectives",
+    "year": 2008,
     "openAccessPdf": {
-      "url": "",
-      "status": null,
-      "license": null
+      "url": "https://doi.org/10.1289/ehp.10414",
+      "status": "GOLD",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2430239, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
-    "publicationTypes": null,
-    "authors": [],
-    "abstract": null
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "6122120",
+        "name": "A. Aschengrau"
+      },
+      {
+        "authorId": "2247154110",
+        "name": "Janice Weinberg"
+      },
+      {
+        "authorId": "2388918960",
+        "name": "Sarah Rogers"
+      },
+      {
+        "authorId": "47082052",
+        "name": "L. Gallagher"
+      },
+      {
+        "authorId": "2061234213",
+        "name": "Michael R Winter"
+      },
+      {
+        "authorId": "2247166520",
+        "name": "Verónica M. Vieira"
+      },
+      {
+        "authorId": "2247152375",
+        "name": "Thomas F. Webster"
+      },
+      {
+        "authorId": "1860718",
+        "name": "D. Ozonoff"
+      }
+    ],
+    "abstract": "Background Prior studies of prenatal exposure to tetrachloroethylene (PCE) have shown mixed results regarding its effect on birth weight and gestational age. Objectives In this retrospective cohort study we examined whether PCE contamination of public drinking-water supplies in Massachusetts influenced the birth weight and gestational duration of children whose mothers were exposed before the child’s delivery. Methods The study included 1,353 children whose mothers were exposed to PCE-contaminated drinking water and a comparable group of 772 children of unexposed mothers. Birth records were used to identify subjects and provide information on the outcomes. Mothers completed a questionnaire to gather information on residential histories and confounding variables. PCE exposure was estimated using EPANET water distribution system modeling software that incorporated a fate and transport model. Results We found no meaningful associations between PCE exposure and birth weight or gestational duration. Compared with children whose mothers were unexposed during the year of the last menstrual period (LMP), adjusted mean differences in birth weight were 20.9, 6.2, 30.1, and 15.2 g for children whose mothers’ average monthly exposure during the LMP year ranged from the lowest to highest quartile. Similarly, compared with unexposed children, adjusted mean differences in gestational age were −0.2, 0.1, −0.1, and −0.2 weeks for children whose mothers’ average monthly exposure ranged from the lowest to highest quartile. Similar results were observed for two other measures of prenatal exposure. Conclusions These results suggest that prenatal PCE exposure does not have an adverse effect on these birth outcomes at the exposure levels experienced by this population."
   },
   {
     "paperId": "961154494b6f508264bcfbab1a455d7c1bf3fac6",
@@ -71313,7 +71592,7 @@
         "name": "B. Kueper"
       }
     ],
-    "abstract": "AbstractThe time required for dense nonaqueous phase liquid (DNAPL) to cease migrating following release to the subsurface is a valuable component of a site conceptual model. This study uses numerical simulation to investigate the migration of six different DNAPLs in sandy aquifers. The most influential parameters governing migration cessation time are the density and viscosity of the DNAPL and the mean hydraulic conductivity of the aquifer. Releases of between 1 and 40 drums of chlorinated solvent DNAPLs, characterized by relatively high density and low viscosity, require on the order of months to a few years to cease migrating in a heterogeneous medium sand aquifer having an average hydraulic conductivity of 7.4 × 10−3 cm/s. In contrast to this, the release of 20 drums of coal tar (ρD= 1061 kg/m3, μD= 0.161 Pa·s) requires more than 100 years to cease migrating in the same aquifer. Altering the mean hydraulic conductivity of the aquifer results in a proportional change in cessation times. Parameters that exhibit relatively little influence on migration time scales are the DNAPL–water interfacial tension, release volume, source capillary pressure, mean aquifer porosity, and ambient ground water hydraulic gradient. This study also demonstrates that low‐density DNAPLs (e.g., coal tar) give rise to greater amounts of lateral spreading and greater amounts of pooling on capillary barriers than high‐density DNAPLs such as trichloroethylene or tetrachloroethylene."
+    "abstract": "Abstract\n                  \n                    The time required for dense nonaqueous phase liquid (DNAPL) to cease migrating following release to the subsurface is a valuable component of a site conceptual model. This study uses numerical simulation to investigate the migration of six different DNAPLs in sandy aquifers. The most influential parameters governing migration cessation time are the density and viscosity of the DNAPL and the mean hydraulic conductivity of the aquifer. Releases of between 1 and 40 drums of chlorinated solvent DNAPLs, characterized by relatively high density and low viscosity, require on the order of months to a few years to cease migrating in a heterogeneous medium sand aquifer having an average hydraulic conductivity of 7.4 × 10\n                    −3\n                    cm/s. In contrast to this, the release of 20 drums of coal tar (\n                    ρ\n                    D\n                    = 1061 kg/m\n                    3\n                    ,\n                    μ\n                    D\n                    = 0.161 Pa·s) requires more than 100 years to cease migrating in the same aquifer. Altering the mean hydraulic conductivity of the aquifer results in a proportional change in cessation times. Parameters that exhibit relatively little influence on migration time scales are the DNAPL–water interfacial tension, release volume, source capillary pressure, mean aquifer porosity, and ambient ground water hydraulic gradient. This study also demonstrates that low‐density DNAPLs (e.g., coal tar) give rise to greater amounts of lateral spreading and greater amounts of pooling on capillary barriers than high‐density DNAPLs such as trichloroethylene or tetrachloroethylene."
   },
   {
     "paperId": "9b074e5764ee344082a90263f15bcc571003d298",
@@ -72341,8 +72620,8 @@
       "PubMed": "41114842"
     },
     "url": "https://www.semanticscholar.org/paper/9d5856fdb33512e7f0690f57f0f3619fcf3c940d",
-    "title": "Development of PVDF/SrFe12O19/g-C3N4 nanocomposite films for VOC sensing at room-temperature.",
-    "venue": "Mikrochimica Acta",
+    "title": "Development of PVDF/SrFe12O19/g-C3N4 nanocomposite films for VOC sensing at room-temperature",
+    "venue": "Microchimica Acta",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
@@ -72618,6 +72897,33 @@
       {
         "authorId": "145476157",
         "name": "C. Wolf"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "9df64ae22cb68fe71ba6e2b452f0ad7f32d8ff5c",
+    "externalIds": {
+      "DOI": "10.1007/s00769-024-01624-8",
+      "CorpusId": 274174106
+    },
+    "url": "https://www.semanticscholar.org/paper/9df64ae22cb68fe71ba6e2b452f0ad7f32d8ff5c",
+    "title": "Investigation of oil and grease in surface soils of gas station, automobile repair workshop, urban, recreational area, and rural sites using FT-IR",
+    "venue": "Accreditation and Quality Assurance",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00769-024-01624-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00769-024-01624-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "1588618330",
+        "name": "Melike B. Bayramoğlu Karşı"
       }
     ],
     "abstract": null
@@ -73154,7 +73460,7 @@
       },
       {
         "authorId": "2286650197",
-        "name": "Chris Lutes"
+        "name": "C. Lutes"
       },
       {
         "authorId": "2267366523",
@@ -75613,7 +75919,7 @@
         "name": "B. Kueper"
       }
     ],
-    "abstract": "AbstractA series of laboratory experiments were conducted to evaluate the relationship between degree of tetrachloroethylene (PCE) mass removal and heating duration, initial dense nonaqueous phase liquid (DNAPL) saturation, and soil grain size. Data were collected to evaluate the impact of postheating sample temperature on PCE concentration and to calculate the thermal diffusivity of the soil. A linear relationship was found between initial DNAPL saturation and duration of the co‐boiling plateau, which occurred at 89 °C ± 4 °C. PCE concentrations were reduced most in samples that were heated beyond dryout, but continued heating for 12 hours beyond that point did not lead to further decreases. Heating samples with initial DNAPL saturations between 4.9% and 39.9% pore space illustrated a positive relationship between initial saturation and final soil concentration for a fixed heating duration. Smaller grain size resulted in lower postheating soil concentrations. Cooling postthermal remedy soils to as low as 20 °C prior to sampling did not affect measured PCE concentrations. An analytical model fit to cooling data indicated that the soil diffusivity values ranged from 1.4 × 10−7 to 1.8 × 10−7 m2/s."
+    "abstract": "Abstract\n                  \n                    A series of laboratory experiments were conducted to evaluate the relationship between degree of tetrachloroethylene (PCE) mass removal and heating duration, initial dense nonaqueous phase liquid (DNAPL) saturation, and soil grain size. Data were collected to evaluate the impact of postheating sample temperature on PCE concentration and to calculate the thermal diffusivity of the soil. A linear relationship was found between initial DNAPL saturation and duration of the co‐boiling plateau, which occurred at 89 °C ± 4 °C. PCE concentrations were reduced most in samples that were heated beyond dryout, but continued heating for 12 hours beyond that point did not lead to further decreases. Heating samples with initial DNAPL saturations between 4.9% and 39.9% pore space illustrated a positive relationship between initial saturation and final soil concentration for a fixed heating duration. Smaller grain size resulted in lower postheating soil concentrations. Cooling postthermal remedy soils to as low as 20 °C prior to sampling did not affect measured PCE concentrations. An analytical model fit to cooling data indicated that the soil diffusivity values ranged from 1.4 × 10\n                    −7\n                    to 1.8 × 10\n                    −7\n                    m\n                    2\n                    /s."
   },
   {
     "paperId": "a4d6d8e477e8c9f1058f89c1ea21261024ac48f9",
@@ -77183,7 +77489,7 @@
         "name": "P. P. Neupane"
       }
     ],
-    "abstract": "AbstractResults from a plume mapping study from November 2000 through February 2001 in the sand‐and‐gravel surficial aquifer at Dover Air Force Base, Delaware, were used to assess the occurrence and extent of chlorinated solvent mass loss by calculating mass fluxes across two transverse cross sections and by observing changes in concentration ratios and mole fractions along a longitudinal cross section through the core of the plume. The plume mapping investigation was conducted to determine the spatial distribution of chlorinated solvents migrating from former waste disposal sites. Vertical contaminant concentration profiles were obtained with a direct‐push drill rig and multilevel piezometers. These samples were supplemented with additional ground water samples collected with a minipiezometer from the bed of a perennial stream downgradient of the source areas. Results from the field program show that the plume, consisting mainly of tetrachloroethylene (PCE), trichloroethene (TCE), and cis‐1,2‐dichloroethene (cis‐1,2‐DCE), was approximately 670 m in length and 120 m in width, extended across much of the 9‐ to 18‐m thickness of the surficial aquifer, and discharged to the stream in some areas. The analyses of the plume mapping data show that losses of the parent compounds, PCE and TCE, were negligible downgradient of the source. In contrast, losses of cis‐1,2‐DCE, a daughter compound, were observed in this plume. These losses very likely resulted from biodegradation, but the specific reaction mechanism could not be identified. This study demonstrates that plume mapping data can be used to estimate the occurrence and extent of chlorinated solvent mass loss from biodegradation and assess the effectiveness of natural attenuation as a remedial measure."
+    "abstract": "Abstract\n                  \n                    Results from a plume mapping study from November 2000 through February 2001 in the sand‐and‐gravel surficial aquifer at Dover Air Force Base, Delaware, were used to assess the occurrence and extent of chlorinated solvent mass loss by calculating mass fluxes across two transverse cross sections and by observing changes in concentration ratios and mole fractions along a longitudinal cross section through the core of the plume. The plume mapping investigation was conducted to determine the spatial distribution of chlorinated solvents migrating from former waste disposal sites. Vertical contaminant concentration profiles were obtained with a direct‐push drill rig and multilevel piezometers. These samples were supplemented with additional ground water samples collected with a minipiezometer from the bed of a perennial stream downgradient of the source areas. Results from the field program show that the plume, consisting mainly of tetrachloroethylene (PCE), trichloroethene (TCE), and\n                    cis\n                    ‐1,2‐dichloroethene (\n                    cis\n                    ‐1,2‐DCE), was approximately 670 m in length and 120 m in width, extended across much of the 9‐ to 18‐m thickness of the surficial aquifer, and discharged to the stream in some areas. The analyses of the plume mapping data show that losses of the parent compounds, PCE and TCE, were negligible downgradient of the source. In contrast, losses of\n                    cis\n                    ‐1,2‐DCE, a daughter compound, were observed in this plume. These losses very likely resulted from biodegradation, but the specific reaction mechanism could not be identified. This study demonstrates that plume mapping data can be used to estimate the occurrence and extent of chlorinated solvent mass loss from biodegradation and assess the effectiveness of natural attenuation as a remedial measure."
   },
   {
     "paperId": "a87d49e5c95986bd09f2b2081e875c1fc02f295a",
@@ -84440,7 +84746,7 @@
         "name": "P. Harte"
       }
     ],
-    "abstract": "AbstractThe effectiveness of passive diffusion bag (pdb) samplers in the measurement of selected volatile organic compounds (VOCs) is dependent on a number of factors. At some sites and wells, pdb sampling methods provide an attractive alternative to other sampling methods. In this discussion, I provide two examples of comparisons of temporal trends in tetrachloroethylene (PCE) concentrations from passive and low‐flow sampling methods. At the example field site, large changes in PCE concentrations occurred over the deployment period(s) of the pdb samplers, yet the concentrations from the pdb samples are similar to the low‐flow samples and the overall trends are the same."
+    "abstract": "Abstract\n                  The effectiveness of passive diffusion bag (pdb) samplers in the measurement of selected volatile organic compounds (VOCs) is dependent on a number of factors. At some sites and wells, pdb sampling methods provide an attractive alternative to other sampling methods. In this discussion, I provide two examples of comparisons of temporal trends in tetrachloroethylene (PCE) concentrations from passive and low‐flow sampling methods. At the example field site, large changes in PCE concentrations occurred over the deployment period(s) of the pdb samplers, yet the concentrations from the pdb samples are similar to the low‐flow samples and the overall trends are the same."
   },
   {
     "paperId": "b6fe5d06736df5b8fafeeddd65f6811b2cd10f7c",
@@ -85392,7 +85698,7 @@
       "PubMed": "41098099"
     },
     "url": "https://www.semanticscholar.org/paper/b91e72cdb2a97529c344b93facc8bb4d79a6e6a2",
-    "title": "Tetrachloroethylene Is Associated With Presence of Significant Liver Fibrosis: A National Cross-Sectional Study in US Adults.",
+    "title": "Tetrachloroethylene Is Associated With Presence of Significant Liver Fibrosis: A National Cross‐Sectional Study in US Adults",
     "venue": "Liver international (Print)",
     "year": 2025,
     "openAccessPdf": {
@@ -85402,8 +85708,7 @@
       "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/liv.70398?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/liv.70398, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
-      "JournalArticle",
-      "Review"
+      "JournalArticle"
     ],
     "authors": [
       {
@@ -85419,7 +85724,7 @@
         "name": "Brian P. Lee"
       }
     ],
-    "abstract": "BACKGROUND & AIMS\nTetrachloroethylene (PCE) is a volatile organic compound (VOC) used in industrial settings. Pre-clinical studies have linked PCE to hepatotoxicity, but clinical data beyond selected occupational cohorts represent a critical knowledge gap.\n\n\nMETHODS\nWe utilised data from the National Health and Nutrition Examination Survey (NHANES) from 2017 to 2020, a nationally representative survey of the US population. Significant liver fibrosis was defined as liver stiffness measurement > 8.2 kPa by vibration-controlled transient elastography. We used multivariate logistic regression to assess the association of PCE with significant liver fibrosis, controlling for potential demographic and clinical confounders. A negative control analysis was performed using N-Acetyl-S-(2-hydroxyethyl)-l-cysteine, a biomarker representing exposure to a mixture of VOCs.\n\n\nRESULTS\nAmong 1614 adults, 116 had detectable PCE, representing a weighted percentage of 7.4% (95% CI 5.1%-10.7%). Values ranged from 0.034 to 57.5 ng/mL, with a median concentration of 0.09 ng/mL (IQR 0.07-0.22 ng/mL). Detectable PCE (aOR 3.17 [95% CI 1.23-8.20]) was associated with significant liver fibrosis, an independent association supported by the negative control analysis. Additionally, the association between PCE and significant liver fibrosis was dose-dependent (aOR per 1 ng/mL increase 5.13 [1.09-24.26]). The absolute risk difference between the predicted probability of significant liver fibrosis for detectable vs. undetectable PCE was 27.7% (95% CI 4.3%-51.0%).\n\n\nCONCLUSION\nIn this nationally representative US study, PCE was associated with significant liver fibrosis with a dose-dependent effect, and a negative control analysis suggesting that this association is distinct to PCE. Our results should encourage prospective studies to confirm PCE as a contributor to liver disease to inform environmental policies."
+    "abstract": "Tetrachloroethylene (PCE) is a volatile organic compound (VOC) used in industrial settings. Pre‐clinical studies have linked PCE to hepatotoxicity, but clinical data beyond selected occupational cohorts represent a critical knowledge gap."
   },
   {
     "paperId": "b9308d294358c330d03b55497cb341b990e703dc",
@@ -86819,7 +87124,7 @@
         "name": "Yanxia Xie"
       },
       {
-        "authorId": "2374936340",
+        "authorId": "2388083186",
         "name": "Weiqiang Zhang"
       },
       {
@@ -86835,7 +87140,7 @@
         "name": "Wenxuan Yin"
       },
       {
-        "authorId": "2374923878",
+        "authorId": "2388083395",
         "name": "Wenqiang Zhang"
       },
       {
@@ -87225,7 +87530,7 @@
         "name": "J. Pankow"
       }
     ],
-    "abstract": "AbstractWhen found dissolved in ground water, chlorinated hydrocarbon (CHC) solvents such as tetrachloroethylene (PCE) are nearly always encountered at concentrations far below their solubilities. This is true even in cases when it is known or at least strongly suspected that actual liquid solvent is present in the aquifer. In contrast, laboratory studies using columns packed with porous media containing various organic fluids have indicated that when water is forced to flow through a zone containing an immobile organic fluid, saturation concentrations can be achieved rapidly. This study investigated the concentrations and mass removal rates obtainable when simulated ground water is free to flow at least partially around a zone of porous medium that contains solvent in a state of stable, residual saturation. Reductions in the mass removal rate due to reduced permeability in the solvent zone were found to be minimal under the conditions of the experiment. Thus, near the source the plume was essentially the same width as the source zone, and PCE concentrations in the center of the plume were at or near saturation, even at water velocities of 100 cm/day. The fact that CHC aqueous concentrations in ground‐water samples are typically far below saturation is, therefore, likely not due to limited dissolution from the fingers of residual solvent. Probable explanations include the preferential formation of thin pools rather than fingers of CHC, dispersion during transport, and dilution by uncontaminated water in monitoring or pumping wells."
+    "abstract": "Abstract\n                  \n                    When found dissolved in ground water, chlorinated hydrocarbon (CHC) solvents such as tetrachloroethylene (PCE) are nearly always encountered at concentrations far below their solubilities. This is true even in cases when it is known or at least strongly suspected that actual liquid solvent is present in the aquifer. In contrast, laboratory studies using columns packed with porous media containing various organic fluids have indicated that when water is forced to flow\n                    through\n                    a zone containing an immobile organic fluid, saturation concentrations can be achieved rapidly. This study investigated the concentrations and mass removal rates obtainable when simulated ground water is free to flow at least partially\n                    around\n                    a zone of porous medium that contains solvent in a state of stable, residual saturation. Reductions in the mass removal rate due to reduced permeability in the solvent zone were found to be minimal under the conditions of the experiment. Thus, near the source the plume was essentially the same width as the source zone, and PCE concentrations in the center of the plume were at or near saturation, even at water velocities of 100 cm/day. The fact that CHC aqueous concentrations in ground‐water samples are typically far below saturation is, therefore, likely not due to limited dissolution from the fingers of residual solvent. Probable explanations include the preferential formation of thin pools rather than fingers of CHC, dispersion during transport, and dilution by uncontaminated water in monitoring or pumping wells."
   },
   {
     "paperId": "bcde3a491a09715f63c3032c3c312ebdc0993fcf",
@@ -88206,7 +88511,8 @@
       "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12665-024-11683-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12665-024-11683-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
-      "JournalArticle"
+      "JournalArticle",
+      "Review"
     ],
     "authors": [
       {
@@ -88238,7 +88544,7 @@
         "name": "A. Ustra"
       }
     ],
-    "abstract": null
+    "abstract": "Investigating soil and water contamination is essential for assessing environmental risks and monitoring remediation processes. This study, located in São Paulo, Brazil, highlights the presence of chlorinated solvents, especially tetrachloroethylene, with the application of remediation measures such as chemical oxidation. Both contamination and remediation processes have led to changes in geophysical signatures, enabling the use of electrical resistivity, despite challenges in urban areas due to consolidated infrastructure. The objective is to integrate data from direct methods and surveys of electrical resistivity and induced polarization, obtained through direct current and resistive capacitive methods, to refine the conceptual model of the area, delineating the influence zone of the contaminant and remediation processes. The resistive capacitive method allows continuous data acquisition in large areas without the need for electrode insertion into the soil. Geoelectrical data, correlated with soil sample descriptions, allow analysis of subsurface characteristics and areas affected by contamination. Variations in resistivity identify differences between lithologies, while induced polarization highlights clayey areas. Chemical oxidation to remediate PCE contamination increases conductivity, allowing for delineation of the remediation's influence zone. Despite urban challenges, the electrical resistivity method helps fill data gaps and improve the conceptual model of the area, demonstrating a rapid and effective approach."
   },
   {
     "paperId": "bf73bad2bc55035da2f843da98ed5cd9217590c9",
@@ -94167,7 +94473,7 @@
         "name": "Tsong‐Jen Yang"
       }
     ],
-    "abstract": "Monodispersed, agglomerate‐free In2O3 hollow spheres have been prepared via a simple synthetic route involving permeation and anchoring of In3+ ions with carbonyl groups of swollen commercial polymer beads in tetrachloroethylene solvent followed by thermal removal of the template cores in ambient air. The as‐synthesized hollow spheres exhibit a narrow size distribution with tunable particle size (0.5–1.2 μm) and shell thickness (62–230 nm) over the process variables examined, i.e., InCl3 precursor concentration (4.5 × 10−3–6.7 × 10−2 M), reaction temperature (55°C–95°C), and reaction time (1–6 h). Kinetics calculation reveals that the formation of permeating In3+‐rich shell in the swollen template beads becomes energetically less favorable to proceed as the reaction time increases. This limits the maximum shell thickness attainable at the given process variables. The shell is nanoporous with a Horvath‐Kawazoe (HK) pore size of ~3 nm, which remains essentially unchanged as the process variables alter. The In2O3 hollow spheres with an increased Brunauer‐Emmett‐Teller (BET) surface area (up to 329 m2/g) show an improved capability in photodegradation of aqueous methylene blue (MB) dye under UV exposure as well as an increased sensitivity for CO‐gas detection. This metal‐implantation scheme is general and can be extended to the synthesis of other hollow materials in various solvent liquids."
+    "abstract": "Monodispersed, agglomerate‐free\n                    \n                      In\n                    \n                    2\n                    \n                      O\n                    \n                    3\n                    hollow spheres have been prepared via a simple synthetic route involving permeation and anchoring of\n                    \n                      In\n                    \n                    3+\n                    ions with carbonyl groups of swollen commercial polymer beads in tetrachloroethylene solvent followed by thermal removal of the template cores in ambient air. The as‐synthesized hollow spheres exhibit a narrow size distribution with tunable particle size (0.5–1.2 μm) and shell thickness (62–230 nm) over the process variables examined, i.e.,\n                    \n                      InCl\n                    \n                    3\n                    precursor concentration (4.5 × 10\n                    −3\n                    –6.7 × 10\n                    \n                      −\n                      2\n                    \n                     M), reaction temperature (55°C–95°C), and reaction time (1–6 h). Kinetics calculation reveals that the formation of permeating In\n                    3+\n                    ‐rich shell in the swollen template beads becomes energetically less favorable to proceed as the reaction time increases. This limits the maximum shell thickness attainable at the given process variables. The shell is nanoporous with a Horvath‐Kawazoe (\n                    HK\n                    ) pore size of ~3 nm, which remains essentially unchanged as the process variables alter. The\n                    \n                      In\n                    \n                    2\n                    \n                      O\n                    \n                    3\n                    hollow spheres with an increased Brunauer‐Emmett‐Teller (\n                    BET\n                    ) surface area (up to 329 m\n                    2\n                    /g) show an improved capability in photodegradation of aqueous methylene blue (\n                    MB\n                    ) dye under\n                    UV\n                    exposure as well as an increased sensitivity for\n                    CO\n                    ‐gas detection. This metal‐implantation scheme is general and can be extended to the synthesis of other hollow materials in various solvent liquids."
   },
   {
     "paperId": "cb6a2ebfad38b29259492feb118469b65ce66477",
@@ -96140,7 +96446,7 @@
         "name": "P. Roberts"
       }
     ],
-    "abstract": "AbstractFour dense nonaqueous phase liquids (DNAPLs)—bromoform, chlorobenzene, tetrachloroethylene, and trichloro‐ethylene—were used to investigate the influence of viscous, gravitational, and capillary forces on DNAPL saturation in a natural aquifer sand. The relative magnitudes of these forces are expressed in terms of two dimensionless groups, the Capillary Number (NCa), defined as the ratio of the viscous force to capillary force, and the Bond Number (NBo), defined as the ratio of the gravitational force to capillary force.Nondimensionalization of the equations governing two‐phase flow suggests that DNAPL saturation should be a function of a linear combination of the Capillary and Bond Numbers (NCa/krw— NBo), provided the permeability to water (krw) in the presence of discontinuous DNAPL is considered. Experimental studies in which DNAPL saturations were measured over a range of Capillary and Bond Numbers for upward, horizontal, and downward displacement of DNAPL by water corroborate the results of the nondimensionlization. DNAPL saturations generally decreased with increasing Capillary Number and with decreasing Bond Number until NCa/krw— NBo was greater than approximately 1 × 10‐5 at which point residual saturation was attained. For the DNAPLs used in this study, with adhesion tensions on the order of 26 dynes/cm and Bond Numbers ranging from 1.3 × 10‐7 to 2.4 × 10‐6, residual saturation was attained at Capillary Numbers greater than approximately 5 × 10‐5. These results provide a means of estimating the system conditions under which the DNAPLs studied achieve residual saturation in aquifer material."
+    "abstract": "Abstract\n                  \n                    Four dense nonaqueous phase liquids (DNAPLs)—bromoform, chlorobenzene, tetrachloroethylene, and trichloro‐ethylene—were used to investigate the influence of viscous, gravitational, and capillary forces on DNAPL saturation in a natural aquifer sand. The relative magnitudes of these forces are expressed in terms of two dimensionless groups, the Capillary Number (N\n                    Ca\n                    ), defined as the ratio of the viscous force to capillary force, and the Bond Number (N\n                    Bo\n                    ), defined as the ratio of the gravitational force to capillary force.\n                  \n                  \n                    Nondimensionalization of the equations governing two‐phase flow suggests that DNAPL saturation should be a function of a linear combination of the Capillary and Bond Numbers (N\n                    Ca\n                    /k\n                    rw\n                    — N\n                    Bo\n                    ), provided the permeability to water (k\n                    rw\n                    ) in the presence of discontinuous DNAPL is considered. Experimental studies in which DNAPL saturations were measured over a range of Capillary and Bond Numbers for upward, horizontal, and downward displacement of DNAPL by water corroborate the results of the nondimensionlization. DNAPL saturations generally decreased with increasing Capillary Number and with decreasing Bond Number until N\n                    Ca\n                    /k\n                    rw\n                    — N\n                    Bo\n                    was greater than approximately 1 × 10\n                    ‐5\n                    at which point residual saturation was attained. For the DNAPLs used in this study, with adhesion tensions on the order of 26 dynes/cm and Bond Numbers ranging from 1.3 × 10\n                    ‐7\n                    to 2.4 × 10\n                    ‐6\n                    , residual saturation was attained at Capillary Numbers greater than approximately 5 × 10\n                    ‐5\n                    . These results provide a means of estimating the system conditions under which the DNAPLs studied achieve residual saturation in aquifer material."
   },
   {
     "paperId": "cf78a8ebcf698128fbc9092b46af476557928155",
@@ -98703,7 +99009,7 @@
       },
       {
         "authorId": "92649073",
-        "name": "V. Jaliparthi"
+        "name": "Vijayasekhar Jaliparthi"
       }
     ],
     "abstract": "This study employs a sophisticated computational approach to predict tetrachloroethylene's higher overtone vibrational frequencies (C2Cl4) up to the fourth overtone. We utilize a Lie algebraic framework within the context of the vibrational Hamiltonian. The method involves replacing tetrachloroethylene's carbon-chlorine (C-Cl) bonds with unitary Lie algebras. The resulting Hamiltonian is written in terms of Casimir and Majorana's invariant operators and parameters. The derived Hamiltonian operator effectively characterizes the stretching vibrations inherent to the molecular structure. This approach enhances our understanding of the vibrational dynamics of tetrachloroethylene at higher overtones, offering valuable insights for applications in diverse scientific and technological fields."
@@ -101564,7 +101870,7 @@
     "url": "https://www.semanticscholar.org/paper/db3222e353e4b62cdfcf8e67786bc98e37b21711",
     "title": "Journal of Occupational Medicine and Toxicology Solvent Exposure and Malignant Lymphoma: a Population-based Case-control Study in Germany Background",
     "venue": "",
-    "year": 2007,
+    "year": null,
     "openAccessPdf": {
       "url": "",
       "status": null,
@@ -104571,7 +104877,7 @@
         "name": "Haruna Hori"
       }
     ],
-    "abstract": null
+    "abstract": "Gas sensor material, which shows a resistivity change in response to change in concentration of volatile organochlorine compounds, is first developed based on a percolation principle. A composite of organic montmorillonite and carbon shows a reversible resistivity change in response to the concentration change of chloroform, dichloromethane, trichloroethylene, tetrachloroethylene, and tetrachloromethane, because the resistivity of the composite is closely dependent on the volume fraction of the insulating phase and the volume of the insulating phase is increased by incorporation of the organochlorine molecules. The response time is substantially improved by fabricating thick‐film composites using classified organic montmorillonite."
   },
   {
     "paperId": "e24bc062d0169629d0e99c886f4a54b142d58d2c",
@@ -107128,7 +107434,7 @@
         "name": "Mary H. Ward"
       }
     ],
-    "abstract": "Background Pollutants including metals/metalloids, nitrate, disinfection byproducts, and volatile organic compounds contaminate federally regulated community water systems (CWS) and unregulated domestic wells across the United States. Exposures and associated health effects, particularly at levels below regulatory limits, are understudied. Objective We described drinking water sources and exposures for the California Teachers Study (CTS), a prospective cohort of female California teachers and administrators. Methods Participants’ geocoded addresses at enrollment (1995–1996) were linked to CWS service area boundaries and monitoring data (N = 115,206, 92%); we computed average (1990–2015) concentrations of arsenic, uranium, nitrate, gross alpha (GA), five haloacetic acids (HAA5), total trihalomethanes (TTHM), trichloroethylene (TCE), and tetrachloroethylene (PCE). We used generalized linear regression to estimate geometric mean ratios of CWS exposures across demographic subgroups and neighborhood characteristics. Self-reported drinking water source and consumption at follow-up (2017–2019) were also described. Results Medians (interquartile ranges) of average concentrations of all contaminants were below regulatory limits: arsenic: 1.03 (0.54,1.71) µg/L, uranium: 3.48 (1.01,6.18) µg/L, GA: 2.21 (1.32,3.67) pCi/L, nitrate: 0.54 (0.20,1.97) mg/L, HAA5: 8.67 (2.98,14.70) µg/L, and TTHM: 12.86 (4.58,21.95) µg/L. Among those who lived within a CWS boundary and self-reported drinking water information (2017–2019), approximately 74% self-reported their water source as municipal, 15% bottled, 2% private well, 4% other, and 5% did not know/missing. Spatially linked water source was largely consistent with self-reported source at follow-up (2017–2019). Relative to non-Hispanic white participants, average arsenic, uranium, GA, and nitrate concentrations were higher for Black, Hispanic and Native American participants. Relative to participants living in census block groups in the lowest socioeconomic status (SES) quartile, participants in higher SES quartiles had lower arsenic/uranium/GA/nitrate, and higher HAA5/TTHM. Non-metropolitan participants had higher arsenic/uranium/nitrate, and metropolitan participants had higher HAA5/TTHM. Impact Though average water contaminant levels were mostly below regulatory limits in this large cohort of California women, we observed heterogeneity in exposures across sociodemographic subgroups and neighborhood characteristics. These data will be used to support future assessments of drinking water exposures and disease risk."
+    "abstract": "Pollutants including metals/metalloids, nitrate, disinfection byproducts, and volatile organic compounds contaminate federally regulated community water systems (CWS) and unregulated domestic wells across the United States. Exposures and associated health effects, particularly at levels below regulatory limits, are understudied. We described drinking water sources and exposures for the California Teachers Study (CTS), a prospective cohort of female California teachers and administrators. Participants’ geocoded addresses at enrollment (1995–1996) were linked to CWS service area boundaries and monitoring data (N = 115,206, 92%); we computed average (1990–2015) concentrations of arsenic, uranium, nitrate, gross alpha (GA), five haloacetic acids (HAA5), total trihalomethanes (TTHM), trichloroethylene (TCE), and tetrachloroethylene (PCE). We used generalized linear regression to estimate geometric mean ratios of CWS exposures across demographic subgroups and neighborhood characteristics. Self-reported drinking water source and consumption at follow-up (2017–2019) were also described. Medians (interquartile ranges) of average concentrations of all contaminants were below regulatory limits: arsenic: 1.03 (0.54,1.71) µg/L, uranium: 3.48 (1.01,6.18) µg/L, GA: 2.21 (1.32,3.67) pCi/L, nitrate: 0.54 (0.20,1.97) mg/L, HAA5: 8.67 (2.98,14.70) µg/L, and TTHM: 12.86 (4.58,21.95) µg/L. Among those who lived within a CWS boundary and self-reported drinking water information (2017–2019), approximately 74% self-reported their water source as municipal, 15% bottled, 2% private well, 4% other, and 5% did not know/missing. Spatially linked water source was largely consistent with self-reported source at follow-up (2017–2019). Relative to non-Hispanic white participants, average arsenic, uranium, GA, and nitrate concentrations were higher for Black, Hispanic and Native American participants. Relative to participants living in census block groups in the lowest socioeconomic status (SES) quartile, participants in higher SES quartiles had lower arsenic/uranium/GA/nitrate, and higher HAA5/TTHM. Non-metropolitan participants had higher arsenic/uranium/nitrate, and metropolitan participants had higher HAA5/TTHM. Though average water contaminant levels were mostly below regulatory limits in this large cohort of California women, we observed heterogeneity in exposures across sociodemographic subgroups and neighborhood characteristics. These data will be used to support future assessments of drinking water exposures and disease risk."
   },
   {
     "paperId": "e88110236bdbc3d36d2e4d4c3b92c9de72f72efc",
@@ -109637,7 +109943,7 @@
         "name": "Y. Won"
       }
     ],
-    "abstract": "Tetrachloroethylene (C2Cl4) was used as a model of highly chlorinated carbon to investigate the thermal decomposition process of chlorocarbons in pyrolytic reaction environment. The pyrolytic reaction of tetrachloroethylene has been conducted in an isothermal tubular flow reactor at 1atm. total pressure with reaction temperatures 600–850°C between 0.3 and 2.0s under excess H2 reaction atmosphere. Complete decay (99%) of the parent reagent was observed at temperature near 850°C with 1s reaction time. Major products observed were C2HCl3, C2H2Cl2, C2H3Cl and HCl at below 775°C. The number and quantity of chlorinated products decrease with increasing temperature. Formation of non-chlorinated hydrocarbons, C2H4, C2H6, CH4 and C2H2 increases as the temperature increases above 800°C. The poor carbon mass balances (<50%) were given over a wide temperature range, although the decomposition rate of C2Cl4 increases rapidly at higher temperature. They are as expected due to formation of high molecular weight compounds, highly chlorinated species and soot which were not detected by GC analysis of this work quantitatively. The important pyrolytic reaction pathways to describe the important features of reagent decay, intermediate product distributions and carbon mass balances, based upon thermodynamic and kinetic principles, were suggested. The main reaction pathways for formation of major products along with preliminary activation energies and rate constants were given."
+    "abstract": null
   },
   {
     "paperId": "ed16b5cb99cf1a183fbbcef1157a5aff647637ec",
@@ -113794,52 +114100,6 @@
     "abstract": null
   },
   {
-    "paperId": "f521e80502f15a000cb82c81c41d6cf537715149",
-    "externalIds": {
-      "MAG": "2117050166",
-      "DOI": "10.5194/ACP-5-1963-2005",
-      "CorpusId": 12952200
-    },
-    "url": "https://www.semanticscholar.org/paper/f521e80502f15a000cb82c81c41d6cf537715149",
-    "title": "Sources and sinks of acetone, methanol, and acetaldehyde in North Atlantic marine air",
-    "venue": "",
-    "year": 2005,
-    "openAccessPdf": {
-      "url": "https://acp.copernicus.org/articles/5/1963/2005/acp-5-1963-2005.pdf",
-      "status": "GOLD",
-      "license": "CCBYNCSA",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/ACP-5-1963-2005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/ACP-5-1963-2005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": null,
-    "authors": [
-      {
-        "authorId": "2245353815",
-        "name": "A. C. Lewis"
-      },
-      {
-        "authorId": "145844052",
-        "name": "J. Hopkins"
-      },
-      {
-        "authorId": "2247439336",
-        "name": "L. J. Carpenter"
-      },
-      {
-        "authorId": "123316096",
-        "name": "J. Stanton"
-      },
-      {
-        "authorId": "152472841",
-        "name": "K. Read"
-      },
-      {
-        "authorId": "1731434",
-        "name": "M. Pilling"
-      }
-    ],
-    "abstract": "Abstract. Measurements of acetone, methanol, acetaldehyde and a range of non-methane hydrocarbons have been made in North Atlantic marine air at the Mace Head observatory. Under maritime conditions the combination of OVOCs (acetone, methanol and acetaldehyde) contributed up to 85% of the total mass of measured non methane organics in air and up to 80% of the OH radical organic sink, when compared with the sum of all other organic compounds including non-methane hydrocarbons, DMS and OH-reactive halocarbons (trichloromethane and tetrachloroethylene). The observations showed anomalies in the variance and abundance of acetaldehyde and acetone over that expected for species with a remote terrestrial emission source and OH controlled chemical lifetime. A detailed model incorporating an explicit chemical degradation mechanism indicated in situ formation during air mass transport was on timescales longer than the atmospheric lifetime of precursor hydrocarbons or primary emission. The period over which this process was significant was similar to that of airmass motion on intercontinental scales, and formation via this route may reproduce that of a widespread diffuse source. The model indicates that continued short chain OVOC formation occurs many days from the point of emission, via longer lived intermediates of oxidation such as organic peroxides and long chain alcohols."
-  },
-  {
     "paperId": "f523a3d0ee43122b279e10e6ae1428a0baee5fe4",
     "externalIds": {
       "MAG": "2349843982",
@@ -115000,7 +115260,7 @@
         "name": "J. Cherry"
       }
     ],
-    "abstract": "AbstractAt three industrial sites in Ontario, New Hampshire, and Florida, tetrachloroethylene (PCE) and trichloroethylene (TCE), released decades ago as dense nonaqueous phase liquids (DNAPLs), now form persistent source zones for dissolved contaminant plumes. These zones are suspended below the water table and above the bottoms of their respective, moderately homogeneous, unconfined sandy aquifers. Exceptionally detailed, depth‐discrete, ground water sampling was performed using a direct‐push sampler along cross sections of the dissolved‐phase plumes, immediately downgradient of these DNAPL source zones. The total plume PCE or TCE mass‐discharge through each cross section ranged between 15 and 31 kg/year. Vertical ground water sample spacing as small as 15 cm and lateral spacing typically between 1 and 3 m revealed small zones where maximum concentrations were between 1% and 61% of solubility. These local maxima are surrounded by much lower concentration zones. A spacing no larger than 15 to 30 cm was needed at some locations to identify high concentration zones, and aqueous VOC concentrations varied as much as four orders of magnitude across 30 cm vertical intervals. High‐resolution sampling at these sites showed that three‐quarters of the mass‐discharge occurs within 5% to 10% of the plume cross sectional areas. The extreme spatial variability of the mass‐discharge occurs even though the sand aquifers are nearly hydraulically homogeneous. Depth‐discrete field techniques such as those used in this study are essential for finding the small zones producing most of the mass‐discharge, which is important for assessing natural attenuation and designing remedial options."
+    "abstract": "Abstract\n                  At three industrial sites in Ontario, New Hampshire, and Florida, tetrachloroethylene (PCE) and trichloroethylene (TCE), released decades ago as dense nonaqueous phase liquids (DNAPLs), now form persistent source zones for dissolved contaminant plumes. These zones are suspended below the water table and above the bottoms of their respective, moderately homogeneous, unconfined sandy aquifers. Exceptionally detailed, depth‐discrete, ground water sampling was performed using a direct‐push sampler along cross sections of the dissolved‐phase plumes, immediately downgradient of these DNAPL source zones. The total plume PCE or TCE mass‐discharge through each cross section ranged between 15 and 31 kg/year. Vertical ground water sample spacing as small as 15 cm and lateral spacing typically between 1 and 3 m revealed small zones where maximum concentrations were between 1% and 61% of solubility. These local maxima are surrounded by much lower concentration zones. A spacing no larger than 15 to 30 cm was needed at some locations to identify high concentration zones, and aqueous VOC concentrations varied as much as four orders of magnitude across 30 cm vertical intervals. High‐resolution sampling at these sites showed that three‐quarters of the mass‐discharge occurs within 5% to 10% of the plume cross sectional areas. The extreme spatial variability of the mass‐discharge occurs even though the sand aquifers are nearly hydraulically homogeneous. Depth‐discrete field techniques such as those used in this study are essential for finding the small zones producing most of the mass‐discharge, which is important for assessing natural attenuation and designing remedial options."
   },
   {
     "paperId": "f7d952ad705ceeae6f2fde51fd4cc7032859063c",
@@ -116148,7 +116408,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/fa973db90e02cfc34cf2dba758c9b5f582422c34",
     "title": "Camp Lejeune Marine Cancer Risk Assessment for Exposure to Contaminated Drinking Water From 1955 to 1987",
-    "venue": "Water, Air, &amp; Soil Pollution",
+    "venue": "Water, Air and Soil Pollution",
     "year": 2024,
     "openAccessPdf": {
       "url": "https://link.springer.com/content/pdf/10.1007/s11270-023-06863-y.pdf",

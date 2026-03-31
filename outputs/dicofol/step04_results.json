@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Impact of Bifenthrin on Yellow Mite in Pepper Plants under Field Conditions at Wadi Al-Mollak, East Delta, Egypt",
+    "doi": "10.21608/asejaiqjsae.2022.220640",
+    "year": 2022,
+    "target": "dicofol",
+    "reasoning": "The abstract compares bifenthrin and dicofol in terms of toxicity to predatory mites and reports that dicofol was highly toxic to Amblyseius ovalis compared to bifenthrin treatments. It states that bifenthrin was found to be relatively safer than dicofol, indicating a safety advantage.",
+    "alternatives": "bifenthrin",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity to predatory mites (Amblyseius ovalis)",
+        "longer residue persistence compared to bifenthrin"
+      ],
+      "rationale": "The text explicitly states that dicofol caused a high reduction (around 50%) in predatory mite populations and was highly toxic to Amblyseius ovalis compared to bifenthrin. It also mentions that dicofol residues are likely longer lasting than bifenthrin, implying persistence."
+    },
+    "CHEMICAL HARM": "high toxicity to predatory mites (Amblyseius ovalis), longer residue persistence compared to bifenthrin"
+  }
+]

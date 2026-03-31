@@ -7,34 +7,24 @@ from pathlib import Path
 from typing import List, Dict, Any
 import subprocess
 from tqdm import tqdm
+from pathlib import Path
 
 # Configuration file path
-CONFIG_FILE = "api_config.json"
+from config_loader import get_config
 
-def load_config():
-    """Load API keys and settings from config file."""
-    try:
-        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        return config
-    except FileNotFoundError:      
-        print(f"[ERROR] Configuration file '{CONFIG_FILE}' not found!")
-        print("Please create the config file with your API keys.")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse config file: {e}")
-        exit(1)
+# Load configuration (.env first, fallback to api_config.json)
+CONFIG = get_config()
 
-# Load configuration
-CONFIG = load_config()
+# Get the directory where this script is located
+SCRIPT_DIR = Path(__file__).parent.resolve()
 
 # Configuration
-INPUT_CSV = "12_chemical_test.csv"  # 包含 26筆化合物資料的 CSV 檔
-OUTPUT_BASE_DIR = Path("outputs")
+INPUT_CSV = SCRIPT_DIR / "chemicals_test.csv"  # 包含 26筆化合物資料的 CSV 檔
+OUTPUT_BASE_DIR = SCRIPT_DIR / "outputs"
 COMPOUND_COLUMN = "name"  # CSV 中化合物名稱的欄位名
 
 # Pipeline steps configuration 
-STEP  = {
+STEP  = { 
     "step01": {
         "script": "step01.py",
         "output_file": "step01_results.json",
@@ -63,6 +53,7 @@ class PipelineController:
     def __init__(self, input_csv: str, output_base_dir: Path):
         self.input_csv = input_csv
         self.output_base_dir = output_base_dir
+        self.cid_map: Dict[str, str] = {}
         self.compounds = self.load_compounds()
         self.setup_logging()
         
@@ -72,17 +63,36 @@ class PipelineController:
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler('pipeline.log'),
+                logging.FileHandler(SCRIPT_DIR / 'pipeline.log'),
                 logging.StreamHandler(sys.stdout)
             ]
         )
         self.logger = logging.getLogger(__name__)
     
     def load_compounds(self) -> List[str]:
-        """Load compound names from CSV file."""
+        """Load compound names (and optional CID) from CSV file.
+
+        Expects a column named by COMPOUND_COLUMN (default 'name'). If a 'cid' or 'CID'
+        column exists, it is stored in self.cid_map keyed by compound name (string).
+        """
         try:
             df = pd.read_csv(self.input_csv)
             compounds = df[COMPOUND_COLUMN].tolist()
+            # Build CID mapping if present
+            cid_col = None
+            for c in df.columns:
+                if str(c).lower() == 'cid':
+                    cid_col = c
+                    break
+            if cid_col is not None:
+                try:
+                    self.cid_map = {
+                        str(row[COMPOUND_COLUMN]): str(row[cid_col])
+                        for _, row in df.iterrows()
+                        if pd.notna(row.get(COMPOUND_COLUMN)) and pd.notna(row.get(cid_col))
+                    }
+                except Exception:
+                    self.cid_map = {}
             print(f"Loaded {len(compounds)} compounds: {compounds}")
             return compounds
         except Exception as e:
@@ -95,6 +105,92 @@ class PipelineController:
         compound_dir.mkdir(parents=True, exist_ok=True)
         return compound_dir
     
+    def check_step03_has_alternatives(self, compound_dir: Path) -> bool:
+        """Check if step03 found any alternatives (alternatives provided = 'yes')."""
+        step03_file = compound_dir / "step03_results.json"
+        if not step03_file.exists():
+            self.logger.warning(f"Step03 results file not found: {step03_file}")
+            return False
+        
+        try:
+            with open(step03_file, 'r', encoding='utf-8') as f:
+                results = json.load(f)
+            
+            # Count papers with alternatives provided = 'yes'
+            alternatives_count = sum(
+                1 for result in results 
+                if isinstance(result, dict) and 
+                result.get("alternatives provided", "").lower() == "yes"
+            )
+            
+            total_papers = len(results)
+            self.logger.info(f"Step03 results: {alternatives_count}/{total_papers} papers have alternatives")
+            
+            # Return True if at least one paper has alternatives
+            return alternatives_count > 0
+            
+        except Exception as e:
+            self.logger.error(f"Error reading step03 results: {e}")
+            return False
+    
+    def recursive_step03_search(self, compound: str, compound_dir: Path, current_years: int) -> bool:
+        """Recursively search for alternatives by extending time range."""
+        # Get configuration parameters
+        years_extension = CONFIG.get("default_settings", {}).get("years_extension", 10)
+        max_search_years = CONFIG.get("default_settings", {}).get("max_search_years", 30)
+        
+        self.logger.info(f"Searching for alternatives in last {current_years} years for {compound}")
+        
+        # Run step03 with current time range
+        success = self.run_step03(compound, compound_dir, years_back=current_years)
+        if not success:
+            self.logger.warning(f"Step03 execution failed for {compound} with {current_years} years")
+            return False
+        
+        # Check if alternatives were found
+        has_alternatives = self.check_step03_has_alternatives(compound_dir)
+        
+        if has_alternatives:
+            self.logger.info(f"Found alternatives for {compound} within {current_years} years")
+            return True
+        
+        # If no alternatives found and we haven't reached the limit, try extending
+        if current_years < max_search_years:
+            next_years = min(current_years + years_extension, max_search_years)
+            
+            self.logger.info(f"No alternatives found in {current_years} years. Extending search to {next_years} years...")
+            
+            # Backup current results before trying extended search
+            original_step03_file = compound_dir / "step03_results.json"
+            backup_step03_file = compound_dir / f"step03_results_backup_{current_years}y.json"
+            if original_step03_file.exists():
+                import shutil
+                shutil.copy2(original_step03_file, backup_step03_file)
+            
+            # Recursively try with extended time range
+            return self.recursive_step03_search(compound, compound_dir, next_years)
+        else:
+            self.logger.info(f"Reached maximum search range of {max_search_years} years for {compound}. No alternatives found.")
+            # 覆蓋 step03_results.json 寫入 no paper found
+            step03_file = compound_dir / "step03_results.json"
+            with open(step03_file, "w", encoding="utf-8") as f:
+                json.dump({"no paper found": True}, f, ensure_ascii=False, indent=2)
+            
+            # 在 final_output 資料夾創建以日期_cid命名的檔案
+            cid_val = self.cid_map.get(compound)
+            if cid_val:
+                from datetime import datetime
+                date_str = datetime.now().strftime("%Y%m%d")
+                final_output_dir = SCRIPT_DIR / "final_output"
+                final_output_dir.mkdir(parents=True, exist_ok=True)
+                final_output_file = final_output_dir / f"{date_str}_{cid_val}.json"
+                
+                with open(final_output_file, "w", encoding="utf-8") as f:
+                    json.dump({"no paper found": True}, f, ensure_ascii=False, indent=2)
+                self.logger.info(f"Created no paper found file: {final_output_file}")
+            
+            return False
+          
     def run_step_with_progress(self, step_name: str, command_args: List[str], 
                              description: str, compound: str) -> bool:
         """Run a step and show real-time output."""
@@ -140,11 +236,15 @@ class PipelineController:
         print(f"Step 01: Fetching papers for {compound}")
         print(f"{'='*60}")
         
+        # Use max_search_years for step01 year_range to ensure enough papers for step03 expansion
+        max_search_years = CONFIG.get("default_settings", {}).get("max_search_years", 30)
+        
         command_args = [
-            sys.executable, "step01.py",
+            sys.executable, str(SCRIPT_DIR / "step01.py"),
             "--keyword", compound,
             "--output_dir", str(compound_dir),
-            "--output_file", "step01_results.json"
+            "--output_file", "step01_results.json",
+            "--year_range", str(max_search_years)
         ]
         
         return self.run_step_with_progress("Step 01", command_args, "Fetching papers", compound)
@@ -161,7 +261,7 @@ class PipelineController:
             return False
         
         command_args = [
-            sys.executable, "step02.py",
+            sys.executable, str(SCRIPT_DIR / "step02.py"),
             "--input_file", str(input_file),
             "--output_file", str(compound_dir / "step02_results.json")
         ]
@@ -172,7 +272,7 @@ class PipelineController:
         
         return self.run_step_with_progress("Step 02", command_args, "Fetching abstracts", compound)
     
-    def run_step03(self, compound: str, compound_dir: Path) -> bool:
+    def run_step03(self, compound: str, compound_dir: Path, years_back: int = None) -> bool:
         """Run step 03: Reasoning analysis."""
         print(f"\n{'='*60}")
         print(f"Step 03: Analyzing alternatives for {compound}")
@@ -184,7 +284,7 @@ class PipelineController:
             return False
         
         command_args = [
-            sys.executable, "step03.py",
+            sys.executable, str(SCRIPT_DIR / "step03.py"),
             "--input_file", str(input_file),
             "--output_file", str(compound_dir / "step03_results.json"),
             "--target", compound
@@ -202,6 +302,13 @@ class PipelineController:
         step03_workers = CONFIG.get("default_settings", {}).get("step03_workers")
         if isinstance(step03_workers, int) and step03_workers > 0:
             command_args += ["--workers", str(step03_workers)]
+        step03_download_pdf = CONFIG.get("default_settings", {}).get("step03_download_pdf")
+        if isinstance(step03_download_pdf, bool):
+            command_args += ["--download_pdf" if step03_download_pdf else "--no-download_pdf"]
+        
+        # Add years_back parameter if specified
+        if years_back is not None:
+            command_args += ["--years_back", str(years_back)]
         
         return self.run_step_with_progress("Step 03", command_args, "Analyzing alternatives", compound)
     
@@ -217,16 +324,24 @@ class PipelineController:
             return False
         
         command_args = [
-            sys.executable, "step04.py",
+            sys.executable, str(SCRIPT_DIR / "step04.py"),
             "--input_file", str(input_file),
             "--output_file", str(compound_dir / "step04_results.json"),
             "--target", compound
         ]
+        # Optional: drop empty alternatives as per config
+        step04_drop_empty = CONFIG.get("default_settings", {}).get("step04_drop_empty")
+        if isinstance(step04_drop_empty, bool) and step04_drop_empty:
+            command_args += ["--drop_empty"]
+        # If CID available, pass through along with final output directory
+        cid_val = self.cid_map.get(compound)
+        if cid_val:
+            command_args += ["--cid", str(cid_val), "--final_dir", str(SCRIPT_DIR / "final_output")]
         
         return self.run_step_with_progress("Step 04", command_args, "Extracting alternatives", compound)
     
     def run_pipeline_for_compound(self, compound: str, compound_progress: tqdm) -> Dict[str, bool]:
-        """Run complete pipeline for a single compound."""
+        """Run complete pipeline for a single compound with dynamic time range retry."""
         print(f"\n{'#'*80}")
         print(f"Starting pipeline for compound: {compound}")
         print(f"{'#'*80}")
@@ -251,9 +366,12 @@ class PipelineController:
             self.logger.warning(f"Step 02 failed for {compound}, skipping remaining steps")
             compound_progress.update(1)
             return step_results
-        
-        step_results["step03"] = self.run_step03(compound, compound_dir)
+         
+        # Use recursive search for step03
+        default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
+        step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
         compound_progress.set_description(f"{compound} - Step 3 completed")
+        
         if not step_results["step03"]:
             self.logger.warning(f"Step 03 failed for {compound}, skipping remaining steps")
             compound_progress.update(1)
@@ -271,7 +389,16 @@ class PipelineController:
         print(f"\n{'*'*80}")
         print("STARTING FULL PIPELINE FOR ALL COMPOUNDS")
         print(f"Total compounds: {len(self.compounds)}")
-        print(f"Using API keys from: {CONFIG_FILE}")
+        # Indicate config source for clarity (.env preferred)
+        env_path = Path(".env")
+        api_json = Path("api_config.json")
+        if env_path.exists():
+            cfg_src = ".env"
+        elif api_json.exists():
+            cfg_src = "api_config.json"
+        else:
+            cfg_src = "environment variables"
+        print(f"Using configuration from: {cfg_src}")
         print(f"{'*'*80}")
         
         # Validate API keys
@@ -357,10 +484,10 @@ def main():
             if all_success:
                 successful_compounds += 1
             
-            status = "✅ COMPLETE" if all_success else "⚠️  PARTIAL"
+            status = " COMPLETE" if all_success else "  PARTIAL"
             print(f"{compound:20} | {success_count:2d}/{total_steps} steps | {status}")
         else:
-            print(f"{compound:20} | 0/4 steps | ❌ FAILED")
+            print(f"{compound:20} | 0/4 steps |  FAILED")
     
     print(f"{'='*80}")
     print(f"Successfully completed: {successful_compounds}/{total_compounds} compounds")

@@ -1,0 +1,161 @@
+[
+  {
+    "title": "A modified quick, easy, cheap, effective, rugged and safe method with hydrophobic natural deep eutectic solvent as extractant and analyte protectant for analyzing pyrethroid residues in tomatoes.",
+    "doi": "10.1002/jssc.202000547",
+    "year": 2020,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that the hydrophobic natural deep eutectic solvent, specifically menthol: decanoic acid (1:1), could be a green substitute for acetonitrile in extraction. It highlights safety and environmental benefits by describing the method as 'green' and 'safe,' indicating a safer alternative to acetonitrile.",
+    "alternatives": "menthol: decanoic acid (1:1)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only discusses the use of hydrophobic natural deep eutectic solvents as a green substitute for acetonitrile in extraction methods."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Carbons, Ionic Liquids, and Quinones for Electrochemical Capacitors",
+    "doi": "10.3389/fmats.2016.00018",
+    "year": 2016,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that ionic liquids have been explored as promising alternatives to current state of the art acetonitrile-based electrolytes and highlights that ionic liquids are attractive in terms of safety and sustainability, indicating a safety advantage over acetonitrile.",
+    "alternatives": "ionic liquids",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Acetonitrile. It discusses the use of acetonitrile-based electrolytes in electrochemical capacitors and compares them to ionic liquids in terms of safety and sustainability, but does not specify any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "HPLC Determination of Imidazoles with Variant Anti-Infective Activity in Their Dosage Forms and Human Plasma",
+    "doi": "10.3390/molecules26010129",
+    "year": 2020,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that methanol is used as an environmentally benign solvent over acetonitrile with respect to safety issues, indicating methanol as a safer alternative to acetonitrile in the mobile phase for HPLC.",
+    "alternatives": "methanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only mentions that methanol is considered more environmentally benign than acetonitrile in terms of safety issues, but no specific harms or hazards of acetonitrile are detailed."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Out with Acetonitrile: Water-assisted Accelerated-Aging Synthesis of CuI-Pyrazine Hybrid Materials",
+    "doi": "10.26434/chemrxiv-2021-1jz4m",
+    "year": 2021,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract describes a green synthetic method using water and no organic solvents to prepare CuI-pyrazine hybrid materials, explicitly stating the absence of organic solvents like Acetonitrile. This implies a safer alternative due to the elimination of Acetonitrile, a commonly used but hazardous organic solvent.",
+    "alternatives": "water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Acetonitrile."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green Solvent γ-Valerolactone (GVL) Facilitates Photocatalytic C-H Bond Activation.",
+    "doi": "10.1002/anie.202409826",
+    "year": 2024,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that common photocatalysis solvents like acetonitrile pose serious safety and environmental concerns and introduces γ-valerolactone (GVL) as a novel and safe green solvent that enhances photocatalytic performance. This clearly indicates GVL as a safer alternative to acetonitrile.",
+    "alternatives": "γ-valerolactone (GVL)",
+    "target_chemical_harm": {
+      "harms": [
+        "serious safety concerns",
+        "serious environmental concerns"
+      ],
+      "rationale": "The reasoning text explicitly states that common photocatalysis solvents like acetonitrile (ACN) pose serious safety and environmental concerns."
+    },
+    "CHEMICAL HARM": "serious safety concerns, serious environmental concerns"
+  },
+  {
+    "title": "Analytical Quality by Design Enabled Green RP‐HPLC Method Development and Validation for the Simultaneous Quantitation of the Cleaning Residues of Osimertinib, Binimetinib, and Erdafitinib: An Approach to Prevent the Cross‐Contamination in Shared Facilities of Pharmaceutical Manufacturing",
+    "doi": "10.1002/sscp.70102",
+    "year": 2025,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that acetonitrile was replaced with methanol as a green solvent to reduce environmental impact, indicating a safety advantage. This replacement is presented in the context of developing a greener, more environmentally friendly method, which reasonably implies methanol as a safer alternative to acetonitrile.",
+    "alternatives": "methanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It focuses on the development and validation of an analytical method, replacement of acetonitrile with methanol to reduce environmental impact, and assessment of cross-contamination risks, but does not mention toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "On the Stability of Permanent Electrochemical Doping of Quantum Dot, Fullerene, and Conductive Polymer Films in Frozen Electrolytes for Use in Semiconductor Devices",
+    "doi": "10.1021/acsanm.9b00863",
+    "year": 2019,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly compares poly(ethylene glycol) (PEG) to acetonitrile and states that PEG increases room temperature charge stability by several orders of magnitude compared to acetonitrile. This indicates a clear advantage related to stability, which can be reasonably interpreted as a safer alternative in the context of electrochemical doping solvents. The abstract highlights PEG as a solvent that improves charge stability and immobilizes electrolyte ions, implying better control and potentially safer handling than acetonitrile.",
+    "alternatives": "poly(ethylene glycol) (PEG)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only discusses the use of acetonitrile as a solvent in electrochemical doping and compares its performance to other solvents without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Validation of An HPLC Method for the Determination of Some Β-Lactams Antibiotics Using A Green Analytical Technique",
+    "doi": "10.22146/ijp.8161",
+    "year": 2024,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that ethanol was used as a green replacement for methanol and acetonitrile, which are common solvents in chromatographic procedures. This indicates that ethanol is presented as a safer alternative to acetonitrile in the context of green analytical chemistry.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile; it only mentions acetonitrile as a common solvent being replaced by ethanol for greener analytical methods."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Two New HPLC Methods, Assessed by GAPI, for Simultaneous Determination of Four Antipsychotics in Pharmaceutical Formulations: A Comparative Study",
+    "doi": "10.3390/separations9080220",
+    "year": 2022,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly mentions that green solvents such as ethanol are being used in HPLC as an alternative to acetonitrile and that one of the developed methods using such green solvents was found to be green and ecofriendly, indicating a safety advantage over acetonitrile.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only mentions that acetonitrile is used as a solvent in chromatography and that green solvents like ethanol are alternatives, with one method having some environmental hazards but without specifying those hazards for acetonitrile."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "An Improved Procedure for the Synthesis of Amantadine Hydrochloride",
+    "doi": "10.1080/00304948.2022.2027202",
+    "year": 2022,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that adopting formamide instead of acetonitrile results in a high yield and easier hydrolysis under mild conditions, and that this change helps decrease environmental pollution. This indicates formamide is presented as a safer alternative to acetonitrile.",
+    "alternatives": "formamide",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only mentions that adopting formamide instead of acetonitrile results in a high yield and easier hydrolysis, and discusses safety and environmental concerns related to other chemicals and solvents, but not acetonitrile itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A validated eco-friendly, operation-safe, and cost-effective RP-HPLC method for the determination of dodine in their pesticide dosage forms using ethanol:water as mobile phase",
+    "doi": "10.1080/03067319.2022.2144270",
+    "year": 2022,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract explicitly states that ethanol was used to replace the more hazardous acetonitrile and methanol, describing ethanol as a safe and eco-friendly solvent. It highlights safety advantages such as the use of safe solvents, minimal waste production, and eco-friendliness, indicating ethanol as a safer alternative to acetonitrile.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to acetonitrile. It only mentions that acetonitrile is considered more hazardous compared to ethanol, which is used as a safer alternative, but no specific harms or hazards are detailed."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Heterogeneously Catalyzed Synthesis of Imidazolones via Cycloisomerizations of Propargylic Ureas Using Ag and Au/Al SBA-15 Systems",
+    "doi": "10.1021/ACSSUSCHEMENG.9B00198",
+    "year": 2019,
+    "target": "Acetonitrile",
+    "reasoning": "The abstract mentions replacing a range of solvents by the greener ethanol after initially using toluene and acetonitrile. It explicitly states ethanol as a greener solvent, implying a safety advantage over acetonitrile. Therefore, ethanol is presented as a safer alternative to acetonitrile.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that some chemicals used in synthesis are toxic and hazardous, but it does not explicitly state any harms or hazards specifically associated with acetonitrile."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

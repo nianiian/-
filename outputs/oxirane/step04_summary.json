@@ -1,0 +1,109 @@
+{
+  "target": "oxirane",
+  "total_records": 5,
+  "statistics": {
+    "extracted": 1,
+    "partial_data": 0,
+    "partial_with_calculation": 0,
+    "insufficient_data": 0,
+    "not_found": 0,
+    "irrelevant": 4
+  },
+  "records_with_dosage": [
+    {
+      "title": "Studi Perbandingan Sifat Mekanis Vulkanisat Karet Menggunakan Plasticizer Minyak",
+      "doi": "10.26760/jrh.v7i2.138-151",
+      "alternative": [
+        "epoxy waste cooking oil"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "depletion of petroleum raw materials and environmental issues caused by petroleum plasticizers",
+        "traditional_material_replaced": "petroleum-based plasticizers (e.g., paraffinic oil)",
+        "alternative_solution": "epoxy waste cooking oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "minyak jelantah epoksi",
+          "value": "5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used as a plasticizer in rubber compounds"
+        },
+        {
+          "material": "n-heksana",
+          "value": "20 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "used as a solvent in the epoxidation process"
+        },
+        {
+          "material": "asam asetat glasial",
+          "value": "15.5 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Section 2.1",
+          "context": "used as a catalyst in the epoxidation process"
+        },
+        {
+          "material": "resin amberlit IR-120",
+          "value": "3.15 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "used as a catalyst in the epoxidation process"
+        },
+        {
+          "material": "hidrogen peroksida",
+          "value": "56 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Section 2.1",
+          "context": "used as an oxygen donor in the epoxidation process"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "4 h",
+          "evidence_location": "Section 2.1",
+          "context": "duration of the epoxidation process"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "60 °C",
+          "evidence_location": "Section 2.1",
+          "context": "temperature maintained during the epoxidation process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "oxirane_number",
+          "value": "2.24%",
+          "evidence_location": "Section 3.1",
+          "context": "measured using titration method"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "tensile_strength",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        },
+        {
+          "metric_name": "tear_strength",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        },
+        {
+          "metric_name": "scrape_resistance",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,48 +1,54 @@
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+import httpx
 from tqdm import tqdm
 
 # Configuration file path
-CONFIG_FILE = "api_config.json"
+from config_loader import get_config
 
-def load_config():
-    """Load API keys and settings from config file."""
-    try:
-        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        return config
-    except FileNotFoundError:
-        print(f"[ERROR] Configuration file '{CONFIG_FILE}' not found!")
-        print("Please create the config file with your API keys.")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse config file: {e}")
-        exit(1)
-
-# Load configuration
-CONFIG = load_config()
+# Load configuration (.env first, fallback to api_config.json)
+CONFIG = get_config()
 ELSEVIER_API_KEY = CONFIG.get("elsevier_api_key", "")
+S2_API_KEY = CONFIG.get("semantic_scholar_api_key", "")
 
 if not ELSEVIER_API_KEY:
-    print("[ERROR] Elsevier API key not found in config file!")
-    exit(1)
+    print("[WARNING] Elsevier API key not found - will use other sources")
 
-def fetch_abstract_from_elsevier(doi, session: requests.Session, api_key=ELSEVIER_API_KEY):
-    """Fetch abstract from Elsevier API using provided session."""
+def fetch_abstract_from_semantic_scholar(doi: str, client: httpx.Client) -> str | None:
+    """Fetch abstract from Semantic Scholar API (fastest, best coverage)."""
+    url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}"
+    params = {"fields": "abstract"}
+    headers = {"User-Agent": "ResearchPipeline/1.0"}
+    if S2_API_KEY:
+        headers["x-api-key"] = S2_API_KEY
+    try:
+        response = client.get(url, params=params, headers=headers, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            abstract = data.get("abstract")
+            if abstract:
+                return abstract.strip()
+    except Exception:
+        pass
+    return None
+
+
+def fetch_abstract_from_elsevier(doi: str, client: httpx.Client, api_key: str = ELSEVIER_API_KEY) -> str | None:
+    """Fetch abstract from Elsevier API using httpx client."""
+    if not api_key:
+        return None
     url = f"https://api.elsevier.com/content/article/doi/{doi}"
     headers = {
         "Accept": "application/json",
         "X-ELS-APIKey": api_key
     }
     try:
-        response = session.get(url, headers=headers, timeout=10)
+        response = client.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         data = response.json()
         abstract = data.get("full-text-retrieval-response", {}).get("coredata", {}).get("dc:description", None)
@@ -50,11 +56,12 @@ def fetch_abstract_from_elsevier(doi, session: requests.Session, api_key=ELSEVIE
     except Exception:
         return None
 
-def fetch_abstract_from_crossref(doi, session: requests.Session):
-    """Fetch abstract from Crossref API using provided session."""
+
+def fetch_abstract_from_crossref(doi: str, client: httpx.Client) -> str | None:
+    """Fetch abstract from Crossref API using httpx client."""
     url = f"https://api.crossref.org/works/{doi}"
     try:
-        response = session.get(url, timeout=10)
+        response = client.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
         abstract = data["message"].get("abstract", None)
@@ -78,20 +85,22 @@ def save_records(records, output_file):
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(records, f, ensure_ascii=False, indent=2)
 
-def _build_session() -> requests.Session:
-    """Create a requests session with connection pooling and retries."""
-    session = requests.Session()
-    retry = Retry(
-        total=3,
-        backoff_factor=0.5,
-        status_forcelist=[429, 500, 502, 503, 504],
-        allowed_methods=["GET"],
-        raise_on_status=False,
-    )
-    adapter = HTTPAdapter(max_retries=retry, pool_connections=20, pool_maxsize=20)
-    session.mount("http://", adapter)
-    session.mount("https://", adapter)
-    return session
+def _sort_key(rec: dict):
+    try:
+        doi = ""
+        ext = rec.get("externalIds", {}) if isinstance(rec, dict) else {}
+        if isinstance(ext, dict):
+            doi = str(ext.get("DOI", "")).strip().lower()
+        title = str(rec.get("title", "")).strip().lower() if isinstance(rec, dict) else ""
+        return (1 if not doi else 0, doi or title, title)
+    except Exception:
+        return (1, "", "")
+
+def _build_client() -> httpx.Client:
+    """Create an httpx client with connection pooling."""
+    # httpx handles retries internally with transport
+    transport = httpx.HTTPTransport(retries=3)
+    return httpx.Client(transport=transport, follow_redirects=True)
 
 def fill_missing_abstracts(records, workers: int = 8):
     """Fill missing abstracts using DOI lookups with parallel requests."""
@@ -107,24 +116,33 @@ def fill_missing_abstracts(records, workers: int = 8):
             work.append((idx, doi))
 
     if not work:
+        print("All records already have abstracts.")
         return 0
 
-    session = _build_session()
+    print(f"Need to fetch abstracts for {len(work)} records (using {workers} workers)...")
+    client = _build_client()
 
     def fetch_for_doi(doi: str):
         if doi in cache:
             return cache[doi]
-        # Elsevier first, fallback to Crossref
-        abs_txt = fetch_abstract_from_elsevier(doi, session=session)
+        # Priority: Semantic Scholar (fastest) -> Elsevier -> Crossref
+        abs_txt = fetch_abstract_from_semantic_scholar(doi, client=client)
         if not abs_txt:
-            abs_txt = fetch_abstract_from_crossref(doi, session=session)
+            abs_txt = fetch_abstract_from_elsevier(doi, client=client)
+        if not abs_txt:
+            abs_txt = fetch_abstract_from_crossref(doi, client=client)
         cache[doi] = abs_txt
         return abs_txt
 
     filled_count = 0
     with ThreadPoolExecutor(max_workers=workers) as ex:
         future_map = {ex.submit(fetch_for_doi, doi): (idx, doi) for idx, doi in work}
-        for fut in tqdm(as_completed(future_map), total=len(future_map), desc="Filling missing abstracts (parallel)"):
+        # Update progress every 1% (miniters = total / 100)
+        update_interval = max(1, len(future_map) // 100)
+        pbar = tqdm(as_completed(future_map), total=len(future_map), 
+                    desc="Filling missing abstracts", miniters=update_interval,
+                    dynamic_ncols=True, file=sys.stdout)
+        for fut in pbar:
             idx, doi = future_map[fut]
             try:
                 new_abs = fut.result()
@@ -133,6 +151,7 @@ def fill_missing_abstracts(records, workers: int = 8):
             if new_abs:
                 records[idx]["abstract"] = new_abs
                 filled_count += 1
+            pbar.set_postfix(filled=filled_count, refresh=False)
 
     return filled_count
 
@@ -155,6 +174,7 @@ def main():
     
     filled_count = fill_missing_abstracts(records, workers=args.workers)
     
+    # Save in the original order
     save_records(records, args.output_file)
     
     total_count = len(records)

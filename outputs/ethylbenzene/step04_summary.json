@@ -1,0 +1,78 @@
+{
+  "target": "ethylbenzene",
+  "total_records": 6,
+  "statistics": {
+    "extracted": 1,
+    "partial_data": 0,
+    "partial_with_calculation": 0,
+    "insufficient_data": 0,
+    "not_found": 0,
+    "irrelevant": 5
+  },
+  "records_with_dosage": [
+    {
+      "title": "dl‐Limonene as an Alternative Sustainable Solvent to Xylenes for the Industrial ",
+      "doi": "10.1002/open.202400259",
+      "alternative": [
+        "dl-limonene"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf",
+      "download_strategy": "Downloaded PDF (Europe PMC PMC12075094) (2508275 bytes)",
+      "substitution_logic": {
+        "target_problem": "toxicological profile of aromatic hydrocarbons used as solvents",
+        "traditional_material_replaced": "ethylbenzene and other aromatic hydrocarbons (BTEX)",
+        "alternative_solution": "dl-limonene",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "carnauba wax",
+          "value": "0.38 wt/vol %",
+          "ratio_type": "wt/vol%",
+          "evidence_location": "Section 5",
+          "context": "concentration used in the release formulation"
+        },
+        {
+          "material": "additive",
+          "value": "0.16 wt/vol %",
+          "ratio_type": "wt/vol%",
+          "evidence_location": "Section 5",
+          "context": "concentration used in the release formulation"
+        },
+        {
+          "material": "dl-limonene/ethyl acetate mixture",
+          "value": "9:1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 5",
+          "context": "ratio of solvents used to solubilize carnauba wax"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "heating_temperature",
+          "value": "50 °C",
+          "evidence_location": "Section 5",
+          "context": "temperature at which the mixtures were heated for solubility tests"
+        },
+        {
+          "parameter": "heating_time",
+          "value": "1 h",
+          "evidence_location": "Section 5",
+          "context": "duration for which the mixtures were heated"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "release_force",
+          "metric_value": "0.19 N/5 cm",
+          "comparison_baseline": "0.25 N/5 cm with xylene/EtOAc"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

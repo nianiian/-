@@ -1,0 +1,1128 @@
+[
+  {
+    "title": "Prospective of mycorrhiza and Beauvaria bassiana silica nanoparticles on Gossypium hirsutum L. plants as biocontrol agent against cotton leafworm, Spodoptera littoralis",
+    "doi": "10.1186/s12870-022-03763-x",
+    "year": 2022,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of a biopesticide (Beauvaria bassiana silica nanoparticles) and arbuscular mycorrhizal fungi with the chemical insecticide chlorpyrifos. It states that AM fungi can partially or completely replace chemical insecticides and that chlorpyrifos application caused a higher decrease in AM colonization rates, implying a negative impact. The biopesticide and AM fungi improve plant health and reduce lipid peroxidation caused by the insect, suggesting a safer alternative to chlorpyrifos.",
+    "alternatives": "Beauvaria bassiana silica nanoparticles; arbuscular mycorrhizal fungi",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity",
+        "habitat destruction",
+        "disease resistance",
+        "decrease in AM colonization rates"
+      ],
+      "rationale": "The reasoning text states that insecticides used indiscriminately, including chlorpyrifos, resulted in habitat destruction due to their high toxicity and disease resistance. Additionally, chlorpyrifos application caused a higher decrease in arbuscular mycorrhizal (AM) fungi colonization rates, indicating a negative impact on beneficial soil fungi."
+    },
+    "CHEMICAL HARM": "high toxicity, habitat destruction, disease resistance, decrease in AM colonization rates"
+  },
+  {
+    "title": "Ozone as a Safety Post-Harvest Treatment for Chlorpyrifos Removal from Vegetables and its Effects on Vegetable Quality",
+    "doi": "10.15436/2377-0619.17.1319",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract presents ozonated water (OZW) washing as a method to remove chlorpyrifos residues from vegetables effectively without causing significant undesirable effects on vegetable quality. It explicitly states that ozone technology is a safe and promising process to reduce chlorpyrifos residues and thus reduce consumer health impact, indicating a safety advantage as a post-harvest treatment compared to the presence of chlorpyrifos residues.",
+    "alternatives": "ozonated water (OZW); ozone",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It focuses on methods to remove chlorpyrifos residues from vegetables and mentions the safety and effectiveness of ozone washing without describing specific toxicities, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "TOXICITY OF INSECTICIDES AND BIOPESTICIDES TO EGG PARASITOID TRICHOGRAMMA CHILONIS ISHII. (HYMENOPTERA: TRICHOGRAMMATIDAE)",
+    "doi": "10.15666/aeer/2006_48074818",
+    "year": 2022,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of chlorpyrifos and other insecticides/biopesticides to Trichogramma chilonis, noting that chlorpyrifos is highly lethal while certain biopesticides (Metarhizium anisopliae, Beauveria bassiana, Metarhizium rileyi) are innocuous. It suggests these biopesticides can be used in IPM programs without harming the parasitoid, implying a safety advantage over chlorpyrifos. Therefore, these biopesticides are presented as safer alternatives to chlorpyrifos.",
+    "alternatives": "Metarhizium anisopliae; Beauveria bassiana; Metarhizium rileyi",
+    "target_chemical_harm": {
+      "harms": [
+        "contact toxicity to Trichogramma chilonis adults",
+        "high lethality even at sublethal doses to Trichogramma chilonis adults"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos is highly lethal to adults of the hymenopteran egg parasitoid Trichogramma chilonis, indicating contact toxicity and adverse effects on this beneficial insect species."
+    },
+    "CHEMICAL HARM": "contact toxicity to Trichogramma chilonis adults, high lethality even at sublethal doses to Trichogramma chilonis adults"
+  },
+  {
+    "title": "Dampak Aplikasi Pestisida Sipermetrin, Deltametrin, Klorpirifos dan λ-Sihalotrin Terhadap Kandungan Residu Pestisida pada Biji Kakao",
+    "doi": "10.24853/JAT.4.1.10-18",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares pesticide residues of several active ingredients including chlorpyrifos, λ-cyhalothrin, and sipermetrin on cocoa beans. It states that λ-cyhalothrin did not leave residues and sipermetrin left far fewer residues than chlorpyrifos, with both λ-cyhalothrin and sipermetrin residues below the maximum residual limit, while chlorpyrifos residues were above the limit. This indicates that λ-cyhalothrin and sipermetrin have safety advantages in terms of lower residue levels compared to chlorpyrifos, suggesting they are safer alternatives.",
+    "alternatives": "λ-cyhalothrin; sipermetrin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions pesticide residues of chlorpyrifos above the maximum residual limit (MRL) but does not explicitly state any specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The Repellent Capacity against Sitophilus zeamais (Coleoptera: Curculionidae) and In Vitro Inhibition of the Acetylcholinesterase Enzyme of 11 Essential Oils from Six Plants of the Caribbean Region of Colombia",
+    "doi": "10.3390/molecules29081753",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the repellent capacity and acetylcholinesterase inhibition of 11 essential oils (EOs) to chlorpyrifos. Six EOs showed repellency equal to or greater than chlorpyrifos, but all EOs were significantly less active on AChE than chlorpyrifos, indicating lower toxicity. This suggests these EOs may be safer alternatives due to lower enzyme inhibition (toxicity) while maintaining repellency.",
+    "alternatives": "essential oils",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text compares the repellent capacity and acetylcholinesterase (AChE) inhibition of essential oils to chlorpyrifos but does not explicitly state any harms or hazards associated with chlorpyrifos."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Resistance to commonly used insecticides and phosphine fumigant in red palm weevil, Rhynchophorus ferrugineus (Olivier) in Pakistan",
+    "doi": "10.1371/journal.pone.0192628",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares resistance levels of several insecticides including chlorpyrifos and mentions that spinosad and lambda-cyhalothrin have lower LC50 and LC90 values and better environmental profiles. It suggests these two could be used in rotation or to phase out older insecticides, implying a safety advantage over chlorpyrifos. Therefore, spinosad and lambda-cyhalothrin are presented as safer alternatives to chlorpyrifos.",
+    "alternatives": "spinosad; lambda-cyhalothrin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses insecticide resistance levels in Rhynchophorus ferrugineus populations to various chemicals including chlorpyrifos, but does not explicitly state any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to chlorpyrifos."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Chlorpyrifos organophosphate and essential oils activities against Callosobruchus maculatus (F.) warehouse pests",
+    "doi": "10.1088/1742-6596/1402/5/055024",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract states that essential oils are considered safer and more environmentally friendly than chemical pesticides like chlorpyrifos. However, it also notes that chlorpyrifos has a higher insecticidal effect. The abstract implies essential oils as a safer alternative to chlorpyrifos due to safety and environmental considerations.",
+    "alternatives": "essential oils",
+    "target_chemical_harm": {
+      "harms": [
+        "disrupt human health",
+        "pollute the environment",
+        "not environmentally friendly"
+      ],
+      "rationale": "The reasoning text explicitly states that the continuous use of chemical pesticides, including chlorpyrifos, can disrupt human health and pollute the environment, and that chlorpyrifos use was not environmentally friendly."
+    },
+    "CHEMICAL HARM": "disrupt human health, pollute the environment, not environmentally friendly"
+  },
+  {
+    "title": "The combined effect of Bassa 50EC and Vitashield 40EC on the brain acetylcholinesterase activity in climbing perch (Anabas testudineus)",
+    "doi": "10.1007/s11356-018-2112-1",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of fenobucarb (F) and chlorpyrifos ethyl (CPF) on brain acetylcholinesterase activity in fish. It states that fenobucarb causes weaker and shorter inhibition than chlorpyrifos, and the mixture causes less inhibition than chlorpyrifos alone. This indicates fenobucarb has lower toxicity effects on brain AChE activity, suggesting a safety advantage over chlorpyrifos.",
+    "alternatives": "fenobucarb",
+    "target_chemical_harm": {
+      "harms": [
+        "acetylcholinesterase (AChE) inhibition"
+      ],
+      "rationale": "The text explicitly states that exposure to chlorpyrifos (CPF) inhibits brain acetylcholinesterase (AChE) activity in fish, indicating a neurotoxic effect. No other harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "acetylcholinesterase (AChE) inhibition"
+  },
+  {
+    "title": "Biorational Management of Thrips in Mango in Guerrero, Mexico",
+    "doi": "10.3958/059.049.0417",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares spinosad, azadirachtin, and cinnamon extract to a mixture including chlorpyrifos ethyl and reports that the former caused less than 1% fruit damage, implying lower harm. It explicitly recommends azadirachtin and cinnamon extract to minimize harm to the environment and growers, indicating safety advantages over chlorpyrifos. Thus, azadirachtin and cinnamon extract are presented as safer alternatives to chlorpyrifos.",
+    "alternatives": "azadirachtin; cinnamon extract",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only compares the effectiveness and damage caused by different insecticides, mentioning that treatments including chlorpyrifos caused more damage than others, but does not specify the nature of harms or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effects of Commonly Used Pesticides in China on the Mitochondria and Ubiquitin-Proteasome System in Parkinson’s Disease",
+    "doi": "10.3390/ijms18122507",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares nine pesticides including chlorpyrifos and finds that two pesticides, trichlorphon and carbaryl, do not cause mitochondrial fragmentation, functional damage, or proteasome inhibition, unlike chlorpyrifos. This suggests that trichlorphon and carbaryl have safety advantages related to mitochondrial and proteasome effects, providing significant guidance for pesticide selection, implying they are safer alternatives to chlorpyrifos.",
+    "alternatives": "trichlorphon; carbaryl",
+    "target_chemical_harm": {
+      "harms": [
+        "mitochondrial fragmentation",
+        "mitochondrial dysfunction",
+        "decrease of intracellular ATP",
+        "inhibition of 26S and 20S proteasome activity",
+        "potential contribution to Parkinsonism"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos induces mitochondrial fragmentation, causes a significant dose-dependent decrease of intracellular ATP, inhibits proteasome activity, and is linked to pesticide-induced Parkinsonism."
+    },
+    "CHEMICAL HARM": "mitochondrial fragmentation, mitochondrial dysfunction, decrease of intracellular ATP, inhibition of 26S and 20S proteasome activity, potential contribution to Parkinsonism"
+  },
+  {
+    "title": "Predatory Ants: First Report on Direct Evidence of Predation by Dorylus orientalis Westwood, 1885 on Olive Ridley Eggs from India",
+    "doi": "10.20944/preprints202008.0465.v1",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract mentions that chlorpyrifos pesticides, recommended for controlling Dorylus orientalis ants, could be fatal to developing turtle embryos, indicating safety concerns. It also states that a natural pesticide, Neem powder (Azadirachta indica), shows promising results for preventing ant infestation, implying a safer alternative to chlorpyrifos in this context.",
+    "alternatives": "Neem powder (Azadirachta indica)",
+    "target_chemical_harm": {
+      "harms": [
+        "fatal for the developing embryos of turtles"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos pesticides recommended for controlling red ants could become fatal for the developing embryos of turtles if applied near the hatchery."
+    },
+    "CHEMICAL HARM": "fatal for the developing embryos of turtles"
+  },
+  {
+    "title": "HEMOTOXIC AND GENOTOXIC EFFECTS OF LEAD ACETATE AND CHLORPYRIFOSE ON FRESHWATER CAT FISH (Calarias gariepinus)",
+    "doi": "10.26873/SVR-807-2019",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the hemotoxic and genotoxic effects of lead acetate and chlorpyrifos on catfish, concluding that chlorpyrifos has more hemotoxic and genotoxic effects than lead acetate. This indicates that lead acetate is less toxic and could be interpreted as a safer alternative to chlorpyrifos.",
+    "alternatives": "lead acetate",
+    "target_chemical_harm": {
+      "harms": [
+        "hemotoxicity",
+        "genotoxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos induces hemotoxic effects such as reduction of RBCs count, hemoglobin, and hematocrit, as well as genotoxic effects evidenced by DNA damage detected by comet assay. No other harms or hazards are explicitly mentioned."
+    },
+    "CHEMICAL HARM": "hemotoxicity, genotoxicity"
+  },
+  {
+    "title": "Effect of biochar on soil microbial community, dissipation and uptake of chlorpyrifos and atrazine",
+    "doi": "10.1007/s42773-024-00306-5",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract reports that Mentha-distilled waste-derived biochar significantly enhances the degradation rate of chlorpyrifos in soil, reduces its half-life, and lowers its uptake in plants, which can be interpreted as reducing the risk associated with chlorpyrifos. It explicitly states that biochar can remediate chlorpyrifos-contaminated soils and ensure plant safety, indicating a safety advantage over chlorpyrifos alone. Therefore, biochar is presented as a safer alternative or remediation method relative to chlorpyrifos.",
+    "alternatives": "biochar",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It focuses on the degradation, uptake, and remediation of chlorpyrifos in soil and plants, without mentioning toxicity, endocrine disruption, persistence beyond half-life data, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative Efficiency of Certain Products against some Piercing-Sucking Pests and their Associated Predators on Cotton Plants",
+    "doi": "10.21608/jppp.2020.80000",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the efficacy and safety of several products including chlorpyrifos. It states that abamectin, protecto, and Kz-oil were more safe against associated predators (with lower initial kill percentages) compared to chlorpyrifos, which had higher predator kill rates. This indicates these three products have safety advantages over chlorpyrifos, suggesting they could be safer alternatives.",
+    "alternatives": "abamectin; protecto; Kz-oil",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to predators"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos was effective as an initial kill against predators (60.1% initial kill) and had a high residual and general mean effect against predators (78.0% and 75.0% residual mean, 48.9% and 53.9% general mean effect), indicating toxicity to associated predators."
+    },
+    "CHEMICAL HARM": "toxicity to predators"
+  },
+  {
+    "title": "The application of Cinnamomum aromaticum nanoparticle and chlorpyrifos for controlling Tribolium castaneum",
+    "doi": "10.1063/1.5125522",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract states that Cinnamomum aromaticum nanoparticles have high potential to control Tribolium castaneum and can reduce the use of chlorpyrifos chemical pesticides, which are described as harmful to humans, non-target animals, and the environment. This indicates a safety advantage and positions Cinnamomum aromaticum nanoparticles as a safer alternative to chlorpyrifos.",
+    "alternatives": "Cinnamomum aromaticum nanoparticles",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful to humans",
+        "harmful to non-target animals",
+        "harmful to environment"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos chemical pesticides are harmful to humans, non-target animals, and the environment."
+    },
+    "CHEMICAL HARM": "harmful to humans, harmful to non-target animals, harmful to environment"
+  },
+  {
+    "title": "Sterile insect technique reduces cabbage maggot (Diptera: Anthomyiidae) infestation in root crucifers in Canada",
+    "doi": "10.1101/2025.05.09.653057",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract explicitly states that the sterile insect technique (SIT) is a promising, environmentally friendly alternative to chemical control for cabbage maggot management, in the context of regulatory restrictions on chlorpyrifos. This implies SIT is a safer alternative to chlorpyrifos due to its environmental friendliness and reduction in insecticide reliance.",
+    "alternatives": "sterile insect technique (SIT)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions regulatory restrictions on chlorpyrifos but does not explicitly state any specific harms or hazards associated with chlorpyrifos."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The Potential Side Effects of Certain Insecticide Formulations on the Green Lacewing, Chrysoperla carnea (Stephens)",
+    "doi": "10.21608/jppp.2019.78152",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos-methyl with other insecticide formulations such as methomyl, emamectin benzoate, and lufenuron. It reports that chlorpyrifos-methyl causes 100% mortality and 0% pupation and adult emergence, indicating high toxicity, while emamectin benzoate and lufenuron show lower toxicity and less impact on hatchability rates, suggesting they are less harmful. This indicates that emamectin benzoate and lufenuron have safety advantages over chlorpyrifos-methyl and can be reasonably interpreted as safer alternatives.",
+    "alternatives": "emamectin benzoate; lufenuron",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity to second larval instar (100% mortality)",
+        "significant reduction in pupation and adult emergence rates",
+        "significant reduction in egg hatchability rates"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos-methyl formulations caused 100% mortality in second larval instar, significantly reduced pupation and adult emergence percentages to 0%, and significantly reduced egg hatchability rates compared to controls."
+    },
+    "CHEMICAL HARM": "high toxicity to second larval instar (100% mortality), significant reduction in pupation and adult emergence rates, significant reduction in egg hatchability rates"
+  },
+  {
+    "title": "Effect of single and mixture of insecticides on earthworms: results from field and laboratory experiments",
+    "doi": "10.13080/z-a.2023.110.016",
+    "year": 2023,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares Talstar 10 EC (bifenthrin) and Nurelle D (which contains chlorpyrifos) and finds that Nurelle D is more ecologically dangerous to earthworms than Talstar 10 EC. This suggests Talstar 10 EC has a lower toxicity impact on earthworms compared to the mixture containing chlorpyrifos, indicating a safety advantage. Therefore, Talstar 10 EC can be reasonably interpreted as a safer alternative to chlorpyrifos-containing insecticides.",
+    "alternatives": "bifenthrin",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to non-target organism Eisenia fetida",
+        "impact on survival",
+        "impact on growth",
+        "impact on cocoon production",
+        "impact on hatching juveniles",
+        "long-term toxicity effects",
+        "greater ecological danger in mixture form"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos, as part of the Nurelle D mixture, shows toxicity to the non-target earthworm Eisenia fetida, affecting survival, growth, cocoon production, and hatching juveniles. It also mentions long-term toxicity effects and that mixtures containing chlorpyrifos are more ecologically dangerous than single-component insecticides."
+    },
+    "CHEMICAL HARM": "toxicity to non-target organism Eisenia fetida, impact on survival, impact on growth, impact on cocoon production, impact on hatching juveniles, long-term toxicity effects, greater ecological danger in mixture form"
+  },
+  {
+    "title": "Chlorpyrifos and parathion regulate oxidative stress differentially through the expression of paraoxonase 2 in human neuroblastoma cell.",
+    "doi": "10.1016/j.neuro.2022.08.016",
+    "year": 2022,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos (CPF) and parathion (PA) in terms of toxicity and oxidative stress effects on human neuroblastoma cells. It states that parathion at higher concentrations proved to be less toxic than chlorpyrifos and induced lower reactive oxygen species (ROS), indicating a safety advantage. This suggests parathion could be considered a safer alternative to chlorpyrifos based on the data presented.",
+    "alternatives": "parathion",
+    "target_chemical_harm": {
+      "harms": [
+        "acute and chronic nervous system disorders",
+        "acetylcholinesterase inhibition causing cholinergic crisis",
+        "toxicity to IMR-32 cells",
+        "induction of reactive oxygen species (ROS)"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos is an acetylcholinesterase inhibitor causing cholinergic crisis and is linked to both acute and chronic nervous system disorders. It also shows toxicity to IMR-32 cells and induces reactive oxygen species, indicating oxidative stress. No other explicit harms such as endocrine disruption, persistence, or bioaccumulation are mentioned."
+    },
+    "CHEMICAL HARM": "acute and chronic nervous system disorders, acetylcholinesterase inhibition causing cholinergic crisis, toxicity to IMR-32 cells, induction of reactive oxygen species (ROS)"
+  },
+  {
+    "title": "Comparative Study on Effect of Pesticides and Vermicompost on the Growth of Eisenia foetida",
+    "doi": "10.33745/ijzi.2022.v08i02.119",
+    "year": 2022,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of chlorpyrifos and vermicompost on earthworms and reports that chlorpyrifos has a high toxicity reducing earthworm number and biomass significantly, while vermicompost has a positive effect on earthworm biology. This indicates vermicompost is safer than chlorpyrifos and could be considered a safer alternative.",
+    "alternatives": "vermicompost",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to earthworms",
+        "reduction in earthworm number",
+        "reduction in earthworm biomass",
+        "decreased earthworm survival",
+        "negative impact on soil quality",
+        "reduced crop production"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos has a high toxicity to earthworms (Eisenia foetida), causing a reduction in their number from 200 to 20 after 60 days, a decrease in biomass, and a 70% decrease in survival. It also mentions that pesticide application reduces earthworm populations and biomass, which in turn reduces crop production and harms soil quality."
+    },
+    "CHEMICAL HARM": "toxicity to earthworms, reduction in earthworm number, reduction in earthworm biomass, decreased earthworm survival, negative impact on soil quality, reduced crop production"
+  },
+  {
+    "title": "Insecticide Use against Desert Locust in the Horn of Africa 2019–2021 Reveals a Pressing Need for Change",
+    "doi": "10.3390/agronomy13030819",
+    "year": 2023,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract mentions that the entomopathogenic fungus Metarhizium acridum was used successfully in Somalia as an alternative to organophosphate insecticides including chlorpyrifos. It highlights that the persistent use of organophosphates like chlorpyrifos can no longer be justified due to environmental harm such as honey production decline and non-target mortality. This implies that M. acridum is a safer alternative to chlorpyrifos.",
+    "alternatives": "Metarhizium acridum",
+    "target_chemical_harm": {
+      "harms": [
+        "non-target mortality including birds and honeybees",
+        "decline in honey production"
+      ],
+      "rationale": "The reasoning text explicitly states that overdosing of fenitrothion led to non-target mortality including birds and honeybees, and that chlorpyrifos applications coincided with a 78% decline in honey production in Ethiopia. These indicate harms related to ecological toxicity and impact on pollinators."
+    },
+    "CHEMICAL HARM": "non-target mortality including birds and honeybees, decline in honey production"
+  },
+  {
+    "title": "A comparative evaluation of effect of carbofuran 5G, chlorpyrifos 20Ec and chilli pepper aqueous extract on the growth, fruit yield and control of Podagrica uniformis of okra (Abelmoschus esculentus L. moench) in Enugu, Southeastern Nigeria",
+    "doi": "10.31248/JASP2019.164",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares carbofuran 5G, chlorpyrifos 20Ec, and chilli pepper aqueous extract for pest control in okra. It states that the efficacy of chilli pepper aqueous extract did not significantly differ from chlorpyrifos and recommends chilli pepper extract as a better substitute to synthetic insecticide, implying safety advantages as a bio-insecticide over synthetic chlorpyrifos.",
+    "alternatives": "chilli pepper aqueous extract",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only compares the efficacy of chlorpyrifos 20Ec with other treatments on okra growth and pest control without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Impact of Insecticides on Pest-Parasitoid Interactions in Mango",
+    "doi": "10.55446/ije.2025.2188",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos, a broad-spectrum insecticide, with spinosad, a selective insecticide that exhibited relatively lower adverse effects on parasitoid activity. This indicates that spinosad has safety advantages in terms of less disruption to beneficial parasitoids, suggesting it as a safer alternative to chlorpyrifos.",
+    "alternatives": "spinosad",
+    "target_chemical_harm": {
+      "harms": [
+        "disruption of natural biological control mechanisms",
+        "substantial decline in parasitism rates",
+        "negative impacts on beneficial parasitoid populations"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos caused a substantial decline in parasitism rates and disrupted natural biological control mechanisms, negatively impacting beneficial parasitoid populations."
+    },
+    "CHEMICAL HARM": "disruption of natural biological control mechanisms, substantial decline in parasitism rates, negative impacts on beneficial parasitoid populations"
+  },
+  {
+    "title": "Development of an environmentally friendly formulation of silk fibroin associated with fatty acid from Astrocaryum murumuru Mart. fat, effective against larvae of the Aedes aegypti vector",
+    "doi": "10.21203/RS.3.RS-570302/V1",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract presents a formulation of silk fibroin associated with fatty acid esters from Astrocaryum murumuru fat as effective against Aedes aegypti larvae. It mentions that synthetic insecticides such as chlorpyrifos cause environmental and human harm and emphasizes the low environmental impact of the natural compounds studied. The FABE-SF solution also showed a low hemolytic index, suggesting safety for animal and human use, which implies a safety advantage over chlorpyrifos. Therefore, the abstract clearly indicates a safer alternative to chlorpyrifos.",
+    "alternatives": "silk fibroin associated with fatty acid esters from Astrocaryum murumuru fat",
+    "target_chemical_harm": {
+      "harms": [
+        "damage to the environment",
+        "damage to humans"
+      ],
+      "rationale": "The reasoning text explicitly states that synthetic insecticides such as chlorpyrifos have been used for plague control despite causing damage to the environment and to humans."
+    },
+    "CHEMICAL HARM": "damage to the environment, damage to humans"
+  },
+  {
+    "title": "Species Sensitivity Distribution (SSD) profiles of carabid beetle communities exposed to acetamiprid, chlorpyrifos or λ-cyhalothrin.",
+    "doi": "10.1016/j.scitotenv.2025.180154",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of three insecticides including chlorpyrifos and acetamiprid, showing that chlorpyrifos has the strongest effect and acetamiprid the weakest on carabid beetle communities. It states that the Potentially Affected Fraction of species is 100% for chlorpyrifos and about 66% for acetamiprid at recommended doses, indicating lower toxicity of acetamiprid. This safety advantage of acetamiprid over chlorpyrifos can reasonably be interpreted as a safer alternative.",
+    "alternatives": "acetamiprid",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to carabid beetle species",
+        "high mortality at recommended field doses",
+        "risk to ecosystem service providers"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos caused the strongest effect among tested insecticides, with a 100% Potentially Affected Fraction of carabid species at recommended field doses and very low Hazardous Doses for 5% of species, indicating high toxicity and risk to these beneficial beetle communities."
+    },
+    "CHEMICAL HARM": "toxicity to carabid beetle species, high mortality at recommended field doses, risk to ecosystem service providers"
+  },
+  {
+    "title": "Response of Trichogramma spp. (Hymenoptera: Trichogrammatidae) to Insecticides at Concentrations Sublethal to Cnaphalocrocis medinalis (Lepidoptera: Pyralidae)",
+    "doi": "10.1093/jee/toz325",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of four insecticides, including chlorpyrifos and chlorantraniliprole, on parasitoids. It states that chlorantraniliprole had the lowest mortality rates for Trichogramma japonicum and T. dendrolimi at sublethal concentrations, while chlorpyrifos negatively influenced emergence rates. This indicates chlorantraniliprole has safety advantages over chlorpyrifos for these beneficial insects, suggesting it as a safer alternative.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "mortality to adult Trichogramma japonicum and Trichogramma dendrolimi at sublethal concentrations",
+        "negative influence on emergence rates of Trichogramma japonicum at F1 generation",
+        "negative influence on emergence rates of Trichogramma dendrolimi at F1 generation"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos at target sublethal concentrations caused mortality in adult parasitoids and negatively affected the emergence rates of both T. japonicum and T. dendrolimi in the F1 generation."
+    },
+    "CHEMICAL HARM": "mortality to adult Trichogramma japonicum and Trichogramma dendrolimi at sublethal concentrations, negative influence on emergence rates of Trichogramma japonicum at F1 generation, negative influence on emergence rates of Trichogramma dendrolimi at F1 generation"
+  },
+  {
+    "title": "Testing Efficacy of Selected Insecticides against Spodoptera litura (Lepidoptera: Noctuidae) in Fodder Crops and Effects on Beneficial Insects",
+    "doi": "10.21608/eajbsa.2019.65149",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract explicitly states that emamectin benzoate and lufenuron are relatively safer for beneficial insects compared to chlorpyrifos, indicating a safety advantage. It also highlights their potential as new chemistry insecticides for managing S. litura, suggesting they are safer alternatives to chlorpyrifos.",
+    "alternatives": "emamectin benzoate; lufenuron",
+    "target_chemical_harm": {
+      "harms": [
+        "harm to beneficial insects (ladybird beetle, honeybee, green lacewing)"
+      ],
+      "rationale": "The text states that the abundance of beneficial insects was higher in plots treated with emamectin benzoate and lufenuron compared to chlorpyrifos, indicating that chlorpyrifos is less safe for these beneficial insects."
+    },
+    "CHEMICAL HARM": "harm to beneficial insects (ladybird beetle, honeybee, green lacewing)"
+  },
+  {
+    "title": "Prospective of mycorrhiza and Beauvaria bassiana silica nanoparticles on Gossypium hirsutum L. plants as biocontrol agent against cotton leafworm, Spodoptera littoralis",
+    "doi": "10.1186/s12870-022-03763-x",
+    "year": 2022,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the use of Beauvaria bassiana silica nanoparticles (Si NPs) and arbuscular mycorrhizal (AM) fungi with the chemical insecticide chlorpyrifos. It states that AM fungi can partially or completely replace chemical insecticides and that chlorpyrifos application caused a higher decrease in AM colonization rates, implying a negative effect. The abstract highlights that AM fungi and B. bassiana Si NPs reduce lipid peroxidation and improve plant health, suggesting a safety advantage over chlorpyrifos. Therefore, it explicitly presents AM fungi and B. bassiana Si NPs as safer alternatives to chlorpyrifos.",
+    "alternatives": "arbuscular mycorrhizal (AM) fungi; Beauvaria bassiana silica nanoparticles (Si NPs)",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity of insecticides used indiscriminately",
+        "habitat destruction due to insecticide use",
+        "disease resistance resulting from insecticide use",
+        "decrease in AM colonization rates with Chlorpyrifos application"
+      ],
+      "rationale": "The reasoning text explicitly states that insecticides used indiscriminately have high toxicity and cause habitat destruction and disease resistance. It also mentions that Chlorpyrifos application leads to a higher decrease in AM colonization rates, indicating a harmful effect on beneficial fungi."
+    },
+    "CHEMICAL HARM": "high toxicity of insecticides used indiscriminately, habitat destruction due to insecticide use, disease resistance resulting from insecticide use, decrease in AM colonization rates with Chlorpyrifos application"
+  },
+  {
+    "title": "Towards Dactylopius opuntiae (Cockerell) (Hemiptera: Dactylopiidae) biological and integrated management at field conditions in Cadiz province (Spain)",
+    "doi": "10.1080/09583157.2020.1771280",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares four control methods including Chlorpyrifos-methyl and Potassium soap. It states that Potassium soap has high efficacy and low environmental impact, recommending its use for control. This indicates Potassium soap is presented as a safer alternative to Chlorpyrifos-methyl.",
+    "alternatives": "Potassium soap",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only mentions its efficacy in controlling the insect population compared to other methods."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Argon plasma effects on maize: pesticide degradation and quality changes.",
+    "doi": "10.1002/jsfa.9810",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract discusses argon plasma treatment as a technology that degrades chlorpyrifos residues on maize, achieving up to 91.5% degradation, and describes it as a green, safe, and promising technology for surface decontamination. It explicitly states that argon plasma enhances the edible safety of maize while maintaining quality, implying a safety advantage over chlorpyrifos residues. Therefore, argon plasma can be interpreted as a safer alternative to chlorpyrifos for maize surface decontamination.",
+    "alternatives": "argon plasma",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only discusses the degradation of chlorpyrifos on maize surface and the effects of plasma treatment on maize quality, without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Human and soil exposure during mechanical chlorpyrifos, myclobutanil and copper oxychloride application in a peach orchard in Argentina.",
+    "doi": "10.1016/j.scitotenv.2017.02.129",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the safety margin of chlorpyrifos with myclobutanil and copper oxychloride, stating that the Margin of Safety (MOS) was above 1 (safe) for myclobutanil and copper oxychloride but below 1 for chlorpyrifos during application. This indicates that myclobutanil and copper oxychloride have better safety profiles in this context, suggesting they are safer alternatives to chlorpyrifos.",
+    "alternatives": "myclobutanil; copper oxychloride",
+    "target_chemical_harm": {
+      "harms": [
+        "dermal exposure risk to workers",
+        "risk to bystanders and residents from pesticide drift",
+        "ecotoxicological risk to earthworms"
+      ],
+      "rationale": "The text explicitly states that the Margin of Safety (MOS) for chlorpyrifos during application was below 1, indicating a risk to workers. It also mentions pesticide drift affecting bystanders and residents, and risk indicators calculated for earthworms correlated with ecotoxicological assays, indicating harm to soil organisms."
+    },
+    "CHEMICAL HARM": "dermal exposure risk to workers, risk to bystanders and residents from pesticide drift, ecotoxicological risk to earthworms"
+  },
+  {
+    "title": "Organophosphate pesticide chlorpyrifos impairs STAT1 signaling to induce dopaminergic neurotoxicity: Implications for mitochondria mediated oxidative stress signaling events",
+    "doi": "10.1016/j.nbd.2018.05.019",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract discusses co-treatment with mitoapocynin, a mitochondrially-targeted antioxidant, which rescued motor deficits and restored dopaminergic neuronal survival in the presence of chlorpyrifos. This indicates mitoapocynin has safety advantages by attenuating mitochondrial-derived ROS and reversing chlorpyrifos-induced neurotoxicity, suggesting it as a safer alternative.",
+    "alternatives": "mitoapocynin",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental impairments",
+        "neurological impairments",
+        "dopaminergic cell death",
+        "mitochondrial dysfunction",
+        "oxidative stress",
+        "apoptotic cell death",
+        "motor deficits",
+        "nigrostriatal dopaminergic neurodegeneration",
+        "neurobehavioral deficits",
+        "neurotoxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos induces developmental and neurological impairments, causes dopaminergic cell death via mitochondria-mediated oxidative stress and apoptotic mechanisms, leads to mitochondrial dysfunction, motor deficits, nigrostriatal dopaminergic neurodegeneration, neurobehavioral deficits, and neurotoxicity."
+    },
+    "CHEMICAL HARM": "developmental impairments, neurological impairments, dopaminergic cell death, mitochondrial dysfunction, oxidative stress, apoptotic cell death, motor deficits, nigrostriatal dopaminergic neurodegeneration, neurobehavioral deficits, neurotoxicity"
+  },
+  {
+    "title": "Acute exposure to chlorpyrifos and glyphosate induces changes in hemolymph biochemical parameters in the crayfish, Astacus leptodactylus (Eschscholtz, 1823).",
+    "doi": "10.1016/j.cbpc.2019.05.003",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of chlorpyrifos and glyphosate to crayfish and states that chlorpyrifos is a few hundred times more toxic than glyphosate. It explicitly describes glyphosate as moderately toxic compared to the high toxicity of chlorpyrifos, indicating a safety advantage. This comparison reasonably supports glyphosate as a safer alternative to chlorpyrifos.",
+    "alternatives": "glyphosate",
+    "target_chemical_harm": {
+      "harms": [
+        "acute toxicity to crayfish",
+        "subacute toxicity to crayfish",
+        "disruption of hemolymph biochemical parameters",
+        "decrease in acetylcholinesterase (AChE) activity",
+        "decrease in alanine aminotransferase (ALT) activity",
+        "decrease in aspartate aminotransferase (AST) activity",
+        "decrease in alkaline phosphatase (ALP) activity",
+        "decrease in phenoloxidase (PO) activity",
+        "increase in lactate dehydrogenase (LDH) activity",
+        "increase in gamma-glutamyl transferase (GGT) activity",
+        "decrease in total protein levels",
+        "decrease in cholesterol levels",
+        "increase in triglycerides levels",
+        "increase in glucose levels",
+        "potential collapse of cellular homeostasis",
+        "physiological changes affecting survival of crayfish"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos is highly toxic to the crayfish Astacus leptodactylus, causing mortality at certain concentrations (acute toxicity). Subacute exposure leads to significant biochemical changes in hemolymph parameters, including enzyme activities and metabolite levels, which indicate disruption of cellular homeostasis and physiological functions that may directly affect survival."
+    },
+    "CHEMICAL HARM": "acute toxicity to crayfish, subacute toxicity to crayfish, disruption of hemolymph biochemical parameters, decrease in acetylcholinesterase (AChE) activity, decrease in alanine aminotransferase (ALT) activity, decrease in aspartate aminotransferase (AST) activity, decrease in alkaline phosphatase (ALP) activity, decrease in phenoloxidase (PO) activity, increase in lactate dehydrogenase (LDH) activity, increase in gamma-glutamyl transferase (GGT) activity, decrease in total protein levels, decrease in cholesterol levels, increase in triglycerides levels, increase in glucose levels, potential collapse of cellular homeostasis, physiological changes affecting survival of crayfish"
+  },
+  {
+    "title": "Effect of aqueous ozone treatment on the reduction of chlorpyrifos and physicochemical and microbial qualities of cucumber (Cucumis sativusL.): Process modeling and optimization",
+    "doi": "10.1111/jfpe.14572",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract presents aqueous ozone treatment as a method to degrade chlorpyrifos residues on cucumbers. It explicitly states that ozone is considered a safe and eco-friendly alternative to chemical disinfectants and preservatives, leaves no chemical residue, and breaks down into oxygen without harmful byproducts, implying safety advantages over chlorpyrifos. Therefore, aqueous ozone treatment is clearly indicated as a safer alternative to chlorpyrifos.",
+    "alternatives": "aqueous ozone",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It focuses on the degradation of chlorpyrifos on cucumbers using ozone treatment and the benefits of ozone treatment in reducing pesticide residues and microbial counts, without mentioning specific toxicity, persistence, bioaccumulation, or other hazards of chlorpyrifos."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evaluation of chlorpyrifos and Beauveria bassiana as a strategy in the Egyptian sugar beet fields: impact on Spodoptera littoralis (Boisduval) and its associated predators populations and the sugar beetroot yield",
+    "doi": "10.1186/s41938-023-00744-6",
+    "year": 2023,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract explicitly compares chlorpyrifos and Beauveria bassiana, indicating that B. bassiana slightly affects predator populations compared to insecticide-free areas, whereas chlorpyrifos significantly reduces predator populations. It recommends B. bassiana over chlorpyrifos due to lower risk to associated insect predators and improved sugar beet quality and quantity, thus presenting B. bassiana as a safer alternative to chlorpyrifos.",
+    "alternatives": "Beauveria bassiana",
+    "target_chemical_harm": {
+      "harms": [
+        "detrimental effect on Spodoptera littoralis larval population",
+        "significant reduction of associated predator populations (coccinellid, chrysopid, and formicid predators)",
+        "chemical hazards toward associated predators"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos significantly reduced the population density of the target pest and its associated predators, indicating harm to non-target beneficial insects. It also mentions chemical hazards toward associated predators, implying ecological risks. No other specific toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "detrimental effect on Spodoptera littoralis larval population, significant reduction of associated predator populations (coccinellid, chrysopid, and formicid predators), chemical hazards toward associated predators"
+  },
+  {
+    "title": "Chronic toxicity of clothianidin, imidacloprid, chlorpyrifos, and dimethoate to Apis mellifera L. larvae reared in vitro.",
+    "doi": "10.1002/ps.5124",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the chronic toxicity of clothianidin, imidacloprid, chlorpyrifos, and dimethoate on honey bee larvae. It states that chlorpyrifos treatment decreased survival, whereas clothianidin, dimethoate, and imidacloprid did not affect survival, developmental rate, or weight. This indicates that clothianidin, dimethoate, and imidacloprid have safety advantages over chlorpyrifos in this context, suggesting they could be safer alternatives.",
+    "alternatives": "clothianidin; dimethoate; imidacloprid",
+    "target_chemical_harm": {
+      "harms": [
+        "decreased survival of honey bee larvae"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos at concentrations of 0.8, 1.2, and 8 mg/L caused a significant decrease in survival of honey bee larvae compared to controls, indicating chronic toxicity. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "decreased survival of honey bee larvae"
+  },
+  {
+    "title": "Biological impacts of organophosphates chlorpyrifos and diazinon on development, mitochondrial bioenergetics, and locomotor activity in zebrafish (Danio rerio).",
+    "doi": "10.1016/j.ntt.2018.10.001",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos (CPF) and diazinon (DZN) in terms of toxicity to zebrafish embryos and finds that CPF caused higher mortality and developmental toxicity than DZN. This indicates that DZN has lower toxicity and thus safety advantages relative to CPF. Therefore, DZN can be reasonably interpreted as a safer alternative to chlorpyrifos based on the evidence presented.",
+    "alternatives": "diazinon",
+    "target_chemical_harm": {
+      "harms": [
+        "embryo mortality",
+        "decreased hatching rate",
+        "spinal lordosis (morphological deformity)",
+        "hypoactivity (reduced larval activity)",
+        "developmental toxicity"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos (CPF) caused 70-100% mortality in zebrafish embryos at higher doses, significantly decreased cumulative hatching rate, induced spinal lordosis in larvae, and caused hypoactivity after exposure. These effects indicate developmental toxicity and specific morphological and behavioral harms."
+    },
+    "CHEMICAL HARM": "embryo mortality, decreased hatching rate, spinal lordosis (morphological deformity), hypoactivity (reduced larval activity), developmental toxicity"
+  },
+  {
+    "title": "Acute toxicity of two organophosphorus pesticides to the early-life stage offlathead grey mullet, Mugil cephalus (Linnaeus, 1758)",
+    "doi": "10.56042/ijms.v50i07.34076",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the acute toxicity of chlorpyrifos (CPF) and dimethoate (DMT) to flathead grey mullet fry, showing that CPF is highly toxic (96 h LC50 = 3.45 μg/L) compared to DMT (96 h LC50 = 854.10 μg/L). This indicates that dimethoate has lower toxicity and thus a safety advantage over chlorpyrifos, suggesting it as a safer alternative.",
+    "alternatives": "dimethoate",
+    "target_chemical_harm": {
+      "harms": [
+        "acute toxicity to early-life stage fish (flathead grey mullet)"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos (CPF) has a 96 h LC50 of 3.45 μg/L for early-life stage flathead grey mullet, indicating high acute toxicity to this species."
+    },
+    "CHEMICAL HARM": "acute toxicity to early-life stage fish (flathead grey mullet)"
+  },
+  {
+    "title": "Field Evaluation of Some Insecticides on some Cowpea Pests and Their Side Effect on Associated Predator (Chrysoperla carnea, steph.).",
+    "doi": "10.21608/jppp.2017.46207",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of several insecticides including chlorpyrifos. It states that chlorpyrifos, lufenuron, and emamectin benzoate were the most toxic to the predator Chrysoperla carnea, while Kz oil and Metahrizum ansoplia were less toxic to the predator. This indicates that Kz oil and Metahrizum ansoplia have safety advantages relative to chlorpyrifos, suggesting they could be safer alternatives.",
+    "alternatives": "Kz oil; Metahrizum ansoplia",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to predator Green lacewing (C. carnea)"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos was among the most toxic insecticides to the predator Green lacewing (C. carnea). No other explicit harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to predator Green lacewing (C. carnea)"
+  },
+  {
+    "title": "Compatibility of early natural enemy introductions in commercial pepper and tomato greenhouses with repeated pesticide applications",
+    "doi": "10.1111/1744-7917.12723",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the compatibility of several pesticides with natural enemies in greenhouse crops, noting that chlorpyrifos-methyl compromises predatory activity, while other pesticides like chlorantraniliprole are compatible and harmless to beneficial predators. This indicates chlorantraniliprole as a safer alternative to chlorpyrifos-methyl in terms of preserving natural enemy activity.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "compromised predatory activity of Nesidiocoris tenuis"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos-methyl compromised the predatory activity of Nesidiocoris tenuis, indicating a harm to this natural enemy species. No other explicit harms or hazards related to chlorpyrifos are mentioned."
+    },
+    "CHEMICAL HARM": "compromised predatory activity of Nesidiocoris tenuis"
+  },
+  {
+    "title": "Effects of Some Entomopathogen Fungi on Apis mellifera L. and Bombus terrestris L.",
+    "doi": "10.19113/SDUFENBED.477889",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of entomopathogenic fungi (Beaveria bassiana, Verticillium lecanii, Metarhizium anisopliae) with chlorpyrifos-ethyl on Apis mellifera and Bombus terrestris. It reports that the fungi had very low or no negative effects on bee movement and caused minimal mortality, whereas chlorpyrifos-ethyl severely impaired movement and caused complete mortality in spray application. This clearly indicates that the fungi are safer alternatives to chlorpyrifos.",
+    "alternatives": "Beauveria bassiana; Verticillium lecanii; Metarhizium anisopliae",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to Apis mellifera (honey bees) - nearly complete inhibition of movement",
+        "toxicity to Bombus terrestris (bumble bees) - complete inhibition of movement",
+        "lethality to both bee species when applied by spraying"
+      ],
+      "rationale": "The text explicitly states that Chlorpyrifos-ethyl preparations nearly completely inhibit the movement of honey bees and bumble bees when administered orally, and cause death to all individuals of both species when applied by spraying."
+    },
+    "CHEMICAL HARM": "toxicity to Apis mellifera (honey bees) - nearly complete inhibition of movement, toxicity to Bombus terrestris (bumble bees) - complete inhibition of movement, lethality to both bee species when applied by spraying"
+  },
+  {
+    "title": "Mortality of Nymphal Instars of Anthocoris nemoralis (Heteroptera: Anthocoridae) Exposed to different Insecticides under Laboratory Conditions",
+    "doi": "10.7176/jstr/6-09-10",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares mortality rates of Anthocoris nemoralis caused by chlorpyrifos ethyl and other insecticides, noting that diflubenzuron and spinetoram cause lower mortality to this beneficial predatory insect. It suggests using diflubenzuron and spinetoram in integrated pest management due to their lower impact on the predator. This implies a safety advantage relative to chlorpyrifos for the predatory bug, indicating these as safer alternatives.",
+    "alternatives": "diflubenzuron; spinetoram",
+    "target_chemical_harm": {
+      "harms": [
+        "high mortality to predatory insect Anthocoris nemoralis (96.66% mortality in 3rd nymphal instars)"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos ethyl caused the highest mortality rate (96.66%) in the 3rd nymphal instars of the beneficial predatory bug Anthocoris nemoralis, indicating a harmful effect on non-target beneficial insects."
+    },
+    "CHEMICAL HARM": "high mortality to predatory insect Anthocoris nemoralis (96.66% mortality in 3rd nymphal instars)"
+  },
+  {
+    "title": "Evaluation of hesperidin as a potential larvicide against Culex pipiens with computational prediction of its mode of action via molecular docking",
+    "doi": "10.1038/s41598-025-85760-2",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract explicitly compares hesperidin to chlorpyrifos, showing that hesperidin has a slightly better larvicidal efficacy (LC50 570.3 µg/mL vs. 588.3 µg/mL for chlorpyrifos) and describes hesperidin as a 'promising, environmentally friendly alternative to synthetic insecticides,' implying safety advantages. Although it calls for further toxicity studies, the abstract clearly presents hesperidin as a safer alternative to chlorpyrifos.",
+    "alternatives": "hesperidin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text compares the efficacy of Hesperidin and Chlorpyrifos as insecticides but does not explicitly state any harms or hazards associated with Chlorpyrifos."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Compatibility of synthetic and biological pesticides with a biocontrol agent Phytoseiulus longipes (Acari: Phytoseiidae)",
+    "doi": "10.1007/s10493-024-00926-3",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity and persistence of several pesticides including chlorpyrifos and alternatives such as azadirachtin and Hirsutella thompsonii. It states that chlorpyrifos is highly harmful with long persistence, whereas azadirachtin and H. thompsonii are only slightly harmful and have lower persistence, indicating safety advantages. This suggests azadirachtin and H. thompsonii could be safer alternatives to chlorpyrifos.",
+    "alternatives": "azadirachtin; Hirsutella thompsonii",
+    "target_chemical_harm": {
+      "harms": [
+        "highly harmful to eggs and adults of P. longipes",
+        "high persistence (harmful effects remain high even after 31 days of application)"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos is highly harmful to both eggs and adults of the predatory mite P. longipes, with harmful effects persisting for over 31 days after application. No other specific toxicity types or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "highly harmful to eggs and adults of P. longipes, high persistence (harmful effects remain high even after 31 days of application)"
+  },
+  {
+    "title": "Contact Toxicity of Insecticides and Biopesticides to Trichogramma Chilonis Ishii. (Hymenoptera: Trichogrammatidae) under Laboratory Condition",
+    "doi": "10.21203/rs.3.rs-1091845/v1",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of various insecticides and biopesticides to Trichogramma chilonis, noting that chlorpyrifos is highly lethal while certain biopesticides (Metarhizium anisopliae, Beauveria bassiana, Metarhizium rileyi) are innocuous. It suggests these biopesticides can be used in IPM programs without harming the parasitoid, implying a safety advantage over chlorpyrifos. Therefore, these biopesticides are presented as safer alternatives to chlorpyrifos.",
+    "alternatives": "Metarhizium anisopliae; Beauveria bassiana; Metarhizium rileyi",
+    "target_chemical_harm": {
+      "harms": [
+        "highly lethal to Trichogramma chilonis adults even at sublethal doses"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos was highly lethal to adults of the hymenopteran egg parasitoid Trichogramma chilonis, indicating a harmful effect on this beneficial insect species."
+    },
+    "CHEMICAL HARM": "highly lethal to Trichogramma chilonis adults even at sublethal doses"
+  },
+  {
+    "title": "The Potential Role of Photosensitizers in Fight against Mosquitoes: Phototoxicity of Rose Bengal Against Culex Pipiens Larvae",
+    "doi": "10.21608/bmfj.2020.119556",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares rose bengal to chlorpyrifos and concludes that rose bengal could be used as an alternative to traditional insecticides, describing it as an eco-friendly larvicide. This implies a safety advantage over chlorpyrifos, supporting rose bengal as a safer alternative.",
+    "alternatives": "rose bengal",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to mosquito larvae"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos is toxic to the early 3rd larval instar of Culex pipiens, causing dose-dependent mortality up to 90.6% after 24 hours, indicating its larvicidal toxicity. No other explicit harms or hazards such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to mosquito larvae"
+  },
+  {
+    "title": "Efficacy of afidopyropen against soybean aphid (Hemiptera: Aphididae) and toxicity to natural enemies.",
+    "doi": "10.1002/ps.5525",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares afidopyropen to chlorpyrifos and other insecticides, noting that afidopyropen is effective against soybean aphid and relatively nontoxic to natural enemies, implying a safety advantage. It explicitly states afidopyropen is not toxic or only moderately toxic to beneficial insects, suggesting better safety for non-target organisms compared to chlorpyrifos, which is known as a broad-spectrum insecticide. Therefore, afidopyropen is presented as a safer alternative to chlorpyrifos.",
+    "alternatives": "afidopyropen",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only mentions chlorpyrifos as a commonly used broad spectrum insecticide for comparison, without detailing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Ultrastructure deformation of flight muscles and bioenergetics changes in honey bee workers treated with pesticides",
+    "doi": "10.21608/AJNSA.2020.21369.1315",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of two pesticides, chlorpyrifos (ictafos) and avermectin (broklen pure), on honey bee workers. It reports that chlorpyrifos caused more severe muscle damage and bioenergetic disruption than broklen pure, which caused less severe damage. This suggests broklen pure has safety advantages relative to chlorpyrifos and can be interpreted as a safer alternative.",
+    "alternatives": "avermectin (broklen pure)",
+    "target_chemical_harm": {
+      "harms": [
+        "irreversible damage to flight muscle fibers",
+        "degeneration and necrosis of sarcostyles, sarcosomes, and nuclei in bee muscle cells",
+        "significant reduction in gross energy, crude fiber, and crude protein in bees",
+        "disruption of bee bioenergetics"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos (ictafos) causes irreversible damage, degeneration, and necrosis in bee flight muscle fibers, as well as significant reductions in energy and protein content, indicating harmful effects on bee physiology."
+    },
+    "CHEMICAL HARM": "irreversible damage to flight muscle fibers, degeneration and necrosis of sarcostyles, sarcosomes, and nuclei in bee muscle cells, significant reduction in gross energy, crude fiber, and crude protein in bees, disruption of bee bioenergetics"
+  },
+  {
+    "title": "EFFECT OF RESIDUAL TOXICITY OF SELECTED INSECTICIDES TO THE MALAYSIAN STINGLESS BEE HETEROTRIGONA ITAMA",
+    "doi": "10.24191/ba/v3i1/34430",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of four insecticides including chlorpyrifos and states that deltamethrin has higher LC50 and LC95 values, indicating it is less toxic to the stingless bee Heterotrigona itama than chlorpyrifos. This suggests deltamethrin may be a safer alternative to chlorpyrifos in terms of toxicity to this bee species.",
+    "alternatives": "deltamethrin",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to stingless bee forager workers",
+        "indirect toxicity effect leading to mortality in Heterotrigona itama"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos, among other insecticides, is harmful to the stingless bee species Heterotrigona itama, causing mortality through residual exposure. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to stingless bee forager workers, indirect toxicity effect leading to mortality in Heterotrigona itama"
+  },
+  {
+    "title": "Efficacy and Residual Effect of Abamectin and Chlorpyrifos-Methyl against the Second Larval Instar of the Cotton Leafworm, Spodoptera littoralis (BOISD.) Under Field and Semi-Field Condition",
+    "doi": "10.21608/JPPP.2021.149514",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares abamectin and chlorpyrifos-methyl, showing that abamectin has a shorter toxic residue period and a less severe negative impact on beneficial predators compared to chlorpyrifos-methyl, which caused 100% reduction of predators within 96 hours. This indicates abamectin is safer for beneficial arthropods and reduces pre-harvest interval, suggesting it as a safer alternative to chlorpyrifos-methyl.",
+    "alternatives": "abamectin",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic residues persistence (up to approximately 16-18 days)",
+        "negative impact on beneficial predators (100% reduction within 96 hours post application, increasing reduction up to day 13)"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos-methyl residues persist for about 16.77 to 18.39 days after application and that it causes a 100% reduction in the population of beneficial predators within 96 hours, with the reduction increasing until day 13, indicating significant harm to non-target beneficial arthropods."
+    },
+    "CHEMICAL HARM": "toxic residues persistence (up to approximately 16-18 days), negative impact on beneficial predators (100% reduction within 96 hours post application, increasing reduction up to day 13)"
+  },
+  {
+    "title": "Ozone Treatment as a Green Technology for Removing Chlorpyrifos Residues from Vegetables and Its Impact on the Quality of Vegetables",
+    "doi": "10.1080/01919512.2024.2404060",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract presents ozonated water treatment as a green technology to remove chlorpyrifos residues from vegetables. It highlights that this method does not produce the more toxic chlorpyrifos-oxon and does not adversely affect vegetable quality, implying a safety advantage. Therefore, ozonated water is indicated as a safer alternative for eliminating chlorpyrifos residues.",
+    "alternatives": "ozonated water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with chlorpyrifos. It mentions that chlorpyrifos residues are common on vegetables and that chlorpyrifos-oxon is more toxic than chlorpyrifos, but does not explicitly list harms or hazards of chlorpyrifos itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparison of Mating Disruption and Insecticide Application for Control of Peachtree Borer and Lesser Peachtree Borer (Lepidoptera: Sesiidae) in Peach",
+    "doi": "10.3390/insects11100658",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract explicitly states that mating disruption, which uses synthetic sex pheromones, can provide growers with an effective non-chemical alternative to chlorpyrifos trunk sprays. This indicates a safer alternative since it is non-chemical and is presented as a replacement for chlorpyrifos. The abstract contrasts mating disruption with chlorpyrifos and highlights it as an alternative method of control.",
+    "alternatives": "synthetic sex pheromones",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with chlorpyrifos. It only mentions its use as an organophosphate insecticide and regulatory review by the US-EPA, without detailing specific toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Sublethal and transgenerational effects of synthetic insecticides on the biological parameters and functional response of Coccinella septempunctata (Coleoptera: Coccinellidae) under laboratory conditions",
+    "doi": "10.3389/fphys.2023.1088712",
+    "year": 2023,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the effects of six insecticides including chlorpyrifos and states that imidacloprid and thiamethoxam exhibited less deleterious effects on the fitness and population parameters of the beetles than chlorpyrifos. This suggests a relative safety advantage of imidacloprid and thiamethoxam over chlorpyrifos, indicating they could be considered safer alternatives.",
+    "alternatives": "imidacloprid; thiamethoxam",
+    "target_chemical_harm": {
+      "harms": [
+        "sublethal toxicity to beneficial insects",
+        "suppression of adult emergence",
+        "reduced adult weight",
+        "decreased fertility and fecundity",
+        "prolonged larval stage",
+        "decreased oviposition",
+        "decreased total longevity",
+        "reduced intrinsic rate of increase",
+        "reduced finite rate of increase",
+        "reduced net reproductive rate",
+        "decreased predation rate in progeny"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos at sublethal doses causes multiple harmful effects on the seven-spotted ladybeetle, including reduced emergence, weight, fertility, fecundity, longevity, and predation rate, as well as negative transgenerational effects on population parameters."
+    },
+    "CHEMICAL HARM": "sublethal toxicity to beneficial insects, suppression of adult emergence, reduced adult weight, decreased fertility and fecundity, prolonged larval stage, decreased oviposition, decreased total longevity, reduced intrinsic rate of increase, reduced finite rate of increase, reduced net reproductive rate, decreased predation rate in progeny"
+  },
+  {
+    "title": "Area wide management of white grub Holotrichia consanguinea Blachard through IPM modules in groundnut",
+    "doi": "10.31254/phyto.2021.10313",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares two eco-friendly IPM modules with farmers' practices involving chlorpyrifos. Module II, which uses Metarhizium anisopliae instead of chlorpyrifos, showed better outcomes in terms of plant mortality, grub density, yield, and economic returns. The abstract describes these modules as eco-friendly and implies a safer approach by replacing chlorpyrifos with a biological agent, Metarhizium anisopliae, indicating a safer alternative.",
+    "alternatives": "Metarhizium anisopliae",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text describes the use of chlorpyrifos in agricultural pest management and compares different modules for effectiveness and yield. It does not explicitly state any harms or hazards related to chlorpyrifos such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Corticosterone primes the neuroinflammatory response to Gulf War Illness‐relevant organophosphates independently of acetylcholinesterase inhibition",
+    "doi": "10.1111/jnc.14071",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos oxon (CPO) and diisopropyl fluorophosphate (DFP), both irreversible acetylcholinesterase inhibitors, with reversible inhibitors pyridostigmine bromide (PB) and physostigmine (PHY). It reports that CPO and DFP cause neuroinflammation, while PB and PHY do not, even with corticosterone pretreatment. This indicates that PB and PHY have safety advantages regarding neuroinflammation compared to chlorpyrifos oxon, suggesting they could be safer alternatives.",
+    "alternatives": "pyridostigmine bromide; physostigmine",
+    "target_chemical_harm": {
+      "harms": [
+        "neuroinflammation",
+        "activation of neuroinflammation signal transducer STAT3",
+        "irreversible acetylcholinesterase inhibition",
+        "exacerbation of neuroinflammation by stress hormone corticosterone"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos oxon (CPO), an active metabolite of chlorpyrifos, causes cortical and hippocampal neuroinflammation and activation of STAT3 in mice. It also notes that CPO is an irreversible acetylcholinesterase inhibitor and that pretreatment with corticosterone markedly augments these neuroinflammatory effects. These points indicate neuroinflammation and related neuroimmune activation as explicit harms associated with chlorpyrifos exposure in this model."
+    },
+    "CHEMICAL HARM": "neuroinflammation, activation of neuroinflammation signal transducer STAT3, irreversible acetylcholinesterase inhibition, exacerbation of neuroinflammation by stress hormone corticosterone"
+  },
+  {
+    "title": "TOXICIDAD AGUDA DEL MALATION 500® Y TYSON 4E® EN Capitella sp.",
+    "doi": "10.20937/RICA.2019.35.03.04",
+    "year": 2019,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of Malation 500® (malathion) and Tyson 4E® (chlorpyrifos ethyl) and finds that Malation 500® is less toxic (LC50 27.79 mg/L) than Tyson 4E® (LC50 7.46 mg/L). Malation 500® is classified as slightly toxic while Tyson 4E® is moderately toxic, indicating a safety advantage of Malation 500® over chlorpyrifos ethyl. This suggests Malation 500® could be considered a safer alternative to chlorpyrifos.",
+    "alternatives": "malathion",
+    "target_chemical_harm": {
+      "harms": [
+        "moderate toxicity to Capitella sp."
+      ],
+      "rationale": "The text explicitly states that the product containing chlorpyrifos ethyl (Tyson 4E ®) was classified as moderately toxic to the test organism Capitella sp., with an LC50 of 7.46 ± 1.59 mg/L. No other explicit harms or hazards such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "moderate toxicity to Capitella sp."
+  },
+  {
+    "title": "The Toxic Effect of some Bio Insecticides on Honey Bee Foraging Workers التأثير السمى لبعض المبيدات الحشرية الحيوية على شغالات نحل العسل",
+    "doi": "10.21608/jppp.2021.210238",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of chlorpyrifos with other insecticides including orange oil, stating that chlorpyrifos caused the highest mortality (96% oral, 50% contact) while orange oil caused the lowest mortality (50% oral LC50 at 25 ppm, 4% contact mortality). This indicates orange oil has a safety advantage in terms of lower toxicity to honeybee foragers, suggesting it as a safer alternative to chlorpyrifos.",
+    "alternatives": "orange oil",
+    "target_chemical_harm": {
+      "harms": [
+        "oral toxicity to honeybee foragers",
+        "contact toxicity to honeybee foragers",
+        "high mortality in honeybee foragers"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos caused high oral and contact toxicity to honeybee foragers, with LC50 values indicating high toxicity and mortality percentages up to 96% and 50%, respectively."
+    },
+    "CHEMICAL HARM": "oral toxicity to honeybee foragers, contact toxicity to honeybee foragers, high mortality in honeybee foragers"
+  },
+  {
+    "title": "Cytotoxicity Assessment of Chlorpyrifos and Azadirachtin through Allium cepa Assay",
+    "doi": "10.60151/envec/spfh4223",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the cytotoxic effects of Chlorpyrifos and Azadirachtin, showing that Azadirachtin, a natural pesticide, has minimal toxicity compared to the significant toxicity of Chlorpyrifos. It explicitly suggests that farmers should prioritize organic pesticides like neem oil (source of Azadirachtin) over chemical pesticides such as Chlorpyrifos to reduce environmental and genetic harm, indicating Azadirachtin as a safer alternative.",
+    "alternatives": "Azadirachtin",
+    "target_chemical_harm": {
+      "harms": [
+        "cytotoxicity",
+        "impeded seed germination",
+        "reduced primary root length",
+        "diminished seedling survival",
+        "decreased mitotic index",
+        "chromosomal abnormalities including chromosomal stickiness, chromosome fragmentation, univalents and trivalents, anaphase and telophase bridges, unequal second meiotic divisions, lagging chromosomes",
+        "potential genetic harm to crops",
+        "toxicity increasing with concentration"
+      ],
+      "rationale": "The reasoning explicitly states that Chlorpyrifos (Kemtrek) exhibits cytotoxic effects, impedes seed germination, reduces root length, diminishes seedling survival, decreases mitotic index, and induces various chromosomal abnormalities, indicating genetic harm. These harms are directly mentioned in the text."
+    },
+    "CHEMICAL HARM": "cytotoxicity, impeded seed germination, reduced primary root length, diminished seedling survival, decreased mitotic index, chromosomal abnormalities including chromosomal stickiness, chromosome fragmentation, univalents and trivalents, anaphase and telophase bridges, unequal second meiotic divisions, lagging chromosomes, potential genetic harm to crops, toxicity increasing with concentration"
+  },
+  {
+    "title": "The Relative Potency of some Pesticides against Cotton Leafworm, Spodoptera littoralis (Boisd.) and their Side Effect on the Natural Enemy, Chrysoperla carnea (Stephens)",
+    "doi": "10.21608/JPPP.2021.157399",
+    "year": 2021,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of several pesticides including chlorpyrifos and biopesticides. It states that biopesticides have lower toxicity to the natural enemy Chrysoperla carnea compared to chemical pesticides like chlorpyrifos, indicating a safety advantage. The study recommends using biopesticides to preserve natural enemies and the environment, implying they are a safer alternative to chlorpyrifos.",
+    "alternatives": "biopesticides",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to Spodoptera littoralis larvae",
+        "toxicity to Chrysoperla carnea larvae",
+        "higher toxicity to natural enemy C. carnea compared to target pest S. littoralis"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos has toxicity against both the pest S. littoralis and the natural enemy C. carnea larvae, with toxicity to C. carnea being higher than to S. littoralis. No other specific harms or hazards such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to Spodoptera littoralis larvae, toxicity to Chrysoperla carnea larvae, higher toxicity to natural enemy C. carnea compared to target pest S. littoralis"
+  },
+  {
+    "title": "Toxicity of selected plant-derived pesticides to the citrus spider mites (Acari: Tetranychidae) and their predator, Stethorus gilvifrons, in the semi-field conditions",
+    "doi": "10.1080/01647954.2020.1866664",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the mortality rates of citrus spider mites and their predator caused by various treatments including chlorpyrifos-ethyl and plant-derived pesticides. It states that the herbal treatments (e.g., Tondexir + Bartar soap) have high efficacy against mites and significantly lower mortality on the predator (16.13%) compared to chlorpyrifos-ethyl (100%), indicating a safety advantage. It concludes that herbal treatments can replace high-risk chemical pesticides like chlorpyrifos-ethyl, implying they are safer alternatives.",
+    "alternatives": "herbal treatments",
+    "target_chemical_harm": {
+      "harms": [
+        "high mortality to ladybird predators (100% mortality)",
+        "toxicity to natural enemies (predators) of citrus spider mites"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos-ethyl treatment caused 100% mortality in ladybird predators, indicating its high toxicity to beneficial natural enemies in the ecosystem."
+    },
+    "CHEMICAL HARM": "high mortality to ladybird predators (100% mortality), toxicity to natural enemies (predators) of citrus spider mites"
+  },
+  {
+    "title": "Selectivity and Sublethal Effects of Botanical Extracts to Pupae of Trichogramma pretiosum Riley, 1879 (Hymenoptera: Trichogrammatidae)",
+    "doi": "10.9734/jeai/2020/v42i930594",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares botanical extracts to chlorpyrifos in terms of effects on Trichogramma pretiosum pupae, using chlorpyrifos as a positive control. It states that the botanical extracts are innocuous or slightly harmful, with some sublethal effects, while chlorpyrifos is implied to be more harmful. Rosmarinus officinalis extract is noted as selective and not causing mortality, suggesting a safety advantage. Therefore, the abstract explicitly presents botanical extracts, particularly Rosmarinus officinalis, as safer alternatives to chlorpyrifos.",
+    "alternatives": "Rosmarinus officinalis extract; botanical extracts",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only mentions chlorpyrifos as a positive control in the experiment without describing its toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of plant diversification on pest abundance and tomato yields in two cropping systems in Burkina Faso: farmer practices and integrated pest management",
+    "doi": "10.4314/IJBCS.V12I1.8",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares Integrated Pest Management (IPM) practices involving tomato crop associations with basil, garlic, or onion to usual farmer practices that include chlorpyrifos-ethyl. It notes that no pesticide residues, including chlorpyrifos, were detected in IPM samples, while chlorpyrifos-ethyl residues exceeded the maximum residue limit in farmer practices. This suggests that the IPM approach, particularly the tomato-onion association, is a safer alternative to chlorpyrifos-ethyl use due to the absence of harmful residues and better protection of fruits.",
+    "alternatives": "Integrated Pest Management (IPM)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text mentions that chlorpyrifos-ethyl residues were detected above the Maximum Residue Limit in tomatoes, but it explicitly states there is no acute intoxication risk for consumers based on Predictable Short Term Intake calculations. No other explicit harms or hazards related to chlorpyrifos are stated."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "In vitro comparative toxicity of chemical insecticides and botanicals against ladybird beetle (Micraspis discolor F.) in Nepal",
+    "doi": "10.26832/24566632.2025.1001018",
+    "year": 2025,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of chlorpyrifos + cypermethrin with other substances and finds that garlic extract caused significantly lower mortality (54%) than chlorpyrifos + cypermethrin (86%), indicating it is safer for the beneficial insect Micraspis discolor. It explicitly highlights botanical extracts as safer alternatives for pest management, suggesting garlic extract as a safer alternative to chlorpyrifos-containing insecticides.",
+    "alternatives": "garlic extract; botanical extracts",
+    "target_chemical_harm": {
+      "harms": [
+        "high mortality to beneficial insects (Micraspis discolor)",
+        "disruption of natural enemy populations"
+      ],
+      "rationale": "The text explicitly states that Chlorpyrifos 50% EC + Cypermethrin 5% EC caused the highest mortality (86%) to the beneficial insect Micraspis discolor after 72 hours, indicating toxicity to beneficial insects and disruption of natural enemy populations."
+    },
+    "CHEMICAL HARM": "high mortality to beneficial insects (Micraspis discolor), disruption of natural enemy populations"
+  },
+  {
+    "title": "Effect of chlorpyrifos and carbofuran on morphology, behavior and acetylcholinesterase activity of earthworm (Eisenia fetida)",
+    "doi": "10.56093/ijas.v90i10.107887",
+    "year": 2020,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares chlorpyrifos and carbofuran, showing that chlorpyrifos is more toxic and a more potent inhibitor of acetylcholinesterase activity in earthworms than carbofuran. This indicates that carbofuran has lower toxicity and thus safety advantages relative to chlorpyrifos, suggesting it as a safer alternative.",
+    "alternatives": "carbofuran",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to soil fauna (earthworms)",
+        "morphological abnormalities (excessive mucus secretion, depigmentation, deformity, loss of metameric segments, damaged clitellum)",
+        "behavioral alterations (reduced activity, sluggish movements, flattened posture, restlessness, jerky movements, avoidance behavior)",
+        "acetylcholinesterase (AChE) inhibition leading to neurotoxicity",
+        "potential health risk at high concentrations"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos causes toxic effects on earthworms including morphological changes, behavioral alterations, and significant inhibition of AChE activity, indicating neurotoxicity and potential health risks at high concentrations."
+    },
+    "CHEMICAL HARM": "toxicity to soil fauna (earthworms), morphological abnormalities (excessive mucus secretion, depigmentation, deformity, loss of metameric segments, damaged clitellum), behavioral alterations (reduced activity, sluggish movements, flattened posture, restlessness, jerky movements, avoidance behavior), acetylcholinesterase (AChE) inhibition leading to neurotoxicity, potential health risk at high concentrations"
+  },
+  {
+    "title": "Mealybug vectors: A review of their transmission of plant viruses and their management strategies",
+    "doi": "10.3934/agrfood.2023040",
+    "year": 2023,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract mentions that biological control methods, such as using Anagyrus species and plant products like neem oil, are environmentally friendly and safe compared to chemical methods including chlorpyrifos. It explicitly states that biological control is safe and highly recommended, implying a safety advantage over chlorpyrifos as an insecticide for mealybug control.",
+    "alternatives": "neem oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to chlorpyrifos. It only mentions chlorpyrifos as an active ingredient in insecticides effective against mealybugs, without detailing any toxicity, environmental persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Selectivity of insecticides used in soybean crop to the predator Podisus nigrispinus (Hemiptera: Pentatomidae)",
+    "doi": "10.5433/1679-0359.2017V38N6P3469",
+    "year": 2017,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity of various insecticides to the predator Podisus nigrispinus, noting that chlorpyrifos is among the most harmful (class 4). It identifies spinosyns (spinosad and spinetoram) and diamides (flubendiamide and chlorantraniliprole) as the most selective and less harmful (class 1 and 2) alternatives for both nymphs and adults, implying a safety advantage over chlorpyrifos.",
+    "alternatives": "spinosad; spinetoram; flubendiamide; chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful to nymph and adult predators of Podisus nigrispinus (class 4 classification)"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos, an organophosphate, was classified as a class 4 harmful insecticide for both nymph and adult predators of Podisus nigrispinus, indicating its toxicity to these beneficial insects."
+    },
+    "CHEMICAL HARM": "harmful to nymph and adult predators of Podisus nigrispinus (class 4 classification)"
+  },
+  {
+    "title": "Impact of Synthetic Insecticides Against Aphis Gossypii Glover, Bemisia Tabaci (Genn.) and Their Associated Predators on Cotton Plants",
+    "doi": "10.21608/ASEJAIQJSAE.2018.21865",
+    "year": 2018,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares flonicamid, imidacloprid, and dinotefuran with chlorpyrifos and states that these three insecticides have less harmful effects on predator populations than chlorpyrifos, an organophosphate. This indicates a safety advantage in terms of ecological impact, suggesting they are safer alternatives to chlorpyrifos for pest control in cotton fields.",
+    "alternatives": "flonicamid; imidacloprid; dinotefuran",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful effect on populations of tested predators"
+      ],
+      "rationale": "The text explicitly states that chlorpyrifos, as an organophosphate, has a more harmful effect on populations of tested predators compared to flonicamid, imidacloprid, and dinotefuran."
+    },
+    "CHEMICAL HARM": "harmful effect on populations of tested predators"
+  },
+  {
+    "title": "Integrated management of citrus leafminer in the nursery",
+    "doi": "10.5455/faa.209114",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares several treatments including chlorpyrifos and alternatives such as sanitation alone and sanitation combined with Spinosad. It states that sanitation alone or combined with Spinosad harmed the beneficial ladybird beetle less than other treatments, implying a safety advantage. The abstract recommends sanitation or sanitation plus Spinosad as management options, indicating these as safer alternatives to chlorpyrifos.",
+    "alternatives": "Spinosad",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that citrus growers conventionally spray different chemicals, including chlorpyrifos, which negatively impact their environment and health. However, no explicit harms or hazards specific to chlorpyrifos are stated in the text."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Toxicity of nine insecticides on four natural enemies of Spodoptera exigua",
+    "doi": "10.1038/srep39060",
+    "year": 2016,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract compares the toxicity and risk duration of several insecticides including chlorpyrifos. It states that chlorpyrifos showed dangerously toxic and long risk duration on certain natural enemies, while emamectin benzoate, spinosad, and chlorantraniliprole showed no toxicity or higher safety with shorter risk durations. This indicates these substances have safety advantages over chlorpyrifos and can be reasonably interpreted as safer alternatives.",
+    "alternatives": "emamectin benzoate; spinosad; chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to S. manilae adults",
+        "toxicity to T. remus adults",
+        "long risk duration on S. manilae adults",
+        "long risk duration on T. remus adults"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyrifos showed dangerously toxic effects and long risk duration on S. manilae and T. remus adults."
+    },
+    "CHEMICAL HARM": "toxicity to S. manilae adults, toxicity to T. remus adults, long risk duration on S. manilae adults, long risk duration on T. remus adults"
+  },
+  {
+    "title": "The Impact of Pesticide Residues on Soil Health for Sustainable Vegetable Production in Arid Areas",
+    "doi": "10.3390/separations11020046",
+    "year": 2024,
+    "target": "chlorpyrifos",
+    "reasoning": "The abstract mentions that Chlorpyrifos and Chlorpyrifos-methyl require policy guidelines to limit their use to ensure sustainability, implying concerns about their safety. It also lists several other pesticides (e.g., Bromoxynil, Pendimetholin, Diclofop-methyl, Resmethrin, Methidathion, Ethoprophos, etc.) that can be used safely to maintain sustainable soils and water resources. This suggests these substances are presented as safer alternatives to Chlorpyrifos in this context.",
+    "alternatives": "Bromoxynil; Pendimetholin; Diclofop-methyl; Resmethrin; Methidathion; Ethoprophos",
+    "target_chemical_harm": {
+      "harms": [
+        "soil pollution",
+        "adverse impacts on human health",
+        "adverse impacts on the environment",
+        "require policy guidelines to limit use to ensure sustainability"
+      ],
+      "rationale": "The reasoning text explicitly states that chlorpyrifos is detected in soils and requires policy guidelines to limit its use to ensure sustainability, implying potential harms. It also mentions that agrochemical residues, including chlorpyrifos, cause prolonged soil pollution and may cause adverse impacts on human health and the environment. No specific toxicity types or other hazards are detailed."
+    },
+    "CHEMICAL HARM": "soil pollution, adverse impacts on human health, adverse impacts on the environment, require policy guidelines to limit use to ensure sustainability"
+  }
+]

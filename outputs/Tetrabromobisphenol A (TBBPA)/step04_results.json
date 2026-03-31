@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Genotoxic Mechanism of Action of TBBPA, TBBPS and Selected Bromophenols in Human Peripheral Blood Mononuclear Cells",
+    "doi": "10.3389/fimmu.2022.869741",
+    "year": 2022,
+    "target": "Tetrabromobisphenol A (TBBPA)",
+    "reasoning": "The abstract compares the genotoxic effects of TBBPA and TBBPS, showing that TBBPS caused the smallest DNA damage and that cells were able to completely repair DNA damage only in the case of TBBPS. This indicates a safety advantage of TBBPS over TBBPA in terms of genotoxicity, suggesting TBBPS as a safer alternative.",
+    "alternatives": "Tetrabromobisphenol S (TBBPS)",
+    "target_chemical_harm": {
+      "harms": [
+        "DNA damage (single and double strand breaks)",
+        "Oxidative damage to pyrimidines and purines",
+        "Potential genotoxicity",
+        "Indirect DNA damage via reactive oxygen species (ROS) and other reactive species"
+      ],
+      "rationale": "The reasoning explicitly states that TBBPA induced single and double strand DNA breaks and caused oxidative damage to DNA bases in human peripheral blood mononuclear cells. It also mentions potential genotoxic effects and that the damage is likely caused by indirect DNA-damaging agents such as ROS."
+    },
+    "CHEMICAL HARM": "DNA damage (single and double strand breaks), Oxidative damage to pyrimidines and purines, Potential genotoxicity, Indirect DNA damage via reactive oxygen species (ROS) and other reactive species"
+  },
+  {
+    "title": "Evaluation of the Effect of Selected Brominated Flame Retardants on Human Serum Albumin and Human Erythrocyte Membrane Proteins",
+    "doi": "10.3390/ijms21113926",
+    "year": 2020,
+    "target": "Tetrabromobisphenol A (TBBPA)",
+    "reasoning": "The abstract compares the effects of several brominated flame retardants including TBBPA and TBBPS on human proteins. It explicitly states that TBBPA caused the strongest oxidation and structural impairment, while TBBPS had the weakest oxidative effect and did not affect the secondary structure of HSA, indicating a safety advantage. Therefore, TBBPS can be reasonably interpreted as a safer alternative to TBBPA.",
+    "alternatives": "Tetrabromobisphenol S (TBBPS)",
+    "target_chemical_harm": {
+      "harms": [
+        "oxidation of red blood cell membrane proteins",
+        "oxidation of human serum albumin protein",
+        "reduction of fluorescence of tryptophan in proteins",
+        "impairment of the α-helix structure of albumin"
+      ],
+      "rationale": "The reasoning explicitly states that TBBPA caused the strongest oxidation of red blood cell membrane proteins and human serum albumin, reduced fluorescence of tryptophan in these proteins, and changed albumin conformation leading to impairment of the α-helix structure."
+    },
+    "CHEMICAL HARM": "oxidation of red blood cell membrane proteins, oxidation of human serum albumin protein, reduction of fluorescence of tryptophan in proteins, impairment of the α-helix structure of albumin"
+  },
+  {
+    "title": "An In Vitro Comparative Study of the Effects of Tetrabromobisphenol A and Tetrabromobisphenol S on Human Erythrocyte Membranes—Changes in ATP Level, Perturbations in Membrane Fluidity, Alterations in Conformational State and Damage to Proteins",
+    "doi": "10.3390/ijms22179443",
+    "year": 2021,
+    "target": "Tetrabromobisphenol A (TBBPA)",
+    "reasoning": "The abstract compares TBBPA and TBBPS, noting that TBBPA causes changes in the erythrocyte membrane at lower concentrations than TBBPS at occupational exposure levels, implying TBBPS has a lower impact/toxicity. It explicitly states TBBPS is used as an alternative to TBBPA due to toxicity concerns. This suggests TBBPS is a safer alternative to TBBPA.",
+    "alternatives": "Tetrabromobisphenol S (TBBPS)",
+    "target_chemical_harm": {
+      "harms": [
+        "potential toxicity",
+        "changes in erythrocyte membrane fluidity",
+        "conformational changes to membrane proteins",
+        "thiol group elevation",
+        "decreases in ATP levels in cells",
+        "changes in size and shape of red blood cells",
+        "effects observed at occupational exposure levels"
+      ],
+      "rationale": "The text explicitly states that TBBPA has potential toxicity and causes specific cellular and membrane changes in red blood cells, including increased membrane fluidity, protein conformational changes, thiol group elevation, decreased ATP levels, and morphological changes, with effects occurring at occupational exposure levels."
+    },
+    "CHEMICAL HARM": "potential toxicity, changes in erythrocyte membrane fluidity, conformational changes to membrane proteins, thiol group elevation, decreases in ATP levels in cells, changes in size and shape of red blood cells, effects observed at occupational exposure levels"
+  }
+]

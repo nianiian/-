@@ -1,0 +1,1986 @@
+{
+  "target": "formaldehyde",
+  "total_records": 88,
+  "statistics": {
+    "extracted": 24,
+    "partial_data": 1,
+    "partial_with_calculation": 0,
+    "insufficient_data": 9,
+    "not_found": 0,
+    "irrelevant": 54
+  },
+  "records_with_dosage": [
+    {
+      "title": "PARTICLEBOARDS PRODUCED WITH EPOXY INK WASTE AND BTH POLYMER AS ADHESIVES",
+      "doi": "10.1590/1809-4430-ENG.AGRIC.V38N5P797-804/2018",
+      "alternative": [
+        "epoxy ink waste",
+        "BTH polymer"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (414286 bytes)",
+      "substitution_logic": {
+        "target_problem": "replacement of urea-formaldehyde adhesive in particleboard production",
+        "traditional_material_replaced": "urea-formaldehyde adhesive",
+        "alternative_solution": "epoxy ink waste and BTH polymer",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "epoxy ink waste",
+          "value": "10 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used as an adhesive in particleboard production"
+        },
+        {
+          "material": "epoxy ink waste",
+          "value": "20 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used as an adhesive in particleboard production"
+        },
+        {
+          "material": "BTH polymer",
+          "value": "10 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 2",
+          "context": "used as an adhesive in particleboard production"
+        },
+        {
+          "material": "BTH polymer",
+          "value": "20 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 2",
+          "context": "used as an adhesive in particleboard production"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "pressing_temperature",
+          "value": "180 °C",
+          "evidence_location": "Table 1",
+          "context": "temperature used for pressing particleboards with epoxy ink waste"
+        },
+        {
+          "parameter": "pressing_temperature",
+          "value": "190 °C",
+          "evidence_location": "Table 1",
+          "context": "temperature used for pressing particleboards with epoxy ink waste"
+        },
+        {
+          "parameter": "pressing_temperature",
+          "value": "140 °C",
+          "evidence_location": "Table 2",
+          "context": "temperature used for pressing particleboards with BTH polymer"
+        },
+        {
+          "parameter": "pressing_temperature",
+          "value": "160 °C",
+          "evidence_location": "Table 2",
+          "context": "temperature used for pressing particleboards with BTH polymer"
+        },
+        {
+          "parameter": "pressing_time",
+          "value": "5 min",
+          "evidence_location": "Table 1",
+          "context": "time used for pressing particleboards with epoxy ink waste"
+        },
+        {
+          "parameter": "pressing_time",
+          "value": "10 min",
+          "evidence_location": "Table 1",
+          "context": "time used for pressing particleboards with epoxy ink waste"
+        },
+        {
+          "parameter": "pressing_time",
+          "value": "5 min",
+          "evidence_location": "Table 2",
+          "context": "time used for pressing particleboards with BTH polymer"
+        },
+        {
+          "parameter": "pressing_time",
+          "value": "10 min",
+          "evidence_location": "Table 2",
+          "context": "time used for pressing particleboards with BTH polymer"
+        },
+        {
+          "parameter": "pressure",
+          "value": "4 MPa",
+          "evidence_location": "Table 1",
+          "context": "pressure used for pressing particleboards"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "perpendicular_tensile_strength",
+          "metric_value": "1.46 MPa",
+          "comparison_baseline": "minimum requirements of ABNT NBR 14810:3"
+        },
+        {
+          "metric_name": "pullout_strength_face",
+          "metric_value": "800 N",
+          "comparison_baseline": "minimum values recommended by Standard Codes"
+        },
+        {
+          "metric_name": "pullout_strength_top",
+          "metric_value": "450 N",
+          "comparison_baseline": "minimum values recommended by Standard Codes"
+        },
+        {
+          "metric_name": "modulus_of_rupture",
+          "metric_value": "11 MPa",
+          "comparison_baseline": "minimum values required for Standard Codes"
+        },
+        {
+          "metric_name": "modulus_of_elasticity",
+          "metric_value": "1215 MPa",
+          "comparison_baseline": "minimum values required for Standard Codes"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Glucose-lignin-based phenolic resin: an environmentally friendly low-formaldehyd",
+      "doi": "10.1108/prt-12-2022-0150",
+      "alternative": [
+        "lignin"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (205270 bytes)",
+      "substitution_logic": {
+        "target_problem": "high formaldehyde content in wood adhesives",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "lignin",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "lignin",
+          "value": "15 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Findings section",
+          "context": "amount of lignin used to replace formaldehyde in the adhesive formulation"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "curing_temperature",
+          "value": "decreased by 13.08%",
+          "evidence_location": "Practical implications section",
+          "context": "improvement in curing temperature due to the addition of glucose"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "bonding_strength",
+          "value": "0.96 MPa",
+          "evidence_location": "Findings section",
+          "context": "bonding strength of LPF after lignin substitution"
+        },
+        {
+          "property": "bonding_strength",
+          "value": "1.19 MPa",
+          "evidence_location": "Findings section",
+          "context": "bonding strength of GLPF after glucose addition"
+        },
+        {
+          "property": "free phenol content",
+          "value": "1.17%",
+          "evidence_location": "Findings section",
+          "context": "free phenol content of GLPF after modification"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "bonding_strength_increase_LPF",
+          "metric_value": "21.9%",
+          "comparison_baseline": "0.75 MPa"
+        },
+        {
+          "metric_name": "bonding_strength_increase_GLPF",
+          "metric_value": "19.3%",
+          "comparison_baseline": "LPF"
+        },
+        {
+          "metric_name": "free_phenol_content_reduction",
+          "metric_value": "79.11%",
+          "comparison_baseline": "5.60%"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Potassium-Promoted Three-Dimensional Mesoporous Pt/MnO2 for Formaldehyde Elimina",
+      "doi": "10.52568/000638",
+      "alternative": [
+        "K-Pt/MnO2"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "improving formaldehyde oxidation activity at low temperatures",
+        "traditional_material_replaced": "conventional catalysts for formaldehyde oxidation",
+        "alternative_solution": "K-Pt/MnO2 catalyst",
+        "relationship_type": "catalyst_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "K2CO3",
+          "value": "0.22 g",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Experimental Section",
+          "context": "added to prepare K-Pt/MnO2 catalyst"
+        },
+        {
+          "material": "PtCl4",
+          "value": "0.0154 mmol",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Experimental Section",
+          "context": "added to prepare Pt/MnO2 catalyst"
+        },
+        {
+          "material": "H2O2",
+          "value": "22.7 ml",
+          "ratio_type": "concentration",
+          "evidence_location": "Experimental Section",
+          "context": "added during the preparation of K/MnO2 catalyst"
+        },
+        {
+          "material": "MnO2",
+          "value": "60 mg",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Catalytic activity tests",
+          "context": "amount of catalyst used in the reaction"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "calcination_temperature",
+          "value": "500 °C",
+          "evidence_location": "Experimental Section",
+          "context": "calcination step for K-Pt/MnO2 preparation"
+        },
+        {
+          "parameter": "reaction_time",
+          "value": "70 h",
+          "evidence_location": "Results and Discussion",
+          "context": "duration of the catalytic activity test"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "0 °C",
+          "evidence_location": "Catalytic activity tests",
+          "context": "temperature at which formaldehyde oxidation was tested"
+        },
+        {
+          "parameter": "GHSV",
+          "value": "50000 ml/(g·h)",
+          "evidence_location": "Catalytic activity tests",
+          "context": "space velocity during the reaction"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "surface_area",
+          "value": "41 m²/g",
+          "evidence_location": "Table-1",
+          "context": "BET surface area of K-Pt/MnO2"
+        },
+        {
+          "property": "pore_diameter",
+          "value": "2.7 nm",
+          "evidence_location": "Table-1",
+          "context": "pore diameter of K-Pt/MnO2"
+        },
+        {
+          "property": "Mn3+/Mn4+ ratio",
+          "value": "1.1",
+          "evidence_location": "Table-2",
+          "context": "determined by XPS measurement"
+        },
+        {
+          "property": "Oads/Olatt ratio",
+          "value": "1.6",
+          "evidence_location": "Table-2",
+          "context": "determined by XPS measurement"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "formaldehyde_oxidation_activity",
+          "metric_value": "71766.62 mol·m-2·s-1",
+          "comparison_baseline": "compared to other catalysts"
+        },
+        {
+          "metric_name": "catalytic_stability",
+          "metric_value": "70 h",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "The Potential of Aloe Vera as Formalin Reductor in Formalyzed Javanese Chicken M",
+      "doi": "10.53342/pharmasci.v7i1.228",
+      "alternative": [
+        "aloe vera"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "reducing formaldehyde content in food products",
+        "traditional_material_replaced": "formaldehyde as a food preservative",
+        "alternative_solution": "aloe vera as a natural reducing agent",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "aloe vera solution",
+          "value": "90%",
+          "ratio_type": "vol%",
+          "evidence_location": "Section 3.2",
+          "context": "used for soaking chicken meat to reduce formaldehyde content"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "soaking_time",
+          "value": "1 h",
+          "evidence_location": "Section 2.3",
+          "context": "duration for soaking chicken meat in aloe vera solution"
+        },
+        {
+          "parameter": "soaking_temperature",
+          "value": "40±2 °C",
+          "evidence_location": "Section 2.3",
+          "context": "temperature during the analysis of the filtrate"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "formaldehyde_reduction",
+          "metric_value": "29.87%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Hemp flour as a formaldehyde scavenger for melamine-urea-formaldehyde adhesive i",
+      "doi": "10.15376/BIORES.15.2.4052-4064",
+      "alternative": [
+        "hemp flour"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (634923 bytes)",
+      "substitution_logic": {
+        "target_problem": "high formaldehyde emissions from plywood adhesives",
+        "traditional_material_replaced": "rye flour as a filler in melamine-urea-formaldehyde adhesive",
+        "alternative_solution": "hemp flour as a filler and formaldehyde scavenger",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "hemp flour",
+          "value": "20 pbw",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Table 2",
+          "context": "used as a filler in adhesive mixtures"
+        },
+        {
+          "material": "hemp flour",
+          "value": "25 pbw",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Table 2",
+          "context": "used as a filler in adhesive mixtures"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "mixing_time",
+          "value": "3 min",
+          "evidence_location": "Section Methods",
+          "context": "mixtures were homogenized using a CAT-500 homogenizer"
+        },
+        {
+          "parameter": "mixing_speed",
+          "value": "1000 rpm",
+          "evidence_location": "Section Methods",
+          "context": "mixtures were homogenized using a CAT-500 homogenizer"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "free_formaldehyde_reduction",
+          "metric_value": "34%",
+          "comparison_baseline": "control samples"
+        },
+        {
+          "metric_name": "shear_strength_after_soaking",
+          "metric_value": "1.6 N/mm²",
+          "comparison_baseline": "reference samples"
+        },
+        {
+          "metric_name": "shear_strength_after_boiling",
+          "metric_value": "1.5 N/mm²",
+          "comparison_baseline": "reference samples"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Renewable, Organic and Related Carbon Aerogel Monoliths from the Polycondensatio",
+      "doi": "10.1007/s10971-022-06015-4",
+      "alternative": [
+        "5-(hydroxymethyl)furfural"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (3419631 bytes)",
+      "substitution_logic": {
+        "target_problem": "the search for a sustainable alternative to petroleum-derived formaldehyde in the production of carbon aerogels",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "5-(hydroxymethyl)furfural (5-HMF)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "formaldehyde",
+          "value": "2.5 g (30.8 mmol)",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.2",
+          "context": "used in the preparation of tannin-formaldehyde aerogels"
+        },
+        {
+          "material": "5-(hydroxymethyl)furfural",
+          "value": "3.88 g (30.8 mmol)",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.2",
+          "context": "used in the preparation of tannin-5-HMF aerogels"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "gelation_temperature",
+          "value": "80 °C",
+          "evidence_location": "Section 2.2",
+          "context": "temperature for promoting gelation of the aerogels"
+        },
+        {
+          "parameter": "carbonization_temperature",
+          "value": "800 °C",
+          "evidence_location": "Section 2.2",
+          "context": "temperature for carbonizing the organic gels"
+        },
+        {
+          "parameter": "carbonization_time",
+          "value": "2 h",
+          "evidence_location": "Section 2.2",
+          "context": "duration of carbonization process"
+        },
+        {
+          "parameter": "atmosphere",
+          "value": "argon",
+          "evidence_location": "Section 2.2",
+          "context": "inert atmosphere used during carbonization"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "specific_surface_area",
+          "value": "364–589 m²/g",
+          "evidence_location": "Table 2",
+          "context": "measured using nitrogen adsorption"
+        },
+        {
+          "property": "bulk_density",
+          "value": "0.20–0.45 g/cm³",
+          "evidence_location": "Table 1",
+          "context": "measured for tannin-5-HMF aerogels"
+        },
+        {
+          "property": "porosity",
+          "value": "88.9–62.3%",
+          "evidence_location": "Table 1",
+          "context": "calculated from bulk and skeletal density"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "gelation_time",
+          "metric_value": "2 d",
+          "comparison_baseline": "gelation of TF aerogels took place within several hours"
+        },
+        {
+          "metric_name": "specific_surface_area",
+          "metric_value": "480 m²/g",
+          "comparison_baseline": "TF aerogels with SBET values varying from 626–917 m²/g"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Multifunctional Lignin-based Composite Ultra-Adhesive for Wood Processing",
+      "doi": "10.1039/d3gc03542e",
+      "alternative": [
+        "lignin",
+        "furfural"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "the need for biodegradable and environmentally friendly adhesives for wood processing",
+        "traditional_material_replaced": "phenol and formaldehyde-based adhesives",
+        "alternative_solution": "lignin and furfural-based composite adhesive",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "DES (ChCl/urea with K2CO3)",
+          "value": "1 : 1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section Results and discussion",
+          "context": "mass ratio of DES to lignin used in the preparation of the adhesive"
+        },
+        {
+          "material": "DES (ChCl/urea with K2CO3)",
+          "value": "2 : 1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section Results and discussion",
+          "context": "mass ratio of DES to lignin used in the preparation of the adhesive"
+        },
+        {
+          "material": "DES (ChCl/urea with K2CO3)",
+          "value": "5 : 1",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section Results and discussion",
+          "context": "mass ratio of DES to lignin used in the preparation of the adhesive"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "6 h",
+          "evidence_location": "Section Results and discussion",
+          "context": "reaction time for the preparation of the adhesive"
+        },
+        {
+          "parameter": "hot_pressing_pressure",
+          "value": "0.13 MPa",
+          "evidence_location": "Section Results and discussion",
+          "context": "pressure applied during the hot pressing of the adhesive"
+        },
+        {
+          "parameter": "hot_pressing_time",
+          "value": "10 min",
+          "evidence_location": "Section Results and discussion",
+          "context": "duration of hot pressing for the adhesive"
+        },
+        {
+          "parameter": "cold_pressing_time",
+          "value": "12 h",
+          "evidence_location": "Section Results and discussion",
+          "context": "duration of cold pressing for the adhesive"
+        },
+        {
+          "parameter": "temperature",
+          "value": "130 °C",
+          "evidence_location": "Section Results and discussion",
+          "context": "temperature during hot pressing of the adhesive"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesive_strength",
+          "metric_value": "5.71 MPa",
+          "comparison_baseline": "0.7 MPa required by the Chinese National Standard (GB/T 14732-2017)"
+        },
+        {
+          "metric_name": "adhesive_strength_low_temp",
+          "metric_value": "5.3 MPa",
+          "comparison_baseline": "16.74% increase compared to room temperature"
+        },
+        {
+          "metric_name": "ultimate_oxygen_index",
+          "metric_value": "30.2%",
+          "comparison_baseline": "22% for the original paulownia plate"
+        },
+        {
+          "metric_name": "adhesion_performance",
+          "metric_value": "4.54 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "adhesion_performance_cross_section",
+          "metric_value": "4.18 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "tensile_strength_DLF_balsa_wood",
+          "metric_value": "3.61 MPa",
+          "comparison_baseline": "1.73 MPa for balsa wood"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Improving mechanical performance and functionality of birch veneer with mechano-",
+      "doi": "10.1007/s10570-023-05059-1",
+      "alternative": [
+        "mechano-enzymatically manufactured microfibrillated cellulose (meMFC)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (1772953 bytes)",
+      "substitution_logic": {
+        "target_problem": "reduction of formaldehyde concentrations in wood products",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "mechano-enzymatically manufactured microfibrillated cellulose (meMFC)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "meMFC",
+          "value": "29.0 g/m2",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 5",
+          "context": "coat weight of one meMFC coating layer applied to birch veneers"
+        },
+        {
+          "material": "meMFC",
+          "value": "64.3 g/m2",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 5",
+          "context": "coat weight of two meMFC coating layers applied to birch veneers"
+        },
+        {
+          "material": "meMFC",
+          "value": "96.5 g/m2",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 5",
+          "context": "coat weight of three meMFC coating layers applied to birch veneers"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "HCHO_reduction",
+          "metric_value": "exact value not specified",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Evaluation and comparative analysis of minimal formalin containing compound fixa",
+      "doi": "10.18231/2394-6792.2018.0091",
+      "alternative": [
+        "EFG fixatives"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (56185 bytes)",
+      "substitution_logic": {
+        "target_problem": "minimizing formaldehyde exposure in histopathology laboratories due to its carcinogenic properties",
+        "traditional_material_replaced": "formalin",
+        "alternative_solution": "minimal formalin containing EFG fixatives",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "EFG fixatives",
+          "value": "10 hours",
+          "ratio_type": "reaction_time",
+          "evidence_location": "Materials and Methods",
+          "context": "fixation time for specimens"
+        },
+        {
+          "material": "EFG fixatives",
+          "value": "8 hours",
+          "ratio_type": "reaction_time",
+          "evidence_location": "Materials and Methods",
+          "context": "fixation time for specimens"
+        },
+        {
+          "material": "EFG fixatives",
+          "value": "7 hours",
+          "ratio_type": "reaction_time",
+          "evidence_location": "Materials and Methods",
+          "context": "fixation time for specimens"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "formaldehyde_vapor_evaporation",
+          "metric_value": "less than 10% buffered formalin",
+          "comparison_baseline": "10% buffered formalin"
+        },
+        {
+          "metric_name": "fixation_time_reduction",
+          "metric_value": "up to 8 hours",
+          "comparison_baseline": "10 hours"
+        },
+        {
+          "metric_name": "tissue_preservation_quality",
+          "metric_value": "comparable to conventional formalin fixation",
+          "comparison_baseline": "conventional formalin fixation"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Eco-friendly Board From Oil Palm Frond and Citric Acid",
+      "doi": "10.51850/WRJ.2013.4.2.72-75",
+      "alternative": [
+        "citric acid"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (144549 bytes)",
+      "substitution_logic": {
+        "target_problem": "reducing the use of formaldehyde-based resin in composite board production",
+        "traditional_material_replaced": "formaldehyde-based resin",
+        "alternative_solution": "citric acid",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "citric acid",
+          "value": "10%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "weight of citric acid based on oil palm fronds’ dry weight"
+        },
+        {
+          "material": "citric acid",
+          "value": "15%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "weight of citric acid based on oil palm fronds’ dry weight"
+        },
+        {
+          "material": "citric acid",
+          "value": "20%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "weight of citric acid based on oil palm fronds’ dry weight"
+        },
+        {
+          "material": "citric acid",
+          "value": "700 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section Y.Z",
+          "context": "amount of citric acid used to prepare the solution"
+        },
+        {
+          "material": "water",
+          "value": "1000 ml",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section Y.Z",
+          "context": "amount of water used to prepare the citric acid solution"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "pressing_temperature",
+          "value": "200 °C",
+          "evidence_location": "Section Y.Z",
+          "context": "temperature at which boards were pressed"
+        },
+        {
+          "parameter": "pressure",
+          "value": "1 N/mm²",
+          "evidence_location": "Section Y.Z",
+          "context": "pressure applied during board production"
+        },
+        {
+          "parameter": "pressing_time",
+          "value": "10 min",
+          "evidence_location": "Section Y.Z",
+          "context": "duration of the pressing process"
+        },
+        {
+          "parameter": "moisture_content",
+          "value": "6%",
+          "evidence_location": "Section Y.Z",
+          "context": "moisture content of the oil palm fronds before processing"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "density",
+          "value": "0.6 g/cm³",
+          "evidence_location": "Section Y.Z",
+          "context": "target density for the produced boards"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "MOR",
+          "metric_value": "5.85 N/mm²",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "MOE",
+          "metric_value": "1067.03 N/mm²",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "IB",
+          "metric_value": "0.26 N/mm²",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "SW",
+          "metric_value": "88.80 N",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Development and characterization novel bio-adhesive for wood using kenaf core (H",
+      "doi": "10.1016/j.ijbiomac.2018.11.009",
+      "alternative": [
+        "lignin-phenol-glyoxal (LPG)",
+        "soda lignin-phenol-glyoxal (SLPG)",
+        "Kraft lignin-phenol-glyoxal (KLPG)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (1767948 bytes)",
+      "substitution_logic": {
+        "target_problem": "the concern of the uses of carcinogenic formaldehyde in wood adhesive industry has become major problem over human health, environmental and economy issues.",
+        "traditional_material_replaced": "formaldehyde in wood adhesives",
+        "alternative_solution": "lignin-phenol-glyoxal (LPG), soda lignin-phenol-glyoxal (SLPG), Kraft lignin-phenol-glyoxal (KLPG)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "soda lignin-phenol-glyoxal (SLPG)",
+          "value": "30% (w/w)",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "The dosage of SLPG used in the mechanical tests on plywood."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "tensile_strength",
+          "value": "72.08 MPa",
+          "evidence_location": "Abstract",
+          "context": "Measured during mechanical testing of plywood."
+        },
+        {
+          "property": "internal_bonding_stress",
+          "value": "53.83 N mm−2",
+          "evidence_location": "Abstract",
+          "context": "Measured during mechanical testing of plywood."
+        }
+      ],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Leather solid waste: An eco-benign raw material for leather chemical preparation",
+      "doi": "10.1016/J.WASMAN.2019.02.026",
+      "alternative": [
+        "formaldehyde-free biodegradable eco-benign re-tanning agent"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (3283200 bytes)",
+      "substitution_logic": {
+        "target_problem": "the need for a biodegradable re-tanning agent that does not release free formaldehyde, a known carcinogen, during leather processing",
+        "traditional_material_replaced": "formaldehyde condensates polymers used as re-tanning agents",
+        "alternative_solution": "formaldehyde-free biodegradable eco-benign re-tanning agent developed from raw trimming of tannery solid waste",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "NaOH",
+          "value": "7.5% w/w",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 1",
+          "context": "used in alkaline pre-treatment of raw trimmings"
+        },
+        {
+          "material": "hydrogen peroxide",
+          "value": "10% w/w",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 1",
+          "context": "used in alkaline pre-treatment of raw trimmings"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "5 h",
+          "evidence_location": "Section 1",
+          "context": "duration of thermal hydrolysis at 100 °C"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "100 °C",
+          "evidence_location": "Section 1",
+          "context": "temperature for thermal hydrolysis of trimmings"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "mechanical_strength",
+          "value": "improved",
+          "evidence_location": "Section 1",
+          "context": "the developed product was found to improve mechanical strength characteristics of leather"
+        },
+        {
+          "property": "exhaustion of post-tanning chemicals",
+          "value": "improved",
+          "evidence_location": "Section 1",
+          "context": "the developed product was found to improve the exhaustion of post-tanning chemicals"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "leather_compaction",
+          "metric_value": "more compact and flat than control",
+          "comparison_baseline": "control leather"
+        },
+        {
+          "metric_name": "dye_brilliance",
+          "metric_value": "improved shade of dye brilliance",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Mg-coordinated self-assembly of MgO-doped ordered mesoporous carbons for selecti",
+      "doi": "10.1016/j.cej.2020.126748",
+      "alternative": [
+        "Mg2+"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (1051707 bytes)",
+      "substitution_logic": {
+        "target_problem": "the use of formaldehyde as a cross-linking agent in the synthesis of ordered mesoporous carbons",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "Mg2+",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "MgO",
+          "value": "800 °C",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "calcination temperature for the synthesis of OMC-MgO"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "calcination_temperature",
+          "value": "800 °C",
+          "evidence_location": "Abstract",
+          "context": "temperature used during the calcination process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "surface_area",
+          "value": "808 m²/g",
+          "evidence_location": "Abstract",
+          "context": "specific surface area of the synthesized OMC-MgO"
+        },
+        {
+          "property": "pore_size",
+          "value": "6–8 nm",
+          "evidence_location": "Abstract",
+          "context": "size of the mesopores in the synthesized material"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "phosphate_sorption_capacity",
+          "metric_value": "107 mg/g",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Comparative Enactment of Formaldehyde-free and Formaldehyde-based Cross-linkers ",
+      "doi": "10.14502/TEKSTILEC2017.60.107-115",
+      "alternative": [
+        "Fixapret NF"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (177369 bytes)",
+      "substitution_logic": {
+        "target_problem": "the environmental impact and potential danger of formaldehyde in textile applications",
+        "traditional_material_replaced": "formaldehyde-based cross-linkers",
+        "alternative_solution": "Fixapret NF (formaldehyde-free resin)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Fixapret CL (formaldehyde-based resin)",
+          "value": "50 g/L",
+          "ratio_type": "concentration",
+          "evidence_location": "Table 3",
+          "context": "used in the finishing bath for cross-linking"
+        },
+        {
+          "material": "Fixapret NF (formaldehyde-free resin)",
+          "value": "50 g/L",
+          "ratio_type": "concentration",
+          "evidence_location": "Table 3",
+          "context": "used in the finishing bath for cross-linking"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "drying_temperature",
+          "value": "110 °C",
+          "evidence_location": "Table 3",
+          "context": "temperature for drying the treated fabrics"
+        },
+        {
+          "parameter": "curing_temperature",
+          "value": "170 °C",
+          "evidence_location": "Table 3",
+          "context": "temperature for curing the treated fabrics"
+        },
+        {
+          "parameter": "curing_time",
+          "value": "40 s",
+          "evidence_location": "Table 3",
+          "context": "duration for curing the treated fabrics"
+        },
+        {
+          "parameter": "pH",
+          "value": "5.5",
+          "evidence_location": "Table 3",
+          "context": "pH level of the finishing bath"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "bending_length",
+          "value": "3.65 cm",
+          "evidence_location": "Table 4",
+          "context": "measured stiffness of the treated fabric"
+        },
+        {
+          "property": "bending_length",
+          "value": "3.51 cm",
+          "evidence_location": "Table 4",
+          "context": "measured stiffness of the treated fabric with formaldehyde-free resin"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "tensile_strength_loss",
+          "metric_value": "20 to 42%",
+          "comparison_baseline": "original fabric values for formaldehyde containing resin"
+        },
+        {
+          "metric_name": "tear_strength_loss",
+          "metric_value": "26 to 44%",
+          "comparison_baseline": "original fabric values for formaldehyde containing resin"
+        },
+        {
+          "metric_name": "durable_press_rating",
+          "metric_value": "up to 3.75",
+          "comparison_baseline": "non-treated fabric rating of 2"
+        },
+        {
+          "metric_name": "wrinkle_recovery_angle",
+          "metric_value": "up to 279°",
+          "comparison_baseline": "non-treated fabric angle of 206°"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Mechanical and physical properties of binderless particleboard made from oil pal",
+      "doi": "10.1016/j.matpr.2020.06.009",
+      "alternative": [
+        "potato starch",
+        "wheat starch",
+        "tapioca starch",
+        "corn starch"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (1298217 bytes)",
+      "substitution_logic": {
+        "target_problem": "harmful environmental impact due to formaldehyde released from conventional particleboard resins",
+        "traditional_material_replaced": "formaldehyde based resins",
+        "alternative_solution": "natural binders such as corn, potato, tapioca, and wheat starch",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "potato starch",
+          "value": "0.8 g/cm3",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "target density of the binderless particleboard"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "hot_pressing_temperature",
+          "value": "180 °C",
+          "evidence_location": "Abstract",
+          "context": "temperature used during the hot pressing process"
+        },
+        {
+          "parameter": "hot_pressing_time",
+          "value": "20 min",
+          "evidence_location": "Abstract",
+          "context": "duration of the hot pressing process"
+        },
+        {
+          "parameter": "pressing_pressure",
+          "value": "12 MPa",
+          "evidence_location": "Abstract",
+          "context": "pressure applied during the hot pressing process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "modulus_of_rupture",
+          "value": "15.33 MPa",
+          "evidence_location": "Abstract",
+          "context": "mechanical property of the panel with potato starch"
+        },
+        {
+          "property": "modulus_of_elasticity",
+          "value": "2078 MPa",
+          "evidence_location": "Abstract",
+          "context": "mechanical property of the panel with potato starch"
+        },
+        {
+          "property": "water_absorption",
+          "value": "69%",
+          "evidence_location": "Abstract",
+          "context": "dimensional stability measurement of the panel with potato starch"
+        },
+        {
+          "property": "thickness_swelling",
+          "value": "50%",
+          "evidence_location": "Abstract",
+          "context": "dimensional stability measurement of the panel with potato starch"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "modulus_of_rupture",
+          "metric_value": "15.33 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "modulus_of_elasticity",
+          "metric_value": "2078 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "water_absorption",
+          "metric_value": "69%",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "thickness_swelling",
+          "metric_value": "50%",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Bioaktif Belimbing Wuluh (Averhoa bilimbi (Linn.)) Terhadap Kadar Formalin Dalam",
+      "doi": "10.30651/JMLT.V1I2.1541",
+      "alternative": [
+        "belimbing wuluh juice"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (186102 bytes)",
+      "substitution_logic": {
+        "target_problem": "high formaldehyde content in tofu",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "belimbing wuluh juice",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "belimbing wuluh juice",
+          "value": "50%",
+          "ratio_type": "vol%",
+          "evidence_location": "Table 1",
+          "context": "most effective concentration for reducing formaldehyde content in tofu"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "soaking_time",
+          "value": "15 min",
+          "evidence_location": "Section Prosedur Perlakuan Bahan Uji",
+          "context": "tofu soaked in belimbing wuluh juice"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "formaldehyde_reduction",
+          "metric_value": "98.40%",
+          "comparison_baseline": "control group without treatment (8269.40 mg/Kg)"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Urea-formaldehyde microspheres as a potential additive to wood adhesive",
+      "doi": "10.1007/s10086-018-1717-9",
+      "alternative": [
+        "solid microspheres"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (1394230 bytes)",
+      "substitution_logic": {
+        "target_problem": "high formaldehyde emissions from urea-formaldehyde resins used in wood adhesives",
+        "traditional_material_replaced": "urea-formaldehyde resin",
+        "alternative_solution": "solid urea-formaldehyde microspheres",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "microspheres",
+          "value": "1 part",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 3.2",
+          "context": "microspheres were added in a 1:1 ratio with urea-formaldehyde resin"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "cure_temperature",
+          "value": "120 °C",
+          "evidence_location": "Section 3.3",
+          "context": "adhesive formulations were cured at this temperature"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "particle_size",
+          "value": "5-20 µm",
+          "evidence_location": "Abstract",
+          "context": "size range of the synthesized microspheres"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesive_bond_strength",
+          "metric_value": "4.2 MPa",
+          "comparison_baseline": "3.5 MPa for unmodified adhesive at 120 °C"
+        },
+        {
+          "metric_name": "penetration_depth",
+          "metric_value": "0.08 mm",
+          "comparison_baseline": "0.15 mm for unmodified adhesive"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Performance enhancement of wood composites using cellulose-reinforced cornstarch",
+      "doi": "10.1039/d5ra10055k",
+      "alternative": [
+        "cornstarch–mimosa tannin (CM) adhesives"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "the need for formaldehyde-free adhesives in wood composite applications due to health risks associated with formaldehyde emissions",
+        "traditional_material_replaced": "formaldehyde-based adhesives",
+        "alternative_solution": "cornstarch–mimosa tannin (CM) adhesives",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "cellulose",
+          "value": "6 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 3.3.1",
+          "context": "optimal cellulose loading for mechanical performance in CM adhesives"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "specific_energy_input",
+          "value": "900 kJ kg−1",
+          "evidence_location": "Section 2.3.2",
+          "context": "energy input for PEF treatment of raw material"
+        },
+        {
+          "parameter": "temperature",
+          "value": "70 °C",
+          "evidence_location": "Section 2.3.2",
+          "context": "temperature of preheated water added during electrical pretreatment"
+        },
+        {
+          "parameter": "solid_to_liquid_ratio",
+          "value": "1 : 10 (w/v)",
+          "evidence_location": "Section 2.3.2",
+          "context": "ratio of solid material to liquid during treatment"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "crystallinity",
+          "value": ">59%",
+          "evidence_location": "Section 3.2",
+          "context": "characterization of cellulose extracted via electrical-assisted methods"
+        },
+        {
+          "property": "thermal_stability",
+          "value": "Tonset z 303 °C",
+          "evidence_location": "Section 3.2",
+          "context": "thermal stability of cellulose extracted via electrical-assisted methods"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "internal_bond",
+          "metric_value": "0.79 MPa",
+          "comparison_baseline": "EN 312 (P4) requirements"
+        },
+        {
+          "metric_name": "modulus_of_rupture",
+          "metric_value": "32.27 MPa",
+          "comparison_baseline": "EN 312 (P4) requirements"
+        },
+        {
+          "metric_name": "modulus_of_elasticity",
+          "metric_value": "3125 MPa",
+          "comparison_baseline": "EN 312 (P4) requirements"
+        },
+        {
+          "metric_name": "surface_soundness",
+          "metric_value": "2.27 MPa",
+          "comparison_baseline": "EN 312 (P4) requirements"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Sustainable cationization of bark tannins from native Brazilian tree species usi",
+      "doi": "10.1016/j.ijbiomac.2026.151396",
+      "alternative": [
+        "hexamine"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (2688540 bytes)",
+      "substitution_logic": {
+        "target_problem": "the need to reduce the toxicity and environmental impact of conventional coagulants like formaldehyde in water treatment applications",
+        "traditional_material_replaced": "formaldehyde",
+        "alternative_solution": "hexamine",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "coagulant",
+          "value": "150 mg",
+          "ratio_type": "concentration",
+          "evidence_location": "Figure 4",
+          "context": "used in coagulation-flocculation tests"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "mixing_time",
+          "value": "3 min",
+          "evidence_location": "Figure 4",
+          "context": "duration of rapid mixing during coagulation"
+        },
+        {
+          "parameter": "slow_mixing_time",
+          "value": "30 min",
+          "evidence_location": "Figure 4",
+          "context": "duration of slow mixing during coagulation"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "turbidity_removal_M_tenuiflora_Mannich",
+          "metric_value": ">99%",
+          "comparison_baseline": "commercial tannins"
+        },
+        {
+          "metric_name": "turbidity_removal_M_tenuiflora_hexamine",
+          "metric_value": "59%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "turbidity_removal_S_adstringens_hexamine",
+          "metric_value": "64%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Adhesives from Anadenanthera peregrina tannin for plywood production: effect of ",
+      "doi": "10.1007/s11356-026-37468-7",
+      "alternative": [
+        "tannin-based adhesives"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml_springer",
+      "download_strategy": "Downloaded JATS XML (Springer OA) (126758 bytes)",
+      "substitution_logic": {
+        "target_problem": "the need for a safer and more environmentally sustainable adhesive alternative to phenol-formaldehyde adhesives in plywood production",
+        "traditional_material_replaced": "phenol-formaldehyde adhesives",
+        "alternative_solution": "tannin-based adhesives extracted from Anadenanthera peregrina",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "sodium bisulfite (NaHSO₃)",
+          "value": "3%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "used in the extraction process of tannins"
+        },
+        {
+          "material": "paraformaldehyde",
+          "value": "6%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "added to tannin-based adhesives as a binding agent"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "extraction_temperature",
+          "value": "70 °C",
+          "evidence_location": "Section 2",
+          "context": "temperature at which tannins were extracted"
+        },
+        {
+          "parameter": "extraction_time",
+          "value": "3 h",
+          "evidence_location": "Section 2",
+          "context": "duration of the tannin extraction process"
+        },
+        {
+          "parameter": "drying_temperature",
+          "value": "40 ± 3 °C",
+          "evidence_location": "Section 2",
+          "context": "temperature for drying the extracted tannins"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "modulus of elasticity (MOE)",
+          "value": "10,911.34 MPa",
+          "evidence_location": "Results and discussion",
+          "context": "measured for plywood panels bonded with tannin-based adhesive extracted with 3% NaHSO₃"
+        },
+        {
+          "property": "modulus of rupture (MOR)",
+          "value": "64.73 MPa",
+          "evidence_location": "Results and discussion",
+          "context": "measured for plywood panels bonded with tannin-based adhesive extracted with 3% NaHSO₃"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "shear_strength",
+          "metric_value": "statistically significant improvement compared to other treatments",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "water absorption",
+          "metric_value": "greater with increased bisulfite concentration",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "echnical Note: Effects of Polyurethane Resin on the Physical and Mechanical Prop",
+      "doi": "10.22382/wfs-2019-043",
+      "alternative": [
+        "polyurethane (PU) resin"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [
+          {
+            "variable_name": "total_weight_of_composite_board",
+            "value": "not explicitly stated",
+            "evidence_location": "Abstract and Results sections discuss PU percentages but do not provide total weight"
+          },
+          {
+            "variable_name": "PU_percentage",
+            "value": "40%, 50%, 60%",
+            "evidence_location": "Abstract: 'different percentages of PU adhesive (40%, 50%, and 60%)'"
+          },
+          {
+            "variable_name": "density_of_composite_board",
+            "value": "0.61 g/cm3 for 40%, 0.75 g/cm3 for 50%, 0.71 g/cm3 for 60%",
+            "evidence_location": "Results and Discussion section: 'The density value obtained for 40% was 0.61 g/cm3, 0.75 g/cm3 for 50% of PU addition, and 0.71 g/cm3 for 60% PU addition of the composite board.'"
+          }
+        ],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": [
+            "total_weight_of_composite_board"
+          ]
+        },
+        "qualitative_indicators": [
+          {
+            "description": "Replacing formaldehyde with PU resin as a binding agent in fiberboard composites is one way of avoiding health issues.",
+            "implication": "This suggests that PU resin is a viable alternative to formaldehyde, potentially reducing health risks associated with formaldehyde exposure."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total weight of the composite board needed for dosage calculation"
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "low"
+    },
+    {
+      "title": "Decellularization Following Fixation of Explanted Aortic Valves as a Strategy fo",
+      "doi": "10.3389/fbioe.2021.803183",
+      "alternative": [
+        "surfactant-based decellularization method"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (2891882 bytes)",
+      "substitution_logic": {
+        "target_problem": "mechanical properties of formaldehyde-fixed aortic valves are compromised, leading to stiffness and distortion",
+        "traditional_material_replaced": "formaldehyde-fixed aortic valves",
+        "alternative_solution": "surfactant-based decellularization method",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Sodium Deoxycholate",
+          "value": "5% w/v",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used in the decellularization process"
+        },
+        {
+          "material": "Triton X-100",
+          "value": "5% w/v",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used in the decellularization process"
+        },
+        {
+          "material": "Sodium Deoxycholate",
+          "value": "10% w/v",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used in the decellularization process for increased surfactant concentration"
+        },
+        {
+          "material": "Triton X-100",
+          "value": "10% w/v",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Materials and Methods",
+          "context": "used in the decellularization process for increased surfactant concentration"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "48 h",
+          "evidence_location": "Section Materials and Methods",
+          "context": "duration for the decellularization process"
+        },
+        {
+          "parameter": "temperature",
+          "value": "25°C",
+          "evidence_location": "Section Materials and Methods",
+          "context": "temperature during the decellularization process"
+        },
+        {
+          "parameter": "fixation_time",
+          "value": "18 h",
+          "evidence_location": "Section Materials and Methods",
+          "context": "duration for aldehyde-based fixation"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "ultimate_stress",
+          "value": "683 ± 44 kPa",
+          "evidence_location": "Figure 3B",
+          "context": "ultimate stress for fixed-decel group with 5% surfactant concentration"
+        },
+        {
+          "property": "ultimate_stress",
+          "value": "640 ± 54 kPa",
+          "evidence_location": "Figure 3B",
+          "context": "ultimate stress for fixed-decel group with 10% surfactant concentration"
+        },
+        {
+          "property": "elastic_modulus",
+          "value": "1.2 ± 0.2 MPa",
+          "evidence_location": "Figure 3C",
+          "context": "elastic modulus for fixed-decel group with 5% surfactant concentration"
+        },
+        {
+          "property": "elastic_modulus",
+          "value": "1 ± 0.08 MPa",
+          "evidence_location": "Figure 3C",
+          "context": "elastic modulus for fixed-decel group with 10% surfactant concentration"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "valvular_regurgitation",
+          "metric_value": "6 ± 0.9%",
+          "comparison_baseline": "15 ± 2% for fixed groups"
+        },
+        {
+          "metric_name": "transvalvular_pressure_gradient",
+          "metric_value": "3.9 ± 0.3 mmHg",
+          "comparison_baseline": "4.6 ± 0.4 mmHg for fixed groups"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "The bonding strength, water resistance and flame retardancy of soy protein-based",
+      "doi": "10.1016/j.cej.2021.132390",
+      "alternative": [
+        "soy protein-based adhesive"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (277359 bytes)",
+      "substitution_logic": {
+        "target_problem": "weak bonding strength and poor water resistance of soy protein-based adhesives",
+        "traditional_material_replaced": "formaldehyde-based adhesives",
+        "alternative_solution": "soy protein-based adhesive with core-shell hybrids",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "SPI/D/C/TBD(Si)-5",
+          "value": "0.75",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Table 1",
+          "context": "Composition of soy protein-based adhesive with core-shell hybrids"
+        },
+        {
+          "material": "SPI/D/C/TBD(Si)-10",
+          "value": "1.5",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Table 1",
+          "context": "Composition of soy protein-based adhesive with core-shell hybrids"
+        },
+        {
+          "material": "SPI/D/C/TBD(Si)-15",
+          "value": "2.25",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Table 1",
+          "context": "Composition of soy protein-based adhesive with core-shell hybrids"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "temperature_max_degradation",
+          "value": "319 °C",
+          "evidence_location": "Table 2",
+          "context": "Temperature of the maximum degradation rate for different cured soy protein-based adhesives"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "gel_content",
+          "value": "91%",
+          "evidence_location": "Figure 3",
+          "context": "Measured by sol-gel tests for SPI/D/C/TBD(Si) adhesive"
+        },
+        {
+          "property": "crystallinity",
+          "value": "0.8%",
+          "evidence_location": "Figure 3",
+          "context": "Crystallinity of SPI/D/C/TBD(Si) adhesive"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "modulus_of_rupture",
+          "metric_value": "15 MPa",
+          "comparison_baseline": "pristine SPI particleboard"
+        },
+        {
+          "metric_name": "modulus_of_elasticity",
+          "metric_value": "1950 MPa",
+          "comparison_baseline": "pristine SPI particleboard"
+        },
+        {
+          "metric_name": "internal_bonding_strength",
+          "metric_value": "0.44 MPa",
+          "comparison_baseline": "pristine SPI particleboard"
+        },
+        {
+          "metric_name": "limited_oxygen_index",
+          "metric_value": "28.7%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Natural organic-inorganic hybrid structure enabled green biomass adhesive with d",
+      "doi": "10.1016/j.ijbiomac.2023.123931",
+      "alternative": [
+        "soybean meal-dialdehyde chitosan-amine modified halloysite nanotubes (SM-DACS-HNTs@N)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (394330 bytes)",
+      "substitution_logic": {
+        "target_problem": "the need for a more sustainable and environmentally friendly adhesive compared to traditional formaldehyde resin",
+        "traditional_material_replaced": "formaldehyde resin",
+        "alternative_solution": "soybean meal-dialdehyde chitosan-amine modified halloysite nanotubes (SM-DACS-HNTs@N)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "DACS",
+          "value": "10 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 3.4",
+          "context": "optimal mass fraction of DACS in the adhesive formulation"
+        },
+        {
+          "material": "HNTs@N",
+          "value": "2.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section 3.4",
+          "context": "optimal mass fraction of HNTs@N in the adhesive formulation"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "wet_shear_strength",
+          "metric_value": "1.53 MPa",
+          "comparison_baseline": "compared to SM and SM-DACS adhesives"
+        },
+        {
+          "metric_name": "work_of_debonding",
+          "metric_value": "389.7 mJ",
+          "comparison_baseline": "increased by 276.5%"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "A formaldehyde-free amino resin alternative to urea-formaldehyde adhesives: A bi",
+      "doi": "10.1016/j.indcrop.2024.119037",
+      "alternative": [
+        "oxidized glucose-urea resin"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (207359 bytes)",
+      "substitution_logic": {
+        "target_problem": "formaldehyde toxicity and extreme volatility leading to formaldehyde emission problems in urea-formaldehyde resins",
+        "traditional_material_replaced": "urea-formaldehyde resins (UF)",
+        "alternative_solution": "oxidized glucose-urea resin (OGU)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "urea",
+          "value": "2 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "added to the reaction mixture after adjusting pH"
+        },
+        {
+          "material": "glucose",
+          "value": "20 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "added to the reaction mixture with sodium periodate"
+        },
+        {
+          "material": "sodium periodate",
+          "value": "2 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "added to the reaction mixture with glucose"
+        },
+        {
+          "material": "glucose to urea molar ratio",
+          "value": "1",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "optimal ratio for adhesive properties"
+        },
+        {
+          "material": "spreading amount of OGU adhesive",
+          "value": "270 g/m²",
+          "ratio_type": "concentration",
+          "evidence_location": "Section 2.2",
+          "context": "amount used for plywood preparation"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "45 min",
+          "evidence_location": "Section 2.1",
+          "context": "time for mixing glucose and sodium periodate"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "90 °C",
+          "evidence_location": "Section 2.1",
+          "context": "temperature for the reaction to form OGU resin"
+        },
+        {
+          "parameter": "pH",
+          "value": "4",
+          "evidence_location": "Section 2.1",
+          "context": "optimal pH for adhesive properties"
+        },
+        {
+          "parameter": "hot pressing temperature",
+          "value": "200 °C",
+          "evidence_location": "Section 2.2",
+          "context": "temperature used during plywood preparation"
+        },
+        {
+          "parameter": "hot pressing pressure",
+          "value": "1.0 MPa",
+          "evidence_location": "Section 2.2",
+          "context": "pressure applied during plywood preparation"
+        },
+        {
+          "parameter": "pressing time",
+          "value": "5 min",
+          "evidence_location": "Section 2.2",
+          "context": "duration of hot pressing for plywood"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "dry_strength",
+          "metric_value": "0.99 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "cold_water_soaking_wet_strength",
+          "metric_value": "0.77 MPa",
+          "comparison_baseline": "null"
+        },
+        {
+          "metric_name": "hot_water_soaking_wet_strength",
+          "metric_value": "0.76 MPa",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

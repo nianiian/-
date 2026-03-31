@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Application of Green Commercial Surfactant in Preparing Purely Acrylic Latex via Semi-continuous Seeded Emulsion Polymerization",
+    "doi": "10.1007/S11743-012-1373-9",
+    "year": 2013,
+    "target": "Nonylphenol Ethoxylates (NPEs)",
+    "reasoning": "The abstract explicitly states that nonylphenol ethoxylates (NPEOs) are bioaccumulative, persistent, and produce endocrine-disrupting breakdown products, and that alkyl polyglycoside (APG) surfactants are used as a replacement. This replacement is presented in the context of preparing acrylic polymer latex, implying APG surfactants as a safer alternative to NPEOs due to the environmental and health concerns associated with NPEOs.",
+    "alternatives": "alkyl polyglycoside (APG) surfactants",
+    "target_chemical_harm": {
+      "harms": [
+        "bioaccumulative",
+        "persistent in the environment",
+        "endocrine disruptor (nonylphenol, the breakdown product)"
+      ],
+      "rationale": "The text explicitly states that NPEOs are bioaccumulative and persistent in the environment, and that nonylphenol, a breakdown product of NPEs, is an endocrine disruptor."
+    },
+    "CHEMICAL HARM": "bioaccumulative, persistent in the environment, endocrine disruptor (nonylphenol, the breakdown product)"
+  }
+]

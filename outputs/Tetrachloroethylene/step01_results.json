@@ -2505,6 +2505,56 @@
     "abstract": null
   },
   {
+    "paperId": "05981c79cfb4fe5401fdbd0c827732c15e60538a",
+    "externalIds": {
+      "MAG": "2017275383",
+      "PubMedCentral": "2432054",
+      "DOI": "10.1186/1476-069X-7-24",
+      "CorpusId": 421966,
+      "PubMed": "18518975"
+    },
+    "url": "https://www.semanticscholar.org/paper/05981c79cfb4fe5401fdbd0c827732c15e60538a",
+    "title": "Evaluation of the Webler-Brown model for estimating tetrachloroethylene exposure from vinyl-lined asbestos-cement pipes",
+    "venue": "Environmental Health",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "https://ehjournal.biomedcentral.com/counter/pdf/10.1186/1476-069X-7-24",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2432054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "28788029",
+        "name": "L. Spence"
+      },
+      {
+        "authorId": "6122120",
+        "name": "A. Aschengrau"
+      },
+      {
+        "authorId": "47082052",
+        "name": "L. Gallagher"
+      },
+      {
+        "authorId": "2079173",
+        "name": "T. Webster"
+      },
+      {
+        "authorId": "3288749",
+        "name": "T. Heeren"
+      },
+      {
+        "authorId": "1860718",
+        "name": "D. Ozonoff"
+      }
+    ],
+    "abstract": "BackgroundFrom May 1968 through March 1980, vinyl-lined asbestos-cement (VL/AC) water distribution pipes were installed in New England to avoid taste and odor problems associated with asbestos-cement pipes. The vinyl resin was applied to the inner pipe surface in a solution of tetrachloroethylene (perchloroethylene, PCE). Substantial amounts of PCE remained in the liner and subsequently leached into public drinking water supplies.MethodsOnce aware of the leaching problem and prior to remediation (April-November 1980), Massachusetts regulators collected drinking water samples from VL/AC pipes to determine the extent and severity of the PCE contamination. This study compares newly obtained historical records of PCE concentrations in water samples (n = 88) with concentrations estimated using an exposure model employed in epidemiologic studies on the cancer risk associated with PCE-contaminated drinking water. The exposure model was developed by Webler and Brown to estimate the mass of PCE delivered to subjects' residences.ResultsThe mean and median measured PCE concentrations in the water samples were 66 and 0.5 μg/L, respectively, and the range extended from non-detectable to 2432 μg/L. The model-generated concentration estimates and water sample concentrations were moderately correlated (Spearman rank correlation coefficient = 0.48, p < 0.0001). Correlations were higher in samples taken at taps and spigots vs. hydrants (ρ = 0.84 vs. 0.34), in areas with simple vs. complex geometry (ρ = 0.51 vs. 0.38), and near pipes installed in 1973–1976 vs. other years (ρ = 0.56 vs. 0.42 for 1968–1972 and 0.37 for 1977–1980). Overall, 24% of the variance in measured PCE concentrations was explained by the model-generated concentration estimates (p < 0.0001). Almost half of the water samples had undetectable concentrations of PCE. Undetectable levels were more common in areas with the earliest installed VL/AC pipes, at the beginning and middle of VL/AC pipes, at hydrants, and in complex pipe configurations.ConclusionPCE concentration estimates generated using the Webler-Brown model were moderately correlated with measured water concentrations. The present analysis suggests that the exposure assessment process used in prior epidemiological studies could be improved with more accurate characterization of water flow. This study illustrates one method of validating an exposure model in an epidemiological study when historical measurements are not available."
+  },
+  {
     "paperId": "05a185d3822c9ceb593f89932291c293895a10d5",
     "externalIds": {
       "MAG": "315453712",
@@ -12938,7 +12988,7 @@
     "publicationTypes": null,
     "authors": [
       {
-        "authorId": "2383626498",
+        "authorId": "2390379445",
         "name": "Brian A. Beach"
       }
     ],
@@ -15582,56 +15632,6 @@
     "abstract": "Background Many studies of adults with occupational exposure to solvents such as tetrachloroethylene (PCE) have shown adverse effects on cognition, mood and behavioral problems. Much less is known about neurotoxic effects in early life at lower exposure levels seen in community settings. We recently reported that illicit drug use was more frequent among adults from Cape Cod, Massachusetts who were exposed to PCE-contaminated drinking water during gestation and early childhood than their unexposed counterparts. Using newly collected data from this population-based retrospective cohort study, the current analysis examines whether early life PCE exposure is also associated with drug use disorder over the life course. Methods Three-hundred and sixty-three subjects with prenatal and early childhood PCE exposure and 255 unexposed subjects were studied. These individuals (median age: 40–41 years) completed self-administered questionnaires on the eleven established diagnostic criteria for drug use disorder and confounding variables. A validated leaching and transport model was used to estimate exposure to PCE-contaminated water. Results Overall, 23.3% of subjects reported having at least one criterion for drug use disorder over their lifetime. Early life PCE exposure was associated with a modest increase in the lifetime presence of one or more diagnostic criteria for drug use disorder (adjusted RR: 1.4, 95% CI: 1.0–1.8). Compared to unexposed subjects, PCE-exposed subjects were more likely to report having most diagnostic criteria of drug use disorder, including neglecting major roles due to drug use, physical and psychological problems related to drug use, and giving up activities due to drug use. No dose-response relationships were observed with increasing levels of PCE exposure. Conclusions These results suggest that exposure to PCE-contaminated drinking water during early life modestly increases the risk of developing diagnostic criteria for drug use disorder later in life. Because this study has several limitations, these findings should be confirmed in follow-up investigations of other exposed populations with more diverse racial and socioeconomic characteristics."
   },
   {
-    "paperId": "20cd91a46e7bb8d655b6c487895ec4ea5bd2a48e",
-    "externalIds": {
-      "MAG": "2017275383",
-      "PubMedCentral": "2432054",
-      "DOI": "10.1186/1476-069X-7-24",
-      "CorpusId": 421966,
-      "PubMed": "18518975"
-    },
-    "url": "https://www.semanticscholar.org/paper/20cd91a46e7bb8d655b6c487895ec4ea5bd2a48e",
-    "title": "Evaluation of the Webler-Brown model for estimating tetrachloroethylene exposure from vinyl-lined asbestos-cement pipes",
-    "venue": "Environmental Health",
-    "year": 2008,
-    "openAccessPdf": {
-      "url": "https://ehjournal.biomedcentral.com/counter/pdf/10.1186/1476-069X-7-24",
-      "status": "GOLD",
-      "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2432054, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": [
-      "JournalArticle"
-    ],
-    "authors": [
-      {
-        "authorId": "28788029",
-        "name": "L. Spence"
-      },
-      {
-        "authorId": "6122120",
-        "name": "A. Aschengrau"
-      },
-      {
-        "authorId": "47082052",
-        "name": "L. Gallagher"
-      },
-      {
-        "authorId": "2079173",
-        "name": "T. Webster"
-      },
-      {
-        "authorId": "3288749",
-        "name": "T. Heeren"
-      },
-      {
-        "authorId": "1860718",
-        "name": "D. Ozonoff"
-      }
-    ],
-    "abstract": "BackgroundFrom May 1968 through March 1980, vinyl-lined asbestos-cement (VL/AC) water distribution pipes were installed in New England to avoid taste and odor problems associated with asbestos-cement pipes. The vinyl resin was applied to the inner pipe surface in a solution of tetrachloroethylene (perchloroethylene, PCE). Substantial amounts of PCE remained in the liner and subsequently leached into public drinking water supplies.MethodsOnce aware of the leaching problem and prior to remediation (April-November 1980), Massachusetts regulators collected drinking water samples from VL/AC pipes to determine the extent and severity of the PCE contamination. This study compares newly obtained historical records of PCE concentrations in water samples (n = 88) with concentrations estimated using an exposure model employed in epidemiologic studies on the cancer risk associated with PCE-contaminated drinking water. The exposure model was developed by Webler and Brown to estimate the mass of PCE delivered to subjects' residences.ResultsThe mean and median measured PCE concentrations in the water samples were 66 and 0.5 μg/L, respectively, and the range extended from non-detectable to 2432 μg/L. The model-generated concentration estimates and water sample concentrations were moderately correlated (Spearman rank correlation coefficient = 0.48, p < 0.0001). Correlations were higher in samples taken at taps and spigots vs. hydrants (ρ = 0.84 vs. 0.34), in areas with simple vs. complex geometry (ρ = 0.51 vs. 0.38), and near pipes installed in 1973–1976 vs. other years (ρ = 0.56 vs. 0.42 for 1968–1972 and 0.37 for 1977–1980). Overall, 24% of the variance in measured PCE concentrations was explained by the model-generated concentration estimates (p < 0.0001). Almost half of the water samples had undetectable concentrations of PCE. Undetectable levels were more common in areas with the earliest installed VL/AC pipes, at the beginning and middle of VL/AC pipes, at hydrants, and in complex pipe configurations.ConclusionPCE concentration estimates generated using the Webler-Brown model were moderately correlated with measured water concentrations. The present analysis suggests that the exposure assessment process used in prior epidemiological studies could be improved with more accurate characterization of water flow. This study illustrates one method of validating an exposure model in an epidemiological study when historical measurements are not available."
-  },
-  {
     "paperId": "20ebf1244c297da4515f8c98d6bae2ac96644409",
     "externalIds": {
       "MAG": "2742958141",
@@ -16370,6 +16370,41 @@
       {
         "authorId": "5315890",
         "name": "A. Axmon"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "22e13213a36c9f53cbdae5882d137230f08028f9",
+    "externalIds": {
+      "DOI": "10.1007/s10953-025-01430-x",
+      "CorpusId": 276729868
+    },
+    "url": "https://www.semanticscholar.org/paper/22e13213a36c9f53cbdae5882d137230f08028f9",
+    "title": "Thermodynamic Analysis and Modeling Excess Molar Enthalpy in Mixtures Containing Acetonitrile + Chlorinated Ethane or Ethylene",
+    "venue": "Journal of Solution Chemistry",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10953-025-01430-x?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10953-025-01430-x, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2284095052",
+        "name": "Hadi Taheri Parsa"
+      },
+      {
+        "authorId": "2249647394",
+        "name": "H. Iloukhani"
+      },
+      {
+        "authorId": "92814446",
+        "name": "K. Khanlarzadeh"
       }
     ],
     "abstract": null
@@ -17483,7 +17518,7 @@
       "PubMed": "31059379"
     },
     "url": "https://www.semanticscholar.org/paper/25401db67d2a787168eb5e9b687034f17c119e90",
-    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases.",
+    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases",
     "venue": "Journal of Women's Health",
     "year": 2019,
     "openAccessPdf": {
@@ -20134,6 +20169,50 @@
       }
     ],
     "abstract": "BackgroundBirths during 1968-1985 at Camp Lejeune were exposed to drinking water contaminated with trichloroethylene (TCE), tetrachloroethylene (PCE), and benzene.MethodsWe conducted a cross-sectional study to evaluate associations between residential prenatal exposure to contaminated drinking water at Camp Lejeune during 1968–1985 and preterm birth, small for gestational age (SGA), term low birth weight (TLBW), and mean birth weight (MBW) deficit. Birth certificates identified mothers residing at Camp Lejeune at delivery. We analyzed exposure data for the entire pregnancy and individual trimesters. For each period examined, births were categorized as unexposed if mothers did not reside at Camp Lejeune or if their residence on base received uncontaminated drinking water. Ground water contaminant fate/transport and distribution system models provided monthly estimated contaminant levels at residences. For PCE and TCE, the exposed group was divided into four levels: < median value, ≥ median value, ≥75th percentile, and ≥90th percentile. For benzene, the exposed group was categorized as <1 part per billion (ppb) versus ≥1 ppb because of sparse data. Magnitude of effect estimates and exposure response relationships were used to assess associations. Confidence intervals (CIs) indicated precision of estimates.ResultsFor the highest TCE exposure category during the entire pregnancy, odds ratios (ORs) were 1.5 (95% CI: 1.2, 1.9) and 1.3 (95% CI: 0.8, 2.2) for SGA and TLBW, respectively, and reduced MBW β = −78.3 g (95% CI: −115.0, −41.7). The OR =1.3 (95% CI: 1.0, 1.6) for preterm birth and the highest PCE exposure category during the entire pregnancy. Monotonic exposure-response relationships were observed for benzene exposure during the entire pregnancy and TLBW (highest category OR =1.5, 85% CI: 0.9, 2.3). Although a monotonic association between benzene and adjusted MBW difference was also observed (highest category β = −36.2 g, 95% CI: −72.3, −0.1), the association disappeared when TCE was also added to the model. We found no evidence suggesting any other associations between outcomes and exposures.ConclusionFindings suggested associations between in utero exposures to TCE and SGA, TLBW and reduced MBW; benzene and TLBW; and PCE and preterm birth."
+  },
+  {
+    "paperId": "2aba125f467c486c8dbd953159c8abd29bd83100",
+    "externalIds": {
+      "DOI": "10.1080/15320383.2024.2438152",
+      "CorpusId": 274592236
+    },
+    "url": "https://www.semanticscholar.org/paper/2aba125f467c486c8dbd953159c8abd29bd83100",
+    "title": "Temporal and Spatial Distribution and Risk Assessment of Volatile Chlorinated Hydrocarbons in Soils of Typical Industrial Parks in Chongqing Under the “Dual Carbon” Background",
+    "venue": "Soil & sediment contamination",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/15320383.2024.2438152?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/15320383.2024.2438152, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2315904575",
+        "name": "Xihong Ke"
+      },
+      {
+        "authorId": "2334416934",
+        "name": "Guibing Pu"
+      },
+      {
+        "authorId": "108453667",
+        "name": "Shang-Ming Chen"
+      },
+      {
+        "authorId": "2315950697",
+        "name": "Jiangfeng Guo"
+      },
+      {
+        "authorId": "2330789319",
+        "name": "Zhilin Xing"
+      }
+    ],
+    "abstract": "ABSTRACT In the context of China’s “Dual Carbon” initiative, controlling volatile compounds (VOCs) in industrial park soils was crucial for pollution control and carbon mitigation efforts. This study examined the distribution and risks of chlorinated hydrocarbons in the soils of Chongqing’s chemical and mechanical industrial parks. Through site surveys, in situ sampling, pollutant extraction and detection, and soil microbial diversity sequencing, we identified a higher pollution risk in chemical parks (detection rate of 18.5%) and compared to mechanical parks (1%). Surface soils exhibited greater pollutant concentrations (11.8%) than deeper soils (8.8%), with higher contamination levels in winter (27.8%) than in summer (9.3%). Microbial diversity analysis revealed richer microbial communities in summer, suggesting their role in the natural degradation of pollutants, with Proteobacteria dominating but remaining largely functionally uncharacterized. Trichloroethylene and tetrachloroethylene were the primary detected pollutants, though at concentrations below regulatory thresholds. These findings provided crucial data for refining carbon emission policies and environmental management strategies in industrial parks under the “Dual Carbon” framework."
   },
   {
     "paperId": "2ad04a7a620011a4fa315639e906b576091a8e2b",
@@ -25496,6 +25575,61 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "3610abfdc7a29ecac2000726719cade2d91706d6",
+    "externalIds": {
+      "DOI": "10.20517/jeea.2025.50",
+      "CorpusId": 282668230
+    },
+    "url": "https://www.semanticscholar.org/paper/3610abfdc7a29ecac2000726719cade2d91706d6",
+    "title": "Impact of rainfall, snowpack and storms on contaminant levels in groundwater beneath two U.S. Superfund sites in New York",
+    "venue": "Journal of Environmental Exposure Assessment",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.20517/jeea.2025.50?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.20517/jeea.2025.50, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2386358966",
+        "name": "Dimitrios E. Bakatsias"
+      },
+      {
+        "authorId": "2389534051",
+        "name": "Jasmeen Kaur"
+      },
+      {
+        "authorId": "2389865620",
+        "name": "Tanish Parlapall"
+      },
+      {
+        "authorId": "2314902737",
+        "name": "Lissa Soares"
+      },
+      {
+        "authorId": "2270139138",
+        "name": "Arjun K. Venkatesan"
+      },
+      {
+        "authorId": "152155184",
+        "name": "Roxanne Karimi"
+      },
+      {
+        "authorId": "2238827484",
+        "name": "Kevin A. Reed"
+      },
+      {
+        "authorId": "2267293723",
+        "name": "Jaymie R. Meliker"
+      }
+    ],
+    "abstract": "Superfund sites are polluted locations in the U.S. designated by the Environmental Protection Agency for cleanup due to hazardous waste contamination. The U.S. Government Accountability Office estimates that 50% of U.S. Superfund sites are at risk of flooding, potentially leading to mobility of contaminants into the environment. We investigate the relationships between rainfall, snowpack, and storms with levels of contaminants in well water beneath Dzus Fasteners Co. in West Islip, New York (NY, 2011-2019) and American Thermostat Co. in South Cairo, NY (2005-2011) using data shared by the New York State Department of Environmental Conservation. At Dzus, sampling was conducted approximately yearly. During Superstorm Sandy in October 2012, the water table beneath Dzus rose 1 to 2 meters due to storm surge, then receded into the Atlantic Ocean via Willetts Creek. In a Dzus monitoring well (MW), cadmium (Cd) increased from 64.4 µg/L in August 2012, to 120 µg/L in November 2013; lower levels of Cd were seen in other MWs. In April 2013, after Sandy, 14 out of 70 sediment samples collected along Willetts Creek were above 90 mg/kg Cd, with a maximum of 1,600 mg/kg; the previous maximum was 133 mg/kg. At American Thermostat, positive correlations were detected between volatile organic compounds and both rainfall and snowpack in three out of six observation wells. For example, in well observation well 12, snowpack showed strong correlations with the on-site main contaminants: trichloroethylene (r = 0.96) and tetrachloroethylene (r = 0.86). Despite limited sampling data, these case studies suggest that contaminant levels in groundwater and nearby sediment at Superfund sites can increase with rainfall, snowpack, and intense storms. Increased monitoring frequency is recommended to better understand the impacts of storms and precipitation at Superfund sites."
   },
   {
     "paperId": "36129ebc79c5da3d5301c941851531b94e64b1cd",
@@ -41284,6 +41418,52 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "5849b2184dd5dd32bbde5bee8bf72084b81a27a1",
+    "externalIds": {
+      "MAG": "2117050166",
+      "DOI": "10.5194/ACP-5-1963-2005",
+      "CorpusId": 12952200
+    },
+    "url": "https://www.semanticscholar.org/paper/5849b2184dd5dd32bbde5bee8bf72084b81a27a1",
+    "title": "Sources and sinks of acetone, methanol, and acetaldehyde in North Atlantic marine air",
+    "venue": "",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "https://acp.copernicus.org/articles/5/1963/2005/acp-5-1963-2005.pdf",
+      "status": "GOLD",
+      "license": "CCBYNCSA",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/ACP-5-1963-2005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/ACP-5-1963-2005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2245353815",
+        "name": "A. C. Lewis"
+      },
+      {
+        "authorId": "145844052",
+        "name": "J. Hopkins"
+      },
+      {
+        "authorId": "2247439336",
+        "name": "L. J. Carpenter"
+      },
+      {
+        "authorId": "123316096",
+        "name": "J. Stanton"
+      },
+      {
+        "authorId": "152472841",
+        "name": "K. Read"
+      },
+      {
+        "authorId": "1731434",
+        "name": "M. Pilling"
+      }
+    ],
+    "abstract": "Abstract. Measurements of acetone, methanol, acetaldehyde and a range of non-methane hydrocarbons have been made in North Atlantic marine air at the Mace Head observatory. Under maritime conditions the combination of OVOCs (acetone, methanol and acetaldehyde) contributed up to 85% of the total mass of measured non methane organics in air and up to 80% of the OH radical organic sink, when compared with the sum of all other organic compounds including non-methane hydrocarbons, DMS and OH-reactive halocarbons (trichloromethane and tetrachloroethylene). The observations showed anomalies in the variance and abundance of acetaldehyde and acetone over that expected for species with a remote terrestrial emission source and OH controlled chemical lifetime. A detailed model incorporating an explicit chemical degradation mechanism indicated in situ formation during air mass transport was on timescales longer than the atmospheric lifetime of precursor hydrocarbons or primary emission. The period over which this process was significant was similar to that of airmass motion on intercontinental scales, and formation via this route may reproduce that of a widespread diffuse source. The model indicates that continued short chain OVOC formation occurs many days from the point of emission, via longer lived intermediates of oxidation such as organic peroxides and long chain alcohols."
   },
   {
     "paperId": "584f7b0f84d66326e213b87049e00b8c052278d0",
@@ -57991,7 +58171,7 @@
       },
       {
         "authorId": "2286650197",
-        "name": "Chris Lutes"
+        "name": "C. Lutes"
       },
       {
         "authorId": "16053127",
@@ -62242,6 +62422,65 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "8604ed597833f0a1f37a2ec9f099e47edaec8936",
+    "externalIds": {
+      "DOI": "10.4314/bcse.v39i11.12",
+      "CorpusId": 282473436
+    },
+    "url": "https://www.semanticscholar.org/paper/8604ed597833f0a1f37a2ec9f099e47edaec8936",
+    "title": "Green ultrasound-assisted emulsification dispersive liquid-liquid microextraction combined with spectrophotometry for preconcentration and quantification of nickel in environmental samples",
+    "venue": "Bulletin of the Chemical Society of Ethiopia",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4314/bcse.v39i11.12?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4314/bcse.v39i11.12, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2211308766",
+        "name": "Samya Sh. Alenezi"
+      },
+      {
+        "authorId": "2183623422",
+        "name": "Ayman A. Gouda"
+      },
+      {
+        "authorId": "2388410130",
+        "name": "Ragaa El Sheik"
+      },
+      {
+        "authorId": "2388421508",
+        "name": "Ahmed H. Moustafa"
+      },
+      {
+        "authorId": "2388412404",
+        "name": "Fatma A. Ibraheem"
+      },
+      {
+        "authorId": "2343685282",
+        "name": "Mohamed Elgafary"
+      },
+      {
+        "authorId": "2388408558",
+        "name": "Lamis Eh. Al-Enani"
+      },
+      {
+        "authorId": "2388412729",
+        "name": "Mahmoud A. Almasry"
+      },
+      {
+        "authorId": "2388409018",
+        "name": "Abdalla M. Khedr"
+      }
+    ],
+    "abstract": "An efficient, quick, sensitive, and eco-friendly ultrasound-assisted emulsification dispersive liquid-liquid microextraction (UAE-DLLME) method was developed for the separation and preconcentration of trace nickel (Ni(II)) in environmental samples before spectrophotometric analysis. The non-ionic water-soluble surfactant Triton X-114 (TX-114) was used as a dispersive solvent, while tetrachloroethylene served as the extractive solvent, rendering the microextraction method more environmentally friendly. The novel complexing agent, 4-((2, 4-Dihydroxyphenyl)diazenyl)-N-(pyrimidin-2-yl)benzene sulfonamide (DHPDPNS), was employed for the complexation of Ni(II) at a pH of 7.0. The impact of multiple variables on the efficacy of the UAE-DLLME approach was optimized. Under ideal conditions, the calibration graph exhibited linearity within the range of 2.0-500 μg L-1. The detection and quantification limits were established at 0.6 μg L-1 and 2.0 μg L-1, respectively. The preconcentration factor and enhancement factor were determined to be 60 and 30, respectively. The relative standard deviation (%RSD) indicating precisions at 200 and 400 µg L-1 of Ni(II) was 1.7% and 2.0%, respectively (n=10). The developed UAE-DLLME microextraction method was ultimately employed to preconcentrate and quantify trace quantities of Ni(II) in environmental samples. \nKEY WORDS: Ultrasound-assisted emulsification dispersive liquid-liquid microextraction, Preconcentration, Nickel, Non-ionic surfactant, Environmental samples, Spectrophotometry \nBull. Chem. Soc. Ethiop. 2025, 39(11), 2243-2259.                                                 \nDOI: https://dx.doi.org/10.4314/bcse.v39i11.12                                                               "
   },
   {
     "paperId": "860bdfd27a05b59e998228a5f0a3d64814ae6ae3",
@@ -67775,7 +68014,7 @@
         "name": "D. Murzin"
       }
     ],
-    "abstract": "\n \n To develop effective adsorbents and carriers for removing harmful impurities from waste, due to the shortage of natural bauxite for alumina production.\n \n \n To determine the influence of various impurities present in the waste—spent alumina adsorbent (SAA) on the characteristics of adsorbents for chlorine-containing compounds, samples with a different content of V, Ti and Na have been synthesized. Properties of adsorbents based on a commercial alumina and extensively treated SAA, both types undergoing impregnation with sodium hydroxide and sodium vanadate, have been compared. Alumina adsorbents and alumina-kaolin-borate catalyst carriers with the Ti content of ca. 0.2% were prepared by atomic layer deposition (ALD) of TiCl4 on the ready granules, while introduction of large quantities of titania have been performed by addition of ground alumina-titania carrier waste into the extrusion paste. Adsorption of steam, tetrachloroethylene and hydrochloric acid has been investigated.\n \n \n It was found that the adsorption capacity for water vapor reached 43.6 g H2O/100 g SA and 38.9 g H2O/100 g AN-2, while after ALD modification it decreased by ca. 1 and 35%, respectively and with the introduction of SA-Ti(15.0) with the same amount of titanium by ca. 35%. Modification of AN-2 with sodium vanadate at about 0.3% Na and 0.4% V had no effect on water adsorption; while as the concentration of sodium introduced by impregnation with NaOH increased, the adsorption ability deteriorated. Modification of AN-2 and SA using ALD technology sharply diminished efficiency of adsorption of water vapors, tetrachlorethylene and hydrochloric acid. By adsorption of a mixture simulating reforming exhaust gases, formation of chlorinated oligomers on AKB, AN-2 and SA was established. NaOH modification effectively suppressed oligomerization; thus SAA-based adsorbents containing more than 5% Na can be used for drying and purification of reforming exhaust gases, as the most effective, cheapest and resource-saving option.\n \n \n \n"
+    "abstract": "To develop effective adsorbents and carriers for removing harmful impurities from waste, due to the shortage of natural bauxite for alumina production. To determine the influence of various impurities present in the waste—spent alumina adsorbent (SAA) on the characteristics of adsorbents for chlorine-containing compounds, samples with a different content of V, Ti and Na have been synthesized. Properties of adsorbents based on a commercial alumina and extensively treated SAA, both types undergoing impregnation with sodium hydroxide and sodium vanadate, have been compared. Alumina adsorbents and alumina-kaolin-borate catalyst carriers with the Ti content of ca. 0.2% were prepared by atomic layer deposition (ALD) of TiCl4 on the ready granules, while introduction of large quantities of titania have been performed by addition of ground alumina-titania carrier waste into the extrusion paste. Adsorption of steam, tetrachloroethylene and hydrochloric acid has been investigated. It was found that the adsorption capacity for water vapor reached 43.6 g H2O/100 g SA and 38.9 g H2O/100 g AN-2, while after ALD modification it decreased by ca. 1 and 35%, respectively and with the introduction of SA-Ti(15.0) with the same amount of titanium by ca. 35%. Modification of AN-2 with sodium vanadate at about 0.3% Na and 0.4% V had no effect on water adsorption; while as the concentration of sodium introduced by impregnation with NaOH increased, the adsorption ability deteriorated. Modification of AN-2 and SA using ALD technology sharply diminished efficiency of adsorption of water vapors, tetrachlorethylene and hydrochloric acid. By adsorption of a mixture simulating reforming exhaust gases, formation of chlorinated oligomers on AKB, AN-2 and SA was established. NaOH modification effectively suppressed oligomerization; thus SAA-based adsorbents containing more than 5% Na can be used for drying and purification of reforming exhaust gases, as the most effective, cheapest and resource-saving option."
   },
   {
     "paperId": "934eeec2b4265c9e8fc8266c60ba49bbf7bb3700",
@@ -69042,20 +69281,60 @@
   {
     "paperId": "960926cbf43db94e87ee0bf078bbe3875d5a8913",
     "externalIds": {
-      "CorpusId": 12002248
+      "PubMedCentral": "2430239",
+      "MAG": "2033571511",
+      "DOI": "10.1289/ehp.10414",
+      "CorpusId": 12002248,
+      "PubMed": "18560539"
     },
     "url": "https://www.semanticscholar.org/paper/960926cbf43db94e87ee0bf078bbe3875d5a8913",
-    "title": "Research | Children’s Health Prenatal Exposure to Tetrachloroethylene-Contaminated Drinking Water and the Risk of Adverse Birth Outcomes",
-    "venue": "",
-    "year": null,
+    "title": "Prenatal Exposure to Tetrachloroethylene-Contaminated Drinking Water and the Risk of Adverse Birth Outcomes",
+    "venue": "Environmental Health Perspectives",
+    "year": 2008,
     "openAccessPdf": {
-      "url": "",
-      "status": null,
-      "license": null
+      "url": "https://doi.org/10.1289/ehp.10414",
+      "status": "GOLD",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2430239, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
-    "publicationTypes": null,
-    "authors": [],
-    "abstract": null
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "6122120",
+        "name": "A. Aschengrau"
+      },
+      {
+        "authorId": "2247154110",
+        "name": "Janice Weinberg"
+      },
+      {
+        "authorId": "2388918960",
+        "name": "Sarah Rogers"
+      },
+      {
+        "authorId": "47082052",
+        "name": "L. Gallagher"
+      },
+      {
+        "authorId": "2061234213",
+        "name": "Michael R Winter"
+      },
+      {
+        "authorId": "2247166520",
+        "name": "Verónica M. Vieira"
+      },
+      {
+        "authorId": "2247152375",
+        "name": "Thomas F. Webster"
+      },
+      {
+        "authorId": "1860718",
+        "name": "D. Ozonoff"
+      }
+    ],
+    "abstract": "Background Prior studies of prenatal exposure to tetrachloroethylene (PCE) have shown mixed results regarding its effect on birth weight and gestational age. Objectives In this retrospective cohort study we examined whether PCE contamination of public drinking-water supplies in Massachusetts influenced the birth weight and gestational duration of children whose mothers were exposed before the child’s delivery. Methods The study included 1,353 children whose mothers were exposed to PCE-contaminated drinking water and a comparable group of 772 children of unexposed mothers. Birth records were used to identify subjects and provide information on the outcomes. Mothers completed a questionnaire to gather information on residential histories and confounding variables. PCE exposure was estimated using EPANET water distribution system modeling software that incorporated a fate and transport model. Results We found no meaningful associations between PCE exposure and birth weight or gestational duration. Compared with children whose mothers were unexposed during the year of the last menstrual period (LMP), adjusted mean differences in birth weight were 20.9, 6.2, 30.1, and 15.2 g for children whose mothers’ average monthly exposure during the LMP year ranged from the lowest to highest quartile. Similarly, compared with unexposed children, adjusted mean differences in gestational age were −0.2, 0.1, −0.1, and −0.2 weeks for children whose mothers’ average monthly exposure ranged from the lowest to highest quartile. Similar results were observed for two other measures of prenatal exposure. Conclusions These results suggest that prenatal PCE exposure does not have an adverse effect on these birth outcomes at the exposure levels experienced by this population."
   },
   {
     "paperId": "961154494b6f508264bcfbab1a455d7c1bf3fac6",
@@ -72341,8 +72620,8 @@
       "PubMed": "41114842"
     },
     "url": "https://www.semanticscholar.org/paper/9d5856fdb33512e7f0690f57f0f3619fcf3c940d",
-    "title": "Development of PVDF/SrFe12O19/g-C3N4 nanocomposite films for VOC sensing at room-temperature.",
-    "venue": "Mikrochimica Acta",
+    "title": "Development of PVDF/SrFe12O19/g-C3N4 nanocomposite films for VOC sensing at room-temperature",
+    "venue": "Microchimica Acta",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
@@ -72618,6 +72897,33 @@
       {
         "authorId": "145476157",
         "name": "C. Wolf"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "9df64ae22cb68fe71ba6e2b452f0ad7f32d8ff5c",
+    "externalIds": {
+      "DOI": "10.1007/s00769-024-01624-8",
+      "CorpusId": 274174106
+    },
+    "url": "https://www.semanticscholar.org/paper/9df64ae22cb68fe71ba6e2b452f0ad7f32d8ff5c",
+    "title": "Investigation of oil and grease in surface soils of gas station, automobile repair workshop, urban, recreational area, and rural sites using FT-IR",
+    "venue": "Accreditation and Quality Assurance",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00769-024-01624-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00769-024-01624-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "1588618330",
+        "name": "Melike B. Bayramoğlu Karşı"
       }
     ],
     "abstract": null
@@ -73154,7 +73460,7 @@
       },
       {
         "authorId": "2286650197",
-        "name": "Chris Lutes"
+        "name": "C. Lutes"
       },
       {
         "authorId": "2267366523",
@@ -85392,7 +85698,7 @@
       "PubMed": "41098099"
     },
     "url": "https://www.semanticscholar.org/paper/b91e72cdb2a97529c344b93facc8bb4d79a6e6a2",
-    "title": "Tetrachloroethylene Is Associated With Presence of Significant Liver Fibrosis: A National Cross-Sectional Study in US Adults.",
+    "title": "Tetrachloroethylene Is Associated With Presence of Significant Liver Fibrosis: A National Cross‐Sectional Study in US Adults",
     "venue": "Liver international (Print)",
     "year": 2025,
     "openAccessPdf": {
@@ -85402,8 +85708,7 @@
       "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/liv.70398?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/liv.70398, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
-      "JournalArticle",
-      "Review"
+      "JournalArticle"
     ],
     "authors": [
       {
@@ -85419,7 +85724,7 @@
         "name": "Brian P. Lee"
       }
     ],
-    "abstract": "BACKGROUND & AIMS\nTetrachloroethylene (PCE) is a volatile organic compound (VOC) used in industrial settings. Pre-clinical studies have linked PCE to hepatotoxicity, but clinical data beyond selected occupational cohorts represent a critical knowledge gap.\n\n\nMETHODS\nWe utilised data from the National Health and Nutrition Examination Survey (NHANES) from 2017 to 2020, a nationally representative survey of the US population. Significant liver fibrosis was defined as liver stiffness measurement > 8.2 kPa by vibration-controlled transient elastography. We used multivariate logistic regression to assess the association of PCE with significant liver fibrosis, controlling for potential demographic and clinical confounders. A negative control analysis was performed using N-Acetyl-S-(2-hydroxyethyl)-l-cysteine, a biomarker representing exposure to a mixture of VOCs.\n\n\nRESULTS\nAmong 1614 adults, 116 had detectable PCE, representing a weighted percentage of 7.4% (95% CI 5.1%-10.7%). Values ranged from 0.034 to 57.5 ng/mL, with a median concentration of 0.09 ng/mL (IQR 0.07-0.22 ng/mL). Detectable PCE (aOR 3.17 [95% CI 1.23-8.20]) was associated with significant liver fibrosis, an independent association supported by the negative control analysis. Additionally, the association between PCE and significant liver fibrosis was dose-dependent (aOR per 1 ng/mL increase 5.13 [1.09-24.26]). The absolute risk difference between the predicted probability of significant liver fibrosis for detectable vs. undetectable PCE was 27.7% (95% CI 4.3%-51.0%).\n\n\nCONCLUSION\nIn this nationally representative US study, PCE was associated with significant liver fibrosis with a dose-dependent effect, and a negative control analysis suggesting that this association is distinct to PCE. Our results should encourage prospective studies to confirm PCE as a contributor to liver disease to inform environmental policies."
+    "abstract": "Tetrachloroethylene (PCE) is a volatile organic compound (VOC) used in industrial settings. Pre‐clinical studies have linked PCE to hepatotoxicity, but clinical data beyond selected occupational cohorts represent a critical knowledge gap."
   },
   {
     "paperId": "b9308d294358c330d03b55497cb341b990e703dc",
@@ -86819,7 +87124,7 @@
         "name": "Yanxia Xie"
       },
       {
-        "authorId": "2374936340",
+        "authorId": "2388083186",
         "name": "Weiqiang Zhang"
       },
       {
@@ -86835,7 +87140,7 @@
         "name": "Wenxuan Yin"
       },
       {
-        "authorId": "2374923878",
+        "authorId": "2388083395",
         "name": "Wenqiang Zhang"
       },
       {
@@ -88206,7 +88511,8 @@
       "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12665-024-11683-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12665-024-11683-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
-      "JournalArticle"
+      "JournalArticle",
+      "Review"
     ],
     "authors": [
       {
@@ -88238,7 +88544,7 @@
         "name": "A. Ustra"
       }
     ],
-    "abstract": null
+    "abstract": "Investigating soil and water contamination is essential for assessing environmental risks and monitoring remediation processes. This study, located in São Paulo, Brazil, highlights the presence of chlorinated solvents, especially tetrachloroethylene, with the application of remediation measures such as chemical oxidation. Both contamination and remediation processes have led to changes in geophysical signatures, enabling the use of electrical resistivity, despite challenges in urban areas due to consolidated infrastructure. The objective is to integrate data from direct methods and surveys of electrical resistivity and induced polarization, obtained through direct current and resistive capacitive methods, to refine the conceptual model of the area, delineating the influence zone of the contaminant and remediation processes. The resistive capacitive method allows continuous data acquisition in large areas without the need for electrode insertion into the soil. Geoelectrical data, correlated with soil sample descriptions, allow analysis of subsurface characteristics and areas affected by contamination. Variations in resistivity identify differences between lithologies, while induced polarization highlights clayey areas. Chemical oxidation to remediate PCE contamination increases conductivity, allowing for delineation of the remediation's influence zone. Despite urban challenges, the electrical resistivity method helps fill data gaps and improve the conceptual model of the area, demonstrating a rapid and effective approach."
   },
   {
     "paperId": "bf73bad2bc55035da2f843da98ed5cd9217590c9",
@@ -98703,7 +99009,7 @@
       },
       {
         "authorId": "92649073",
-        "name": "V. Jaliparthi"
+        "name": "Vijayasekhar Jaliparthi"
       }
     ],
     "abstract": "This study employs a sophisticated computational approach to predict tetrachloroethylene's higher overtone vibrational frequencies (C2Cl4) up to the fourth overtone. We utilize a Lie algebraic framework within the context of the vibrational Hamiltonian. The method involves replacing tetrachloroethylene's carbon-chlorine (C-Cl) bonds with unitary Lie algebras. The resulting Hamiltonian is written in terms of Casimir and Majorana's invariant operators and parameters. The derived Hamiltonian operator effectively characterizes the stretching vibrations inherent to the molecular structure. This approach enhances our understanding of the vibrational dynamics of tetrachloroethylene at higher overtones, offering valuable insights for applications in diverse scientific and technological fields."
@@ -101564,7 +101870,7 @@
     "url": "https://www.semanticscholar.org/paper/db3222e353e4b62cdfcf8e67786bc98e37b21711",
     "title": "Journal of Occupational Medicine and Toxicology Solvent Exposure and Malignant Lymphoma: a Population-based Case-control Study in Germany Background",
     "venue": "",
-    "year": 2007,
+    "year": null,
     "openAccessPdf": {
       "url": "",
       "status": null,
@@ -107128,7 +107434,7 @@
         "name": "Mary H. Ward"
       }
     ],
-    "abstract": "Background Pollutants including metals/metalloids, nitrate, disinfection byproducts, and volatile organic compounds contaminate federally regulated community water systems (CWS) and unregulated domestic wells across the United States. Exposures and associated health effects, particularly at levels below regulatory limits, are understudied. Objective We described drinking water sources and exposures for the California Teachers Study (CTS), a prospective cohort of female California teachers and administrators. Methods Participants’ geocoded addresses at enrollment (1995–1996) were linked to CWS service area boundaries and monitoring data (N = 115,206, 92%); we computed average (1990–2015) concentrations of arsenic, uranium, nitrate, gross alpha (GA), five haloacetic acids (HAA5), total trihalomethanes (TTHM), trichloroethylene (TCE), and tetrachloroethylene (PCE). We used generalized linear regression to estimate geometric mean ratios of CWS exposures across demographic subgroups and neighborhood characteristics. Self-reported drinking water source and consumption at follow-up (2017–2019) were also described. Results Medians (interquartile ranges) of average concentrations of all contaminants were below regulatory limits: arsenic: 1.03 (0.54,1.71) µg/L, uranium: 3.48 (1.01,6.18) µg/L, GA: 2.21 (1.32,3.67) pCi/L, nitrate: 0.54 (0.20,1.97) mg/L, HAA5: 8.67 (2.98,14.70) µg/L, and TTHM: 12.86 (4.58,21.95) µg/L. Among those who lived within a CWS boundary and self-reported drinking water information (2017–2019), approximately 74% self-reported their water source as municipal, 15% bottled, 2% private well, 4% other, and 5% did not know/missing. Spatially linked water source was largely consistent with self-reported source at follow-up (2017–2019). Relative to non-Hispanic white participants, average arsenic, uranium, GA, and nitrate concentrations were higher for Black, Hispanic and Native American participants. Relative to participants living in census block groups in the lowest socioeconomic status (SES) quartile, participants in higher SES quartiles had lower arsenic/uranium/GA/nitrate, and higher HAA5/TTHM. Non-metropolitan participants had higher arsenic/uranium/nitrate, and metropolitan participants had higher HAA5/TTHM. Impact Though average water contaminant levels were mostly below regulatory limits in this large cohort of California women, we observed heterogeneity in exposures across sociodemographic subgroups and neighborhood characteristics. These data will be used to support future assessments of drinking water exposures and disease risk."
+    "abstract": "Pollutants including metals/metalloids, nitrate, disinfection byproducts, and volatile organic compounds contaminate federally regulated community water systems (CWS) and unregulated domestic wells across the United States. Exposures and associated health effects, particularly at levels below regulatory limits, are understudied. We described drinking water sources and exposures for the California Teachers Study (CTS), a prospective cohort of female California teachers and administrators. Participants’ geocoded addresses at enrollment (1995–1996) were linked to CWS service area boundaries and monitoring data (N = 115,206, 92%); we computed average (1990–2015) concentrations of arsenic, uranium, nitrate, gross alpha (GA), five haloacetic acids (HAA5), total trihalomethanes (TTHM), trichloroethylene (TCE), and tetrachloroethylene (PCE). We used generalized linear regression to estimate geometric mean ratios of CWS exposures across demographic subgroups and neighborhood characteristics. Self-reported drinking water source and consumption at follow-up (2017–2019) were also described. Medians (interquartile ranges) of average concentrations of all contaminants were below regulatory limits: arsenic: 1.03 (0.54,1.71) µg/L, uranium: 3.48 (1.01,6.18) µg/L, GA: 2.21 (1.32,3.67) pCi/L, nitrate: 0.54 (0.20,1.97) mg/L, HAA5: 8.67 (2.98,14.70) µg/L, and TTHM: 12.86 (4.58,21.95) µg/L. Among those who lived within a CWS boundary and self-reported drinking water information (2017–2019), approximately 74% self-reported their water source as municipal, 15% bottled, 2% private well, 4% other, and 5% did not know/missing. Spatially linked water source was largely consistent with self-reported source at follow-up (2017–2019). Relative to non-Hispanic white participants, average arsenic, uranium, GA, and nitrate concentrations were higher for Black, Hispanic and Native American participants. Relative to participants living in census block groups in the lowest socioeconomic status (SES) quartile, participants in higher SES quartiles had lower arsenic/uranium/GA/nitrate, and higher HAA5/TTHM. Non-metropolitan participants had higher arsenic/uranium/nitrate, and metropolitan participants had higher HAA5/TTHM. Though average water contaminant levels were mostly below regulatory limits in this large cohort of California women, we observed heterogeneity in exposures across sociodemographic subgroups and neighborhood characteristics. These data will be used to support future assessments of drinking water exposures and disease risk."
   },
   {
     "paperId": "e88110236bdbc3d36d2e4d4c3b92c9de72f72efc",
@@ -113794,52 +114100,6 @@
     "abstract": null
   },
   {
-    "paperId": "f521e80502f15a000cb82c81c41d6cf537715149",
-    "externalIds": {
-      "MAG": "2117050166",
-      "DOI": "10.5194/ACP-5-1963-2005",
-      "CorpusId": 12952200
-    },
-    "url": "https://www.semanticscholar.org/paper/f521e80502f15a000cb82c81c41d6cf537715149",
-    "title": "Sources and sinks of acetone, methanol, and acetaldehyde in North Atlantic marine air",
-    "venue": "",
-    "year": 2005,
-    "openAccessPdf": {
-      "url": "https://acp.copernicus.org/articles/5/1963/2005/acp-5-1963-2005.pdf",
-      "status": "GOLD",
-      "license": "CCBYNCSA",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/ACP-5-1963-2005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/ACP-5-1963-2005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": null,
-    "authors": [
-      {
-        "authorId": "2245353815",
-        "name": "A. C. Lewis"
-      },
-      {
-        "authorId": "145844052",
-        "name": "J. Hopkins"
-      },
-      {
-        "authorId": "2247439336",
-        "name": "L. J. Carpenter"
-      },
-      {
-        "authorId": "123316096",
-        "name": "J. Stanton"
-      },
-      {
-        "authorId": "152472841",
-        "name": "K. Read"
-      },
-      {
-        "authorId": "1731434",
-        "name": "M. Pilling"
-      }
-    ],
-    "abstract": "Abstract. Measurements of acetone, methanol, acetaldehyde and a range of non-methane hydrocarbons have been made in North Atlantic marine air at the Mace Head observatory. Under maritime conditions the combination of OVOCs (acetone, methanol and acetaldehyde) contributed up to 85% of the total mass of measured non methane organics in air and up to 80% of the OH radical organic sink, when compared with the sum of all other organic compounds including non-methane hydrocarbons, DMS and OH-reactive halocarbons (trichloromethane and tetrachloroethylene). The observations showed anomalies in the variance and abundance of acetaldehyde and acetone over that expected for species with a remote terrestrial emission source and OH controlled chemical lifetime. A detailed model incorporating an explicit chemical degradation mechanism indicated in situ formation during air mass transport was on timescales longer than the atmospheric lifetime of precursor hydrocarbons or primary emission. The period over which this process was significant was similar to that of airmass motion on intercontinental scales, and formation via this route may reproduce that of a widespread diffuse source. The model indicates that continued short chain OVOC formation occurs many days from the point of emission, via longer lived intermediates of oxidation such as organic peroxides and long chain alcohols."
-  },
-  {
     "paperId": "f523a3d0ee43122b279e10e6ae1428a0baee5fe4",
     "externalIds": {
       "MAG": "2349843982",
@@ -116148,7 +116408,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/fa973db90e02cfc34cf2dba758c9b5f582422c34",
     "title": "Camp Lejeune Marine Cancer Risk Assessment for Exposure to Contaminated Drinking Water From 1955 to 1987",
-    "venue": "Water, Air, &amp; Soil Pollution",
+    "venue": "Water, Air and Soil Pollution",
     "year": 2024,
     "openAccessPdf": {
       "url": "https://link.springer.com/content/pdf/10.1007/s11270-023-06863-y.pdf",

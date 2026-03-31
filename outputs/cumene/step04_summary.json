@@ -1,0 +1,90 @@
+{
+  "target": "cumene",
+  "total_records": 3,
+  "statistics": {
+    "extracted": 1,
+    "partial_data": 0,
+    "partial_with_calculation": 0,
+    "insufficient_data": 0,
+    "not_found": 0,
+    "irrelevant": 2
+  },
+  "records_with_dosage": [
+    {
+      "title": "An iron-containing POM-based hybrid compound as a heterogeneous catalyst for one",
+      "doi": "10.1039/d3dt03560c",
+      "alternative": [
+        "Fe2-PMo11V3"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "substitution_logic": {
+        "target_problem": "high energy consumption and toxic intermediates produced by the conventional cumene method for phenol production",
+        "traditional_material_replaced": "cumene method for phenol production",
+        "alternative_solution": "Fe2-PMo11V3 as a catalyst for one-pot hydroxylation of benzene to phenol",
+        "relationship_type": "process_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "H2O2",
+          "value": "30 mmol",
+          "ratio_type": "concentration",
+          "evidence_location": "Table 3",
+          "context": "used as an oxidant in the hydroxylation reaction"
+        },
+        {
+          "material": "Fe2-PMo11V3",
+          "value": "10 mg",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Table 2",
+          "context": "optimal catalyst dosage for the reaction"
+        },
+        {
+          "material": "acetic acid",
+          "value": "1 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Table 3",
+          "context": "used as a co-solvent in the reaction"
+        },
+        {
+          "material": "acetonitrile",
+          "value": "5 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Table 3",
+          "context": "used as a solvent in the reaction"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "6 h",
+          "evidence_location": "Table 2",
+          "context": "duration of the hydroxylation reaction"
+        },
+        {
+          "parameter": "temperature",
+          "value": "60 °C",
+          "evidence_location": "Table 2",
+          "context": "reaction temperature for the hydroxylation of benzene"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "phenol_yield",
+          "metric_value": "16.2%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "phenol_selectivity",
+          "metric_value": "94%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

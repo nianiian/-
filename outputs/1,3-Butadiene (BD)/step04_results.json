@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Folate metabolism modifies chromosomal damage induced by 1,3-butadiene: results from a match-up study in China and in vitro experiments",
+    "doi": "10.1186/s41021-021-00217-y",
+    "year": 2021,
+    "target": "1,3-Butadiene (BD)",
+    "reasoning": "The abstract discusses the role of 5-methyltetrahydrofolate (5-MTHF) in modifying the chromosomal damage induced by 1,3-Butadiene (BD) and its genotoxic metabolite, 1,2:3,4-diepoxybutane (DEB). It indicates that 5-MTHF supplementation can decrease the frequencies of chromosomal damage, suggesting it may serve as a safer alternative to BD by mitigating its harmful effects.",
+    "alternatives": "5-methyltetrahydrofolate (5-MTHF)",
+    "target_chemical_harm": {
+      "harms": [
+        "genotoxicity",
+        "chromosomal damage",
+        "decreased global DNA methylation"
+      ],
+      "rationale": "The reasoning text explicitly mentions genotoxicity and chromosomal damage associated with 1,3-Butadiene (BD) exposure, as well as a decrease in global DNA methylation levels in TK6 cells due to exposure to its metabolite, 1,2:3,4-diepoxybutane (DEB)."
+    },
+    "CHEMICAL HARM": "genotoxicity, chromosomal damage, decreased global DNA methylation"
+  },
+  {
+    "title": "Folate metabolism modifies chromosomal damage induced by 1,3-butadiene: results from a match-up study in China and in vitro experiments",
+    "doi": "10.1186/s41021-021-00217-y",
+    "year": 2021,
+    "target": "1,3-Butadiene (BD)",
+    "reasoning": "The abstract discusses the role of 5-methyltetrahydrofolate (5-MTHF) in modifying chromosomal damage induced by 1,3-Butadiene (BD) and its metabolite, indicating that 5-MTHF supplementation could mitigate the harmful effects associated with BD exposure. This suggests that 5-MTHF may serve as a safer alternative in the context of BD's genotoxicity.",
+    "alternatives": "5-methyltetrahydrofolate (5-MTHF)",
+    "target_chemical_harm": {
+      "harms": [
+        "genotoxicity",
+        "chromosomal damage",
+        "decreased global DNA methylation"
+      ],
+      "rationale": "The reasoning text explicitly mentions genotoxicity and chromosomal damage associated with 1,3-Butadiene (BD) exposure, as well as a decrease in global DNA methylation levels in TK6 cells due to exposure to its metabolite, 1,2:3,4-diepoxybutane (DEB)."
+    },
+    "CHEMICAL HARM": "genotoxicity, chromosomal damage, decreased global DNA methylation"
+  }
+]

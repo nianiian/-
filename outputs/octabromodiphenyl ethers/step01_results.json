@@ -75,7 +75,7 @@
         "name": "Burak Kuzu"
       }
     ],
-    "abstract": "Commercial decabromodiphenyl ether (c-decaBDE) is a widely used additive flame retardant in textiles and plastics. This formulation predominantly consists of the congener BDE-209, with trace amounts of other brominated diphenyl ether congeners, such as nonabromodiphenyl ether and octabromodiphenyl ether. Recognized as a persistent organic pollutant due to its potential for long-range environmental transport, c-decaBDE poses significant environmental threats and serious human health risks, including endocrine, reproductive, developmental, and neurotoxic effects. The mechanisms underlying its neurotoxicity remain largely undefined. This study investigates the neurotoxic effects of BDE-209 in humans through network toxicology, multi-level bioinformatics approaches, and molecular docking analyses. Prediction results indicate that BDE-209 can cross the blood-brain barrier, entering the central nervous system and inducing neurotoxic effects. A comprehensive analysis has identified 294 potential targets linked to the neurotoxicity induced by BDE-209. Gene-gene interaction and pathway enrichment analyses revealed significant associations related to cellular responses to chemical stress and synaptic transmission. Further investigation of protein-protein interactions, combined with centrality analysis, identified 14 hub targets, including CaMK-II alpha, PSD-95, GluR-1, and GluN2B, as key proteins in this process. Molecular docking results indicate that BDE-209 exhibits a stronger binding affinity to GluN2B, a subunit of the N-methyl-D-aspartate (NMDA) receptors, compared to other key targets. These findings suggest that BDE-209 may disrupt the function of GluN2B-containing NMDA receptors, potentially leading to their inhibition. Such inhibition could result in reduced excitatory neurotransmission, impairing synaptic potentiation and plasticity, and ultimately contributing to neurotoxicity. Supplementary Information The online version contains supplementary material available at 10.1007/s12640-025-00741-7."
+    "abstract": "Commercial decabromodiphenyl ether (c-decaBDE) is a widely used additive flame retardant in textiles and plastics. This formulation predominantly consists of the congener BDE-209, with trace amounts of other brominated diphenyl ether congeners, such as nonabromodiphenyl ether and octabromodiphenyl ether. Recognized as a persistent organic pollutant due to its potential for long-range environmental transport, c-decaBDE poses significant environmental threats and serious human health risks, including endocrine, reproductive, developmental, and neurotoxic effects. The mechanisms underlying its neurotoxicity remain largely undefined. This study investigates the neurotoxic effects of BDE-209 in humans through network toxicology, multi-level bioinformatics approaches, and molecular docking analyses. Prediction results indicate that BDE-209 can cross the blood-brain barrier, entering the central nervous system and inducing neurotoxic effects. A comprehensive analysis has identified 294 potential targets linked to the neurotoxicity induced by BDE-209. Gene-gene interaction and pathway enrichment analyses revealed significant associations related to cellular responses to chemical stress and synaptic transmission. Further investigation of protein-protein interactions, combined with centrality analysis, identified 14 hub targets, including CaMK-II alpha, PSD-95, GluR-1, and GluN2B, as key proteins in this process. Molecular docking results indicate that BDE-209 exhibits a stronger binding affinity to GluN2B, a subunit of the N-methyl-D-aspartate (NMDA) receptors, compared to other key targets. These findings suggest that BDE-209 may disrupt the function of GluN2B-containing NMDA receptors, potentially leading to their inhibition. Such inhibition could result in reduced excitatory neurotransmission, impairing synaptic potentiation and plasticity, and ultimately contributing to neurotoxicity."
   },
   {
     "paperId": "096b460ee857f94720445b7a1fb6ab723028a70c",
@@ -1319,18 +1319,18 @@
     "paperId": "96766528267c346541adf67488c4a5af65a0b03b",
     "externalIds": {
       "MAG": "2330427055",
-      "DOI": "10.4209/AAQR.2014.14.0002",
+      "DOI": "10.4209/aaqr.2014.14.0002",
       "CorpusId": 101972049
     },
     "url": "https://www.semanticscholar.org/paper/96766528267c346541adf67488c4a5af65a0b03b",
-    "title": "Preface to Special Issue - Observation, Control Technologies and Impact Studies of POPs",
-    "venue": "",
+    "title": "Preface to Special Issue Observation, Control Technologies and Impact Studies of POPs",
+    "venue": "Aerosol and Air Quality Research",
     "year": 2014,
     "openAccessPdf": {
       "url": "https://aaqr.org/articles/aaqr-14-14-oa-0002.pdf",
       "status": "GOLD",
       "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2014.14.0002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2014.14.0002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/aaqr.2014.14.0002?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/aaqr.2014.14.0002, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": null,
     "authors": [

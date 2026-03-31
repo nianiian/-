@@ -1846,8 +1846,8 @@
   {
     "paperId": "0d73c200db77340679761b95aabf9a17977a0098",
     "externalIds": {
-      "PubMedCentral": "2974709",
-      "MAG": "2082220296",
+      "MAG": "1998185978",
+      "PubMedCentral": "2974710",
       "DOI": "10.1289/ehp.1002753",
       "CorpusId": 268816744,
       "PubMed": "21465737"
@@ -1860,7 +1860,7 @@
       "url": "https://doi.org/10.1289/ehp.1002753",
       "status": "GOLD",
       "license": "public-domain",
-      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2974709, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2974710, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "LettersAndComments",
@@ -5165,18 +5165,18 @@
     "paperId": "21a69220638f28397685112db3a6179a246df97e",
     "externalIds": {
       "MAG": "2140617572",
-      "DOI": "10.4209/AAQR.2013.02.0059",
+      "DOI": "10.4209/aaqr.2013.02.0059",
       "CorpusId": 59521103
     },
     "url": "https://www.semanticscholar.org/paper/21a69220638f28397685112db3a6179a246df97e",
     "title": "Chemical Composition of Nanoparticles Released from Thermal Cutting of Polystyrene Foams and the Associated Isomerization of Hexabromocyclododecane (HBCD) Diastereomers",
-    "venue": "",
+    "venue": "Aerosol and Air Quality Research",
     "year": 2014,
     "openAccessPdf": {
       "url": "https://aaqr.org/articles/aaqr-13-02-oa-0059.pdf",
       "status": "GOLD",
       "license": "CCBYSA",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2013.02.0059?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2013.02.0059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/aaqr.2013.02.0059?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/aaqr.2013.02.0059, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": null,
     "authors": [
@@ -5197,7 +5197,7 @@
         "name": "Jing Wang"
       }
     ],
-    "abstract": "Polystyrene foams have various applications, and cutting of them is usually performed with a heated metal wire. However, it has recently been reported that micro- and nanoparticles are released by such thermal cutting at a rate of a few billion particles per second, and these particles have a high likelihood of getting into the respiratory system of the operator. HBCD, as the additive flame retardant, can also be released and is mostly incorporated into the emitted particles."
+    "abstract": "Polystyrene foams have various applications, and cutting of them is usually performed with a heated metal wire. However, it has recently been reported that micro- and nanoparticles are released by such thermal cutting at a rate of a few billion particles per second, and these particles have a high likelihood of getting into the respiratory system of the operator. HBCD, as the additive flame retardant, can also be released and is mostly incorporated into the emitted particles. The chemical composition of the emitted particles was investigated in more detail in this study. Samples were collected by a cascade impactor during the thermal cutting of expanded (EPS) and extruded (XPS) polystyrene foam. Samples from three impactor stages were analyzed by GC-MS for their overall chemical compositions. Both particulate and gaseous samples were analyzed by LC-MS/MS for the amount of HBCD diastereomers. It was found that larger particles contain a significantly higher percentage of compounds with high boiling points. The comparison of the HBCD diastereomer patterns in EPS foam and the emitted particles revealed that isomerization occurred among the HBCD diastereomers. The average α-HBCD fractions were 14% and 60% in the EPS foam and emitted particles, respectively. In contrast, the corresponding average γ-HBCD fractions were 83% and 30%. Thermal cutting led to the conversion of a large fraction of γ-HBCD to α-HBCD, which is relatively stable and bio-accumulative. The diastereomer conversion was much more significant in the particles than in the gas emitted from EPS thermal cutting."
   },
   {
     "paperId": "21a9b0846a0b7fa2b2ff3d02c4f18a010c944f55",
@@ -6480,7 +6480,7 @@
         "name": "Zhuxiu Qian"
       },
       {
-        "authorId": "2324895491",
+        "authorId": "2272183676",
         "name": "Yiwen Xu"
       },
       {
@@ -7117,7 +7117,7 @@
     "externalIds": {
       "DOI": "10.1007/s12192-023-01389-y",
       "CorpusId": 264489283,
-      "PubMed": "37880562"
+      "PubMed": "38225033"
     },
     "url": "https://www.semanticscholar.org/paper/2c86edaa7eda6629481dd2d2c30c679e21bb214d",
     "title": "Responses of multifunctional immune complement component 1q (C1q) and apoptosis-related genes in Macrophthalmus japonicus tissues and human cells following exposure to environmental pollutants",
@@ -8038,7 +8038,7 @@
     ],
     "authors": [
       {
-        "authorId": "35708121",
+        "authorId": "2389477572",
         "name": "Sharia Yasmin"
       },
       {
@@ -9381,7 +9381,7 @@
       "PubMed": "40711634"
     },
     "url": "https://www.semanticscholar.org/paper/3e5d9604bc3a203349379dc4e456f00972f79117",
-    "title": "Distribution characteristics and risk assessment of hexabromocyclododecanes in soil from e-waste dismantling areas.",
+    "title": "Distribution characteristics and risk assessment of hexabromocyclododecanes in soil from e-waste dismantling areas",
     "venue": "Environmental Geochemistry and Health",
     "year": 2025,
     "openAccessPdf": {
@@ -10410,6 +10410,42 @@
     "abstract": "Polybrominated diphenyl ethers (PBDEs) and hexabromocyclododecane (HBCD) were measured in 298 human milk samples collected from across Canada between 2008 and 2011 as part of the Maternal-Infant Research on Environmental Chemicals study. PBDEs were detected in 100% of the samples analyzed and concentrations ranged from 0.071 to 267 ng·g-1 lipid (median 15.6 ng·g-1 lipid). The dominant contributors to ΣPBDEs (Σ15, 17, 28, 37, 47, 66, 71, 75, 77, 85, 99, 100, 119, 138, 153, 154, 160, 183, 190, 209) were PBDE 47 > PBDE 153 > PBDE 99 > PBDE 100 > PBDE 28 > PBDE 209. Previously, PBDE 209 was considered to be a minor contributor to ΣPBDE concentrations in Canadian human milk and, therefore, not reported by our lab. This study showed that when present, PBDE 209 can be an important contributor to ΣPBDEs (range: below detection - 85.3 ng·g-1 lipid; median - 0.083 ng·g-1 lipid). ΣPBDE concentrations declined slightly in Canadian human milk between the early and late 2000s. HBCD (Σ of α-, β-, and γ-) was observed in 94.0% of the samples measured and concentrations were dominated by α-HBCD (93.3%), with β- (9.7%) and γ- (28.5%) less frequently detected. The maximum ΣHBCD concentration observed was 7.66 ng·g-1 lipid (median value 0.303 ng·g-1 lipid). These data suggest that HBCD concentrations similarly decreased in Canadian human milk between the early 2000s and sampling for the present study. Maternal age did not impact the concentrations of these flame retardants in milk. Additionally, other maternal characteristics [e.g., the number of children a woman has had, pre-pregnancy body mass index (BMI), and education level] did not impact concentrations of these brominated flame retardant concentrations."
   },
   {
+    "paperId": "45c80f2211b8fd1f7d4f09139cf663ed4d415cb0",
+    "externalIds": {
+      "DOI": "10.1038/s42004-025-01728-3",
+      "CorpusId": 282597077,
+      "PubMed": "41174032"
+    },
+    "url": "https://www.semanticscholar.org/paper/45c80f2211b8fd1f7d4f09139cf663ed4d415cb0",
+    "title": "Membrane-based nanopurification for plastic recycling",
+    "venue": "Communications Chemistry",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s42004-025-01728-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s42004-025-01728-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "46589000",
+        "name": "Jean-Philippe Laviolette"
+      },
+      {
+        "authorId": "40693692",
+        "name": "A. Eslami"
+      },
+      {
+        "authorId": "2309568221",
+        "name": "Jocelyn Doucet"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "45dba95611feee4490885c6a4477d5d85f342e1e",
     "externalIds": {
       "MAG": "2091472311",
@@ -10698,7 +10734,7 @@
         "name": "M. Lourdes"
       },
       {
-        "authorId": "2373471583",
+        "authorId": "153128548",
         "name": "San Diego"
       },
       {
@@ -17806,7 +17842,7 @@
         "name": "Korff"
       },
       {
-        "authorId": "88607346",
+        "authorId": "2390128160",
         "name": "Antonia Wargel"
       },
       {
@@ -18143,45 +18179,6 @@
       }
     ],
     "abstract": "Brominated flame retardants (BFRs) are organohalogens commonly added to commercial products such as computers, electronics, textiles and furniture to reduce their flammability. BFRs have significant environmental persistence and are reported to be detected in human blood and breastmilk. In particular, tetrabromobisphenol A (TBBPA), hexabromocyclododecane (HBCD), and polybrominated diphenyl ethers (PBDEs) occupy nearly 20 percent of the global flame retardant market and are suggested to have adverse effects on humans and wildlife. As such, the mechanisms of BFR‐induced toxicity are actively being explored under the U.S. EPA Toxic Substance Control Act. We previously determined the effects of TBBPA, HBCD, and BDE 47 on cell viability in rat (NRK 52E), adult human (HK‐2 and RPTEC), and human embryonic (HEK‐293) kidney cells after 48 hours, and demonstrated that these compounds induce concentration‐dependent effects on MTT staining. Assessment of the mechanism of cell death using annexin V staining and propidium iodide (PI) staining showed that all three compounds induce apoptosis in these cells. We subsequently performed RNAseq and pathway analysis in these cells to identify key signaling pathways involved in the mechanism of BFR‐induced toxicity. Furthermore, we explored how BFR nephrotoxicity impacts neighboring cells by treating human fibroblasts with conditioned media from BFR‐treated kidney cells and measuring morphological, molecular, and functional changes in fibroblast activation using RT‐PCR, wound healing and high content image analysis. Ultimately, these data will aid future studies concerning the molecular mechanisms of BFR toxicity in kidney cells and how this impacts kidney epithelia‐fibroblast crosstalk using chronic exposure at environmentally relevant doses."
-  },
-  {
-    "paperId": "8640435d75e0e3cfca8f9802c558d71eecd64582",
-    "externalIds": {
-      "CorpusId": 263015631
-    },
-    "url": "https://www.semanticscholar.org/paper/8640435d75e0e3cfca8f9802c558d71eecd64582",
-    "title": "BPB Reports",
-    "venue": "",
-    "year": 2021,
-    "openAccessPdf": {
-      "url": "",
-      "status": null,
-      "license": null
-    },
-    "publicationTypes": null,
-    "authors": [
-      {
-        "authorId": "2111061069",
-        "name": "Musubu Takahashi"
-      },
-      {
-        "authorId": "31585885",
-        "name": "T. Fujie"
-      },
-      {
-        "authorId": "2247857573",
-        "name": "Yasuhiro Shinkai"
-      },
-      {
-        "authorId": "1606921858",
-        "name": "Tsuyoshi Nakano"
-      },
-      {
-        "authorId": "51244365",
-        "name": "C. Yamamoto"
-      }
-    ],
-    "abstract": null
   },
   {
     "paperId": "86693e259f9653651bad1958770776515d19c949",
@@ -20600,18 +20597,18 @@
     "paperId": "9ce817cd7d779a6eb837994e993c32a78206d354",
     "externalIds": {
       "MAG": "2126759677",
-      "DOI": "10.4209/AAQR.2013.05.0156",
+      "DOI": "10.4209/aaqr.2013.05.0156",
       "CorpusId": 55382792
     },
     "url": "https://www.semanticscholar.org/paper/9ce817cd7d779a6eb837994e993c32a78206d354",
     "title": "Impact of Brominated POPs on the Neurodevelopment and Thyroid Hormones of Young Children in an Indoor Environment—A Review",
-    "venue": "",
+    "venue": "Aerosol and Air Quality Research",
     "year": 2014,
     "openAccessPdf": {
       "url": "https://aaqr.org/articles/aaqr-13-05-oa-0156.pdf",
       "status": "GOLD",
       "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2013.05.0156?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2013.05.0156, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/aaqr.2013.05.0156?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/aaqr.2013.05.0156, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "Review"
@@ -20626,15 +20623,15 @@
         "name": "Huei-Lin Huang"
       },
       {
-        "authorId": "93664508",
-        "name": "Y. Hsu"
+        "authorId": null,
+        "name": "Yi-Chyun Hsu"
       },
       {
         "authorId": "144934769",
-        "name": "C. Lin"
+        "name": "Chun-Wen Lin"
       },
       {
-        "authorId": "122908229",
+        "authorId": "2390448953",
         "name": "Ding-Yan Lin"
       },
       {
@@ -21034,7 +21031,7 @@
     "publicationTypes": null,
     "authors": [
       {
-        "authorId": "35708121",
+        "authorId": "2389477572",
         "name": "Sharia Yasmin"
       }
     ],
@@ -31968,7 +31965,7 @@
       "PubMed": "40188186"
     },
     "url": "https://www.semanticscholar.org/paper/fef19b778930a9d82e9f3afd39033bca710d3bf9",
-    "title": "The effects of population and regional economy on the levels and distribution of hexabromocyclododecanes in soils from Jiangsu, Southeast China.",
+    "title": "The effects of population and regional economy on the levels and distribution of hexabromocyclododecanes in soils from Jiangsu, Southeast China",
     "venue": "Environmental Geochemistry and Health",
     "year": 2025,
     "openAccessPdf": {

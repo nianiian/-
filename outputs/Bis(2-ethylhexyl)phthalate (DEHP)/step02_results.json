@@ -483,7 +483,7 @@
       },
       {
         "authorId": "34612535",
-        "name": "A. Conrad"
+        "name": "André Conrad"
       }
     ],
     "abstract": "In the study presented here, we evaluated the exposure of the German population aged 14–80 years to bis(2-ethylhexyl)phthalate (DEHP) from consumption of food by means of deterministic and probabilistic estimations. The study was performed on the basis of an extensive review of literature from around the world reporting measured data on DEHP in food, as well as official German food control data. Only data from individual measurements were considered and used for fitting of distributions. A wide range of concentrations in non-representative samples are reported in the literature. On the basis of the available DEHP concentration data, 37 food categories were characterized which covered all major food classes. Food consumption data were taken from the diet history interviews of the German National Nutrition Survey II (Nationale Verzehrsstudie II) which was performed in 2005/2006 in a representative study population of 15,371 and is the most recent data source of this kind in Germany. Average DEHP intake was estimated deterministically using data on measured concentrations in food (medians and means) and food consumption (means). A total dietary exposure to DEHP of 3.6 (median based) and 9.3μg/kg of BW per day (based on mean values) was estimated deterministically. In addition, distributions of both concentrations and consumption figures were fitted using the @RISK best fit tool for further probabilistic estimations. This approach resulted in estimates within the same range: the estimated median DEHP intake in the whole population (both non-consumers and consumers of the foods considered) was 10.2, the arithmetic mean 14.0 and the 95th percentile 28.6μg/kg of BW per day. The respective estimates for consumers only were 12.4, 18.7 and 36.5μg/kg of BW per day. These results demonstrate that the probabilistic approach is able to estimate broader ranges of exposure even when using data representing an average intake. Moreover, it reflects the uncertainties of the estimation due to insufficient analytical data on concentrations of DEHP in food."
@@ -1333,18 +1333,18 @@
     "paperId": "1ad43bd10607f7a6ffcae920437479e14f461e6a",
     "externalIds": {
       "MAG": "2622148571",
-      "DOI": "10.4209/AAQR.2017.03.0109",
+      "DOI": "10.4209/aaqr.2017.03.0109",
       "CorpusId": 98963889
     },
     "url": "https://www.semanticscholar.org/paper/1ad43bd10607f7a6ffcae920437479e14f461e6a",
     "title": "PM2.5-Bound Polycyclic Aromatic Hydrocarbons (PAHs), Oxygenated-PAHs and Phthalate Esters (PAEs) inside and outside Middle School Classrooms in Xi’an, China: Concentration, Characteristics and Health Risk Assessment",
-    "venue": "",
+    "venue": "Aerosol and Air Quality Research",
     "year": 2017,
     "openAccessPdf": {
       "url": "http://www.aaqr.org/article/download?articleId=3468&path=/files/article/3468/10_AAQR-17-03-OA-0109_1811-1824.pdf",
       "status": "GOLD",
       "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2017.03.0109?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2017.03.0109, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/aaqr.2017.03.0109?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/aaqr.2017.03.0109, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": null,
     "authors": [
@@ -1385,7 +1385,7 @@
         "name": "Junji Cao"
       }
     ],
-    "abstract": "ABSTRACTIn China, the exposure of children to particulate toxics, like organics, has been poorly investigated mainly due to the technical challenges in sampling and analysis. This article reports indoor and outdoor concentrations of PM2.5-bound polycyclic aromatic hydrocarbons (PAHs), oxygenated-PAHs (OPAHs) and phthalate esters (PAEs) monitored for 13 days in May 2012 in two classrooms, A and B, of a middle school at Xi’an, China. Outdoors, the average PM2.5 mass was 96.9 µg m–3, while indoor concentrations ranged between 154.7 µg m–3 (A) and 120.2 µg m–3 (B). Total PAEs, dominated by bis(2-ethylhexyl)phthalate (DEHP) and di-n-butyl phthalate (DBP), were found at much higher concentrations than PAHs and OPAHs, and their outdoor versus indoor distribution followed that of PM2.5, ranging from 622.0 ng m–3 outdoors, to 808.6 (A) and 864.7 ng m–3 (B) indoors. Concentrations of total PAHs were about 50 ng m–3 outdoors and indoors, while OPAHs were observed at concentrations of 17.7 outdoors and 15.9 (A) and 19.8 ng m–3 (B) indoors. High molecular weight PAHs (i.e., 4-ring, 5-ring and 6-ring) generally accounted for about 80%. Variations of PAHs levels indoors were closely associated with the ventilation and the occupancy rate of the classrooms. Activities on the playground also influenced the indoor organic pollutant concentrations. Intense PAEs sources were evidenced, but outdoor sources also influenced the I/O ratios. Both the PAHs and PAEs inhalation risk estimations demonstrated that there is a non-negligible potential cancer risk for children in their school environment."
+    "abstract": "In China, the exposure of children to particulate toxics, like organics, has been poorly investigated mainly due to the technical challenges in sampling and analysis. This article reports indoor and outdoor concentrations of PM2.5-bound polycyclic aromatic hydrocarbons (PAHs), oxygenated-PAHs (OPAHs) and phthalate esters (PAEs) monitored for 13 days in May 2012 in two classrooms, A and B, of a middle school at Xi’an, China. Outdoors, the average PM2.5 mass was 96.9 µg m−3, while indoor concentrations ranged between 154.7 µg m–3 (A) and 120.2 µg m−3 (B). Total PAEs, dominated by bis(2-ethylhexyl)phthalate (DEHP) and di-n-butyl phthalate (DBP), were found at much higher concentrations than PAHs and OPAHs, and their outdoor versus indoor distribution followed that of PM2.5, ranging from 622.0 ng m−3 outdoors, to 808.6 (A) and 864.7 ng m−3 (B) indoors. Concentrations of total PAHs were about 50 ng m–3 outdoors and indoors, while OPAHs were observed at concentrations of 17.7 outdoors and 15.9 (A) and 19.8 ng m−3 (B) indoors. High molecular weight PAHs (i.e., 4-ring, 5-ring and 6-ring) generally accounted for about 80%. Variations of PAHs levels indoors were closely associated with the ventilation and the occupancy rate of the classrooms. Activities on the playground also influenced the indoor organic pollutant concentrations. Intense PAEs sources were evidenced, but outdoor sources also influenced the I/O ratios. Both the PAHs and PAEs inhalation risk estimations demonstrated that there is a non-negligible potential cancer risk for children in their school environment."
   },
   {
     "paperId": "1c2aa6bac1842e02948f6ef47395c63e38b752e1",
@@ -2136,7 +2136,7 @@
       "PubMed": "31059379"
     },
     "url": "https://www.semanticscholar.org/paper/25401db67d2a787168eb5e9b687034f17c119e90",
-    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases.",
+    "title": "Sex and Gender Analysis of Toxicity and Epidemiology Data on Environmental Chemicals in the Three Major Toxicology Databases",
     "venue": "Journal of Women's Health",
     "year": 2019,
     "openAccessPdf": {
@@ -2363,7 +2363,7 @@
       "PubMed": "39579185"
     },
     "url": "https://www.semanticscholar.org/paper/2a3f097567e15967dd9b5ea99454641501faaec0",
-    "title": "Investigation of PAEs in some dairy products (yogurt and kashk) using method of MSPE-GC/MS: a health risk assessment study.",
+    "title": "Investigation of PAEs in some dairy products (yogurt and kashk) using method of MSPE-GC/MS: a health risk assessment study",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -3148,7 +3148,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/32210146eb125ab4d11ab3970da5a9b2be71fb87",
     "title": "Characteristics of phthalate concentrations in propellant- and trigger-type consumer spray products",
-    "venue": "Air Quality, Atmosphere &amp; Health",
+    "venue": "Air quality, atmosphere and health",
     "year": 2024,
     "openAccessPdf": {
       "url": "https://link.springer.com/content/pdf/10.1007/s11869-024-01560-z.pdf",
@@ -3185,7 +3185,7 @@
         "name": "Chungsik Yoon"
       }
     ],
-    "abstract": "The purposes of this study were to evaluate the bulk sample concentration and airborne concentrations of phthalate in different types of propellent and triggers in consumer spray products and estimate health risk assessment via inhalation. First, the phthalate concentrations were analyzed in the solutions of all products 174 from markets. Then, among 64 products containing phthalates, 10 propellant-type products were selected that contained high phthalate concentrations; airborne concentrations were measured at distances of 1, 3, and 5 m from the spray nozzle in a clean room. Four phthalates were detected in spray products: diisobutyl phthalate (DiBP), di-n-butyl phthalate (DnBP), butyl benzyl phthalate (BBzP), and bis(2-ethylhexyl) phthalate (DEHP). Among propellant-type products, repellents contained the highest mean concentrations (3.90 ppm), whereas sterilized products contained the lowest mean concentrations (0.59 ppm). Among trigger-type products, cleaning products contained the highest mean concentrations (4.54 ppm), whereas coating products contained the lowest mean concentrations (0.73 ppm). In both propellant- and trigger-type products, DnBP and DEHP exceeded the standard set by the Ministry of Food and Drug Safety of South Korea. No significant patterns were observed for the airborne DiBP, DnBP, and DEHP concentrations at 1, 3, and 5 m (p > 0.05). Children were one of the population groups most susceptible to health risks. Overall, phthalates were detected in both product solutions and the air in consumer spray products; some even exceeded safe limits. Therefore, consumer spray products should be used in well-ventilated areas to avoid respiratory exposure."
+    "abstract": "The purposes of this study were to evaluate the bulk sample concentration and airborne concentrations of phthalate in different types of propellent and triggers in consumer spray products and estimate health risk assessment via inhalation. First, the phthalate concentrations were analyzed in the solutions of all products 174 from markets. Then, among 64 products containing phthalates, 10 propellant-type products were selected that contained high phthalate concentrations; airborne concentrations were measured at distances of 1, 3, and 5 m from the spray nozzle in a clean room. Four phthalates were detected in spray products: diisobutyl phthalate (DiBP), di-n-butyl phthalate (DnBP), butyl benzyl phthalate (BBzP), and bis(2-ethylhexyl) phthalate (DEHP). Among propellant-type products, repellents contained the highest mean concentrations (3.90 ppm), whereas sterilized products contained the lowest mean concentrations (0.59 ppm). Among trigger-type products, cleaning products contained the highest mean concentrations (4.54 ppm), whereas coating products contained the lowest mean concentrations (0.73 ppm). In both propellant- and trigger-type products, DnBP and DEHP exceeded the standard set by the Ministry of Food and Drug Safety of South Korea. No significant patterns were observed for the airborne DiBP, DnBP, and DEHP concentrations at 1, 3, and 5 m (p > 0.05). Children were one of the population groups most susceptible to health risks. Overall, phthalates were detected in both product solutions and the air in consumer spray products; some even exceeded safe limits. Therefore, consumer spray products should be used in well-ventilated areas to avoid respiratory exposure."
   },
   {
     "paperId": "34229c7f931ce64b767dccadddaca7fdbcc5fe43",
@@ -4138,6 +4138,45 @@
     "abstract": "Background: Bis(2‐ethylhexyl)phthalate (or DEHP) is widely used in polyvinyl chloride (PVC) tubings for its good plasticizing properties. Because it is not covalently bound to the plastic matrix, it is able to escape from PVC during the infusion of the lipid emulsions used in parenteral nutrition (PN). This creates a vector through which it can enter into contact with the patient via the nutrition admixtures infused. This study was designed to assess the potential role of the type of lipids used in PN admixtures on the quantity of DEHP leached out from PVC‐based tubings. Methods: PVC‐based infusion lines, 6 commercially available lipid emulsions, and their oil base components were left in direct contact, and the amount of DEHP leached was measured by liquid chromatography. Results: After a 24‐hour exposure period, DEHP migration varied significantly (P = .0000152) according to lipid type. The olive oil–based emulsion Clinoleic leached the most DEHP (65.8 µg/mL intravenous fat emulsion), followed by the fish oil–based emulsion Omegaven (37.8 µg/mL). The soybean oil–based emulsions Intralipid, Medialipide, Lipidem, and Structolipid showed comparable performances, with DEHP leaching rates into the emulsion measured at 27.3, 27.8, 23.6, and 19.6 µg/mL, respectively. Results from the same experiments run on pure‐form oils (soybean oil, olive oil, coconut oil, and cod liver oil) confirmed the influence of lipid type on DEHP leaching. Conclusion: The major DEHP leaching caused by olive oil–based emulsions raises cause for concern because DEHP presents distinctive toxic effects, including an increased risk of cholestasis."
   },
   {
+    "paperId": "3d11b24cc74d3ba057b65887dc10e0530c228328",
+    "externalIds": {
+      "DOI": "10.1007/s11694-024-02802-5",
+      "CorpusId": 271849141
+    },
+    "url": "https://www.semanticscholar.org/paper/3d11b24cc74d3ba057b65887dc10e0530c228328",
+    "title": "Assessment of phthalate esters migration in plastic products marketed in Turkey for food use",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11694-024-02802-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11694-024-02802-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "1438484314",
+        "name": "S. Kıralan"
+      },
+      {
+        "authorId": "93370066",
+        "name": "İ. Toptancı"
+      },
+      {
+        "authorId": "16333416",
+        "name": "M. Kıralan"
+      },
+      {
+        "authorId": "2239016089",
+        "name": "M. F. Ramadan"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "3d62dd3e92b0fab42d1cdf0613ee1bdf2bc3a2ce",
     "externalIds": {
       "MAG": "2555332962",
@@ -4370,6 +4409,103 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "41348d641c90c4a5f1b5f8866beebb1a70c71d80",
+    "externalIds": {
+      "PubMedCentral": "12572022",
+      "DOI": "10.1007/s12020-025-04441-2",
+      "CorpusId": 281839948,
+      "PubMed": "41051623"
+    },
+    "url": "https://www.semanticscholar.org/paper/41348d641c90c4a5f1b5f8866beebb1a70c71d80",
+    "title": "Environmental and lifestyle factors and risk of thyroid carcinoma: a cross-sectional study",
+    "venue": "Endocrine",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12572022, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2123637383",
+        "name": "Valentina Sada"
+      },
+      {
+        "authorId": "2350800301",
+        "name": "A. Cozzolino"
+      },
+      {
+        "authorId": "2281800728",
+        "name": "Ilaria Neri"
+      },
+      {
+        "authorId": "1747090180",
+        "name": "Ritamaria Di Lorenzo"
+      },
+      {
+        "authorId": "2384091744",
+        "name": "Livia Barba"
+      },
+      {
+        "authorId": "31671036",
+        "name": "R. Modica"
+      },
+      {
+        "authorId": "2248535871",
+        "name": "Pasquale Dolce"
+      },
+      {
+        "authorId": "2384092581",
+        "name": "Oumaima Achour"
+      },
+      {
+        "authorId": "6059071",
+        "name": "C. Pozza"
+      },
+      {
+        "authorId": "5788526",
+        "name": "E. Giannetta"
+      },
+      {
+        "authorId": "5502408",
+        "name": "D. Gianfrilli"
+      },
+      {
+        "authorId": "2384091709",
+        "name": "Lucia Grumetto"
+      },
+      {
+        "authorId": "2254488204",
+        "name": "Valeria Ascoli"
+      },
+      {
+        "authorId": "3925054",
+        "name": "Claudio Bellevicine"
+      },
+      {
+        "authorId": "144670829",
+        "name": "G. Troncone"
+      },
+      {
+        "authorId": "2300398404",
+        "name": "Andrea M. Isidori"
+      },
+      {
+        "authorId": "80214775",
+        "name": "A. Colao"
+      },
+      {
+        "authorId": "3438941",
+        "name": "A. Faggiano"
+      }
+    ],
+    "abstract": "The incidence of differentiated thyroid carcinoma (DTC) is increasing, and environmental factors, including lifestyle and endocrine-disrupting chemicals (EDCs) exposure, have been advocated as having an etiologic role. To investigate the relationship between DTC, EDCs exposure, and lifestyle in a population from two Italian regions. A cross-sectional study evaluating chemical exposure, lifestyle, and DTC diagnosis in subjects with thyroid nodules, undergoing Fine Needle Aspiration Cytology from May 2019 to February 2021. 193 patients were split into groups based on cytological diagnosis: group A, benign or low-risk (TIR2-TIR3A); group B, high-risk (TIR3B-TIR4-TIR5). Age, sex, weight, height, body mass index (BMI), waist circumference (WC), thyroid hormone profile, lifestyle variables, and serum EDCs levels were compared. The percentage of male patients was significantly higher in group B (p = 0.033), as well as the prevalence of obesity (p = 0.001) and BMI (p = 0.013). Visceral obesity was higher in group B, without reaching statistical significance (70.4% vs. 58.7%, p = 0.252), while WC was significantly higher in group B (p = 0.008). EDCs serum levels were not significantly higher in group B. A multivariable analysis found a significant association between high-risk cytology and WC (OR 1.04, 95% CI 1.01–1.08, p = 0.027). Considering patients with obesity, a linear correlation was observed between WC and bis(2-ethylhexyl) phthalate (DEHP) levels (r:0.40; p = 0.034). Obesity could have a role in DTC development. Furthermore, the WC and DEHP levels correlation in patients with obesity supports the hypothesis of an interaction between EDCs exposure and adipose tissue excess in increasing DTC risk."
   },
   {
     "paperId": "41948b969f4e98fb2bbf8314fac6e05f63652b46",
@@ -5912,7 +6048,7 @@
       "PubMed": "41014415"
     },
     "url": "https://www.semanticscholar.org/paper/50beb59f93254fc135b668afd33e5e9175fa7fd2",
-    "title": "Adverse effects on the endocrine and reproductive system of single and combined orthophthalates in female rats following short-term exposure.",
+    "title": "Adverse effects on the endocrine and reproductive system of single and combined orthophthalates in female rats following short-term exposure",
     "venue": "Environmental science and pollution research international",
     "year": 2025,
     "openAccessPdf": {
@@ -6302,7 +6438,7 @@
       "PubMed": "39946150"
     },
     "url": "https://www.semanticscholar.org/paper/567ee5375065129a8dd5f1c6d935ff9e462b5eee",
-    "title": "Detection and risk assessment of bisphenol-A and phthalate esters in bottled water: implications for public health.",
+    "title": "Detection and risk assessment of bisphenol-A and phthalate esters in bottled water: implications for public health",
     "venue": "International Journal of Environmental Health Research",
     "year": 2025,
     "openAccessPdf": {
@@ -6356,7 +6492,7 @@
         "name": "Manoj Kumar"
       }
     ],
-    "abstract": "The global consumption of bottled water has surged, particularly where safe drinking water is scarce Plastic water bottles may leachharmful Endocrine Disrupting Chemicals (EDCs), including bisphenol-A (BPA) and phthalate esters (PAEs), into the water. This study analyzes BPA and six PAEs in bottled water from various brands in Central India, utilizing gas chromatography-mass spectrometry (GC-MS). A total of 39 samples from 13 brands were analyzed. The results show detectable levels of BPA (35.397 µg/L to 273.513 µg/L) and PAEs (ND to 1147.340 µg/L), with significant concentrations of di-n-butyl phthalate (DBP), bis(2-ethylhexyl) phthalate (DEHP), and BPA, posing potential health risks. A risk assessment based on hazard quotients (HQ) indicated that DEHP and BPA exceeded safe exposure thresholds for non-carcinogenic and anti-androgenic risks. Additionally, DEHP exhibited a carcinogenic risk. These findings emphasize the need for stricter regulations and continuous monitoring to mitigate the health risks associated with EDC exposure from bottled water."
+    "abstract": "ABSTRACT The global consumption of bottled water has surged, particularly where safe drinking water is scarce Plastic water bottles may leachharmful Endocrine Disrupting Chemicals (EDCs), including bisphenol-A (BPA) and phthalate esters (PAEs), into the water. This study analyzes BPA and six PAEs in bottled water from various brands in Central India, utilizing gas chromatography-mass spectrometry (GC-MS). A total of 39 samples from 13 brands were analyzed. The results show detectable levels of BPA (35.397 µg/L to 273.513 µg/L) and PAEs (ND to 1147.340 µg/L), with significant concentrations of di-n-butyl phthalate (DBP), bis(2-ethylhexyl) phthalate (DEHP), and BPA, posing potential health risks. A risk assessment based on hazard quotients (HQ) indicated that DEHP and BPA exceeded safe exposure thresholds for non-carcinogenic and anti-androgenic risks. Additionally, DEHP exhibited a carcinogenic risk. These findings emphasize the need for stricter regulations and continuous monitoring to mitigate the health risks associated with EDC exposure from bottled water."
   },
   {
     "paperId": "581ca8fcdcbb3abe08d094449d9f1100fa9f650c",
@@ -7618,7 +7754,7 @@
         "name": "D. Siaussat"
       }
     ],
-    "abstract": "Due to the massive use of plastics worldwide, plastic chemicals such as bis(2-ethylhexyl) phthalate (DEHP) and bisphenol A (BPA) are ubiquitous in the environment. Concerns about human health promoted studies on the effects of those two chemicals on vertebrates, where they have been found to act as endocrine-disrupting chemicals (EDCs), thus affecting important biological functions under hormonal regulation (e.g. development and reproduction). While arthropods represent most of animal biodiversity and play crucial roles in aquatic and terrestrial environments, few studies have investigated DEHP and BPA effects on those organisms as compared to vertebrates. In this context, the present article aims at reviewing the known effects of DEHP and BPA on arthropods. DEHP and BPA affect various biological functions in arthropods, and could act at low doses and possibly induce long-term effects for organisms, but the mechanisms of actions of those chemicals in arthropods are still unknown. We discuss research gaps on this issue and ecotoxicology in arthropods in general: (1) the notion of DEHP and BPA as endocrine disruptors in arthropods; (2) the usefulness of behavioural studies in arthropods’ ecotoxicology; (3) the need to better understand epigenetic mechanisms in arthropods and how chemicals could interfere with them; (4) the inclusion of the effects on arthropod's microbiota in ecotoxicological studies; and (5) the need to increase the use of integrative approaches, omics, modelling and adverse outcome pathways to better understand chemicals’ mechanisms of actions in arthropods and the resulted adverse outcomes at population level. Graphical Abstract Supplementary Information The online version contains supplementary material available at 10.1007/s11356-025-36773-x."
+    "abstract": "Due to the massive use of plastics worldwide, plastic chemicals such as bis(2-ethylhexyl) phthalate (DEHP) and bisphenol A (BPA) are ubiquitous in the environment. Concerns about human health promoted studies on the effects of those two chemicals on vertebrates, where they have been found to act as endocrine-disrupting chemicals (EDCs), thus affecting important biological functions under hormonal regulation (e.g. development and reproduction). While arthropods represent most of animal biodiversity and play crucial roles in aquatic and terrestrial environments, few studies have investigated DEHP and BPA effects on those organisms as compared to vertebrates. In this context, the present article aims at reviewing the known effects of DEHP and BPA on arthropods. DEHP and BPA affect various biological functions in arthropods, and could act at low doses and possibly induce long-term effects for organisms, but the mechanisms of actions of those chemicals in arthropods are still unknown. We discuss research gaps on this issue and ecotoxicology in arthropods in general: (1) the notion of DEHP and BPA as endocrine disruptors in arthropods; (2) the usefulness of behavioural studies in arthropods’ ecotoxicology; (3) the need to better understand epigenetic mechanisms in arthropods and how chemicals could interfere with them; (4) the inclusion of the effects on arthropod's microbiota in ecotoxicological studies; and (5) the need to increase the use of integrative approaches, omics, modelling and adverse outcome pathways to better understand chemicals’ mechanisms of actions in arthropods and the resulted adverse outcomes at population level."
   },
   {
     "paperId": "6ad275a102261b5703763236719b9d34757e4a1e",
@@ -9903,6 +10039,57 @@
     "abstract": null
   },
   {
+    "paperId": "9347a96b5040a7f11bec9b994d040dad39cf8fd8",
+    "externalIds": {
+      "DOI": "10.5194/acp-25-14371-2025",
+      "CorpusId": 278557254
+    },
+    "url": "https://www.semanticscholar.org/paper/9347a96b5040a7f11bec9b994d040dad39cf8fd8",
+    "title": "Insight into the size-resolved markers and eco-health significance of microplastics from typical sources in northwest China",
+    "venue": "Atmospheric Chemistry and Physics",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5194/acp-25-14371-2025?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5194/acp-25-14371-2025, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2305568271",
+        "name": "Liyan Liu"
+      },
+      {
+        "authorId": "2219740680",
+        "name": "Hongmei Xu"
+      },
+      {
+        "authorId": "2306873385",
+        "name": "Mengyun Yang"
+      },
+      {
+        "authorId": null,
+        "name": "Tafeng Hu"
+      },
+      {
+        "authorId": "2360625772",
+        "name": "Abdullah Akhtar"
+      },
+      {
+        "authorId": "2345570770",
+        "name": "Jian Sun"
+      },
+      {
+        "authorId": "2269755609",
+        "name": "Zhenxing Shen"
+      }
+    ],
+    "abstract": "Abstract. Research on atmospheric microplastics (MPs) from typical sources is limited, constraining the targeted management of pollution. Here, the source profiles of eight types of common MPs and three classes of plasticizers (i.e., phthalates, benzothiazole and its derivatives, and bisphenol A) emitted from five living sources, including Plastic Burning (PB), Fruit-bag Burning, Road Traffic (RT), Agricultural Film, and Livestock Breeding (LB), were determined in PM2.5 (particulate matter with aerodynamic diameters ≤ 2.5 µm) and PM10 (≤ 10 µm) in the Guanzhong Plain, northern China. PB exhibits high proportions of poly(methyl methacrylate) (PMMA) and 2-hydroxy benzothiazole (HOBT), with PMMA being more abundant in PM2.5–10 (aerodynamic diameters between 2.5 and 10 µm). FB exhibits a higher proportion of di-n-octyl phthalate (DnOP) in PM2.5–10 than in PM2.5. RT shows a distinguishable profile with high abundances of rubber. The abundance of 2-benzothiazolyl-N-morpholinosulfide (OBS) in PM2.5–10 was twice that in PM2.5 for RT. Polystyrene (PS) is the most abundant MP in AF. LB shows the distinguishing feature of benzothiazoles, especially OBS and N-cyclohexyl-2-benzothiazolesulfenamide (CBS). The eco-health risk assessments reveal that combustion-derived MPs (Plastic Burning and Fruit-bag Burning) indicate the highest ecological risk (Level III). Elevated hazard indices to human health were observed in LB and PB, primarily attributed to bis(2-ethylhexyl) phthalate (DEHP). Notably, PMMA, polyethylene terephthalate (PET), polyethylene (PE), bisphenol A (BPA), and phthalates (PAEs) emerged as key drivers of oxidative stress of PMs. This study advances the understanding of atmospheric MPs, offering critical insights for source tracking and risk assessment to mitigate their eco-health effects."
+  },
+  {
     "paperId": "93c702f1b57fa212d778114df86df8b2c534996b",
     "externalIds": {
       "MAG": "2763592597",
@@ -10176,6 +10363,96 @@
       }
     ],
     "abstract": "Abstract Plasticizers containing phthalates have the potential to alter endocrine function in vertebrates. While non-phthalate plasticizers were previously considered to be environmentally friendly and safe, our research team discovered that bis-(2-ethylhexyl) adipate (DEHA) and acetyl tributyl citrate (ATBC) disrupt thyroid hormones in Japanese medaka (Oryzias latipes). We assessed reproductive- and estrogen-responsive gene expression patterns in Japanese medaka to determine whether the phthalate plasticizers bis-(2-ethylhexyl) phthalate (DEHP, positive control) and the non-phthalate plasticizers DEHA and ATBC disrupt endocrine signaling. The results showed that the levels of choriogenin H (chgH) and vitellogenin (vtg) genes increased after exposure to DEHP and ATBC, suggesting that these plasticizers may have estrogenic activity. Exposure to DEHP and DEHA resulted in the upregulation of kisspeptin (kiss), gonadotropin-releasing hormone (gnrh), and follicle-stimulating hormone beta (fshβ) genes, suggesting that these plasticizers may interfere with reproductive function. To the best of our knowledge, this is the first study to demonstrate that the non-phthalate plasticizers DEHA and ATBC can disrupt reproduction-related hormonal activity in fish."
+  },
+  {
+    "paperId": "98c09789ea6f5e189f68071e8938a34e2ddac9b0",
+    "externalIds": {
+      "DOI": "10.1007/s11869-023-01454-6",
+      "CorpusId": 264503561
+    },
+    "url": "https://www.semanticscholar.org/paper/98c09789ea6f5e189f68071e8938a34e2ddac9b0",
+    "title": "Seasonal variation, source apportionment, and cancer risk assessment of PM2.5-bound phthalates: a case study in Taiyuan, China",
+    "venue": "Air quality, atmosphere and health",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11869-023-01454-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11869-023-01454-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2261835588",
+        "name": "Wenjun Hong"
+      },
+      {
+        "authorId": "2261797109",
+        "name": "Xun Wang"
+      },
+      {
+        "authorId": "2198806396",
+        "name": "Jinjian Ding"
+      },
+      {
+        "authorId": "2261818432",
+        "name": "Jianming Jiang"
+      },
+      {
+        "authorId": "2261906605",
+        "name": "Minjie Li"
+      },
+      {
+        "authorId": "2167656302",
+        "name": "Shaoyang Ji"
+      },
+      {
+        "authorId": "2261830800",
+        "name": "Nan Sang"
+      },
+      {
+        "authorId": "2048493256",
+        "name": "Liangqiang Guo"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "99ca8d48b2bc176b9f92dcadbb843405e6967a90",
+    "externalIds": {
+      "DOI": "10.1007/s11694-024-02975-z",
+      "CorpusId": 274215727
+    },
+    "url": "https://www.semanticscholar.org/paper/99ca8d48b2bc176b9f92dcadbb843405e6967a90",
+    "title": "Assessment of SPME lab-made microfibers for monitoring the presence of phthalate contaminants in honey sample",
+    "venue": "Journal of Food Measurement & Characterization",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11694-024-02975-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11694-024-02975-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2331988788",
+        "name": "Bruno J. Botelli"
+      },
+      {
+        "authorId": "2331983401",
+        "name": "Norma B. Tombesi"
+      },
+      {
+        "authorId": "2287699536",
+        "name": "V. Lassalle"
+      }
+    ],
+    "abstract": null
   },
   {
     "paperId": "99d3f61354257977ebf8bbbd97d4ce069eabd7ab",
@@ -12088,7 +12365,7 @@
       "PubMed": "40080273"
     },
     "url": "https://www.semanticscholar.org/paper/b9ffa0c995d09b5d571f28b11900b927fec231ba",
-    "title": "Metabolite profiling and bioactivity of fungal endofauna from Xiphinema nuragicum in the rhizosphere of Withania somnifera.",
+    "title": "Metabolite profiling and bioactivity of fungal endofauna from Xiphinema nuragicum in the rhizosphere of Withania somnifera",
     "venue": "Environmental science and pollution research international",
     "year": 2025,
     "openAccessPdf": {
@@ -12190,7 +12467,7 @@
       "PubMed": "39432121"
     },
     "url": "https://www.semanticscholar.org/paper/bb82ae55e28c0a0cb8e6fbcce6400f44c608cc82",
-    "title": "Levels, distribution, and health risk assessment of phthalic acid esters in urban surface soils of Nagpur city, India.",
+    "title": "Levels, distribution, and health risk assessment of phthalic acid esters in urban surface soils of Nagpur city, India",
     "venue": "Environmental Monitoring & Assessment",
     "year": 2024,
     "openAccessPdf": {
@@ -12457,6 +12734,45 @@
     "abstract": null
   },
   {
+    "paperId": "c0d4f65ac052c1a4e90051a04f02fe963d6db887",
+    "externalIds": {
+      "DOI": "10.1007/s11368-025-03978-z",
+      "CorpusId": 276164273
+    },
+    "url": "https://www.semanticscholar.org/paper/c0d4f65ac052c1a4e90051a04f02fe963d6db887",
+    "title": "Plasticizers contaminants in water and bottom sediments of the non-flow reservoir: a case study of the Nakło-Chechło, Southern Poland",
+    "venue": "Journal of Soils and Sediments",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11368-025-03978-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11368-025-03978-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2264658989",
+        "name": "Alina Pohl"
+      },
+      {
+        "authorId": "1391531850",
+        "name": "M. Tytła"
+      },
+      {
+        "authorId": "2344113301",
+        "name": "Maciej Kostecki"
+      },
+      {
+        "authorId": "2344107894",
+        "name": "Katarzyna Janoszka"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "c16f182b9b8f7977d16738a38aa9dd28811c2924",
     "externalIds": {
       "PubMedCentral": "8990249",
@@ -12606,8 +12922,8 @@
       "PubMed": "40299203"
     },
     "url": "https://www.semanticscholar.org/paper/c21f1ba1355760752813f0802e297eb4297e4c5e",
-    "title": "Metal/heteroatom-doped carbon-based hybrid material as the matrix for rapid and high-throughput identification of phthalate esters in complex samples by laser desorption/ionization.",
-    "venue": "Mikrochimica Acta",
+    "title": "Metal/heteroatom-doped carbon-based hybrid material as the matrix for rapid and high-throughput identification of phthalate esters in complex samples by laser desorption/ionization",
+    "venue": "Microchimica Acta",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
@@ -13944,8 +14260,10 @@
   {
     "paperId": "d6c48669445e0d67acaff9797b7a5a91b38d7ef2",
     "externalIds": {
+      "PubMedCentral": "12562894",
       "DOI": "10.3390/foods14203518",
-      "CorpusId": 282170628
+      "CorpusId": 282170628,
+      "PubMed": "41154054"
     },
     "url": "https://www.semanticscholar.org/paper/d6c48669445e0d67acaff9797b7a5a91b38d7ef2",
     "title": "Polycyclic Aromatic Hydrocarbons (PAHs) and Phthalate Esters (PAEs) in the Farmed Fishes from Khanh Hoa, Viet Nam: Level and Health Risk Assessment",
@@ -13954,8 +14272,8 @@
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/foods14203518?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/foods14203518, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12562894, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -14008,7 +14326,7 @@
       "PubMed": "38965110"
     },
     "url": "https://www.semanticscholar.org/paper/d759401af7f23476edcdd15e7b5f355abe32ab5b",
-    "title": "Contamination levels and ecological risk assessment of phthalate esters (PAEs) in the aquatic environment of Chaohu Lake.",
+    "title": "Contamination levels and ecological risk assessment of phthalate esters (PAEs) in the aquatic environment of Chaohu Lake",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -16975,7 +17293,7 @@
         "name": "F. Maranghi"
       }
     ],
-    "abstract": "Background Endometriosis (E) is an oestrogen-dependent, multifactorial, inflammatory disease causing pelvic pain and infertility. Several concerns have been raised about the role of food contaminants, in particular Bis(2-ethylhexyl) phthalate (DEHP), potentially involved in the onset and propagation of E. Conventional therapies– which have considerable side effects - focus on reducing levels of oestrogens and counteracting inflammation. The potential preventive/protective role of plant extracts (PEs) on phthalate (PH) -induced E is studied by a stepwise approach. Methods (i) raw material identification, extraction and phytochemical characterization; (ii) in vitro tests to evaluate pharmacokinetics and organotropism; (iii) in vitro screening on 2 human endometrial cell lines and in vivo toxicokinetic to select the PEs/BCs in comparison with non-steroidal anti-inflammatory drugs; (iv) in vivo juvenile toxicity study to test the PE/BC activity on DEHP induced E-like lesions and (v) ex vivo and in vitro studies on human E primary cells obtained by patients with E to be subjected to scheduled surgical procedures and human non-cancerous cells, to investigate the DEHP and metabolite concentration and PE/BC effects, respectively. Discussion The project aims to provide data and tools to develop a new strategy based on herbal medicine– especially polyphenolic compounds for their pleiotropic activities - to mitigate the E symptoms and to prevent and/or to protect population - including susceptible sub-groups - from the onset of E. The outcomes of the project will support the Italian National Health System in the development of complementary alternative/preventive strategies for E and to set clinical studies on humans also considering the potential role of environmental contaminants in E pathogenesis. Clinical trial number Not applicable."
+    "abstract": "Endometriosis (E) is an oestrogen-dependent, multifactorial, inflammatory disease causing pelvic pain and infertility. Several concerns have been raised about the role of food contaminants, in particular Bis(2-ethylhexyl) phthalate (DEHP), potentially involved in the onset and propagation of E. Conventional therapies– which have considerable side effects - focus on reducing levels of oestrogens and counteracting inflammation. The potential preventive/protective role of plant extracts (PEs) on phthalate (PH) -induced E is studied by a stepwise approach. (i) raw material identification, extraction and phytochemical characterization; (ii) in vitro tests to evaluate pharmacokinetics and organotropism; (iii) in vitro screening on 2 human endometrial cell lines and in vivo toxicokinetic to select the PEs/BCs in comparison with non-steroidal anti-inflammatory drugs; (iv) in vivo juvenile toxicity study to test the PE/BC activity on DEHP induced E-like lesions and (v) ex vivo and in vitro studies on human E primary cells obtained by patients with E to be subjected to scheduled surgical procedures and human non-cancerous cells, to investigate the DEHP and metabolite concentration and PE/BC effects, respectively. The project aims to provide data and tools to develop a new strategy based on herbal medicine– especially polyphenolic compounds for their pleiotropic activities - to mitigate the E symptoms and to prevent and/or to protect population - including susceptible sub-groups - from the onset of E. The outcomes of the project will support the Italian National Health System in the development of complementary alternative/preventive strategies for E and to set clinical studies on humans also considering the potential role of environmental contaminants in E pathogenesis. Not applicable."
   },
   {
     "paperId": "fabdd0b6ba3fe52a6be9fd99e3f81cd4584d3937",

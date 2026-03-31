@@ -9,24 +9,10 @@ import pandas as pd
 from pathlib import Path
 
 # Configuration file path
-CONFIG_FILE = "api_config.json"
+from config_loader import get_config
 
-def load_config():
-    """Load API keys and settings from config file."""
-    try:
-        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        return config
-    except FileNotFoundError:
-        print(f"[ERROR] Configuration file '{CONFIG_FILE}' not found!")
-        print("Please create the config file with your API keys.")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse config file: {e}")
-        exit(1)
-
-# Load configuration
-CONFIG = load_config()
+# Load configuration (.env first, fallback to api_config.json)
+CONFIG = get_config()
 API_KEY = CONFIG.get("semantic_scholar_api_key", "")
 TARGET_PAPERS = CONFIG.get("default_settings", {}).get("max_papers", 10000)
 BATCH_SIZE = CONFIG.get("default_settings", {}).get("batch_size", 1000)
@@ -42,7 +28,7 @@ def fetch_semantic_scholar_with_token(search_params, max_retries=MAX_RETRIES):
         try:
             delay = 1 + random.random() * 2
             if attempt > 0:
-                print(f"Attempt {attempt+1}/{max_retries}, waiting {delay:.2f} seconds...")
+                print(f"Attempt {attempt+1}/{max_retries}, waiting {delay:.2f} seconds...", flush=True)
             time.sleep(delay)
             
             response = requests.get(
@@ -54,6 +40,22 @@ def fetch_semantic_scholar_with_token(search_params, max_retries=MAX_RETRIES):
                 }
             )
             
+            # Log status code for non-200 responses
+            if response.status_code != 200:
+                print(f"\n[API Error] Status {response.status_code}: {response.reason}", flush=True)
+                if response.status_code == 429:
+                    # Rate limited - wait longer
+                    wait_time = 60 + random.random() * 60  # 60-120 seconds
+                    print(f"[Rate Limited] Waiting {wait_time:.1f}s before retry...", flush=True)
+                    time.sleep(wait_time)
+                    continue
+                elif response.status_code >= 500:
+                    # Server error - exponential backoff
+                    wait_time = min(30 * (2 ** attempt), 300)  # 30s, 60s, 120s, 240s, max 300s
+                    print(f"[Server Error] Waiting {wait_time}s before retry (attempt {attempt+1}/{max_retries})...", flush=True)
+                    time.sleep(wait_time)
+                    continue
+            
             response.raise_for_status()
             json_response = response.json()
             
@@ -63,18 +65,52 @@ def fetch_semantic_scholar_with_token(search_params, max_retries=MAX_RETRIES):
             
             return data, total, next_token
             
-        except Exception as e:
+        except requests.exceptions.HTTPError as e:
+            print(f"\n[HTTP Error] {e}", flush=True)
             if attempt == max_retries - 1:
+                print(f"[FAILED] Exhausted all {max_retries} retries due to HTTP error", flush=True)
+                return [], 0, None
+        except requests.exceptions.ConnectionError as e:
+            print(f"\n[Connection Error] {e}", flush=True)
+            if attempt == max_retries - 1:
+                print(f"[FAILED] Exhausted all {max_retries} retries due to connection error", flush=True)
+                return [], 0, None
+        except requests.exceptions.Timeout as e:
+            print(f"\n[Timeout Error] {e}", flush=True)
+            if attempt == max_retries - 1:
+                print(f"[FAILED] Exhausted all {max_retries} retries due to timeout", flush=True)
+                return [], 0, None
+        except Exception as e:
+            print(f"\n[Unexpected Error] {type(e).__name__}: {e}", flush=True)
+            if attempt == max_retries - 1:
+                print(f"[FAILED] Exhausted all {max_retries} retries", flush=True)
                 return [], 0, None
     
+    print(f"\n[FAILED] Loop ended without success after {max_retries} attempts", flush=True)
     return [], 0, None
 
-def fetch_all_papers_with_token(keyword, max_results=TARGET_PAPERS, batch_size=BATCH_SIZE):
-    """Fetch all papers using token-based pagination."""
+def fetch_all_papers_with_token(keyword, max_results=TARGET_PAPERS, batch_size=BATCH_SIZE, year_range: int | None = None):
+    """Fetch all papers using token-based pagination.
+    
+    Args:
+        keyword: Search keyword
+        max_results: Maximum number of papers to fetch
+        batch_size: Number of papers per API call
+        year_range: If set, only fetch papers from the last N years (e.g., 20 for 2006-2026)
+    """
     all_papers = []
     current_token = None
     total_available = 0
     batch_count = 0
+    
+    # Calculate year filter
+    year_filter = None
+    if year_range:
+        from datetime import datetime
+        current_year = datetime.now().year
+        start_year = current_year - year_range
+        year_filter = f"{start_year}-{current_year}"
+        print(f"Year filter: {year_filter} (last {year_range} years)")
     
     pbar = tqdm(total=max_results, desc=f"Fetching papers for {keyword}")
     
@@ -88,6 +124,10 @@ def fetch_all_papers_with_token(keyword, max_results=TARGET_PAPERS, batch_size=B
             "fields": "title,abstract,authors,year,url,externalIds,venue,publicationTypes",
             "limit": current_batch_size
         }
+        
+        # Add year filter if specified
+        if year_filter:
+            search_params["year"] = year_filter
         
         if current_token:
             search_params["token"] = current_token
@@ -127,6 +167,17 @@ def save_results(papers, output_file):
     
     print(f"Results saved to: {output_path}")
 
+def _sort_key(rec: dict):
+    try:
+        doi = ""
+        ext = rec.get("externalIds", {}) if isinstance(rec, dict) else {}
+        if isinstance(ext, dict):
+            doi = str(ext.get("DOI", "")).strip().lower()
+        title = str(rec.get("title", "")).strip().lower() if isinstance(rec, dict) else ""
+        return (1 if not doi else 0, doi or title, title)
+    except Exception:
+        return (1, "", "")
+
 def parse_args():
     """Parse command line arguments."""
     parser = argparse.ArgumentParser(description="Fetch papers for a specific compound")
@@ -134,7 +185,9 @@ def parse_args():
     parser.add_argument("--output_dir", required=True, help="Output directory")
     parser.add_argument("--output_file", required=True, help="Output file name")
     parser.add_argument("--max_results", type=int, default=TARGET_PAPERS, help="Maximum number of results")
+    parser.add_argument("--year_range", type=int, default=20, help="Only fetch papers from the last N years (default: 20)")
     return parser.parse_args()
+
 
 def main():
     """Main execution function."""
@@ -142,14 +195,17 @@ def main():
     
     print(f"Fetching papers for compound: {args.keyword}")
     print(f"Target papers: {args.max_results}")
+    print(f"Year range: last {args.year_range} years")
     print(f"Using Semantic Scholar API key from config file")
     
     papers, total_available = fetch_all_papers_with_token(
         args.keyword, 
-        max_results=args.max_results
+        max_results=args.max_results,
+        year_range=args.year_range
     )
     
     if papers:
+        print(f"Collected {len(papers)} papers for {args.keyword}")
         output_file = Path(args.output_dir) / args.output_file
         save_results(papers, output_file)
         print(f"Successfully fetched {len(papers)} papers for {args.keyword}")

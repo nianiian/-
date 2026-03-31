@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Novel Brominated Flame Retardants in Dust from E-Waste-Dismantling Workplace in Central China: Contamination Status and Human Exposure Assessment",
+    "doi": "10.3390/toxics11010058",
+    "year": 2023,
+    "target": "Hexabromocyclododecane (HBCD)",
+    "reasoning": "The abstract discusses novel brominated flame retardants (NBFRs) as alternatives to legacy BFRs including hexabromocyclododecanes (HBCDs). It reports that NBFRs have lower estimated daily intakes and limited human exposure risk compared to HBCDs, indicating a safety advantage. Therefore, NBFRs are presented as a safer alternative to HBCD.",
+    "alternatives": "novel brominated flame retardants (NBFRs)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Hexabromocyclododecane (HBCD). It mentions concentrations in dust and compares exposure levels to reference doses, indicating limited human exposure risk at current levels, but does not specify toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Assess flame retardants with care",
+    "doi": "10.1126/science.aay7649",
+    "year": 2019,
+    "target": "Hexabromocyclododecane (HBCD)",
+    "reasoning": "The abstract explicitly states that recent flame retardants, such as a butadiene styrene brominated copolymer, are listed by the U.S. EPA as alternatives to hexabromocyclododecane (HBCD) and are described as safer due to their high molecular weight, reduced migration, and low bioavailability, which minimize exposure and potential harm.",
+    "alternatives": "butadiene styrene brominated copolymer",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards specifically associated with Hexabromocyclododecane (HBCD). It discusses generalizations about flame retardants and mentions that newer flame retardants are designed to be safer, with reduced bioavailability and exposure risk, but does not provide explicit harm information for HBCD itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Neural Cellular Response Upon Exposure to Brominated Flame Retardants",
+    "doi": "10.1096/FASEBJ.2021.35.S1.03822",
+    "year": 2021,
+    "target": "Hexabromocyclododecane (HBCD)",
+    "reasoning": "The abstract compares the toxicity of Hexabromocyclododecane (HBCD) with Tetrabromobisphenol-A (TBBPA) and 2,2',4,4'-Tetrabromodiphenyl ether (BDE-47), showing that HBCD is more toxic to neural cells than TBBPA and BDE-47. This indicates that TBBPA and BDE-47 have lower toxicity and thus could be considered safer alternatives to HBCD.",
+    "alternatives": "Tetrabromobisphenol-A (TBBPA); 2,2',4,4'-Tetrabromodiphenyl ether (BDE-47)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to neural stem cells and hippocampal cells",
+        "induction of apoptosis",
+        "cell cycle alterations including S-phase arrest",
+        "potential impairment of learning and memory due to neural cell death"
+      ],
+      "rationale": "The reasoning explicitly states that HBCD is toxic to human neural stem cells and mouse hippocampal cells with low IC50 values, induces apoptosis as shown by annexin V staining, causes cell cycle arrest in S-phase, and that BFR exposure has been correlated with impaired learning and memory at the population level."
+    },
+    "CHEMICAL HARM": "toxicity to neural stem cells and hippocampal cells, induction of apoptosis, cell cycle alterations including S-phase arrest, potential impairment of learning and memory due to neural cell death"
+  }
+]

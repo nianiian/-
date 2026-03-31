@@ -1,0 +1,15 @@
+[
+  {
+    "title": "Analysis of Solvent Properties of Mandarin Oil",
+    "doi": "10.4028/www.scientific.net/MSF.852.1201",
+    "year": 2016,
+    "target": "Tetrachloroethylene",
+    "reasoning": "The abstract states that mandarin oil, primarily composed of limonene, can replace tetrachloroethylene as a solvent and describes limonene as a safe, non-toxic organic solvent with high performance. This explicitly indicates limonene as a safer alternative to tetrachloroethylene.",
+    "alternatives": "limonene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to tetrachloroethylene. It only mentions that mandarin oil can replace benzene, methylbenzene, and tetrachloroethylene as a solvent, and describes limonene as safe and non-toxic, but does not provide any explicit information about the hazards of tetrachloroethylene."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

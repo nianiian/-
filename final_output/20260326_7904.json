@@ -1,0 +1,244 @@
+[
+  {
+    "title": "Chitosan-graft-poly(vinyl acetate) for wood-adhesive applications",
+    "doi": "10.1016/j.ijadhadh.2024.103818",
+    "year": 2024,
+    "abstract": "Poly(vinyl acetate), PVAc, adhesives are commonly used for wood bonding; however, they are fossil-based and the final products usually do not have a sufficient water resistance for more durable applications. In this study we prepared an adhesive formulation by grafting VAc from chitosan using emulsion polymerization, chitosan-graft-PVAc. Thereby, we could decrease the fossil-based content of the adhesive and at the same time significantly improve the water resistance. Chitosan by itself has very good bonding properties as a wood adhesive, especially regarding water resistance; however, very low solid contents of the adhesive formulation can be achieved due to a very high viscosity of chitosan adhesives. In our chitosan-graft-PVAc adhesives, we explored two chitosan samples with different molecular weights, by using as-received chitosan and hydrolyzing it to a lower molecular weight. The chitosan fractions in the adhesives prepared with a higher molecular weight chitosan were 15, 20 and 25 wt%. However, due to the high viscosity, a solid content higher than 17 wt% could not be achieved for these adhesives. Sufficient bond strengths were achieved when the adhesive was applied in 122 g/m2 solid spread rate. In order to decrease the viscosity, we used hydrolyzed chitosan, with a lower molecular weight, to allow for a higher adhesive solid content, 34 wt%, and for a higher chitosan fraction, 40 wt%. In the adhesive with 40 wt% chitosan and 17 wt% solid content, all VAc was grafted from chitosan. This decreased the molecular mobility of the chains, leading to a lower susceptibility to plastic creep in the adhesive which contributes to the final bond strength. The dry and wet strengths of the specimens bonded with adhesives containing chitosan were higher than the strength of the specimens bonded with the reference PVAc adhesive.",
+    "target": "vinyl acetate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "chitosan-graft-PVAc"
+    ],
+    "reasoning": "The abstract explicitly mentions 'vinyl acetate' (VAc) by name. The alternative, chitosan-graft-PVAc, is described as a formulation where all VAc is grafted from chitosan, indicating that it replaces vinyl acetate in the adhesive formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (2195255 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "insufficient water resistance of traditional poly(vinyl acetate) adhesives for durable wood applications",
+        "traditional_material_replaced": "poly(vinyl acetate) (PVAc)",
+        "alternative_solution": "chitosan-graft-poly(vinyl acetate) (CS-g-PVAc)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "chitosan",
+          "value": "15 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used in adhesive formulation with a target solid content of 17 wt%"
+        },
+        {
+          "material": "chitosan",
+          "value": "20 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used in adhesive formulation with a target solid content of 17 wt%"
+        },
+        {
+          "material": "chitosan",
+          "value": "25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used in adhesive formulation with a target solid content of 17 wt%"
+        },
+        {
+          "material": "chitosan",
+          "value": "34 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used in adhesive formulation with a target solid content of 34 wt%"
+        },
+        {
+          "material": "chitosan",
+          "value": "40 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used in adhesive formulation with a target solid content of 17 wt%"
+        },
+        {
+          "material": "vinyl acetate (VAc)",
+          "value": "100%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 3.4.2",
+          "context": "all VAc was grafted from chitosan in the adhesive formulation"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "2 h",
+          "evidence_location": "Table 1",
+          "context": "reaction time for adhesive preparation"
+        },
+        {
+          "parameter": "reaction_time",
+          "value": "4 h",
+          "evidence_location": "Table 1",
+          "context": "reaction time for adhesive preparation with hydrolyzed chitosan"
+        },
+        {
+          "parameter": "temperature",
+          "value": "120 °C",
+          "evidence_location": "Section 3.3",
+          "context": "temperature applied during pressing of specimens"
+        },
+        {
+          "parameter": "pressure",
+          "value": "1.7 MPa",
+          "evidence_location": "Section 3.3",
+          "context": "pressure applied during pressing of specimens"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "viscosity",
+          "value": "0.24 Pa•s",
+          "evidence_location": "Section 3.1",
+          "context": "viscosity of non-hydrolyzed chitosan solution"
+        },
+        {
+          "property": "viscosity",
+          "value": "0.13 Pa•s",
+          "evidence_location": "Section 3.1",
+          "context": "viscosity of hydrolyzed chitosan solution"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "VAc_conversion",
+          "metric_value": ">90%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "dry_strength",
+          "metric_value": "6.9 MPa",
+          "comparison_baseline": "reference PVAc adhesive (5.4 MPa)"
+        },
+        {
+          "metric_name": "wet_strength",
+          "metric_value": "1.3 MPa",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (2195255 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "The study of the gossypol resin impact on adhesive properties of the intermediate layer of the pipeline three-layer rust protection coating",
+    "doi": "10.1016/J.IJADHADH.2017.07.001",
+    "year": 2017,
+    "abstract": "The extrusion technique was used to obtain new compositions of the intermediate layer of the pipeline three-layer rust protection coating. Besides conventional low-density polyethylene and ethylene-vinyl acetate, the composition of the layer included various ratios of exfoliated vermiculite as mineral filler and gossypol resin. The optimal ratios of layer components were determined from the perspective of improvement of adhesion, impact strength, rest resistance, and exfoliation. The developed compositions fully meet the requirements of current technical standards in this field. Their high technical characteristics are related to the synergistic effect between the gossypol resin and the exfoliated vermiculite. Gossypol resin stabilizes polyethylene and improves the mechanical characteristics of the composition and the mineral filler. Exfoliated vermiculite enhances the interaction of the polymer matrix with the steel. As compared with the similar compositions, the content of the expensive component – ethylene-vinyl acetate – is reduced from 62–90wt% to 7–9%.The new composition effectively protects pipelines that operate under high humidity. The developed composition uses cheap local raw materials (including waste, which has a negative impact on the environment) and improves the mechanical properties, rust resistance, and adhesion properties of the obtained coating.",
+    "target": "vinyl acetate",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "gossypol resin"
+    ],
+    "reasoning": "The abstract explicitly mentions 'ethylene-vinyl acetate', which is a synonym for vinyl acetate. The alternative, gossypol resin, is described as reducing the content of ethylene-vinyl acetate from 62–90wt% to 7–9%, indicating that it partially replaces vinyl acetate in the formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded XML Fallback (128835 bytes)",
+    "fulltext_source": "xml",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "high cost and reliance on ethylene-vinyl acetate in adhesive compositions for pipeline rust protection",
+        "traditional_material_replaced": "ethylene-vinyl acetate (EVA)",
+        "alternative_solution": "gossypol resin",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "ethylene-vinyl acetate (EVA)",
+          "value": "7–9 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "content of EVA in the new adhesive compositions"
+        },
+        {
+          "material": "gossypol resin (GR)",
+          "value": "10–15 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "content of GR in the new adhesive compositions"
+        },
+        {
+          "material": "exfoliated vermiculite (EV)",
+          "value": "5–7 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "content of EV in the new adhesive compositions"
+        },
+        {
+          "material": "low-density polyethylene (LDPE)",
+          "value": "69–78 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "content of LDPE in the new adhesive compositions"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "extrusion_temperature",
+          "value": "130–140 °C",
+          "evidence_location": "Section 3",
+          "context": "temperature during the extrusion process for mixing components"
+        },
+        {
+          "parameter": "mixing_temperature",
+          "value": "110–120 °C",
+          "evidence_location": "Section 3",
+          "context": "temperature for mixing melted polyethylene and EVA"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "impact_strength",
+          "value": "5.4 J/mm",
+          "evidence_location": "Table 2",
+          "context": "measured impact strength of the coating"
+        },
+        {
+          "property": "disbondment_area",
+          "value": "3.0 cm²",
+          "evidence_location": "Table 2",
+          "context": "disbondment area during polarization at 20 °C"
+        },
+        {
+          "property": "crack_resistance",
+          "value": "1300 hours",
+          "evidence_location": "Table 2",
+          "context": "crack resistance of adhesive coatings in acidic medium"
+        },
+        {
+          "property": "rust_resistance_initial",
+          "value": "0.14%",
+          "evidence_location": "Table 2",
+          "context": "rust resistance in initial state after exposure"
+        },
+        {
+          "property": "rust_resistance_after_60_days",
+          "value": "0.10%",
+          "evidence_location": "Table 2",
+          "context": "rust resistance after 60 days of exposure"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesion_strength",
+          "metric_value": ">50 N/cm",
+          "comparison_baseline": "minimum permissible level according to standards"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (128835 bytes)",
+      "confidence": "high"
+    }
+  }
+]

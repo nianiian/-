@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Evaluation of Air Quality inside Self-Contained Breathing Apparatus Used by Firefighters",
+    "doi": "10.3390/fire6090347",
+    "year": 2023,
+    "abstract": "(1) Background: When a fire breaks out, combustibles are burned and toxic substances such as carbon monoxide (CO), polycyclic aromatic hydrocarbons (PAH), benzene, and hydrogen cyanide are produced. The purpose of this study is to evaluate the air quality inside self-contained breathing apparatus (SCBA) by comparing it to that in the environment where the SCBA charger is installed. (2) Methods: The design of this study was a simulation-based case-control experiment study, and the experiment was conducted at two fire stations located on land and on water. When charging the SCBA, it was differentiated according to the presence or absence of exposure to harmful substances and the degree of exposure. The air quality inside the SCBA in the charging room installed in the fire station garages located on land and in the water, which were not completely isolated from harmful substances, was evaluated. CO, carbon dioxide (CO2), water, and oil mist were measured and analyzed to determine the air quality inside the SCBA. (3) Results: In the case of land firefighting stations, the mean CO among the SCBA internal air quality items was 20 times higher than the outside the SCBA, and higher than the safe range in the group with the highest exposure at the sites of firefighting buildings completely isolated from hazardous substances. The CO levels of all items of water were analyzed to be higher than the safe range in the floating fire station. (4) Conclusions: It was confirmed that the installation environment of an SCBA charging room can affect the safety of the charged internal air quality components. The results of this study can be actively used for the operation and management of SCBA charging room environments when building firefighting buildings in the future for the hygiene, safety, and health of firefighters.",
+    "target": "benzene",
+    "alternatives provided": "no",
+    "reasoning": "The abstract does not present a safer functional alternative to benzene. It discusses the air quality inside self-contained breathing apparatus (SCBA) and the exposure to harmful substances, including benzene, but does not propose a replacement for benzene or indicate a safer alternative that performs the same function as benzene.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  }
+]

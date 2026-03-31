@@ -1,0 +1,1208 @@
+[
+  {
+    "paperId": "01610310053fa7175518b28c37e284b7e62baadb",
+    "externalIds": {
+      "MAG": "2363210954",
+      "CorpusId": 88113201
+    },
+    "url": "https://www.semanticscholar.org/paper/01610310053fa7175518b28c37e284b7e62baadb",
+    "title": "Laboratory Screening and Cross-Resistance Analysis of Alternative Insecticides for Highly-Toxic Pesticides for Controlling Brown Planthopper,Nilaparvata lugens",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "9271447",
+        "name": "Zhou Wei-jun"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "024cfb876c0d03d9e536747fb76999dab7da2eaf",
+    "externalIds": {
+      "MAG": "2354470027",
+      "CorpusId": 102286058
+    },
+    "url": "https://www.semanticscholar.org/paper/024cfb876c0d03d9e536747fb76999dab7da2eaf",
+    "title": "Preparation of new carbon nanotubes immobilized enzyme biosensor for pesticide residue detection and analysis of its electrochemical sensing properties",
+    "venue": "",
+    "year": 2014,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "8221062",
+        "name": "M. Guo"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0472903262eaa483ac285b3dde8c2f71c9044e64",
+    "externalIds": {
+      "DOI": "10.1007/s00284-025-04183-4",
+      "CorpusId": 277665805,
+      "PubMed": "40208354"
+    },
+    "url": "https://www.semanticscholar.org/paper/0472903262eaa483ac285b3dde8c2f71c9044e64",
+    "title": "Cloning and Expression of the Isoprocarb Hydrolase Gene cehA from the Newly Isolated Isoprocarb-Degrading Strain Sphingobium sp. R-7",
+    "venue": "Current Microbiology",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00284-025-04183-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00284-025-04183-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2310027335",
+        "name": "Jing Wu"
+      },
+      {
+        "authorId": "2215951727",
+        "name": "Ao Gao"
+      },
+      {
+        "authorId": "2360247306",
+        "name": "Bohan Wang"
+      },
+      {
+        "authorId": "2267599787",
+        "name": "Yingxin Yang"
+      },
+      {
+        "authorId": "2157950754",
+        "name": "Na Li"
+      },
+      {
+        "authorId": "2315254739",
+        "name": "Hao Zhang"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "056ba179297e4a5b87858da2b04f3e0cab950ae5",
+    "externalIds": {
+      "MAG": "2604782975",
+      "DOI": "10.1002/jssc.201601439",
+      "CorpusId": 6492839,
+      "PubMed": "28383818"
+    },
+    "url": "https://www.semanticscholar.org/paper/056ba179297e4a5b87858da2b04f3e0cab950ae5",
+    "title": "Preparation of a magnetic porous carbon with hierarchical structures from waste biomass for the extraction of some carbamates.",
+    "venue": "Journal of Separation Science",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/jssc.201601439?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/jssc.201601439, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2119048596",
+        "name": "Yao Wang"
+      },
+      {
+        "authorId": "12439846",
+        "name": "R. Ma"
+      },
+      {
+        "authorId": "48676059",
+        "name": "R. Xiao"
+      },
+      {
+        "authorId": "5137779",
+        "name": "Qiuhua Wu"
+      },
+      {
+        "authorId": "47074502",
+        "name": "Chun Wang"
+      },
+      {
+        "authorId": "2108385140",
+        "name": "Zhi Wang"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "05a59c5b04a756bf3ce8eca2a3ba5bad1fa6ef70",
+    "externalIds": {
+      "DOI": "10.1007/s10340-020-01277-9",
+      "CorpusId": 254183948
+    },
+    "url": "https://www.semanticscholar.org/paper/05a59c5b04a756bf3ce8eca2a3ba5bad1fa6ef70",
+    "title": "An insecticide resistance diagnostic kit for whitebacked planthopper Sogatella furcifera (Horvath)",
+    "venue": "Journal of Pest Science",
+    "year": 2020,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10340-020-01277-9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10340-020-01277-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "15178950",
+        "name": "K. Mao"
+      },
+      {
+        "authorId": "84569550",
+        "name": "Zhijie Ren"
+      },
+      {
+        "authorId": "2108769970",
+        "name": "Wenhao Li"
+      },
+      {
+        "authorId": "92695153",
+        "name": "Chaoya Liu"
+      },
+      {
+        "authorId": "47569011",
+        "name": "Pengfei Xu"
+      },
+      {
+        "authorId": "143605476",
+        "name": "Shun He"
+      },
+      {
+        "authorId": "49297633",
+        "name": "Jianhong Li"
+      },
+      {
+        "authorId": "5294268",
+        "name": "Hu Wan"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "06281101ad9a88083e7d22f39744d40610850613",
+    "externalIds": {
+      "MAG": "2737024152",
+      "CorpusId": 103016129
+    },
+    "url": "https://www.semanticscholar.org/paper/06281101ad9a88083e7d22f39744d40610850613",
+    "title": "Pesticidal compound mixtures comprising ethiprole and specific carbamates",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1445456463",
+        "name": "E·泰松"
+      },
+      {
+        "authorId": "1445454067",
+        "name": "H·汉格恩堡"
+      },
+      {
+        "authorId": "1445455075",
+        "name": "T·费尔登"
+      },
+      {
+        "authorId": "1441019648",
+        "name": "W·蒂勒特"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "06428b7cd71e08cd6402b5b66cd94304309af90e",
+    "externalIds": {
+      "MAG": "3146690427",
+      "DOI": "10.12750/JARB.36.1.17",
+      "CorpusId": 233616133
+    },
+    "url": "https://www.semanticscholar.org/paper/06428b7cd71e08cd6402b5b66cd94304309af90e",
+    "title": "Isoprocarb induces acute toxicity in developing zebrafish embryos through vascular malformation",
+    "venue": "Journal of Animal Reproduction and Biotechnology",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://www.e-jarb.org/journal/download_pdf.php?doi=10.12750/JARB.36.1.17",
+      "status": "GOLD",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.12750/JARB.36.1.17?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.12750/JARB.36.1.17, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "40914995",
+        "name": "Hahyun Park"
+      },
+      {
+        "authorId": "144252301",
+        "name": "G. Song"
+      },
+      {
+        "authorId": "2395729391",
+        "name": "W. Lim"
+      }
+    ],
+    "abstract": "In this study, the potential toxicity of isoprocarb was demonstrated using zebrafish embryos. We treated isoprocarb (0, 29, and 58 mg/L) to the zebrafish embryos for 72 h then, we estimated morphological changes and apoptotic cell numbers. The increasing extent of apoptosis from the anterior to posterior region of developing zebrafish larvae was correlated with toxicity in the overall development process, including growth and normal organ formation. The appearance of abnormalities in the isoprocarb-treated groups in comparison to normal developing zebrafish larvae was verified using quantitative image analysis based on ImageJ software program. The vascular system comprising a complex interconnection of blood vessels was visualized in vessel-fluorescent transgenic zebrafish (fli1:eGFP). The main vasculature was malformed on isoprocarb treatment, and this was also related to cardiac defects. Taken together, normal embryonic development in zebrafish was interrupted owing to the acute toxicity of isoprocarb."
+  },
+  {
+    "paperId": "06b7f3d4f301042b3ad3f1091cafcb9ecbbf08b7",
+    "externalIds": {
+      "MAG": "2375128430",
+      "CorpusId": 88258045
+    },
+    "url": "https://www.semanticscholar.org/paper/06b7f3d4f301042b3ad3f1091cafcb9ecbbf08b7",
+    "title": "The control of Ceroplastes japonica on Cinnamomum japonicum",
+    "venue": "",
+    "year": 2007,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "73448322",
+        "name": "Wu Jian-qin"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "070b0792f7bd5d556689617e0fb996776bb71a26",
+    "externalIds": {
+      "MAG": "2398546125",
+      "CorpusId": 35179032,
+      "PubMed": "12974417"
+    },
+    "url": "https://www.semanticscholar.org/paper/070b0792f7bd5d556689617e0fb996776bb71a26",
+    "title": "Studies on the effect of isoprocarb (MIPC 50 WP) on livestock.",
+    "venue": "Journal of environmental biology",
+    "year": 2003,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "67296078",
+        "name": "P. More"
+      },
+      {
+        "authorId": "50296762",
+        "name": "V. Vadlamudi"
+      },
+      {
+        "authorId": "14258302",
+        "name": "N. M. Degloorkar"
+      },
+      {
+        "authorId": "31861684",
+        "name": "S. Rajurkar"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "08122086522369400eaaff19cd21f6878f226ff0",
+    "externalIds": {
+      "MAG": "2359221958",
+      "CorpusId": 87486564
+    },
+    "url": "https://www.semanticscholar.org/paper/08122086522369400eaaff19cd21f6878f226ff0",
+    "title": "Selection for celangulin resistance and cross resistance in the diamondback moth, Plutella xylostella (L.)",
+    "venue": "",
+    "year": 2003,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "84429101",
+        "name": "Line Er"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "088fd614ce506d77ab238bff54236a371255cbde",
+    "externalIds": {
+      "MAG": "2909492874",
+      "DOI": "10.1051/E3SCONF/20197903013",
+      "CorpusId": 91882975
+    },
+    "url": "https://www.semanticscholar.org/paper/088fd614ce506d77ab238bff54236a371255cbde",
+    "title": "Research on a rapid detection method of pesticide residues in milk by enzyme inhibition",
+    "venue": "E3S Web of Conferences",
+    "year": 2019,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1051/e3sconf/20197903013",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1051/E3SCONF/20197903013?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1051/E3SCONF/20197903013, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2117940185",
+        "name": "Xiao-mei Yang"
+      },
+      {
+        "authorId": "2313698600",
+        "name": "Yi-peng Gu"
+      },
+      {
+        "authorId": "2157814787",
+        "name": "Shu-jie Wu"
+      },
+      {
+        "authorId": "2152755691",
+        "name": "Ling Feng"
+      },
+      {
+        "authorId": "2054585576",
+        "name": "Fang Xie"
+      }
+    ],
+    "abstract": "A rapid detection method of pesticide residues in milk by enzyme inhibition was researched. Construction of a quickly reaction system of enzyme inhibition for determination of organophosphorus and carbamate pesticide residues was achieved. The analysis of color reactions of milk showed a good correlation between color intensity and content of tolclofos-methyl, methamidophos and isoprocarb 1-naphthalenyl methyl carbamate. The detection limits of the four pesticide were 0.5~1.0 mg/kg, which were below the level of detection required to satisfy legislation in china. This method is simple and inexpensive and suitable for rapid detection of pesticide residues in milk."
+  },
+  {
+    "paperId": "0891b99c77402749babd808374da62a09573d432",
+    "externalIds": {
+      "MAG": "2313054939",
+      "DOI": "10.4241/KYUBYOCHU.47.54",
+      "CorpusId": 87402946
+    },
+    "url": "https://www.semanticscholar.org/paper/0891b99c77402749babd808374da62a09573d432",
+    "title": "The insecticide susceptibility of the brown planthopper, Nilaparvata lugens, and white-backed planthopper, Sogatella furcifera, collected from China and Japan.",
+    "venue": "",
+    "year": 2001,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.4241/kyubyochu.47.54",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.4241/KYUBYOCHU.47.54?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4241/KYUBYOCHU.47.54, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "88935752",
+        "name": "Xaofei Ping"
+      },
+      {
+        "authorId": "48680707",
+        "name": "S. Endo"
+      },
+      {
+        "authorId": "72942619",
+        "name": "Ken-ichiro Suzuki"
+      },
+      {
+        "authorId": "51057768",
+        "name": "K. Ohtsu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "093d8dc873f413d6a865e16d4920c3e6798e2343",
+    "externalIds": {
+      "DOI": "10.1007/s00604-022-05183-y",
+      "CorpusId": 246388696,
+      "PubMed": "35094165"
+    },
+    "url": "https://www.semanticscholar.org/paper/093d8dc873f413d6a865e16d4920c3e6798e2343",
+    "title": "Polyaniline functionalized CoAl-layered double hydroxide nanosheets as a platform for the electrochemical detection of carbaryl and isoprocarb",
+    "venue": "Microchimica Acta",
+    "year": 2022,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00604-022-05183-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00604-022-05183-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "144724762",
+        "name": "Wei Jiao"
+      },
+      {
+        "authorId": "2116518",
+        "name": "Guiyan Ding"
+      },
+      {
+        "authorId": "2153520213",
+        "name": "Lu Wang"
+      },
+      {
+        "authorId": "1679704",
+        "name": "Y. Liu"
+      },
+      {
+        "authorId": "39402967",
+        "name": "Tianrong Zhan"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "09d2016d10e7024aa415f08c37759e2b9b6dc129",
+    "externalIds": {
+      "DOI": "10.1007/s12192-016-0705-5",
+      "CorpusId": 255533502
+    },
+    "url": "https://www.semanticscholar.org/paper/09d2016d10e7024aa415f08c37759e2b9b6dc129",
+    "title": "SeGSTo, a novel glutathione S-transferase from the beet armyworm (Spodoptera exigua), involved in detoxification and oxidative stress",
+    "venue": "Cell stress & chaperones (Print)",
+    "year": 2016,
+    "openAccessPdf": {
+      "url": "https://europepmc.org/articles/pmc5003797?pdf=render",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12192-016-0705-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12192-016-0705-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "47569011",
+        "name": "Pengfei Xu"
+      },
+      {
+        "authorId": "2065724560",
+        "name": "Ningning Han"
+      },
+      {
+        "authorId": "3684170",
+        "name": "Tinghao Kang"
+      },
+      {
+        "authorId": "37384216",
+        "name": "Sha Zhan"
+      },
+      {
+        "authorId": "2145232532",
+        "name": "K. Lee"
+      },
+      {
+        "authorId": "2150266774",
+        "name": "B. Jin"
+      },
+      {
+        "authorId": "49297633",
+        "name": "Jianhong Li"
+      },
+      {
+        "authorId": "5294268",
+        "name": "Hu Wan"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0a4cb8576b20ae2e4e3c3ba7b3cc7f1cc00eed19",
+    "externalIds": {
+      "PubMedCentral": "8706372",
+      "DOI": "10.3390/insects12121078",
+      "CorpusId": 244812345,
+      "PubMed": "34940166"
+    },
+    "url": "https://www.semanticscholar.org/paper/0a4cb8576b20ae2e4e3c3ba7b3cc7f1cc00eed19",
+    "title": "Insecticide Resistance Monitoring in Field Populations of the Whitebacked Planthopper Sogatella furcifera (Horvath) in China, 2019–2020",
+    "venue": "Insects",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2075-4450/12/12/1078/pdf?version=1638871644",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC8706372, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2156264716",
+        "name": "Zhao Li"
+      },
+      {
+        "authorId": "2116248149",
+        "name": "Yao Qin"
+      },
+      {
+        "authorId": "11734026",
+        "name": "Ruoheng Jin"
+      },
+      {
+        "authorId": "49889245",
+        "name": "Yunhua Zhang"
+      },
+      {
+        "authorId": "84569550",
+        "name": "Zhijie Ren"
+      },
+      {
+        "authorId": "2072572580",
+        "name": "Tingwei Cai"
+      },
+      {
+        "authorId": "2148890702",
+        "name": "Chang Yu"
+      },
+      {
+        "authorId": "2146401782",
+        "name": "Yu Liu"
+      },
+      {
+        "authorId": "8863118",
+        "name": "Yongfeng Cai"
+      },
+      {
+        "authorId": "3914054",
+        "name": "Q. Zeng"
+      },
+      {
+        "authorId": "5294268",
+        "name": "Hu Wan"
+      },
+      {
+        "authorId": "49297633",
+        "name": "Jianhong Li"
+      }
+    ],
+    "abstract": "Simple Summary The whitebacked planthopper (WBPH), Sogatella furcifera (Horváth), is one of the most destructive pests that seriously threatens the high-quality and safe production of rice. Overuse of chemical insecticides has led to varying levels of resistance to insecticides in the field population of S. furcifera. In this study, we measured the susceptibility of 18 populations to 10 insecticides by the rice-seedling dip method. Enzyme assays were performed to measure the levels of esterase (EST), glutathione S- transferase (GST) and cytochrome P450 monooxygenase (P450). A risk of cross-resistance between some insecticides were found by pairwise correlation, and EST may be contributed to the resistance to nitenpyram, thiamethoxam and clothianidin in S. furcifera. Overall, our findings will help inform the effective insecticide resistance management strategies to delay the development of insecticide resistance in S. furcifera. Abstract Monitoring is an important component of insecticide resistance management. In this study, resistance monitoring was conducted on 18 field populations in China. The results showed that S. furcifera developed high levels of resistance to chlorpyrifos and buprofezin, and S. furcifera showed low to moderate levels of resistance to imidacloprid, thiamethoxam, dinotefuran, clothianidin, sulfoxaflor, isoprocarb and ethofenprox. Sogatella furcifera remained susceptible or low levels of resistance to nitenpyram. LC50 values of nitenpyram and dinotefuran, imidacloprid, thiamethoxam, clothianidin and chlorpyrifos exhibited significant correlations, as did those between dinotefuran and thiamethoxam, clothianidin, sulfoxaflor, imidacloprid, isoprocarb and buprofezin. Similarly, significant correlations were observed between thiamethoxam and clothianidin, sulfoxaflor and imidacloprid. In addition, the activity of EST in field populations of S. furcifera were significantly correlated with the LC50 values of nitenpyram, thiamethoxam and clothianidin. These results will help inform effective insecticide resistance management strategies to delay the development of insecticide resistance in S. furcifera."
+  },
+  {
+    "paperId": "0aa7b694b0f0aa582f71c026f8a6d1e7b3168bec",
+    "externalIds": {
+      "MAG": "2122152325",
+      "DOI": "10.1093/chromsci/bms043",
+      "CorpusId": 23502557,
+      "PubMed": "22532589"
+    },
+    "url": "https://www.semanticscholar.org/paper/0aa7b694b0f0aa582f71c026f8a6d1e7b3168bec",
+    "title": "Role of different salts on cloud-point extraction of isoprocarb and promecarb insecticides followed by high-performance liquid chromatography.",
+    "venue": "Journal of Chromatographic Science",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/chromsci/bms043?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/chromsci/bms043, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "15098787",
+        "name": "Apichai Santalad"
+      },
+      {
+        "authorId": "11449304",
+        "name": "R. Burakham"
+      },
+      {
+        "authorId": "15689195",
+        "name": "S. Srijaranai"
+      },
+      {
+        "authorId": "4567673",
+        "name": "Supalax Srijaranai"
+      },
+      {
+        "authorId": "3290995",
+        "name": "R. L. Deming"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0acf30b97693c723542c5d58bd810077d804cccf",
+    "externalIds": {
+      "MAG": "2347305260",
+      "CorpusId": 131150000
+    },
+    "url": "https://www.semanticscholar.org/paper/0acf30b97693c723542c5d58bd810077d804cccf",
+    "title": "Studies on the pesticide resistant of Nilaparvata lugens(Stl) in China and Vietnam",
+    "venue": "",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "46518217",
+        "name": "Ling Yan"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0b6eac72aed095a79bff55d435bf0864e2eed9b9",
+    "externalIds": {
+      "MAG": "2029604688",
+      "DOI": "10.1007/s00216-010-3816-3",
+      "CorpusId": 24051966,
+      "PubMed": "20496174"
+    },
+    "url": "https://www.semanticscholar.org/paper/0b6eac72aed095a79bff55d435bf0864e2eed9b9",
+    "title": "Retention and selectivity properties of carbamate pesticides on novel polar-embedded stationary phases",
+    "venue": "Analytical and Bioanalytical Chemistry",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00216-010-3816-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00216-010-3816-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "13424366",
+        "name": "J. O. Omamogho"
+      },
+      {
+        "authorId": "17506692",
+        "name": "E. M. Stack"
+      },
+      {
+        "authorId": "15098787",
+        "name": "Apichai Santalad"
+      },
+      {
+        "authorId": "4567673",
+        "name": "Supalax Srijaranai"
+      },
+      {
+        "authorId": "6895816",
+        "name": "J. Glennon"
+      },
+      {
+        "authorId": "13733337",
+        "name": "Helen Yamen"
+      },
+      {
+        "authorId": "3270063",
+        "name": "K. Albert"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0b8d210535506cf5fba09a1b32ad03b8e6649113",
+    "externalIds": {
+      "MAG": "2289824550",
+      "DOI": "10.1080/00032719.2015.1081917",
+      "CorpusId": 101112378
+    },
+    "url": "https://www.semanticscholar.org/paper/0b8d210535506cf5fba09a1b32ad03b8e6649113",
+    "title": "Determination of Carbamate Insecticides in Water, Fruit, and Vegetables by Ultrasound-Assisted Dispersive Liquid–Liquid Microextraction and High-Performance Liquid Chromatography",
+    "venue": "",
+    "year": 2016,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/00032719.2015.1081917?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/00032719.2015.1081917, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "93235976",
+        "name": "Kanchana Kongphonprom"
+      },
+      {
+        "authorId": "11449304",
+        "name": "R. Burakham"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0cbac5428242caaf0aad60bd6d0fec7d4bb69043",
+    "externalIds": {
+      "MAG": "1986199023",
+      "DOI": "10.1093/jee/tov063",
+      "CorpusId": 2157984,
+      "PubMed": "26470253"
+    },
+    "url": "https://www.semanticscholar.org/paper/0cbac5428242caaf0aad60bd6d0fec7d4bb69043",
+    "title": "Comparison of Insecticide Susceptibilities of Empoasca vitis (Hemiptera: Cicadellidae) from Three Main Tea-Growing Regions in China",
+    "venue": "Journal of Economic Entomology",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/jee/article-pdf/108/3/1251/7050795/tov063.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1093/jee/tov063?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/jee/tov063, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2114826780",
+        "name": "Qi Wei"
+      },
+      {
+        "authorId": "14878444",
+        "name": "Hua-Yang Yu"
+      },
+      {
+        "authorId": "14904907",
+        "name": "Chun-dong Niu"
+      },
+      {
+        "authorId": "152783179",
+        "name": "R. Yao"
+      },
+      {
+        "authorId": "2157814733",
+        "name": "Shun-Fan Wu"
+      },
+      {
+        "authorId": "2145393647",
+        "name": "Zhuo Chen"
+      },
+      {
+        "authorId": "16342258",
+        "name": "Congfen Gao"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0d1b637e34e0a8d7b447be3f4881985897dbb9cf",
+    "externalIds": {
+      "MAG": "2801117334",
+      "DOI": "10.1016/j.talanta.2018.04.082",
+      "CorpusId": 29155532,
+      "PubMed": "29784378"
+    },
+    "url": "https://www.semanticscholar.org/paper/0d1b637e34e0a8d7b447be3f4881985897dbb9cf",
+    "title": "Nano carbon black-based screen printed sensor for carbofuran, isoprocarb, carbaryl and fenobucarb detection: application to grain samples.",
+    "venue": "Talanta: The International Journal of Pure and Applied Analytical Chemistry",
+    "year": 2018,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.talanta.2018.04.082?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.talanta.2018.04.082, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "13761386",
+        "name": "Flavio Della Pelle"
+      },
+      {
+        "authorId": "40289760",
+        "name": "C. Angelini"
+      },
+      {
+        "authorId": "3509163",
+        "name": "M. Sergi"
+      },
+      {
+        "authorId": "5874833",
+        "name": "M. Del Carlo"
+      },
+      {
+        "authorId": "48344455",
+        "name": "A. Pepe"
+      },
+      {
+        "authorId": "6113763",
+        "name": "D. Compagnone"
+      }
+    ],
+    "abstract": "An electrochemical screening assay for the detection of phenyl carbamates (i.e. carbaryl, carbofuran, isoprocarb and fenobucarb) was developed and applied to grains samples (i.e. durum wheat, soft wheat and maize). Nano carbon black (CB) was strategically employed to realize an effective, reproducible, fouling resistant, low cost, delocalisable screen printed sensor (CB-SPE). CB-SPEs morphology (SEM and FEM) and electrochemical property (CV and EIS) were studied. The final pesticides analysis protocol consist of: (i) extraction of the analyte (just by mixing), (ii) alkaline hydrolysis (10 min R.T.), (iii) DPV detection directly of 100 µL of extract on the CB-SPE surface. Linear range between 1.0 × 10-7 and 1.0 × 10-4 mol L-1, good determination coefficients (R2 ≥ 0.9971) and satisfactory sensitivity (≥ 3.90 × 10-1 A M-1 cm-2) and LODs (≤ 8.0 × 10-8 mol L-1) were obtained for all the analytes. Excellent recoveries (78-102%) and accuracy (relative error vs. HPLC-MS/MS between 9.0% and -7.8%) resulted from the analysis of grains samples. The proposed CB-SPE based approach has demonstrated to be able to detect carbaryl at Maximum residue limits levels (MRLs), allowing class selective detection of commonly employed phenyl carbamates in food samples."
+  },
+  {
+    "paperId": "0d4d59bd5862768c7ee6d9ff38a85bcfacc7e740",
+    "externalIds": {
+      "MAG": "2370931871",
+      "CorpusId": 87235531
+    },
+    "url": "https://www.semanticscholar.org/paper/0d4d59bd5862768c7ee6d9ff38a85bcfacc7e740",
+    "title": "Laboratory safety evaluation of eight insecticides to two predating natural enemies,Hylyphantes graminicola and Coleosoma octomaculatum",
+    "venue": "",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "152164985",
+        "name": "Gao CongFen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0ed9fdd5e5f4cd9cffbab89886e38e1a255705fc",
+    "externalIds": {
+      "MAG": "2388681196",
+      "CorpusId": 87890305
+    },
+    "url": "https://www.semanticscholar.org/paper/0ed9fdd5e5f4cd9cffbab89886e38e1a255705fc",
+    "title": "Synthesis of intermediate: 2-isopropyl chloride in artificial antigen for isoprocarb.",
+    "venue": "",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1413390565",
+        "name": "Ben Ya-li"
+      },
+      {
+        "authorId": "92700086",
+        "name": "Lu Wenchang"
+      },
+      {
+        "authorId": "47102907",
+        "name": "Liu De-li"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0ef7f6c22ca1f20a297dacad2f5fcede0fc75d41",
+    "externalIds": {
+      "MAG": "2348520593",
+      "CorpusId": 87564965
+    },
+    "url": "https://www.semanticscholar.org/paper/0ef7f6c22ca1f20a297dacad2f5fcede0fc75d41",
+    "title": "The efficacy of two synergistic mixtures isoprocarb·abamectin and profenophos·abamectin to Spodoptera exigua Hübner",
+    "venue": "",
+    "year": 2003,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "32534366",
+        "name": "Z. Yi"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0f65dce6a11ba4f93cc48decae9b9a4a1e1f5a14",
+    "externalIds": {
+      "MAG": "2364613358",
+      "CorpusId": 39872009,
+      "PubMed": "17679430"
+    },
+    "url": "https://www.semanticscholar.org/paper/0f65dce6a11ba4f93cc48decae9b9a4a1e1f5a14",
+    "title": "[Determination of carbamate pesticides in reservoir water by hollow fiber-based liquid phase microextraction coupled with high performance liquid chromatography].",
+    "venue": "Se pu = Chinese journal of chromatography",
+    "year": 2007,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "50030660",
+        "name": "Xiumin Yang"
+      },
+      {
+        "authorId": "2108385140",
+        "name": "Zhi Wang"
+      },
+      {
+        "authorId": "47074502",
+        "name": "Chun Wang"
+      },
+      {
+        "authorId": "2905553",
+        "name": "Dandan Han"
+      },
+      {
+        "authorId": "2110870464",
+        "name": "Yongyan Chen"
+      },
+      {
+        "authorId": "13442740",
+        "name": "Shuangju Song"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "13d17d3abe2d9aad97314481549edc71adc62b61",
+    "externalIds": {
+      "DOI": "10.1007/s12649-023-02246-w",
+      "CorpusId": 260756217
+    },
+    "url": "https://www.semanticscholar.org/paper/13d17d3abe2d9aad97314481549edc71adc62b61",
+    "title": "Utilizing Waste from Palm Oil Mills as a Substrate to Produce Antimicrobial Agents Using Fermentation by Streptomyces philanthi RM-1-138: Effectiveness, Stability, and Compound Identification",
+    "venue": "Waste and Biomass Valorization",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12649-023-02246-w?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12649-023-02246-w, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "5711205",
+        "name": "Sawai Boukaew"
+      },
+      {
+        "authorId": "5388692",
+        "name": "P. Prasertsan"
+      },
+      {
+        "authorId": "13548684",
+        "name": "Teera Chookaew"
+      },
+      {
+        "authorId": "6493108",
+        "name": "B. Cheirsilp"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "1493afacfd66a6cff5b1c2af53640ab209ec5cdb",
+    "externalIds": {
+      "MAG": "286216834",
+      "CorpusId": 126754605
+    },
+    "url": "https://www.semanticscholar.org/paper/1493afacfd66a6cff5b1c2af53640ab209ec5cdb",
+    "title": "Survey on Pesticide Usage in Paddy Rice for the Establishment of Pesticide Use Indicator",
+    "venue": "",
+    "year": 2000,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2616118",
+        "name": "Oh-Kyung Kwon"
+      },
+      {
+        "authorId": "144081912",
+        "name": "Su-Myeong Hong"
+      },
+      {
+        "authorId": "22524187",
+        "name": "D. Choi"
+      },
+      {
+        "authorId": "86947138",
+        "name": "K. Seong"
+      },
+      {
+        "authorId": "90088344",
+        "name": "Y. Ihm"
+      },
+      {
+        "authorId": "118276324",
+        "name": "C. Kang"
+      },
+      {
+        "authorId": "72066067",
+        "name": "Byeong-Hun Song"
+      },
+      {
+        "authorId": "145972385",
+        "name": "B. Oh"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "155bdae6bf7c1a9dc3d8de0e0217387b4c83807f",
+    "externalIds": {
+      "MAG": "2378254854",
+      "CorpusId": 87890309
+    },
+    "url": "https://www.semanticscholar.org/paper/155bdae6bf7c1a9dc3d8de0e0217387b4c83807f",
+    "title": "Toxicity and Efficacy of Six Insecticides on Field Population of Nilaparvata lugens(Stl)",
+    "venue": "",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "69932652",
+        "name": "Zhang Zhixiong"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "15904be4712892c935dbb5b07f2184e248f48fbc",
+    "externalIds": {
+      "DOI": "10.1063/5.0184011",
+      "CorpusId": 267569606
+    },
+    "url": "https://www.semanticscholar.org/paper/15904be4712892c935dbb5b07f2184e248f48fbc",
+    "title": "Chlorpyriphos and isoprocarb residues in the soil and food crop at agricultural area of Citarum watershed",
+    "venue": "International Conference on Advanced Computing",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0184011/19512600/100009_1_5.0184011.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1063/5.0184011?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1063/5.0184011, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Conference"
+    ],
+    "authors": [
+      {
+        "authorId": "2137286898",
+        "name": "Asep Kurnia"
+      },
+      {
+        "authorId": "2078235038",
+        "name": "A. N. Ardiwinata"
+      },
+      {
+        "authorId": "2190870453",
+        "name": "E. S. Harsanti"
+      },
+      {
+        "authorId": "2277524499",
+        "name": "Mas Teddy Sutriadi"
+      },
+      {
+        "authorId": "2260535328",
+        "name": "A. Mulyono"
+      },
+      {
+        "authorId": "2283431047",
+        "name": "Ria Fauriah Makmur"
+      },
+      {
+        "authorId": "87569026",
+        "name": "R. Hindersah"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "15d56e50f7a1343229a90641ffee7a5c6d773c03",
+    "externalIds": {
+      "MAG": "2142084237",
+      "DOI": "10.1039/C2AY25635E",
+      "CorpusId": 96561237
+    },
+    "url": "https://www.semanticscholar.org/paper/15d56e50f7a1343229a90641ffee7a5c6d773c03",
+    "title": "Cu@Ag/β-AgVO3 as a SERS substrate for the trace level detection of carbamate pesticides",
+    "venue": "",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1039/C2AY25635E?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/C2AY25635E, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "14865009",
+        "name": "E. K. Fodjo"
+      },
+      {
+        "authorId": "48273877",
+        "name": "S. Riaz"
+      },
+      {
+        "authorId": "33946329",
+        "name": "Dawei Li"
+      },
+      {
+        "authorId": "6204025",
+        "name": "Lu-lu Qu"
+      },
+      {
+        "authorId": "92698055",
+        "name": "Niamien Paulin Marius"
+      },
+      {
+        "authorId": "49496595",
+        "name": "Trokourey Albert"
+      },
+      {
+        "authorId": "144164108",
+        "name": "Yitao Long"
+      }
+    ],
+    "abstract": null
+  }
+]

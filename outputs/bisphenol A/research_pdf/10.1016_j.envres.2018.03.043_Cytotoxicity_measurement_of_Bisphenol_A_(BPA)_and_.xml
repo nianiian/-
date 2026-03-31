@@ -1,0 +1,1636 @@
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0013935118301750</prism:url><dc:identifier>doi:10.1016/j.envres.2018.03.043</dc:identifier><eid>1-s2.0-S0013935118301750</eid><prism:doi>10.1016/j.envres.2018.03.043</prism:doi><pii>S0013-9351(18)30175-0</pii><dc:title>Cytotoxicity measurement of Bisphenol A (BPA) and its substitutes using human keratinocytes </dc:title><prism:publicationName>Environmental Research</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>00139351</prism:issn><prism:volume>164</prism:volume><prism:startingPage>655</prism:startingPage><prism:endingPage>659</prism:endingPage><prism:pageRange>655-659</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2018-07-31</prism:coverDate><prism:coverDisplayDate>July 2018</prism:coverDisplayDate><prism:copyright>© 2018 Elsevier Inc. All rights reserved.</prism:copyright><prism:publisher>Elsevier Inc.</prism:publisher><dc:creator>Son, Seogho</dc:creator><dc:creator>Nam, KeeSoo</dc:creator><dc:creator>Kim, Hyungjoo</dc:creator><dc:creator>Gye, Myung Chan</dc:creator><dc:creator>Shin, Incheol</dc:creator><dc:description>
+                  Bisphenol-A (BPA) was first synthesized in the 1890s and has been used in many plastic products. However, BPA is known to act as an endocrine disruptor and has been found to be toxic to human health. Many alternative substances have been developed to replace BPA, but it is still widely used worldwide. In this study, we identified the potential cytotoxicity of BPA by evaluating toxicity using human keratinocytes. Also, we evaluated cytotoxicity of BPA substitutes to determine their suitability as an alternative to BPA. The proliferation assay using the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide, flow cytometry and western blot analysis showed that BPA significantly affect cell viability, induction of apoptotic fraction and increased activation of DNA-damage marker protein. In addition, through the same experiments, the substitutes of BPA were shown to be significantly less toxic than BPA, and the least toxicity was observed with 1,4-cyclohexanedimethanol (CHDM) and terephthalic acid (TPA). In conclusion, this study suggests that cytotoxicity of BPA induces apoptosis of human keratinocytes, and that CHDM and TPA are the most suitable substitutes for BPA.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Apoptosis</dcterms:subject><dcterms:subject>Bisphenol A</dcterms:subject><dcterms:subject>BPA substitutes</dcterms:subject><dcterms:subject>Endocrine disruptor</dcterms:subject><dcterms:subject>HaCaT</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0013935118301750" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0013935118301750" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="508" height="518" size="51613">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="282" height="146" size="8766">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="678" height="728" size="62349">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="339" height="139" size="14439">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="161" height="164" size="6392">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="113" size="4699">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="152" height="163" size="6206">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="90" size="8019">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2250" height="2295" size="352780">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1250" height="646" size="58184">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3000" height="3221" size="455222">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1500" height="617" size="136344">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Microsoft Word file" mimetype="application/word" size="481393">https://api.elsevier.com/content/object/eid/1-s2.0-S0013935118301750-mmc1.docx?httpAccept=%2A%2F%2A</object></objects><scopus-id>85045016624</scopus-id><scopus-eid>2-s2.0-85045016624</scopus-eid><pubmed-id>29631224</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85045016624" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272394</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291781</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Environmental Research</xocs:srctitle>
+      <xocs:normalized-srctitle>ENVIRONMENTALRESEARCH</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20180406">2018-04-06</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20180406">2018-04-06</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20180406">2018-04-06</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20180406">2018-04-06</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2023-07-27T16:46:06</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0013935118301750</xocs:eid>
+      <xocs:pii-formatted>S0013-9351(18)30175-0</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0013935118301750</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.envres.2018.03.043</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.4</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0013935118X00036</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20230727">2023-07-27T19:06:48.49644Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20180701</xocs:date-search-begin>
+      <xocs:date-search-end>20180731</xocs:date-search-end>
+      <xocs:year-nav>2018</xocs:year-nav>
+      <xocs:indexeddate epoch="1523016050">2018-04-06T12:00:50.729192Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast doctopic footnotes grantnumber grantsponsor highlightsabst primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0013-9351</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00139351</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>164</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>164</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 164</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>66</xocs:sort-order>
+      <xocs:first-fp>655</xocs:first-fp>
+      <xocs:last-lp>659</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>655</xocs:first-page>
+         <xocs:last-page>659</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201807</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>July 2018</xocs:cover-date-text>
+      <xocs:cover-date-start>2018-07-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2018-07-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2018</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Toxicology</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2018 Elsevier Inc. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>CYTOTOXICITYMEASUREMENTBISPHENOLABPASUBSTITUTESUSINGHUMANKERATINOCYTES</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>SON</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>S</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Materials and methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Cell culture</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Antibodies and reagents</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>MTT assays</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Two-dimensional colony formation assays</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Cell cycle analysis by flow cytometry</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.6</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Western blots</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.7</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Statistical analysis</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Effects of BPA and its substitutes on viability of human keratinocytes</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Effects of BPA and its substitute on colony-forming ability</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Quantification of apoptotic cells after treatment with BPA and its substitutes</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>BPA, DNA damage, and activation of pro-apoptotic proteins</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>5</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix A</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary material</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref1">
+            <xocs:ref-normalized-surname>ALONSOMAGDALENA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>201</xocs:ref-first-fp>
+            <xocs:ref-last-lp>207</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref2">
+            <xocs:ref-normalized-surname>ANDERSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>S89</xocs:ref-first-fp>
+            <xocs:ref-last-lp>S108</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref3">
+            <xocs:ref-normalized-surname>BONEFELDJORGENSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>69</xocs:ref-first-fp>
+            <xocs:ref-last-lp>76</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref4">
+            <xocs:ref-normalized-surname>BOUKAMP</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>761</xocs:ref-first-fp>
+            <xocs:ref-last-lp>771</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref5">
+            <xocs:ref-normalized-surname>BOULARES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>22932</xocs:ref-first-fp>
+            <xocs:ref-last-lp>22940</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref6">
+            <xocs:ref-normalized-surname>CORRALES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>13</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref7">
+            <xocs:ref-normalized-surname>HOEKSTRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>386</xocs:ref-first-fp>
+            <xocs:ref-last-lp>402</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref8">
+            <xocs:ref-normalized-surname>HOPPENS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3473</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3478</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref9">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>91</xocs:ref-first-fp>
+            <xocs:ref-last-lp>99</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>KUIPER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4252</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4263</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref11">
+            <xocs:ref-normalized-surname>MICHALOWICZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>738</xocs:ref-first-fp>
+            <xocs:ref-last-lp>758</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref12">
+            <xocs:ref-normalized-surname>NELSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1485</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1491</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref13">
+            <xocs:ref-normalized-surname>NG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1784</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1795</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref14">
+            <xocs:ref-normalized-surname>OSIMITZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2196</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2205</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref15">
+            <xocs:ref-normalized-surname>OSIMITZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>128</xocs:ref-first-fp>
+            <xocs:ref-last-lp>138</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref16">
+            <xocs:ref-normalized-surname>RICHTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>199</xocs:ref-first-fp>
+            <xocs:ref-last-lp>224</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref17">
+            <xocs:ref-normalized-surname>ROCHESTER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>132</xocs:ref-first-fp>
+            <xocs:ref-last-lp>155</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref18">
+            <xocs:ref-normalized-surname>ROSE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>167</xocs:ref-first-fp>
+            <xocs:ref-last-lp>176</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref19">
+            <xocs:ref-normalized-surname>RUBIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>27</xocs:ref-first-fp>
+            <xocs:ref-last-lp>34</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>SCHOOP</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>343</xocs:ref-first-fp>
+            <xocs:ref-last-lp>353</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="othref0005"/>
+         <xocs:ref-info refid="sbref21">
+            <xocs:ref-normalized-surname>TURNER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5847</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5852</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref22">
+            <xocs:ref-normalized-surname>VANDENBERG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1055</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1070</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref23">
+            <xocs:ref-normalized-surname>VANDENBERG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>378</xocs:ref-first-fp>
+            <xocs:ref-last-lp>455</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref24">
+            <xocs:ref-normalized-surname>VINAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2694</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2714</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref25">
+            <xocs:ref-normalized-surname>WELSHONS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>S56</xocs:ref-first-fp>
+            <xocs:ref-last-lp>S69</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>SONX2018X655</xocs:refkey3>
+         <xocs:refkey4lp>SONX2018X655X659</xocs:refkey4lp>
+         <xocs:refkey4ai>SONX2018X655XS</xocs:refkey4ai>
+         <xocs:refkey5>SONX2018X655X659XS</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2020-04-06T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2018 Elsevier Inc. All rights reserved.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2021-05-23T08:47:48.323Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+      </xocs:funding-list>
+      <xocs:article-sharing-framework>
+         <xocs:asf-license>https://doi.org/10.15223/policy-017</xocs:asf-license>
+         <xocs:asf-license>https://doi.org/10.15223/policy-037</xocs:asf-license>
+         <xocs:asf-license>https://doi.org/10.15223/policy-012</xocs:asf-license>
+         <xocs:asf-license>https://doi.org/10.15223/policy-029</xocs:asf-license>
+         <xocs:asf-license>https://doi.org/10.15223/policy-004</xocs:asf-license>
+      </xocs:article-sharing-framework>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0013-9351(18)30175-0</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0013935118301750</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0013935118301750</xocs:eid>
+         <xocs:doi>10.1016/j.envres.2018.03.043</xocs:doi>
+         <xocs:cid>272394</xocs:cid>
+         <xocs:timestamp>2023-07-27T19:06:48.49644Z</xocs:timestamp>
+         <xocs:cover-date-start>2018-07-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2018-07-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/MAIN/application/pdf/5de6d1747a3f10c8ead885a0a9b4b33b/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>759305</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>5</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0013935118301750-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/PREVIEW/image/png/c22b084a5be94f37ef450ac8607257d9/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>59246</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr1/DOWNSAMPLED/image/jpeg/866976c0a40ab414e4866de2bb5cbeeb/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>51613</xocs:filesize>
+               <xocs:pixel-height>518</xocs:pixel-height>
+               <xocs:pixel-width>508</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr2/THUMBNAIL/image/jpeg/c07618c5e2fb68c29df40f8702e2cc6e/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>8766</xocs:filesize>
+               <xocs:pixel-height>146</xocs:pixel-height>
+               <xocs:pixel-width>282</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr3/MAIN/image/jpeg/8ca964b12bba6f71499152884c382310/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>62349</xocs:filesize>
+               <xocs:pixel-height>728</xocs:pixel-height>
+               <xocs:pixel-width>678</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr4/DOWNSAMPLED/image/jpeg/b209e27a1e4e8909f0add834d5dafb1a/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>14439</xocs:filesize>
+               <xocs:pixel-height>139</xocs:pixel-height>
+               <xocs:pixel-width>339</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr1/THUMBNAIL/image/gif/42e9c07af0d58af89a1704b8b802a041/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6392</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>161</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr2/THUMBNAIL/image/gif/adbad560cccd141d87f4157397ad55c0/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4699</xocs:filesize>
+               <xocs:pixel-height>113</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr3/THUMBNAIL/image/gif/de963a400dffc08062e4cef8026ce8e8/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>6206</xocs:filesize>
+               <xocs:pixel-height>163</xocs:pixel-height>
+               <xocs:pixel-width>152</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/gr4/THUMBNAIL/image/gif/de41b4deb5720055445f656b2aa0a837/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8019</xocs:filesize>
+               <xocs:pixel-height>90</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/HIGHRES/image/jpeg/dd4f4d14c147e6ea7725a1813fb641c7/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>352780</xocs:filesize>
+               <xocs:pixel-height>2295</xocs:pixel-height>
+               <xocs:pixel-width>2250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/HIGHRES/image/jpeg/951e3086782d8e55464bf9eeeabd0a2c/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>58184</xocs:filesize>
+               <xocs:pixel-height>646</xocs:pixel-height>
+               <xocs:pixel-width>1250</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/HIGHRES/image/jpeg/d63995fbb49baf950126fb96aad140f1/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>455222</xocs:filesize>
+               <xocs:pixel-height>3221</xocs:pixel-height>
+               <xocs:pixel-width>3000</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/HIGHRES/image/jpeg/f3d21343bbdf82b69b2ae11270b33d5b/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>136344</xocs:filesize>
+               <xocs:pixel-height>617</xocs:pixel-height>
+               <xocs:pixel-width>1500</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0013935118301750-mmc1.docx</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0013935118301750/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/d649517f9d27bed45eeaee443a1442b1/mmc1.docx</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.docx</xocs:filename>
+               <xocs:extension>docx</xocs:extension>
+               <xocs:filesize>481393</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" xml:lang="en" version="5.5">
+         <item-info>
+            <jid>YENRS</jid>
+            <aid>7856</aid>
+            <ce:pii>S0013-9351(18)30175-0</ce:pii>
+            <ce:doi>10.1016/j.envres.2018.03.043</ce:doi>
+            <ce:copyright type="full-transfer" year="2018">Elsevier Inc.</ce:copyright>
+            <ce:doctopics>
+               <ce:doctopic id="doct0005">
+                  <ce:text>TOX</ce:text>
+               </ce:doctopic>
+            </ce:doctopics>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="f0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="sp0005" view="all">Effects of bisphenol A (BPA) and its substitutes on cell viability of human keratinocytes. HaCaT cells were seeded at a density of 2 × 10<ce:sup loc="post">3</ce:sup> cells/well in 96-well plates and left to settle. After 24 h, the cells were treated with various concentrations (2, 5, 10, 50, 100 μg/mL) of BPA or its substitutes (CHDM, D-isosorbide, DMTP, TMCD and TPA) for 24 h. Cell viability was determined by MTT assay after 24 h of exposure (*<ce:italic>P</ce:italic> &lt; 0.05).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0005" role="short">Fig. 1</ce:alt-text>
+               <ce:link id="lk0005" locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0013935118301750/gr1"/>
+            </ce:figure>
+            <ce:figure id="f0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="sp0010" view="all">Effects of BPA and its substitutes on colony-forming abilities. HaCaT cells were seeded at a density of 200 cells/well in 6-well plates and treated with 20 μg/mL of BPA or its substitutes (CHDM, D-isosorbide, DMTP, TMCD and TPA). After 10 days, the cells were washed and stained with 0.5% crystal violet for 30 min (*<ce:italic>P</ce:italic> &lt; 0.05).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0010" role="short">Fig. 2</ce:alt-text>
+               <ce:link id="lk0010" locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0013935118301750/gr2"/>
+            </ce:figure>
+            <ce:figure id="f0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="sp0015" view="all">Quantification of apoptotic fractions after treatment with BPA and its substitutes in HaCaT. (A / B) HaCaT cells were seeded at a density of 8 × 10<ce:sup loc="post">5</ce:sup> cells in 100 mm dishes, and BPA and its substitutes (CHDM, D-isosorbide, DMTP, TMCD, and TPA) were added at 50 μg/mL for 24 h. After 24 h, the cells were harvested, washed with PBS, fixed in methanol, and incubated in PBS containing 40 μg/mL propidium iodide and 100 μg/mL RNase A. Propidium iodide-labeled nuclei were analyzed by flow cytometry (*<ce:italic>P</ce:italic> &lt; 0.05). (B) The apoptotic fraction with each chemical was quantified (*<ce:italic>P</ce:italic> &lt; 0.05).</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0015" role="short">Fig. 3</ce:alt-text>
+               <ce:link id="lk0015" locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0013935118301750/gr3"/>
+            </ce:figure>
+            <ce:figure id="f0020">
+               <ce:label>Fig. 4</ce:label>
+               <ce:caption id="cap0020">
+                  <ce:simple-para id="sp0020" view="all">DNA damage and activation of pro-apoptotic proteins with BPA. HaCaT cells were seeded at a density of 4 × 10<ce:sup loc="post">5</ce:sup> cells in 60 mm dishes and incubated for 24 h. Cells were treated with BPA or its substitutes (CHDM, D-isosorbide, DMTP, TMCD, and TPA) at a concentration of 50 or 100 μg/mL for 24 h. After 24 h of treatment, levels of PARP and caspase-3–cleaved proteins were measured by western blotting. Actin was used as a loading control.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0020" role="short">Fig. 4</ce:alt-text>
+               <ce:link id="lk0020" locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0013935118301750/gr4"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:title id="tit0005">Cytotoxicity measurement of Bisphenol A (BPA) and its substitutes using human keratinocytes</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005" author-id="S0013935118301750-72adc29f1a51a38bec007b58a476e643">
+                  <ce:given-name>Seogho</ce:given-name>
+                  <ce:surname>Son</ce:surname>
+                  <ce:cross-ref id="cr0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0010" refid="fn1">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0010" author-id="S0013935118301750-d10d9f076fce9476b9c303d7746aba0f">
+                  <ce:given-name>KeeSoo</ce:given-name>
+                  <ce:surname>Nam</ce:surname>
+                  <ce:cross-ref id="cr0015" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0020" refid="fn1">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0015" author-id="S0013935118301750-50370282a986c732c46d666ebaba820c">
+                  <ce:given-name>Hyungjoo</ce:given-name>
+                  <ce:surname>Kim</ce:surname>
+                  <ce:cross-ref id="cr0025" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0020" author-id="S0013935118301750-b8b718f12e6ba81f2f73f75d9ab4e227">
+                  <ce:given-name>Myung Chan</ce:given-name>
+                  <ce:surname>Gye</ce:surname>
+                  <ce:cross-ref id="cr0030" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0035" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0040" refid="cor1">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au0025" author-id="S0013935118301750-c829956fb35c261e844b59e7c6b52073">
+                  <ce:given-name>Incheol</ce:given-name>
+                  <ce:surname>Shin</ce:surname>
+                  <ce:cross-ref id="cr0045" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0050" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cr0055" refid="cor1">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005" affiliation-id="S0013935118301750-b33960b3d4141a7fd1132e5e5afbaadd">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Department of Life Science, Hanyang University, Seoul 133-791, Korea</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Life Science, Hanyang University</sa:organization>
+                     <sa:city>Seoul</sa:city>
+                     <sa:postal-code>133-791</sa:postal-code>
+                     <sa:country>Korea</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010" affiliation-id="S0013935118301750-fd13088bcf6a19dab557e64287d64064">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Natural Science Institute, Hanyang University, Seoul 133-791, Korea</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Natural Science Institute, Hanyang University</sa:organization>
+                     <sa:city>Seoul</sa:city>
+                     <sa:postal-code>133-791</sa:postal-code>
+                     <sa:country>Korea</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding authors at: Department of Life Science, Hanyang University, Seoul 133-791, Korea.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Department of Life Science, Hanyang University</sa:organization>
+                     <sa:city>Seoul</sa:city>
+                     <sa:postal-code>133-791</sa:postal-code>
+                     <sa:country>Korea</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:footnote id="fn1">
+                  <ce:label>1</ce:label>
+                  <ce:note-para id="ntp0005" view="all">These authors contributed equally to this work.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="5" month="2" year="2018"/>
+            <ce:date-revised day="28" month="3" year="2018"/>
+            <ce:date-accepted day="30" month="3" year="2018"/>
+            <ce:abstract id="ab0010" class="author" view="all"><ce:abstract-sec id="abs0010" view="all">
+                  <ce:simple-para id="sp0025" view="all">Bisphenol-A (BPA) was first synthesized in the 1890s and has been used in many plastic products. However, BPA is known to act as an endocrine disruptor and has been found to be toxic to human health. Many alternative substances have been developed to replace BPA, but it is still widely used worldwide. In this study, we identified the potential cytotoxicity of BPA by evaluating toxicity using human keratinocytes. Also, we evaluated cytotoxicity of BPA substitutes to determine their suitability as an alternative to BPA. The proliferation assay using the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide, flow cytometry and western blot analysis showed that BPA significantly affect cell viability, induction of apoptotic fraction and increased activation of DNA-damage marker protein. In addition, through the same experiments, the substitutes of BPA were shown to be significantly less toxic than BPA, and the least toxicity was observed with 1,4-cyclohexanedimethanol (CHDM) and terephthalic acid (TPA). In conclusion, this study suggests that cytotoxicity of BPA induces apoptosis of human keratinocytes, and that CHDM and TPA are the most suitable substitutes for BPA.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            
+            <ce:keywords id="keys0005" class="keyword" view="all">
+               <ce:section-title id="sect0015">Keywords</ce:section-title>
+               <ce:keyword id="key0005">
+                  <ce:text>Apoptosis</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0010">
+                  <ce:text>Bisphenol A</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0015">
+                  <ce:text>BPA substitutes</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0020">
+                  <ce:text>Endocrine disruptor</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0025">
+                  <ce:text>HaCaT</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="s0005" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sect0020">Introduction</ce:section-title>
+                  <ce:para id="p0025" view="all">Bisphenol-A (BPA) was first synthesized as a synthetic estrogen in the 1890s and is currently used as a polymerization agent for polycarbonate or epoxy resin. In the modern world, BPA is used in a wide variety of applications from thermal paper to food packaging (<ce:cross-refs id="crs0005" refid="bib17 bib24">Rochester, 2013; Vandenberg et al., 2012</ce:cross-refs>). However, BPA has been known to act as an endocrine disruptor by mimicking estrogen, as it was originally synthesized as a synthetic estrogen (<ce:cross-ref id="cr0060" refid="bib25">Vinas et al., 2012</ce:cross-ref>). Further studies have shown that BPA binds not only to estrogen receptors, but also to androgen receptors and thyroid receptors. Despite the continued research on the effects of BPA on human health, BPA is still one of the most produced chemical compounds in the world, with 2.2 million tonnes produced in 2002 and 5.5 million tonnes estimated to have been produced in 2011 (<ce:cross-refs id="crs0010" refid="bib17 bib19">Rochester, 2013; Rubin, 2011</ce:cross-refs>).</ce:para>
+                  <ce:para id="p0030" view="all">Accordingly, various substances have been proposed to replace BPA (<ce:cross-ref id="cr0065" refid="bib13">Ng et al., 2015</ce:cross-ref>). We selected five candidates to compare to BPA in cytotoxicity experiments. The selected candidates were 1,4-cyclohexanedimethanol (CHDM), D-isosorbide, dimethyl terephthalate (DMTP), 2,2,4,4-tetramethyl-1,3-cyclobutanediol (TMCD), and terephthalic acid (TPA). CHDM, TMCD, and DMTP are the monomers used to synthesize Eastman's Tritan™ copolyester. Tritan™ was the first polymer synthesized to replace polycarbonate using BPA. TPA, which is the first metabolite of DMTP, can also be used for polyester synthesis (<ce:cross-ref id="cr0070" refid="bib14">Osimitz et al., 2012</ce:cross-ref>). A previous study showed that DMTP, CHDM, and TMCD had no androgenic or estrogenic effects on humans (<ce:cross-refs id="crs0015" refid="bib13 bib15">Ng et al., 2015; Osimitz et al., 2015</ce:cross-refs>). D-isosorbide has also been used in place of BPA for synthesizing polycarbonates (<ce:cross-ref id="cr0075" refid="bib12">Nelson and Long, 2012</ce:cross-ref>).</ce:para>
+                  <ce:para id="p0035" view="all">Although the toxicity of BPA as an endocrine disruptor has been widely studied, few studies have compared BPA with its substitutes in terms of skin toxicity. Among human tissues, skin is most likely to be exposed to the external environment. In this study, we investigated the cytotoxicity of BPA and its substitutes using HaCaT, a keratinocyte cell line derived from human skin. We examined whether BPA affects cell growth by assessing cell viability with MTT assays. In addition, we tested whether BPA induces apoptosis by flow cytometry of PI-labeled nuclei and by western blot analysis of changes in activation of apoptotic proteins, poly (ADP-ribose) polymerase (PARP) and caspase-3. PARP and caspase-3 are well-known apoptosis marker for <ce:italic>in vitro</ce:italic> studies (<ce:cross-ref id="cr0080" refid="bib5">Boulares et al., 1999</ce:cross-ref>). Using this approach, we confirmed the cytotoxicity of BPA and compared its cytotoxicity with that of its substitutes in order to suggest appropriate alternatives for BPA.</ce:para>
+               </ce:section>
+               <ce:section id="s0010" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sect0025">Materials and methods</ce:section-title>
+                  <ce:section id="s0015" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title id="sect0030">Cell culture</ce:section-title>
+                     <ce:para id="p0040" view="all">HaCaT human keratinocytes were kindly provided from Professor JM Choi (Hanyang University, Seoul, Korea). Cells were maintained in Dulbecco's Modified Eagle's Medium (Corning, Corning, NY, USA) containing 10% fetal bovine serum (Youngin Frontier, Seoul, Korea), 100 U/mL penicillin (Corning), and 100 mg/mL streptomycin (Corning). All cell lines were incubated at 37 °C in 5% CO<ce:inf loc="post">2</ce:inf> in a humidified atmosphere.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0020" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title id="sect0035">Antibodies and reagents</ce:section-title>
+                     <ce:para id="p0045" view="all">Antibodies against p-Histone H2A.X (Ser139), PARP, and caspase-3 were purchased from Cell Signaling Technology (Beverly, MA, USA). Antibodies against actin and β-tubulin were purchased from Santa Cruz Biotechnology (Santa Cruz, CA, USA). HRP-conjugated secondary antibodies against mouse IgG, rabbit IgG were purchased form Cell Signaling Technology (Beverly, MA, USA). BPA and its substitutes (CHDM, D-isosorbide, DMTP, TMCD, TPA) were purchased from Sigma-Aldrich (St. Louis, MO, USA). Purity of all chemicals is more than 99%. For treating the cells, BPA was dissolved in ethanol; CHDM, D-isosorbide, and TMCD were dissolved in distilled water; TPA was dissolved in DMSO; and DMTP was dissolved in DMSO + Tween 20 (29:1). All chemicals were used at concentrations of 10 mg/mL and 100 mg/mL. For control groups, an equal volume of each vehicle was used.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0025" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title id="sect0040">MTT assays</ce:section-title>
+                     <ce:para id="p0050" view="all">Cell proliferation was measured using 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) thiazolyl blue assays. Cells were seeded in 96-well culture plates at 2 × 10<ce:sup loc="post">3</ce:sup> cells per well and treated with various concentrations (2, 5, 10, 50, 100 μg/mL) of BPA or its substitutes (CHDM, D-isosorbide, DMTP, TMCD and TPA) for 24 h. After treatment with BPA or its substitutes, 10 mg/mL MTT (Sigma-Aldrich) was added to 100 μL of culture medium for 3 h incubation at 37 °C. After removing the medium, dimethyl sulfoxide (Sigma-Aldrich) was added to dissolve the formazan, and the optical density was measured at 590 nm using a Multiskan EX (Thermo Fisher Scientific, Waltham, MA, USA). Experimental concentrations of each chemicals were used in 1/1000 vol of the total culture media and control vehicle was used in the same amount. Experiments were repeated three times.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0030" view="all">
+                     <ce:label>2.4</ce:label>
+                     <ce:section-title id="sect0045">Two-dimensional colony formation assays</ce:section-title>
+                     <ce:para id="p0055" view="all">Cells were seeded at 200 cells per well in 6-well culture plates and incubated with BPA or its substitutes for 10 days at 37 °C in a CO<ce:inf loc="post">2</ce:inf> incubator. After 10 days, the cells were washed with PBS and stained with 0.5% crystal violet for 30 min. The cells were then washed twice with PBS and observed with an optical microscope. The experiments were performed in triplicate and quantitated by counting the number of colonies.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0035" view="all">
+                     <ce:label>2.5</ce:label>
+                     <ce:section-title id="sect0050">Cell cycle analysis by flow cytometry</ce:section-title>
+                     <ce:para id="p0060" view="all">Cells were harvested, washed with phosphate-buffered saline (PBS), fixed in 100% methanol overnight at −20 °C, and incubated in PBS containing 40 μg/mL propidium iodide (PI) and 100 μg/mL RNase for 10 min at room temperature (RT). Cell cycle analyses were performed on a BD FACSCanto II (BD Biosciences, Franklin Lakes, NJ, USA), and the data were analyzed using FlowJo software (FlowJo LLC, Ashland, OR, USA). Experiments were repeated three times.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0040" view="all">
+                     <ce:label>2.6</ce:label>
+                     <ce:section-title id="sect0055">Western blots</ce:section-title>
+                     <ce:para id="p0065" view="all">Cells were washed once with PBS and lysed with lysis buffer (20 mM Tris-HCl, pH 7.4, 0.1 mM EDTA, 150 mM NaCl, 1% NP-40, 0.1% Triton X-100, 0.1% SDS, 20 mM NaF, 1 mM Na<ce:inf loc="post">3</ce:inf>VO<ce:inf loc="post">4</ce:inf>, 1× protease inhibitor; Roche, Basel, Switzerland). Equal amounts of protein in cell lysates were determined by standardization with the BCA Protein Assay Kit (Thermo Fisher Scientific). Proteins were resolved by SDS-PAGE and transferred to nitrocellulose membranes (Whatman GmbH, Dassel, Germany). After blocking with 5% skim milk in TBST at RT for 1 h, membranes were incubated with primary antibodies (Diluted to 1: 1000 in 5% BSA) overnight at 4 °C, followed by 2 h incubation with HRP-conjugated secondary antibodies (Diluted to 1: 2000 in 5% skim milk) at RT. Protein bands were visualized with Dyne ECL (Dyne, Seongnam, Korea).</ce:para>
+                  </ce:section>
+                  <ce:section id="s0045" view="all">
+                     <ce:label>2.7</ce:label>
+                     <ce:section-title id="sect0060">Statistical analysis</ce:section-title>
+                     <ce:para id="p0070" view="all">All experiments were performed in triplicate. Data from MTT assays, colony formation assays, and cell cycle analyses are expressed as means ± standard deviations. Comparison of results from experimental groups versus control groups was done using student's <ce:italic>t</ce:italic>-test. A value of <ce:italic>p</ce:italic> &lt; 0.05 was marked as a significant difference in each figure.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="s0050" role="results" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sect0065">Results</ce:section-title>
+                  <ce:section id="s0055" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title id="sect0070">Effects of BPA and its substitutes on viability of human keratinocytes</ce:section-title>
+                     <ce:para id="p0075" view="all">To measure the cytotoxicity of BPA and its substitutes, we first treated HaCaT cells with these chemicals at 2, 5, 10, 50 and 100 μg/mL for 24 h and then analyzed cell viability using MTT assays (<ce:float-anchor refid="f0005"/>
+                        <ce:cross-ref id="cr0085" refid="f0005">Fig. 1</ce:cross-ref>). Each of the chemicals was diluted in various vehicles, and it was confirmed that each vehicle did not affect cell viability at a concentration level of 0.5% −1% (v/v) (Data not shown). The results show that low doses of all six chemicals did not significantly affect cell viability. However, as the concentration of BPA increased, cell viability of HaCaT cells was significantly decreased. Cell viability of HaCaT cells was 60% and 12% after exposure to 50 μg/mL and 100 μg/mL BPA, respectively. High doses of D-isosorbide, DMPT, and TMCD also influenced cell viability of HaCaT cells. Cell viability of HaCaT cells was 80% after exposure to 100 μg/mL D-isosorbide; 80% after exposure to 100 μg/mL DMPT; 77%, 75% and 68% after exposure to 10, 50 and 100 μg/mL TMCD, respectively. However, with those treatments, cell viability decreased by only approximately 30%, even at the highest dose used for all treatments (100 μg/mL). With BPA, the cell viability decreased by more than 80% at 100 μg/mL. CHDM and TPA did not affect cell viability at 100 μg/mL.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0060" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title id="sect0075">Effects of BPA and its substitute on colony-forming ability</ce:section-title>
+                     <ce:para id="p0080" view="all">Next, we performed colony-forming assays with all 6 chemicals. All materials were used at a concentration of 20 μg/mL, and the results were similar to those obtained from the MTT assays (<ce:float-anchor refid="f0010"/>
+                        <ce:cross-ref id="cr0090" refid="f0010">Fig. 2</ce:cross-ref>and <ce:cross-ref id="cr0095" refid="s0090">Fig. S1</ce:cross-ref>). The BPA-treated well had nearly zero colonies after 10 days of incubation. In addition, the wells treated with D-isosorbide, DMTP, and TMCD showed a decrease in colony number compared to the control treatments. CHDM and TPA had no negative effect on colony number. These results indicate that BPA affects cell viability and growth and has a stronger effect than its substitutes, especially CHDM and TPA.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0065" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title id="sect0080">Quantification of apoptotic cells after treatment with BPA and its substitutes</ce:section-title>
+                     <ce:para id="p0085" view="all">Next, we performed a flow cytometry analysis to determine whether BPA and its substitutes affect apoptotic processes (<ce:float-anchor refid="f0015"/>
+                        <ce:cross-ref id="cr0100" refid="f0015">Fig. 3</ce:cross-ref>A,B). Before flow cytometry analysis, HaCaT cells were treated with BPA and its substitutes at 50 μg/mL for 24 h. BPA-treated cells exhibited a significantly increased apoptotic fraction compared to control cells, and all other cells states decreased compared with control. DMTP- and TMCD-treated cells showed slightly increased apoptotic fractions. There were no significant differences in apoptotic fraction between control and D-isosorbide-, CHDM-, or TPA-treated cells.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0070" view="all">
+                     <ce:label>3.4</ce:label>
+                     <ce:section-title id="sect0085">BPA, DNA damage, and activation of pro-apoptotic proteins</ce:section-title>
+                     <ce:para id="p0090" view="all">To further investigate molecular evidence for apoptosis and DNA damage after the chemical treatments, we used western blot analysis to assess cleavage of caspase-3 and the DNA-damage marker PARP (<ce:float-anchor refid="f0020"/>
+                        <ce:cross-ref id="cr0105" refid="f0020">Fig. 4</ce:cross-ref>). The results showed that cleaved PARP and caspase-3 were increased dose-dependently in BPA-, D-isosorbide-, TMCD-, and DMTP-treated cells. In the case of TMCD, cleavage of caspase-3 level was difficult to be distinguished between 50 μg/mL and 100 μg/mL treated samples. However, quantification of western blot band with ImageJ showed that at concentrations of 50 μg/mL and 100 μg/mL, cleaved form of caspase-3 increased in 4.5, and 5.8 times, respectively, compared to control. Levels of cleaved caspase-3 and PARP were higher in BPA- and TMCD-treated cells. CHDM and TPA did not affect apoptosis or DNA damage at the molecular level. All these results suggest that high concentrations of BPA have a significant effect on cell growth and apoptosis, and its substitutes also affect cell growth and apoptosis but with less effect than BPA. Furthermore, CHDM and TPA have almost no negative effects on cell growth and apoptosis even at a concentration of 100 μg/mL.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="s0075" role="discussion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sect0090">Discussion</ce:section-title>
+                  <ce:para id="p0095" view="all">BPA is mainly used in the production of polycarbonate and epoxy resins. Thus, it is components of various products used in modern world, for example, polycarbonate bottle, food container, toys and thermal paper (<ce:cross-refs id="crs0020" refid="bib7 bib11">Hoekstra and Simoneau, 2013; Michalowicz, 2014</ce:cross-refs>). BPA in household plastic products can contact the human skin, even under normal conditions, due to incomplete polymerization or manufacturing process problems as well as degradation via exposure to heat or acidic conditions (<ce:cross-refs id="crs0025" refid="bib23 bib26">Vandenberg et al., 2010; Welshons et al., 2006</ce:cross-refs>). The effects of BPA as an endocrine disruptor have been well studied to date (<ce:cross-refs id="crs0030" refid="bib3 bib16">Bonefeld-Jorgensen et al., 2007; Richter et al., 2007</ce:cross-refs>). BPA binds competitively to the nuclear estrogen receptor (ER) with 17-beta-estradiol (E2) (<ce:cross-ref id="cr0110" refid="bib11">Michalowicz, 2014</ce:cross-ref>). Early studies have shown that BPA has a lower affinity for ER than E2 (<ce:cross-refs id="crs0035" refid="bib2 bib10">Andersen et al., 1999; Kuiper et al., 1998</ce:cross-refs>), but recent studies have shown that it disrupts various cellular responses even at low concentrations (<ce:cross-ref id="cr0115" refid="bib1">Alonso-Magdalena et al., 2012</ce:cross-ref>). Therefore, many substitutes have been created and commercialized (<ce:cross-refs id="crs0040" refid="bib13 bib14">Ng et al., 2015; Osimitz et al., 2012</ce:cross-refs>). However, BPA is still being produced around the world, and there are still many BPA-containing products that humans contact daily (<ce:cross-ref id="cr0120" refid="bib9">Huang et al., 2012</ce:cross-ref>). In addition, there is not much toxicity assessment of the substitutes of BPA, so it is not enough to evaluate the suitability as an alternative to replace BPA. Under these circumstances, we assessed the cytotoxicity of BPA and its substitutes to establish biochemical and cell biological standards for measuring the toxicity of BPA and its substitutes.</ce:para>
+                  <ce:para id="p0100" view="all">The cells we used for the experiments were HaCaT cells, which are derived from human skin and can be used to indirectly assess the effects of BPA on the skin (<ce:cross-refs id="crs0045" refid="bib4 bib20">Boukamp et al., 1988; Schoop et al., 1999</ce:cross-refs>). In this experiment, we confirmed that BPA has a very significant effect on HaCaT growth and apoptosis at more than 20 μg/mL. Concentration of 20 μg/mL is very high concentration compare to the environmental condition. Because, the maximum tolerable concentration of BPA in the effluent of a waste-water treatment plant is approximately 400 μg/L (<ce:cross-ref id="cr0125" refid="bib6">Corrales et al., 2015</ce:cross-ref>). Therefore, we can conclude that the risk of skin cytotoxicity with BPA is not significant at environmental concentrations. In the MTT assay, most substances did not have a significant effect on cell viability at concentrations below 20 μg/mL. However, the colony-formation assay showed a significant decrease in HaCaT cells upon treatment with BPA and other substitutes at a concentration of 20 μg/mL. Colony-formation assays generally measure longer-term cytotoxicity than MTT assays. Therefore, we may be assured that there is a problem when the skin cells are chronically exposed to BPA or other substitutes. Therefore, based on these experimental results, it is difficult to conclude that BPA is generally safe for human skin.</ce:para>
+                  <ce:para id="p0105" view="all">We used five different BPA substitutes in this study. CHDM, TMCD, DMTP, TPA and D-isosorbide. CHDM, DMTP and TMCD are well known as major raw materials for polyester plastic produced by Eastman chemical in US (<ce:cross-ref id="cr0130" refid="bib14">Osimitz et al., 2012</ce:cross-ref>). CHDM, a chemical made by reduction of DMTP is used as a monomer to synthesize polyethylene terephthalate (PET) which can make plastic bottles (<ce:cross-ref id="cr0135" refid="bib22">Turner, 2004</ce:cross-ref>). Compared to BPA, TMCD is thermally and mechanically stable and is also used as a monomer to make polyester (<ce:cross-ref id="cr0140" refid="bib8">Hoppens et al., 2004</ce:cross-ref>). TPA is also known to be used in the production of PET and is thermostable (<ce:cross-ref id="cr0145" refid="bib21">Sheehan, 2012</ce:cross-ref>). D-isosorbide has high thermal stability and can be used to produce epoxy resin instead of BPA (<ce:cross-ref id="cr0150" refid="bib18">Rose and Palkovits, 2012</ce:cross-ref>). Since all five substitutes are known to have high thermal stability compared to BPA, they are less released to the monomer by heat than BPA. Therefore, even if BPA and its substitutes show the same toxicity, substitutes will be used more safely because they are less degraded by heat in actual environment.</ce:para>
+                  <ce:para id="p0110" view="all">The results of the cytotoxicity evaluation of BPA substitutes indicated that a significant level of cytotoxicity was also observed at the highest concentration tested (100 μg/mL), but the degree of toxicity was significantly lower than that of BPA. In fact, TPA and CHDM did not show any toxicity at that concentration. In the cell viability assay using MTT, the toxicities associated with most of the substitutes were not observed at 50 μg/mL but increased apoptotic protein activities were observed in TMCD-treated cells. This suggests that alternative agents may also show cytotoxicity when used at similar concentrations to BPA and may show higher cytotoxicity at prolonged exposure. However, considering the difference from BPA, we conclude that the substitutes used in this study generally have lower cytotoxicities than BPA.</ce:para>
+               </ce:section>
+               <ce:section id="s0080" role="conclusion" view="all">
+                  <ce:label>5</ce:label>
+                  <ce:section-title id="sect0095">Conclusion</ce:section-title>
+                  <ce:para id="p0115" view="all">The substitutes used in this experiment are already commercially available (<ce:cross-ref id="cr0155" refid="bib14">Osimitz et al., 2012</ce:cross-ref>). Among them, D-isosorbide, TMCD, and DMTP showed some cytotoxicity. Therefore, TPA and CHDM might instead be appropriate for BPA substitutes. However, more specific toxicity evaluations including <ce:italic>in vivo</ce:italic> experiments or long-term experiments should be performed before replacements can be chosen for BPA at a commercial scale.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0005" view="all">
+               <ce:section-title id="sect0100">Acknowledgements</ce:section-title>
+               <ce:para id="p0120" role="supporting" view="all">This work was supported by the Civil Research Project for Solving Social Problems through the National Research Foundation of Korea funded by the <ce:grant-sponsor id="gs1" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">Ministry of Science, ICT, &amp; Future Planning</ce:grant-sponsor> (Grant No. <ce:grant-number refid="gs1">2015M3C8A6A06012226</ce:grant-number>).</ce:para>
+            </ce:acknowledgment>
+            <ce:acknowledgment id="ack0010" view="all">
+               <ce:section id="s0085" role="funding" view="all">
+                  <ce:section-title id="sect0105">Funding sources</ce:section-title>
+                  <ce:para id="p0125" view="all">The National Research Foundation of Korea funded by the Ministry of Science, ICT, &amp; Future Planning (Grant No. 2015M3C8A6A06012226).</ce:para>
+               </ce:section>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section id="s0090" view="compact-standard">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sect0110">Supporting information</ce:section-title>
+                  <ce:para id="p0130" view="all">Supplementary data associated with this article can be found in the online version at <ce:inter-ref id="ir0005" xlink:href="http://doi:10.1016/j.envres.2018.03.043" xlink:type="simple">doi:10.1016/j.envres.2018.03.043</ce:inter-ref>.</ce:para>
+               </ce:section>
+               <ce:section id="s0095" view="extended">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sect0115">Supplementary material</ce:section-title>
+                  <ce:para id="p0135" view="all">
+                     <ce:display>
+                        <ce:e-component id="ec0005">
+                           <ce:caption id="cap0025">
+                              <ce:simple-para id="sp0035" view="all">Supplementary material</ce:simple-para>
+                           </ce:caption>
+                           <ce:link id="lk0025" locator="mmc1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" xlink:href="pii:S0013935118301750/mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibliog0005" view="all">
+               <ce:section-title id="sect0120">References</ce:section-title>
+               <ce:bibliography-sec id="bb0005" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>Alonso-Magdalena et al., 2012</ce:label>
+                     <sb:reference id="sbref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Alonso-Magdalena</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bisphenol-A acts as a potent estrogen via non-classical estrogen triggered pathways</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mol. Cell. Endocrinol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>355</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>201</sb:first-page>
+                              <sb:last-page>207</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>Andersen et al., 1999</ce:label>
+                     <sb:reference id="sbref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.R.</ce:given-name>
+                                 <ce:surname>Andersen</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparison of short-term estrogenicity tests for identification of hormone-disrupting chemicals</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Health Perspect.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>107</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>Suppl 1</sb:issue-nr>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>S89</sb:first-page>
+                              <sb:last-page>S108</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>Bonefeld-Jorgensen et al., 2007</ce:label>
+                     <sb:reference id="sbref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.C.</ce:given-name>
+                                 <ce:surname>Bonefeld-Jorgensen</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Endocrine-disrupting potential of bisphenol A, bisphenol A dimethacrylate, 4-n-nonylphenol, and 4-n-octylphenol in vitro: new data and a brief review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Health Perspect.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>115</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>Suppl 1</sb:issue-nr>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>69</sb:first-page>
+                              <sb:last-page>76</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>Boukamp et al., 1988</ce:label>
+                     <sb:reference id="sbref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Boukamp</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Normal keratinization in a spontaneously immortalized aneuploid human keratinocyte cell line</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Cell Biol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>106</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>761</sb:first-page>
+                              <sb:last-page>771</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>Boulares et al., 1999</ce:label>
+                     <sb:reference id="sbref5">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.H.</ce:given-name>
+                                 <ce:surname>Boulares</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Role of poly(ADP-ribose) polymerase (PARP) cleavage in apoptosis. Caspase 3-resistant PARP mutant increases rates of apoptosis in transfected cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>274</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>22932</sb:first-page>
+                              <sb:last-page>22940</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>Corrales et al., 2015</ce:label>
+                     <sb:reference id="sbref6">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Corrales</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Global assessment of Bisphenol A in the environment: review and analysis of its occurrence and bioaccumulation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Dose-Response</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>13</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>Hoekstra and Simoneau, 2013</ce:label>
+                     <sb:reference id="sbref7">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.J.</ce:given-name>
+                                 <ce:surname>Hoekstra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Simoneau</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Release of bisphenol A from polycarbonate: a review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Crit. Rev. Food Sci. Nutr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>386</sb:first-page>
+                              <sb:last-page>402</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>Hoppens et al., 2004</ce:label>
+                     <sb:reference id="sbref8">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.C.</ce:given-name>
+                                 <ce:surname>Hoppens</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Aliphatic-aromatic copolyesters derived from 2,2,4,4-tetramethyl-1,3-cyclobutanediol</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Polym. Sci. Part a-Polym. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3473</sb:first-page>
+                              <sb:last-page>3478</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>Huang et al., 2012</ce:label>
+                     <sb:reference id="sbref9">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.Q.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bisphenol A (BPA) in China: a review of sources, environmental levels, and potential human health impacts</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Int.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>91</sb:first-page>
+                              <sb:last-page>99</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>Kuiper et al., 1998</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.G.</ce:given-name>
+                                 <ce:surname>Kuiper</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Interaction of estrogenic chemicals and phytoestrogens with estrogen receptor beta</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Endocrinology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>139</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4252</sb:first-page>
+                              <sb:last-page>4263</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>Michalowicz, 2014</ce:label>
+                     <sb:reference id="sbref11">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Michalowicz</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bisphenol A--sources, toxicity and biotransformation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Toxicol. Pharmacol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>37</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>738</sb:first-page>
+                              <sb:last-page>758</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>Nelson and Long, 2012</ce:label>
+                     <sb:reference id="sbref12">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Nelson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.E.</ce:given-name>
+                                 <ce:surname>Long</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A perspective on emerging polymer technologies for bisphenol-A replacement</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Polym. Int.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1485</sb:first-page>
+                              <sb:last-page>1491</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>Ng et al., 2015</ce:label>
+                     <sb:reference id="sbref13">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.W.</ce:given-name>
+                                 <ce:surname>Ng</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Estrogenic activity data extraction and in silico prediction show the endocrine disruption potential of Bisphenol A replacement compounds</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chem. Res. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1784</sb:first-page>
+                              <sb:last-page>1795</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>Osimitz et al., 2012</ce:label>
+                     <sb:reference id="sbref14">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.G.</ce:given-name>
+                                 <ce:surname>Osimitz</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Lack of androgenicity and estrogenicity of the three monomers used in Eastman's Tritan copolyesters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Food Chem. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2196</sb:first-page>
+                              <sb:last-page>2205</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>Osimitz et al., 2015</ce:label>
+                     <sb:reference id="sbref15">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.G.</ce:given-name>
+                                 <ce:surname>Osimitz</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Polyester monomers lack ability to bind and activate both androgenic and estrogenic receptors as determined by In Vitro and In Silico methods</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Food Chem. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>75</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>128</sb:first-page>
+                              <sb:last-page>138</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>Richter et al., 2007</ce:label>
+                     <sb:reference id="sbref16">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.A.</ce:given-name>
+                                 <ce:surname>Richter</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In vivo effects of bisphenol A in laboratory rodent studies</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Reprod. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>199</sb:first-page>
+                              <sb:last-page>224</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>Rochester, 2013</ce:label>
+                     <sb:reference id="sbref17">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Rochester</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bisphenol A and human health: a review of the literature</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Reprod. Toxicol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>132</sb:first-page>
+                              <sb:last-page>155</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>Rose and Palkovits, 2012</ce:label>
+                     <sb:reference id="sbref18">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rose</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Palkovits</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isosorbide as a renewable platform chemical for versatile applicationsuquo vadis?</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chemsuschem</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>5</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>167</sb:first-page>
+                              <sb:last-page>176</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>Rubin, 2011</ce:label>
+                     <sb:reference id="sbref19">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.S.</ce:given-name>
+                                 <ce:surname>Rubin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Bisphenol A: an endocrine disruptor with widespread exposure and multiple effects</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Steroid Biochem. Mol. Biol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>127</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>27</sb:first-page>
+                              <sb:last-page>34</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>Schoop et al., 1999</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.M.</ce:given-name>
+                                 <ce:surname>Schoop</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Epidermal organization and differentiation of HaCaT keratinocytes in organotypic coculture with human dermal fibroblasts</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Investig. Dermatol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>112</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>343</sb:first-page>
+                              <sb:last-page>353</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>Sheehan, 2012</ce:label>
+                     <ce:other-ref id="othref0005">
+                        <ce:textref>Sheehan, J.R., 2012. Terephthalic Acid, Dimethyl Terephthalate, and Isophthalic Acid. Ullmann’s Encyclopedia of Industrial Chemistry.</ce:textref>
+                     </ce:other-ref>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>Turner, 2004</ce:label>
+                     <sb:reference id="sbref21">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.R.</ce:given-name>
+                                 <ce:surname>Turner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development of amorphous copolyesters based on 1,4-cyclohexanedimethanol</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Polym. Sci. Part a-Polym. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5847</sb:first-page>
+                              <sb:last-page>5852</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>Vandenberg et al., 2010</ce:label>
+                     <sb:reference id="sbref22">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.N.</ce:given-name>
+                                 <ce:surname>Vandenberg</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Urinary, circulating, and tissue biomonitoring studies indicate widespread exposure to bisphenol A</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Environ. Health Perspect.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>118</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1055</sb:first-page>
+                              <sb:last-page>1070</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>Vandenberg et al., 2012</ce:label>
+                     <sb:reference id="sbref23">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.N.</ce:given-name>
+                                 <ce:surname>Vandenberg</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Hormones and endocrine-disrupting chemicals: low-dose effects and nonmonotonic dose responses</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Endocr. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>378</sb:first-page>
+                              <sb:last-page>455</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>Vinas et al., 2012</ce:label>
+                     <sb:reference id="sbref24">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Vinas</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Non-genomic effects of xenoestrogen mixtures</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int. J. Environ. Res. Public Health</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2694</sb:first-page>
+                              <sb:last-page>2714</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>Welshons, 2006</ce:label>
+                     <sb:reference id="sbref25">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.V.</ce:given-name>
+                                 <ce:surname>Welshons</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Large effects from small exposures. III. Endocrine mechanisms mediating effects of bisphenol A at levels of human exposure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Endocrinology</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>147</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>S56</sb:first-page>
+                              <sb:last-page>S69</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

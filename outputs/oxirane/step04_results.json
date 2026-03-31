@@ -1,0 +1,227 @@
+[
+  {
+    "title": "A A GAP Replacement, Part 2: Preparation of Poly(3-azidooxetane) via Azidation of Poly(3-tosyloxyoxetane) and Poly(3-mesyloxyoxetane).",
+    "doi": "10.1021/acs.joc.1c02907",
+    "year": 2022,
+    "abstract": "Despite the variety of energetic polyoxetane binders, the oxirane-based glycidyl azide polymer (GAP) has largely succeeded in the market due to its advantageous properties. Nevertheless, it suffers from various drawbacks such as non-uniform chain termination, possible chlorine content (flame retardant), and toxic epichlorohydrin required for its synthesis. These problems can be bypassed using the structurally related poly(3-azidooxetane). Unfortunately, it is only accessible in moderate yield by polymerization of 3-azidooxetane. Herein, we describe its synthesis by polymer-analogous transformation using the new polymers poly(3-tosyloxyoxetane) and poly(3-mesyloxyoxetane) as precursors. This results in a significantly increased yield and improved safety as handling of the very sensitive 3-azidooxetane is avoided. The aforementioned prepolymers were prepared using boron trifluoride etherate as well as triisobutylaluminum as catalysts. The latter provides polymers of particularly high molecular weight, and the corresponding poly(3-azidooxetane) species was obtained and studied for the first time. In order to shed light on the applicability of poly(3-azidooxetane) as a GAP substitute, it was thoroughly studied with regard to thermal behavior, energetic performance (EXPLO5), plasticizer compatibility, and curing. Moreover, the aquatic toxicity of all involved monomers was analyzed and compared to epichlorohydrin. Here, poly(3-azidooxetane) turned out as a fully adequate, if not more environmentally benign, substitute.",
+    "target": "oxirane",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "poly(3-azidooxetane)"
+    ],
+    "reasoning": "The abstract explicitly mentions 'oxirane' in the context of oxirane-based glycidyl azide polymer (GAP). It indicates that poly(3-azidooxetane) serves as a substitute for GAP, which is derived from oxirane, thus suggesting it replaces oxirane in the application.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (78112 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a reactant, not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_webpage_capture",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78112 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Surface modification of sized vegetal fibers through direct fluorination for eco-composites",
+    "doi": "10.1016/j.jfluchem.2020.109618",
+    "year": 2020,
+    "abstract": "Abstract Natural fibers are frequently used as alternatives of glass fibers as polymer matrix reinforcement to form composite materials. However, their natural hydrophilicity prevents them from being easily compatible with hydrophobic polymers, which represent the majority of matrices. To solve this, direct fluorination of sized natural fibers (flax fibers sized with DGEBA) was performed. EDX, FTIR and 19F NMR analysis evidenced the chemical grafting of fluorine on DGEBA structure and the ablation of the oxiranes rings on this molecule. Chemical modifications of DGEBA have induced a hydrophobic character of this layer, by reducing at 0 the polar component of surface tension. Thereby, treated fibers are supposed to be perfectly chemically compatible with the hydrophobic polymer matrices (e.g. polypropylene). Additionally, the fluorination time also allows the dispersive component of surface tension and the rugosity of fibers to be tailored in order to perfectly adjust these characteristics and fit with the polymer. Moreover, this chemical modification was achieved without altering the mechanical properties of fibers for short fluorination times.",
+    "target": "oxirane",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "DGEBA"
+    ],
+    "reasoning": "The abstract explicitly mentions 'oxiranes' in the context of the chemical modifications of DGEBA. It indicates that the fluorination process leads to the ablation of the oxirane rings on this molecule, suggesting that the fluorination replaces or reduces the usage of oxirane in the formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Elsevier) (424113 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_elsevier",
+      "download_strategy": "Downloaded PDF (Elsevier) (424113 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Mechanical Properties of Graphite Filled Unsaturated Polyester and Unsaturated Polyester/Palm Oil Blend Resin",
+    "doi": "10.4028/www.scientific.net/MSF.981.150",
+    "year": 2020,
+    "abstract": "This research aim to investigate the effect of graphite loadings in unsaturated polyester (UPE) / acrylated epoxidized palm oil (AEPO) blend resin. The modification of epoxidized palm oil (EPO) to AEPO was carried out using acrylation process and further blended with synthetic UPE resin. Graphite powder was added at 0.03, 0.05 and 0.1 phr into the UPE/AEPO blend resin and cured in an oven at 100 °C and 160 °C. FTIR spectrums showed the disappearance of oxirane ring and existence of carbon double bond indicating successful of AEPO synthesis process. Tensile and Izod impact test revealed that, graphite showed different effects to neat UPE and UPE/AEPO blend resin. In neat UPE, graphite significantly improved the stiffness properties at 0.1 phr additions. However in UPE/AEPO blend resin, the toughness properties were improved with increased graphite loadings.",
+    "target": "oxirane",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "acrylated epoxidized palm oil (AEPO)"
+    ],
+    "reasoning": "The abstract explicitly mentions 'oxirane' in the context of its disappearance during the synthesis process of AEPO. The alternative, AEPO, is described as a modified form of epoxidized palm oil that replaces oxirane in the formulation, indicating a functional substitute that reduces the usage of oxirane.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Selenium Scraper)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Oxidative Syntheses and Ring Opening of Oxazolines and Related Compounds by Ammonium Tribromide",
+    "doi": "10.3987/REV-17-866",
+    "year": 2017,
+    "abstract": "– Oxidative syntheses and ring opening of oxazolines and related compounds with trimethylphenylammonium tribromide (phenyltrimethyl-ammonium tribromide, PTAB) or pyridinium hydrobromide perbromide (PHPB) were summarized. PTAB and PHPB were effective for respective syntheses of oxazolines, dihydrooxazines, and 6-bromobenzothiazoles. PTAB was also available for the conversion of oxiranes to dioxanes in the presence of 1,3-propanediol. The oxidative ring opening of furans, oxazolines, and dioxanes to respective furanones, cyanomethyl esters, and hydroxypropyl esters with PTAB or PHPB was also described.",
+    "target": "oxirane",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "trimethylphenylammonium tribromide (PTAB)"
+    ],
+    "reasoning": "The abstract explicitly mentions 'oxirane' and describes the conversion of oxiranes to dioxanes using PTAB, indicating that PTAB serves as a functional substitute that replaces oxirane in this specific application.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Semantic Scholar) (5411 bytes)",
+    "fulltext_source": "none",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "abstract",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Semantic Scholar) (5411 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Studi Perbandingan Sifat Mekanis Vulkanisat Karet Menggunakan Plasticizer Minyak Jelantah Epoksi Dan Komersil",
+    "doi": "10.26760/jrh.v7i2.138-151",
+    "year": 2023,
+    "abstract": "ABSTRAKTingginya jumlah minyak jelantah yang tersedia sebagai limbah menjadi tantangan terbesar. Asam lemak tak jenuh yang terdapat dalam minyak jelantah memiliki potensi sebagai bahan baku pembuatan plasticizer minyak epoksi. Di sisi lain, pengembangan plasticizer terbarukan berbasis bahan alam untuk menggantikan plasticizer fosil telah menjadi perhatian banyak peneliti karena isu menipisnya bahan baku minyak bumi, masalah lingkungan, hingga isu kesehatan yang ditimbulkan oleh plasticizer fosil. Penelitian ini bertujuan untuk mempelajari perbandingan sifat mekanis vulkanisat karet yang menggunakan plasticizer minyak jelantah epoksi terhadap plasticizer komersil (minyak parafinik dan minyak kedelai epoksi). Minyak jelantah yang masih mengandung asam lemak tak jenuh diproses epoksidasi dengan metode refluks (60oC selama 4 jam) menggunakan pelarut n-heksane, katalis asam asetat glasial dan resin amberlit IR-120, dan oksigen donor hidrogen peroksida. Minyak jelantah epoksi dikarakterisasi gugus oksiran menggunakan spektrofotometer FTIR dan bilangan oksiran menggunakan metode titrasi. Plasticizer minyak jelantah epoksi, minyak parafinik, dan minyak kedelai epoksi diaplikasikan pada kompon karet dan diuji sifat mekanis vulkanisat karet menggunakan mesin universal testing machine. Hasil penelitian menunjukkan spektra FTIR minyak jelantah epoksi memperlihatkan keberadaan vibrasi peregangan gugus epoksi (C-O-C) pada puncak 1240 cm-1 dan bilangan oksiran 2,24%. Hasil pengujian vulkanisat menggunakan plasticizer minyak jelantah epoksi (EUCO) memiliki nilai kekuatan tarik, kekuatan sobek, dan ketahanan kikis yang lebih unggul dibandingkan vulkanisat menggunakan plasticizer minyak parafinik (PO). Hal tersebut menunjukkan bahwa minyak jelantah epoksi mampu menggantikan plasticizer berbasis minyak bumi, seperti minyak parafinik (PO). Kekuatan sobek dan ketahanan kikis vulkanisat yang menggunakan EUCO lebih tinggi dibandingkan vulkanisat yang menggunakan minyak kedelai epoksi (ESO), meskipun kekuatan tariknya lebih rendah, sehingga mengindikasikan bahwa minyak jelantah epoksi yang disintesis dapat memberikan kinerja yang cukup baik sebagai plasticizer karet, sebanding dengan minyak epoksi komersial, seperti minyak kedelai epoksi.Kata kunci: Minyak jelantah epoksi, Plasticizer komersil, Sifat mekanis, Vulkanisat.ABSTRACTThe high volume of waste cooking oil is one of the biggest obstacles. Unsaturated fatty acids in waste cooking oil have the potential as a raw material for producing plasticizer of epoxy oil. The development of renewable plasticizers based on natural materials to replace petroleum plasticizers has become the concern of many researchers due to the issue of depletion of petroleum raw materials, environmental problems, and health issues caused by petroleum plasticizers. This research aims to study the comparison of mechanical properties of vulcanizated rubber using plasticizer of epoxy waste cooking oil to commercial plasticizers (paraffinic oil and epoxy soybean oil). Waste cooking oil containing unsaturated fatty acids was epoxidized by reflux method (60oC for 4 hours) using n-hexane as solvent, glacial acetic acid and IR-120 amberlite resin as catalyst, and hydrogen peroxide as oxygen donor. The epoxy cooking oil was characterized for oxirane groups using FTIR spectrophotometer and oxirane number using titration method. Epoxy waste cooking oil, paraffinic oil, and epoxy soybean oil were applied to rubber compounds and tested for mechanical properties of vulcanizatesd rubber using a universal testing machine. The results showed that the FTIR spectra of epoxy waste cooking oil showed the presence of epoxy group stretching vibrations (C-O-C) at a peak of 1240 cm-1 and an oxirane number of 2.24%. The test results of vulcanizates using epoxy waste cooking oil (EUCO) have superior tensile strength, tear strength, and scrape resistance values compared to vulcanizates using paraffinic oil (PO). This shows that epoxy waste cooking oil can replace petroleum-based plasticizers, such as paraffinic oil (PO). The tear strength and scrape resistance of the vulcanizates using EUCO were higher than those using epoxy soybean oil (ESO), although the tensile strength was lower, thus indicating that the synthesized epoxy waste cooking oil can provide quite good performance as a rubber plasticizer, comparable to commercial epoxy oils, such as epoxy soybean oil.Keyword: Commercial plasticizer, Epoxy waste cooking oil, Mechanical properties, Vulcanized rubber.",
+    "target": "oxirane",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "epoxy waste cooking oil"
+    ],
+    "reasoning": "The abstract explicitly mentions 'oxirane' and discusses the characterization of epoxy waste cooking oil for oxirane groups. It indicates that the epoxy waste cooking oil can replace petroleum-based plasticizers, which implies a reduction in the use of oxirane in the formulation.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Selenium Scraper)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "depletion of petroleum raw materials and environmental issues caused by petroleum plasticizers",
+        "traditional_material_replaced": "petroleum-based plasticizers (e.g., paraffinic oil)",
+        "alternative_solution": "epoxy waste cooking oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "minyak jelantah epoksi",
+          "value": "5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Table 1",
+          "context": "used as a plasticizer in rubber compounds"
+        },
+        {
+          "material": "n-heksana",
+          "value": "20 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "used as a solvent in the epoxidation process"
+        },
+        {
+          "material": "asam asetat glasial",
+          "value": "15.5 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Section 2.1",
+          "context": "used as a catalyst in the epoxidation process"
+        },
+        {
+          "material": "resin amberlit IR-120",
+          "value": "3.15 g",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Section 2.1",
+          "context": "used as a catalyst in the epoxidation process"
+        },
+        {
+          "material": "hidrogen peroksida",
+          "value": "56 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Section 2.1",
+          "context": "used as an oxygen donor in the epoxidation process"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "4 h",
+          "evidence_location": "Section 2.1",
+          "context": "duration of the epoxidation process"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "60 °C",
+          "evidence_location": "Section 2.1",
+          "context": "temperature maintained during the epoxidation process"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "oxirane_number",
+          "value": "2.24%",
+          "evidence_location": "Section 3.1",
+          "context": "measured using titration method"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "tensile_strength",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        },
+        {
+          "metric_name": "tear_strength",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        },
+        {
+          "metric_name": "scrape_resistance",
+          "metric_value": "higher than paraffinic oil",
+          "comparison_baseline": "paraffinic oil"
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "confidence": "high"
+    }
+  }
+]

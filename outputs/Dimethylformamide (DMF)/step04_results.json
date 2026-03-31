@@ -1,0 +1,1078 @@
+[
+  {
+    "title": "Aqueous Synthesis of Low-Dimensional Lead Halide Perovskites for Room-Temperature Circularly Polarized Light Emission and Detection.",
+    "doi": "10.1021/acsnano.9b04437",
+    "year": 2019,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that it is impossible to synthesize high crystalline quality low-dimensional perovskite single crystals without using chemotoxic solvents such as dimethylformamide (DMF) or dimethyl sulfoxide (DMSO) or applying heating. It then reports an economical and universal aqueous method to synthesize these crystals at room temperature, implying the aqueous method avoids the use of DMF. This suggests the aqueous method is a safer alternative to DMF due to the avoidance of chemotoxic solvents.",
+    "alternatives": "water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that dimethylformamide (DMF) is a chemotoxicity solution used in synthesis, but it does not explicitly state any specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Construction of a Novel Substrate of Unfigured Islands-in-Sea Microfiber Synthetic Leather Based on Waste Collagen",
+    "doi": "10.1021/acsomega.1c03061",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract states that the novel green process using collagen impregnation can eliminate the large amount of dimethylformamide (DMF) pollution caused by the current solvent-based polyurethane impregnation process, indicating a safety advantage by reducing DMF pollution. This implies that the collagen-based method is a safer alternative to DMF in the manufacturing process.",
+    "alternatives": "collagen",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only mentions that the novel process can eliminate the large amount of DMF pollution caused by the current solvent-based process, implying pollution concerns but not explicitly detailing specific harms or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green exfoliation of 2D nanomaterials using cyrene as a solvent.",
+    "doi": "10.1039/d5na00576k",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that commonly used solvents such as dimethylformamide (DMF) are highly toxic and that Cyrene is a nontoxic and biodegradable solvent used as an alternative for exfoliation. It highlights Cyrene's potential as a sustainable and efficient solvent, implying safety advantages over DMF.",
+    "alternatives": "Cyrene",
+    "target_chemical_harm": {
+      "harms": [
+        "highly toxic"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is highly toxic, which is a harm limiting its potential for large-scale industrial applications."
+    },
+    "CHEMICAL HARM": "highly toxic"
+  },
+  {
+    "title": "An amino acid-fortified in situ encapsulation strategy for constructing highly active enzyme@HOF biocomposites.",
+    "doi": "10.1039/d5nr03273c",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract presents a His-fortified in situ HOF encapsulation strategy conducted under truly aqueous, biocompatible conditions as an alternative to the conventional DMF-mediated HOF recrystallization method. It highlights that this method avoids the use of organic solvents like DMF, which have adverse effects on environment and human health, implying improved safety. The strategy is explicitly described as benign and sustainable, addressing environmental and biocompatibility concerns, thus clearly indicating a safer alternative to DMF.",
+    "alternatives": "water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions adverse effects of organic solvents on the environment, human health, and enzyme activity in general, but does not explicitly state any specific harms or hazards related to Dimethylformamide (DMF)."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The Quest for Green Solvents for the Sustainable Production of Nanosheets of Two-Dimensional (2D) Materials, a Key Issue in the Roadmap for the Ecology Transition in the Flatland",
+    "doi": "10.3390/molecules28031484",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares green solvents Polarclean, Iris, and Cyrene with toxic solvents including N,N-dimethylformamide (DMF). It highlights that Polarclean, in particular, results in a low density of defects and enables ink-jet printing due to favorable properties, implying safety and functional advantages. The mention of these solvents as 'eco-friendly' and 'green' in direct comparison to DMF supports that they are safer alternatives.",
+    "alternatives": "Polarclean; Iris; Cyrene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that DMF is a toxic solvent used for the production of 2D nanosheets, but it does not specify the types of toxicity or other explicit harms/hazards associated with DMF. Therefore, no explicit harms or hazards are stated."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Solvent-Activated Transformation of Polymer Configurations for Advancing the Interfacial Reliability of Perovskite Photovoltaics.",
+    "doi": "10.1021/jacs.4c05904",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares N,N-dimethylformamide (DMF) with 2-methoxyethanol (2-Me) and indicates that 2-Me improves wettability and maintains film topography better than DMF, while also enhancing device efficiency and stability. It states that 2-Me minimizes interfacial defects and enables better long-term performance, implying safety and stability advantages over DMF.",
+    "alternatives": "2-methoxyethanol (2-Me)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It mentions that DMF negatively impacts interfacial charge collection and stability in the context of perovskite solar cells, but does not describe any toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Flame‐Retardant Waterproof Breathable Polyurethane Thin Films via Green Synthesis for Textile Applications",
+    "doi": "10.1002/app.57111",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that 1,3-dioxolane is used as a greener alternative to dimethylformamide (DMF), indicating a safety advantage by describing it as 'greener' and part of an eco-friendly approach. This clearly presents 1,3-dioxolane as a safer alternative solvent to DMF in the synthesis of polyurethane films.",
+    "alternatives": "1,3-dioxolane",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that conventional PU coatings often rely on toxic solvents, implying that DMF is a toxic solvent, but it does not explicitly state specific harms or hazards associated with DMF. Therefore, no explicit harms or hazards for DMF are directly stated."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Sustainable Recycling of Perovskite Solar Cells: Green Solvent‐Based Recovery of ITO Substrates",
+    "doi": "10.1002/kin.21771",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the existing recycling methods for PSCs often use toxic solvents like N,N-dimethylformamide (DMF), posing environmental and health risks. It introduces acetone as a green solvent alternative for recycling ITO substrates, emphasizing its eco-friendly nature and potential to support future environmental regulations, which implies a safety advantage over DMF.",
+    "alternatives": "acetone",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "environmental risks",
+        "health risks"
+      ],
+      "rationale": "The text explicitly states that existing recycling methods for conventional PSCs often use toxic solvents like N,N-dimethylformamide (DMF), posing environmental and health risks."
+    },
+    "CHEMICAL HARM": "toxicity, environmental risks, health risks"
+  },
+  {
+    "title": "A Catalytic Process for the Production of the Polar Aprotic Solvent Diformylxylose Using Supported Heteropolyacids",
+    "doi": "10.1002/slct.202405682",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that Diformylxylose (DFX) is a good green alternative to fossil-based polar aprotic solvents including N,N-dimethylformamide (DMF), highlighting its similar performance and characterizing DFX as a green solvent, which implies safety advantages over DMF.",
+    "alternatives": "Diformylxylose (DFX)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions DMF as a commercial solvent for comparison without detailing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green Solvents as an Alternative to DMF in ZIF-90 Synthesis",
+    "doi": "10.3390/molecules26061573",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly investigates green solvents CyreneTM and γ-valerolactone (GVL) as alternatives to DMF in ZIF-90 synthesis. It highlights these solvents as biobased and implies a greener, safer profile by labeling them 'green solvents' and 'biobased,' suggesting safety advantages over DMF. Therefore, it clearly presents safer alternatives to DMF.",
+    "alternatives": "Cyrene; γ-valerolactone (GVL)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only discusses the use of alternative solvents and their effects on product properties."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Periodic mesoporous organosilica functionalized with p-aminobenzenesulfonic acid: an efficient solid acid catalyst for one-pot synthesis of 5-substituted 1H-tetrazoles under eco-friendly conditions",
+    "doi": "10.1039/d5na00224a",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the protocol uses environmentally friendly solvents such as EtOH and water, which replace the hazardous dimethylformamide (DMF) solvent. This indicates a safer alternative to DMF in terms of solvent choice. The catalyst PABSA-Pr-PMO is used in this safer solvent system, highlighting a method that avoids the hazardous DMF.",
+    "alternatives": "ethanol; water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only mentions that the new protocol uses environmentally friendly solvents such as ethanol and water to replace the hazardous DMF solvent, implying DMF is hazardous but without specifying the types of harms or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "New Insights into ZIF-90 Synthesis",
+    "doi": "10.3390/molecules29163731",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that DMF is toxic and hazardous, and explores the use of methanol, water, and acetone as alternative solvents for ZIF-90 synthesis. It describes the alternative solvents as less toxic and highlights the microwave synthesis as highly efficient and less toxic, indicating a safety advantage over DMF.",
+    "alternatives": "methanol; water; acetone",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to human health",
+        "hazardous to the environment"
+      ],
+      "rationale": "The text explicitly states that DMF is toxic and hazardous to human health and the environment."
+    },
+    "CHEMICAL HARM": "toxicity to human health, hazardous to the environment"
+  },
+  {
+    "title": "Partial Replacement of Dimethylformamide with Less Toxic Solvents in the Fabrication Process of Mixed-Halide Perovskite Films",
+    "doi": "10.3390/coatings13020378",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly studies the partial replacement of the toxic solvent Dimethylformamide (DMF) with presumably less toxic alternatives N-methyl-2-Pyrrolidone (NMP) and ethyl acetate (EA) in the fabrication of perovskite films. It highlights that this substitution reduces toxicity in the fabrication process, indicating a safety advantage over DMF.",
+    "alternatives": "N-methyl-2-pyrrolidone (NMP); ethyl acetate (EA)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is the most toxic solvent used in the perovskite fabrication process."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Hybrid Al2O3-CH3NH3PbI3 Perovskites towards Avoiding Toxic Solvents",
+    "doi": "10.3390/ma13010243",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the new synthesis method uses terpineol instead of dimethylformamide (DMF), which is described as a much less toxic solvent. This indicates a safety advantage and suggests terpineol as a safer alternative to DMF in this context.",
+    "alternatives": "terpineol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text mentions that dimethylformamide (DMF)-processed material has limited ambient stability (5 min) compared to the new method (100 min) and that the new method uses fewer toxic solvents compared to DMF. However, no explicit harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to DMF are directly stated in the reasoning."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Alkyl 4-Alkoxyvalerates: Characterization and Application in Pd-Catalyzed Aminocarbonylation of Iodo(hetero)arene Compounds.",
+    "doi": "10.1002/cplu.202400713",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that alkyl 4-alkoxyvalerates, specifically methyl 4-methoxyvalerate (Me-4MeOV), were tested as potential polar aprotic alternatives to fossil-based DMF in aminocarbonylation protocols. It emphasizes the importance of replacing fossil-based solvents with biomass-derived media for environmentally safe alternatives and sustainability, implying safety advantages over DMF.",
+    "alternatives": "methyl 4-methoxyvalerate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses the use of DMF as a common solvent and the search for environmentally safe alternatives."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A novel dimethylformamide (DMF) free bar-cast method to deposit organolead perovskite thin films with improved stability.",
+    "doi": "10.1039/c5cc09859a",
+    "year": 2016,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the new method avoids the use of toxic DMF solvent by using a solvent-free approach with terpineol-based inks. This indicates a safer alternative to DMF due to the avoidance of its toxicity.",
+    "alternatives": "terpineol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text only mentions that the new method avoids the use of toxic DMF solvent, implying DMF is toxic, but does not explicitly state any specific harms or hazards related to DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Cytotoxic Effects of Some Common Organic Solvents on MCF-7, RAW-264.7 and Human Umbilical Vein Endothelial Cells",
+    "doi": "10.17795/AJMB-33453",
+    "year": 2016,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares the cytotoxicity of four solvents including DMF, acetone, ethanol, and DMSO. It explicitly states that DMF displayed greater toxicity compared to the other three solvents, and that acetone, ethanol, and DMSO at low concentrations had little or no toxicity. This indicates that acetone, ethanol, and DMSO are safer alternatives to DMF in terms of cytotoxicity.",
+    "alternatives": "acetone; ethanol; dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [
+        "cytotoxicity",
+        "inhibition of cell proliferation"
+      ],
+      "rationale": "The reasoning text explicitly states that DMF displayed greater toxicity compared to other solvents and that it inhibited the proliferation of MCF-7, RAW-264.7, and HUVEC cells in a dose-dependent manner, indicating cytotoxic effects."
+    },
+    "CHEMICAL HARM": "cytotoxicity, inhibition of cell proliferation"
+  },
+  {
+    "title": "Applicability of Organic Carbonates as Green Solvents for Membrane Preparation",
+    "doi": "10.1021/ACSSUSCHEMENG.9B01507",
+    "year": 2019,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that common solvents including DMF have toxicity or volatility issues and suggests replacing them with 'greener' solvents, specifically organic carbonates, which are described as green solvents obtained via carbon dioxide fixation. This implies a safety advantage over DMF as a replacement solvent for membrane preparation.",
+    "alternatives": "organic carbonates",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "volatile nature"
+      ],
+      "rationale": "The text explicitly states that common polar aprotic solvents like N,N-dimethylformamide (DMF) have toxicity and volatile nature, which are reasons to seek greener alternatives."
+    },
+    "CHEMICAL HARM": "toxicity, volatile nature"
+  },
+  {
+    "title": "Reductive Amination Revisited: Reduction of Aldimines with Trichlorosilane Catalyzed by Dimethylformamide─Functional Group Tolerance, Scope, and Limitations.",
+    "doi": "10.1021/acs.joc.1c01561",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract mentions that DMA can be employed as a greener alternative catalyst instead of DMF, indicating a safety or environmental advantage. This explicitly presents DMA as a safer alternative to Dimethylformamide (DMF).",
+    "alternatives": "Dimethylacetamide (DMA)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only describes its use as an organocatalyst and compares it to DMA as a greener alternative, without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative Life Cycle Carbon Analysis of Different Recycling Processes for Perovskite Solar Cells",
+    "doi": "10.1109/PVSC57443.2024.10748864",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares environmental impacts of recycling approaches and states that a novel recycling approach using potassium iodide (KI) solution has significantly lower environmental impacts, while processes involving dimethylformamide (DMF) have higher impacts. This indicates that the KI solution is a safer alternative to DMF in terms of environmental impact.",
+    "alternatives": "potassium iodide (KI)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that processes involving dimethylformamide (DMF) have higher environmental impacts, but it does not explicitly state any specific harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of Dimethyl Sulfoxide (DMSO) as a Green Solvent and the Addition of Polyethylene Glycol (PEG) in Cellulose Acetate/Polybutylene Succinate (CA/PBS) Membrane’s Performance",
+    "doi": "10.1088/1757-899X/1143/1/012063",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that dimethyl sulfoxide (DMSO), described as a non-toxic solvent, could be used to replace Dimethylformamide (DMF) as a solvent for CA/PBS membranes. This indicates a safety advantage of DMSO over DMF, presenting DMSO as a safer alternative.",
+    "alternatives": "dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only compares DMF to a non-toxic solvent (DMSO) in membrane preparation without mentioning toxicity or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Polymerizable Monomer Solvents Enabled Direct In Situ Photolithography of Perovskite Quantum Dots",
+    "doi": "10.1002/adom.202400486",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly mentions that the conventional use of toxic and volatile solvents such as dimethylformamide (DMF) poses sustainability challenges. It introduces 4-acryloylmorpholine (ACMO) as a polymerizable monomer solvent that enables in situ photolithography of perovskite quantum dots. The abstract frames ACMO as a 'new sustainable way' for patterning PQDs, implying safety and sustainability advantages over DMF. Therefore, ACMO is presented as a safer alternative to DMF.",
+    "alternatives": "4-acryloylmorpholine (ACMO)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic",
+        "volatile"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is a toxic and volatile solvent, which are harms/hazards associated with its use."
+    },
+    "CHEMICAL HARM": "toxic, volatile"
+  },
+  {
+    "title": "Performance analysis of DMF-free perovskite solar cells with vacuum quenching",
+    "doi": "10.1051/epjpv/2025002",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that a mixed solvent of 1-Methyl-2-pyrrolidone and Dimethyl Sulfoxide was used as safer alternatives to N,N-dimethylformamide (DMF), which is described as a known carcinogen in animals. This clearly indicates these solvents are presented as safer alternatives to DMF.",
+    "alternatives": "1-Methyl-2-pyrrolidone; Dimethyl Sulfoxide",
+    "target_chemical_harm": {
+      "harms": [
+        "carcinogenicity in animals"
+      ],
+      "rationale": "The reasoning text explicitly states that N,N-dimethylformamide (DMF) is a known carcinogen in animals. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "carcinogenicity in animals"
+  },
+  {
+    "title": "Improving Efficiency and Stability of Antisolvent‐Free Perovskite Solar Cells via Radical Additives and Reduced‐Toxicity Strategies for Solvent Systems",
+    "doi": "10.1002/aenm.202500410",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that N,N-dimethylacetamide (DMAc) and N,N'-dimethylpropyleneurea (DMPU) are employed as alternatives to DMF/NMP with a strategy of minimizing solvent toxicity, indicating these solvents are safer alternatives to DMF. The focus on reducing toxicity and enhancing sustainability supports the interpretation that these solvents are safer replacements.",
+    "alternatives": "N,N-dimethylacetamide (DMAc); N,N'-dimethylpropyleneurea (DMPU)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is a toxic solvent used in the conventional fabrication of perovskite solar cells."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "CyreneTM Blends: A Greener Solvent System for Organic Syntheses",
+    "doi": "10.1039/d2gc01911f",
+    "year": 2022,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that N,N-Dimethylformamide (DMF) is facing increasing restrictions due to chemical safety and environmental regulations and mentions the search for greener alternatives to replace them. The title and context indicate CyreneTM blends as a greener solvent system, implying a safer alternative to DMF.",
+    "alternatives": "Cyrene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text only mentions that DMF is facing increasing restrictions in chemical safety and environmental regulations, but does not explicitly state any specific harms or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "UiO-66-NH_2 para la obtención de ésteres levulínicos derivados de biomasa",
+    "doi": "10.33414/ajea.5.710.2020",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly proposes replacing the traditional dimethylformamide (DMF) used in solvothermal synthesis with 50% v/v acetone, described as an alternative solvent with more favorable environmental and economic conditions. This indicates a safer alternative to DMF in the synthesis process.",
+    "alternatives": "acetone",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions its use as a traditional solvent in synthesis and compares it to alternative solvents without discussing toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Electrospinning of annatto-loaded cellulose acetate scaffolds using acetone/DMSO as solvent",
+    "doi": "10.1515/cdbme-2024-2050",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that DMF is carcinogenic and mutagenic and aims to analyze whether comparable results can be achieved with a low toxicity solvent consisting of acetone and DMSO. This indicates that acetone/DMSO is presented as a safer alternative to DMF.",
+    "alternatives": "acetone; dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [
+        "carcinogenic",
+        "mutagenic"
+      ],
+      "rationale": "The reasoning text explicitly states that N,N-dimethylformamide (DMF) is considered a carcinogenic and mutagenic substance."
+    },
+    "CHEMICAL HARM": "carcinogenic, mutagenic"
+  },
+  {
+    "title": "The green platform molecule gamma-valerolactone – ecotoxicity, biodegradability, solvent properties, and potential applications",
+    "doi": "10.1039/D0GC04353B",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares gamma-valerolactone (GVL) to dimethylformamide (DMF) and highlights GVL's low acute toxicity and ready biodegradability, indicating safety advantages. It identifies GVL as a green solvent with potential to replace harmful solvents including DMF, suggesting it as a safer alternative.",
+    "alternatives": "gamma-valerolactone (GVL)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with dimethylformamide (DMF). It only mentions that DMF is similar to other reprotoxic compounds but does not explicitly state toxicity or other hazards for DMF itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Electrochemical Tuning of CO2 Reactivity in Ionic Liquids Using Different Cathodes: From Oxalate to Carboxylation Products",
+    "doi": "10.3390/c6020034",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares N,N’-dimethylformamide (DMF) with ionic liquids (ILs) as electrolytes for CO2 activation. It states that ionic liquids would be a cheaper and greener alternative for activating carbon dioxide, implying safety and environmental advantages over DMF. Therefore, ionic liquids are presented as a safer alternative to DMF.",
+    "alternatives": "ionic liquids",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses its use as an organic electrolyte in electrochemical activation of CO2 without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green electrosynthesis strategies of SnO catalysts for enhanced photodegradation of 2,4‐dichlorophenol",
+    "doi": "10.1002/jccs.70014",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares SnO catalysts synthesized using DMF, plant extract (PE), and PE combined with a deep eutectic solvent (PE-DES). It highlights that the SnO-PE-DES catalyst is synthesized via an environmentally friendly approach and shows superior photocatalytic performance compared to SnO-DMF. The mention of 'environmentally friendly synthesis' implies a safety advantage over DMF, which is known to have safety concerns. Therefore, SnO-PE-DES can be reasonably interpreted as a safer alternative to DMF in this context.",
+    "alternatives": "plant extract (PE) combined with a deep eutectic solvent (PE-DES)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions its use as an electrolyte in the synthesis of catalysts and compares degradation efficiencies without discussing toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Spray coating polymer substrates from a green solvent to enhance desalination performances of thin film composites",
+    "doi": "10.1039/d2ta07200a",
+    "year": 2022,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that toxic solvents including Dimethylformamide (DMF) are commonly used and that replacing these with green solvents such as Cyrene™ can imbue benefits. This clearly indicates Cyrene™ as a safer alternative to DMF due to its classification as a green solvent, implying lower toxicity and environmental impact.",
+    "alternatives": "Cyrene",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that n,n-dimethylformamide (DMF) is a toxic solvent."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Solvent Replacement Strategies for Processing Pharmaceuticals and Bio-Related Compounds—A Review",
+    "doi": "10.3390/liquids4020018",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly discusses replacement strategies for hazardous dipolar aprotic solvents including N,N-dimethylformamide (DMF). It lists various alternative solvents such as alcohols, carbonates, ethers, and others as suggested replacements. The context of 'green chemistry' and 'hazardous' solvents implies these alternatives are safer, indicating a clear safety advantage over DMF.",
+    "alternatives": "alcohols; carbonates; ethers",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that N,N-dimethylformamide (DMF) is a hazardous dipolar aprotic solvent, implying it has some hazards, but it does not explicitly state any specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of solvent in the solvothermal synthesis of nickel(II)-terephthalate complex",
+    "doi": "10.29303/aca.v7i2.198",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly aims to replace DMF with a greener solvent, specifically water, in the synthesis of the nickel(II)-terephthalate complex. It states that water is a more environmentally friendly solvent and suggests it can reduce or substitute the use of DMF. This indicates a safer alternative to DMF is presented.",
+    "alternatives": "water",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only discusses the use of DMF as a solvent and the potential to replace it with greener solvents, without mentioning specific toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green Solvent Alternative for Extractive Distillation of 1,3-Butadiene",
+    "doi": "10.69997/sct.132161",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares propylene carbonate (PC) to N,N-dimethylformamide (DMF) and highlights PC as a green solvent alternative with environmentally friendly properties. It mentions that PC offers economic, operational, and environmental benefits, implying improved safety and sustainability over DMF, which is described as having significant health and environmental challenges.",
+    "alternatives": "propylene carbonate (PC)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that DMF presents significant health and environmental challenges but does not explicitly state any specific harms or hazards related to DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Weak-Interaction Environment in a Composite Electrolyte Enabling Ultralong-Cycling High-Voltage Solid-State Lithium Batteries.",
+    "doi": "10.1021/jacs.4c00976",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states replacing the conventional N,N-dimethylformamide (DMF) solvent with 2,2,2-trifluoroacetamide (TFA), highlighting weaker interactions and improved interfacial compatibility, which implies safety advantages. This replacement is presented as a universal strategy, indicating TFA as a safer alternative to DMF.",
+    "alternatives": "2,2,2-trifluoroacetamide (TFA)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses the replacement of DMF with another solvent and the properties of the resulting electrolyte without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Minimizing HCN in DIC/Oxyma-Mediated Amide Bond-Forming Reactions",
+    "doi": "10.26434/chemrxiv.12404252",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares DMF with greener solvents such as N-butylpyrrolidinone (NBP) and NBP/ethyl acetate mixtures, showing that the rate of hazardous HCN formation decreases in the order DMF > NBP > NBP/EtOAc mixtures. This indicates that these solvents are safer alternatives to DMF in terms of reducing HCN formation, a significant safety concern. Therefore, NBP and NBP/EtOAc mixtures are presented as safer alternatives to DMF.",
+    "alternatives": "N-butylpyrrolidinone (NBP); N-butylpyrrolidinone (NBP)/ethyl acetate mixtures",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the formation of hydrogen cyanide (HCN) during reactions involving DMF but does not explicitly state any harms or hazards directly associated with DMF itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A Nontoxic NFM Solvent for High-Efficiency Perovskite Solar Cells with a Widened Processing Window.",
+    "doi": "10.1021/acsami.2c13507",
+    "year": 2022,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that N-formylmorpholine (NFM) is a nontoxic solvent used to replace the toxic DMF, addressing environmental and health concerns. It highlights NFM as an eco-friendly alternative with improved performance and processing advantages, clearly indicating it as a safer alternative to DMF.",
+    "alternatives": "N-formylmorpholine (NFM)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "serious environmental concerns",
+        "serious health concerns"
+      ],
+      "rationale": "The text explicitly states that the usage of N,N-dimethylformamide (DMF) solvent poses serious environmental and health concerns and refers to its toxicity."
+    },
+    "CHEMICAL HARM": "toxicity, serious environmental concerns, serious health concerns"
+  },
+  {
+    "title": "Innovative Poly (Vinylidene Fluoride) (PVDF) Electrospun Nanofiber Membrane Preparation Using DMSO as a Low Toxicity Solvent",
+    "doi": "10.3390/membranes10030036",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that DMF is considered mutagenic and cancerogenic and explores the use of DMSO as a low toxicity solvent alternative for preparing PVDF electrospun nanofiber membranes. It highlights DMSO's lower toxicity compared to DMF, indicating a safety advantage and thus a safer alternative.",
+    "alternatives": "dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [
+        "mutagenic",
+        "cancerogenic"
+      ],
+      "rationale": "The text explicitly states that N,N-dimethylformamide (DMF) is considered a mutagenic and cancerogenic substance."
+    },
+    "CHEMICAL HARM": "mutagenic, cancerogenic"
+  },
+  {
+    "title": "Cyrene™ as a green alternative to N,N'-dimethylformamide (DMF) in the synthesis of MLCT-emissive ruthenium(II) polypyridyl complexes for biological applications.",
+    "doi": "10.1039/d4dt02676d",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that Cyrene™, a bio-renewable solvent, is employed as a green alternative to N,N'-dimethylformamide (DMF) in the synthesis of ruthenium complexes, highlighting its greener nature. This indicates a safety advantage over DMF, fulfilling the criteria for a safer alternative.",
+    "alternatives": "Cyrene™",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions DMF as a solvent being replaced by a greener alternative, without specifying any toxicity, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Greener Solvent-Based Processing of Magnetoelectric Nanocomposites",
+    "doi": "10.1021/acssuschemeng.1c06967",
+    "year": 2022,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the typical processing solvent DMF is toxic and presents three environmentally friendlier solvents (DMSO, DMPU, and TEP) as alternatives for preparing P(VDF-TrFE)/Co2Fe2O4 nanocomposites. It highlights these solvents as more sustainable and suitable for applications, indicating a safer alternative to DMF.",
+    "alternatives": "dimethyl sulfoxide (DMSO); N,N'-dimethylpropyleneurea (DMPU); triethyl phosphate (TEP)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that N,N-dimethylformamide (DMF) is a toxic solvent."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Application of a new green protocol in solid-phase peptide synthesis: identification of a new green solvent mixture compatible with TBEC/ETT",
+    "doi": "10.1080/17518253.2024.2404234",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract identifies a novel green solvent mixture combining anisole with N-octylpyrrolidone (NOP) as an alternative to DMF in solid-phase peptide synthesis. It emphasizes that these solvents are derived from renewable sources and are environmentally sustainable, implying safety advantages over DMF. Thus, the abstract clearly presents a safer alternative to DMF.",
+    "alternatives": "anisole; N-octylpyrrolidone (NOP)",
+    "target_chemical_harm": {
+      "harms": [
+        "hazardous solvent"
+      ],
+      "rationale": "The text explicitly states that DMF is a hazardous solvent used in traditional SPPS, indicating it poses some form of harm or hazard."
+    },
+    "CHEMICAL HARM": "hazardous solvent"
+  },
+  {
+    "title": "Preparation and Characterization of Self-Colored Waterborne Polyurethane and Its Application in Eco-Friendly Manufacturing of Microfiber Synthetic Leather Base",
+    "doi": "10.3390/polym10030289",
+    "year": 2018,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that a novel self-colored waterborne polyurethane (SCPU) was used to prepare a microfiber synthetic leather base without using N,N-dimethylformamide (DMF), aiming to reduce pollution caused by DMF and dyes. This indicates that SCPU is presented as a safer alternative to DMF by avoiding its use and associated pollution.",
+    "alternatives": "self-colored waterborne polyurethane (SCPU)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the synthesis and properties of a self-colored waterborne polyurethane aimed at reducing pollution caused by DMF and dyes, but it does not explicitly state any harms or hazards related to DMF such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Enhanced Near‐Infrared Amplified Spontaneous Emission and Stability Improvement of Air‐Processed Pure Black‐Phase Formamidinium Lead Iodide Perovskite Films",
+    "doi": "10.1002/adfm.202419059",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares methylamine formate (MAFa) as an ionic liquid solvent to traditional N,N-dimethylformamide (DMF) and highlights improved photostability, thermal stability, and resistance to humidity for the MAFa-based films. These stability and resistance improvements can reasonably be interpreted as safety advantages over DMF, indicating MAFa as a safer alternative solvent.",
+    "alternatives": "methylamine formate (MAFa)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only compares the performance of perovskite films prepared with DMF to those prepared with methylamine formate, without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of Polar Aprotic Solvents on the Physical, Chemical, and Mechanical Properties of Cellulose Acetate Bioplastic Films",
+    "doi": "10.1088/1757-899X/1318/1/012032",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly identifies CyreneTM as a novel bio-based solvent alternative to toxic polar aprotic solvents including Dimethylformamide (DMF). It highlights CyreneTM's contribution to greener synthesis methods for bioplastics, implying safety and environmental advantages over DMF. Therefore, CyreneTM is presented as a safer alternative to DMF.",
+    "alternatives": "Cyrene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions DMF as a toxic polar aprotic solvent in comparison to a novel bio-based solvent, but does not specify the types of toxicity or hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Headspace GC/MS Analysis of Residual Solvents in Dietary Supplements, Cosmetics, and Household Products Using Ethyl Lactate as a Dissolution Medium.",
+    "doi": "10.5740/jaoacint.19-0260",
+    "year": 2020,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that ethyl lactate (EL) is a solvent with low toxicity and less environmental impact, proposed as an alternative dissolution medium to DMF for static headspace analysis. This indicates a safety advantage of EL over DMF, making it a safer alternative.",
+    "alternatives": "ethyl lactate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions its use as a dissolution medium and compares it to ethyl lactate (EL) in terms of performance and toxicity, without specifying any particular toxic effects or hazards of DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Dipropyleneglycol Dimethylether, New Green Solvent for Solid-Phase Peptide Synthesis: Further Challenges to Improve Sustainability in the Development of Therapeutic Peptides",
+    "doi": "10.3390/pharmaceutics15061773",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that dipropyleneglycol dimethylether (DMM) is a well-known green solvent with low human toxicity and easy biodegradability, and it is presented as a valuable alternative to DMF in all steps of solid-phase peptide synthesis. This clearly indicates a safer alternative to DMF.",
+    "alternatives": "dipropyleneglycol dimethylether (DMM)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with dimethylformamide (DMF). It only mentions that DMF is being replaced due to the use of toxic reagents and solvents in general, but does not specify the types of toxicity or hazards related to DMF itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Polyvinylpyrrolidone as additive for perovskite solar cells with water and isopropanol as solvents",
+    "doi": "10.3762/bjnano.10.228",
+    "year": 2019,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the conventional preparation of perovskite solar cells relies on DMF, which is toxic and harmful to humans and the environment. It then describes a method using water and isopropanol as solvents with polyvinylpyrrolidone (PVP) as an additive, highlighting this approach as low-toxicity and suitable for commercialization. This clearly indicates a safer alternative to DMF.",
+    "alternatives": "water; isopropanol",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to humans",
+        "toxicity to the environment"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is toxic and detrimental to both humans and the environment."
+    },
+    "CHEMICAL HARM": "toxicity to humans, toxicity to the environment"
+  },
+  {
+    "title": "Aqueous Synthesis of UiO‐66 Metal‐Organic Frameworks With Enhanced Crystallinity and Surface Area",
+    "doi": "10.1002/adsu.202500854",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly contrasts the toxic solvent N,N-dimethylformamide (DMF) with a water-based synthesis method and the use of ethanol as a recyclable solvent for purification, describing these as inexpensive, benign, and green chemistry methods. This indicates a safer alternative to DMF for MOF synthesis.",
+    "alternatives": "water; ethanol",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic solvent"
+      ],
+      "rationale": "The text explicitly states that N,N‐dimethylformamide (DMF) is a toxic solvent, which is a harm associated with the chemical."
+    },
+    "CHEMICAL HARM": "toxic solvent"
+  },
+  {
+    "title": "Optimization of peptide synthesis time and sustainability using novel eco‐friendly binary solvent systems with induction heating on an automated peptide synthesizer",
+    "doi": "10.1002/psc.3605",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly mentions the regulatory restrictions on DMF due to its high toxicity and the urgent need to propose alternative solvents. It identifies binary solvent mixtures containing dimethyl sulfoxide as effective and non-hazardous alternatives for solid-phase peptide synthesis, emphasizing a sustainable approach to minimize hazardous solvent use. This clearly indicates dimethyl sulfoxide-based mixtures as safer alternatives to DMF.",
+    "alternatives": "dimethyl sulfoxide",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity"
+      ],
+      "rationale": "The text explicitly states that the European Commission imposed restrictions on DMF due to its high toxicity. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "high toxicity"
+  },
+  {
+    "title": "Air-Processed MAPbBr3 Perovskite Thin Film with Ultrastability and Enhanced Amplified Spontaneous Emission.",
+    "doi": "10.1002/smll.202101107",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares the MAPbBr3 films prepared with methylammonium acetate (MAAc) to those prepared with N,N-dimethylformamide (DMF) and highlights that the MAAc-prepared films show excellent optical stability and no signs of degradation under various conditions. This indicates a safety advantage in terms of stability and durability, which can be reasonably interpreted as a safer alternative solvent to DMF in this context.",
+    "alternatives": "methylammonium acetate (MAAc)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only compares the stability and optical properties of perovskite films prepared with DMF to those prepared with other solvents, without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "N‐Butylpyrrolidinone is an equally good solvent as N,N‐dimethylformamide for microwave assisted solid phase peptide synthesis",
+    "doi": "10.1002/psc.3612",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly evaluates five green solvents as alternatives to DMF, highlighting N-Butylpyrrolidinone (NBP) as a strong contender performing on par with DMF. It emphasizes the environmental concern associated with DMF and the pursuit of more environmentally friendly solvents, implying that NBP and other tested solvents are safer alternatives in terms of environmental impact.",
+    "alternatives": "N-Butylpyrrolidinone (NBP)",
+    "target_chemical_harm": {
+      "harms": [
+        "hazardous solvent"
+      ],
+      "rationale": "The text explicitly states that DMF is a hazardous solvent used in SPPS, indicating it poses environmental concerns. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "hazardous solvent"
+  },
+  {
+    "title": "Solvent-Resistant UV-Cured Polysulfone Support Membranes Using a Green Solvent",
+    "doi": "10.3390/membranes12010001",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that Tamisolve® NxG is an eco-friendly alternative to DMF, describing it as a non-reprotoxic and biodegradable solvent with similar solubility parameters. This indicates a clear safety advantage over DMF, presenting Tamisolve® NxG as a safer alternative solvent.",
+    "alternatives": "Tamisolve® NxG",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only mentions that Tamisolve® NxG is a non-reprotoxic and biodegradable solvent alternative with similar solubility parameters to DMF, but no direct harms of DMF are described."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "ASPEN plus simulation of liquid–liquid equilibria data for the extraction of aromatics from waste tyre pyrolysis gasoline using organic and deep eutectic solvents: a comparative study",
+    "doi": "10.1007/s13203-020-00262-8",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares deep eutectic solvents (DES1 and DES2) with Dimethylformamide (DMF) and other solvents for extracting aromatics. It highlights that DESs are non-volatile and green solvents, implying environmental advantages over volatile organic solvents like DMF. The abstract explicitly states that DESs performed better and can suitably replace organic solvents including DMF, indicating a safer alternative.",
+    "alternatives": "deep eutectic solvents (DESs)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses its use as a solvent in the extraction of aromatics from waste tyre pyrolysis gasoline and compares its performance with other solvents."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green solvents for the formation of amide linkages.",
+    "doi": "10.1039/d1ob01814k",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract discusses efforts to avoid, reduce, or replace hazardous solvents like DMF due to their environmental and health concerns. It specifically mentions biobased and neoteric solvents such as ionic liquids and deep eutectic solvents as greener alternatives for amide bond formation, implying these are safer alternatives to DMF.",
+    "alternatives": "ionic liquids; deep eutectic solvents",
+    "target_chemical_harm": {
+      "harms": [
+        "adverse environmental concerns",
+        "adverse health concerns"
+      ],
+      "rationale": "The text explicitly states that DMF has been associated with adverse environmental and health concerns over the last decades."
+    },
+    "CHEMICAL HARM": "adverse environmental concerns, adverse health concerns"
+  },
+  {
+    "title": "Optimisation of [11C]-choline synthesis",
+    "doi": "10.5114/wo.2018.81751",
+    "year": 2018,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares a green chemistry approach using ethanol as a green solvent and a dry synthesis method to the conventional DMF-based method. It highlights that the solid phase synthesis completely eliminates DMF, implying a safety advantage by removing the toxic residual solvent. This indicates that the solid phase synthesis and the ethanol-based method are safer alternatives to DMF.",
+    "alternatives": "ethanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the presence of dimethylformamide (DMF) as a residual solvent in the synthesis process and efforts to eliminate it, but it does not explicitly state any harms or hazards associated with DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Phosphorus‐Anchored PVDF Polymer‐Regulated Spherulite and Solvation Structure for Long‐Cycling and Safe Solid‐State Lithium‐Ion Batteries",
+    "doi": "10.1002/adfm.202518511",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract describes a DOPO-anchored PVDF-based solid-state electrolyte that suppresses DMF decomposition and improves safety by immobilizing DOPO on PVDF, which enhances flame retardancy and reduces interfacial degradation caused by residual DMF. This indicates that the DOPO-anchored polymer electrolyte is a safer alternative to DMF-containing electrolytes.",
+    "alternatives": "DOPO-anchored PVDF-based solid-state electrolyte",
+    "target_chemical_harm": {
+      "harms": [
+        "intrinsic flammability",
+        "interfacial degradation induced by high-activity residual N,N-dimethylformamide (DMF) solvent"
+      ],
+      "rationale": "The text explicitly states that PVDF-based solid-state polymer electrolytes suffer from intrinsic flammability and interfacial degradation caused by high-activity residual DMF solvent. No other explicit harms or hazards related to DMF are mentioned."
+    },
+    "CHEMICAL HARM": "intrinsic flammability, interfacial degradation induced by high-activity residual N,N-dimethylformamide (DMF) solvent"
+  },
+  {
+    "title": "Green Solvent Engineering towards Environmentally Friendly Perovskite Solar Cells",
+    "doi": "10.21577/0103-5053.20250069",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that using ElectroGreen®, a commercial green solvent blend, reduces the use of DMF by up to 50% while maintaining comparable solar cell efficiency. It highlights the environmental and health drawbacks of DMF and presents ElectroGreen® as a greener alternative, implying safety advantages.",
+    "alternatives": "ElectroGreen®",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful solvent"
+      ],
+      "rationale": "The text explicitly states that the production of perovskite solar cells typically relies on harmful solvents like dimethylformamide (DMF), indicating that DMF is considered harmful. No specific types of harm or hazards are detailed."
+    },
+    "CHEMICAL HARM": "harmful solvent"
+  },
+  {
+    "title": "Microstructure and electrical properties of green electrospun PVDF-HFP nanofibers",
+    "doi": "10.1088/1742-6596/2431/1/012003",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that dimethyl sulfoxide (DMSO) is selected as a low toxicity and non-hazardous solvent alternative to N,N-dimethylformamide (DMF), which is considered carcinogenic. It presents a mixture of acetone/DMSO as a co-solvent for fabricating PVDF-HFP nanofibers, highlighting the safety advantage of DMSO over DMF.",
+    "alternatives": "dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [
+        "carcinogenicity"
+      ],
+      "rationale": "The text explicitly states that N, N-dimethylformamide (DMF) is considered a cancerogenic substance, indicating its carcinogenic hazard. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "carcinogenicity"
+  },
+  {
+    "title": "Cyclopentyl methyl ether as a green solvent for reversible-addition fragmentation chain transfer and nitroxide-mediated polymerizations",
+    "doi": "10.1039/C5RA21975B",
+    "year": 2016,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that cyclopentyl methyl ether (CPME) was used as an environmentally friendly alternative to commonly employed solvents including DMF. This indicates CPME is presented as a safer alternative to DMF.",
+    "alternatives": "cyclopentyl methyl ether (CPME)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text only mentions DMF as a regularly employed organic solvent and does not explicitly state any harms or hazards associated with it."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Impact of Dimethylformamide, Tetrahydrofuran, and Dimethyl Sulfoxide on Bulk Heterojunction Organic Solar Cells’ Efficiency and Environmental Footprint",
+    "doi": "10.1002/aesr.202400193",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares DMF, THF, and DMSO as solvents for organic solar cells and notes that THF demonstrates the most significant reduction in environmental impact, including human toxicity, which implies a safety advantage. This suggests THF as a safer alternative to DMF in this context.",
+    "alternatives": "tetrahydrofuran (THF)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only mentions the use of DMF as a solvent in organic solar cell fabrication and discusses environmental impacts in general terms without specifying particular toxicity or hazards of DMF."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green and Sustainable Solvents for Solid-Phase Peptoid Synthesis",
+    "doi": "10.1021/acssuschemeng.3c02813",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states the complete elimination of DMF and NMP in solid-phase peptoid synthesis and their replacement with greener solvents and binary mixtures to minimize environmental impact and improve safety. This clearly indicates that the alternative solvents are safer than DMF.",
+    "alternatives": "N-methyl-2-pyrrolidone (NMP)",
+    "target_chemical_harm": {
+      "harms": [
+        "reprotoxic"
+      ],
+      "rationale": "The text explicitly states that N,N-dimethylformamide (DMF) is a reprotoxic solvent, indicating its reproductive toxicity hazard."
+    },
+    "CHEMICAL HARM": "reprotoxic"
+  },
+  {
+    "title": "Comparing Glycerol with Dimethylformamide and Combination for Cryopreservation of Pug Dog Semen in Egg Yolk Plasma Containing Extender",
+    "doi": "10.18805/ijar.b-4411",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares glycerol and DMF as cryoprotectants and concludes that glycerol is a healthier cryoprotectant to protect canine spermatozoa from cryo-injury during freezing-thawing. It presents multiple indicators where glycerol performs better than DMF, implying safety advantages in this context.",
+    "alternatives": "glycerol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text compares the effects of DMF and glycerol as cryoprotectants on canine semen, indicating that glycerol is healthier and better protects spermatozoa from cryo-injury. However, no explicit harms or hazards of DMF such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards are directly stated."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "[Improvement of the Non-aqueous Titration Method in the Japanese Pharmacopoeia for a Purpose of Advancement in Experimental Safety Using Alternative Solvents].",
+    "doi": "10.1248/yakushi.19-00119",
+    "year": 2019,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that dimethyl sulfoxide (DMSO) is used as an alternative solvent to DMF and highlights that DMSO has much higher safety than DMF. It demonstrates that DMSO can replace DMF in titrations for several drugs, indicating a safer alternative.",
+    "alternatives": "dimethyl sulfoxide (DMSO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with Dimethylformamide (DMF). It only mentions that dimethyl sulfoxide (DMSO) has much higher safety than DMF, implying DMF may have safety concerns, but no specific harms are detailed."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Low-Temperature Processed Perovskite Solar Devices with High Photoelectric Conversion Performance",
+    "doi": "10.54254/2755-2721/2025.20002",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly compares dimethylacetamide (DMAc) with dimethylformamide (DMF) and highlights DMAc's advantages, including better trap state passivation, fewer defects, higher crystallinity, and enhanced stability. These improvements imply safety advantages related to material quality and device stability, which can reasonably be interpreted as DMAc being a safer alternative solvent to DMF in the context of perovskite solar cell processing.",
+    "alternatives": "dimethylacetamide (DMAc)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It only compares DMF to DMAc in the context of perovskite solar cell processing without mentioning toxicity, persistence, bioaccumulation, or any occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green Solvent Mixtures for Solid-Phase Peptide Synthesis: A Dimethylformamide-Free Highly Efficient Synthesis of Pharmaceutical-Grade Peptides",
+    "doi": "10.1021/ACSSUSCHEMENG.9B01766",
+    "year": 2019,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states the development of green solvent mixtures (GM-SPPS) that fully replace DMF in solid-phase peptide synthesis, indicating a direct substitution. The solvents used (Cyrene, sulfolane, anisole with dimethyl or diethyl carbonate) are described as 'green,' implying safer environmental and possibly safety profiles compared to DMF. This clearly presents a safer alternative to DMF.",
+    "alternatives": "Cyrene; sulfolane; anisole; dimethyl carbonate; diethyl carbonate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to dimethylformamide (DMF). It focuses on replacing DMF with green solvents in peptide synthesis without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Harnessing polarity and viscosity to identify green binary solvent mixtures as viable alternatives to DMF in solid-phase peptide synthesis",
+    "doi": "10.1039/D1GC00603G",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly identifies green binary solvent mixtures of dimethyl sulfoxide (DMSO) and 1,3-dioxolane or 2-methyl tetrahydrofuran as viable green alternatives to DMF in solid-phase peptide synthesis. It highlights these mixtures as 'green' and 'viable alternatives,' indicating a safety or environmental advantage over DMF.",
+    "alternatives": "dimethyl sulfoxide (DMSO); 1,3-dioxolane; 2-methyl tetrahydrofuran",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that DMF is a hazardous solvent with a negative environmental footprint, but does not explicitly state specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Enhancing Efficiency and Stability in Paper-Dye-Sensitized Solar Cells Using Metal Oxide Integration and Gel Electrolyte Optimization",
+    "doi": "10.1109/NANO63165.2025.11113707",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares gel electrolytes incorporating DMF and ethylene glycol (EG), stating that EG-incorporated gel electrolytes demonstrated superior operational stability compared to DMF-incorporated ones. This indicates a safety or stability advantage of EG over DMF, suggesting EG as a safer alternative electrolyte co-solvent to DMF in this context.",
+    "alternatives": "ethylene glycol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses its use as a co-solvent in gel electrolytes and compares its performance and stability to ethylene glycol (EG) without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Structure Control Using Bioderived Solvents in Electrochemical Metal-Organic Framework Synthesis",
+    "doi": "10.3390/app13020720",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly identifies CyreneTM and γ-valerolactone (GVL) as bioderived solvents used as alternatives to DMF in MOF synthesis. It highlights the environmental challenge posed by toxic, fossil fuel-derived solvents like DMF and presents these bio solvents as a route to synthesize MOFs with comparable quality. Although it does not explicitly state safety advantages, the emphasis on bioderived solvents as alternatives to toxic DMF implies a safer alternative in terms of environmental credentials.",
+    "alternatives": "Cyrene; γ-valerolactone (GVL)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that N, N-dimethylformamide (DMF) is a toxic solvent, presenting a challenge to the environmental credentials of the synthesis method."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "A Green and Facile Approach of Graphite Conductive Ink Preparation for Electrochemical Sensing Application",
+    "doi": "10.1109/SENSORS60989.2024.10784555",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that conventional graphite conductive inks use toxic solvents including Dimethylformamide (DMF), and proposes a green and eco-friendly alternative using ethanol, acetone, and biodegradable cellulose acetate binder. This indicates a safer alternative to DMF due to the use of less toxic, biodegradable, and eco-friendly materials.",
+    "alternatives": "ethanol; acetone; cellulose acetate",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that solvents like Dimethylformamide (DMF) are toxic."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Dihydrolevoglucosenone (Cyrene™), a new possibility of an environmentally compatible solvent in synthetic organic electrochemistry.",
+    "doi": "10.1039/d3fd00064h",
+    "year": 2023,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that Dihydrolevoglucosenone (DLG or Cyrene™) is a green dipolar solvent produced from cellulose waste and can successfully replace dipolar solvents such as N,N-dimethylformamide (DMF). It describes DLG as a greener alternative to other dipolar solvents with environmental concerns, indicating safety advantages over DMF.",
+    "alternatives": "Dihydrolevoglucosenone (DLG or Cyrene™)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions DMF as a dipolar solvent with environmental concerns in a general sense, without specifying particular toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Advancing Sustainable Synthesis of Cyclic Peptides by Integrating Aqueous Fmoc/t-Bu Solid-Phase Peptide Synthesis with Disulfide Bond Formation and TFA/PFAS-Free Resin Cleavage.",
+    "doi": "10.1021/acs.joc.5c01493",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that DMF has been eliminated from peptide synthesis by aqueous SPPS (ASPPS), presenting it as a PFAS-free and TFA-free alternative. This indicates that ASPPS is a safer alternative to DMF in the context of solid-phase peptide synthesis.",
+    "alternatives": "aqueous solid-phase peptide synthesis (ASPPS)",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful substance"
+      ],
+      "rationale": "The text explicitly states that dimethylformamide (DMF) is a 'harmful substance' used in universal Fmoc/t-Bu solid-phase peptide synthesis (SPPS). No specific types of toxicity or other hazards are detailed."
+    },
+    "CHEMICAL HARM": "harmful substance"
+  },
+  {
+    "title": "Steps towards sustainable solid phase peptide synthesis: use and recovery of N-octyl pyrrolidone",
+    "doi": "10.1039/D1GC00910A",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly identifies N-octyl pyrrolidone (NOP) as a green biogenic pyrrolidinone alternative solvent to DMF for solid phase peptide synthesis, highlighting its good performance and the ability to recover solvents, which implies improved sustainability and safety. Although it does not explicitly state toxicity or safety metrics, the emphasis on 'green' and solvent recovery suggests a safer alternative to DMF.",
+    "alternatives": "N-octyl pyrrolidone (NOP)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only discusses the search for alternative solvents and the performance of these alternatives without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Fabricating Planar Perovskite Solar Cells through a Greener Approach",
+    "doi": "10.3390/nano14070594",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the hazardous precursor solvents including dimethylformamide (DMF) were substituted with an environmentally friendly solvent called triethyl phosphate (TEP). It highlights that this greener solvent engineering approach addresses the toxicity concerns of solvents used in perovskite film fabrication, implying TEP is a safer alternative to DMF.",
+    "alternatives": "triethyl phosphate (TEP)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to manufacturers",
+        "environmental toxicity"
+      ],
+      "rationale": "The reasoning explicitly states that the use of hazardous solvents including dimethylformamide (DMF) poses an imminent threat to both the health of manufacturers and the environment, indicating toxicity concerns. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to manufacturers, environmental toxicity"
+  },
+  {
+    "title": "Toward Green Processing of Perovskite Solar Cells: Protic Ionic Liquids Enable Water‐ and Alcohol‐Based MAPbI3 Precursors Inks for Slot‐Die Coating",
+    "doi": "10.1002/aenm.202403626",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the new ink formulation using water, alcohol, and the protic ionic liquid methylammonium propionate (MAP) is non-toxic and eco-friendly, reducing toxicity and environmental impact compared to conventional DMF-based inks. This clearly indicates that the MAP-based ink is a safer alternative to Dimethylformamide (DMF).",
+    "alternatives": "water; alcohol; methylammonium propionate (MAP)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that the new ink formulation reduces toxicity and environmental impact compared to DMF-based inks, implying that DMF-based inks have toxicity concerns."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Green synthesis of polyimide by using an ethanol solvothermal method for aqueous zinc batteries",
+    "doi": "10.1039/d4ra02390k",
+    "year": 2024,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract explicitly states that the conventional synthesis of polyimides often uses toxic and hazardous solvents including Dimethylformamide (DMF). It then presents a method using ethanol and water-ethanol mixed solvents as green alternatives for polyimide synthesis. This implies a safer alternative to DMF due to the use of green solvents, which are generally considered less toxic and more environmentally friendly.",
+    "alternatives": "ethanol; water-ethanol mixed solvents",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic",
+        "hazardous"
+      ],
+      "rationale": "The text explicitly states that N,N-dimethylformamide (DMF) is a toxic and hazardous reagent used in the synthesis of polyimides."
+    },
+    "CHEMICAL HARM": "toxic, hazardous"
+  },
+  {
+    "title": "A High‐Throughput Approach to Identifying Environment‐Friendly Artificial Antisolvents for Efficient Perovskite Solar Cells",
+    "doi": "10.1002/adma.202504602",
+    "year": 2025,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract identifies the high toxicity of conventional solvents including DMF and introduces a concept based on solvent combinations with ultra-low toxicity as environment-friendly 'artificial' antisolvents. This approach is presented as a solution to the toxicity issues associated with DMF, indicating a safer alternative to DMF.",
+    "alternatives": "ultra-low toxicity solvent combinations; environment-friendly 'artificial' antisolvents",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text mentions the high toxicity of conventional solvents in general but does not explicitly state any specific harms or hazards related to Dimethylformamide (DMF) itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis of ursodeoxycholic acid by electrochemical stereoselective reduction of 7-ketolithocholic acid in aprotic solvents",
+    "doi": "10.1038/s41598-021-95577-4",
+    "year": 2021,
+    "target": "Dimethylformamide (DMF)",
+    "reasoning": "The abstract compares several aprotic solvents including DMF and highlights that DMF is easily attacked by chloride ions, resulting in no target reactions. It emphasizes the stable structure of 1,3-dimethyl-2-imidazolidinone (DMI) which enables effective stereoselective reduction. The method is described as relatively environmentally friendly and low-consumption, implying a safety or environmental advantage over DMF. Therefore, DMI can be reasonably interpreted as a safer alternative to DMF in this context.",
+    "alternatives": "1,3-dimethyl-2-imidazolidinone (DMI)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Dimethylformamide (DMF). It only mentions that DMF, as an aprotic solvent, is easily attacked by chloride ions and undergoes nucleophilic reactions, but no toxicity, persistence, bioaccumulation, or other hazards are described."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

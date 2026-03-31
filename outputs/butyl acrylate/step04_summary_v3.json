@@ -1,0 +1,252 @@
+{
+  "target": "butyl acrylate",
+  "total_records": 6,
+  "statistics": {
+    "extracted": 4,
+    "partial_data": 0,
+    "partial_with_calculation": 0,
+    "insufficient_data": 2,
+    "not_found": 0,
+    "irrelevant": 0
+  },
+  "records_with_dosage": [
+    {
+      "title": "Renewable Terpene Derivative as a Biosourced Elastomeric Building Block in the D",
+      "doi": "10.1021/acs.biomac.9b00185",
+      "alternative": [
+        "tetrahydrogeraniol acrylate (THGA)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78212 bytes)",
+      "substitution_logic": {
+        "target_problem": "replacement of low Tg acrylic monomers to reduce reliance on petrochemical-based materials",
+        "traditional_material_replaced": "n-butyl acrylate",
+        "alternative_solution": "tetrahydrogeraniol acrylate (THGA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "3.6 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "initial concentration for RAFT polymerization in toluene"
+        },
+        {
+          "material": "tetrahydrogeraniol acrylate (THGA)",
+          "value": "1.8 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section Y.Z",
+          "context": "lower concentration for RAFT polymerization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "not specified",
+          "evidence_location": "Section Y.Z",
+          "context": "time duration for polymerization not explicitly mentioned"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "molecular_weight",
+          "value": "up to 278 kg·mol-1",
+          "evidence_location": "Section Y.Z",
+          "context": "characterization of synthesized poly(THGA)"
+        },
+        {
+          "property": "Tg",
+          "value": "-46 °C",
+          "evidence_location": "Section Y.Z",
+          "context": "thermal property of poly(THGA)"
+        },
+        {
+          "property": "degree of polymerization (DP n)",
+          "value": "from 25 to 500",
+          "evidence_location": "Section Y.Z",
+          "context": "range of polymerization degrees achieved"
+        },
+        {
+          "property": "molecular weight distribution",
+          "value": "D̵ ≈ 1.2",
+          "evidence_location": "Section Y.Z",
+          "context": "narrow molecular weight distributions achieved"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_rate",
+          "metric_value": "high conversion",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Biobased Itaconate Acrylic Pressure-Sensitive Adhesives via Emulsion Polymerizat",
+      "doi": "10.1021/acsomega.5c03586",
+      "alternative": [
+        "dibutyl itaconate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (77938 bytes)",
+      "substitution_logic": {
+        "target_problem": "high solvent emissions and carbon-intensive manufacturing processes in pressure-sensitive adhesives",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "dibutyl itaconate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "glycidyl methacrylate",
+          "value": "0.5 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "optimal balance between adhesion and cohesion"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "initial content for copolymer synthesis"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Section Y.Z",
+          "context": "increased content for enhanced properties"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "high-temperature",
+          "evidence_location": "Section Y.Z",
+          "context": "synthesis via semicontinuous emulsion polymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "high_frequency_shear_loss_modulus",
+          "metric_value": "87.3 kPa",
+          "comparison_baseline": "55.5 kPa at 30 wt% DBI"
+        },
+        {
+          "metric_name": "180°_peel_strength",
+          "metric_value": "16.5 N/25 mm",
+          "comparison_baseline": "10.7 N/25 mm at 30 wt% DBI"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Tailored Interactions of the Secondary Coordination Sphere Enhance the Hydrolyti",
+      "doi": "10.1021/ACSCATAL.8B04740",
+      "alternative": [
+        "2-methoxyethyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (78222 bytes)",
+      "substitution_logic": {
+        "target_problem": "enhancement of catalytic hydrolysis of glycosidic bonds",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-methoxyethyl acrylate",
+        "relationship_type": "monomer_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "2-methoxyethyl acrylate",
+          "value": "20 mol%",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "used as a co-monomer in the synthesis of microgels"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "catalytic_proficiency",
+          "metric_value": "1.4 × 10^7",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Derivatives of linseed oil and camelina oil as monomers for emulsion polymerizat",
+      "doi": "10.1007/s10853-023-08969-4",
+      "alternative": [
+        "bio-based derivatives from camelina oil",
+        "bio-based derivatives from linseed oil"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+      "substitution_logic": {
+        "target_problem": "the need for sustainable latex coatings that do not rely on petroleum-based monomers",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "bio-based derivatives from camelina oil and linseed oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "bio-based derivatives",
+          "value": "5-30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "used in the monomer mixture for copolymerization"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "maximum amount used in successful emulsion polymerizations"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "amount providing water whitening-resistant coatings"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "water_repellence",
+          "metric_value": "about 10° higher",
+          "comparison_baseline": "reference latex"
+        },
+        {
+          "metric_name": "monomer_conversion",
+          "metric_value": "around 95%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "coagulum",
+          "metric_value": "below 2%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    }
+  ]
+}

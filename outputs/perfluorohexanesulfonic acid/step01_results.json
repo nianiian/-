@@ -2,26 +2,27 @@
   {
     "paperId": "035cbf66cde40aaa101b2f24b9d4b31cb14689bf",
     "externalIds": {
+      "PubMedCentral": "12593342",
       "DOI": "10.1021/acs.est.5c09583",
       "CorpusId": 282375292,
       "PubMed": "41134985"
     },
     "url": "https://www.semanticscholar.org/paper/035cbf66cde40aaa101b2f24b9d4b31cb14689bf",
-    "title": "Association between Maternal Exposure to Per- and Polyfluoroalkyl Substances and Childhood Growth Trajectories up to 4 Years of Age: The Japan Environment and Children's Study.",
+    "title": "Association between Maternal Exposure to Per- and Polyfluoroalkyl Substances and Childhood Growth Trajectories up to 4 Years of Age: The Japan Environment and Children’s Study",
     "venue": "Environmental Science and Technology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.est.5c09583?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.est.5c09583, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12593342, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
     ],
     "authors": [
       {
-        "authorId": null,
+        "authorId": "4265129",
         "name": "Midori Yamamoto"
       },
       {
@@ -45,7 +46,7 @@
         "name": "M. Kamijima"
       }
     ],
-    "abstract": null
+    "abstract": "Maternal exposure to perfluoroalkyl and polyfluoroalkyl substances (PFAS) during pregnancy may influence fetal and postnatal growth. In this study, we examined the association between maternal plasma PFAS levels during pregnancy and child growth trajectories over the first 4 years of life. Pregnant women were enrolled in the Japan Environment and Children’s Study between 2011 and 2014. Eight PFAS were selected, and exposure burden scores were calculated to assess the effects of the PFAS mixtures on child growth. Latent class trajectory models were applied to data from 23,058 children, identifying five growth trajectories based on age- and sex-specific standard deviation scores for weight, height, and body mass index. Perfluorooctanesulfonic acid (PFOS), perfluorohexanesulfonic acid, and perfluorooctanoic acid levels were negatively associated with the odds of high-rising, low-rising, and/or high-weight trajectories. All eight PFAS were positively associated with the low-rising-height trajectory. PFOS was also positively associated with a very low-height trajectory and negatively associated with a high-BMI trajectory. Maternal PFAS exposure may suppress high-stable and rising-weight growth in early childhood. PFAS exposure appears to inhibit fetal height growth; however, catch-up growth may occur during early childhood. PFOS, in particular, may exert a lasting effect on height growth."
   },
   {
     "paperId": "040a222c3a645b2df15f38bb827c514875a0c7d3",
@@ -293,7 +294,7 @@
     "authors": [
       {
         "authorId": "2346475832",
-        "name": "Cedar L Mitchell"
+        "name": "Cedar L. Mitchell"
       },
       {
         "authorId": "2106518646",
@@ -332,7 +333,7 @@
         "name": "K. Ellingson"
       }
     ],
-    "abstract": "Background Certain occupations have greater risk for per- and polyfluoroalkyl substances (PFAS) exposure because of PFAS use in occupation-associated materials. Objective We sought to assess whether PFAS concentrations differed by occupation among certain Arizona workers and whether concentrations differed over time by occupation. Methods Serum concentrations for 14 PFAS were measured among 1960 Arizona Healthcare, Emergency Responder, and Other Essential Worker Study participants. Samples were collected at enrollment and periodically during July 2020–April 2023. Occupational categories included firefighters, other first responders, healthcare workers, and other essential workers. We fit multilevel regression models for each PFAS to estimate differences in geometric mean concentrations or odds of PFAS detection at enrollment by occupational category. For participants with ≥1 serum sample, we evaluated for yearly longitudinal differences in PFAS concentrations by occupational category. We used other essential workers for comparison, and adjusted for age, sex, race and ethnicity, year, and residential county. Results Adjusting for covariates, firefighters had higher perfluorohexanesulfonic acid (PFHxS), branched and linear perfluorooctanesulfonic acid (PFOS), and perfluoroheptanesulfonic acid (PFHpS) concentrations than other essential workers (geometric mean ratios 95% CIs: 1.26 [1.11–1.43]; 1.18 [1.06–1.32]; 1.19 [1.08–1.31]; and 1.19 [1.01–1.39], respectively). Healthcare workers had higher odds of detection of branched perfluorooctanoic acid (Sb-PFOA) and perfluorododecanoic acid (PFDoA) than other essential workers, adjusting for covariates (odds ratios 95% CIs: 1.35 [1.01–1.80]; 2.50 [1.17–5.34], respectively). During the 3-year study, we detected declines in PFAS concentrations among other essential workers; few longitudinal differences in concentrations by occupation were detected. Impact Statement Using data from a large prospective cohort of frontline workers in Arizona, we compared serum concentrations of 14 per-and polyfluoroalkyl substances (PFAS) among firefighters, other first responders, healthcare workers, and other frontline essential workers. We found that firefighters have higher concentrations of certain PFAS chemicals and the odds of detecting other PFAS chemicals are higher among healthcare workers compared with people in other occupations. Our findings highlight the importance of further action to reduce PFAS exposure within highly exposed occupational groups, such as firefighters, and the need to expand evaluation of exposure among other occupations, including healthcare workers."
+    "abstract": "Certain occupations have greater risk for per- and polyfluoroalkyl substances (PFAS) exposure because of PFAS use in occupation-associated materials. We sought to assess whether PFAS concentrations differed by occupation among certain Arizona workers and whether concentrations differed over time by occupation. Serum concentrations for 14 PFAS were measured among 1960 Arizona Healthcare, Emergency Responder, and Other Essential Worker Study participants. Samples were collected at enrollment and periodically during July 2020–April 2023. Occupational categories included firefighters, other first responders, healthcare workers, and other essential workers. We fit multilevel regression models for each PFAS to estimate differences in geometric mean concentrations or odds of PFAS detection at enrollment by occupational category. For participants with ≥1 serum sample, we evaluated for yearly longitudinal differences in PFAS concentrations by occupational category. We used other essential workers for comparison, and adjusted for age, sex, race and ethnicity, year, and residential county. Adjusting for covariates, firefighters had higher perfluorohexanesulfonic acid (PFHxS), branched and linear perfluorooctanesulfonic acid (PFOS), and perfluoroheptanesulfonic acid (PFHpS) concentrations than other essential workers (geometric mean ratios 95% CIs: 1.26 [1.11–1.43]; 1.18 [1.06–1.32]; 1.19 [1.08–1.31]; and 1.19 [1.01–1.39], respectively). Healthcare workers had higher odds of detection of branched perfluorooctanoic acid (Sb-PFOA) and perfluorododecanoic acid (PFDoA) than other essential workers, adjusting for covariates (odds ratios 95% CIs: 1.35 [1.01–1.80]; 2.50 [1.17–5.34], respectively). During the 3-year study, we detected declines in PFAS concentrations among other essential workers; few longitudinal differences in concentrations by occupation were detected. Using data from a large prospective cohort of frontline workers in Arizona, we compared serum concentrations of 14 per-and polyfluoroalkyl substances (PFAS) among firefighters, other first responders, healthcare workers, and other frontline essential workers. We found that firefighters have higher concentrations of certain PFAS chemicals and the odds of detecting other PFAS chemicals are higher among healthcare workers compared with people in other occupations. Our findings highlight the importance of further action to reduce PFAS exposure within highly exposed occupational groups, such as firefighters, and the need to expand evaluation of exposure among other occupations, including healthcare workers."
   },
   {
     "paperId": "0f79ded2e9148b71f0f94d5bc11613935b227609",
@@ -432,7 +433,7 @@
       },
       {
         "authorId": "2248065936",
-        "name": "Douglas I. Walker"
+        "name": "Douglas I Walker"
       },
       {
         "authorId": "2256253477",
@@ -1257,6 +1258,37 @@
     "abstract": "Background: Fibroids (hormonally responsive benign tumors) often undergo volume changes in pregnancy. Because per- and polyfluoroalkyl substances (PFAS) disrupt hormonal signaling, they might affect fibroid growth. We assessed associations between PFAS and fibroid changes in pregnancy. Methods: We analyzed seven PFAS, including perfluorohexanesulfonic acid (PFHxS), perfluorooctanesulfonic acid (PFOS), perfluorodecanoic acid (PFDA), and perfluoroundecanoic acid (PFUnDA), in plasma collected at 10–13 wk gestation from 2,621 women in the NICHD Fetal Growth Studies – Singletons cohort (2009–2013). Sonographers recorded fibroid number and volume of the three largest fibroids during up to six timed ultrasounds. Generalized linear models assessed associations of baseline log2-transformed PFAS and fibroid number, volume, and presence, and weighted quantile sum regression evaluated the PFAS mixture. Generalized linear mixed models with random intercepts assessed associations of PFAS and longitudinal fibroid number and total volume. Volume analyses were stratified by total volume at first visualization [equivalent to a fibroid <1cm (small), 1 to<3cm (medium), or ≥3cm (large) in diameter]. Results: Fibroid prevalence was 9.4% (n=245 women). PFAS were not associated with changes in fibroid number, but were associated with volume trajectory, depending on baseline volume. Among women with small volume, PFAS were associated with fibroid growth: Each doubling in PFHxS and PFOS concentrations was associated with 3.6% [95% confidence interval (CI): 0.2, 7.0 and 5.2% (95% CI: −0.4, 11.1)] greater weekly fibroid growth, respectively. Among women with medium volume, PFAS were associated with shrinking: Doublings in PFOS, PFDA, and PFUnDA concentrations were associated with 1.9% (95% CI: 0.4, 3.3), 1.2% (95% CI: 0.1, 2.4), and 1.6% (95% CI: 0.4, 2.8) greater weekly fibroid volume reduction, respectively. Discussion: Certain PFAS were associated with fibroid growth among women with small fibroids and decreases among women with medium fibroids. PFAS were not associated with fibroid prevalence or number; therefore, PFAS may influence prevalent fibroids rather than initiating fibroid development. https://doi.org/10.1289/EHP11606"
   },
   {
+    "paperId": "31f8c90a6cbd526fa6f32d9eeee60f629e75e795",
+    "externalIds": {
+      "DOI": "10.1007/s12161-024-02603-y",
+      "CorpusId": 268199799
+    },
+    "url": "https://www.semanticscholar.org/paper/31f8c90a6cbd526fa6f32d9eeee60f629e75e795",
+    "title": "Determination of Perfluorinated Substances (PFAS) Using LC-ORBITRAP-MS in Certain foodstuffs of Animal Origin According to newly established EU legislation",
+    "venue": "Food Analytical Methods",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12161-024-02603-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12161-024-02603-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "150093380",
+        "name": "E. Pasecnaja"
+      },
+      {
+        "authorId": "14442773",
+        "name": "D. Začs"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "32502028c989fd009cd8d4f46a6d4fb174352a6c",
     "externalIds": {
       "DOI": "10.3390/app13106263",
@@ -1341,7 +1373,7 @@
         "name": "Yingjie He"
       },
       {
-        "authorId": "2335624980",
+        "authorId": "2318912348",
         "name": "Shuwen Zhang"
       },
       {
@@ -1832,7 +1864,7 @@
       },
       {
         "authorId": "2269672988",
-        "name": "Alessandro Erto"
+        "name": "A. Erto"
       },
       {
         "authorId": "2274607124",
@@ -1841,6 +1873,81 @@
       {
         "authorId": "2141321506",
         "name": "M. Badawi"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "4488d1d78961717441bc6dfbd4424aa7783cd330",
+    "externalIds": {
+      "DOI": "10.1007/s10311-025-01820-z",
+      "CorpusId": 275885534
+    },
+    "url": "https://www.semanticscholar.org/paper/4488d1d78961717441bc6dfbd4424aa7783cd330",
+    "title": "Influence of prenatal exposure to per- and polyfluoroalkyl substances under gestational diabetes mellitus on birth and child growth",
+    "venue": "Environmental Chemistry Letters",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10311-025-01820-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10311-025-01820-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2289928419",
+        "name": "Qiang Li"
+      },
+      {
+        "authorId": "2342415452",
+        "name": "Yabin Hu"
+      },
+      {
+        "authorId": "2143980084",
+        "name": "Pengpeng Wang"
+      },
+      {
+        "authorId": "2248049070",
+        "name": "Liyi Zhang"
+      },
+      {
+        "authorId": "2191009326",
+        "name": "Hang Wang"
+      },
+      {
+        "authorId": "2296497400",
+        "name": "Yuyan Gui"
+      },
+      {
+        "authorId": "2300683376",
+        "name": "Yaqi Xu"
+      },
+      {
+        "authorId": "2300820665",
+        "name": "Yue Zhao"
+      },
+      {
+        "authorId": "2310182683",
+        "name": "Weizhao Cao"
+      },
+      {
+        "authorId": "2342170023",
+        "name": "Minghao Wang"
+      },
+      {
+        "authorId": "8590215",
+        "name": "Huijing Shi"
+      },
+      {
+        "authorId": "46175066",
+        "name": "Yingya Zhao"
+      },
+      {
+        "authorId": "2249203224",
+        "name": "Yunhui Zhang"
       }
     ],
     "abstract": null
@@ -2001,19 +2108,20 @@
   {
     "paperId": "484f98f18b8850b8378193f1c5e7e19b8d1bef86",
     "externalIds": {
+      "PubMedCentral": "12583146",
       "DOI": "10.1038/s41370-025-00785-z",
       "CorpusId": 279252290,
       "PubMed": "40490542"
     },
     "url": "https://www.semanticscholar.org/paper/484f98f18b8850b8378193f1c5e7e19b8d1bef86",
-    "title": "Longitudinal and cross-sectional analysis of perfluoroalkyl substances and kidney function.",
+    "title": "Longitudinal and cross-sectional analysis of perfluoroalkyl substances and kidney function",
     "venue": "Journal of Exposure Science and Environmental Epidemiology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41370-025-00785-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41370-025-00785-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12583146, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -2044,7 +2152,7 @@
         "name": "S. Salihovic"
       }
     ],
-    "abstract": null
+    "abstract": "Perfluoroalkyl substances (PFAS) constitute a diverse group of chemical compounds used in various consumer products. While the associations between PFAS and certain adverse human health effects are well-documented, their impact on kidney function remains less known. The main aim of this study is to investigate the relationship between PFAS levels and kidney function (estimated glomerular filtration rate [eGFR]) utilizing a longitudinal design. The population-based Prospective Investigation of the Vasculature in Uppsala Seniors (PIVUS) study included 997 individuals at baseline (all aged 70 years, 50% females). Follow-up investigations were performed at 75 and 80 years of age. Seven major PFAS were determined in plasma using ultra-high performance liquid chromatography-mass spectrometry. Longitudinal and cross-sectional associations between PFAS and eGFR were analyzed using linear regression and mixed effects models following adjustment for sex, HDL and LDL-cholesterol, triglycerides, glucose, BMI, statin use and smoking. Longitudinal models demonstrated statistically significant positive associations between perfluoroundecanoic acid (PFUnDA), perfluorononanoic acid (PFNA), and perfluorodecanoic acid (PFDA)and eGFR (all P < 0.001). The associations between linear perfluorooctane sulfonic acid (PFOS) and perfluorohexanesulfonic acid (PFHxS) followed a similar trend. In contrast, an inverse relationship between perfluoroheptanoic acid (PFHpA) and perfluorooctanesulfonamide (PFOSA) with eGFR was observed. The findings were largely corroborated by cross-sectional analyses. This longitudinal study found that changes in certain PFAS concentrations were positively associated with the change in kidney function, though the direction of association varied across PFAS. These findings were further supported by cross-sectional analysis. The complexity of associations remains incompletely understood as some PFAS showed positive associations while others were inverse. Further longitudinal studies with repeated measures are needed to better elucidate the relationship between PFAS exposure and kidney function."
   },
   {
     "paperId": "4d810f2e362f4ef4a6c08005ba2b825f224c9ca0",
@@ -2087,7 +2195,7 @@
         "name": "Elsa Antunes"
       }
     ],
-    "abstract": "\n Contaminated biosolids especially with per- and polyfluoroalkyl substances (PFAS) in biosolids pose significant environmental risks, restricting their potential applications and necessitating sustainable solutions to address these challenges. In this context, pyrolysis emerges as a promising technology capable of degrading contaminants while transforming biosolids into useful products like biochar. This study demonstrates the application of pyrolysis at different temperatures of 450–750 °C to investigate its effect on contaminant removal and the properties of the resulting biochars. Subsequently, the biochars were utilized to prepare cement mortars by replacing 0.5, 1, 2, 4, and 6% of cement weight with biochar, and their compressive strengths were determined after 7 days of curing. The findings revealed that biosolids contained significant levels of PFAS, including perfluorooctanesulfonic acid (PFOS), 324 ng/g, perfluorohexanesulfonic acid (PFHxS), 9.15 ng/g, and heavy metals. Pyrolysis at 450 °C effectively degraded most contaminants, including PFAS. The biochar produced at 450 °C exhibited the highest concentrations of inorganic nutrients such as potassium (K), calcium (Ca), nitrogen (N), and phosphorus (P), though their levels decreased with increasing pyrolysis temperature. On the other hand, compressive strength tests for cement mortars with varying proportions of biochar replacement demonstrated that a 0.5% replacement was beneficial for all biochars (except 650 °C—biochar that achieved the maximum compressive strength with 2%). This resulted in a 30–45% increase in compressive strength compared to plain cement mortar. However, increasing the biochar content to 6% significantly reduced compressive strength. Overall, this study highlights the potential of biochar as a sustainable solution for enhancing cement mortar strength while mitigating biosolid contamination.\n \n Graphical abstract\n"
+    "abstract": "Contaminated biosolids especially with per- and polyfluoroalkyl substances (PFAS) in biosolids pose significant environmental risks, restricting their potential applications and necessitating sustainable solutions to address these challenges. In this context, pyrolysis emerges as a promising technology capable of degrading contaminants while transforming biosolids into useful products like biochar. This study demonstrates the application of pyrolysis at different temperatures of 450–750 °C to investigate its effect on contaminant removal and the properties of the resulting biochars. Subsequently, the biochars were utilized to prepare cement mortars by replacing 0.5, 1, 2, 4, and 6% of cement weight with biochar, and their compressive strengths were determined after 7 days of curing. The findings revealed that biosolids contained significant levels of PFAS, including perfluorooctanesulfonic acid (PFOS), 324 ng/g, perfluorohexanesulfonic acid (PFHxS), 9.15 ng/g, and heavy metals. Pyrolysis at 450 °C effectively degraded most contaminants, including PFAS. The biochar produced at 450 °C exhibited the highest concentrations of inorganic nutrients such as potassium (K), calcium (Ca), nitrogen (N), and phosphorus (P), though their levels decreased with increasing pyrolysis temperature. On the other hand, compressive strength tests for cement mortars with varying proportions of biochar replacement demonstrated that a 0.5% replacement was beneficial for all biochars (except 650 °C—biochar that achieved the maximum compressive strength with 2%). This resulted in a 30–45% increase in compressive strength compared to plain cement mortar. However, increasing the biochar content to 6% significantly reduced compressive strength. Overall, this study highlights the potential of biochar as a sustainable solution for enhancing cement mortar strength while mitigating biosolid contamination."
   },
   {
     "paperId": "5039f94c469e11ba3fd08fe6e94b35897a046ffb",
@@ -2559,7 +2667,7 @@
         "name": "Zhiwen Jiang"
       },
       {
-        "authorId": "2386373909",
+        "authorId": "2280563025",
         "name": "Jun Ma"
       }
     ],
@@ -3999,6 +4107,53 @@
     "abstract": "Background The associations of perfluoroalkyl substance (PFAS) exposure with blood lipids and lipoproteins are inconsistent, and existing studies did not account for metabolic heterogeneity of lipoprotein subspecies. This study aimed to examine the associations between plasma PFAS concentrations and lipoprotein and apolipoprotein subspecies. Methods The study included 326 men and women from the 2-year Prevention of Obesity Using Novel Dietary Strategies (POUNDS) Lost randomized trial. Five PFASs, including perfluorooctanesulfonic acid (PFOS), perfluorooctanoic acid (PFOA), perfluorohexanesulfonic acid (PFHxS), perfluorononanoic acid (PFNA), and perfluorodecanoic acid (PFDA), were measured in plasma at baseline. For lipoprotein and apolipoprotein subspecies, total plasma was fractionated first by apolipoprotein (apo) C-III content and then by density. Each subfraction was then measured for apoB, apoC-III, and apoE concentrations, as well as triglyceride and cholesterol contents, both at baseline and at 2 years. Results For lipids and apolipoproteins in total plasma at baseline, elevated plasma PFAS concentrations were significantly associated with higher apoB and apoC-III concentrations, but not with total cholesterol or triglycerides. After multivariate adjustment of lifestyle factors, lipid-lowering medication use, and dietary intervention groups, PFAS concentrations were primarily associated with lipids or apolipoprotein concentrations in intermediate-to-low density lipoprotein (IDL + LDL) and high-density lipoprotein (HDL) that contain apoC-III. Comparing the highest and lowest tertiles of PFOA, the least-square means (SE) (mg/dl) were 4.16 (0.4) vs 3.47 (0.4) for apoB ( P trend = 0.04), 2.03 (0.2) vs 1.66 (0.2) for apoC-III ( P trend = 0.04), and 8.4 (0.8) vs 6.8 (0.8) for triglycerides ( P trend = 0.03) in IDL + LDL fraction that contains apoC-III. For HDL that contains apoC-III, comparing the highest and lowest tertiles of PFOA, the least-square means (SE) (mg/dl) of apoC-III were 11.9 (0.7) vs 10.4 (0.7) ( P trend = 0.01). In addition, elevated PFNA and PFDA concentrations were also significantly associated with higher concentrations of apoE in HDL that contains apoC-III (P trend< 0.01). Similar patterns of associations were demonstrated between baseline PFAS concentrations and lipoprotein subspecies measured at 2 years. Baseline PFAS levels were not associated with changes in lipoprotein subspecies during the intervention. Conclusions Our results suggest that plasma PFAS concentrations are primarily associated with blood lipids and apolipoproteins in subspecies of IDL, LDL, and HDL that contain apoC-III, which are associated with elevated cardiovascular risk in epidemiological studies. Future studies of PFAS-associated cardiovascular risk should focus on lipid subfractions."
   },
   {
+    "paperId": "914e99d0e78a2451a50228b008a2858d1f7d580d",
+    "externalIds": {
+      "DOI": "10.1007/s12403-023-00620-6",
+      "CorpusId": 267016865
+    },
+    "url": "https://www.semanticscholar.org/paper/914e99d0e78a2451a50228b008a2858d1f7d580d",
+    "title": "Maternal Exposure to Per- and Polyfluoroalkyl Substances: Implications for Intrahepatic Cholestasis of Pregnancy and Adverse Birth Outcomes",
+    "venue": "Exposure and Health",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12403-023-00620-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12403-023-00620-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "9230652",
+        "name": "Yonghong Tian"
+      },
+      {
+        "authorId": "13445279",
+        "name": "Chenye Xu"
+      },
+      {
+        "authorId": "2279659380",
+        "name": "Long Zhang"
+      },
+      {
+        "authorId": "2279638860",
+        "name": "Dake Shi"
+      },
+      {
+        "authorId": "2315597728",
+        "name": "Francesca Cappelli"
+      },
+      {
+        "authorId": "35368789",
+        "name": "Shanshan Yin"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "92210d096199f85673310cc7aeff4cbf93eaae49",
     "externalIds": {
       "MAG": "73251791",
@@ -4669,7 +4824,7 @@
       },
       {
         "authorId": "4566783",
-        "name": "Filippo Da Re"
+        "name": "F. Da Re"
       },
       {
         "authorId": "143766052",
@@ -5075,7 +5230,7 @@
         "name": "Chunxue Yang"
       }
     ],
-    "abstract": "Background The widespread presence of per-and polyfluoroalkyl substances (PFAS) has raised global health concerns. This study aims to determine the age-specific relationships of PFAS compounds with metabolic syndrome (MetS) and its components. Methods We used data from the National Health and Nutrition Examination Survey (NHANES) in 2003–2018. Modified Poisson regression was employed to estimate associations between individual PFAS compounds and prevalence of MetS, as well as its components. Multiple linear regression analyses were performed to examine the associations between PFAS congeners and metabolic markers, including lipid and glucose homeostasis traits. Additionally, weighted quantile sum (WQS) regression and Bayesian kernel machine regression (BKMR) models were conducted to investigate the joint effects of PFAS mixtures on the prevalence of MetS and its components across different age groups. Results A total of 5850 participants were included for analysis. In the Modified Poisson regression model, ln-transformed perfluorononanoic acid (PFNA) level was positively correlated with MetS prevalence in adolescents (prevalence ratio [PR] = 1.42; 95% CI: 1.01–1.99). Conversely, ln-transformed perfluorohexanesulfonic acid (PFHxS) and ln-transformed 2-(N-Methylperfluorooctane sulfonamido) acetic acid (MeFOSAA) were negatively associated with the risks of MetS in young adults (PR = 0.86, 95% CI: 0.76–0.98) and middle-aged adults (PR = 0.88, 95% CI: 0.79–0.98), respectively. Notably, individual PFAS exposure was positively associated with levels of total cholesterol, low-density lipoprotein, non-high-density lipoprotein, and high-density lipoprotein in young and middle-aged adults. However, overall effect analyses using WQS and BKMR showed no significant associations of PFAS mixture with MetS in any age group. Nonetheless, in middle-aged adults, PFAS mixture was adversely correlated with hypertriglyceridemia and positively linked to a greater risk of hypertension and increased high-density lipoprotein cholesterol levels. Conclusions Our study highlighted the complex relationships between PFAS exposure and the risks of MetS and its components across different age groups. Co-exposure to PFAS was particularly linked to dyslipidemia in young and middle-aged adults. Prospective studies are needed for better comprehension of the causative impact of PFAS on the risks of MetS. Supplementary Information The online version contains supplementary material available at 10.1186/s12944-025-02582-x."
+    "abstract": "The widespread presence of per-and polyfluoroalkyl substances (PFAS) has raised global health concerns. This study aims to determine the age-specific relationships of PFAS compounds with metabolic syndrome (MetS) and its components. We used data from the National Health and Nutrition Examination Survey (NHANES) in 2003–2018. Modified Poisson regression was employed to estimate associations between individual PFAS compounds and prevalence of MetS, as well as its components. Multiple linear regression analyses were performed to examine the associations between PFAS congeners and metabolic markers, including lipid and glucose homeostasis traits. Additionally, weighted quantile sum (WQS) regression and Bayesian kernel machine regression (BKMR) models were conducted to investigate the joint effects of PFAS mixtures on the prevalence of MetS and its components across different age groups. A total of 5850 participants were included for analysis. In the Modified Poisson regression model, ln-transformed perfluorononanoic acid (PFNA) level was positively correlated with MetS prevalence in adolescents (prevalence ratio [PR] = 1.42; 95% CI: 1.01–1.99). Conversely, ln-transformed perfluorohexanesulfonic acid (PFHxS) and ln-transformed 2-(N-Methylperfluorooctane sulfonamido) acetic acid (MeFOSAA) were negatively associated with the risks of MetS in young adults (PR = 0.86, 95% CI: 0.76–0.98) and middle-aged adults (PR = 0.88, 95% CI: 0.79–0.98), respectively. Notably, individual PFAS exposure was positively associated with levels of total cholesterol, low-density lipoprotein, non-high-density lipoprotein, and high-density lipoprotein in young and middle-aged adults. However, overall effect analyses using WQS and BKMR showed no significant associations of PFAS mixture with MetS in any age group. Nonetheless, in middle-aged adults, PFAS mixture was adversely correlated with hypertriglyceridemia and positively linked to a greater risk of hypertension and increased high-density lipoprotein cholesterol levels. Our study highlighted the complex relationships between PFAS exposure and the risks of MetS and its components across different age groups. Co-exposure to PFAS was particularly linked to dyslipidemia in young and middle-aged adults. Prospective studies are needed for better comprehension of the causative impact of PFAS on the risks of MetS."
   },
   {
     "paperId": "aa30df6f2a30808275aad4137684165abd10488c",
@@ -5356,6 +5511,81 @@
     "abstract": null
   },
   {
+    "paperId": "b04cfb5934b61800d21febd3e33b88600f050035",
+    "externalIds": {
+      "DOI": "10.1007/s12403-025-00703-6",
+      "CorpusId": 277871153
+    },
+    "url": "https://www.semanticscholar.org/paper/b04cfb5934b61800d21febd3e33b88600f050035",
+    "title": "Exploring the Relationships Between Exposure Levels of Per- and Polyfluoroalkyl Substances and Prostate Cancer Occurrence in Southwest China",
+    "venue": "Exposure and Health",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12403-025-00703-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12403-025-00703-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2305478934",
+        "name": "Jiaqi Guo"
+      },
+      {
+        "authorId": "2303302093",
+        "name": "Zifan Hu"
+      },
+      {
+        "authorId": "2303666810",
+        "name": "Weiyang Sun"
+      },
+      {
+        "authorId": "2351335489",
+        "name": "Jia Li"
+      },
+      {
+        "authorId": "2152665071",
+        "name": "Xinyi Huang"
+      },
+      {
+        "authorId": "51127353",
+        "name": "Xianghong Zhou"
+      },
+      {
+        "authorId": "2128158961",
+        "name": "Zilong Zhang"
+      },
+      {
+        "authorId": "2280212598",
+        "name": "Yumin Jin"
+      },
+      {
+        "authorId": "2280176694",
+        "name": "Weichao Huang"
+      },
+      {
+        "authorId": "2356582141",
+        "name": "Chunying Luo"
+      },
+      {
+        "authorId": "2355959830",
+        "name": "Koji Harada"
+      },
+      {
+        "authorId": "2301783669",
+        "name": "Shi Qiu"
+      },
+      {
+        "authorId": "2067662861",
+        "name": "Xiaoli Zou"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "b054ee07c53d1f239398cf7ca1aa1d87b0e5fba0",
     "externalIds": {
       "MAG": "2587793668",
@@ -5549,18 +5779,18 @@
   {
     "paperId": "b1197ceddde0df8ee350d911259cadc4c72ee246",
     "externalIds": {
-      "DOI": "10.1101/2023.10.19.23296512",
+      "DOI": "10.1007/s12403-023-00622-4",
       "CorpusId": 264302952
     },
     "url": "https://www.semanticscholar.org/paper/b1197ceddde0df8ee350d911259cadc4c72ee246",
-    "title": "Per- and polyfluoroalkyl substances concentrations are associated with an unfavorable cardio-metabolic risk profile: findings from two population-based cohort studies",
-    "venue": "medRxiv",
+    "title": "Per- and Polyfluoroalkyl Substances Concentrations are Associated with an Unfavorable Cardio-Metabolic Risk Profile: Findings from Two Population-Based Cohort Studies",
+    "venue": "Exposure and Health",
     "year": 2023,
     "openAccessPdf": {
       "url": "https://link.springer.com/content/pdf/10.1007/s12403-023-00622-4.pdf",
-      "status": "GREEN",
+      "status": "HYBRID",
       "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.10.19.23296512?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.10.19.23296512, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12403-023-00622-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12403-023-00622-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -5615,7 +5845,7 @@
         "name": "Monique M. B. Breteler"
       }
     ],
-    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are widely used and persistent chemicals, leading to ubiquitous exposure. Although high PFAS levels have been associated with an adverse cardiovascular risk profile, the distribution of levels and relations with cardio-metabolic risk markers in the general population have not been fully characterized. We assessed the association between blood levels of perfluorooctaneic acid (PFOA), perfluorooctane sulfonic acid (PFOS), and perfluorohexanesulfonic acid (PFHxS) and a range of lipoproteins and metabolites as well as clinical lipid measurements. We used data from participants of the Netherlands Epidemiology of Obesity study (NEO) (n= 584) and the Rhineland Study (n= 1,962), jointly spanning an age range of 30 to 89 years. PFAS were measured with the Metabolon HD4 platform, and lipoprotein and metabolite profiles were measured using Nightingale's nuclear magnetic resonance-spectroscopy platform, and mainly comprised lipoprotein markers. Using linear regression analyses, we quantified age-, sex- and education-adjusted associations of PFOA, PFOS, and PFHxS with clinical lipid measurements and 224 lipoproteins and metabolites. Higher levels of PFAS, particularly PFOS and PFHxS, were associated with higher concentrations of total lipid, cholesterol and phospholipid content in most HDL, IDL, LDL and VLDL subclasses. The effect sizes were age-dependent for the majority of the associations, with the deleterious effects of PFAS being generally stronger in people below compared to those above median age. Our observation that in the general population even low PFAS concentrations are associated with an unfavorable lipid profile, calls for further critical regulation of PFAS substances."
+    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are widely used and persistent chemicals, leading to ubiquitous exposure. Although high PFAS levels have been associated with an adverse cardiovascular risk profile, the distribution of levels and relations with cardio-metabolic risk markers in the general population have not been fully characterized. We assessed the association between blood levels of perfluorooctaneic acid (PFOA), perfluorooctane sulfonic acid (PFOS), and perfluorohexanesulfonic acid (PFHxS) and a range of lipoproteins and metabolites as well as clinical lipid measurements. We used data from participants of the Netherlands Epidemiology of Obesity study (NEO) (n = 584) and the Rhineland Study (n = 1962), jointly spanning an age range of 30 to 89 years. PFAS were measured with the Metabolon HD4 platform, and lipoprotein and metabolite profiles were measured using Nightingale’s nuclear magnetic resonance-spectroscopy platform, and mainly comprised lipoprotein markers. Using linear regression analyses, we quantified age-, sex-, and education-adjusted associations of PFOA, PFOS, and PFHxS with clinical lipid measurements and 224 lipoproteins and metabolites. Higher levels of PFAS, particularly PFOS and PFHxS, were associated with higher concentrations of total lipid, cholesterol and phospholipid content in most HDL, IDL, LDL, and VLDL subclasses. The effect sizes were age-dependent for the majority of the associations, with the deleterious effects of PFAS being generally stronger in people below compared to those above median age. Our observation that in the general population even low PFAS concentrations are associated with an unfavorable lipid profile, calls for further critical regulation of PFAS substances."
   },
   {
     "paperId": "b1c567cb36dd79c6efa5ea1b0973592cc39461f6",
@@ -6330,7 +6560,7 @@
       },
       {
         "authorId": "4566783",
-        "name": "Filippo Da Re"
+        "name": "F. Da Re"
       },
       {
         "authorId": "2249642768",

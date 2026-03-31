@@ -1,0 +1,108 @@
+[
+  {
+    "title": "Phosphonated Lipids as Primary Plasticizers for PVC with Improved Flame Retardancy",
+    "doi": "10.1002/EJLT.201800062",
+    "year": 2018,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract explicitly compares phosphonated lipid plasticizers (PMO, PMO2, PML, PDE) to diisononyl phthalate (DINP) and states that PVC films with these phosphonated plasticizers have better thermal stability and improved flame retardancy. It also mentions that PMO and PDE can substitute phthalates in soft PVC, implying a safer alternative due to enhanced flame retardancy and thermal stability.",
+    "alternatives": "phosphonated lipid plasticizers (PMO, PMO2, PML, PDE)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Diisononyl phthalate (DINP). It only compares the thermal stability and flame retardancy of PVC films containing DINP versus those with bio-based phosphonated plasticizers, without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Diisononyl phthalate down-regulates the expression of antioxidant genes NFE2L2, TXN, and TXNRD2, while diethyl-hexyl terephthalate up-regulates their expression including SOD-1",
+    "doi": "10.1080/00498254.2025.2493619",
+    "year": 2025,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract compares Diisononyl phthalate (DINP) and Diethyl-hexyl terephthalate (DEHT) in terms of cellular effects. DINP reduces cell viability and down-regulates antioxidant genes, indicating toxicity, while DEHT does not reduce viability and up-regulates antioxidant genes, suggesting a better safety profile. This clearly indicates DEHT as a safer alternative to DINP.",
+    "alternatives": "Diethyl-hexyl terephthalate (DEHT)",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disruption",
+        "cytotoxic effects",
+        "reduced cell viability",
+        "increased LDH release indicating cell membrane damage",
+        "increased reactive oxygen species (ROS) production",
+        "down-regulation of antioxidant-responsive genes (NFE2L2, TXN, TXNRD2)"
+      ],
+      "rationale": "The reasoning explicitly states that phthalates, including DINP, have endocrine-disrupting properties and cytotoxic effects. The study found that DINP at 100 µg/mL significantly reduced cell viability, increased LDH release, elevated ROS levels, and down-regulated key antioxidant genes, indicating multiple harms related to toxicity and oxidative stress."
+    },
+    "CHEMICAL HARM": "endocrine disruption, cytotoxic effects, reduced cell viability, increased LDH release indicating cell membrane damage, increased reactive oxygen species (ROS) production, down-regulation of antioxidant-responsive genes (NFE2L2, TXN, TXNRD2)"
+  },
+  {
+    "title": "Effects of DEHP, DEHT and DINP Alone or in a Mixture on Cell Viability and Mitochondrial Metabolism of Endothelial Cells In Vitro",
+    "doi": "10.3390/toxics10070373",
+    "year": 2022,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract compares the toxicity of DEHP, DINP, and DEHT on endothelial cells and reports that all tested plasticizers induced cellular perturbations except DEHT. This suggests DEHT has a safer profile in terms of cytotoxicity and mitochondrial effects compared to DINP. Therefore, DEHT can be reasonably interpreted as a safer alternative to DINP based on the presented safety advantages.",
+    "alternatives": "Di(2-ethylhexyl) terephthalate (DEHT)",
+    "target_chemical_harm": {
+      "harms": [
+        "cytotoxicity on endothelial cells",
+        "mitochondrial dysfunction (targeting mitochondrial respiration, depleting mitochondrial ATP production)",
+        "metabolic stress leading to increased glycolytic metabolism",
+        "adverse effects on endothelial cell function and viability"
+      ],
+      "rationale": "The reasoning text explicitly states that diisononyl phthalate (DINP) induces cytotoxicity on endothelial cells by impairing mitochondrial respiration, depleting ATP production, and causing metabolic adaptations indicative of cellular stress. These are direct adverse health effects observed in vitro."
+    },
+    "CHEMICAL HARM": "cytotoxicity on endothelial cells, mitochondrial dysfunction (targeting mitochondrial respiration, depleting mitochondrial ATP production), metabolic stress leading to increased glycolytic metabolism, adverse effects on endothelial cell function and viability"
+  },
+  {
+    "title": "Effective, Environmentally Friendly PVC Plasticizers Based on Succinic Acid",
+    "doi": "10.3390/polym14071295",
+    "year": 2022,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract compares the synthesized plasticizers to DINP and DEHP, stating that the new ester mixtures have the same plasticization efficiency but exhibit 70% lower migration (leaching) than DINP, indicating better resistance to plasticizer leaching. It also highlights good thermal stability and describes the synthesized esters as a green alternative to toxic phthalate plasticizers, implying a safety advantage over DINP.",
+    "alternatives": "succinic acid esters",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with Diisononyl phthalate (DINP). It only compares the plasticization efficiency and migration resistance of synthesized plasticizers to DINP and DEHP, and mentions that the synthesized esters can provide a green alternative to toxic phthalate plasticizers, implying toxicity of phthalates in general but not explicitly stating specific harms of DINP."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Effect of Bio‐Based Plasticizers From Modified Vegetable Oils in a New Formulation of PVC Materials",
+    "doi": "10.1002/app.56527",
+    "year": 2024,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract explicitly compares rapeseed oil carbonated ester (ROC) to Diisononyl phthalate (DINP) and reports that ROC has reduced migration rates, improved mechanical properties, greater durability, and better thermal stability. These factors indicate safety advantages such as lower migration (which relates to exposure risk) and enhanced durability, supporting ROC as a safer alternative to DINP.",
+    "alternatives": "rapeseed oil carbonated ester (ROC)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Diisononyl phthalate (DINP). It only compares the performance and properties of PVC plasticized with DINP and other plasticizers, focusing on mechanical properties, migration rates, and thermal stability without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Synthesis of Various 1,4-Cyclohexanedicarboxylate Plasticizers and Its Application to Poly(vinyl chloride) Fabrication",
+    "doi": "10.7317/pk.2020.44.1.116",
+    "year": 2020,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract explicitly mentions DINCH (diisononyl cyclohexane-1,2-dicarboxylate) as one of the best eco-friendly plasticizers compared to traditional phthalates including DINP, indicating it as a safer alternative. The context highlights concerns about toxicity and environmental pollution of phthalates and presents DINCH as an eco-friendly option, implying safety advantages over DINP.",
+    "alternatives": "diisononyl cyclohexane-1,2-dicarboxylate (DINCH)",
+    "target_chemical_harm": {
+      "harms": [
+        "human toxicity",
+        "environmental pollution"
+      ],
+      "rationale": "The reasoning text explicitly states that phthalate compounds, including di-iso-nonyl phthalate (DINP), have been revealed to cause human toxicity and environmental pollution."
+    },
+    "CHEMICAL HARM": "human toxicity, environmental pollution"
+  },
+  {
+    "title": "Poly(ε‐caprolactone)‐based additives: Plasticization efficacy and migration resistance",
+    "doi": "10.1002/vnl.21853",
+    "year": 2021,
+    "target": "Diisononyl phthalate (DINP)",
+    "reasoning": "The abstract compares PCL-based plasticizers to Diisononyl phthalate (DINP) and states that the PCL-based plasticizers exhibited significantly reduced leaching into hexanes compared to DINP, indicating lower migration potential. Reduced leaching can be reasonably interpreted as a safety advantage, suggesting that PCL-based plasticizers are a safer alternative to DINP.",
+    "alternatives": "poly(ε‐caprolactone) (PCL)-based plasticizers",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to Diisononyl phthalate (DINP). It only compares the effectiveness and leaching behavior of DINP with other plasticizers."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

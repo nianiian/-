@@ -7512,7 +7512,7 @@
     ],
     "authors": [
       {
-        "authorId": "2310539684",
+        "authorId": "90417922",
         "name": "Dawa Bhutia"
       },
       {
@@ -7858,7 +7858,7 @@
     ],
     "authors": [
       {
-        "authorId": null,
+        "authorId": "2391123018",
         "name": "Wenfeng He"
       },
       {
@@ -9254,7 +9254,7 @@
       },
       {
         "authorId": "90417922",
-        "name": "D. Bhutia"
+        "name": "Dawa Bhutia"
       },
       {
         "authorId": "2153583004",
@@ -19537,7 +19537,7 @@
       "PubMed": "39581924"
     },
     "url": "https://www.semanticscholar.org/paper/6a85bb09ed1a9b329c9e7d31b80f2718bad312be",
-    "title": "Background of persistent organic pollutants in estuarine sediments from the Marajó Island, an Amazonian environmental protection area for sustainable use.",
+    "title": "Background of persistent organic pollutants in estuarine sediments from the Marajó Island, an Amazonian environmental protection area for sustainable use",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -29043,6 +29043,53 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "9eaca11778208d1df6a761bc4e4eb616865786ad",
+    "externalIds": {
+      "DOI": "10.1080/15320383.2024.2434014",
+      "CorpusId": 274337385
+    },
+    "url": "https://www.semanticscholar.org/paper/9eaca11778208d1df6a761bc4e4eb616865786ad",
+    "title": "Influencing Factors and Ecological Risks of Organochlorine Pesticide Adsorption in Surface Sediments of Qingshui River",
+    "venue": "Soil & sediment contamination",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/15320383.2024.2434014?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/15320383.2024.2434014, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2329662967",
+        "name": "Xiaoli Kai"
+      },
+      {
+        "authorId": "2332596423",
+        "name": "Weijiang Zhang"
+      },
+      {
+        "authorId": "2333220968",
+        "name": "Xiaocong Qiu"
+      },
+      {
+        "authorId": "121140085",
+        "name": "R. Zhao"
+      },
+      {
+        "authorId": "2332559465",
+        "name": "Jindi Chu"
+      },
+      {
+        "authorId": "2332917898",
+        "name": "Wenye Zhao"
+      }
+    ],
+    "abstract": "ABSTRACT Taking the first-level tributary of Ningxia section of the Yellow River (Qingshui River) as the study area, surface sediment samples were collected during the seasons in 2018. The distribution characteristics, pollution levels, possible sources, influencing factors, and ecological risks of organochloride pesticides (OCPs) in the surface sediments were studied. The detected mean amounts were n.d. ~10.640 (1.474) ng·g−1, and the detection rate was 80.95%. The content (mean values) of Hexachlorocyclohexanes (HCHs), Endosulfan, Chlordane, and Dichlorodiphenyltrichloroethane (DDT) with higher detection amounts and detection rates were n.d. ~0.949 (0.153), n.d. ~1.973 (0.331), n.d. ~0.271 (0.052), and n.d. ~10.583 (0.819) ng·g−1, respectively. The total OCP amounts were detected in Changshantou and Liwang research sections, which have surrounding farmlands and low water flow. The total organic carbon plays a vital role in the residue and distribution of β-HCH and Dieldrin. In a high-salinity environment, the lower-layer sediments had higher adsorption efficiencies for DDT and γ-HCH and the HCH content decreased with the increase in pH. The total nitrogen and phosphorus in sediments were among the controlling factors affecting the distribution of Endosulfan II and p,p’-DDT, respectively, but their effects on Dieldrin only appeared in the spring flood season. Further, a functional model was established with respect to the adsorption amount of various OCPs and the influencing factors. The component analysis results showed that OCPs primarily originated from historical residues; however, only small amounts of Lindane, Dicofol, Endosulfan, and Chlordane compounds have been observed recently in the local environment. Using the low-effect interval and median method for potential ecological risk assessment, Endosulfan was noted to have potential ecological risks, mainly distributed in the middle and lower reaches of the river. The reasons for the potential harm require attention and further research."
   },
   {
     "paperId": "9ec59f004d6ec3f79855027212e04bc17d9918a7",
@@ -40531,7 +40578,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/d776b1cd1333c3fe13e56e0ed1e34f596fecd36f",
     "title": "Levels and Health Risks of Heavy Metals and Organochlorine Pesticide Residues in Soil and Drinking Water of Flood-Prone Residential Area of Lagos, Nigeria",
-    "venue": "Water, Air, &amp; Soil Pollution",
+    "venue": "Water, Air and Soil Pollution",
     "year": 2023,
     "openAccessPdf": {
       "url": "",
@@ -46791,7 +46838,7 @@
       "PubMed": "38231334"
     },
     "url": "https://www.semanticscholar.org/paper/fb9a982ec304f650887f0fed56ee310f4e4ac6ca",
-    "title": "Assessment of chlorinated pesticide exposure to white-rumped vulture Gyps bengalensis in India.",
+    "title": "Assessment of chlorinated pesticide exposure to white-rumped vulture Gyps bengalensis in India",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {

@@ -1,0 +1,150 @@
+[
+  {
+    "title": "Effect of exposure to decabromodiphenyl ether and tetrabromobisphenol A in combination with lead and cadmium on soil enzyme activity",
+    "doi": "10.1016/J.IBIOD.2016.10.032",
+    "year": 2017,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares the eco-toxicological potential of decabromodiphenyl ether (BDE209) and tetrabromobisphenol A (TBBPA) on soil enzymatic activity, stating that BDE209 exhibited a higher eco-toxicological potential than TBBPA. This indicates that TBBPA has a lower negative impact on soil enzymes compared to BDE209, suggesting a safety advantage. Therefore, TBBPA can be reasonably interpreted as a safer alternative to decabromodiphenyl ether.",
+    "alternatives": "tetrabromobisphenol A (TBBPA)",
+    "target_chemical_harm": {
+      "harms": [
+        "eco-toxicological potential to soil enzymatic activity",
+        "inhibition of soil enzymes (catalase, dehydrogenase, polyphenol oxidase, urease)"
+      ],
+      "rationale": "The reasoning text explicitly states that decabromodiphenyl ether (BDE209) exhibited a higher eco-toxicological potential to soil enzymatic activity than TBBPA, and that it caused inhibition of several soil enzymes, indicating harm to soil biochemical processes."
+    },
+    "CHEMICAL HARM": "eco-toxicological potential to soil enzymatic activity, inhibition of soil enzymes (catalase, dehydrogenase, polyphenol oxidase, urease)"
+  },
+  {
+    "title": "Assess flame retardants with care",
+    "doi": "10.1126/science.aay7649",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract explicitly states that recent flame retardants, such as polymeric compounds with high molecular weight, are safer than older alternatives like decabromodiphenyl ether because they do not migrate from polymers, are essentially not bioavailable, and thus less likely to cause harm. It also references a U.S. EPA alternatives assessment for decabromodiphenyl ether, indicating safer alternatives exist.",
+    "alternatives": "polymeric flame retardants",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards specifically associated with decabromodiphenyl ether. It discusses generalizations about flame retardants and mentions assessments of organohalogen flame retardants as a class, but does not provide explicit toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards for decabromodiphenyl ether."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "A comparison of the thyroid disruption induced by decabrominated diphenyl ethers (BDE-209) and decabromodiphenyl ethane (DBDPE) in rats.",
+    "doi": "10.1016/j.ecoenv.2019.02.080",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares decabromodiphenyl ethane (DBDPE) as an alternative flame retardant to decabromodiphenyl ether (BDE-209) and finds that both disrupt thyroid function, but DBDPE was found to be less toxic than BDE-209. This indicates a safety advantage of DBDPE over BDE-209, supporting it as a safer alternative.",
+    "alternatives": "decabromodiphenyl ethane (DBDPE)",
+    "target_chemical_harm": {
+      "harms": [
+        "thyroid function disruption",
+        "thyrotoxicosis",
+        "oxidative damage to thyroid gland",
+        "histological and ultrastructural changes in thyroid gland",
+        "perturbations of hypothalamic-pituitary-thyroid (HPT) axis"
+      ],
+      "rationale": "The reasoning text explicitly states that decabromodiphenyl ether (BDE-209) exposure causes thyroid function disruption including thyrotoxicosis, oxidative damage to the thyroid gland, histological and ultrastructural changes in the thyroid, and affects the expression of HPT axis related genes. These are direct harms mentioned. No other explicit harms such as persistence, bioaccumulation, or occupational hazards are stated."
+    },
+    "CHEMICAL HARM": "thyroid function disruption, thyrotoxicosis, oxidative damage to thyroid gland, histological and ultrastructural changes in thyroid gland, perturbations of hypothalamic-pituitary-thyroid (HPT) axis"
+  },
+  {
+    "title": "Combining In Silico Tools with Multicriteria Analysis for Alternatives Assessment of Hazardous Chemicals: Accounting for the Transformation Products of decaBDE and Its Alternatives",
+    "doi": "10.1021/acs.est.0c02593",
+    "year": 2020,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract explicitly states that even when considering transformation products, the five alternatives to decabromodiphenyl ether remain less hazardous than decaBDE. It identifies melamine and bis(2-ethylhexyl)-tetrabromophthalate as the least hazardous alternatives, indicating a clear safety advantage over decaBDE.",
+    "alternatives": "melamine; bis(2-ethylhexyl)-tetrabromophthalate",
+    "target_chemical_harm": {
+      "harms": [
+        "persistence",
+        "bioaccumulation",
+        "toxicity"
+      ],
+      "rationale": "The text explicitly states that decabromodiphenyl ether (decaBDE) and its transformation products are persistent, bioaccumulative, and toxic, as indicated by the use of PBT (persistence, bioaccumulation, toxicity) composite scoring and the statement that decaBDE is more hazardous than alternatives when considering these factors."
+    },
+    "CHEMICAL HARM": "persistence, bioaccumulation, toxicity"
+  },
+  {
+    "title": "Hepatotoxicity of decabromodiphenyl ethane (DBDPE) and decabromodiphenyl ether (BDE-209) in 28-day exposed Sprague-Dawley rats.",
+    "doi": "10.1016/j.scitotenv.2019.135783",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares the hepatotoxicity of decabromodiphenyl ether (BDE-209) and its substitute decabromodiphenyl ethane (DBDPE). It states that both cause liver damage but that the damage caused by BDE-209 was more serious than that caused by DBDPE, indicating a relative safety advantage of DBDPE over BDE-209.",
+    "alternatives": "decabromodiphenyl ethane (DBDPE)",
+    "target_chemical_harm": {
+      "harms": [
+        "persistence in the environment",
+        "adverse health effects in humans",
+        "hepatotoxicity (liver damage)",
+        "oxidative stress",
+        "inflammation",
+        "interference with normal metabolism",
+        "down-regulation of pregnane X receptor (PXR), constitutive androstane receptor (CAR), and CYP3A enzymes",
+        "increased liver weight and liver/body weight ratio",
+        "elevated total bilirubin and indirect bilirubin levels in serum"
+      ],
+      "rationale": "The reasoning explicitly states that decabromodiphenyl ether (BDE-209) is persistent in the environment and causes adverse health effects including hepatotoxicity characterized by liver morphological changes, oxidative stress, inflammation, metabolic interference, and changes in liver enzyme expression. Specific biochemical changes such as increased liver weight, bilirubin levels, and enzyme alterations are also described as harms."
+    },
+    "CHEMICAL HARM": "persistence in the environment, adverse health effects in humans, hepatotoxicity (liver damage), oxidative stress, inflammation, interference with normal metabolism, down-regulation of pregnane X receptor (PXR), constitutive androstane receptor (CAR), and CYP3A enzymes, increased liver weight and liver/body weight ratio, elevated total bilirubin and indirect bilirubin levels in serum"
+  },
+  {
+    "title": "Selenomethionine alleviates decabromodiphenyl ether-induced oxidative stress and ferroptosis via the NRF2/GPX4 pathway in the chicken brain.",
+    "doi": "10.1016/j.jhazmat.2023.133307",
+    "year": 2023,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract shows that selenomethionine (Se-Met) can counteract the toxic effects of decabromodiphenyl ether (BDE209) by alleviating oxidative stress and ferroptosis, indicating a protective effect against BDE209-induced neurotoxicity. It explicitly suggests Se-Met as an effective preventative and control measure against BDE209 poisoning, implying a safety advantage relative to BDE209.",
+    "alternatives": "selenomethionine",
+    "target_chemical_harm": {
+      "harms": [
+        "neurotoxicity",
+        "behavioral abnormalities",
+        "cognitive impairment",
+        "oxidative stress",
+        "ferroptosis",
+        "mitochondrial atrophy",
+        "cristae breakage",
+        "increased Fe2+ content",
+        "increased MDA content",
+        "decreased antioxidant enzyme activity",
+        "inhibition of the NRF2/GPX4 signaling pathway"
+      ],
+      "rationale": "The reasoning explicitly states that decabromodiphenyl ether (BDE209) is a toxic environmental pollutant causing neurotoxicity, behavioral abnormalities, and cognitive impairment in animals. It induces oxidative stress and ferroptosis in brain neurons, characterized by mitochondrial atrophy, cristae breakage, increased Fe2+ and MDA content, decreased antioxidant enzyme activity, and inhibition of the NRF2/GPX4 signaling pathway."
+    },
+    "CHEMICAL HARM": "neurotoxicity, behavioral abnormalities, cognitive impairment, oxidative stress, ferroptosis, mitochondrial atrophy, cristae breakage, increased Fe2+ content, increased MDA content, decreased antioxidant enzyme activity, inhibition of the NRF2/GPX4 signaling pathway"
+  },
+  {
+    "title": "Enhancement of fire retardancy properties of glass fibre–reinforced polyesters composites",
+    "doi": "10.1002/fam.2733",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares alumina trihydrate (ATH) and decabromodiphenyl ether (DBDE) as fire retardants in glass fibre–reinforced polyester composites. It states that ATH at 47.7 phr completely inhibits ignition, whereas materials with DBDE exhibit ignition and flame propagation, indicating better fire safety performance of ATH. This suggests ATH is a safer alternative to DBDE in terms of fire retardancy.",
+    "alternatives": "alumina trihydrate (ATH)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the use of decabromodiphenyl ether (DBDE) as a fire retardant in composites and its effects on ignition and flame propagation, but it does not explicitly state any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Cardiovascular toxicity of decabrominated diphenyl ethers (BDE-209) and decabromodiphenyl ethane (DBDPE) in rats.",
+    "doi": "10.1016/j.chemosphere.2019.02.115",
+    "year": 2019,
+    "target": "decabromodiphenyl ether",
+    "reasoning": "The abstract compares the cardiovascular toxicity of decabromodiphenyl ether (BDE-209) and decabromodiphenyl ethane (DBDPE) in rats, finding that both cause damage but the toxic responses were stronger with BDE-209. This indicates that DBDPE has lower toxicity relative to BDE-209, suggesting a safety advantage. Therefore, DBDPE can be reasonably interpreted as a safer alternative to decabromodiphenyl ether.",
+    "alternatives": "decabromodiphenyl ethane (DBDPE)",
+    "target_chemical_harm": {
+      "harms": [
+        "oxidative stress",
+        "inflammation",
+        "endothelial dysfunction",
+        "cardiovascular injury",
+        "heart morphological and ultrastructural damage",
+        "abdominal aorta morphological and ultrastructural damage",
+        "elevation of serum creatine kinase (CK) and lactate dehydrogenase (LDH)",
+        "upregulation of inflammatory mediators (IL-1β, IL-6, IL-10, TNFα)"
+      ],
+      "rationale": "The reasoning text explicitly states that decabromodiphenyl ether (BDE-209) causes oxidative stress, inflammation, endothelial dysfunction, and cardiovascular injury, including morphological and ultrastructural damage to the heart and abdominal aorta, as well as elevated serum markers and inflammatory mediators."
+    },
+    "CHEMICAL HARM": "oxidative stress, inflammation, endothelial dysfunction, cardiovascular injury, heart morphological and ultrastructural damage, abdominal aorta morphological and ultrastructural damage, elevation of serum creatine kinase (CK) and lactate dehydrogenase (LDH), upregulation of inflammatory mediators (IL-1β, IL-6, IL-10, TNFα)"
+  }
+]

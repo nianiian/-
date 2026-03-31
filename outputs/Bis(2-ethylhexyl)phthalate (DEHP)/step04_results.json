@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Effects of DEHP, DEHT and DINP Alone or in a Mixture on Cell Viability and Mitochondrial Metabolism of Endothelial Cells In Vitro",
+    "doi": "10.3390/toxics10070373",
+    "year": 2022,
+    "target": "Bis(2-ethylhexyl)phthalate (DEHP)",
+    "reasoning": "The abstract compares the toxicity of DEHP, DINP, and DEHT on endothelial cells and reports that all tested plasticizers induced cellular perturbations except for DEHT. This suggests that DEHT has a safer profile in terms of cytotoxicity and mitochondrial effects compared to DEHP, indicating a safety advantage that can be interpreted as a safer alternative.",
+    "alternatives": "Di(2-ethylhexyl) terephthalate (DEHT)",
+    "target_chemical_harm": {
+      "harms": [
+        "cytotoxicity on endothelial cells",
+        "mitochondrial dysfunction (targeting mitochondrial respiration, depleting mitochondrial ATP production)",
+        "metabolic stress leading to increased glycolytic metabolism",
+        "cellular physiological perturbations"
+      ],
+      "rationale": "The reasoning explicitly states that DEHP induces cytotoxicity on endothelial cells by impairing mitochondrial respiration, depleting ATP production, causing cellular physiological perturbations, and triggering metabolic adaptations indicative of cellular stress."
+    },
+    "CHEMICAL HARM": "cytotoxicity on endothelial cells, mitochondrial dysfunction (targeting mitochondrial respiration, depleting mitochondrial ATP production), metabolic stress leading to increased glycolytic metabolism, cellular physiological perturbations"
+  },
+  {
+    "title": "A study of possible substitutes for the endocrine disruptor DEHP in two hormone receptors",
+    "doi": "10.1080/07391102.2021.1971566",
+    "year": 2021,
+    "target": "Bis(2-ethylhexyl)phthalate (DEHP)",
+    "reasoning": "The abstract explicitly states that ATEC and DL9TH have similar properties to DEHP but do not act as endocrine disruptors, indicating a safety advantage. It highlights ATEC as a good substitute with the least activity in hormone receptors compared to DEHP, implying it is a safer alternative.",
+    "alternatives": "ATEC; DL9TH",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disruption",
+        "hormonal problems including decreased fertility"
+      ],
+      "rationale": "The reasoning explicitly states that DEHP acts as an endocrine disruptor and that exposure to DEHP causes several hormonal problems, including decreased fertility."
+    },
+    "CHEMICAL HARM": "endocrine disruption, hormonal problems including decreased fertility"
+  },
+  {
+    "title": "Polyvinyl chloride (PVC) and peritoneal dialysis (PD): Trivialisation of reality?",
+    "doi": "10.1177/08968608211040361",
+    "year": 2021,
+    "target": "Bis(2-ethylhexyl)phthalate (DEHP)",
+    "reasoning": "The abstract discusses the toxicity concerns of DEHP, a plasticiser in PVC, and highlights that non-PVC materials are recommended, especially for high-risk patients. It mentions the new PD system, Soft Flow, as an affordable non-PVC product produced by developing nations, implying it as a safer alternative to DEHP-containing PVC products.",
+    "alternatives": "non-PVC materials",
+    "target_chemical_harm": {
+      "harms": [
+        "presumed human reproductive toxicity",
+        "hepatotoxicity",
+        "tumour promotion",
+        "toxic cumulative effects due to leaching",
+        "occupational hazard in medical devices involving PVC"
+      ],
+      "rationale": "The text explicitly states that DEHP is classified as a presumed human reproductive toxicant, causes hepatotoxicity and tumour promotion in animal studies, and may leach out during peritoneal dialysis causing toxic cumulative effects. It also highlights concerns about its hazardous potential in medical devices, especially in high-risk patients."
+    },
+    "CHEMICAL HARM": "presumed human reproductive toxicity, hepatotoxicity, tumour promotion, toxic cumulative effects due to leaching, occupational hazard in medical devices involving PVC"
+  },
+  {
+    "title": "Reproductive toxicity of emerging plasticizers, flame retardants, and bisphenols, using culture of the rat fetal testis",
+    "doi": "10.1093/biolre/ioad018",
+    "year": 2023,
+    "target": "Bis(2-ethylhexyl)phthalate (DEHP)",
+    "reasoning": "The abstract compares the toxicity of DEHP and its replacements, specifically 2,2,4-trimethyl-1,3-pentanediol diisobutyrate, diisononyl-phthalate, and diisodecyl adipate. It states that only BPA and MEHP (a metabolite of DEHP) significantly decrease testosterone secretion, while some replacements show little toxicity in the fetal rat testis model. This indicates that these replacements are less toxic and thus safer alternatives to DEHP.",
+    "alternatives": "2,2,4-trimethyl-1,3-pentanediol diisobutyrate; diisononyl phthalate; diisodecyl adipate",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disrupting activities",
+        "decrease testosterone secretions",
+        "reduced luteinizing hormone-stimulated testosterone",
+        "decrease in germ cell density",
+        "decreased Sertoli cell proliferation"
+      ],
+      "rationale": "The reasoning text explicitly states that bis(2-ethylhexyl)phthalate (DEHP) has endocrine disrupting activities. It also mentions that MEHP, a metabolite of DEHP, significantly decreases testosterone secretions, reduces luteinizing hormone-stimulated testosterone, decreases germ cell density, and decreases Sertoli cell proliferation in fetal rat testis organ culture."
+    },
+    "CHEMICAL HARM": "endocrine disrupting activities, decrease testosterone secretions, reduced luteinizing hormone-stimulated testosterone, decrease in germ cell density, decreased Sertoli cell proliferation"
+  }
+]

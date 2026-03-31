@@ -1,0 +1,2972 @@
+{
+  "target": "butyl acrylate",
+  "total_records": 58,
+  "statistics": {
+    "extracted": 37,
+    "partial_data": 16,
+    "partial_with_calculation": 0,
+    "insufficient_data": 2,
+    "not_found": 0,
+    "irrelevant": 3
+  },
+  "records_with_dosage": [
+    {
+      "title": "Effect of Novel Deep Eutectic Solvents on the Endo/Exo Ratio of Diels–Alder Reac",
+      "doi": "10.1021/acsomega.1c00980",
+      "alternative": [
+        "deep eutectic solvents"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "conventional organic solvents or ionic liquids lead to lower yields and selectivity in Diels-Alder reactions",
+        "traditional_material_replaced": "organic solvents or ionic liquids",
+        "alternative_solution": "deep eutectic solvents (DESs)",
+        "relationship_type": "solvent_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "yield",
+          "metric_value": "best yields",
+          "comparison_baseline": "those observed in organic solvents or ionic liquids"
+        },
+        {
+          "metric_name": "endo_selectivity",
+          "metric_value": "best endo-selectivity",
+          "comparison_baseline": "those observed in organic solvents or ionic liquids"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "These DESs were used as solvents to study the reaction between cyclopentadiene and ethyl acrylate or butyl acrylate in typical [4 + 2] cycloadditions.",
+            "implication": "DESs are used as solvents, but the exact ratio of DES to butyl acrylate or cyclopentadiene is not specified."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total volume of the reaction mixture.",
+          "Volume of DES used as solvent.",
+          "Volume of butyl acrylate used in the reaction."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Programmable Disassembly of Polymer Nanoparticles through Surfactant Interaction",
+      "doi": "10.1021/ACS.IECR.9B01991",
+      "alternative": [
+        "styrene"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "The disassembly time of polymer nanoparticles needs to be controlled for timed-release applications.",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "styrene",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "sodium dodecyl sulfate (SDS)",
+          "value": "high weight fraction",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "SDS-stabilized polymer nanoparticles at a high weight fraction of polymer"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "particle_size",
+          "value": "∼60 to ∼500 nm",
+          "evidence_location": "Abstract",
+          "context": "Increasing the SDS concentration resulted in an increase in the nanoparticle size"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "disassembly_time",
+          "metric_value": "varied depending on butyl acrylate or styrene content and SDS concentration",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Modification of Thermo‐Mechanical Properties of Tailored Acrylic Elastomers With",
+      "doi": "10.1002/pol.20241099",
+      "alternative": [
+        "4-hydroxybutyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "crystalline phase formation in nona(ethylene glycol) methyl ether acrylate (EG9MEA) homopolymer leading to instability at temperatures up to 0°C",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "4-hydroxybutyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "4‐hydroxybutyl acrylate",
+          "value": "above 30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "Thermo-mechanical stability is obtained by using 4‐hydroxybutyl acrylate at a rate above 30% by weight."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Tuning the viscoelastic features required for 3D printing of PVC-acrylate copoly",
+      "doi": "10.3144/EXPRESSPOLYMLETT.2018.70",
+      "alternative": [
+        "2-ethylhexyl acrylate"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Semantic Scholar) (9153 bytes)",
+      "substitution_logic": {
+        "target_problem": "2-ethylhexyl acrylate is explored as a potential substitute for butyl acrylate in PVC copolymers for 3D printing applications, aiming to achieve comparable or improved viscoelastic properties suitable for the printing process.",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-ethylhexyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "The effect of temperature and acrylates concentration on the rheological properties and 3D printing feasibility is contemplated.",
+            "implication": "The paper considers the concentration of acrylates, but does not provide specific values."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total mass or volume of the PVC-acrylate copolymers.",
+          "Specific concentrations or ratios of butyl acrylate and 2-ethylhexyl acrylate in the copolymers."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Graft copolymerization of bio-based β-farnesene and n-butyl acrylate onto modifi",
+      "doi": "10.1016/j.carbpol.2025.123882",
+      "alternative": [
+        "β-farnesene"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded XML Fallback (338624 bytes)",
+      "substitution_logic": {
+        "target_problem": "reliance on non-renewable monomers in emulsifier-free emulsion polymerization",
+        "traditional_material_replaced": "non-renewable monomers",
+        "alternative_solution": "bio-based β-farnesene and modified anionic cassava starch",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "ACS",
+          "value": "7.0 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "Graft copolymerization of Far and n-butyl acrylate (BA) onto ACS was carried out in a semi-batch emulsion polymerization"
+        },
+        {
+          "material": "Far/BA",
+          "value": "100:0",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        },
+        {
+          "material": "Far/BA",
+          "value": "80:20",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        },
+        {
+          "material": "Far/BA",
+          "value": "70:30",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        },
+        {
+          "material": "Far/BA",
+          "value": "60:40",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        },
+        {
+          "material": "Far/BA",
+          "value": "50:50",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        },
+        {
+          "material": "Far/BA",
+          "value": "0:100",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "varying Far/BA ratios"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "hydrodynamic diameter",
+          "value": "150 to 200 nm",
+          "evidence_location": "Abstract",
+          "context": "colloidal stability of the latexes"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "monomer conversion",
+          "metric_value": "90-99 %",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "Tg",
+          "metric_value": "-34 to +3.2 °C",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "A reversible water‐based electrostatic adhesive",
+      "doi": "10.1002/anie.202310750",
+      "alternative": [
+        "Bio-based materials"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "reliance on non-sustainable, petroleum-derived components in adhesive formulations",
+        "traditional_material_replaced": "butyl acrylate in water-based adhesives",
+        "alternative_solution": "bio-based materials integrated into water-based adhesive formulations",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "styrene",
+          "value": "unspecified",
+          "ratio_type": "unspecified",
+          "evidence_location": "Abstract",
+          "context": "emulsion copolymerization of commodity materials, styrene and butyl acrylate"
+        },
+        {
+          "material": "butyl acrylate",
+          "value": "unspecified",
+          "ratio_type": "unspecified",
+          "evidence_location": "Abstract",
+          "context": "emulsion copolymerization of commodity materials, styrene and butyl acrylate"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Highly Tough, Notch-Insensitive, and Fast Self-Healing Thermoplastic Polyurethan",
+      "doi": "10.1002/anie.8983737",
+      "alternative": [
+        "2-ethylhexyl acrylate"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "linear-alkyl acrylates (i.e., n-butyl acrylate) in thermoplastic polyurethane (TPU) structures limit the thermal responsiveness and stress distribution, compromising mechanical properties and self-healing capabilities",
+        "traditional_material_replaced": "n-butyl acrylate",
+        "alternative_solution": "2-ethylhexyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "toughness",
+          "metric_value": "186 MJ·m-3",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "fracture_energy",
+          "metric_value": ">197 kJ·m-2",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "self_healing_recovery",
+          "metric_value": "∼90%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "introducing branched-alkyl acrylic soft segments (i.e., 2-ethylhexyl acrylate) generate side-chain architectures whose segmental dynamics respond more sensitively to temperature",
+            "implication": "Indicates that 2-ethylhexyl acrylate is used as a soft segment modifier in the TPU structure, influencing its thermal properties."
+          },
+          {
+            "description": "Unlike our previous systems based on linear-alkyl acrylates (i.e., n-butyl acrylate)",
+            "implication": "Suggests a change in the acrylate component from n-butyl acrylate to 2-ethylhexyl acrylate, but does not specify the amount used."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "The mass or percentage of 2-ethylhexyl acrylate used in the TPU formulation is not provided.",
+          "The total mass of the TPU or any other component is not provided."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Enhanced Collection of Chalcopyrite by Styrene-Butyl Acrylate Polymer Nanosphere",
+      "doi": "10.1016/j.colsurfa.2022.128408",
+      "alternative": [
+        "poly styrene-butyl acrylate (St-Ba) nanospheres"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (275610 bytes)",
+      "substitution_logic": {
+        "target_problem": "Serpentine in copper nickel sulfide ore affects the floatability of chalcopyrite, reducing its recovery during froth flotation.",
+        "traditional_material_replaced": "sodium butyl xanthate (SBX)",
+        "alternative_solution": "poly styrene-butyl acrylate (St-Ba) nanospheres",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "St-Ba",
+          "value": "1.76 g·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Fig. 7",
+          "context": "Effect of St-Ba concentration on floatability of serpentine and chalcopyrite"
+        },
+        {
+          "material": "SBX",
+          "value": "1 × 10 −4 mol·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Fig. 6",
+          "context": "Effect of serpentine on the flotation performance of chalcopyrite"
+        },
+        {
+          "material": "serpentine",
+          "value": "1 g·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Fig. 10",
+          "context": "The pulp turbidity of the single and mixed minerals of chalcopyrite and the serpentine at different pH"
+        },
+        {
+          "material": "chalcopyrite",
+          "value": "10 g·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Fig. 10",
+          "context": "The pulp turbidity of the single and mixed minerals of chalcopyrite and the serpentine at different pH"
+        },
+        {
+          "material": "SBX",
+          "value": "1 × 10 −3 mol·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section 2.7",
+          "context": "1 g of mineral (~2 µm) was added into the prepared solutions with the collectors (SBX, 1 × 10 −3 mol·L −1 ; St-Ba, 17.6 g·L −1 ) and stirred for 10 min."
+        },
+        {
+          "material": "St-Ba",
+          "value": "17.6 g·L −1",
+          "ratio_type": "concentration",
+          "evidence_location": "Section 2.7",
+          "context": "1 g of mineral (~2 µm) was added into the prepared solutions with the collectors (SBX, 1 × 10 −3 mol·L −1 ; St-Ba, 17.6 g·L −1 ) and stirred for 10 min."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "floatation_recovery_single_chalcopyrite",
+          "metric_value": "95%",
+          "comparison_baseline": "89% with SBX"
+        },
+        {
+          "metric_name": "floatation_recovery_mixed_ores",
+          "metric_value": "84%",
+          "comparison_baseline": "42% with SBX"
+        },
+        {
+          "metric_name": "chalcopyrite_recovery",
+          "metric_value": "93.03%",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Isosorbide-Based Acrylic Pressure-Sensitive Adhesives Through UV-Cured Crosslink",
+      "doi": "10.3390/polym16223178",
+      "alternative": [
+        "isosorbide-5-acrylate (IA)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "traditional pressure-sensitive adhesives (PSAs) rely on petroleum-based resources, which are non-sustainable",
+        "traditional_material_replaced": "petroleum-based pressure-sensitive adhesives (PSAs)",
+        "alternative_solution": "bio-based acrylic PSA synthesized from isosorbide-5-acrylate (IA) and its copolymerization with butyl acrylate and acrylic acid through UV-curing crosslinking",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "isosorbide-5-acrylate (IA)",
+          "value": "variable",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "component of bio-based acrylic PSA"
+        },
+        {
+          "material": "butyl acrylate",
+          "value": "variable",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "component of bio-based acrylic PSA"
+        },
+        {
+          "material": "acrylic acid",
+          "value": "variable",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "component of bio-based acrylic PSA"
+        },
+        {
+          "material": "isosorbide diacrylate ester (IDAE)",
+          "value": "variable",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "crosslinker in bio-based acrylic PSA"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "UV-curing",
+          "value": "unspecified",
+          "evidence_location": "Abstract",
+          "context": "crosslinking method"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "peel_force",
+          "metric_value": "13.9 N/25 mm",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "persistent_time",
+          "metric_value": "6820 min",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Enabling zero added-coalescent waterborne acrylic coatings with cellulose nanocr",
+      "doi": "10.1016/J.PORGCOAT.2020.105969",
+      "alternative": [
+        "cellulose nanocrystals"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded XML Fallback (247213 bytes)",
+      "substitution_logic": {
+        "target_problem": "Waterborne acrylic coatings containing VOC coalescents lead to air pollution and health concerns, while non-volatile alternatives result in tacky films with inadequate hardness.",
+        "traditional_material_replaced": "VOC coalescents in waterborne acrylic coatings",
+        "alternative_solution": "Cellulose nanocrystals (CNCs) as a reinforcing filler in coalescent-free acrylic latexes",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "CNCs",
+          "value": "15 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "CNCs blended with butyl acrylate/methyl methacrylate/methacrylic acid latexes"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "Koenig_hardness_improvement",
+          "metric_value": "230 %",
+          "comparison_baseline": "neat films"
+        },
+        {
+          "metric_name": "nanoindentation_hardness_improvement",
+          "metric_value": "10x",
+          "comparison_baseline": "neat films"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Poly(Alkyl Glycidate Carbonate)s as Degradable Pressure-Sensitive Adhesives.",
+      "doi": "10.1002/anie.201811894",
+      "alternative": [
+        "poly(carbonate) analogues"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor biodegradability and environmental concerns associated with poly(acrylate)s in pressure-sensitive adhesives",
+        "traditional_material_replaced": "poly(butyl acrylate)",
+        "alternative_solution": "poly(carbonate) analogues of poly(butyl acrylate)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "glass_transition_temperature",
+          "metric_value": "32 to -5 °C",
+          "comparison_baseline": "10 to -50 °C (alkyl acrylates)"
+        },
+        {
+          "metric_name": "thermal_decomposition_temperature",
+          "metric_value": "≈230 °C",
+          "comparison_baseline": "≈380 °C (acrylate counterparts)"
+        },
+        {
+          "metric_name": "degradation_rate",
+          "metric_value": "time- and pH-dependent",
+          "comparison_baseline": "in contrast to poly(acrylate)s"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "Insertion of CO2 into the polyacrylate backbone, forming poly(carbonate) analogues, provides an environmentally friendly and biocompatible alternative.",
+            "implication": "Poly(carbonate) analogues are presented as a replacement for poly(butyl acrylate), suggesting a potential dosage relationship if the application context were known."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Carrier weight or volume for poly(butyl acrylate) or poly(carbonate) analogues.",
+          "Percentage ratio of poly(carbonate) analogues to poly(butyl acrylate) if applicable.",
+          "Specific application context to understand the role of each material."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Building Tunable Degradation into High-Performance Poly(acrylate) Pressure-Sensi",
+      "doi": "10.1021/acsmacrolett.3c00204",
+      "alternative": [
+        "α-lipoic acid",
+        "ethyl lipoate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "lack of degradability and recyclability in poly(acrylate) pressure-sensitive adhesives (PSAs)",
+        "traditional_material_replaced": "traditional acrylate comonomers",
+        "alternative_solution": "α-lipoic acid and its derivative ethyl lipoate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "α-Lipoic acid",
+          "value": "tunable concentration",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "copolymerized with n-butyl acrylate"
+        },
+        {
+          "material": "ethyl lipoate",
+          "value": "tunable concentration",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "copolymerized with n-butyl acrylate"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_conditions",
+          "value": "conventional free-radical conditions",
+          "evidence_location": "Abstract",
+          "context": "copolymerization of α-Lipoic acid and ethyl lipoate with n-butyl acrylate"
+        }
+      ],
+      "material_properties": [
+        {
+          "property": "molecular_weight",
+          "value": "> 100 kg mol-1",
+          "evidence_location": "Abstract",
+          "context": "high-molecular-weight copolymers"
+        }
+      ],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "The Role of Starch Incorporation into Waterborne Acrylic-Hybrid Nanoparticles fo",
+      "doi": "10.1021/acs.biomac.4c00744",
+      "alternative": [
+        "starch/zein bioparticles"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor film blocking resistance and the need for formulation agents in traditional acrylic polymers",
+        "traditional_material_replaced": "butyl acrylate and methyl methacrylate based acrylic polymers",
+        "alternative_solution": "starch/zein bioparticles (BPs) incorporated into acrylic polymer/biopolymer waterborne nanoparticles",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "butyl acrylate",
+          "value": "variable",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "variable monomeric formulations composed of butyl acrylate and methyl methacrylate"
+        },
+        {
+          "material": "methyl methacrylate",
+          "value": "variable",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "variable monomeric formulations composed of butyl acrylate and methyl methacrylate"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Plant Oil-Based Acrylic Latexes towards Multisubstrate Bonding Adhesives Applica",
+      "doi": "10.3390/molecules27165170",
+      "alternative": [
+        "high oleic soybean oil-based monomer (HOSBM)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor adhesion performance of conventional adhesives on low polarity surfaces",
+        "traditional_material_replaced": "butyl acrylate (BA) in adhesive formulations",
+        "alternative_solution": "high oleic soybean oil-based monomer (HOSBM)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "high oleic soybean oil-based monomer (HOSBM)",
+          "value": "25–45 wt. %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "copolymerized in a miniemulsion with butyl acrylate (BA), methyl methacrylate (MMA), or styrene (St)"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Synthesis, kinetics and characterization of environment friendly waterborne acry",
+      "doi": "10.1016/j.matpr.2020.04.164",
+      "alternative": [
+        "2-Ethyl hexyl acrylate"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Elsevier) (1126858 bytes)",
+      "substitution_logic": {
+        "target_problem": "Butyl acrylate copolymers exhibit lower conversion rates compared to 2-ethyl hexyl acrylate copolymers under the same reaction conditions.",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-ethyl hexyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion_rate",
+          "metric_value": "higher conversion",
+          "comparison_baseline": "lower conversion with Butyl acrylate (BA)"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "EHA gives higher conversion with respect to BA under the same reaction conditions.",
+            "implication": "Suggests EHA is a more efficient substitute for BA, but provides no dosage information."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total monomer weight or volume used in the copolymerization.",
+          "Ratio of MMA to 2-EHA in the copolymerization.",
+          "Reaction conditions (temperature, pressure, reaction time).",
+          "Specific amounts of initiator or other additives used in the emulsion polymerization."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Flame retardant and smoke suppression properties of 9,10‐dihydro‐9‐oxa‐10‐phosph",
+      "doi": "10.1002/fam.3231",
+      "alternative": [
+        "methyl methacrylate‐butyl acrylate copolymer P(MMA‐BA)/DOPO‐based polymerizable monomer (HEPO)/zinc molybdate sepiolite (Mo‐Sep) composite emulsion"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "high flammability and smoke release of acrylate emulsions",
+        "traditional_material_replaced": "acrylate emulsion",
+        "alternative_solution": "methyl methacrylate‐butyl acrylate copolymer P(MMA‐BA)/DOPO‐based polymerizable monomer (HEPO)/zinc molybdate sepiolite (Mo‐Sep) composite emulsion",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "HEPO",
+          "value": "30%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "component of the composite emulsion"
+        },
+        {
+          "material": "Mo‐Sep",
+          "value": "3%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "component of the composite emulsion"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "heat_release_rate_reduction",
+          "metric_value": "63.3%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "peak_heat_release_rate_reduction",
+          "metric_value": "72.1%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "total_heat_release_reduction",
+          "metric_value": "49.0%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "peak_specific_optical_density_reduction",
+          "metric_value": "48.0%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Quantification of Homopolymer Impurities in Structured Acrylate Copolymers Produ",
+      "doi": "10.1002/mren.70010",
+      "alternative": [
+        "isobornyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "unquantified copolymer yield in macromonomer incorporation when using n-butyl acrylate (BA) as the second monomer in acrylate blocky copolymers synthesis",
+        "traditional_material_replaced": "n-butyl acrylate (BA)",
+        "alternative_solution": "isobornyl acrylate (iBoA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "isobornyl acrylate",
+          "value": "50 wt.%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "feed ratio with n-butyl acrylate to achieve copolymer levels greater than 60 wt.%"
+        },
+        {
+          "material": "n-butyl acrylate",
+          "value": "50 wt.%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "feed ratio with isobornyl acrylate to achieve copolymer levels greater than 60 wt.%"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "140°C",
+          "evidence_location": "Abstract",
+          "context": "reaction temperature for polymerization"
+        },
+        {
+          "parameter": "reaction_temperature",
+          "value": "160°C",
+          "evidence_location": "Abstract",
+          "context": "reaction temperature for polymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "copolymer_yield",
+          "metric_value": "70 wt.%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "copolymer_level",
+          "metric_value": "> 60 wt.%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Functional nanoparticle reinforced starch-based adhesive emulsion: Toward robust",
+      "doi": "10.1016/j.carbpol.2021.118270",
+      "alternative": [
+        "nanoengineered starch-based adhesive"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (260162 bytes)",
+      "substitution_logic": {
+        "target_problem": "low bonding performance and stability of starch-based adhesives",
+        "traditional_material_replaced": "petroleum-based adhesives",
+        "alternative_solution": "nanoengineered starch-based adhesive fabricated by grafting vinyl acetate (VAc) onto starch molecule and subsequently incorporating the functional nanoparticle [TiO2-coupling-poly(butyl acrylate, BA), TKB]",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "TKB",
+          "value": "4%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "mass ratio to starch"
+        },
+        {
+          "material": "TKB",
+          "value": "0%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Fig. 3",
+          "context": "adhesive with different TKB concentration"
+        },
+        {
+          "material": "TKB",
+          "value": "2%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Fig. 3",
+          "context": "adhesive with different TKB concentration"
+        },
+        {
+          "material": "TKB",
+          "value": "6%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Fig. 3",
+          "context": "adhesive with different TKB concentration"
+        },
+        {
+          "material": "TKB",
+          "value": "4%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Fig. 6",
+          "context": "grafted starch with 4% TiO 2 -KH570-PBA (TKB) nanoparticles"
+        },
+        {
+          "material": "TKB",
+          "value": "8%",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Fig. 7",
+          "context": "latex films with 8% TiO 2 -KH570-PBA (TKB) nanoparticles"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "dry_shear_strength",
+          "metric_value": "5.69 MPa",
+          "comparison_baseline": "adhesive's dry shear strength decreased to 5.69 MPa at 6% TKB addition"
+        },
+        {
+          "metric_name": "viscosity",
+          "metric_value": "3.76 Pa·s",
+          "comparison_baseline": "the viscosity increased to 3.76 Pa·s at 6% TKB addition"
+        },
+        {
+          "metric_name": "wet_bonding_strength",
+          "metric_value": "1.32 MPa",
+          "comparison_baseline": "adhesive containing 4% TKB showed the highest wet bonding strength at around 1.32 MPa when compared with other samples"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Investigation of the Effect of Particle Surface Charge and Dispersion Stability ",
+      "doi": "10.3390/ma15176145",
+      "alternative": [
+        "polystyrene-polyurethane (PS-PU)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "Styrene-butyl acrylate latex (St-BA) has inferior dispersion stability and a more pronounced retardation effect in cementitious materials compared to the alternative.",
+        "traditional_material_replaced": "styrene-butyl acrylate latex (St-BA)",
+        "alternative_solution": "polystyrene-polyurethane (PS-PU) composite latex",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "PS-PU",
+          "value": "4%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "Dosage of PS-PU in cementitious materials."
+        },
+        {
+          "material": "PS-PU",
+          "value": "6%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "Dosage of PS-PU in cementitious materials."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "particle_size",
+          "value": "smaller size",
+          "evidence_location": "Abstract",
+          "context": "PS-PU has a smaller size compared to St-BA"
+        }
+      ],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Preparation, Thermal, and Mechanical Characterization of UV-Cured Polymer Biocom",
+      "doi": "10.3390/polym12051159",
+      "alternative": [
+        "lignin",
+        "methacrylated lignin",
+        "styrene"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor mechanical properties and thermal resistance of polymer biocomposites",
+        "traditional_material_replaced": "butyl acrylate as a reactive diluent in polymer biocomposites",
+        "alternative_solution": "lignin, methacrylated lignin, and styrene as reactive diluents",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "Bisphenol A glycerolate (1 glycerol/phenol) diacrylate (BPA.GDA) was used as the main monomer, and butyl acrylate (BA), 2-ethylhexyl acrylate (EHA) or styrene (St) was used as the reactive diluent.",
+            "implication": "Butyl acrylate is used as a reactive diluent, but the exact amount or ratio is not specified."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "The specific amounts or ratios of Bisphenol A glycerolate, butyl acrylate, lignin, and methacrylated lignin used in the biocomposites.",
+          "Total weight or volume of the biocomposite mixture."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Modified Bitumen Materials from Kazakhstani Oilfield",
+      "doi": "10.1155/2024/8078021",
+      "alternative": [
+        "tire reclaim"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "improvement in the properties of road bitumen: the softening point, hardness, deformability at low temperatures, elasticity, and adhesion to metal and mineral filler increase",
+        "traditional_material_replaced": "copolymer of ethylene with butyl acrylate and glycidyl methacrylate",
+        "alternative_solution": "tire reclaim",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "copolymer of ethylene with butyl acrylate and glycidyl methacrylate",
+          "value": "0.5–1.6 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "modifier for oil bitumen BND 90/130"
+        },
+        {
+          "material": "tire reclaim",
+          "value": "4–20 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "modifier for oil bitumen BND 90/130"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "An acrylated fullerene derivative for efficient and thermally stable polymer sol",
+      "doi": "10.1016/J.TETLET.2017.05.049",
+      "alternative": [
+        "[6,6]-phenyl-C61-butyric acid methyl ester (PC61BM)"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Elsevier) (688428 bytes)",
+      "substitution_logic": {
+        "target_problem": "device instability in polymer-fullerene solar cells due to continuous microstructure evolution in the active layers",
+        "traditional_material_replaced": "[6,6]-phenyl-C61-butyric acid methyl ester (PC61BM)",
+        "alternative_solution": "[6,6]-phenyl-C61-butyl acrylate (PC61BA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [
+        {
+          "parameter": "heating_temperature",
+          "value": "150°C",
+          "evidence_location": "Abstract",
+          "context": "PC61BA converted into insoluble oligomers upon heating"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "power_conversion_efficiency",
+          "metric_value": "3.54%",
+          "comparison_baseline": "3.70%"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "PC61BA has similar light-absorption properties and HOMO and LUMO energy levels as [6,6]-phenyl-C61-butyric acid methyl ester (PC61BM)",
+            "implication": "Suggests that the molar ratio of PC61BA to P3HT might be similar to that of PC61BM to P3HT in typical applications, but no specific ratio is given."
+          },
+          {
+            "description": "Polymer-fullerene solar cells using poly(3-hexylthiophene) (P3HT) as donor and PC61BA as acceptor exhibited an optimized efficiency of 3.54%, the performance comparable to P3HT/PC61BM cells (optimized efficiency: 3.70%)",
+            "implication": "The comparable performance suggests similar relative amounts of P3HT and PC61BA/PC61BM were used, but the exact amounts are not specified."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total mass or volume of the active layer components (P3HT and PC61BA)",
+          "Mass ratio or concentration of P3HT and PC61BA in the solar cell active layer",
+          "Details of the solar cell fabrication process, including the solvent used and the spin-coating parameters"
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Synthesis and characterization of ricinoleic acid derived monomer and its applic",
+      "doi": "10.1108/PRT-09-2017-0078",
+      "alternative": [
+        "methacrylated ricinoleic acid (MRA)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor mechanical and chemical properties of coatings",
+        "traditional_material_replaced": "butyl acrylate in conventional miniemulsion polymerization",
+        "alternative_solution": "methacrylated ricinoleic acid (MRA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "MRA",
+          "value": "1 wt.%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "incorporated in miniemulsion polymerization"
+        },
+        {
+          "material": "MRA",
+          "value": "2 wt.%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "incorporated in miniemulsion polymerization"
+        },
+        {
+          "material": "MRA",
+          "value": "3 wt.%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "incorporated in miniemulsion polymerization"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Non-Amide Polymers as Kinetic Hydrate Inhibitors—Maleic Acid/Alkyl Acrylate Copo",
+      "doi": "10.1021/acsomega.1c06063",
+      "alternative": [
+        "maleic acid/alkyl acrylate copolymers",
+        "MA/alkyl acrylate copolymers reacted with dibutylaminopropylamine",
+        "MA/alkyl acrylate copolymers reacted with dibutylaminoethanol"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "high cost of traditional kinetic hydrate inhibitors (KHIs)",
+        "traditional_material_replaced": "water-soluble polymers with amide groups and adjacent hydrophobic groups",
+        "alternative_solution": "maleic acid/alkyl acrylate copolymers reacted with dibutylaminopropylamine or dibutylaminoethanol",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "MA/alkyl acrylate",
+          "value": "1:1",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "Reaction of the maleic anhydride (MA) units in MA/alkyl acrylate 1:1 copolymers with dibutylaminopropylamine or dibutylaminoethanol"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Butyl Acrylate/2‐Methylene‐1,3‐Dioxepane/Vinyl Acetate Emulsion Terpolymerizatio",
+      "doi": "10.1002/cssc.202402478",
+      "alternative": [
+        "2-methylene-1,3-dioxepane"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "limited polymer degradability in pressure-sensitive adhesives (PSAs)",
+        "traditional_material_replaced": "butyl acrylate (BA) homopolymers or copolymers",
+        "alternative_solution": "butyl acrylate (BA)/2‐methylene‐1,3‐dioxepane (MDO)/vinyl acetate (VAc) terpolymers",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "carboxylated cellulose nanocrystals (cCNCs)",
+          "value": "incorporated into the final formulation",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "added to enhance PSA properties"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "pH",
+          "value": "carefully selected",
+          "evidence_location": "Abstract",
+          "context": "reaction condition to mitigate MDO hydrolysis and ring retention"
+        },
+        {
+          "parameter": "temperature",
+          "value": "carefully selected",
+          "evidence_location": "Abstract",
+          "context": "reaction condition to mitigate MDO hydrolysis and ring retention"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Synthesis of chromium complexes with hydrocarbon and heterocyclic ligands and th",
+      "doi": "10.14529/chem240201",
+      "alternative": [
+        "α-methylstyrene chromium tricarbonyl",
+        "diphenylbutadiene chromium tricarbonyl",
+        "allylbenzene chromium tricarbonyl"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Semantic Scholar) (31478 bytes)",
+      "substitution_logic": {
+        "target_problem": "uncontrolled chain termination in polymerization of vinyl monomers",
+        "traditional_material_replaced": "traditional polymerization regulators",
+        "alternative_solution": "α-methylstyrene chromium tricarbonyl, diphenylbutadiene chromium tricarbonyl, allylbenzene chromium tricarbonyl",
+        "relationship_type": "process_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "α-methylstyrene chromium tricarbonyl",
+          "value": "quantities commensurate with the concentration of the initiator",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "introduced into the polymerizing mass of methyl methacrylate, butyl acrylate, styrene"
+        },
+        {
+          "material": "diphenylbutadiene chromium tricarbonyl",
+          "value": "quantities commensurate with the concentration of the initiator",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "introduced into the polymerizing mass of methyl methacrylate, butyl acrylate, styrene"
+        },
+        {
+          "material": "allylbenzene chromium tricarbonyl",
+          "value": "quantities commensurate with the concentration of the initiator",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "introduced into the polymerizing mass of methyl methacrylate, butyl acrylate, styrene"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "In Situ Formation of Acidic Comonomer during Thermal Treatment of Copolymers of ",
+      "doi": "10.3390/polym16192833",
+      "alternative": [
+        "tert-butyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "Polyacrylonitrile (PAN) or AN copolymer with butyl acrylate requires high temperatures for cyclization, limiting its application in melt-spun PAN production.",
+        "traditional_material_replaced": "n-butyl acrylate (BA)",
+        "alternative_solution": "tert-butyl acrylate (TBA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "tert-butyl acrylate",
+          "value": "1–10 mol.%",
+          "ratio_type": "at%",
+          "evidence_location": "Abstract",
+          "context": "Copolymers of AN contain 1–10 mol.% of TBA"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "polymerization_solvent",
+          "value": "DMSO",
+          "evidence_location": "Abstract",
+          "context": "conventional radical polymerization in DMSO"
+        },
+        {
+          "parameter": "polymerization_agent",
+          "value": "2-mercaptoethanol",
+          "evidence_location": "Abstract",
+          "context": "in the presence of 2-mercaptoethanol"
+        },
+        {
+          "parameter": "heating_temperature",
+          "value": "above 160 °C",
+          "evidence_location": "Abstract",
+          "context": "heating above 160 °C"
+        },
+        {
+          "parameter": "atmosphere",
+          "value": "argon",
+          "evidence_location": "Abstract",
+          "context": "thermal behavior of binary and ternary copolymers is studied under argon atmosphere"
+        },
+        {
+          "parameter": "atmosphere",
+          "value": "air",
+          "evidence_location": "Abstract",
+          "context": "thermal behavior of binary and ternary copolymers is studied in air"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "activation_energy_cyclization_ionic_mechanism",
+          "metric_value": "ca. 100–130 kJ/mole",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "activation_energy_cyclization_radical_mechanism",
+          "metric_value": "ca. 150–190 kJ/mole",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Introducing water-redispersible powderable acrylic adhesives using Persian gum",
+      "doi": "10.1016/j.indcrop.2021.114083",
+      "alternative": [
+        "Persian gum"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded XML Fallback (415262 bytes)",
+      "substitution_logic": {
+        "target_problem": "poor adhesion strength of acrylic adhesives",
+        "traditional_material_replaced": "pristine acrylic adhesive (poly(methyl methacrylate-co-butyl acrylate))",
+        "alternative_solution": "Persian gum (PG) and poly(methyl methacrylate-co-butyl acrylate) blends",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "methyl methacrylate",
+          "value": "30 wt. %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "content in poly(methyl methacrylate-co-butyl acrylate)"
+        },
+        {
+          "material": "Persian gum",
+          "value": "50 wt. %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "PG content in blends of PG and poly(methyl methacrylate-co-butyl acrylate)"
+        },
+        {
+          "material": "Persian gum",
+          "value": "90 wt. %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "PG content in blends of PG and poly(methyl methacrylate-co-butyl acrylate)"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "adhesion_strength_enhancement_fabric",
+          "metric_value": "52 times",
+          "comparison_baseline": "pristine acrylic adhesive"
+        },
+        {
+          "metric_name": "adhesion_strength_enhancement_wood",
+          "metric_value": "34 times",
+          "comparison_baseline": "pristine acrylic adhesive"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Synthesis and Characterization of Poly(butyl acrylate‐co‐farnesene) by Emulsion ",
+      "doi": "10.1002/masy.202400098",
+      "alternative": [
+        "β-Farnesene"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "petroleum-derived monomers in pressure-sensitive adhesives leading to unsustainable materials",
+        "traditional_material_replaced": "n-butyl acrylate (BA)",
+        "alternative_solution": "β-Farnesene (Far)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "n-butyl acrylate",
+          "value": "100 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        },
+        {
+          "material": "β-Farnesene",
+          "value": "0 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        },
+        {
+          "material": "n-butyl acrylate",
+          "value": "80 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        },
+        {
+          "material": "β-Farnesene",
+          "value": "20 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        },
+        {
+          "material": "n-butyl acrylate",
+          "value": "50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        },
+        {
+          "material": "β-Farnesene",
+          "value": "50 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "ratio of BA and Far"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "hydrodynamic diameter",
+          "value": "120–140 nm",
+          "evidence_location": "Abstract",
+          "context": "latexes with different BA and Far contents"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "overall conversion",
+          "metric_value": "decreases",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "elongation at break",
+          "metric_value": "decreases",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "loop tack",
+          "metric_value": "decreases",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "glass transition temperature (Tg)",
+          "metric_value": "increase",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "gel content",
+          "metric_value": "increase",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "shear strength",
+          "metric_value": "increase",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Design, Preparation, and Evaluation of a Novel Elastomer with Bio-Based Diethyl ",
+      "doi": "10.3390/polym11111897",
+      "alternative": [
+        "diethyl itaconate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor high-temperature oil resistance of commercially available acrylate rubber",
+        "traditional_material_replaced": "commercially available acrylate rubber AR72LS",
+        "alternative_solution": "poly(diethyl itaconate-co-butyl acrylate-co-ethyl acrylate-co-glycidyl methacrylate) (PDEBEG) with diethyl itaconate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "diethyl itaconate",
+          "value": "10 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "composites with 10 wt% diethyl itaconate"
+        },
+        {
+          "material": "carbon black N330",
+          "value": "N330",
+          "ratio_type": null,
+          "evidence_location": "Abstract",
+          "context": "PDEBEG/CB composites by mixing PDEBEG with carbon black N330"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "number average molecular weight",
+          "value": "more than 200,000",
+          "evidence_location": "Abstract",
+          "context": "number average molecular weight of PDEBEG"
+        },
+        {
+          "property": "glass transition temperature",
+          "value": "ranged from −25.2 to −0.8 °C",
+          "evidence_location": "Abstract",
+          "context": "glass transition temperature of the PDEBEG"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "yield",
+          "metric_value": "up to 96%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "tensile_strength",
+          "metric_value": "up to 14.5 MPa",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "elongation_at_break",
+          "metric_value": "305%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Precisely Tunable Sol-Gel Transition Temperature by Blending Thermoresponsive AB",
+      "doi": "10.1021/ACSMACROLETT.8B00477",
+      "alternative": [
+        "PNIPAAm homopolymer"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "the sol-gel transition temperature (Tgel) of a physically cross-linked hydrogel is difficult to tune precisely",
+        "traditional_material_replaced": "n-butyl acrylate (BA) copolymerized with NIPAAm in a triblock terpolymer (ABC1) to control Tgel",
+        "alternative_solution": "PNIPAAm homopolymer (ABC2) blended with ABC1 to precisely tune Tgel",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "n-butyl acrylate",
+          "value": "hydrophobic BA",
+          "ratio_type": "unspecified",
+          "evidence_location": "Abstract",
+          "context": "copolymerized into block C1"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Utilization of Bio-based Monomer Derived from Camelina Oil and Itaconic Acid for",
+      "doi": "10.1007/s10924-025-03515-6",
+      "alternative": [
+        "bio-based monomer"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_pdf_open_access",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (524870 bytes)",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [
+          {
+            "variable_name": "BBM_percentage_range",
+            "value": "0-30 wt%",
+            "evidence_location": "Abstract: 'Various amounts of BBM (0−30 wt% of BBM in the total monomer mixture) were copolymerized with standard petroleum-based acrylic monomers...'"
+          },
+          {
+            "variable_name": "MMA_BA_ratio",
+            "value": "21/28 (w/w)",
+            "evidence_location": "Section: 'Synthesis and Characterization of Latexes': 'The monomer composition of all synthesized latexes maintained a constant MMA/BA ratio of 21/28 (w/w)...'"
+          },
+          {
+            "variable_name": "MAA_percentage",
+            "value": "2 wt%",
+            "evidence_location": "Section: 'Synthesis and Characterization of Latexes': 'In all monomer compositions, a constant amount (2 wt%) of MAA was introduced...'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L5",
+            "value": "5 wt%",
+            "evidence_location": "Table 1: 'L_5 5 39.8 53.2 2'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L10",
+            "value": "10 wt%",
+            "evidence_location": "Table 1: 'L_10 10 37.8 50.2 2'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L15",
+            "value": "15 wt%",
+            "evidence_location": "Table 1: 'L_15 15 35.6 47.4 2'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L20",
+            "value": "20 wt%",
+            "evidence_location": "Table 1: 'L_20 20 33.4 44.6 2'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L25",
+            "value": "25 wt%",
+            "evidence_location": "Table 1: 'L_25 25 31.4 41.6 2'"
+          },
+          {
+            "variable_name": "BBM_percentage_in_latex_L30",
+            "value": "30 wt%",
+            "evidence_location": "Table 1: 'L_30 30 29.2 38.8 2'"
+          }
+        ],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": [
+            "total monomer mixture weight"
+          ]
+        },
+        "qualitative_indicators": [],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total weight of the monomer mixture is not provided.",
+          "The exact amount of butyl acrylate used in each sample is not explicitly stated, only the ratio with MMA is given."
+        ],
+        "recommendation": "suggest_fulltext_review"
+      },
+      "confidence": "low"
+    },
+    {
+      "title": "Renewable Terpene Derivative as a Biosourced Elastomeric Building Block in the D",
+      "doi": "10.1021/acs.biomac.9b00185",
+      "alternative": [
+        "tetrahydrogeraniol acrylate",
+        "THGA",
+        "poly(THGA)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "low glass transition temperature (Tg) in acrylic monomers",
+        "traditional_material_replaced": "n-butyl acrylate",
+        "alternative_solution": "tetrahydrogeraniol acrylate (THGA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "THGA",
+          "value": "3.6 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "RAFT polymerization in toluene"
+        },
+        {
+          "material": "THGA",
+          "value": "1.8 mol·L-1",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "lower monomer concentrations"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [
+        {
+          "property": "molecular weights",
+          "value": "up to 278 kg·mol-1",
+          "evidence_location": "Abstract",
+          "context": "free-radical polymerizations"
+        },
+        {
+          "property": "Tg",
+          "value": "-46 °C",
+          "evidence_location": "Abstract",
+          "context": "synthesized poly(THGA)"
+        },
+        {
+          "property": "molecular weight distributions",
+          "value": "≈ 1.2",
+          "evidence_location": "Abstract",
+          "context": "RAFT polymerization of THGA"
+        }
+      ],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion",
+          "metric_value": "high",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "การพัฒนาสูตรยางคอมพาวนด์สำหรับการวัลคาไนซ์ด้วยลำอิเล็กตรอน",
+      "doi": "10.60136/bas.v11.2022.130",
+      "alternative": [
+        "Trimethylolpropane trimethacrylate (TMPT)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (1788723 bytes)",
+      "substitution_logic": {
+        "target_problem": "conventional sulfur vulcanization leads to chemical residue and is less efficient",
+        "traditional_material_replaced": "n-Butyl acrylate (n-BA) as a sensitizer in electron beam vulcanization",
+        "alternative_solution": "Trimethylolpropane trimethacrylate (TMPT) as a sensitizer in electron beam vulcanization",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "n-Butyl acrylate",
+          "value": "3 phr",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "sensitizer in electron beam vulcanization"
+        },
+        {
+          "material": "n-Butyl acrylate",
+          "value": "5 phr",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "sensitizer in electron beam vulcanization"
+        },
+        {
+          "material": "Trimethylolpropane trimethacrylate (TMPT)",
+          "value": "3 phr",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "sensitizer in electron beam vulcanization"
+        },
+        {
+          "material": "Trimethylolpropane trimethacrylate (TMPT)",
+          "value": "5 phr",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "sensitizer in electron beam vulcanization"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "electron_beam_energy",
+          "value": "10 MeV",
+          "evidence_location": "Abstract",
+          "context": "energy for electron acceleration"
+        },
+        {
+          "parameter": "radiation_dose",
+          "value": "50 kGy",
+          "evidence_location": "Abstract",
+          "context": "radiation dose from electron beam"
+        },
+        {
+          "parameter": "radiation_dose",
+          "value": "100 kGy",
+          "evidence_location": "Abstract",
+          "context": "radiation dose from electron beam"
+        },
+        {
+          "parameter": "radiation_dose",
+          "value": "150 kGy",
+          "evidence_location": "Abstract",
+          "context": "radiation dose from electron beam"
+        },
+        {
+          "parameter": "radiation_dose",
+          "value": "200 kGy",
+          "evidence_location": "Abstract",
+          "context": "radiation dose from electron beam"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Новые сополимеры виниловых мономеров с включением стирола как перспективные моди",
+      "doi": "10.14529/CHEM170103",
+      "alternative": [
+        "New copolymers of vinyl butyl ether, styrene and alkyl (meth)acrylates (butyl acrylate, butyl methacrylate and 2-ethylhexyl acrylate)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Semantic Scholar) (31609 bytes)",
+      "substitution_logic": {
+        "target_problem": "low susceptibility to mechanical degradation of lubricant oils",
+        "traditional_material_replaced": "oils thickeners",
+        "alternative_solution": "copolymers of vinyl butyl ether, styrene and alkyl (meth)acrylates (butyl acrylate, butyl methacrylate and 2-ethylhexyl acrylate)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "vinyl butyl ether",
+          "value": "comparable ratio",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "synthesis of compositionally homogeneous binary and ternary copolymers"
+        },
+        {
+          "material": "styrene",
+          "value": "comparable ratio",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "synthesis of compositionally homogeneous binary and ternary copolymers"
+        },
+        {
+          "material": "butyl acrylate",
+          "value": "comparable ratio",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "synthesis of compositionally homogeneous binary and ternary copolymers"
+        },
+        {
+          "material": "butyl methacrylate",
+          "value": "comparable ratio",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "synthesis of compositionally homogeneous binary and ternary copolymers"
+        },
+        {
+          "material": "2-ethylhexyl acrylate",
+          "value": "comparable ratio",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "synthesis of compositionally homogeneous binary and ternary copolymers"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Colloidal properties and cytotoxicity of enzymatically hydrolyzed cationic starc",
+      "doi": "10.1016/j.porgcoat.2020.105693",
+      "alternative": [
+        "enzymatically hydrolyzed cationic cassava starch"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (305183 bytes)",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [
+          {
+            "variable_name": "CCS mass",
+            "value": "35.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "MMA mass",
+            "value": "63.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "BA mass",
+            "value": "77.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "CCS mass",
+            "value": "50.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "MMA mass",
+            "value": "57.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "BA mass",
+            "value": "69.8 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "CCS mass",
+            "value": "75.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "MMA mass",
+            "value": "47.3 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "BA mass",
+            "value": "57.8 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "CCS mass",
+            "value": "100.0 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "MMA mass",
+            "value": "37.8 g",
+            "evidence_location": "Table 1"
+          },
+          {
+            "variable_name": "BA mass",
+            "value": "46.5 g",
+            "evidence_location": "Table 1"
+          }
+        ],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "The purpose of this work was to substitute a portion of the BA/MMA by CCS (from 0 to 20 wt.%) in the copolymer",
+            "implication": "The ratio of CCS to BA/MMA varied, but the total amount of the copolymer is not specified."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total mass of the reaction mixture is not specified.",
+          "The exact procedure for the semi-batch emulsion polymerization is not detailed enough to determine the dosage of each component at each stage."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "low"
+    },
+    {
+      "title": "Multi‐Property Machine Learning Models to Accelerate the Transition Toward Bio‐B",
+      "doi": "10.1002/aidi.202500248",
+      "alternative": [
+        "bio-based monomers"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "petroleum-based monomers in emulsion polymerization lead to unsustainable polymer materials",
+        "traditional_material_replaced": "n-butyl acrylate/methyl methacrylate and n-butyl acrylate/styrene",
+        "alternative_solution": "bio-based monomer pairs",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "conversion",
+          "metric_value": "high conversions",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "glass_transition_temperature",
+          "metric_value": "comparable to their conventional counterparts",
+          "comparison_baseline": "conventional counterparts"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "replacement of n‐butyl acrylate/methyl methacrylate for coating applications, and replacement of n‐butyl acrylate/styrene for adhesive applications",
+            "implication": "Indicates n-butyl acrylate is a component in conventional formulations for coatings and adhesives, and the study explores bio-based replacements."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total mass or volume of the emulsion polymerization system.",
+          "Dosage of n-butyl acrylate in the conventional formulations.",
+          "Dosage of bio-based monomers used as replacements.",
+          "Ratio of n-butyl acrylate to methyl methacrylate or styrene in the original formulations."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Monomer Composition as a Mechanism to Control the Self-Assembly of Diblock Oligo",
+      "doi": "10.1021/acsnano.4c08028",
+      "alternative": [
+        "ethyl acrylate",
+        "tert-butyl acrylate",
+        "cyclohexyl acrylate"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "rational design of PPAs for assembly into multichain nanoparticles is challenging due to the complex intra- and intermolecular interactions emanating from the polymer and peptide segments",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "ethyl acrylate, tert-butyl acrylate, cyclohexyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "PPAs were synthesized with a random coil peptide (XTEN2) and oligomeric alkyl acrylates with different side chains: ethyl, tert-butyl, n-butyl, and cyclohexyl.",
+            "implication": "Suggests that ethyl acrylate, tert-butyl acrylate, and cyclohexyl acrylate are used as alternatives to butyl acrylate in the synthesis of PPAs."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total mass or volume of the reaction mixture or substrate.",
+          "Molar ratio of peptide to oligomeric alkyl acrylates.",
+          "Exact mass of each acrylate used (ethyl, tert-butyl, n-butyl, and cyclohexyl)."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Bulk Free Radical Terpolymerization of Butyl Acrylate, 2-Methylene-1,3-Dioxepane",
+      "doi": "10.3390/polym16101330",
+      "alternative": [
+        "2-methylene-1,3-dioxepane",
+        "vinyl acetate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "development of biodegradable pressure-sensitive adhesives (PSAs)",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-methylene-1,3-dioxepane and vinyl acetate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "butyl acrylate",
+          "value": "1",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "BA/MDO/VAc ratio"
+        },
+        {
+          "material": "2-methylene-1,3-dioxepane",
+          "value": "2",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "BA/MDO/VAc ratio"
+        },
+        {
+          "material": "vinyl acetate",
+          "value": "3",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "BA/MDO/VAc ratio"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_temperature",
+          "value": "50 °C",
+          "evidence_location": "Abstract",
+          "context": "bulk free radical terpolymerization"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "In situ stabilizer formation from methacrylic acid macromonomers in emulsion pol",
+      "doi": "10.1039/C7PY01583F",
+      "alternative": [
+        "methacrylic acid macromonomers"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "conventional surfactants like SDS are needed to stabilize emulsion polymerization of methyl methacrylate (MMA), but not for butyl acrylate (BA)",
+        "traditional_material_replaced": "sodium dodecyl sulphate (SDS)",
+        "alternative_solution": "methacrylic acid macromonomers",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "reactions with the macromonomers were faster and because of the more hydrophobic nature of BA (as compared to MMA), stabilizers were sufficiently quickly formed in situ and stable latexes were produced without the need for additional SDS",
+            "implication": "Suggests that the methacrylic acid macromonomers acted as stabilizers in the emulsion polymerization of butyl acrylate, potentially replacing or reducing the need for traditional surfactants like SDS."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total volume or mass of butyl acrylate used in the emulsion polymerization.",
+          "Mass or concentration of methacrylic acid macromonomers used.",
+          "Ratio of methacrylic acid macromonomers to butyl acrylate.",
+          "Reaction conditions (temperature, pressure, time)."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Characterization of Odorous and Potentially Harmful Substances in Artists' Acryl",
+      "doi": "10.3389/fpubh.2018.00350",
+      "alternative": [
+        "less toxic and non-odor active ingredients"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (683802 bytes)",
+      "substitution_logic": {
+        "target_problem": "acrylic monomers (butyl acrylate) in paints are responsible for a mushroom-like and geranium leaf-like odor and are potentially harmful",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "less toxic and non-odor active ingredients",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "a reduction or replacement of these substances by less toxic and non-odor active ingredients is likely to turn out to be advisable in order to reduce the odor and potential negative physiological effects of paints.",
+            "implication": "Suggests that the amount of butyl acrylate can be reduced or replaced by less toxic ingredients."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total weight or volume of the paint sample.",
+          "Percentage or concentration of butyl acrylate in the paint.",
+          "Dosage of less toxic and non-odor active ingredients to replace butyl acrylate."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Butyl acrylate (BA) and ethylene carbonate (EC) electrolyte additives for low-te",
+      "doi": "10.1016/j.jpowsour.2020.228697",
+      "alternative": [
+        "ethylene carbonate"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Elsevier) (494921 bytes)",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [
+          {
+            "variable_name": "BA_percentage",
+            "value": "16%",
+            "evidence_location": "line quote: 'After adding 16% BA to the electrolyte'"
+          },
+          {
+            "variable_name": "EC_percentage_1",
+            "value": "16%",
+            "evidence_location": "line quote: 'EC16% + EC10% battery'"
+          },
+          {
+            "variable_name": "EC_percentage_2",
+            "value": "10%",
+            "evidence_location": "line quote: 'EC16% + EC10% battery'"
+          }
+        ],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": [
+            "total electrolyte weight or volume"
+          ]
+        },
+        "qualitative_indicators": [],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total weight or volume of the electrolyte is missing. Without this, the absolute dosage of BA or EC cannot be determined."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "low"
+    },
+    {
+      "title": "The Use of High‐Temperature Semi‐Batch Radical Polymerization to Synthesize Acry",
+      "doi": "10.1002/macp.202300321",
+      "alternative": [
+        "isobornyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "lower macromonomer content and higher polymer dispersity in acrylate radical polymerization",
+        "traditional_material_replaced": "n-butyl acrylate (BA)",
+        "alternative_solution": "isobornyl acrylate (iBoA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "isobornyl acrylate",
+          "value": "different temperatures and macromonomer concentrations",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "used to polymerize a second monomer in a single pot process controlled by sequential feeding"
+        },
+        {
+          "material": "n-butyl acrylate",
+          "value": "different temperatures and macromonomer concentrations",
+          "ratio_type": "concentration",
+          "evidence_location": "Abstract",
+          "context": "used to polymerize a second monomer in a single pot process controlled by sequential feeding"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "RAFT surfactant-free cationic emulsion polymerization of styrene: effect of hydr",
+      "doi": "10.1080/10601325.2020.1840923",
+      "alternative": [
+        "hexafluorobutyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "RAFT surfactant-free cationic emulsion polymerization of styrene has limited controllability due to the hydrophobicity of the macro-RAFT agent.",
+        "traditional_material_replaced": "poly(dimethyl aminoethyl acrylate-co-styrene)-b-(butyl acrylate) (P(DMAEA-co-St)-b-PBA)",
+        "alternative_solution": "poly(dimethyl aminoethyl acrylate-co-styrene)-b-(hexafluorobutyl acrylate) (P(DMAEA-co-St)-b-PHFBA)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "poly(dimethyl aminoethyl acrylate-co-styrene)-b-(butyl acrylate) (P(DMAEA-co-St)-b-PBA)",
+          "value": "as macro-RAFT agent",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "Used as macro-RAFT agent in RAFT surfactant-free cationic emulsion polymerization of styrene"
+        },
+        {
+          "material": "poly(dimethyl aminoethyl acrylate-co-styrene)-b-(hexafluorobutyl acrylate) (P(DMAEA-co-St)-b-PHFBA)",
+          "value": "as macro-RAFT agent",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "Used as macro-RAFT agent in RAFT surfactant-free cationic emulsion polymerization of styrene"
+        },
+        {
+          "material": "poly(dimethyl aminoethyl acrylate) (PDMAEA)",
+          "value": "as macro-RAFT agent",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Abstract",
+          "context": "Used as macro-RAFT agent in RAFT surfactant-free cationic emulsion polymerization of styrene"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Sustainable terpene triblock copolymers with tuneable properties for pressure se",
+      "doi": "10.1016/j.polymertesting.2022.107530",
+      "alternative": [
+        "poly(α-pinene methacrylate)"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Elsevier) (4405648 bytes)",
+      "substitution_logic": {
+        "target_problem": "limited sustainability and environmental concerns associated with traditional pressure sensitive adhesives",
+        "traditional_material_replaced": "butyl acrylate as a soft segment in pressure sensitive adhesives",
+        "alternative_solution": "poly(α-pinene methacrylate) as a hard block component in triblock copolymers for pressure sensitive adhesives",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "poly(α-pinene methacrylate)",
+          "value": "20–25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "short chain materials with 20–25 wt% poly(α-pinene methacrylate) offer similar tensile and adhesion performance to the commercial elastomer"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "ultimate_tensile_strength",
+          "metric_value": "considerable increase",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "stiffness",
+          "metric_value": "considerable increase",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "peak_tack_force",
+          "metric_value": "considerable increase",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "ultimate_tensile_strain",
+          "metric_value": "significant reductions",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "adhesive_bond_displacement",
+          "metric_value": "significant reductions",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "vibrational_dissipation",
+          "metric_value": "significant reductions",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Electrochemical study of the effect of Al3+ on the stability and performance of ",
+      "doi": "10.1016/J.ELECTACTA.2021.138589",
+      "alternative": [
+        "excess ligand",
+        "Br−"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Elsevier) (4252636 bytes)",
+      "substitution_logic": {
+        "target_problem": "Al3+ ions displace Cu2+ from the ligand Me6TREN, inhibiting eATRP of n-butyl acrylate",
+        "traditional_material_replaced": "[CuITPMA]+/Me6TREN catalyst system",
+        "alternative_solution": "excess ligand and/or Br− with respect to CuII",
+        "relationship_type": "catalyst_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "Br−",
+          "value": "excess",
+          "ratio_type": "molar_ratio",
+          "evidence_location": "Abstract",
+          "context": "To suppress the effect of Al3+, use of excess ligand and/or Br− with respect to CuII proved to be efficient."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Influence of elongation and desaturation on chemosensory properties in acrylates",
+      "doi": "10.1007/s00216-022-04332-9",
+      "alternative": [
+        "1-octen-3-one",
+        "hexyl acrylate",
+        "1-decen-3-one"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (1145071 bytes)",
+      "substitution_logic": {
+        "target_problem": "butyl acrylate has a specific odor profile (mushroom-like) that may be undesirable in certain applications",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "1-octen-3-one, hexyl acrylate, 1-decen-3-one",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "odour_threshold_value_in_air_1-hexen-3-one",
+          "metric_value": "0.0032 ng/lair",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "odour_threshold_value_in_air_1-dodecen-3-one",
+          "metric_value": "55 ng/lair",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "All investigated substances showed low odour threshold values in air between 0.0032 ng/lair (1-hexen-3-one) and 55 ng/lair (1-dodecen-3-one).",
+            "implication": "Indicates the range of odor threshold values for the investigated substances in air, but does not provide information about the dosage of the alternative solutions (1-octen-3-one, hexyl acrylate, 1-decen-3-one) relative to butyl acrylate."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total carrier/substrate weight or volume.",
+          "Percentage ratio of alternative solution to carrier/substrate.",
+          "Explicit mass or volume values of alternative solutions used."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    },
+    {
+      "title": "Effect of Hydrophobic Acrylic Monomers with Different Alkyl Side Chain Lengths o",
+      "doi": "10.1002/slct.202403573",
+      "alternative": [
+        "2-ethylhexyl acrylate",
+        "dodecyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "Glistening (condensation of water) within intraocular lens (IOL) materials, leading to reduced optical clarity",
+        "traditional_material_replaced": "butyl acrylate (BA) in hydrophobic acrylic intraocular lens (IOL) materials",
+        "alternative_solution": "2-ethylhexyl acrylate (EHA) and dodecyl acrylate (DA) with varying alkyl side chain lengths",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "butyl acrylate",
+          "value": "varied",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "butyl acrylate was copolymerized with 2-phenoxyethyl acrylate"
+        },
+        {
+          "material": "2-ethylhexyl acrylate",
+          "value": "varied",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "2-ethylhexyl acrylate was copolymerized with 2-phenoxyethyl acrylate"
+        },
+        {
+          "material": "dodecyl acrylate",
+          "value": "varied",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "dodecyl acrylate was copolymerized with 2-phenoxyethyl acrylate"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "glistening",
+          "metric_value": "decreased significantly",
+          "comparison_baseline": "null"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Robust and Durable Photonic Crystal with Liquid-Repellent Property for Self-Clea",
+      "doi": "10.1021/acsami.4c09497",
+      "alternative": [
+        "poly(fluoroalkyl acrylate)-based colloidal photonic crystal (fCPC) coating"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "enhancement of the robustness and durability of structural colored coatings to meet the requirements in diverse environments",
+        "traditional_material_replaced": "conventional colloidal photonic crystal (CPC) coating",
+        "alternative_solution": "poly(fluoroalkyl acrylate)-based colloidal photonic crystal (fCPC) coating",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "poly(fluoroalkyl acrylate-ethyl acrylate-butyl acrylate) (P(FA-EA-BA))",
+          "value": "as shell copolymers",
+          "ratio_type": "mass_ratio",
+          "evidence_location": "Abstract",
+          "context": "Fluorinated core-interlayer-shell (FCIS) colloidal particles of polystyrene (PS) core, poly(methyl methacrylate) (PMMA) interlayer, and poly(fluoroalkyl acrylate-ethyl acrylate-butyl acrylate) (P(FA-EA-BA)) shell copolymers have been first prepared by a stepwise emulsion polymerization."
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Biobased Itaconate Acrylic Pressure-Sensitive Adhesives via Emulsion Polymerizat",
+      "doi": "10.1021/acsomega.5c03586",
+      "alternative": [
+        "dibutyl itaconate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "reliance on nonrenewable petroleum resources and high solvent emissions in pressure-sensitive adhesives (PSAs)",
+        "traditional_material_replaced": "petroleum-based acrylics",
+        "alternative_solution": "biobased poly(dibutyl itaconate-co-butyl acrylate-co-acrylic acid-co-glycidyl methacrylate) (PDBAG) copolymers using dibutyl itaconate (DBI) as a monomer",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "dibutyl itaconate",
+          "value": "30 wt %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "DBI content in PDBAG copolymer"
+        },
+        {
+          "material": "dibutyl itaconate",
+          "value": "50 wt %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "DBI content in PDBAG copolymer"
+        },
+        {
+          "material": "glycidyl methacrylate",
+          "value": "0.5 wt %",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "GMA content in PDBAG copolymer"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "polymerization_method",
+          "value": "high-temperature semicontinuous emulsion polymerization",
+          "evidence_location": "Abstract",
+          "context": "synthesis of PDBAG copolymers"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "high-frequency shear loss modulus (G″)",
+          "metric_value": "55.5 kPa",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "high-frequency shear loss modulus (G″)",
+          "metric_value": "87.3 kPa",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "180° peel strength with SUS",
+          "metric_value": "10.7 N/25 mm",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "180° peel strength with SUS",
+          "metric_value": "16.5 N/25 mm",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Tailored Interactions of the Secondary Coordination Sphere Enhance the Hydrolyti",
+      "doi": "10.1021/ACSCATAL.8B04740",
+      "alternative": [
+        "2-methoxyethyl acrylate"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "butyl acrylate reduces the catalytic proficiency of microgels in the hydrolysis of glycosidic bonds",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "2-methoxyethyl acrylate",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "2-methoxyethyl acrylate",
+          "value": "20 mol %",
+          "ratio_type": "vol%",
+          "evidence_location": "Abstract",
+          "context": "co-monomer embedded in microgels"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "catalytic_proficiency",
+          "metric_value": "1.4 × 107",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Derivatives of linseed oil and camelina oil as monomers for emulsion polymerizat",
+      "doi": "10.1007/s10853-023-08969-4",
+      "alternative": [
+        "Acrylated methyl esters of higher fatty acids derived from camelina oil",
+        "Acrylated methyl esters of higher fatty acids derived from linseed oil"
+      ],
+      "dosage_status": "extracted",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Downloaded PDF (Record openAccessPdf) (3424860 bytes)",
+      "substitution_logic": {
+        "target_problem": "reliance on petroleum-based monomers in latex coatings leading to unsustainable products",
+        "traditional_material_replaced": "butyl acrylate",
+        "alternative_solution": "acrylated methyl esters of higher fatty acids derived from camelina oil and linseed oil",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "bio-based derivatives",
+          "value": "5 – 30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "in monomer mixture"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "in emulsion polymerizations"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "25 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "in water whitening-resistant coatings"
+        },
+        {
+          "material": "bio-based derivatives",
+          "value": "30 wt%",
+          "ratio_type": "wt%",
+          "evidence_location": "Abstract",
+          "context": "in water whitening-resistant coatings"
+        }
+      ],
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "coagulum",
+          "metric_value": "below 2%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "monomer_conversion",
+          "metric_value": "around 95%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "water_contact_angle_increase",
+          "metric_value": "about 10°",
+          "comparison_baseline": "reference latex"
+        }
+      ],
+      "partial_data": null,
+      "confidence": "high"
+    },
+    {
+      "title": "Aqueous Developable and CO2-Sourced Chemical Amplification Photoresist with High",
+      "doi": "10.1002/anie.202401850",
+      "alternative": [
+        "CO2-derived resist"
+      ],
+      "dosage_status": "partial_data",
+      "fulltext_source": "none",
+      "extraction_method": "abstract_only",
+      "download_strategy": "Failed to download full text",
+      "substitution_logic": {
+        "target_problem": "poor etching resistance of traditional photoresists",
+        "traditional_material_replaced": "poly(tert-butyl acrylate)",
+        "alternative_solution": "CO2-sourced polycarbonate (CO2-PC)",
+        "relationship_type": "material_substitution"
+      },
+      "explicit_dosages": null,
+      "synthesis_conditions": [],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "sensitivity",
+          "metric_value": "1.9 mJ/cm2",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "contrast",
+          "metric_value": "7.9",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "resolution",
+          "metric_value": "750 nm",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "etching_resistance",
+          "metric_value": "38%",
+          "comparison_baseline": "poly(tert-butyl acrylate)"
+        }
+      ],
+      "partial_data": {
+        "partial_data_found": true,
+        "base_variables_extracted": [],
+        "calculation_attempted": false,
+        "calculated_dosage": {
+          "formula": null,
+          "result": null,
+          "variables_used": [],
+          "missing_variables": []
+        },
+        "qualitative_indicators": [
+          {
+            "description": "The optimal CO2-derived resist achieved a remarkable sensitivity of 1.9 mJ/cm2, a contrast of 7.9, a favorable resolution (750 nm, half pitch), and etching resistance (38% higher than poly(tert-butyl acrylate)).",
+            "implication": "This indicates that the CO2-derived resist is a potential replacement for poly(tert-butyl acrylate) in some applications, but it does not provide any information about the dosage or concentration of either material."
+          }
+        ],
+        "referenced_studies": [],
+        "data_gaps": [
+          "Total weight or volume of the substrate or carrier material used in the experiment.",
+          "The percentage or ratio of CO2-derived resist used in relation to the substrate or carrier material.",
+          "Any explicit mass or volume values for the CO2-derived resist used."
+        ],
+        "recommendation": "insufficient_data"
+      },
+      "confidence": "high"
+    }
+  ]
+}

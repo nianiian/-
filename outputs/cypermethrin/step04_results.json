@@ -1,0 +1,1409 @@
+[
+  {
+    "title": "TOXICIDADE DE INSETICIDAS UTILIZADOS NO MELOEIRO SOBRE PRIMEIRO INSTAR DE Chrysoperla genanigra FREITAS (NEUROPTERA: CHRYSOPIDAE)",
+    "doi": "10.1590/1983-21252017V30N314RC",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including beta-cypermethrin and finds that chlorantraniliprole is classified as innocuous (Class 1) while beta-cypermethrin is harmful (Class 4) to Chrysoperla genanigra larvae. It explicitly recommends chlorantraniliprole for use in IPM programs, indicating it as a safer alternative to cypermethrin.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful to beneficial organisms (Chrysoperla genanigra larvae)",
+        "toxicity classified as harmful (Class 4) to first-instar larvae of C. genanigra"
+      ],
+      "rationale": "The reasoning explicitly states that beta-cypermethrin is classified as harmful (Class 4) to first-instar larvae of Chrysoperla genanigra, a beneficial organism, indicating its toxicity and negative impact on non-target beneficial insects."
+    },
+    "CHEMICAL HARM": "harmful to beneficial organisms (Chrysoperla genanigra larvae), toxicity classified as harmful (Class 4) to first-instar larvae of C. genanigra"
+  },
+  {
+    "title": "Effective control of Alphitobius diaperinus using natural bioinsecticides",
+    "doi": "10.11594/jtls.12.03.01",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares natural bioinsecticides (cinnamon bark extract, nutmeg seed extract, lavender flowers, and lime peel) with the synthetic insecticide alpha-cypermethrin for controlling Alphitobius diaperinus. It states that cinnamon bark extract and nutmeg seed extract are effective and can be used as natural biopesticides to replace synthetic insecticides, implying a safer alternative due to the mention of synthetic insecticides being detrimental to non-target creatures and the environment. Thus, it clearly presents these natural extracts as safer alternatives to cypermethrin.",
+    "alternatives": "cinnamon bark extract; nutmeg seed extract",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text mentions that synthetic insecticides, including alpha-cypermethrin, are detrimental to non-target creatures and the environment, but it does not explicitly state specific harms or hazards related to cypermethrin itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Histopathological effects of cypermethrin and Bacillus thuringiensis var. israelensis on midgut of Chironomus calligraphus larvae (Diptera: Chironomidae).",
+    "doi": "10.1016/j.pestbp.2017.04.002",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares cypermethrin (CYP) and Bacillus thuringiensis var. israelensis (Bti), describing Bti as an 'environmentally benign and desirable alternative' to CYP. This phrasing explicitly indicates that Bti is considered safer than cypermethrin.",
+    "alternatives": "Bacillus thuringiensis var. israelensis (Bti)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to Chironomus calligraphus larvae",
+        "histopathological alterations in midgut epithelium",
+        "cell disorganization in midgut",
+        "increased fat body development",
+        "vacuolization and secretion activity changes in midgut cells"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin (CYP) is toxic to Chironomus calligraphus larvae, with a 96-h LC50 value of 0.52 μg/L. Exposure to CYP caused histopathological alterations in the midgut epithelium, including secretion activity, vacuolization, cell disorganization, and increased fat body development, indicating cellular damage and toxicity."
+    },
+    "CHEMICAL HARM": "toxicity to Chironomus calligraphus larvae, histopathological alterations in midgut epithelium, cell disorganization in midgut, increased fat body development, vacuolization and secretion activity changes in midgut cells"
+  },
+  {
+    "title": "Reduced exposure to malaria vectors following indoor residual spraying of pirimiphos-methyl in a high-burden district of rural Mozambique with high ownership of long-lasting insecticidal nets: entomological surveillance results from a cluster-randomized trial",
+    "doi": "10.1186/s12936-021-03583-8",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares pirimiphos-methyl (PM) used in indoor residual spraying (IRS) to pyrethroids including alpha-cypermethrin, noting that the malaria vector showed increasing resistance to pyrethroids but remained fully susceptible to PM. The study found that IRS with PM substantially reduced vector densities and human exposure to malaria vectors in an area with high pyrethroid resistance. This indicates a safety and efficacy advantage of PM over cypermethrin in this context, suggesting PM as a safer alternative due to overcoming resistance issues.",
+    "alternatives": "pirimiphos-methyl",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions the use of alpha-cypermethrin in long-lasting insecticidal nets and notes increasing resistance of mosquito vectors to pyrethroids, including alpha-cypermethrin, but does not describe toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Preliminary Evaluation of Onion Bulb and Tobacco Leaf Extracts for Insect Control and Yield of Cowpea in the Southern Guinea Savanna of Nigeria",
+    "doi": "10.36108/nje/3202/93.0110",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares onion bulb and tobacco leaf extracts to cypermethrin and concludes that the plant extracts have potential to replace the synthetic insecticide, thus ensuring environmental safety. This indicates a safety advantage of the plant extracts over cypermethrin, presenting them as safer alternatives.",
+    "alternatives": "onion bulb extract; tobacco leaf extract",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its use as a synthetic insecticide and compares its effectiveness to plant extracts without discussing toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Resistance to commonly used insecticides and phosphine fumigant in red palm weevil, Rhynchophorus ferrugineus (Olivier) in Pakistan",
+    "doi": "10.1371/journal.pone.0192628",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract mentions that spinosad and lambda-cyhalothrin have lower LC50 and LC90 values and a better environmental profile compared to other insecticides including cypermethrin. It suggests these two could be used in rotation or to phase out older insecticides, implying a safety advantage over cypermethrin.",
+    "alternatives": "spinosad; lambda-cyhalothrin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses insecticide resistance levels in Rhynchophorus ferrugineus populations to cypermethrin and other chemicals but does not explicitly state any harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Impact of Nonchemical Protection of Broad Bean on Epigeic and Soil Arthropodofauna—Analysis in Field-Realistic Conditions",
+    "doi": "10.3390/agronomy10020211",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares nonchemical protection methods (Pythium oligandrum, paraffin-coated garlic pulp, and grapefruit seed extract) to chemical protection including alpha-cypermethrin. It states that nonchemical preparations seemed to be safer for soil mites, limiting their abundance to a lesser degree than chemicals including alpha-cypermethrin, indicating a safety advantage. Therefore, the nonchemical methods can be reasonably interpreted as safer alternatives to cypermethrin.",
+    "alternatives": "Pythium oligandrum; paraffin-coated garlic pulp; grapefruit seed extract",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only compares chemical protection methods, including alpha-cypermethrin, to nonchemical methods in terms of their effects on soil arthropods, indicating that chemicals limit the abundance of soil mites more than nonchemical methods, but does not explicitly describe specific harms or hazards of cypermethrin itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Contact toxicity of insecticides against honeybees, Apis mellifera L. under laboratory conditions",
+    "doi": "10.33545/26174693.2024.v8.i10sm.2650",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides combined with azadirachtin to honeybees, including cypermethrin. It shows that Chlorantraniliprole + Azadirachtin caused 50% mortality with a longer LT50 (61.18 h) compared to cypermethrin + Azadirachtin which caused 100% mortality with a shorter LT50 (6.25 h). This indicates Chlorantraniliprole + Azadirachtin is less toxic and thus safer than cypermethrin + Azadirachtin, suggesting a safer alternative.",
+    "alternatives": "Chlorantraniliprole; Azadirachtin",
+    "target_chemical_harm": {
+      "harms": [
+        "100% mortality in honey bees upon residual exposure",
+        "Rapid toxicity with LT50 of 6.25 hours in honey bees"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin 10% EC + Azadirachtin 1500 ppm caused 100% mortality in honey bees and had the shortest LT50 value (6.25 hours), indicating high acute toxicity to honey bees."
+    },
+    "CHEMICAL HARM": "100% mortality in honey bees upon residual exposure, Rapid toxicity with LT50 of 6.25 hours in honey bees"
+  },
+  {
+    "title": "Effects of the insecticides methoxyfenozide and cypermethrin on non‐target arthropods: a field experiment",
+    "doi": "10.1111/aen.12230",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares methoxyfenozide to cypermethrin and reports that methoxyfenozide caused 66% fewer dead arthropods and was lethal to fewer taxonomic groups, indicating lower toxicity to non-target organisms. It concludes that methoxyfenozide provides a less toxic alternative for pest control in willow plantations, which implies it is a safer alternative to cypermethrin.",
+    "alternatives": "methoxyfenozide",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to non-target arthropods",
+        "lethality to multiple arthropod groups including Dyctioptera, Pseudoscorpionida, Isopoda, dipterans, coleopterans, hymenopterans",
+        "harm to predators, herbivores, and parasitoids"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin treatment resulted in a higher number of dead arthropods compared to methoxyfenozide, including specific arthropod groups and multiple taxonomic families, indicating its toxicity to non-target organisms."
+    },
+    "CHEMICAL HARM": "toxicity to non-target arthropods, lethality to multiple arthropod groups including Dyctioptera, Pseudoscorpionida, Isopoda, dipterans, coleopterans, hymenopterans, harm to predators, herbivores, and parasitoids"
+  },
+  {
+    "title": "Side effects of toxic bait formulations on Diachasmimorpha longicaudata (Hymenoptera: Braconidae)",
+    "doi": "10.1038/s41598-019-49106-z",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of various bait formulations including alpha-cypermethrin and spinosad/spinetoram-based formulations. It states that alpha-cypermethrin formulations showed high toxicity (>90% mortality) to the parasitoid D. longicaudata, while spinosad and spinetoram formulations were classified as harmless (<10% mortality) and did not reduce parasitism or emergence rates. This indicates that spinosad/spinetoram-based toxic baits are safer alternatives to cypermethrin for managing C. capitata.",
+    "alternatives": "spinosad; spinetoram",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity to Diachasmimorpha longicaudata adults (>90% mortality) after 96 hours"
+      ],
+      "rationale": "The reasoning text explicitly states that the commercial formulation Gelsura containing alpha-cypermethrin showed high toxicity (>90% mortality) to Diachasmimorpha longicaudata adults after 96 hours, classifying it as harmful (Class 4). No other explicit harms or hazards related to cypermethrin are mentioned."
+    },
+    "CHEMICAL HARM": "high toxicity to Diachasmimorpha longicaudata adults (>90% mortality) after 96 hours"
+  },
+  {
+    "title": "Cinnamomum zeylanicum Essential Oil Reduces Infestation by Alphitobius diaperinus in Poultry Litter",
+    "doi": "10.22456/1679-9216.86074",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares Cinnamomum zeylanicum essential oil to cypermethrin, showing that cypermethrin was ineffective at controlling Alphitobius diaperinus even at higher doses, while the essential oil effectively reduced infestation without causing toxicity to broiler chicks. It highlights the essential oil's rapid degradation and lack of risk for non-target organisms, supporting its safety advantages. Therefore, the essential oil is presented as a safer alternative to cypermethrin.",
+    "alternatives": "Cinnamomum zeylanicum essential oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with cypermethrin. It mentions that cypermethrin treatment had no effect on controlling the target organism even at higher doses, but does not describe any toxicity, persistence, bioaccumulation, endocrine disruption, or occupational hazards related to cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Potential impact of host pest fed on Bt-modified corn on the development of Chrysoperla carnea (Stephens) (Neuroptera: Chrysopidae)",
+    "doi": "10.1186/s41938-017-0018-8",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of Bt toxins (Cry2Ab/1Ac) and cypermethrin on Chrysoperla carnea, showing that cypermethrin severely affected C. carnea eggs while Bt toxins had less impact. It explicitly suggests that biopesticide formulations based on Bt toxins or Bt-modified crops are safer alternatives to cypermethrin, enhancing the biological control agent's ability.",
+    "alternatives": "Bt toxins (Cry2Ab/1Ac); Bt-modified crops",
+    "target_chemical_harm": {
+      "harms": [
+        "severe effect on hatchability of Chrysoperla carnea eggs"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin severely affected the hatchability of C. carnea eggs compared to Bt toxins, indicating a harmful effect on this predator species."
+    },
+    "CHEMICAL HARM": "severe effect on hatchability of Chrysoperla carnea eggs"
+  },
+  {
+    "title": "Bio-Rational Management of Armyworm (Mythimna separata) (Lepidoptera: Noctuidae) in Chitwan Condition of Nepal",
+    "doi": "10.3126/JIAAS.V35I1.22532",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Spinosad to Lara, which contains cypermethrin, and highlights Spinosad as a safe and eco-friendly insecticide with potential to reduce pesticide consumption and provide a benign environment for natural predators. This indicates Spinosad as a safer alternative to cypermethrin-containing pesticides.",
+    "alternatives": "Spinosad",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions cypermethrin as part of a treatment combination (Lara) and compares its effectiveness to other treatments, without discussing toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Abundance and Control of Rugose Spiraling Whitefly, Aleurodicus Rugioperculatus Martin, Infesting Coconut in Seven Coastal Districts of Bangladesh",
+    "doi": "10.3329/jasbs.v49i2.70766",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several insecticidal treatments including cypermethrin (Caught 10 EC) and a biopesticide (Bioclean). While Nitro 505 EC (chlorpyrifos + cypermethrin) was most effective, the abstract explicitly recommends Bioclean as an eco-friendly and environmentally safe alternative for controlling the pest. This implies Bioclean is a safer alternative to cypermethrin-based treatments.",
+    "alternatives": "Bioclean",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its effectiveness in controlling whiteflies and recommends an alternative (Bioclean) for environmental safety."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Bioefficacy, phytotoxicity and insecticide residue dynamics of chlorantraniliprole in brinjal (Solanum melongena) under field condition",
+    "doi": "10.56093/ijas.v92i10.124925",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares chlorantraniliprole (CAP) with cypermethrin and states that CAP did not show phytotoxic effects and did not affect natural enemies, implying better ecological safety. It also mentions CAP as an effective alternative ensuring quality, sustainability, and safety, which reasonably indicates a safer alternative to cypermethrin.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions cypermethrin as an old generic insecticide used as a check in the study, without describing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Insecticidal Action of Glycerol Monolaurate against the Lesser Mealworm (Alphitobius diaperinus) and its Ecotoxicological Effect on Enchytraeus crypticus",
+    "doi": "10.22456/1679-9216.84206",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract states that cypermethrin is the main chemical used to control Alphitobius diaperinus but can damage soil fauna due to intensive use. It presents glycerol monolaurate (GML) as having insecticidal action against the lesser mealworm without causing negative effects on soil fauna, suggesting a safety advantage over cypermethrin. Thus, GML is indicated as a potential safer alternative to cypermethrin.",
+    "alternatives": "glycerol monolaurate (GML)",
+    "target_chemical_harm": {
+      "harms": [
+        "damage to soil fauna due to intensive utilization"
+      ],
+      "rationale": "The text explicitly states that cypermethrin, the main chemical used to control A. diaperinus, can damage the soil fauna due to its intensive utilization."
+    },
+    "CHEMICAL HARM": "damage to soil fauna due to intensive utilization"
+  },
+  {
+    "title": "Lethal and sublethal effects of toxic bait formulations on Doryctobracon areolatus (Hymenoptera: Braconidae) and implications for integrated fruit fly management",
+    "doi": "10.1093/jee/toad069",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of various toxic baits including those containing alpha-cypermethrin and others containing phosmet or spinosyn-based insecticides. It reports that baits with alpha-cypermethrin were harmful (mortality > 85%), while some formulations with phosmet and spinosyn-based insecticides were classified as harmless or slightly harmful (mortality < 50%) to the parasitoid Doryctobracon areolatus. This indicates that phosmet and spinosyn-based insecticides are safer alternatives to alpha-cypermethrin in this context.",
+    "alternatives": "phosmet; spinosyn-based insecticides",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful to native parasitoid Doryctobracon areolatus (mortality > 85% at 96 HAE)"
+      ],
+      "rationale": "The text explicitly states that toxic bait formulations containing alpha-cypermethrin were classified as harmful (class 4) to the native parasitoid Doryctobracon areolatus, causing mortality greater than 85% at 96 hours after exposure."
+    },
+    "CHEMICAL HARM": "harmful to native parasitoid Doryctobracon areolatus (mortality > 85% at 96 HAE)"
+  },
+  {
+    "title": "SUSTAINABLE APPROACHES FOR FRUIT FLY MANAGEMENT IN BITTER GOURD CULTIVATION",
+    "doi": "10.26480/itechmag.06.2024.13.20",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Bacillus thuringiensis (Bt) with a mixture of Chlorpyriphos and Cypermethrin, stating that while the chemical mixture was most effective, it has issues with persistence, bioaccumulation, and biomagnification. Bt was equally effective and economical, with no adverse effects on the environment or human health, indicating a clear safety advantage over Cypermethrin-containing treatment.",
+    "alternatives": "Bacillus thuringiensis (Bt)",
+    "target_chemical_harm": {
+      "harms": [
+        "persistence",
+        "bioaccumulation",
+        "biomagnification"
+      ],
+      "rationale": "The reasoning explicitly states that chlorpyriphos 50% and Cypermethrin 5% EC are persistent, bioaccumulative, and biomagnifying in nature."
+    },
+    "CHEMICAL HARM": "persistence, bioaccumulation, biomagnification"
+  },
+  {
+    "title": "Ovicidal Toxicity and Morphological Changes in Housefly Eggs Induced by the Essential Oils of Star Anise and Lemongrass and Their Main Constituents",
+    "doi": "10.3390/insects15070481",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares two combinations of essential oils (lemongrass EO + trans-anethole and star anise EO + geranial) to α-cypermethrin, showing they are at least as effective in ovicidal activity and are safe for non-target aquatic species, whereas α-cypermethrin is not safe. This safety advantage and comparable efficacy clearly indicate these combinations as safer alternatives to cypermethrin.",
+    "alternatives": "lemongrass essential oil (EO) + trans-anethole; star anise essential oil (EO) + geranial",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to non-target aquatic species (guppy and molly)"
+      ],
+      "rationale": "The reasoning text explicitly states that α-cypermethrin was not safe for two non-target aquatic species (guppy and molly) and was highly toxic to them, indicating an occupational or environmental hazard related to aquatic toxicity."
+    },
+    "CHEMICAL HARM": "toxicity to non-target aquatic species (guppy and molly)"
+  },
+  {
+    "title": "Bioassay-Guided Isolation of Piplartine from Piper purusanum Yunck (Piperaceae) and Evaluation of Its Toxicity Against Aedes aegypti Linnaeus, 1762, Anopheles darlingi Root, 1926 (Culicidae), and Non-Target Animals",
+    "doi": "10.3390/plants14050774",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares piplartine to α-cypermethrin, stating that piplartine showed no lethal effects on non-target aquatic insects with 100% survival, whereas α-cypermethrin caused only 9.1% survival. This indicates piplartine has a clear safety advantage and is presented as a promising larvicide with selective toxicity and low environmental impact, making it a safer alternative to cypermethrin.",
+    "alternatives": "piplartine",
+    "target_chemical_harm": {
+      "harms": [
+        "acute and rapid toxicity to non-target organisms"
+      ],
+      "rationale": "The reasoning text explicitly states that α-cypermethrin demonstrated acute and rapid toxicity to non-target organisms, with only 9.1% survival, indicating a harm related to its toxicity to non-target species."
+    },
+    "CHEMICAL HARM": "acute and rapid toxicity to non-target organisms"
+  },
+  {
+    "title": "COMPARATIVE EFFICACY OF SYNTHETIC INSECTICIDES ON MANGO HOPPER COMPLEX",
+    "doi": "10.63759/bje.31.1.8",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several insecticides including cypermethrin formulations (Ripcord 10 EC and Relothrin 10 EC) and finds that Decis 2.5 EC (Deltamethrin) and Sumithion 50 EC (Fenitrothion) are comparatively safer regarding the abundances of natural enemies such as ladybird beetle, spider, and wasp populations. This indicates a safety advantage over cypermethrin, suggesting these two insecticides as safer alternatives.",
+    "alternatives": "Deltamethrin; Fenitrothion",
+    "target_chemical_harm": {
+      "harms": [
+        "negative impact on the abundances of natural enemies",
+        "less safe regarding the abundances of ladybird beetle, spider and wasp populations compared to other insecticides"
+      ],
+      "rationale": "The reasoning states that cypermethrin (Ripcord 10 EC and Relothrin 10 EC) had a negative impact on the abundances of natural enemies such as ladybird beetles, spiders, and wasps, indicating ecological harm. No other explicit harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "negative impact on the abundances of natural enemies, less safe regarding the abundances of ladybird beetle, spider and wasp populations compared to other insecticides"
+  },
+  {
+    "title": "Comparative Study on Effect of Pesticides and Vermicompost on the Growth of Eisenia foetida",
+    "doi": "10.33745/ijzi.2022.v08i02.119",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the negative impact of several pesticides including cypermethrin on earthworms with the positive effect of vermicompost. Vermicompost is presented as beneficial and less harmful to earthworms compared to cypermethrin and other pesticides, indicating a safety advantage. Therefore, vermicompost can be reasonably interpreted as a safer alternative to cypermethrin in this context.",
+    "alternatives": "vermicompost",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to earthworms",
+        "reduction in earthworm number",
+        "reduction in earthworm biomass",
+        "decreased earthworm survival",
+        "negative impact on soil quality",
+        "negative impact on crop production"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin, as one of the pesticides tested, has a negative impact on the earthworm Eisenia foetida, including reductions in number, biomass, and survival, which in turn reduces crop production and harms soil quality."
+    },
+    "CHEMICAL HARM": "toxicity to earthworms, reduction in earthworm number, reduction in earthworm biomass, decreased earthworm survival, negative impact on soil quality, negative impact on crop production"
+  },
+  {
+    "title": "DETRIMENTAL EFFECTS OF COMMONLY USED INSECTICIDES IN OIL PALM TO POLLINATING WEEVIL, Elaeidobius kamerunicus FAUST. (Coleoptera: Curculionidae)",
+    "doi": "10.21894/jopr.2020.0048",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the lethality of cypermethrin, trichlorfon, fipronil, and Bacillus thuringiensis on the pollinating weevil Elaeidobius kamerunicus. It states that Bacillus thuringiensis was less harmful to the weevil mortality (<20%) even at the highest concentration, indicating a lower toxicity compared to cypermethrin. This suggests Bacillus thuringiensis as a safer alternative to cypermethrin in terms of impact on this beneficial insect.",
+    "alternatives": "Bacillus thuringiensis",
+    "target_chemical_harm": {
+      "harms": [
+        "lethality to Elaeidobius kamerunicus (insect pollinator)"
+      ],
+      "rationale": "The text explicitly states that cypermethrin has a lethal concentration (LC50) effect on Elaeidobius kamerunicus, indicating it causes mortality to this insect species. No other specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "lethality to Elaeidobius kamerunicus (insect pollinator)"
+  },
+  {
+    "title": "Pyrethroid-resistant malaria vector Anopheles gambiae restored susceptibility after pre-exposure to piperonyl-butoxide: results from country-wide insecticide resistance monitoring in Tanzania, 2023",
+    "doi": "10.1186/s12936-024-05211-7",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract indicates that pre-exposure to piperonyl-butoxide (PBO) restored susceptibility to pyrethroids, including cypermethrin, in most sites and that Tanzania's National Malaria Control Programme decided to transition to PBO-based insecticide-treated nets (ITNs). This suggests PBO-based ITNs are considered a safer alternative due to overcoming resistance issues, implying improved efficacy and potentially better safety outcomes compared to cypermethrin alone.",
+    "alternatives": "piperonyl-butoxide (PBO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses insecticide resistance in Anopheles gambiae mosquitoes to pyrethroids including alpha-cypermethrin but does not explicitly state any harms or hazards related to cypermethrin itself such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "INDUSTRY-WIDE EFFORTS IN CIRCUMVENTING THE SCOURGE OF BAGWORM INFESTATION IN MALAYSIA- WHAT HAVE GONE WRONG AND WHAT SHOULD BE DONE",
+    "doi": "10.56333/tp.2019.006",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly mentions Bacillus thuringiensis as the current recommended option to conserve natural enemies instead of broad-spectrum insecticides like cypermethrin, implying a safer alternative due to less disruption of the ecosystem and natural enemies. It contrasts the persistent spraying of cypermethrin with the use of Bacillus thuringiensis, highlighting the latter's role in reducing outbreaks by preserving natural enemies.",
+    "alternatives": "Bacillus thuringiensis",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text discusses the use of cypermethrin as a broad-spectrum insecticide and its ecological impact, specifically the reduction of natural enemies of bagworms leading to pest outbreaks. However, it does not explicitly state any direct harms or hazards of cypermethrin itself such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evidence supporting deployment of next generation insecticide treated nets in Burkina Faso: bioassays with either chlorfenapyr or piperonyl butoxide increase mortality of pyrethroid-resistant Anopheles gambiae",
+    "doi": "10.1186/s12936-021-03936-3",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract presents Interceptor G2 nets, treated with chlorfenapyr and alpha-cypermethrin, as a better long-term solution due to confirmed susceptibility to chlorfenapyr in nearly all sites, implying it is a safer alternative to pyrethroid-only nets like those with cypermethrin. It also mentions PBO + deltamethrin nets providing greater control than pyrethroid nets, but the strongest safety-related evidence is for Interceptor G2 nets. Thus, chlorfenapyr-based nets are indicated as a safer alternative to cypermethrin.",
+    "alternatives": "chlorfenapyr",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses resistance of Anopheles gambiae s.l. mosquitoes to pyrethroids including alpha-cypermethrin, but does not explicitly state any harms or hazards related to cypermethrin itself such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "THE EFFECT OF ACARICIDAL DRUGS BASED ON HERBAL RAW MATERIAL ON THE FERTILITY OF IXODES RICINUS",
+    "doi": "10.31618/essa.2782-1994.2021.4.75.174",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares a herbal-based acaricidal drug (thymol, citral, sage essential oil) with cypermethrin and emphasizes the development of environmentally friendly acaricides with low impact on environment and human/animal health. This suggests a safety advantage over synthetic acaricides like cypermethrin, indicating the herbal drug as a safer alternative.",
+    "alternatives": "thymol; citral; sage essential oil",
+    "target_chemical_harm": {
+      "harms": [
+        "environmental pollution",
+        "development of resistance within target tick populations"
+      ],
+      "rationale": "The reasoning text explicitly states that modern synthetic acaricides, including cypermethrin, have led to environmental pollution problems and the development of resistance within the target tick populations. No other explicit harms or hazards related to cypermethrin are mentioned."
+    },
+    "CHEMICAL HARM": "environmental pollution, development of resistance within target tick populations"
+  },
+  {
+    "title": "Residual toxicity of selected insecticides against Chrysoperla zastrowi sillemi (Esben-Petersen)",
+    "doi": "10.5958/2249-524x.2025.00015.1",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including cypermethrin and others like dimethoate, imidacloprid, and thiamethoxam. It states that dimethoate, imidacloprid, and thiamethoxam caused much lower mortality (classified as harmless) compared to cypermethrin (part of acephate + cypermethrin mixture), which was harmful. This indicates these insecticides are safer alternatives to cypermethrin in terms of toxicity to Chrysoperla zastrowi sillemi.",
+    "alternatives": "dimethoate; imidacloprid; thiamethoxam",
+    "target_chemical_harm": {
+      "harms": [
+        "harmful to adult Chrysoperla zastrowi sillemi",
+        "slightly harmful to larval Chrysoperla zastrowi sillemi"
+      ],
+      "rationale": "The reasoning states that the combination of acephate + cypermethrin caused 75.0% larval mortality and 84.4% adult mortality, categorizing it as slightly harmful to larvae and harmful to adults of the beneficial predator Chrysoperla zastrowi sillemi."
+    },
+    "CHEMICAL HARM": "harmful to adult Chrysoperla zastrowi sillemi, slightly harmful to larval Chrysoperla zastrowi sillemi"
+  },
+  {
+    "title": "Comparative assessment of acute toxicity and histological changes in liver of African catfish Clarias gariepinus exposed to cotton insecticides",
+    "doi": "10.1080/03601234.2023.2168445",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including cypermethrin-containing formulations (Vizir and Pyro) and Thalis (Emamectin benzoate and Acetamiprid). It reports that Thalis had the lowest histological alteration indices and the highest 96-hLC50 value, indicating lower toxicity compared to cypermethrin-containing products. This suggests Thalis may be safer than cypermethrin formulations.",
+    "alternatives": "Emamectin benzoate; Acetamiprid",
+    "target_chemical_harm": {
+      "harms": [
+        "acute toxicity to Clarias gariepinus juveniles",
+        "neurotoxicity (implied by morphological and behavioral responses such as discoloration, hyperactivity, lethargy)",
+        "liver histopathological effects including necrosis, vacuolation, bleeding, nuclear degeneration, hepatocytes degeneration, sinusoids dilatation"
+      ],
+      "rationale": "The reasoning text explicitly states that cypermethrin-containing formulations (Vizir and Pyro) are very highly toxic to Clarias gariepinus juveniles, causing acute toxicity. Observed morphological and behavioral changes suggest neurotoxicity. Histopathological liver alterations such as necrosis and degeneration were also observed, indicating destructive effects on the liver."
+    },
+    "CHEMICAL HARM": "acute toxicity to Clarias gariepinus juveniles, neurotoxicity (implied by morphological and behavioral responses such as discoloration, hyperactivity, lethargy), liver histopathological effects including necrosis, vacuolation, bleeding, nuclear degeneration, hepatocytes degeneration, sinusoids dilatation"
+  },
+  {
+    "title": "The Insect Pest Management Strategies and Their Influence on The Emergence Rate of Elaeidobius kamerunicus Faust (Coleoptera: Curculionidae) From The Post-Anthesising Male Inflorescence of Oil Palm, Elaeis guineensis",
+    "doi": "10.55230/mabjournal.v52i5.icfic06",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly states that cypermethrin negatively influences the emergence rate of the pollinating weevil, while biopesticides have minimal impact. It recommends replacing cypermethrin with biopesticides to complement Integrated Pest Management strategies, indicating biopesticides as a safer alternative.",
+    "alternatives": "biopesticides",
+    "target_chemical_harm": {
+      "harms": [
+        "negative influence on emergence rate of Elaeidobius kamerunicus",
+        "threat to future population of pollinating weevil"
+      ],
+      "rationale": "The reasoning explicitly states that the indiscriminate application of cypermethrin negatively influenced the emergence rate of the pollinating weevil Elaeidobius kamerunicus and could threaten its future population."
+    },
+    "CHEMICAL HARM": "negative influence on emergence rate of Elaeidobius kamerunicus, threat to future population of pollinating weevil"
+  },
+  {
+    "title": "Potential of Entomopathogenic Nematodes versus Alpha-cypermethrin Against Potato Tuber Moth, Phthorimaea operculella Zeller 1873 (Lep.: Gelechiidae) in Storage Conditions",
+    "doi": "10.20944/PREPRINTS202102.0472.V1",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares entomopathogenic nematodes (EPNs), specifically Steinernema carpocapsae and Steinernema feltiae, to alpha-cypermethrin for controlling potato tuber moth. It states that EPNs have no environmental and health adverse impacts associated with chemical insecticides, implying a safety advantage. The abstract explicitly suggests EPNs as an appropriate alternative to synthetic chemicals like alpha-cypermethrin without residue and health concerns.",
+    "alternatives": "entomopathogenic nematodes (EPNs); Steinernema carpocapsae; Steinernema feltiae",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text explicitly states that alpha-cypermethrin has no environmental and health adverse impacts issued in the chemical insecticides usage, and no other explicit harms or hazards are mentioned for cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Acaricidal efficacy of bitter almond against two tick species, Argas persicus and Haemaphysalis darjeeling – an in vitro study",
+    "doi": "10.1080/01647954.2022.2108494",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares bitter almond extracts to alpha-cypermethrin and states that the extracts showed a higher mortality rate against the tick species. It concludes that bitter almond extracts can be used as an excellent acaricidal alternative to alpha-cypermethrin, implying a safer or preferable option.",
+    "alternatives": "bitter almond extracts",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only compares the acaricidal efficacy of bitter almond extracts to alpha-cypermethrin without mentioning toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards for cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Contact Toxicity of Certain Conventional Insecticides to European Honeybee, Apis mellifera Linnaeus",
+    "doi": "10.20546/IJCMAS.2017.608.401",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including cypermethrin and neem oil on honeybees. Neem oil consistently caused the lowest mortality (as low as 1.40% to 11.10%) compared to cypermethrin which caused 100% mortality within hours. This indicates neem oil has a clear safety advantage over cypermethrin for honeybees, suggesting it as a safer alternative.",
+    "alternatives": "neem oil",
+    "target_chemical_harm": {
+      "harms": [
+        "high contact toxicity to honeybees",
+        "causes 95-100% mortality in honeybees within hours of exposure"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin, at recommended doses, caused very high mortality (95.22% to 100%) in honeybees (Apis mellifera) within 2 to 48 hours after exposure, indicating its high toxicity to this pollinator species. No other explicit harms such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "high contact toxicity to honeybees, causes 95-100% mortality in honeybees within hours of exposure"
+  },
+  {
+    "title": "Toxic Effects of Five Insecticides on the Development and Enzymatic Activities of Trichogramma ostriniae",
+    "doi": "10.1111/jen.13357",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of five insecticides including beta-cypermethrin and chlorantraniliprole on Trichogramma ostriniae. It states that beta-cypermethrin has the highest lethal toxicity, while chlorantraniliprole has a low risk of toxicity. This indicates chlorantraniliprole is safer than beta-cypermethrin, suggesting it as a safer alternative.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "lethal toxicity to Trichogramma ostriniae",
+        "developmental toxicity to Trichogramma ostriniae",
+        "reproductive toxicity to Trichogramma ostriniae",
+        "alteration of detoxification enzyme activities (CYP450, GST, CarE)",
+        "alteration of protective enzyme activities (SOD, CAT, POD)",
+        "decreased ATP content in Trichogramma ostriniae"
+      ],
+      "rationale": "The reasoning explicitly states that beta-cypermethrin exhibits lethal, developmental, and reproductive toxicities to the egg parasitoid Trichogramma ostriniae. It also alters the activities of detoxification and protective enzymes and decreases ATP content, indicating biochemical and physiological harm. No other explicit harms such as endocrine disruption, persistence, or bioaccumulation are mentioned."
+    },
+    "CHEMICAL HARM": "lethal toxicity to Trichogramma ostriniae, developmental toxicity to Trichogramma ostriniae, reproductive toxicity to Trichogramma ostriniae, alteration of detoxification enzyme activities (CYP450, GST, CarE), alteration of protective enzyme activities (SOD, CAT, POD), decreased ATP content in Trichogramma ostriniae"
+  },
+  {
+    "title": "Potential impact of host pest fed on Bt-modified corn on the development of Chrysoperla carnea (Stephens) (Neuroptera: Chrysopidae)",
+    "doi": "10.1186/S41938-017-0018-8",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of Bt Cry2Ab/1Ac toxins and cypermethrin on Chrysoperla carnea, showing that cypermethrin severely affected C. carnea eggs while Bt toxins had less impact. It explicitly states that adopting Bt toxins or Bt-modified crops can enhance C. carnea's role as a biological control agent, indicating a safety advantage over cypermethrin.",
+    "alternatives": "Bt Cry2Ab/1Ac toxins; Bt toxins; Bt-modified crops",
+    "target_chemical_harm": {
+      "harms": [
+        "severe effect on hatchability of Chrysoperla carnea eggs"
+      ],
+      "rationale": "The reasoning explicitly states that the chemical insecticide cypermethrin severely affected the hatchability of C. carnea eggs compared to Bt toxins, indicating a harmful impact on this predator species."
+    },
+    "CHEMICAL HARM": "severe effect on hatchability of Chrysoperla carnea eggs"
+  },
+  {
+    "title": "Comparative Efficacy of Pyrethroid and Neonicotinoid Insecticides to Manage Litchi Fruit Borer",
+    "doi": "10.55706/jae1505",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares cypermethrin with other insecticides and identifies voliam flexi 300 SC (chlorantraniliprole+thiamethoxam) as the most effective treatment. It also states that voliam flexi may reduce health risks to humans and save desirable environmental components, indicating safety advantages over cypermethrin. Therefore, voliam flexi is presented as a safer alternative to cypermethrin.",
+    "alternatives": "voliam flexi 300 SC (chlorantraniliprole + thiamethoxam)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only discusses its use as an insecticide and compares its efficacy and benefit-cost ratio with other insecticides, without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Elevating Sustainable Agriculture: Eco-Friendly Seed Treatments for Enhanced Plant Growth and Yield in Mungbean",
+    "doi": "10.9734/ijecc/2023/v13i103046",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several seed treatments including cypermethrin and neem oil, highlighting neem oil's superior performance and eco-friendly pest control properties. It explicitly advocates transitioning from chemical to natural seed treatments due to advantages for agriculture, environment, and human health, implying neem oil as a safer alternative to cypermethrin.",
+    "alternatives": "neem oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its use as a seed treatment and compares its effects to other treatments without indicating toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Binary Mixtures of Essential Oils: Potent Housefly Adulticides That Are Safe Against Non-Target Species",
+    "doi": "10.3390/insects16080855",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares a mixture of geranial and Eucalyptus globulus essential oils to α-cypermethrin, stating that the EO mixture is effective against houseflies and harmless to non-target species, whereas α-cypermethrin is highly toxic and causes significant harm. This indicates a clear safety advantage of the EO mixture over cypermethrin, presenting it as a safer alternative.",
+    "alternatives": "geranial; Eucalyptus globulus essential oils",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity to non-target pollinators (Apis florea Fabricius)",
+        "high toxicity to common aquatic predators (Poecilia reticulata Peters)"
+      ],
+      "rationale": "The reasoning explicitly states that α-cypermethrin was highly toxic and caused significant harm to a non-target pollinator and a common aquatic predator."
+    },
+    "CHEMICAL HARM": "high toxicity to non-target pollinators (Apis florea Fabricius), high toxicity to common aquatic predators (Poecilia reticulata Peters)"
+  },
+  {
+    "title": "Compatibility of synthetic and biological pesticides with a biocontrol agent Phytoseiulus longipes (Acari: Phytoseiidae)",
+    "doi": "10.1007/s10493-024-00926-3",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity and persistence of cypermethrin with several other pesticides and biocontrol agents on the predatory mite P. longipes. It states that cypermethrin is highly harmful with long persistence, whereas azadirachtin and Hirsutella thompsonii were only slightly harmful and had lower persistence, indicating better safety profiles. This suggests azadirachtin and H. thompsonii could be safer alternatives to cypermethrin.",
+    "alternatives": "azadirachtin; Hirsutella thompsonii",
+    "target_chemical_harm": {
+      "harms": [
+        "highly harmful to eggs and adults of Phytoseiulus longipes",
+        "high persistence (harmful effects remain high even after 31 days of application)"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin is highly harmful to both eggs and adults of the predatory mite Phytoseiulus longipes, and that its harmful effects persist for at least 31 days after application."
+    },
+    "CHEMICAL HARM": "highly harmful to eggs and adults of Phytoseiulus longipes, high persistence (harmful effects remain high even after 31 days of application)"
+  },
+  {
+    "title": "Eco-friendly biosynthesis of TiO2 nanoparticles using Desmostachya bipinnata extract: Larvicidal and pupicidal potential against Aedes aegypti and Spodoptera litura and acute toxicity in non-target organisms.",
+    "doi": "10.2139/ssrn.4197033",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares the toxicity of biosynthesized TiO2 nanoparticles (TiO2NPs) to cypermethrin, stating that the mortality rate of non-target organisms was lower when exposed to TiO2NPs compared to the high lethality induced by cypermethrin. This indicates a safety advantage of TiO2NPs over cypermethrin, suggesting TiO2NPs as a safer alternative.",
+    "alternatives": "titanium dioxide nanoparticles (TiO2 nanoparticles)",
+    "target_chemical_harm": {
+      "harms": [
+        "high lethality to Eisenia fetida",
+        "high lethality to Toxorhynchites splendens"
+      ],
+      "rationale": "The text explicitly states that synthetic pesticides including cypermethrin induced high lethality in non-target organisms Eisenia fetida and Toxorhynchites splendens."
+    },
+    "CHEMICAL HARM": "high lethality to Eisenia fetida, high lethality to Toxorhynchites splendens"
+  },
+  {
+    "title": "Lepidoptera",
+    "doi": "10.2307/j.ctvnb7qwf.31",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of cypermethrin (Cyptrin), Methomyl (Lannate®), and Lambda/Clorantraniprole (Ampligo®) on egg viability. It states that cypermethrin and Methomyl were moderately harmful (class 3), while Ampligo® was slightly harmful (class 2), indicating lower harm. This suggests Ampligo® has a safety advantage over cypermethrin regarding egg viability, implying it is a safer alternative.",
+    "alternatives": "Lambda-cyhalothrin/Clorantraniliprole (Ampligo®)",
+    "target_chemical_harm": {
+      "harms": [
+        "moderately harmful to eggs viability"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin (Cyptrin) was moderately harmful (class 3) to the viability of Spodoptera frugiperda eggs, indicating a direct harmful effect on egg survival."
+    },
+    "CHEMICAL HARM": "moderately harmful to eggs viability"
+  },
+  {
+    "title": "Impact of Weather Variables on Radish Insect Pests in the Eastern Himalayas and Organic Management Strategies",
+    "doi": "10.3390/su16072946",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares organic management strategies (neem oil, Beauveria bassiana, Metarhizium robertsii) to cypermethrin, showing these biopesticides cause significantly less reduction in natural predators (less than half to one-fourth) compared to cypermethrin (74%), indicating a safety advantage. This suggests these organic options are safer alternatives to cypermethrin.",
+    "alternatives": "neem oil; Beauveria bassiana; Metarhizium robertsii",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that cypermethrin caused a 74% reduction in natural predators like coccinellids compared to biopesticides, but does not explicitly describe this as a harm or hazard."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative efficacy of classical and biorational insecticides on sugar beet weevil, Bothynoderes punctiventris Germar (Coleoptera: Curculionidae)",
+    "doi": "10.17221/86/2015-PPS",
+    "year": 2016,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares spinosad with cypermethrin-containing insecticides and highlights spinosad's favourable eco-toxicological properties, suggesting safety advantages. It explicitly presents spinosad as a good candidate for integrated pest management due to these properties, indicating it as a safer alternative to cypermethrin.",
+    "alternatives": "spinosad",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its efficacy in pest control compared to other insecticides and highlights the favorable eco-toxicological properties of spinosad, without detailing any specific toxicity or hazards of cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Can the botanical azadirachtin replace phased-out soil insecticides in suppressing the soil insect pest Diabrotica virgifera virgifera?",
+    "doi": "10.1186/s43170-021-00044-9",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares azadirachtin to cypermethrin-based granules and states that azadirachtin achieved better pest control and root damage prevention at higher doses. It also describes azadirachtin as a 'less problematic botanical' and a 'promising, safer solution' if doses are increased and more soil insecticides are phased out, indicating a safety advantage over cypermethrin.",
+    "alternatives": "azadirachtin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only compares the efficacy of cypermethrin-based granules to other insecticides without mentioning toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "The Efficacy of some Insecticides and Essential Oil-Based Products against The Bed Bug, Cimex lectularius",
+    "doi": "10.21608/jppp.2019.79454",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares essential oils and insecticides including cypermethrin, noting that essential oils like clove and cinnamon oil are effective and suggests they could be a safer and less expensive method for controlling bed bugs. It explicitly states that natural essential oils are somewhat easier, safe, and less expensive, implying a safety advantage over cypermethrin.",
+    "alternatives": "clove oil; cinnamon oil; natural essential oils",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only discusses the efficacy of cypermethrin and other insecticides against bed bugs without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "EFFECT OF RESIDUAL TOXICITY OF SELECTED INSECTICIDES TO THE MALAYSIAN STINGLESS BEE HETEROTRIGONA ITAMA",
+    "doi": "10.24191/ba/v3i1/34430",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of four insecticides including cypermethrin and states that deltamethrin has higher LC50 and LC95 values, indicating it is less toxic to H. itama than cypermethrin. This suggests deltamethrin is safer in terms of toxicity to the stingless bee, which can be reasonably interpreted as a safer alternative to cypermethrin.",
+    "alternatives": "deltamethrin",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to stingless bee forager workers",
+        "indirect toxicity effect causing mortality in Heterotrigona itama"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin, among other insecticides, was harmful to the stingless bee species Heterotrigona itama, causing mortality through dry residue exposure. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to stingless bee forager workers, indirect toxicity effect causing mortality in Heterotrigona itama"
+  },
+  {
+    "title": "Insecticide compatibility with abundance and diversity of predatory fauna in wheat (Triticum aestivum) ecosystem",
+    "doi": "10.1007/s42690-023-01088-2",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of several insecticides on predatory fauna in wheat, noting that seed treatment with thiamethoxam 30 FS and soil application of carbofuran 3G maintained higher populations of natural enemies, similar to untreated controls, whereas cypermethrin 10 EC caused the least population of these beneficial insects. This indicates that thiamethoxam 30 FS and carbofuran 3G have better biocompatibility and are safer alternatives to cypermethrin in terms of preserving natural enemy populations.",
+    "alternatives": "thiamethoxam 30 FS; carbofuran 3G",
+    "target_chemical_harm": {
+      "harms": [
+        "detrimental effects on population dynamics of natural enemies"
+      ],
+      "rationale": "The reasoning explicitly states that foliar spraying insecticides including cypermethrin 10 EC have detrimental effects on the population dynamics of natural enemies such as green lacewing, coccinellids, syrphids, and spiders, indicating harm to beneficial predatory fauna."
+    },
+    "CHEMICAL HARM": "detrimental effects on population dynamics of natural enemies"
+  },
+  {
+    "title": "Acetamiprid, chlorantraniliprole, and in some situations the physical barriers MultiPro® or Kvaae® wax, can be alternatives to traditional synthetic pyrethroid insecticides for the protection of young conifers from damage by the large pine weevil Hylobius abietis L.",
+    "doi": "10.1080/02827581.2021.1906313",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly states that acetamiprid is less toxic than synthetic pyrethroids including cypermethrin and provides comparable protection, indicating it as a safer alternative. It also mentions chlorantraniliprole as a relatively low toxicity insecticide that is equally effective, suggesting it as another safer alternative. Physical barriers are mentioned as partial substitutes but only in limited circumstances and not clearly safer alternatives to cypermethrin.",
+    "alternatives": "acetamiprid; chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The text explicitly mentions concerns over the toxicity of cypermethrin and alpha-cypermethrin insecticides, indicating toxicity as a harm. No other specific harms or hazards are stated."
+    },
+    "CHEMICAL HARM": "toxicity"
+  },
+  {
+    "title": "Efficacy testing of ‘soft’ pesticides for cabbage butterfly (Pieris brassicae nepalensis Doubleday) in cauliflower at Rampur, Chitwan",
+    "doi": "10.3126/jafu.v4i1.47068",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several pesticides including Cypermethrin and Spinosad, noting that Spinosad is a biological pesticide and is superior in controlling pests. It also states that these pesticides along with other soft pesticides are potentially safer for vegetable production, implying a safety advantage of Spinosad over Cypermethrin.",
+    "alternatives": "Spinosad",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its effectiveness in pest control and suggests that it is among pesticides potentially safer for vegetable production, without detailing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "INDUCED EFFECTS OF CYPERMETHHRIN AND FENVALERATE ON ENZYME OF FRESHWATER FISH, CHANNA ORIENTALIS (Sch.)",
+    "doi": "10.29369/ijrbat.2023.02.1.0017",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of cypermethrin and fenvalerate on freshwater fish and states that cypermethrin was found to be more toxic than fenvalerate. This indicates fenvalerate has a safety advantage over cypermethrin, suggesting it as a safer alternative.",
+    "alternatives": "fenvalerate",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic effect on freshwater fish (Channa orientalis) affecting enzyme activity"
+      ],
+      "rationale": "The reasoning explicitly states that Cypermethrin showed toxic effects on the enzyme Glutamate Pyruvate Transaminase in freshwater fish, indicating toxicity to this aquatic species."
+    },
+    "CHEMICAL HARM": "toxic effect on freshwater fish (Channa orientalis) affecting enzyme activity"
+  },
+  {
+    "title": "Sublethal and transgenerational effects of synthetic insecticides on the biological parameters and functional response of Coccinella septempunctata (Coleoptera: Coccinellidae) under laboratory conditions",
+    "doi": "10.3389/fphys.2023.1088712",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of six insecticides including cypermethrin and states that imidacloprid and thiamethoxam exhibited less deleterious effects on the beneficial insect Coccinella septempunctata than cypermethrin. This suggests that imidacloprid and thiamethoxam have safety advantages relative to cypermethrin, indicating they could be considered safer alternatives.",
+    "alternatives": "imidacloprid; thiamethoxam",
+    "target_chemical_harm": {
+      "harms": [
+        "sublethal toxicity to beneficial insects",
+        "suppression of adult emergence",
+        "reduced adult weight",
+        "decreased fertility and fecundity",
+        "prolonged larval stage",
+        "decreased oviposition",
+        "decreased total longevity",
+        "reduced intrinsic rate of increase",
+        "reduced finite rate of increase",
+        "reduced net reproductive rate",
+        "decreased predation rate in progeny"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin at sublethal doses causes multiple harmful effects on the fitness and population parameters of the seven-spotted ladybeetle, including reduced emergence, weight, fertility, fecundity, longevity, reproductive rates, and predation ability."
+    },
+    "CHEMICAL HARM": "sublethal toxicity to beneficial insects, suppression of adult emergence, reduced adult weight, decreased fertility and fecundity, prolonged larval stage, decreased oviposition, decreased total longevity, reduced intrinsic rate of increase, reduced finite rate of increase, reduced net reproductive rate, decreased predation rate in progeny"
+  },
+  {
+    "title": "Parasiticidal Properties of Nanoemulsion-Based Plant Essential Oil Formulations for Controlling Poultry Ectoparasites in Farm Conditions",
+    "doi": "10.3390/insects15110829",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares nanoemulsion-based plant essential oil formulations (NEOFs) to cypermethrin, stating that unlike cypermethrin, NEOFs left no detectable residues, implying a safety advantage. It also describes NEOFs as eco-friendly and a highly effective alternative to chemical pesticides, indicating a safer alternative to cypermethrin.",
+    "alternatives": "nanoemulsion-based plant essential oil formulations",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with cypermethrin. It only mentions that NEOFs are an eco-friendly alternative to chemical pesticides like cypermethrin and that NEOFs leave no detectable residues, implying cypermethrin may leave residues, but no explicit harms are detailed."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "GLASSHOUSE EVALUATION ON THE EFFICACY OF BACILLUS THURINGIENSIS (BT) AGAINST BAGWORM, METISA PLANA AND NON-TARGET EFFECT ON OIL PLAM POLLINATOR, ELAEIDOBIUS KAMERUNICUS (FAUST)",
+    "doi": "10.56333/tp.2021.018",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Bacillus thuringiensis (Bt) bioinsecticides with cypermethrin, noting that Bt products are less toxic to non-target pollinator weevils while cypermethrin is toxic to both target and non-target insects. Although cypermethrin is more effective in killing bagworm larvae faster, Bt products show high efficacy with less impact on beneficial insects, indicating a safety advantage. Therefore, Bt1 is presented as a safer alternative to cypermethrin.",
+    "alternatives": "Bacillus thuringiensis (Bt)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to adults of pollinator weevil Elaeidobius kamerunicus",
+        "toxicity to emergence of pollinator weevil Elaeidobius kamerunicus"
+      ],
+      "rationale": "The reasoning states that cypermethrin was toxic to both adults and emergence of the pollinator weevils, indicating explicit harms related to toxicity to non-target insect species."
+    },
+    "CHEMICAL HARM": "toxicity to adults of pollinator weevil Elaeidobius kamerunicus, toxicity to emergence of pollinator weevil Elaeidobius kamerunicus"
+  },
+  {
+    "title": "Are there viable chemical and non-chemical alternatives to the use of conventional insecticides for the protection of young trees from damage by the large pine weevil Hylobius abietis L. in UK forestry?",
+    "doi": "10.1093/forestry/cpaa013",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly states that acetamiprid provides comparable protection to cypermethrin but is less toxic to aquatic life and has not been linked to bee decline, indicating a safety advantage. Chlorantraniliprole is also mentioned as a relatively low toxicity insecticide meriting further study. These points clearly present acetamiprid (and potentially chlorantraniliprole) as safer alternatives to cypermethrin.",
+    "alternatives": "acetamiprid; chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to aquatic life"
+      ],
+      "rationale": "The text explicitly states concerns over the toxicity of cypermethrin to aquatic life if misused. No other explicit harms or hazards are mentioned for cypermethrin."
+    },
+    "CHEMICAL HARM": "toxicity to aquatic life"
+  },
+  {
+    "title": "The Relative Potency of some Pesticides against Cotton Leafworm, Spodoptera littoralis (Boisd.) and their Side Effect on the Natural Enemy, Chrysoperla carnea (Stephens)",
+    "doi": "10.21608/JPPP.2021.157399",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several pesticides including Alpha-cypermethrin and biopesticides such as Biossiana, Dipel, and crude extract of Beauveria bassiana metabolites. It states that biopesticides have lower toxicity to the natural enemy Chrysoperla carnea compared to chemical pesticides like Alpha-cypermethrin, suggesting a safety advantage. The study recommends using biopesticides to preserve natural enemies and the environment, implying they are safer alternatives to cypermethrin.",
+    "alternatives": "Biossiana; Dipel; Beauveria bassiana metabolites",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to Spodoptera littoralis larvae",
+        "toxicity to Chrysoperla carnea larvae",
+        "higher toxicity of chemical pesticides compared to biopesticides",
+        "potential harm to natural enemy species (Chrysoperla carnea) due to chemical pesticides"
+      ],
+      "rationale": "The reasoning explicitly states that Alpha-cypermethrin is highly toxic to both the target pest (S. littoralis) and the natural enemy (C. carnea), indicating toxicity as a harm. It also notes that chemical pesticides, including Alpha-cypermethrin, have higher toxicity to the predator species than biopesticides, implying potential ecological harm. No other specific harms such as endocrine disruption, persistence, or bioaccumulation are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to Spodoptera littoralis larvae, toxicity to Chrysoperla carnea larvae, higher toxicity of chemical pesticides compared to biopesticides, potential harm to natural enemy species (Chrysoperla carnea) due to chemical pesticides"
+  },
+  {
+    "title": "Comparative effects of a selective insecticide, Bacillus thuringiensis var. kurstaki and the broad-spectrum insecticide cypermethrin on diamondback moth and its parasitoid Cotesia vestalis (Hymenoptera; Braconidae)",
+    "doi": "10.1016/J.CROPRO.2017.07.015",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Biobit® (Bacillus thuringiensis var. kurstaki) and Cypermethrin® in terms of their effects on Plutella xylostella and its parasitoid Cotesia vestalis. It shows that Biobit reduces pest density and crop damage with minimal impact on the parasitoid, whereas Cypermethrin has a greater negative impact on the parasitoid. This indicates a safety advantage of Biobit over Cypermethrin regarding non-target beneficial insects, suggesting Biobit as a safer alternative.",
+    "alternatives": "Bacillus thuringiensis var. kurstaki",
+    "target_chemical_harm": {
+      "harms": [
+        "reduction in parasitism by Cotesia vestalis",
+        "undermining impact of beneficial parasitoid",
+        "reduced yield loss abatement function"
+      ],
+      "rationale": "The reasoning states that the use of broad-spectrum cypermethrin reduces parasitism rates of the beneficial parasitoid Cotesia vestalis, undermining its impact and leading to a lower yield loss abatement function compared to control and selective insecticide treatments."
+    },
+    "CHEMICAL HARM": "reduction in parasitism by Cotesia vestalis, undermining impact of beneficial parasitoid, reduced yield loss abatement function"
+  },
+  {
+    "title": "Efficacy of Insecticides Against Mustard Aphid Brevicoryne brassicae and their Safety to Coccinellid Predators",
+    "doi": "10.55446/ije.2021.67",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several insecticides including cypermethrin and notes that imidacloprid is both effective against mustard aphid and safe to coccinellid predators, whereas profenophos + cypermethrin is the most toxic. This indicates imidacloprid has safety advantages over cypermethrin and can be used as a safer alternative.",
+    "alternatives": "imidacloprid",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to coccinellid predators"
+      ],
+      "rationale": "The text explicitly states that the combination of profenophos and cypermethrin was found to be the most toxic to coccinellid predators, indicating cypermethrin's toxicity to these beneficial insects."
+    },
+    "CHEMICAL HARM": "toxicity to coccinellid predators"
+  },
+  {
+    "title": "In-vitro and in-silico analysis of methanolic crude extracts of Mountain knotgrass Aerva lanta (L.) against two lepidopteran pests and non-target species",
+    "doi": "10.1080/15569543.2023.2294280",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the non-target toxicity of the methanolic crude extract of Aerva lanata (Mx-Al) to cypermethrin, stating that Mx-Al showed lower toxicity to earthworms than cypermethrin. It also highlights that Mx-Al derivatives are mostly nontoxic to bees, protozoa, and rodents, and are target specific and harmless to non-target organisms, indicating safety advantages over cypermethrin.",
+    "alternatives": "methanolic crude extract of Aerva lanata (Mx-Al)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to earthworms at 0.1 ppm"
+      ],
+      "rationale": "The reasoning text explicitly states that cypermethrin shows higher toxicity to earthworms at 0.1 ppm compared to the tested methanol extract, indicating an explicit harm related to earthworm toxicity."
+    },
+    "CHEMICAL HARM": "toxicity to earthworms at 0.1 ppm"
+  },
+  {
+    "title": "In vitro comparative toxicity of chemical insecticides and botanicals against ladybird beetle (Micraspis discolor F.) in Nepal",
+    "doi": "10.26832/24566632.2025.1001018",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several substances including a mixture containing cypermethrin and finds that garlic extract caused lower mortality (54%) to the beneficial insect Micraspis discolor than the cypermethrin-containing treatment (86%). It explicitly highlights botanical extracts as safer alternatives for pest management, implying garlic extract is safer than cypermethrin.",
+    "alternatives": "garlic extract; botanical extracts",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to beneficial insects (Micraspis discolor)",
+        "high mortality caused by Chlorpyrifos 50% EC + Cypermethrin 5% EC (86% mortality after 72 hours)"
+      ],
+      "rationale": "The text explicitly states that the combination of Chlorpyrifos and Cypermethrin caused significant mortality (86%) in the beneficial insect Micraspis discolor, indicating toxicity to non-target beneficial insects."
+    },
+    "CHEMICAL HARM": "toxicity to beneficial insects (Micraspis discolor), high mortality caused by Chlorpyrifos 50% EC + Cypermethrin 5% EC (86% mortality after 72 hours)"
+  },
+  {
+    "title": "The Comparison of Tolerance Capability of Nitrogen-Fixing Bacteria to Chemical and Biological Pesticides",
+    "doi": "10.59467/bi.2023.19.149",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of alpha-cypermethrin and emamectin benzoate on nitrogen-fixing bacteria and shows that emamectin benzoate causes significantly less bacterial growth inhibition at high concentrations than alpha-cypermethrin, indicating lower toxicity. This suggests emamectin benzoate is a safer alternative to cypermethrin.",
+    "alternatives": "emamectin benzoate",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to indigenous nitrogen-fixing bacteria at high concentrations",
+        "growth inhibition of soil-beneficial bacteria",
+        "potential negative impact on soil quality"
+      ],
+      "rationale": "The reasoning text explicitly states that alpha-cypermethrin at concentrations 10 times higher than the recommended dose causes up to 85.7% growth inhibition of bacterial strains in nutrient-rich media and 92.9% inhibition in nitrogen-free media, indicating toxicity to beneficial soil bacteria. This suggests potential harm to soil quality and the viability of soil-beneficial bacteria."
+    },
+    "CHEMICAL HARM": "toxicity to indigenous nitrogen-fixing bacteria at high concentrations, growth inhibition of soil-beneficial bacteria, potential negative impact on soil quality"
+  },
+  {
+    "title": "Effects of beta-cypermethrin and myclobutanil on some enzymes and changes of biomarkers between internal tissues and saliva in reptiles (Eremias argus).",
+    "doi": "10.1016/j.chemosphere.2018.10.099",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxic effects of beta-cypermethrin (BCP) and myclobutanil (MC) on reptiles and states that BCP causes more severe oxidative damage than MC, indicating that MC has lower toxicity. This suggests that myclobutanil is a safer alternative to beta-cypermethrin.",
+    "alternatives": "myclobutanil",
+    "target_chemical_harm": {
+      "harms": [
+        "oxidative damage",
+        "changes in enzymatic activities (SOD, CAT, LDH, AChE)",
+        "toxicity to reptiles"
+      ],
+      "rationale": "The reasoning states that beta-cypermethrin (BCP) caused more severe oxidative damage and induced changes in enzymatic activities in lizards, indicating toxic effects. These harms are explicitly mentioned in relation to cypermethrin exposure."
+    },
+    "CHEMICAL HARM": "oxidative damage, changes in enzymatic activities (SOD, CAT, LDH, AChE), toxicity to reptiles"
+  },
+  {
+    "title": "Cytotoxic Effect of Cypermethrin and Neem Extract on Human Lymphocytes",
+    "doi": "10.13005/bpj/2393",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares cypermethrin and neem extract, stating that cypermethrin has several toxic effects on human lymphocytes, while neem extract increased lymphocyte viability and is described as a safe insecticide. This indicates neem extract is presented as a safer alternative to cypermethrin.",
+    "alternatives": "neem extract",
+    "target_chemical_harm": {
+      "harms": [
+        "neurotoxicity",
+        "toxicity to human lymphocytes"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin has several toxic effects on humans, including being neurotoxic and having harmful effects on lymphocytes, as demonstrated by decreased lymphocyte viability after exposure."
+    },
+    "CHEMICAL HARM": "neurotoxicity, toxicity to human lymphocytes"
+  },
+  {
+    "title": "Integrated management of citrus leafminer in the nursery",
+    "doi": "10.5455/faa.209114",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares several treatments including cypermethrin and spinosad combined with sanitation. It states that spinosad combined with sanitation provided better control of citrus leafminer and harmed the beneficial ladybird beetle less than cypermethrin. This indicates a safety advantage of spinosad over cypermethrin, making spinosad a safer alternative.",
+    "alternatives": "spinosad",
+    "target_chemical_harm": {
+      "harms": [
+        "negative impact on environment",
+        "negative impact on health"
+      ],
+      "rationale": "The reasoning text states that citrus growers conventionally spray different chemicals, including cypermethrin, to control citrus leafminer, which negatively impact their environment and health. No other specific harms or hazards related to cypermethrin are explicitly mentioned."
+    },
+    "CHEMICAL HARM": "negative impact on environment, negative impact on health"
+  },
+  {
+    "title": "Toxicity of nine insecticides on four natural enemies of Spodoptera exigua",
+    "doi": "10.1038/srep39060",
+    "year": 2016,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity and risk duration of several insecticides including alpha-cypermethrin. It states that emamectin benzoate, spinosad, and chlorantraniliprole showed no toxicity or were harmless to certain natural enemies at recommended concentrations, and had shorter risk durations compared to alpha-cypermethrin, which showed dangerous toxicity and long risk duration. This indicates these substances have safety advantages over alpha-cypermethrin and can be reasonably interpreted as safer alternatives.",
+    "alternatives": "emamectin benzoate; spinosad; chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to S. manilae and T. remus adults",
+        "long risk duration of toxicity on S. manilae and T. remus adults",
+        "occupational/environmental hazard to natural enemies of Spodoptera exigua"
+      ],
+      "rationale": "The reasoning states that alpha-cypermethrin showed dangerously toxic effects and long risk duration on S. manilae and T. remus adults, indicating explicit toxicity harms. No other specific harms such as endocrine disruption, persistence, or bioaccumulation are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to S. manilae and T. remus adults, long risk duration of toxicity on S. manilae and T. remus adults, occupational/environmental hazard to natural enemies of Spodoptera exigua"
+  },
+  {
+    "title": "Toxicity and combined action of some insecticides and clove oil against Rhyzopertha dominica in wheat grain",
+    "doi": "10.24425/122935",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract discusses clove oil combined with alpha-cypermethrin and lambda-cyhalothrin, noting that these combinations may reduce environmental pollution and lower risks to human health compared to using alpha-cypermethrin alone. This suggests a safety advantage of using clove oil mixtures with cypermethrin, implying a safer alternative approach.",
+    "alternatives": "clove oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the efficacy of alpha-cypermethrin as an insecticide and its combinations with other substances but does not explicitly state any harms or hazards related to cypermethrin such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Toxicity assessment of cypermethrin nanoparticles in Channa punctatus: Behavioural response, micronuclei induction and enzyme alteration",
+    "doi": "10.1016/j.yrtph.2018.10.004",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares cypermethrin nanoparticles (CypNPs) with conventional cypermethrin (Cyp) and reports that CypNPs caused significantly less genotoxicity and enzyme alteration, indicating lower toxicity. It explicitly states that CypNPs are less toxic than the conventional form of cypermethrin, suggesting a safety advantage.",
+    "alternatives": "cypermethrin nanoparticles",
+    "target_chemical_harm": {
+      "harms": [
+        "genotoxicity",
+        "tissue impairment",
+        "cellular damage in liver",
+        "physiological stress"
+      ],
+      "rationale": "The reasoning text explicitly states that exposure to cypermethrin (Cyp) increased the percentage of micronuclei indicating genotoxicity, caused increased levels of liver enzymes (ALT, AST, ALP) which are markers of tissue impairment and cellular damage in the liver, and indicated stress and altered physiological condition in the fish."
+    },
+    "CHEMICAL HARM": "genotoxicity, tissue impairment, cellular damage in liver, physiological stress"
+  },
+  {
+    "title": "Efecto de la aplicación de Bacillus thuringiensis en el control del gusano cogollero (Spodoptera frugiperda J.E. Smith) del híbrido de Maíz (Zea mays) INIAP H-551 en la comuna Río Verde provincia de Santa Elena",
+    "doi": "10.26423/rctu.v5i1.312",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Bacillus thuringiensis (BT) with cypermethrin and recommends BT as a clean alternative to control the fall armyworm, highlighting its potential to reduce soil and water contamination and prevent harmful substances from entering the food chain, which implies safety advantages over cypermethrin.",
+    "alternatives": "Bacillus thuringiensis (BT)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that cypermethrin applications prevented economic damage to the crop and recommends using Bacillus thuringiensis as a cleaner alternative to reduce contamination and avoid harmful substances entering the food chain, but no direct harms of cypermethrin are specified."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Efficacy of Precocene I from Desmosstachya bipinnata as an Effective Bioactive Molecules against the Spodoptera litura Fab. and Its Impact on Eisenia fetida Savigny",
+    "doi": "10.3390/molecules26216384",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of Precocene I and two chemical pesticides, including cypermethrin, on the non-target organism Eisenia fetida and reports mortality only with the chemical pesticides, not with Precocene I. This indicates that Precocene I has a safety advantage over cypermethrin and can be interpreted as a safer alternative.",
+    "alternatives": "Precocene I",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that cypermethrin caused mortality in earthworms in a comparative analysis, but does not specify the type of harm or hazard."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "TOXICITY OF INSECTICIDES USED IN MUSKMELON ON FIRST-INSTAR LARVAE OF Chrysoperla genanigra FREITAS ( NEUROPTERA : CHRYSOPIDAE ) 1",
+    "doi": "10.1590/1983-21252017v30n314rc",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including beta-cypermethrin and finds that chlorantraniliprole is classified as innocuous (Class 1) while beta-cypermethrin is harmful (Class 4) to first-instar larvae of Chrysoperla genanigra. It explicitly recommends chlorantraniliprole for use in integrated pest management programs, indicating it as a safer alternative to cypermethrin.",
+    "alternatives": "chlorantraniliprole",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to beneficial organisms (Chrysopidae larvae)",
+        "harmful effects classified as Class 4 toxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that beta-cypermethrin is classified as harmful (Class 4) to first-instar larvae of Chrysoperla genanigra, a beneficial organism, indicating its toxicity. No other specific harms or hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to beneficial organisms (Chrysopidae larvae), harmful effects classified as Class 4 toxicity"
+  },
+  {
+    "title": "PESTICIDES EFFECT ON THE LEVEL OF MTDNA DAMAGE IN BUMBLEBEES HEADS (BOMBUS TERRESTRIS L.)",
+    "doi": "10.52571/ptq.v17.n34.2020.419_p34_pgs_395_402.pdf",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the genotoxic effects of cypermethrin with other pesticides and notes that mitochondria-targeted pesticides (Fenazaquin, Chlorfenapyr, Hydramethylnone, Pyridaben, and Tolfenpyrad) generally cause less mtDNA damage than broad-spectrum pesticides including cypermethrin. This suggests these mitochondria-targeted pesticides may be safer alternatives to cypermethrin in terms of genotoxicity.",
+    "alternatives": "Fenazaquin; Chlorfenapyr; Hydramethylnone; Pyridaben; Tolfenpyrad",
+    "target_chemical_harm": {
+      "harms": [
+        "genotoxicity",
+        "mtDNA damage"
+      ],
+      "rationale": "The reasoning explicitly states that Cypermethrin demonstrated significant genotoxic effects in vivo and is classified among broad-spectrum pesticides that cause greater mitochondrial DNA (mtDNA) genotoxicity in bumblebees' heads."
+    },
+    "CHEMICAL HARM": "genotoxicity, mtDNA damage"
+  },
+  {
+    "title": "Compatibility of insecticides and fungicides with the zoophytophagous mirid predator Nesidiocoris tenuis",
+    "doi": "10.1371/journal.pone.0187439",
+    "year": 2017,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of cypermethrin with two other insecticides, pyriproxyfen and spirotetramat, on the predator Nesidiocoris tenuis. It states that cypermethrin caused significant mortality and reduced reproductive capacity, whereas pyriproxyfen and spirotetramat did not, suggesting these two insecticides are safer alternatives to cypermethrin in terms of compatibility with this beneficial predator.",
+    "alternatives": "pyriproxyfen; spirotetramat",
+    "target_chemical_harm": {
+      "harms": [
+        "lethal toxicity to Nesidiocoris tenuis adults",
+        "sublethal toxicity reducing reproductive capacity of Nesidiocoris tenuis"
+      ],
+      "rationale": "The reasoning explicitly states that multiple exposure to cypermethrin caused significant mortality and significantly reduced reproductive capacity in Nesidiocoris tenuis adults, indicating lethal and sublethal toxic effects."
+    },
+    "CHEMICAL HARM": "lethal toxicity to Nesidiocoris tenuis adults, sublethal toxicity reducing reproductive capacity of Nesidiocoris tenuis"
+  },
+  {
+    "title": "Еvaluation of chemical preparations for apple tree protection against pests according to ecotoxicological indicators",
+    "doi": "10.33730/2077-4893.3.2023.287770",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract identifies several preparations, including Kalipso 480 SC, Movento 100 SC, Oberon Rapid 240 SC, Transform WG, and Fufanon 570 EC, as posing the least potential danger to the natural environment when used according to recommended norms. It also states that pyrethroid preparations such as Karate Zeon 050 CS, Fastak EC, and Alfahard 100 EC, which include cypermethrin, pose the biggest danger in apple tree agrobiocenoses. This comparison implies that the named preparations are safer alternatives to cypermethrin-based pyrethroids.",
+    "alternatives": "Kalipso 480 SC; Movento 100 SC; Oberon Rapid 240 SC; Transform WG; Fufanon 570 EC",
+    "target_chemical_harm": {
+      "harms": [
+        "ecotoxicological risk",
+        "danger to agrobiocenoses of apple trees",
+        "classified as dangerous or very dangerous (levels 2 and 3 hazard)"
+      ],
+      "rationale": "The reasoning text explicitly states that cypermethrin is among active ingredients with the highest ecotoxicological risk and that preparations containing cypermethrin (e.g., Karate Zeon 050 CS mks, Fastak EC, Alfahard 100 EC) are classified as dangerous or very dangerous. It also mentions that pyrethroid class preparations, including those with cypermethrin, pose the biggest danger in agrobiocenoses of apple trees. No other specific harms such as toxicity types, endocrine disruption, persistence, or bioaccumulation are explicitly stated."
+    },
+    "CHEMICAL HARM": "ecotoxicological risk, danger to agrobiocenoses of apple trees, classified as dangerous or very dangerous (levels 2 and 3 hazard)"
+  },
+  {
+    "title": "Impact of different groups of pesticides on the population dynamic of honey bee (Apis melifera L.)",
+    "doi": "10.33865/wjb.009.02.1346",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares synthetic pesticides including cypermethrin with botanical pesticides and reports much lower honey bee mortality and repellency rates for botanical extracts (e.g., Azadirachta indica and stramonium leaves) than for cypermethrin (80.3% mortality). This indicates botanical pesticides are safer alternatives to cypermethrin in terms of honey bee toxicity.",
+    "alternatives": "botanical pesticides",
+    "target_chemical_harm": {
+      "harms": [
+        "lethal effects on the survival of honey bees",
+        "high mortality rate in honey bees (80.3%)",
+        "repellency effects on honey bees"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin, a pyrethroid pesticide, caused a high mortality rate (80.3%) in honey bees and had repellency effects, indicating lethal and harmful impacts on honey bee populations."
+    },
+    "CHEMICAL HARM": "lethal effects on the survival of honey bees, high mortality rate in honey bees (80.3%), repellency effects on honey bees"
+  },
+  {
+    "title": "Diverse Approaches to Insect Control: Utilizing Brassica carinata (A.) Braun and Camelina sativa (L.) Crantz Oil as Modern Bioinsecticides",
+    "doi": "10.3390/f15010105",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract discusses botanical insecticides derived from Brassica carinata and Camelina sativa oils as promising alternatives to chemical insecticides, including alpha-cypermethrin, which has been withdrawn by the EU due to harmful effects. It explicitly states that these oil-based preparations will not pose a threat to living beings or the environment, implying a safety advantage over cypermethrin. Therefore, it clearly presents a safer alternative to cypermethrin.",
+    "alternatives": "Brassica carinata oil; Camelina sativa oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It mentions the withdrawal of preparations containing alpha-cypermethrin by the EU to minimize harmful effects of insecticides, but does not specify the types of harms or hazards associated with cypermethrin itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Ovicidal and repellent activities of several plant essential oils against Periplaneta americana L. and enhanced activities from their combined formulation",
+    "doi": "10.1038/s41598-022-16386-x",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares a combined essential oil (EO) formulation to 10% cypermethrin, showing nearly equivalent efficacy in ovicidal and repellent activities. It explicitly states that the combined EO formulation should be much safer to use and can replace cypermethrin, indicating a clear safety advantage and positioning the EO formulation as a safer alternative.",
+    "alternatives": "combined essential oil (EO) formulation",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its high toxicity against cockroach eggs and compares its efficacy to essential oil formulations, suggesting the latter may be safer, but no specific harms or hazards of cypermethrin are detailed."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Exploring the Insecticidal Potential of Boldo (Peumus boldus) Essential Oil: Toxicity to Pests and Vectors and Non-target Impact on the Microcrustacean Daphnia magna",
+    "doi": "10.3390/molecules24050879",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly states that boldo essential oil (BEO) was significantly less toxic to the aquatic microcrustacean Daphnia magna than the conventional insecticide α-cypermethrin at LC90 concentration, indicating a safety advantage. This suggests BEO as a safer alternative to cypermethrin.",
+    "alternatives": "boldo essential oil (BEO)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that boldo essential oil (BEO) was significantly less toxic to Daphnia magna than the conventional insecticide α-cypermethrin, but does not specify any particular toxicity or hazard of cypermethrin itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Conventional Versus Biorational Insecticides for Controlling Mustard Aphid and Their Effects on Beneficial Insects",
+    "doi": "10.3329/jbau.v22i3.76406",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares three biorational insecticides with cypermethrin and other conventional insecticides, showing that Lufenuron and Nimbicidine were more effective in reducing aphid infestation and did not reduce beneficial insects like ladybird beetles and honey bees, unlike cypermethrin which reduced these beneficial insects and was least effective. This indicates that Lufenuron and Nimbicidine have safety advantages regarding non-target beneficial insects and efficacy, making them safer alternatives to cypermethrin.",
+    "alternatives": "Lufenuron; Nimbicidine",
+    "target_chemical_harm": {
+      "harms": [
+        "reduction in number of ladybird beetle",
+        "reduction in number of honey bee",
+        "least effective in controlling aphid infestation compared to other insecticides"
+      ],
+      "rationale": "The reasoning text explicitly states that conventional insecticides including Cypermethrin (Cypraplus) reduced the number of ladybird beetle and honey bee visits per plot, indicating a harmful effect on these beneficial insects. It also mentions that Cypermethrin was the least effective in reducing aphid infestation and resulted in the lowest yield, implying a negative impact on crop productivity. No other explicit harms such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "reduction in number of ladybird beetle, reduction in number of honey bee, least effective in controlling aphid infestation compared to other insecticides"
+  },
+  {
+    "title": "Lethal and transgenerational effect of chlorpyrifos, Imunit and\n Metarhizium anisopliae\n on the survival, immunity and demographic parameters of\n Rhynchophorus ferrugineus\n Olivier",
+    "doi": "10.1079/ab.2025.0034",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the effects of chlorpyrifos, Imunit (which contains alpha-cypermethrin + teflubenzuron), and Metarhizium anisopliae on Rhynchophorus ferrugineus. It highlights that Metarhizium anisopliae is an ecologically safe and environmentally friendly biocontrol agent with lower detoxification enzyme activity, suggesting less chance of resistance and implying better safety. The conclusion recommends incorporating Metarhizium anisopliae with Imunit for eco-friendly management, indicating it as a safer alternative to chlorpyrifos and by extension to cypermethrin-containing products.",
+    "alternatives": "Metarhizium anisopliae",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses the effects of Imunit (which contains alpha-cypermethrin and teflubenzuron) on the red palm weevil and mentions impacts on pest population parameters and enzyme activity related to resistance. However, it does not explicitly state any harms or hazards related to cypermethrin itself, such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Comparative toxicity of different chemical and biological insecticides against the scale insect Dactylopius opuntiae and their side effects on the predator Cryptolaemus montrouzieri",
+    "doi": "10.1080/03235408.2019.1589909",
+    "year": 2019,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of several insecticides including alpha-cypermethrin and finds that d-limonene and mineral oil cause high mortality to the target pest but have much lower mortality on the predator C. montrouzieri compared to alpha-cypermethrin. It explicitly states that d-limonene and mineral oil may be viable alternatives to other high-risk chemical pesticides, implying a safety advantage over cypermethrin.",
+    "alternatives": "d-limonene; mineral oil",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to predator ladybird Cryptolaemus montrouzieri adults",
+        "toxicity to predator ladybird Cryptolaemus montrouzieri larvae"
+      ],
+      "rationale": "The text explicitly states that alpha-cypermethrin caused high mortality (92–97%) in adult C. montrouzieri and 89–95% mortality in larvae 24 hours after treatment, indicating toxicity to these non-target beneficial insects."
+    },
+    "CHEMICAL HARM": "toxicity to predator ladybird Cryptolaemus montrouzieri adults, toxicity to predator ladybird Cryptolaemus montrouzieri larvae"
+  },
+  {
+    "title": "Development of Insecticide Resistance in Field Populations of Onion Thrips, Thrips tabaci (Thysanoptera: Thripidae)",
+    "doi": "10.3390/insects14040376",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract states that spinosyns (spinosad and spinetoram) showed the lowest levels of resistance in Thrips tabaci populations compared to cypermethrin, which had moderate to high resistance levels. It explicitly mentions that spinosyns could be used as alternatives to conventional insecticides, implying a potential safety or efficacy advantage over cypermethrin.",
+    "alternatives": "spinosad; spinetoram",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses insecticide resistance levels in onion thrips populations to various chemicals including cypermethrin, but does not explicitly state any harms or hazards such as toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Laboratory contact effect of some insecticides on predatory assasin bug, Rhynocoris marginatus Fabricius (Reduviidae: Hemiptera)",
+    "doi": "10.22271/chemi.2020.v8.i6k.10862",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxicity of various insecticides to a predatory bug and notes that cypermethrin (in combination with ethion) is slightly harmful. It identifies several insecticides, including thiacloprid and azadirachtin, as having the greatest safety (harmless category) against the predator. This indicates these substances have safety advantages relative to cypermethrin, suggesting they could be safer alternatives.",
+    "alternatives": "thiacloprid; azadirachtin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text states that cypermethrin, in combination with ethion, was slightly harmful with corrected mortality ranging from 51.30% to 76.48%, but does not explicitly state specific harms or hazards such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards for cypermethrin alone."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Selectivity of Abamectin Against Chrysoperla carnea (Stephens) (Chrysopidae, Neuroptera)",
+    "doi": "10.9734/jsrr/2025/v31i12803",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly states that all doses of abamectin were comparatively safer than cypermethrin, indicating a clear safety advantage. It also mentions that abamectin is found harmless to Chrysoperla carnea and can be used selectively in integrated control programs, supporting its role as a safer alternative to cypermethrin.",
+    "alternatives": "abamectin",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The text states that cypermethrin is less safe compared to abamectin for the predator Chrysoperla carnea, implying some level of harm, but does not explicitly specify the types of harms or hazards caused by cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Selectividad de insecticidas con el parasitoide Tamarixia triozae (Hymenoptera: Eulophidae) para el control de Bactericera cockerelli (Hemiptera: Triozidae)",
+    "doi": "10.21640/ns.v12i25.2618",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the selectivity ratio of several insecticides including cypermethrin and finds that only Metarhizium anisopliae shows a selectivity ratio (PS = 3.58) greater than one, indicating it is selective and presumably safer for the parasitoid Tamarixia triozae compared to cypermethrin (PS = 0.01). This suggests M. anisopliae is a safer alternative to cypermethrin.",
+    "alternatives": "Metarhizium anisopliae",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to parasitoid Tamarixia triozae"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin showed a very low selectivity ratio (PS = 0.01) indicating high toxicity to the parasitoid T. triozae, a beneficial insect. No other explicit harms or hazards such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to parasitoid Tamarixia triozae"
+  },
+  {
+    "title": "Anise and Fennel Essential Oils and Their Combination as Natural and Safe Housefly Repellents",
+    "doi": "10.3390/insects16010023",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares fennel and anise essential oils and their combination to α-cypermethrin, stating that the essential oils are safe for non-target species such as guppies and earthworms, implying a safety advantage. It explicitly refers to these essential oils as natural, stable, and environmentally friendly alternatives to α-cypermethrin, indicating they are safer alternatives.",
+    "alternatives": "fennel essential oil; anise essential oil",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that synthetic chemical repellents, including α-cypermethrin as a reference, have negative impacts on humans, non-target organisms, and the environment generally, but does not specify particular harms or hazards of cypermethrin itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Study on the Effects of Organophosphate Insecticide Triazophos, Biopesticide Spinosad and a Pyrethroid Insecticide Cypermethrin on Oxidative Stress Biomarkers of Branchiura sowerbyi (Beddard, 1892)",
+    "doi": "10.46488/nept.2022.v21i02.043",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the toxic effects of cypermethrin, triazophos, and spinosad on oxidative stress biomarkers in Branchiura sowerbyi. It states that the integrated biomarker response (IBR) ranks the toxicants as Cypermethrin > Triazophos > Spinosad, indicating spinosad has the lowest toxicity among the three. This suggests spinosad is safer than cypermethrin and can be interpreted as a safer alternative.",
+    "alternatives": "spinosad",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity to benthic Oligochaete worm Branchiura sowerbyi",
+        "increased reactive oxygen species (ROS) creation",
+        "oxidative stress indicated by increased catalase (CAT) activity"
+      ],
+      "rationale": "The reasoning explicitly states that cypermethrin causes toxic effects on Branchiura sowerbyi, including a significant increase in catalase activity due to increased ROS creation, indicating oxidative stress. No other explicit harms such as endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "toxicity to benthic Oligochaete worm Branchiura sowerbyi, increased reactive oxygen species (ROS) creation, oxidative stress indicated by increased catalase (CAT) activity"
+  },
+  {
+    "title": "MANAGEMENT OPTIONS AGAINST POD BORER (MARUCA TESTULALIS GEYER) AND POD SUCKING BUGS (RIPTORTUS DENTIPES) OF COWPEA (VIGNA UNGUICULATA (L.) WALP.)",
+    "doi": "10.26480/trab.01.2020.24.30",
+    "year": 2020,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Spinosad, neemix, and Chlorpyriphos + Cypermethrin for pest management. It states that Spinosad is an eco-friendly, safe, and less hazardous bio-pesticide and recommends it as a good approach. This indicates Spinosad is presented as a safer alternative to Cypermethrin.",
+    "alternatives": "Spinosad",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its use in combination with chlorpyriphos as a synthetic insecticide and compares its efficacy and economic benefits to other treatments, without detailing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Laboratory and field trials reveal the potential of a gel formulation of entomopathogenic nematodes as biocontrol against the fall armyworm (Spodoptera frugiperda)",
+    "doi": "10.1101/2022.02.03.479057",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract states that the gel formulation of entomopathogenic nematodes (EPN) was as effective as a standard dose of cypermethrin and describes EPN as a safe and sustainable alternative to chemical insecticides, implying safety advantages over cypermethrin.",
+    "alternatives": "entomopathogenic nematodes (EPN)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions that cypermethrin is a commonly used insecticide against fall armyworm and compares its effectiveness to entomopathogenic nematodes, without describing any toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Essential oil and fenchone extracted from Tetradenia riparia (Hochstetter.) Codd (Lamiaceae) induce oxidative stress in Culex quinquefasciatus larvae (Diptera: Culicidae) without causing lethal effects on non-target animals",
+    "doi": "10.1007/s11356-024-33440-5",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract explicitly compares the essential oil (EO) from Tetradenia riparia and fenchone to α-cypermethrin, showing that EO and fenchone caused no lethal effects on non-target animals at tested concentrations, whereas α-cypermethrin caused 100% mortality. This indicates a clear safety advantage of EO and fenchone over cypermethrin, supporting them as safer alternatives for larvicidal use.",
+    "alternatives": "essential oil (EO) from Tetradenia riparia; fenchone",
+    "target_chemical_harm": {
+      "harms": [
+        "extreme toxicity to non-target animals",
+        "causing 100% death in Anisops bouvieri, Diplonychus indicus, Danio rerio, and Paracheirodon axelrodi"
+      ],
+      "rationale": "The text explicitly states that α-cypermethrin at 0.25 µg/mL was extremely toxic to non-target animals, causing 100% mortality, indicating a significant hazard to these species."
+    },
+    "CHEMICAL HARM": "extreme toxicity to non-target animals, causing 100% death in Anisops bouvieri, Diplonychus indicus, Danio rerio, and Paracheirodon axelrodi"
+  },
+  {
+    "title": "Plant essential oils, trans-anethole and eugenol, for housefly knockdown and mortality",
+    "doi": "10.63369/ijat.2025.21.2.555-562",
+    "year": 2025,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares trans-anethole and eugenol to cypermethrin and states that trans-anethole has high toxicity and low residue, making it a superior control for houseflies. The mention of low residue implies a safety advantage over cypermethrin, indicating trans-anethole as a safer alternative.",
+    "alternatives": "trans-anethole",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text compares the knockdown and mortality effects of natural oils and cypermethrin on houseflies but does not explicitly state any harms or hazards associated with cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Control of Dermatobia hominis larvae by manual extraction is effective and does not cause abscesso",
+    "doi": "10.1590/1678-5150-pvb-7260",
+    "year": 2023,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares three treatments including one with cypermethrin and manual larva extraction. Manual extraction was 100% effective and caused no abscesses, whereas the chemical treatments including cypermethrin caused abscesses. This indicates manual extraction is a safer alternative to cypermethrin.",
+    "alternatives": "manual larva extraction",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to cypermethrin. It only mentions its use in a treatment mixture and notes the presence of abscesses after treatment, but does not explicitly attribute these or any other harms directly to cypermethrin."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Lethal and sublethal effects of ten insecticides, used in date palm production in Saudi Arabia, on the parasitoid Trichogramma cacoeciae",
+    "doi": "10.2478/hppj-2018-0009",
+    "year": 2018,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the harmfulness of cypermethrin and other insecticides to the parasitoid Trichogramma cacoeciae. It states that cypermethrin is moderately harmful (IOBC Class 3), while bistrifluron is harmless (IOBC Class 1) and matrine is slightly harmful (IOBC Class 2). This indicates that bistrifluron and matrine have lower toxicity to the beneficial parasitoid compared to cypermethrin, suggesting a safety advantage. Therefore, bistrifluron and matrine can be reasonably interpreted as safer alternatives to cypermethrin.",
+    "alternatives": "bistrifluron; matrine",
+    "target_chemical_harm": {
+      "harms": [
+        "moderately harmful to Trichogramma cacoeciae adults (IOBC Class 3)",
+        "harmful residues on tomato leaves causing parasitoid mortality at 24 hours post-treatment"
+      ],
+      "rationale": "The text explicitly states that cypermethrin is moderately harmful (IOBC Class 3) to the parasitoid Trichogramma cacoeciae and that residues on tomato leaves are considered moderately harmful to harmful based on parasitoid mortality at 24 hours post-treatment. No other explicit harms such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "moderately harmful to Trichogramma cacoeciae adults (IOBC Class 3), harmful residues on tomato leaves causing parasitoid mortality at 24 hours post-treatment"
+  },
+  {
+    "title": "Efficacy of Chromafenozide Insecticide to Control Tirathaba rufivena and Its Impacts on Oil Palm Pollinator E. kamerunicus",
+    "doi": "10.1088/1755-1315/1308/1/012044",
+    "year": 2024,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares Chromafenozide, Cypermethrin, and Bacillus thuringiensis var kurstaky for controlling Tirathaba rufivena. It states that Chromafenozide was less detrimental to the pollinator E. kamerunicus than Cypermethrin, indicating a safety advantage. This suggests Chromafenozide as a safer alternative to Cypermethrin.",
+    "alternatives": "Chromafenozide",
+    "target_chemical_harm": {
+      "harms": [
+        "causes significant mortality to Elaedobius kamerunicus (pollinator weevil)"
+      ],
+      "rationale": "The reasoning states that Cypermethrin treatment caused significant mortality to the pollinator weevil Elaedobius kamerunicus, indicating a harmful effect on this non-target beneficial insect species."
+    },
+    "CHEMICAL HARM": "causes significant mortality to Elaedobius kamerunicus (pollinator weevil)"
+  },
+  {
+    "title": "In vitro acaricidal activity of extracts of red cultivar Allium cepa L. on engorged female Rhipicephalus (Boophilus) annulatus from naturally infested cattle",
+    "doi": "10.36759/svj.2021.131",
+    "year": 2021,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares the acaricidal efficacy of red cultivar Allium cepa L. extracts to cypermethrin, showing similar or better tick mortality and oviposition inhibition. It explicitly states that the plant extract could be an alternative to chemical acaricides like cypermethrin without exposing the environment, animals, and humans to hazards, indicating a safety advantage.",
+    "alternatives": "red cultivar Allium cepa L. extracts",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with cypermethrin. It only compares the efficacy of cypermethrin to plant extracts and suggests the plant extracts as alternatives to avoid exposing the environment, animals, and humans to hazards, but does not specify what those hazards are."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evaluation of Entomopathogenic Fungi against Peregrinus Maidis (Ashmead)",
+    "doi": "10.55446/ije.2022.523",
+    "year": 2022,
+    "target": "cypermethrin",
+    "reasoning": "The abstract compares entomopathogenic fungi (Lecanicillium lecani) with cypermethrin and notes that while both reduce pest populations similarly, the fungi treatments conserve natural enemy populations better, whereas cypermethrin reduces beneficial insects. This indicates a safety advantage of the fungi over cypermethrin in terms of ecological impact, suggesting a safer alternative.",
+    "alternatives": "entomopathogenic fungi (Lecanicillium lecani)",
+    "target_chemical_harm": {
+      "harms": [
+        "reduction in beneficial insects (spiders and coccinellids)"
+      ],
+      "rationale": "The text explicitly states that cypermethrin, due to its chemical properties, led to a reduction in beneficial insect populations, specifically spiders and coccinellids."
+    },
+    "CHEMICAL HARM": "reduction in beneficial insects (spiders and coccinellids)"
+  }
+]

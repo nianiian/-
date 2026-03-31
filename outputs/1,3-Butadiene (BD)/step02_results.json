@@ -1241,7 +1241,7 @@
       },
       {
         "authorId": "93571838",
-        "name": "J. Poissonnier"
+        "name": "Jeroen Poissonnier"
       },
       {
         "authorId": "3708817",
@@ -1527,7 +1527,7 @@
         "name": "Liancheng Bing"
       }
     ],
-    "abstract": "\n ETB remains challenged by the relatively low yield of 1,3-butadiene (BD), despite its potential as a cost-effective route in chemical production. In this study, a series of nanostructured xZnyCe/S-1 catalysts were synthesized via a hydrothermal method combined with incipient wetness impregnation for the ETB reaction. Characterization results (including SEM, TEM, and N2 adsorption-desorption) revealed a positive correlation between BD yield and the hierarchical nanostructure as well as the synergistic effect of multiple active sites. Among them, the 6Zn4Ce/S-1 catalyst exhibited excellent ETB performance under mild reaction conditions (375 °C, 101.325 kPa, WHSV = 5 h−1), achieving a BD selectivity of 50.9%."
+    "abstract": "ETB remains challenged by the relatively low yield of 1,3-butadiene (BD), despite its potential as a cost-effective route in chemical production. In this study, a series of nanostructured xZnyCe/S-1 catalysts were synthesized via a hydrothermal method combined with incipient wetness impregnation for the ETB reaction. Characterization results (including SEM, TEM, and N2 adsorption-desorption) revealed a positive correlation between BD yield and the hierarchical nanostructure as well as the synergistic effect of multiple active sites. Among them, the 6Zn4Ce/S-1 catalyst exhibited excellent ETB performance under mild reaction conditions (375 °C, 101.325 kPa, WHSV = 5 h−1), achieving a BD selectivity of 50.9%."
   },
   {
     "paperId": "1394e0de261fcc03dd46828417bc686c6d26e608",
@@ -3941,7 +3941,7 @@
       },
       {
         "authorId": "93571838",
-        "name": "J. Poissonnier"
+        "name": "Jeroen Poissonnier"
       },
       {
         "authorId": "2372725721",
@@ -5283,6 +5283,66 @@
     ],
     "authors": [],
     "abstract": null
+  },
+  {
+    "paperId": "49083f64b8fd791e169c075f5b497d9397dcbe35",
+    "externalIds": {
+      "DOI": "10.1021/jacs.5c16367",
+      "CorpusId": 282588637,
+      "PubMed": "41160720"
+    },
+    "url": "https://www.semanticscholar.org/paper/49083f64b8fd791e169c075f5b497d9397dcbe35",
+    "title": "Identification of Highly Active Co-O-Zn Sites in Silanol Nests for n-Butane Cascade Dehydrogenation to 1,3-Butadiene.",
+    "venue": "Journal of the American Chemical Society",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/jacs.5c16367?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/jacs.5c16367, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2257986834",
+        "name": "Yanfei Zhang"
+      },
+      {
+        "authorId": "2324133032",
+        "name": "Tingshu Yang"
+      },
+      {
+        "authorId": "2390286039",
+        "name": "Jiaochan Hu"
+      },
+      {
+        "authorId": "49681514",
+        "name": "Linying Wang"
+      },
+      {
+        "authorId": "95095297",
+        "name": "Mingbin Gao"
+      },
+      {
+        "authorId": "2105883751",
+        "name": "Liang Qi"
+      },
+      {
+        "authorId": "2277899543",
+        "name": "Alexis T. Bell"
+      },
+      {
+        "authorId": "2291223515",
+        "name": "Peng Tian"
+      },
+      {
+        "authorId": "2239978044",
+        "name": "Zhongmin Liu"
+      }
+    ],
+    "abstract": "n-Butane dehydrogenation (BDH) provides an on-purpose route to produce 1,3-BD. However, design of highly active and selective catalysts targeting BDH to 1,3-BD remains challenging because the activation barrier for the dehydrogenation of 1-butene (a primary product of BDH) is high and 1-butene readily isomerizes. Here, we report a bimetallic Co-O-Zn active site with the structure of ≡SiO-Co-O-Zn-OSi≡ prepared by reacting Co ions with ≡SiOZn-OH nests on dealuminated zeolite BEA (DeAlBEA), showing 3- and 34-fold activity advantages over monometallic Co and Zn counterparts, respectively. Co-O-Zn sites exhibit a high BDH rate of 354 mol·molCo-1·h-1 and a 1,3-BD productivity of 110 mol·molCo-1·h-1 (and selectivity to 1,3-BD of 31%) at 823 K. The forward rate coefficient for BDH is superior to state-of-the-art non-noble-metal catalysts and comparable to Pt-based catalysts. A kinetics investigation suggests that the Co-O-Zn interactions promote n-butane adsorption and activation of the C-H bond during both BDH and 1-butene dehydrogenation. Our work demonstrates a promising pathway for producing 1,3-BD via BDH using a catalyst that is free of expensive noble metals."
   },
   {
     "paperId": "4987ca6446b5a9289c054258c2870a1be63d9cda",
@@ -8351,6 +8411,47 @@
     "abstract": "To explore the role of folate metabolism in 1,3-Butadiene (BD)'s genotoxicity, we conducted a match-up study in BD-exposed workers in China to analyze the associations between the polymorphisms of methylenetetrahydrofolate reductase (MTHFR) and the chromosomal damage induced by BD exposure, and culture-based experiments in TK-6 cells to examine the global DNA methylation levels and chromosomal damage when exposed both to BD’s genotoxic metabolite, 1,2:3,4-diepoxybutane (DEB), and MTHFR’s direct catalytic product, 5-methyltetrahydrofolate (5-MTHF). Cytokinesis block micronucleus assay (CBMN) was used to examine the chromosomal damage induced by BD or DEB. Poisson regression models were produced to quantify the relationship of chromosomal damage and genetic polymorphisms in the BD-exposed workers. Global DNA methylation levels in TK6 cells were examined using DNA Methylation Quantification Kit. We found that BD-exposed workers carrying MTHFR C677T CC (2.00 ± 2.00‰) (FR = 0.36, 95%CI: 0.20–0.67, P < 0.01) or MTHFR C677T CT (2.87 ± 1.98‰) (FR = 0.49, 95%CI: 0.32–0.77, P < 0.01) genotypes had significantly lower nuclear bud (NBUD) frequencies than those carrying genotype MTHFR 677 TT (5.33 ± 2.60‰), respectively. The results in TK6 cells showed that there was a significant increment in frequencies of micronucleus (MN), nucleoplasmic bridge (NPB) and nuclear bud (NBUD) with exposure to DEB at each 5-MTHF dose (ANOVA, P < 0.01). Additionally, there was a significant decrease in frequencies of MN, NPB and NBUD in DEB-exposed cultures with increasing concentration of 5-MTHF (ANOVA, P < 0.05). The levels of global DNA methylation were significantly decreased by DEB treatment in a dose-dependent manner within each 5-MTHF concentration in TK-6 cells (ANOVA, P < 0.01), and were significantly increased by 5-MTHF supplementation within each DEB concentration (ANOVA, P < 0.01). We reported that folate metabolism could modify the association between BD exposure and chromosomal damage, and such effect may be partially mediated by DNA hypomethylation, and 5-MTHF supplementation could rescue it."
   },
   {
+    "paperId": "71ea801a1beb67679b2501b89064335246e7fe7d",
+    "externalIds": {
+      "DOI": "10.1007/s10118-025-3408-5",
+      "CorpusId": 282500262
+    },
+    "url": "https://www.semanticscholar.org/paper/71ea801a1beb67679b2501b89064335246e7fe7d",
+    "title": "Synthesis and Characterization of Terpenoid-derived Poly(6,10-dimethyl-1,3,9-undecatriene): A Biobased and Sustainable Polymer from Renewable Citronellal",
+    "venue": "Chinese Journal of Polymer Science",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10118-025-3408-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10118-025-3408-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2249488641",
+        "name": "Xin Li"
+      },
+      {
+        "authorId": "2108636458",
+        "name": "Feng Wang"
+      },
+      {
+        "authorId": "2282963389",
+        "name": "Qi Yang"
+      },
+      {
+        "authorId": "2257938969",
+        "name": "Xue-quan Zhang"
+      },
+      {
+        "authorId": "2258079146",
+        "name": "Heng Liu"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "72d84b9fdb333e0ac252f73087af304817071fab",
     "externalIds": {
       "MAG": "2150828988",
@@ -9071,6 +9172,41 @@
       {
         "authorId": "2865016",
         "name": "R. Henderson"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "7fa7bc5c4c8e40be16eb47e75bda8871beb54509",
+    "externalIds": {
+      "DOI": "10.1007/s00214-024-03154-5",
+      "CorpusId": 274455669
+    },
+    "url": "https://www.semanticscholar.org/paper/7fa7bc5c4c8e40be16eb47e75bda8871beb54509",
+    "title": "Theoretical prediction of the dehydration mechanism of 1, 3-butanediol as a potential biofuel surrogate",
+    "venue": "Theoretical Chemistry accounts",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00214-024-03154-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00214-024-03154-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2295966182",
+        "name": "Mohamed A Abdel-Rahman"
+      },
+      {
+        "authorId": "2333501633",
+        "name": "Mohammed K. Morse"
+      },
+      {
+        "authorId": "2333458662",
+        "name": "Hao Zhao"
       }
     ],
     "abstract": null
@@ -10770,8 +10906,10 @@
   {
     "paperId": "98f6ed4cc02d60114af1d94701ed6ae8e35b1184",
     "externalIds": {
+      "PubMedCentral": "12568132",
       "DOI": "10.3390/toxics13100844",
-      "CorpusId": 281861639
+      "CorpusId": 281861639,
+      "PubMed": "41150543"
     },
     "url": "https://www.semanticscholar.org/paper/98f6ed4cc02d60114af1d94701ed6ae8e35b1184",
     "title": "Strain and Sex Variability in Liver, Kidney and Lung Levels of DNA Adducts EB-GII and bis-N7G-BD Following Inhalation Exposure to 1,3-Butadiene in Collaborative Cross Mice",
@@ -10780,8 +10918,8 @@
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/toxics13100844?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/toxics13100844, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12568132, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -12099,6 +12237,57 @@
     "abstract": "1,3-Butadiene (BD) is a volatile compound widely used in the production of synthetic rubbers. BD has been classified as “carcinogenic to humans” by the International Agency for Research on Cancer (IARC) because an association between occupational exposure to BD and increased risk of leukemia was shown. Interspecies difference in susceptibility to BD carcinogenicity has been observed, with mice being more sensitive than rats. The key steps of BD carcinogenicity involve the metabolic activation of BD to different epoxides known to bind to DNA, leading to mutations. BD was shown to be genotoxic in different in vitro systems only in the presence of metabolic activation. Ten in vivo MN-assays carried out in mice showed consistently positive results in bone marrow. Two studies in rats reported negative results. Four small sized studies using the MN assay in peripheral lymphocytes of subjects occupationally exposed to 1–3 ppm of BD did not show any increase in MN frequency. Three studies recently carried out in China showed increased MN frequencies associated with the intensity of the exposure, with a frequency ratio of 2.29 when the mean cumulative dose was 266 ppm year−1. These results are consistent with the exposure–response curve for leukemia mortality, showing no increase for cumulative exposure of less than or equal to 200 BD ppm-years."
   },
   {
+    "paperId": "b284b6b7ca0ba2213a0f442c598401be5ad0e159",
+    "externalIds": {
+      "DOI": "10.1038/s41929-024-01250-0",
+      "CorpusId": 274098045
+    },
+    "url": "https://www.semanticscholar.org/paper/b284b6b7ca0ba2213a0f442c598401be5ad0e159",
+    "title": "Selective electroreduction of acetylene to 1,3-butadiene on iodide-induced Cuδ+–Cu0 sites",
+    "venue": "Nature Catalysis",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://www.nature.com/articles/s41929-024-01250-0.pdf",
+      "status": "HYBRID",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41929-024-01250-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41929-024-01250-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2077235421",
+        "name": "Wei Jie Teh"
+      },
+      {
+        "authorId": "1491403735",
+        "name": "E. Romeo"
+      },
+      {
+        "authorId": "2327057044",
+        "name": "Shibo Xi"
+      },
+      {
+        "authorId": "91297150",
+        "name": "B. Rowley"
+      },
+      {
+        "authorId": "2239219168",
+        "name": "Francesc Illas"
+      },
+      {
+        "authorId": "1397795821",
+        "name": "F. Calle‐Vallejo"
+      },
+      {
+        "authorId": "1846582",
+        "name": "Boon Siang Yeo"
+      }
+    ],
+    "abstract": "A crucial task towards creating a sustainable chemical industry is the electrification of chemical processes that produce value-added molecules. One such molecule is 1,3-butadiene (1,3-BD), the feedstock used for manufacturing synthetic rubber. 1,3-BD is traditionally derived, as a by-product, during the energy-intensive steam cracking of naphtha to ethylene. Here we introduce an alternative approach to selectively produce 1,3-BD from the electroreduction of acetylene (e-C2H2R). By using a potassium iodide electrolyte, we created Cuδ+–Cu0 sites on a Cu2O-nanocube-derived catalyst, which are efficacious for promoting e-C2H2R to 1,3-BD. 1,3-BD was formed with a Faradaic efficiency reaching 93% at −0.85 V versus standard hydrogen electrode (SHE) and a partial current density of −75 mA cm−2 at −1.0 V versus SHE. Density functional theory calculations show that I− preserves Cuδ+–Cu0 sites, which facilitate the favourable binding of acetylene, leading to 1,3-BD formation through the coupling of *C2H3 moieties. Electrifying energy-intensive processes is a promising approach for decarbonization. Now, 1,3-butadiene is electrochemically produced from acetylene on I−−induced Cuδ+–Cu0 sites with a Faradaic efficiency of over 90% at −0.85 VSHE and a partial current density of −75 mA cm−2 at −1.0 VSHE."
+  },
+  {
     "paperId": "b38cea30984996c6c18bf2dd473ea901a9588a34",
     "externalIds": {
       "MAG": "2154800690",
@@ -13084,7 +13273,7 @@
       },
       {
         "authorId": "93571838",
-        "name": "J. Poissonnier"
+        "name": "Jeroen Poissonnier"
       },
       {
         "authorId": "88848632",
@@ -13240,6 +13429,61 @@
       {
         "authorId": "2241807214",
         "name": "James A. Bond"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "bf76e3809da38162455d658abdecc02fd56a80e4",
+    "externalIds": {
+      "DOI": "10.1007/s10118-024-3078-8",
+      "CorpusId": 267467246
+    },
+    "url": "https://www.semanticscholar.org/paper/bf76e3809da38162455d658abdecc02fd56a80e4",
+    "title": "Study on Catalytic Behavior of Iron-based Catalyst with IITP as Electron Donor in the Polymerization of Butadiene",
+    "venue": "Chinese Journal of Polymer Science",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10118-024-3078-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10118-024-3078-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2282607502",
+        "name": "Shiliang Xu"
+      },
+      {
+        "authorId": "2244607257",
+        "name": "Yingrui Zhao"
+      },
+      {
+        "authorId": "2283509966",
+        "name": "Yao Yu"
+      },
+      {
+        "authorId": "2282963389",
+        "name": "Qi Yang"
+      },
+      {
+        "authorId": "2282816729",
+        "name": "Lihua Na"
+      },
+      {
+        "authorId": "2258079146",
+        "name": "Heng Liu"
+      },
+      {
+        "authorId": "48935388",
+        "name": "Chunyu Zhang"
+      },
+      {
+        "authorId": "2257938969",
+        "name": "Xue-quan Zhang"
       }
     ],
     "abstract": null

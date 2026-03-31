@@ -3,6 +3,7 @@
 
 # OpenAI API client
 openai>=1.0.0
+python-dotenv>=1.0.0
 
 # Data manipulation and analysis
 pandas>=1.5.0
@@ -39,3 +40,6 @@ dataclasses  # Built-in in Python 3.7+
 
 # Random utilities (built-in)
 # random - built-in module
+# PDF and document parsing (Step 05)
+PyMuPDF>=1.20.0
+pdfplumber>=0.9.0truststore

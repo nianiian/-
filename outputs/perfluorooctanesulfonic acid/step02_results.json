@@ -434,26 +434,27 @@
   {
     "paperId": "035cbf66cde40aaa101b2f24b9d4b31cb14689bf",
     "externalIds": {
+      "PubMedCentral": "12593342",
       "DOI": "10.1021/acs.est.5c09583",
       "CorpusId": 282375292,
       "PubMed": "41134985"
     },
     "url": "https://www.semanticscholar.org/paper/035cbf66cde40aaa101b2f24b9d4b31cb14689bf",
-    "title": "Association between Maternal Exposure to Per- and Polyfluoroalkyl Substances and Childhood Growth Trajectories up to 4 Years of Age: The Japan Environment and Children's Study.",
+    "title": "Association between Maternal Exposure to Per- and Polyfluoroalkyl Substances and Childhood Growth Trajectories up to 4 Years of Age: The Japan Environment and Children’s Study",
     "venue": "Environmental Science and Technology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acs.est.5c09583?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acs.est.5c09583, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12593342, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
     ],
     "authors": [
       {
-        "authorId": null,
+        "authorId": "4265129",
         "name": "Midori Yamamoto"
       },
       {
@@ -477,7 +478,7 @@
         "name": "M. Kamijima"
       }
     ],
-    "abstract": null
+    "abstract": "Maternal exposure to perfluoroalkyl and polyfluoroalkyl substances (PFAS) during pregnancy may influence fetal and postnatal growth. In this study, we examined the association between maternal plasma PFAS levels during pregnancy and child growth trajectories over the first 4 years of life. Pregnant women were enrolled in the Japan Environment and Children’s Study between 2011 and 2014. Eight PFAS were selected, and exposure burden scores were calculated to assess the effects of the PFAS mixtures on child growth. Latent class trajectory models were applied to data from 23,058 children, identifying five growth trajectories based on age- and sex-specific standard deviation scores for weight, height, and body mass index. Perfluorooctanesulfonic acid (PFOS), perfluorohexanesulfonic acid, and perfluorooctanoic acid levels were negatively associated with the odds of high-rising, low-rising, and/or high-weight trajectories. All eight PFAS were positively associated with the low-rising-height trajectory. PFOS was also positively associated with a very low-height trajectory and negatively associated with a high-BMI trajectory. Maternal PFAS exposure may suppress high-stable and rising-weight growth in early childhood. PFAS exposure appears to inhibit fetal height growth; however, catch-up growth may occur during early childhood. PFOS, in particular, may exert a lasting effect on height growth."
   },
   {
     "paperId": "041ebaccbcbd921a8825e55637e099b4fe67fea9",
@@ -544,7 +545,7 @@
       "PubMed": "40018265"
     },
     "url": "https://www.semanticscholar.org/paper/04b9ba53baf864e12cacfc833651dc68ed0dcbbe",
-    "title": "Evidence of the occurrence, detection, and ecotoxicity studies of perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA) in aqueous environments.",
+    "title": "Evidence of the occurrence, detection, and ecotoxicity studies of perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA) in aqueous environments",
     "venue": "Journal of Environmental Health Science and Engineering",
     "year": 2025,
     "openAccessPdf": {
@@ -1193,6 +1194,85 @@
     "abstract": "Per- and polyfluoroalkyl substances (PFASs) are a class of manufactured organic chemicals that are widely employed for their heat-, oil-, and water-resistant properties. Studies have shown that the bioaccumulation of PFASs in living organisms and their related health effects are sufficient for classifying them as a group of toxicants worthy of great concern and further study. While PFASs travel through the air and soil, their contamination of water pathways proves to be the most common route for exposure. We analyzed PFASs from three different wastewater treatment plants (WWTPs) throughout Arizona to show that, despite treatment efforts, they persist as contaminants in water sources. Using U.S. Environmental Protection Agency method 1633, seasonally obtained field samples were prepared for analysis through liquid chromatography–tandem mass spectrometry. A total of 24 samples were taken at different stages of the treatment process to assess the proficiency of the removal processes during remediation. Duplicate samples were each taken from Tucson’s WWTP and Flagstaff’s WWTP before and after chlorination, and from three sites in Yuma County, upstream effluent, downstream effluent, and WWTP, before chlorination. From the samples obtained in Yuma, perfluorooctanesulfonic acid, perfluorooctanoic acid, and perfluorohexanesulfonic acid were detected but at levels below their limits of quantification. PFBS was detected at the Yuma and Tucson WWTP at levels up to 4.52 ng/L and 73.53 ng/L, respectively. The samples obtained from Flagstaff’s WWTP were below the instrument level of detection and, therefore, characterized as non-detects."
   },
   {
+    "paperId": "086d589efa7a768b83a5c70c3d5e6bd3992f3d5d",
+    "externalIds": {
+      "DOI": "10.1161/circ.152.suppl_3.4365028",
+      "CorpusId": 282793909
+    },
+    "url": "https://www.semanticscholar.org/paper/086d589efa7a768b83a5c70c3d5e6bd3992f3d5d",
+    "title": "Abstract 4365028: HIV Antiretroviral Therapy and Drinking Water Contaminant Exposures Induce Cardiac Function Changes in Women of Childbearing Age",
+    "venue": "Circulation",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1161/circ.152.suppl_3.4365028?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1161/circ.152.suppl_3.4365028, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2389850787",
+        "name": "Melissa Marchese"
+      },
+      {
+        "authorId": "2330890428",
+        "name": "Nicole Taube"
+      },
+      {
+        "authorId": "2207433475",
+        "name": "Melat Woldetensae"
+      },
+      {
+        "authorId": "2260487533",
+        "name": "Vikram Sambasivan"
+      },
+      {
+        "authorId": "2390822910",
+        "name": "Sulayman Barrow"
+      },
+      {
+        "authorId": "2387315379",
+        "name": "Julia House"
+      },
+      {
+        "authorId": "2390819953",
+        "name": "Isabella Myer"
+      },
+      {
+        "authorId": null,
+        "name": "Jinchen Wen"
+      },
+      {
+        "authorId": "2390824112",
+        "name": "Edward Rego"
+      },
+      {
+        "authorId": "2390819634",
+        "name": "Jeanette Brammer"
+      },
+      {
+        "authorId": "2387315030",
+        "name": "Dawn M. Fallacara"
+      },
+      {
+        "authorId": "2390832957",
+        "name": "Georgia Roberts"
+      },
+      {
+        "authorId": "2391404098",
+        "name": "Liping Feng"
+      },
+      {
+        "authorId": "2390881630",
+        "name": "Janine Santos"
+      }
+    ],
+    "abstract": "\n Objective:\n The majority of individuals living with human immunodeficiency virus (HIV) are female. Although combined antiretroviral therapy (cART) can greatly improve prognosis and prevent vertical transmission, the off-target cardiometabolic effects of these drugs in pregnant women and women of childbearing age remain understudied. Concurrent exposure to ubiquitous environmental pollutants, such as per and polyfluoroalkyl substances (PFAS), may interact with cART to impact maternal health, given their shared potential to affect mitochondria and the cardiovascular system. Our broader project investigates the combined impact of cART and a legacy PFAS compound, perfluorooctanesulfonic acid (PFOS), on cardiometabolic outcomes in a rat model. Here, we analyzed non-pregnant animals, which will later be compared to pregnant counterparts.\n \n \n Methods:\n Adult female Sprague-Dawley rats were exposed to a common cART regimen (abacavir/dolutegravir/lamivudine; Triumeq) or vehicle (aqueous methylcellulose/Tween 80). Dams were also given PFOS-contaminated water, mimicking concentrations measured in a North Carolina community, or vehicle (reverse osmosis-filtered water). Dams underwent echocardiography, electrocardiography, and subsequent tissue harvest on study day (SD) 27 or SD50. Tissue and plasma samples underwent PFAS quantification, pathological evaluation, RNA sequencing, and mitochondrial function analysis.\n \n \n Results:\n The nonpregnant cohort demonstrated perturbations in several structural and functional parameters by exposure group. The SD27 timepoint demonstrated shortened ejection times (48.20ms in cART\n vs\n 52.19ms for control), suggesting systolic dysfunction. In the combined exposure group, slower isovolumetric relaxation times (28.47mm\n vs\n 27.11mm) and higher ejection fractions (70.8%\n vs\n 68.9%) were seen compared to the control at SD27. Structurally, cART rats showed increased interventricular septal thickness, posterior wall thickness, and left ventricular (LV) mass across timepoints. At SD50, cART rats showed increased LV mass and heart weight:tibia length ratios, suggesting hypertrophy.\n \n \n Conclusion:\n Our data suggest cART and co-exposure to PFOS impact cardiac function in adult rats. While more prominent initially, the healthy unstressed heart seems to adapt to the drugs’ effects over time, although signs of hypertrophy remain. Analysis of the pregnant cohort will reveal whether the physiological strain of pregnancy sensitizes the cardiovascular system of the animals.\n"
+  },
+  {
     "paperId": "08799c561a22b5825cc072342e29c94eb005e035",
     "externalIds": {
       "DOI": "10.3389/fenvs.2021.796026",
@@ -1669,7 +1749,7 @@
     "authors": [
       {
         "authorId": "2346475832",
-        "name": "Cedar L Mitchell"
+        "name": "Cedar L. Mitchell"
       },
       {
         "authorId": "2106518646",
@@ -1708,7 +1788,7 @@
         "name": "K. Ellingson"
       }
     ],
-    "abstract": "Background Certain occupations have greater risk for per- and polyfluoroalkyl substances (PFAS) exposure because of PFAS use in occupation-associated materials. Objective We sought to assess whether PFAS concentrations differed by occupation among certain Arizona workers and whether concentrations differed over time by occupation. Methods Serum concentrations for 14 PFAS were measured among 1960 Arizona Healthcare, Emergency Responder, and Other Essential Worker Study participants. Samples were collected at enrollment and periodically during July 2020–April 2023. Occupational categories included firefighters, other first responders, healthcare workers, and other essential workers. We fit multilevel regression models for each PFAS to estimate differences in geometric mean concentrations or odds of PFAS detection at enrollment by occupational category. For participants with ≥1 serum sample, we evaluated for yearly longitudinal differences in PFAS concentrations by occupational category. We used other essential workers for comparison, and adjusted for age, sex, race and ethnicity, year, and residential county. Results Adjusting for covariates, firefighters had higher perfluorohexanesulfonic acid (PFHxS), branched and linear perfluorooctanesulfonic acid (PFOS), and perfluoroheptanesulfonic acid (PFHpS) concentrations than other essential workers (geometric mean ratios 95% CIs: 1.26 [1.11–1.43]; 1.18 [1.06–1.32]; 1.19 [1.08–1.31]; and 1.19 [1.01–1.39], respectively). Healthcare workers had higher odds of detection of branched perfluorooctanoic acid (Sb-PFOA) and perfluorododecanoic acid (PFDoA) than other essential workers, adjusting for covariates (odds ratios 95% CIs: 1.35 [1.01–1.80]; 2.50 [1.17–5.34], respectively). During the 3-year study, we detected declines in PFAS concentrations among other essential workers; few longitudinal differences in concentrations by occupation were detected. Impact Statement Using data from a large prospective cohort of frontline workers in Arizona, we compared serum concentrations of 14 per-and polyfluoroalkyl substances (PFAS) among firefighters, other first responders, healthcare workers, and other frontline essential workers. We found that firefighters have higher concentrations of certain PFAS chemicals and the odds of detecting other PFAS chemicals are higher among healthcare workers compared with people in other occupations. Our findings highlight the importance of further action to reduce PFAS exposure within highly exposed occupational groups, such as firefighters, and the need to expand evaluation of exposure among other occupations, including healthcare workers."
+    "abstract": "Certain occupations have greater risk for per- and polyfluoroalkyl substances (PFAS) exposure because of PFAS use in occupation-associated materials. We sought to assess whether PFAS concentrations differed by occupation among certain Arizona workers and whether concentrations differed over time by occupation. Serum concentrations for 14 PFAS were measured among 1960 Arizona Healthcare, Emergency Responder, and Other Essential Worker Study participants. Samples were collected at enrollment and periodically during July 2020–April 2023. Occupational categories included firefighters, other first responders, healthcare workers, and other essential workers. We fit multilevel regression models for each PFAS to estimate differences in geometric mean concentrations or odds of PFAS detection at enrollment by occupational category. For participants with ≥1 serum sample, we evaluated for yearly longitudinal differences in PFAS concentrations by occupational category. We used other essential workers for comparison, and adjusted for age, sex, race and ethnicity, year, and residential county. Adjusting for covariates, firefighters had higher perfluorohexanesulfonic acid (PFHxS), branched and linear perfluorooctanesulfonic acid (PFOS), and perfluoroheptanesulfonic acid (PFHpS) concentrations than other essential workers (geometric mean ratios 95% CIs: 1.26 [1.11–1.43]; 1.18 [1.06–1.32]; 1.19 [1.08–1.31]; and 1.19 [1.01–1.39], respectively). Healthcare workers had higher odds of detection of branched perfluorooctanoic acid (Sb-PFOA) and perfluorododecanoic acid (PFDoA) than other essential workers, adjusting for covariates (odds ratios 95% CIs: 1.35 [1.01–1.80]; 2.50 [1.17–5.34], respectively). During the 3-year study, we detected declines in PFAS concentrations among other essential workers; few longitudinal differences in concentrations by occupation were detected. Using data from a large prospective cohort of frontline workers in Arizona, we compared serum concentrations of 14 per-and polyfluoroalkyl substances (PFAS) among firefighters, other first responders, healthcare workers, and other frontline essential workers. We found that firefighters have higher concentrations of certain PFAS chemicals and the odds of detecting other PFAS chemicals are higher among healthcare workers compared with people in other occupations. Our findings highlight the importance of further action to reduce PFAS exposure within highly exposed occupational groups, such as firefighters, and the need to expand evaluation of exposure among other occupations, including healthcare workers."
   },
   {
     "paperId": "0bd7c793999519371001d1e0bfb0979689478d27",
@@ -3222,7 +3302,7 @@
       },
       {
         "authorId": "2248065936",
-        "name": "Douglas I. Walker"
+        "name": "Douglas I Walker"
       },
       {
         "authorId": "2256253477",
@@ -4182,7 +4262,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/1b93c29982cebf6459391af99b614072da56da78",
     "title": "Insights into the occurrence, ecotoxicity, and biodegradation of perfluorooctanoic acid and perfluorooctanesulfonic acid in the marine environment",
-    "venue": "Frontiers of Environmental Science &amp; Engineering",
+    "venue": "Frontiers of Environmental Science and Engineering",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
@@ -4191,7 +4271,8 @@
       "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11783-025-2036-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11783-025-2036-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
-      "JournalArticle"
+      "JournalArticle",
+      "Review"
     ],
     "authors": [
       {
@@ -4791,7 +4872,7 @@
         "name": "Ignacio Martínez-Álvarez"
       },
       {
-        "authorId": "2244715641",
+        "authorId": "2388995797",
         "name": "Quentin Schull"
       },
       {
@@ -5089,58 +5170,6 @@
     "abstract": "Per- and polyfluoroalkyl substances (PFAS) are a large group of human-made chemicals that have been widely used in industry and consumer products. Perfluorooctanesulfonic acid (PFOS) is a ubiquitous type of PFAS, which is extremely stable chemicals that have been persistent in the environment for many years. The accumulation of PFOS in the human body can lead to various unfavorable health issues related to the immune, metabolic, and endocrine systems. The conventional PFOS detection method utilizes liquid chromatography coupled with a mass spectroscopy system that typically involves a lengthy and complex procedure. Herein, we propose to develop a low-cost and rapid test approach based on surface-enhanced Raman spectroscopy (SERS) and deep learning for PFOS detection. The gold nanoparticle SERS substrates utilized in this study can significantly enhance the Raman signal of PFOS in solution at a low concentration. PFOS detection and quantification in water using the SERS-based substrate are carried out by measuring Raman peak intensities of PFOS in solution at a range of low concentrations and comparing them to the signal of a blank SERS substrate background. The results show that the SERS substrate can achieve a detection limit as low as 0.0005 ppb. In addition, we propose a demultiplexing deep learning model, which can generate high signal-to-noise ratio (SNR) PFOS spectra from the noisy mixture of PFOS and background Raman spectra. Average cross-correlation and mean absolute error (MAE) are utilized to evaluate the similarity between the demultiplexed and denoised PFOS Raman spectra (output of deep learning) and their ground truths. The proposed model can achieve an encouraging result with high average cross-correlation and low average MAE of 0.9622 ± 0.0667 and 0.0034 ± 0.0024, respectively."
   },
   {
-    "paperId": "2129e12987140d07d51023a9ac66f116e57655ac",
-    "externalIds": {
-      "PubMedCentral": "10553495",
-      "DOI": "10.1210/jendso/bvad114.1050",
-      "CorpusId": 263700428
-    },
-    "url": "https://www.semanticscholar.org/paper/2129e12987140d07d51023a9ac66f116e57655ac",
-    "title": "OR06-04 Environmental Pollutants Perfluoroalkyl Acids Potently Stimulated Aldosterone Biosynthesis",
-    "venue": "Journal of the Endocrine Society",
-    "year": 2023,
-    "openAccessPdf": {
-      "url": "https://doi.org/10.1210/jendso/bvad114.1050",
-      "status": "GOLD",
-      "license": "CCBYNCND",
-      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10553495, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": [
-      "JournalArticle"
-    ],
-    "authors": [
-      {
-        "authorId": "4777022",
-        "name": "B. Caroccia"
-      },
-      {
-        "authorId": "2250606",
-        "name": "T. Seccia"
-      },
-      {
-        "authorId": "3505003",
-        "name": "G. Pallafacchina"
-      },
-      {
-        "authorId": "32097898",
-        "name": "M. Piazza"
-      },
-      {
-        "authorId": "2254975401",
-        "name": "Ilaria Caputo"
-      },
-      {
-        "authorId": "2349876560",
-        "name": "Rosario Rizzuto"
-      },
-      {
-        "authorId": "2249986795",
-        "name": "G. Rossi"
-      }
-    ],
-    "abstract": "Abstract Disclosure: B. Caroccia: None. T.M. Seccia: None. G. Pallafacchina: None. M. Piazza: None. I. Caputo: None. R. Rizzuto: None. G. Rossi: None. A large environmental contamination of drinking water by perfluoroalkyl substances (PFAS) markedly increased by 8-fold the plasma levels of pentadecafluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) in a Northern Italy population with that shows a high prevalence of arterial hypertension and cardiovascular disease. As the link between PFAS and arterial hypertension is unknown, we investigated if they could enhance the biosynthesis of aldosterone, the main mineralocorticoid hormone that has pressor effects. We exposed human adrenocortical carcinoma HAC15 cells to 1 µM or 10 µM concentration of PFOA and PFOS, alone or in combination, for 24, 48 or 72 hours and we measured changes in cell viability, aldosterone synthase (CYP11B2) mRNA, cell and mitochondrial reactive oxygen species (ROS), and aldosterone production in the absence or presence of the superoxide scavenger tempol. Experiments were also performed in the presence of 10 or 100 nM Ang II. We found that PFAS increased CYP11B2 mRNA by 3-fold and aldosterone secretion and mitochondrial ROS production by 2-fold over controls (p < 0.01 for all). PFAS also enhanced the effects of the aldosterone secretagogue Ang II on CYP11B2 mRNA and aldosterone secretion: 10 nM or 100 nM Ang II increased CYP11B2 mRNA by 12- and 52-fold, respectively, compared to vehicle (p < 0.001). Moreover, 1 µM PFAS potentiated the effect of 10 nM or 100 nM Ang II on CYP11B2 gene expression by 30- and 80-fold, respectively (p < 0.001). As the ROS scavenger tempol, which decreased ROS, significantly blunted the CYP11B2 gene expression induced by either PFAS alone, or by concomitant exposure to Ang II and PFAS, the effect of PFAS likely occurs via increased ROS generation. These results indicate that at concentrations mimicking those found in human plasma of exposed individuals, PFAS exert a prooxidant effect and act as potent disruptors of human adrenocortical cell function, thus implicating them as causative factors of human arterial hypertension due to aldosteronism. Presentation: Thursday, June 15, 2023"
-  },
-  {
     "paperId": "220e09fdab4395314f9afd9d8d9c5734cd4f38b4",
     "externalIds": {
       "DOI": "10.1002/etc.5824",
@@ -5329,7 +5358,7 @@
       },
       {
         "authorId": "4381973",
-        "name": "Marcel E Meima"
+        "name": "Marcel E. Meima"
       },
       {
         "authorId": "2276586759",
@@ -5340,7 +5369,7 @@
         "name": "T. Hamers"
       }
     ],
-    "abstract": "Early brain development depends on adequate transport of thyroid hormones (THs) from the maternal circulation to the fetus. To reach the fetal brain, THs have to cross several physiological barriers, including the placenta, blood–brain-barrier and blood–cerebrospinal fluid-barrier. Transport across these barriers is facilitated by thyroid hormone transmembrane transporters (THTMTs). Some endocrine disrupting chemicals (EDCs) can interfere with the transport of THs by THTMTs. To screen chemicals for their capacity to disrupt THTMT facilitated TH transport, in vitro screening assays are required. In this study, we developed assays for two THTMTs, organic anion transporter polypeptide 1C1 (OATP1C1) and organic anion transporter 4 (OAT4), both known to play a role in the transport of THs across barriers. We used overexpressing cell models for both OATP1C1 and OAT4, which showed an increased uptake of radiolabeled T4 compared to control cell lines. Using these models, we screened various reference and environmental chemicals for their ability to inhibit T4 uptake by OATP1C1 and OAT4. Tetrabromobisphenol A (TBBPA) was identified as an OATP1C1 inhibitor, more potent than any of the reference chemicals tested. Additionally perfluorooctanesulfonic acid (PFOS), perfluoroctanic acid (PFOA), pentachlorophenol and quercetin were identified as OATP1C1 inhibitors in a similar range of potency to the reference chemicals tested. Bromosulfophthalein, TBBPA, PFOA and PFOS were identified as potent OAT4 inhibitors. These results demonstrate that EDCs commonly found in our environment can disrupt TH transport by THTMTs, and contribute to the identification of molecular mechanisms underlying TH system disruption chemicals. Supplementary Information The online version contains supplementary material available at 10.1007/s00204-024-03787-2."
+    "abstract": "Early brain development depends on adequate transport of thyroid hormones (THs) from the maternal circulation to the fetus. To reach the fetal brain, THs have to cross several physiological barriers, including the placenta, blood–brain-barrier and blood–cerebrospinal fluid-barrier. Transport across these barriers is facilitated by thyroid hormone transmembrane transporters (THTMTs). Some endocrine disrupting chemicals (EDCs) can interfere with the transport of THs by THTMTs. To screen chemicals for their capacity to disrupt THTMT facilitated TH transport, in vitro screening assays are required. In this study, we developed assays for two THTMTs, organic anion transporter polypeptide 1C1 (OATP1C1) and organic anion transporter 4 (OAT4), both known to play a role in the transport of THs across barriers. We used overexpressing cell models for both OATP1C1 and OAT4, which showed an increased uptake of radiolabeled T4 compared to control cell lines. Using these models, we screened various reference and environmental chemicals for their ability to inhibit T4 uptake by OATP1C1 and OAT4. Tetrabromobisphenol A (TBBPA) was identified as an OATP1C1 inhibitor, more potent than any of the reference chemicals tested. Additionally perfluorooctanesulfonic acid (PFOS), perfluoroctanic acid (PFOA), pentachlorophenol and quercetin were identified as OATP1C1 inhibitors in a similar range of potency to the reference chemicals tested. Bromosulfophthalein, TBBPA, PFOA and PFOS were identified as potent OAT4 inhibitors. These results demonstrate that EDCs commonly found in our environment can disrupt TH transport by THTMTs, and contribute to the identification of molecular mechanisms underlying TH system disruption chemicals."
   },
   {
     "paperId": "230bccd4c2acb53edf2505464a84bbe6f60544e7",
@@ -5382,6 +5411,58 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "2321a45e72beac23a6c33eb6ad639cdeb786d488",
+    "externalIds": {
+      "DOI": "10.1093/etojnl/vgaf226",
+      "CorpusId": 282756892,
+      "PubMed": "41187320"
+    },
+    "url": "https://www.semanticscholar.org/paper/2321a45e72beac23a6c33eb6ad639cdeb786d488",
+    "title": "Concentrations of per- and polyfluoroalkyl substances in Canadian sea otters (Enhydra lutris) are higher near urban centers.",
+    "venue": "Environmental Toxicology and Chemistry",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/etojnl/vgaf226?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/etojnl/vgaf226, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2218576891",
+        "name": "Dana Price"
+      },
+      {
+        "authorId": "5425951",
+        "name": "A. Trites"
+      },
+      {
+        "authorId": "2275158970",
+        "name": "Stephen Raverty"
+      },
+      {
+        "authorId": "2248850624",
+        "name": "Paul Cottrell"
+      },
+      {
+        "authorId": "2190132979",
+        "name": "Brendan Cottrell"
+      },
+      {
+        "authorId": "2196989272",
+        "name": "Ivona Zysk"
+      },
+      {
+        "authorId": "2297907304",
+        "name": "Juan-José Álava"
+      }
+    ],
+    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are thousands of toxic synthetic chemicals that bioaccumulate and persist in the environment. They are known to cause immunotoxicity, organ damage, endocrine disruption, and reproductive impairments in wildlife such as sea otters (Enhydra lutris). However, there is limited information on the distribution of these chemicals across the northeastern Pacific, and baseline data are missing to assess their potential impacts on sea otters in regions such as British Columbia (BC), Canada. We analyzed liver (n = 11) and skeletal muscle samples (n = 5) from 11 deceased sea otters from coastal BC using the U.S. Environmental Protection Agency method 1633 with ultrahigh performance liquid chromatography coupled to a triple quadrupole mass spectrometer. We found 8 of the 40 tested PFAS were present in all sampled sea otters, although concentrations of each PFAS varied between individuals. Sea otter livers contained more PFAS compounds at higher total average concentrations than skeletal muscle (i.e., 8 PFAS totaling 10.38 ng/g wet wt vs. 1 PFAS totaling 0.38 ng/g wet wt). Only perfluorooctanesulfonamide (PFOSA) was identified in both liver and muscle tissues, whereas the remaining 7 PFAS were unique to the liver. The three PFAS that dominated the liver PFAS composition (perfluorononanoic acid, PFOSA, and perfluorooctanesulfonic acid) accounted for 84% of the contaminant load in the livers. Geographically, PFAS concentrations were more than three times higher on average in sea otters recovered near major cities and shipping routes. Identifying the contaminants accumulating in sea otters provides insights into the health threats confronted by recovering sea otter populations. Our study also establishes baseline PFAS contamination levels in BC sea otters, which can be used to monitor and regulate the presence of PFAS on marine environments in western Canada."
   },
   {
     "paperId": "2398490f5aefba413b9e6c341e1ca23e343ad04f",
@@ -5481,19 +5562,20 @@
   {
     "paperId": "23be542492b56320d490b5c314ca48d542a44240",
     "externalIds": {
+      "PubMedCentral": "12560129",
       "DOI": "10.1021/acssensors.5c00907",
       "CorpusId": 281523879,
       "PubMed": "40994223"
     },
     "url": "https://www.semanticscholar.org/paper/23be542492b56320d490b5c314ca48d542a44240",
-    "title": "A Machine Learning-Assisted Liquid Crystal Droplet Array Platform for the Sensitive and Selective Detection of Per- and Polyfluoroalkyl Substances (PFAS) in Water.",
+    "title": "A Machine Learning-Assisted Liquid Crystal Droplet Array Platform for the Sensitive and Selective Detection of Per- and Polyfluoroalkyl Substances (PFAS) in Water",
     "venue": "ACS Sensors",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/acssensors.5c00907?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/acssensors.5c00907, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12560129, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -5537,7 +5619,7 @@
       },
       {
         "authorId": "2250854122",
-        "name": "David M Lynn"
+        "name": "David M. Lynn"
       }
     ],
     "abstract": "We report a machine learning (ML)-assisted liquid crystal (LC) droplet array platform for the detection of per- and polyfluoroalkyl substances (PFAS) in water. Our approach uses an autoencoder network to process thousands of images obtained from arrays of microscale droplets of thermotropic LCs. The latent space obtained using the autoencoder contains significant information that enables sensitive and selective detection of two amphiphilic PFAS [perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS)] at concentrations as low as parts-per-trillion (ppt) in ultrapure water, municipal tap water, and simulated river water containing dissolved organic matter. Despite the absence of visually discernible changes in the optical outputs of LC arrays at low PFAS concentrations, this approach accurately predicts their presence, even in water containing interfering molecules. We also demonstrate the use of transfer learning to differentiate between PFOA, PFOS, and PFOA/PFOS mixtures, showcasing the potential for practical environmental monitoring. This platform permits identification of PFOA and PFOS below the maximum contaminant levels (4 ppt) established by the U.S. Environmental Protection Agency. Our approach is compatible with automated printing, treatment, and high-throughput optical and ML analysis and could provide a basis for the development of low-cost sensors to monitor PFAS and other amphiphilic contaminants in real-world water samples."
@@ -5595,6 +5677,50 @@
     "publicationTypes": null,
     "authors": [],
     "abstract": null
+  },
+  {
+    "paperId": "242a469ef9ec51c726e3283c1d2484faea5e783e",
+    "externalIds": {
+      "DOI": "10.1039/d5sc05781g",
+      "CorpusId": 282820507,
+      "PubMed": "41199919"
+    },
+    "url": "https://www.semanticscholar.org/paper/242a469ef9ec51c726e3283c1d2484faea5e783e",
+    "title": "Photocatalytic defluorination of perfluoroalkyl substances by surface-engineered ZnO nanocrystals.",
+    "venue": "Chemical Science",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1039/d5sc05781g?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/d5sc05781g, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2391025908",
+        "name": "Shuhei Kanao"
+      },
+      {
+        "authorId": "2391029392",
+        "name": "Mai Yamaguchi"
+      },
+      {
+        "authorId": "2279785259",
+        "name": "Yuto Toyota"
+      },
+      {
+        "authorId": "2220638355",
+        "name": "Yuki Nagai"
+      },
+      {
+        "authorId": null,
+        "name": "Yoichi Kobayashi"
+      }
+    ],
+    "abstract": "This study demonstrates that surface-ligand-modified zinc oxide nanocrystals can efficiently defluorinate highly stable PFOS under near-UV light at ambient conditions, revealing a low-energy, scalable, and repeatable approach for practical PFAS decomposition."
   },
   {
     "paperId": "2441d92b34581bb0ddd40f64ac9752e8d9ff35b4",
@@ -5886,7 +6012,7 @@
       "PubMed": "38337116"
     },
     "url": "https://www.semanticscholar.org/paper/2654a160b22639328d9a37a22303b0ad4e95e4d7",
-    "title": "Short-term mass loads of per- and polyfluoroalkyl substances in a wastewater treatment plant from South China.",
+    "title": "Short-term mass loads of per- and polyfluoroalkyl substances in a wastewater treatment plant from South China",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -6113,7 +6239,7 @@
         "name": "Véronique Gouverneur"
       }
     ],
-    "abstract": "Perfluoroalkyl and polyfluoroalkyl substances (PFASs) are persistent, bioaccumulative and anthropogenic pollutants that have attracted the attention of the public and private sectors because of their adverse impact on human health1. Although various technologies have been deployed to degrade PFASs with a focus on non-polymeric functionalized compounds (perfluorooctanoic acid and perfluorooctanesulfonic acid)2–4, a general PFAS destruction method coupled with fluorine recovery for upcycling is highly desirable. Here we disclose a protocol that converts multiple classes of PFAS, including the fluoroplastics polytetrafluoroethylene and polyvinylidene fluoride, into high-value fluorochemicals. To achieve this, PFASs were reacted with potassium phosphate salts under solvent-free mechanochemical conditions, a mineralization process enabling fluorine recovery as KF and K2PO3F for fluorination chemistry. The phosphate salts can be recovered for reuse, implying no detrimental impact on the phosphorus cycle. Therefore, PFASs are not only destructible but can now contribute to a sustainable circular fluorine economy."
+    "abstract": "Perfluoroalkyl and polyfluoroalkyl substances (PFASs) are persistent, bioaccumulative and anthropogenic pollutants that have attracted the attention of the public and private sectors because of their adverse impact on human health1. Although various technologies have been deployed to degrade PFASs with a focus on non-polymeric functionalized compounds (perfluorooctanoic acid and perfluorooctanesulfonic acid)2, 3–4, a general PFAS destruction method coupled with fluorine recovery for upcycling is highly desirable. Here we disclose a protocol that converts multiple classes of PFAS, including the fluoroplastics polytetrafluoroethylene and polyvinylidene fluoride, into high-value fluorochemicals. To achieve this, PFASs were reacted with potassium phosphate salts under solvent-free mechanochemical conditions, a mineralization process enabling fluorine recovery as KF and K2PO3F for fluorination chemistry. The phosphate salts can be recovered for reuse, implying no detrimental impact on the phosphorus cycle. Therefore, PFASs are not only destructible but can now contribute to a sustainable circular fluorine economy. This study highlights a protocol that converts various perfluoroalkyl and polyfluoroalkyl substances (PFASs), including fluoroplastics, into valuable fluorochemicals through a solvent-free mechanochemical process, thereby enabling fluorine recovery and contributing to a sustainable circular fluorine economy."
   },
   {
     "paperId": "289a9fdac4f12fb1f1542eadb8e52c1e1ecc74dd",
@@ -7027,6 +7153,61 @@
     "abstract": null
   },
   {
+    "paperId": "2f1a55f2b119e650d4c6c34a5ba0fa294132f9b7",
+    "externalIds": {
+      "DOI": "10.1007/s11802-024-5931-3",
+      "CorpusId": 272559878
+    },
+    "url": "https://www.semanticscholar.org/paper/2f1a55f2b119e650d4c6c34a5ba0fa294132f9b7",
+    "title": "Occurrence, Spatial Distribution, Sources and Risk Assessment of Per- and Polyfluoroalkyl Substances in Surface Sediments of the Yellow River Delta Wetland",
+    "venue": "Journal of Ocean University of China",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11802-024-5931-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11802-024-5931-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2320589909",
+        "name": "Yu Sun"
+      },
+      {
+        "authorId": "2238701327",
+        "name": "Nan Shen"
+      },
+      {
+        "authorId": "2301920919",
+        "name": "Dahai Zhang"
+      },
+      {
+        "authorId": "2238977840",
+        "name": "Junhui Chen"
+      },
+      {
+        "authorId": "50045961",
+        "name": "X. He"
+      },
+      {
+        "authorId": "2320775889",
+        "name": "Yinli Ji"
+      },
+      {
+        "authorId": "2320728970",
+        "name": "Haiyang Wang"
+      },
+      {
+        "authorId": "2267937596",
+        "name": "Xianguo Li"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "302a89ed721099f4fd6e3ca46175a53cbcb02ffc",
     "externalIds": {
       "PubMedCentral": "10208432",
@@ -7321,6 +7502,37 @@
       {
         "authorId": "2244157795",
         "name": "Claus Yding Andersen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "31f8c90a6cbd526fa6f32d9eeee60f629e75e795",
+    "externalIds": {
+      "DOI": "10.1007/s12161-024-02603-y",
+      "CorpusId": 268199799
+    },
+    "url": "https://www.semanticscholar.org/paper/31f8c90a6cbd526fa6f32d9eeee60f629e75e795",
+    "title": "Determination of Perfluorinated Substances (PFAS) Using LC-ORBITRAP-MS in Certain foodstuffs of Animal Origin According to newly established EU legislation",
+    "venue": "Food Analytical Methods",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12161-024-02603-y?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12161-024-02603-y, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "150093380",
+        "name": "E. Pasecnaja"
+      },
+      {
+        "authorId": "14442773",
+        "name": "D. Začs"
       }
     ],
     "abstract": null
@@ -8818,7 +9030,7 @@
       "PubMed": "39775104"
     },
     "url": "https://www.semanticscholar.org/paper/3d38bbe305aad83bc989c8968d36a25fb2bfe9c2",
-    "title": "Sex specificity in associations between exposure to a mixture of per and poly-fluoroalkyl substances and anxiety among US adults.",
+    "title": "Sex specificity in associations between exposure to a mixture of per and poly-fluoroalkyl substances and anxiety among US adults",
     "venue": "Journal of Exposure Science and Environmental Epidemiology",
     "year": 2025,
     "openAccessPdf": {
@@ -9680,6 +9892,81 @@
     "abstract": null
   },
   {
+    "paperId": "4488d1d78961717441bc6dfbd4424aa7783cd330",
+    "externalIds": {
+      "DOI": "10.1007/s10311-025-01820-z",
+      "CorpusId": 275885534
+    },
+    "url": "https://www.semanticscholar.org/paper/4488d1d78961717441bc6dfbd4424aa7783cd330",
+    "title": "Influence of prenatal exposure to per- and polyfluoroalkyl substances under gestational diabetes mellitus on birth and child growth",
+    "venue": "Environmental Chemistry Letters",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10311-025-01820-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10311-025-01820-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2289928419",
+        "name": "Qiang Li"
+      },
+      {
+        "authorId": "2342415452",
+        "name": "Yabin Hu"
+      },
+      {
+        "authorId": "2143980084",
+        "name": "Pengpeng Wang"
+      },
+      {
+        "authorId": "2248049070",
+        "name": "Liyi Zhang"
+      },
+      {
+        "authorId": "2191009326",
+        "name": "Hang Wang"
+      },
+      {
+        "authorId": "2296497400",
+        "name": "Yuyan Gui"
+      },
+      {
+        "authorId": "2300683376",
+        "name": "Yaqi Xu"
+      },
+      {
+        "authorId": "2300820665",
+        "name": "Yue Zhao"
+      },
+      {
+        "authorId": "2310182683",
+        "name": "Weizhao Cao"
+      },
+      {
+        "authorId": "2342170023",
+        "name": "Minghao Wang"
+      },
+      {
+        "authorId": "8590215",
+        "name": "Huijing Shi"
+      },
+      {
+        "authorId": "46175066",
+        "name": "Yingya Zhao"
+      },
+      {
+        "authorId": "2249203224",
+        "name": "Yunhui Zhang"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "44d75aa5857eb84ab8d45e0d47b55bddb074c9f1",
     "externalIds": {
       "PubMedCentral": "12288058",
@@ -9764,8 +10051,8 @@
     "publicationTypes": null,
     "authors": [
       {
-        "authorId": "2364253792",
-        "name": "Gil Goncalves"
+        "authorId": "2260420823",
+        "name": "Gil Gonçalves"
       },
       {
         "authorId": "2364377205",
@@ -10087,7 +10374,7 @@
         "name": "Jun Zhang"
       }
     ],
-    "abstract": null
+    "abstract": "Emerging epidemiological evidence has linked per- and polyfluoroalkyl substances (PFAS) exposure could be linked to the disturbance of gestational glucolipid metabolism, but the toxicological mechanism is unclear, especially when the exposure is at a low level. This study examined the glucolipid metabolic changes in pregnant rats treated with relatively low dose perfluorooctanesulfonic acid (PFOS) through oral gavage during pregnancy [gestational day (GD): 1–18]. We explored the molecular mechanisms underlying the metabolic perturbation. Oral glucose tolerance test (OGTT) and biochemical tests were performed to assess the glucose homeostasis and serum lipid profiles in pregnant Sprague-Dawley (SD) rats randomly assigned to starch, 0.03 and 0.3 mg/kg·bw·d groups. Transcriptome sequencing combined with non-targeted metabolomic assays were further performed to identify differentially altered genes and metabolites in the liver of maternal rats, and to determine their correlation with the maternal metabolic phenotypes. Results of transcriptome showed that differentially expressed genes at 0.03 and 0.3 mg/kg·bw·d PFOS exposure were related to several metabolic pathways, such as peroxisome proliferator-activated receptors (PPARs) signaling, ovarian steroid synthesis, arachidonic acid metabolism, insulin resistance, cholesterol metabolism, unsaturated fatty acid synthesis, bile acid secretion. The untargeted metabolomics identified 164 and 158 differential metabolites in 0.03 and 0.3 mg/kg·bw·d exposure groups, respectively under negative ion mode of Electrospray Ionization (ESI-), which could be enriched in metabolic pathways such as α-linolenic acid metabolism, glycolysis/gluconeogenesis, glycerolipid metabolism, glucagon signaling pathway, glycine, serine and threonine metabolism. Co-enrichment analysis indicated that PFOS exposure may disturb the metabolism pathways of glycerolipid, glycolysis/gluconeogenesis, linoleic acid, steroid biosynthesis, glycine, serine and threonine. The key involved genes included down-regulated Ppp1r3c and Abcd2, and up-regulated Ogdhland Ppp1r3g, and the key metabolites such as increased glycerol 3-phosphate and lactosylceramide were further identified. Both of them were significantly associated with maternal fasting blood glucose (FBG) level. Our findings may provide mechanistic clues for clarifying metabolic toxicity of PFOS in human, especially for susceptible population such as pregnant women."
   },
   {
     "paperId": "47f467e5a146ae65bc16b6adf18f165a5e107d86",
@@ -10923,7 +11210,7 @@
         "name": "Elsa Antunes"
       }
     ],
-    "abstract": "\n Contaminated biosolids especially with per- and polyfluoroalkyl substances (PFAS) in biosolids pose significant environmental risks, restricting their potential applications and necessitating sustainable solutions to address these challenges. In this context, pyrolysis emerges as a promising technology capable of degrading contaminants while transforming biosolids into useful products like biochar. This study demonstrates the application of pyrolysis at different temperatures of 450–750 °C to investigate its effect on contaminant removal and the properties of the resulting biochars. Subsequently, the biochars were utilized to prepare cement mortars by replacing 0.5, 1, 2, 4, and 6% of cement weight with biochar, and their compressive strengths were determined after 7 days of curing. The findings revealed that biosolids contained significant levels of PFAS, including perfluorooctanesulfonic acid (PFOS), 324 ng/g, perfluorohexanesulfonic acid (PFHxS), 9.15 ng/g, and heavy metals. Pyrolysis at 450 °C effectively degraded most contaminants, including PFAS. The biochar produced at 450 °C exhibited the highest concentrations of inorganic nutrients such as potassium (K), calcium (Ca), nitrogen (N), and phosphorus (P), though their levels decreased with increasing pyrolysis temperature. On the other hand, compressive strength tests for cement mortars with varying proportions of biochar replacement demonstrated that a 0.5% replacement was beneficial for all biochars (except 650 °C—biochar that achieved the maximum compressive strength with 2%). This resulted in a 30–45% increase in compressive strength compared to plain cement mortar. However, increasing the biochar content to 6% significantly reduced compressive strength. Overall, this study highlights the potential of biochar as a sustainable solution for enhancing cement mortar strength while mitigating biosolid contamination.\n \n Graphical abstract\n"
+    "abstract": "Contaminated biosolids especially with per- and polyfluoroalkyl substances (PFAS) in biosolids pose significant environmental risks, restricting their potential applications and necessitating sustainable solutions to address these challenges. In this context, pyrolysis emerges as a promising technology capable of degrading contaminants while transforming biosolids into useful products like biochar. This study demonstrates the application of pyrolysis at different temperatures of 450–750 °C to investigate its effect on contaminant removal and the properties of the resulting biochars. Subsequently, the biochars were utilized to prepare cement mortars by replacing 0.5, 1, 2, 4, and 6% of cement weight with biochar, and their compressive strengths were determined after 7 days of curing. The findings revealed that biosolids contained significant levels of PFAS, including perfluorooctanesulfonic acid (PFOS), 324 ng/g, perfluorohexanesulfonic acid (PFHxS), 9.15 ng/g, and heavy metals. Pyrolysis at 450 °C effectively degraded most contaminants, including PFAS. The biochar produced at 450 °C exhibited the highest concentrations of inorganic nutrients such as potassium (K), calcium (Ca), nitrogen (N), and phosphorus (P), though their levels decreased with increasing pyrolysis temperature. On the other hand, compressive strength tests for cement mortars with varying proportions of biochar replacement demonstrated that a 0.5% replacement was beneficial for all biochars (except 650 °C—biochar that achieved the maximum compressive strength with 2%). This resulted in a 30–45% increase in compressive strength compared to plain cement mortar. However, increasing the biochar content to 6% significantly reduced compressive strength. Overall, this study highlights the potential of biochar as a sustainable solution for enhancing cement mortar strength while mitigating biosolid contamination."
   },
   {
     "paperId": "4da13278ca35d38491aa37e6796f3447b9a8d58a",
@@ -11077,7 +11364,7 @@
         "name": "Jing-Xin Jian"
       }
     ],
-    "abstract": "The recalcitrance of fluorinated organic pollutants—featuring robust Csp²-F and Csp³-F bonds—poses critical challenges to aquatic ecosystems due to their extreme persistence and bioaccumulation. Whereas current destruction strategies suffer from high energy consumption and non-selective, here we present a solar-powered mineralization strategy utilizing cerium oxide/mesoporous silica (CeO2/mSiO2) heterojunction photocatalysts for complete defluorination of organofluorine contaminants, including fluorinated e-waste, fluoro-antibiotics and perfluorinated surfactant. Under visible light irradiation, the optimized 5%CeO2/mSiO2 achieved 91.1 ± 3.2% octafluorobiphenyl (OFB) and 97.7 ± 2.8% fleroxacin (FLE) degradations within 6 h. Notably, the ‘forever chemical’ perfluorooctanesulfonic acid (PFOS) can be effectively destructed, achieving a maximum of 25.9 ± 2.7% reduction in 5 days under sunshine, outperforming parallel experiments conducted without a catalyst (~0%). This process notably avoids the evolution of fluoride ions. Theoretical calculations reveal that the removal of C-F bonds by photogenerated hydroxyl radical is thermodynamically superior to hydroxyl-mediated defluorination. This work establishes an energy-efficient paradigm for eradicating “forever chemicals” without secondary pollution, advancing sustainable water remediation technologies."
+    "abstract": "The recalcitrance of fluorinated organic pollutants—featuring robust Csp²-F and Csp³-F bonds—poses critical challenges to aquatic ecosystems due to their extreme persistence and bioaccumulation. Whereas current destruction strategies suffer from high energy consumption and non-selective, here we present a solar-powered mineralization strategy utilizing cerium oxide/mesoporous silica (CeO2/mSiO2) heterojunction photocatalysts for complete defluorination of organofluorine contaminants, including fluorinated e-waste, fluoro-antibiotics and perfluorinated surfactant. Under visible light irradiation, the optimized 5%CeO2/mSiO2 achieved 91.1 ± 3.2% octafluorobiphenyl (OFB) and 97.7 ± 2.8% fleroxacin (FLE) degradations within 6 h. Notably, the ‘forever chemical’ perfluorooctanesulfonic acid (PFOS) can be effectively destructed, achieving a maximum of 25.9 ± 2.7% reduction in 5 days under sunshine, outperforming parallel experiments conducted without a catalyst (~0%). This process notably avoids the evolution of fluoride ions. Theoretical calculations reveal that the removal of C-F bonds by photogenerated hydroxyl radical is thermodynamically superior to hydroxyl-mediated defluorination. This work establishes an energy-efficient paradigm for eradicating “forever chemicals” without secondary pollution, advancing sustainable water remediation technologies. Current strategies for the remediation of fluorinated organic pollutants suffer from high energy consumption and secondary pollution risk. Here, the authors present a solar-powered mineralization strategy using cerium oxide/mesoporous silica heterojunction photocatalysts that achieves complete defluorination of different types of organofluorine contaminants, including fluorinated e-waste, fluoro-antibiotics and perfluorinated surfactants."
   },
   {
     "paperId": "4f5863f0e36b9d8dd710cb7002c0d9766f3a7aa5",
@@ -11194,7 +11481,7 @@
     "authors": [
       {
         "authorId": "116656661",
-        "name": "P. Pauletto"
+        "name": "P. S. Pauletto"
       },
       {
         "authorId": "152393894",
@@ -11954,8 +12241,10 @@
   {
     "paperId": "5600cd1b0de7e542c990547816802c00751a6047",
     "externalIds": {
+      "PubMedCentral": "12562413",
       "DOI": "10.3390/biom15101431",
-      "CorpusId": 281997605
+      "CorpusId": 281997605,
+      "PubMed": "41154660"
     },
     "url": "https://www.semanticscholar.org/paper/5600cd1b0de7e542c990547816802c00751a6047",
     "title": "Oncotransformation in Bhas 42 Cell Transformation Assay by Typical Non-Genotoxic Carcinogens, PFOA and PFOS, and Time-Course Transcriptome Analysis",
@@ -11964,8 +12253,8 @@
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/biom15101431?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/biom15101431, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12562413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -12152,7 +12441,7 @@
     "publicationTypes": null,
     "authors": [
       {
-        "authorId": null,
+        "authorId": "153877896",
         "name": "Shalja Verma"
       },
       {
@@ -12205,7 +12494,7 @@
         "name": "Mengyan Li"
       }
     ],
-    "abstract": "Perfluoroalkyl acids (PFAAs) embrace perfluorooctanesulfonic acid (PFOS), perfluorooctanoic acid (PFOA), and other concerning chemicals of different chain length and terminal moieties. PFAAs can leach from municipal wastewater facilities as point sources discharging into rivers and receiving streams. In this study, we investigated the adsorption and transport behaviors of six select PFAAs in a Hudson River (USA) sediment in both batch and mesocosm studies. The adsorption capacities single and dual solute systems followed the order: PFBA < PFHxA ≈ PFBS < PFHxS < PFOA << PFOS. Mesocosm experiment that receives a continuous point source discharge of a mixture of these six PFAAs reached equilibrium after 4 weeks of operation. Total adsorbed PFAAs in the sediment was extracted and analyzed, following PFHxS (0.85 mg, 20.4%) ≈ PFBS (0.92 mg, 21.7%) < PFOA (1.02 mg, 27.3%) ≈ PFHxA (1.04 mg, 29.8%) < PFBA (1.12 mg, 30.1%) << PFOS (1.55 mg, 39.2%). PFOS showed highest adsorption, concentrating on the surface layer. Noticeably, two short-chain PFAAs, PFBA and PFHxA, were found with high vertical mobility, partitioning into deeper sediment. Two hotspots for PFAA sediment contamination were formed near the sediment surface downstream from the point source, providing new prospects to guide PFAA sediment cleanup and monitoring. Graphical abstract Supplementary Information The online version contains supplementary material available at 10.1007/s11356-024-35725-1."
+    "abstract": "Perfluoroalkyl acids (PFAAs) embrace perfluorooctanesulfonic acid (PFOS), perfluorooctanoic acid (PFOA), and other concerning chemicals of different chain length and terminal moieties. PFAAs can leach from municipal wastewater facilities as point sources discharging into rivers and receiving streams. In this study, we investigated the adsorption and transport behaviors of six select PFAAs in a Hudson River (USA) sediment in both batch and mesocosm studies. The adsorption capacities single and dual solute systems followed the order: PFBA < PFHxA ≈ PFBS < PFHxS < PFOA << PFOS. Mesocosm experiment that receives a continuous point source discharge of a mixture of these six PFAAs reached equilibrium after 4 weeks of operation. Total adsorbed PFAAs in the sediment was extracted and analyzed, following PFHxS (0.85 mg, 20.4%) ≈ PFBS (0.92 mg, 21.7%) < PFOA (1.02 mg, 27.3%) ≈ PFHxA (1.04 mg, 29.8%) < PFBA (1.12 mg, 30.1%) << PFOS (1.55 mg, 39.2%). PFOS showed highest adsorption, concentrating on the surface layer. Noticeably, two short-chain PFAAs, PFBA and PFHxA, were found with high vertical mobility, partitioning into deeper sediment. Two hotspots for PFAA sediment contamination were formed near the sediment surface downstream from the point source, providing new prospects to guide PFAA sediment cleanup and monitoring. Graphical abstract Graphical abstract"
   },
   {
     "paperId": "59b1be90d81e76ddf37465a834e13469338c9641",
@@ -13398,6 +13687,74 @@
       }
     ],
     "abstract": "Limited information is available about prenatal exposure to per- and polyfluoroalkyl substances (PFAS) in electronic waste (e-waste) recycling sites. In this study, we determined 21 emerging PFAS and 13 legacy PFAS in 94 paired maternal and cord serum samples collected from an e-waste dismantling site in Southern China. We found 6:2 fluorotelomer sulfonate (6:2 FTSA), 6:2 chlorinated polyfluorinated ether sulfonate (6:2 Cl-PFESA), and perfluorooctanephosphonate (PFOPA) as the major emerging PFAS, regardless of matrices, at median concentrations of 2.40, 1.78, and 0.69 ng/mL, respectively, in maternal serum samples, and 2.30, 0.73, and 0.72 ng/mL, respectively, in cord serum samples. Our results provide evidence that e-waste dismantling activities contribute to human exposure to 6:2 FTSA, 6:2 Cl-PFESA, and PFOPA. The trans-placental transfer efficiencies of emerging PFAS (0.42-0.94) were higher than that of perfluorooctanesulfonic acid (0.37) and were structure-dependent. The substitution of fluorine with chlorine or hydrogen and/or hydrophilic functional groups may alter trans-placental transfer efficiencies. Multiple linear regression analysis indicated significant associations between maternal serum concentrations of emerging PFAS and maternal clinical parameters, especially liver function and erythrocyte-related biomarkers. This study provides new insights into prenatal exposure to multiple PFAS in e-waste dismantling areas and the prevalence of emerging PFAS in people living near the sites."
+  },
+  {
+    "paperId": "6378f1b7bf34caf421e6adc41defca6b929701bd",
+    "externalIds": {
+      "DOI": "10.1007/s11270-024-07632-1",
+      "CorpusId": 274644992
+    },
+    "url": "https://www.semanticscholar.org/paper/6378f1b7bf34caf421e6adc41defca6b929701bd",
+    "title": "A Review of Iron-Based Catalysts for Persulfate Activation to Remove PFAS in Water: Catalytic Effects of Various Iron Species, Influencing Factors and Reaction Pathways",
+    "venue": "Water, Air and Soil Pollution",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11270-024-07632-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11270-024-07632-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2289004884",
+        "name": "Mengjie Zhang"
+      },
+      {
+        "authorId": "2280373974",
+        "name": "Yiyi Li"
+      },
+      {
+        "authorId": "2326459638",
+        "name": "Xia Tian"
+      },
+      {
+        "authorId": "2253497598",
+        "name": "Liang Dai"
+      },
+      {
+        "authorId": "2288279726",
+        "name": "Gang Wang"
+      },
+      {
+        "authorId": "2167831766",
+        "name": "Zhenle Lei"
+      },
+      {
+        "authorId": "2147432226",
+        "name": "Gui Ma"
+      },
+      {
+        "authorId": "2334777514",
+        "name": "Qianlin Zuo"
+      },
+      {
+        "authorId": "2326399915",
+        "name": "Min Li"
+      },
+      {
+        "authorId": "2335622771",
+        "name": "Mengmeng Zhao"
+      },
+      {
+        "authorId": "2224483161",
+        "name": "Jun Ren"
+      }
+    ],
+    "abstract": null
   },
   {
     "paperId": "64c738cc75afd5268d22bc08c8f26a479d7a2bf1",
@@ -14707,7 +15064,7 @@
       },
       {
         "authorId": "2237579065",
-        "name": "Peter D Gluckman"
+        "name": "Peter D. Gluckman"
       },
       {
         "authorId": "2256198913",
@@ -14734,7 +15091,7 @@
         "name": "Shiao-Yng Chan"
       }
     ],
-    "abstract": "Background With daily exposure to multiple endocrine disrupting chemicals (EDCs), understanding individualized co-exposure patterns could better identify chemicals that threaten health. This is particularly pertinent for the vulnerable fetus during in-utero development, where exposure can have long lasting health consequences. As there is limited information of EDC exposure in Asian maternal-offspring populations, this study aimed to (1) determine levels of a selected range of EDCs (focusing on Substances of Very High Concern by the European Chemical Agency) in maternal and corresponding cord blood plasma, (2) investigate the sociodemographic factors associated with plasma EDC concentrations, and (3) associate EDC-mixtures with birthweight, in a Singapore cohort. Methods Targeted liquid chromatography–tandem mass spectrometry (LC-MS/MS) was used to determine the concentration of 30 chemicals of interest in 780 maternal and 782 cord plasma samples collected at delivery in the multi-ethnic Asian (Chinese, Malay, Indian) mother-offspring GUSTO study. Quantile-based g-computation was used to estimate the combined effect of chemical mixtures and its association with birthweight. Results Twenty-seven out of the thirty selected chemicals were reliably detected in both maternal and cord plasma. Perfluorooctanesulfonic, perfluorooctanoic, perfluorobutanesulfonic and perfluorobutanoic acids (PFOS, PFOA, PFBS, PFBA, respectively) were the predominant perfluoroalkyl acids (detected in > 90% of samples), while mono (2-ethylhexyl) phthalate (MEHP) and monobutyl phthalate were the main phthalate metabolites (detected in > 99% of samples). Concentrations of fourteen chemicals, including PFBA, PFBS and bisphenol S (BPS) were higher in cord plasma than in corresponding maternal plasma; eight being > 1.5 times higher (ranging from 1.75 to 2.93). A mixture of chemicals in cord plasma associated with higher birthweight [116.5 g (95%CI 3.1, 229.9) per quantile increase], but no association was observed for the maternal mixture. Further, different chemicals from the same EDC group in either cord or maternal plasma showed associations in opposite directions with birthweight. Discussion Our results suggest substantial transplacental transfer and fetal accumulation of many chemicals, particularly the newer replacement compounds. Stronger associations with birthweight were found for the cord chemical mixture than for the maternal mixture, supporting the idea that these chemicals may have direct effects in the fetus to influence growth. Moreover, individual chemicals within each EDC group appear to have different mechanisms of effect resulting in divergent associations with birthweight. Conclusion This study adds to the growing concern about the impact of EDCs, especially the newer chemicals on vulnerable groups such as the developing fetus, warranting further research on the potential effects of in-utero EDC exposure on child health. Supplementary Information The online version contains supplementary material available at 10.1186/s12940-025-01202-6."
+    "abstract": "With daily exposure to multiple endocrine disrupting chemicals (EDCs), understanding individualized co-exposure patterns could better identify chemicals that threaten health. This is particularly pertinent for the vulnerable fetus during in-utero development, where exposure can have long lasting health consequences. As there is limited information of EDC exposure in Asian maternal-offspring populations, this study aimed to (1) determine levels of a selected range of EDCs (focusing on Substances of Very High Concern by the European Chemical Agency) in maternal and corresponding cord blood plasma, (2) investigate the sociodemographic factors associated with plasma EDC concentrations, and (3) associate EDC-mixtures with birthweight, in a Singapore cohort. Targeted liquid chromatography–tandem mass spectrometry (LC-MS/MS) was used to determine the concentration of 30 chemicals of interest in 780 maternal and 782 cord plasma samples collected at delivery in the multi-ethnic Asian (Chinese, Malay, Indian) mother-offspring GUSTO study. Quantile-based g-computation was used to estimate the combined effect of chemical mixtures and its association with birthweight. Twenty-seven out of the thirty selected chemicals were reliably detected in both maternal and cord plasma. Perfluorooctanesulfonic, perfluorooctanoic, perfluorobutanesulfonic and perfluorobutanoic acids (PFOS, PFOA, PFBS, PFBA, respectively) were the predominant perfluoroalkyl acids (detected in > 90% of samples), while mono (2-ethylhexyl) phthalate (MEHP) and monobutyl phthalate were the main phthalate metabolites (detected in > 99% of samples). Concentrations of fourteen chemicals, including PFBA, PFBS and bisphenol S (BPS) were higher in cord plasma than in corresponding maternal plasma; eight being > 1.5 times higher (ranging from 1.75 to 2.93). A mixture of chemicals in cord plasma associated with higher birthweight [116.5 g (95%CI 3.1, 229.9) per quantile increase], but no association was observed for the maternal mixture. Further, different chemicals from the same EDC group in either cord or maternal plasma showed associations in opposite directions with birthweight. Our results suggest substantial transplacental transfer and fetal accumulation of many chemicals, particularly the newer replacement compounds. Stronger associations with birthweight were found for the cord chemical mixture than for the maternal mixture, supporting the idea that these chemicals may have direct effects in the fetus to influence growth. Moreover, individual chemicals within each EDC group appear to have different mechanisms of effect resulting in divergent associations with birthweight. This study adds to the growing concern about the impact of EDCs, especially the newer chemicals on vulnerable groups such as the developing fetus, warranting further research on the potential effects of in-utero EDC exposure on child health."
   },
   {
     "paperId": "6e132afa51eb64d742e2d1259d506ff01b838c9a",
@@ -15992,19 +16349,20 @@
   {
     "paperId": "74cd4365744402353209b78c48e756a59a377214",
     "externalIds": {
+      "PubMedCentral": "7617748",
       "DOI": "10.1038/s41370-025-00773-3",
       "CorpusId": 278061820,
       "PubMed": "40274963"
     },
     "url": "https://www.semanticscholar.org/paper/74cd4365744402353209b78c48e756a59a377214",
-    "title": "Longitudinal association of perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) exposure with lipid traits, in a healthy unselected population.",
+    "title": "Longitudinal association of Perfluorooctanoic Acid (PFOA) and Perfluorooctanesulphonic Acid (PFOS) exposure with lipid traits, in a healthy unselected population",
     "venue": "Journal of Exposure Science and Environmental Epidemiology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41370-025-00773-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41370-025-00773-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC7617748, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -16015,8 +16373,8 @@
         "name": "Yasrab N Raza"
       },
       {
-        "authorId": "2242448315",
-        "name": "J. S. E. Moustafa"
+        "authorId": "1402348392",
+        "name": "J. E. El-sayed Moustafa"
       },
       {
         "authorId": "2108263650",
@@ -16051,7 +16409,7 @@
         "name": "K. Small"
       }
     ],
-    "abstract": "Abstract\n          \n            Background\n            Perfluorooctanoic acid (PFOA) and Perfluorooctanesulfonic Acid (PFOS) are synthetic substances with long half-lives. Their presence is widespread and pervasive, and they are noted for their environmental persistence. Research has shown these chemicals to be associated with dyslipidaemia, although few studies have considered the long-term associations in the general population.\n          \n          \n            Objectives\n            The aim of this study was to consider the longitudinal and cross-sectional associations with lipid phenotypes.\n          \n          \n            Methods\n            We investigated the association of these chemicals with total cholesterol (TC), low-density lipoprotein (LDL), high-density lipoprotein (HDL), triglycerides (TG), and the total cholesterol: high-density lipoprotein ratio (TC:HDL), in a healthy unselected British population of twins (n = 2069), measured at three timepoints between 1996 and 2014.\n          \n          \n            Results\n            Serum levels of PFOA and PFOS decreased over time during this period. We demonstrate longitudinal associations across serum levels of both PFOA and PFOS, finding positive associations with TC (PFOA:β = 0.51, p = 1.9e−07; PFOS:β = 0.24, p = 3.8e−05) and LDL (PFOA:β = 0.61, p = 1.7e−11; PFOS:β = 0.42, p = 1.6e−14), and consistent negative associations with HDL and PFOA (β = −0.12, p = 0.003) and PFOS (β = −0.25, p = &lt;2e−16). We also observe cross-sectional associations of PFAS with lipids across all three timepoints.\n          \n          \n            Impact\n            \n              \n                \n                  PFAS remain persistent in the environment, despite regulations, due to their structural properties, leaving humans open to exposure. There is less understanding of how chronic low exposure to these chemicals, particularly within an unselected population, may impact health outcomes. This study reports the longitudinal associations of PFOA and PFOS over an 18-year window with 5 lipid phenotypes, highlighting that despite falling serum levels, PFAS exposure may lead to hyperlipidaemia. We further investigate the cross-sectional associations across three timepoints to understand time-dependent effects, demonstrating associations persist. This work aids our understanding on the long-term effect of chronic PFAS exposure."
+    "abstract": "Perfluorooctanoic acid (PFOA) and Perfluorooctanesulfonic Acid (PFOS) are synthetic substances with long half-lives. Their presence is widespread and pervasive, and they are noted for their environmental persistence. Research has shown these chemicals to be associated with dyslipidaemia, although few studies have considered the long-term associations in the general population. The aim of this study was to consider the longitudinal and cross-sectional associations with lipid phenotypes. We investigated the association of these chemicals with total cholesterol (TC), low-density lipoprotein (LDL), high-density lipoprotein (HDL), triglycerides (TG), and the total cholesterol: high-density lipoprotein ratio (TC:HDL), in a healthy unselected British population of twins (n = 2069), measured at three timepoints between 1996 and 2014. Serum levels of PFOA and PFOS decreased over time during this period. We demonstrate longitudinal associations across serum levels of both PFOA and PFOS, finding positive associations with TC (PFOA:β = 0.51, p = 1.9e−07; PFOS:β = 0.24, p = 3.8e−05) and LDL (PFOA:β = 0.61, p = 1.7e−11; PFOS:β = 0.42, p = 1.6e−14), and consistent negative associations with HDL and PFOA (β = −0.12, p = 0.003) and PFOS (β = −0.25, p = <2e−16). We also observe cross-sectional associations of PFAS with lipids across all three timepoints. PFAS remain persistent in the environment, despite regulations, due to their structural properties, leaving humans open to exposure. There is less understanding of how chronic low exposure to these chemicals, particularly within an unselected population, may impact health outcomes. This study reports the longitudinal associations of PFOA and PFOS over an 18-year window with 5 lipid phenotypes, highlighting that despite falling serum levels, PFAS exposure may lead to hyperlipidaemia. We further investigate the cross-sectional associations across three timepoints to understand time-dependent effects, demonstrating associations persist. This work aids our understanding on the long-term effect of chronic PFAS exposure. PFAS remain persistent in the environment, despite regulations, due to their structural properties, leaving humans open to exposure. There is less understanding of how chronic low exposure to these chemicals, particularly within an unselected population, may impact health outcomes. This study reports the longitudinal associations of PFOA and PFOS over an 18-year window with 5 lipid phenotypes, highlighting that despite falling serum levels, PFAS exposure may lead to hyperlipidaemia. We further investigate the cross-sectional associations across three timepoints to understand time-dependent effects, demonstrating associations persist. This work aids our understanding on the long-term effect of chronic PFAS exposure."
   },
   {
     "paperId": "7563e7be00ebdfb5e87f0363ccb9472dbd18e73d",
@@ -17224,8 +17582,8 @@
   {
     "paperId": "7e225e691baaffcac509cf5af799999e22f97130",
     "externalIds": {
-      "MAG": "3162978121",
       "PubMedCentral": "9032701",
+      "MAG": "3162978121",
       "DOI": "10.1039/D1RA02635F",
       "CorpusId": 236650435,
       "PubMed": "35480216"
@@ -17896,51 +18254,6 @@
     "abstract": null
   },
   {
-    "paperId": "8308f8014c57b3ad8ca2bb2948676f186d6ee125",
-    "externalIds": {
-      "PubMedCentral": "12152711",
-      "DOI": "10.1002/rcm.10079",
-      "CorpusId": 279261993,
-      "PubMed": "40495819"
-    },
-    "url": "https://www.semanticscholar.org/paper/8308f8014c57b3ad8ca2bb2948676f186d6ee125",
-    "title": "Direct Probe Ionisation Mass Spectrometry for Rapid and Accurate Determination of Perfluoroalkyl and Polyfluoroalkyl Substance Concentrations",
-    "venue": "Rapid Communications in Mass Spectrometry",
-    "year": 2025,
-    "openAccessPdf": {
-      "url": "",
-      "status": null,
-      "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12152711, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
-    },
-    "publicationTypes": [
-      "JournalArticle"
-    ],
-    "authors": [
-      {
-        "authorId": "2366183019",
-        "name": "Tim P Sidnell"
-      },
-      {
-        "authorId": "2132349330",
-        "name": "Simone C Mathias"
-      },
-      {
-        "authorId": "2366185175",
-        "name": "David P Megson"
-      },
-      {
-        "authorId": "2366184790",
-        "name": "Patrick J Sears"
-      },
-      {
-        "authorId": "2366182910",
-        "name": "Madeleine J. Bussemaker"
-      }
-    ],
-    "abstract": "ABSTRACT Rationale Analysis of perfluoroalkyl and polyfluoroalkyl substances (PFAS) is typically achieved using chromatographic techniques, such as high‐performance liquid chromatography, combined with mass spectrometry. These techniques can be complex, expensive, time consuming and can lead to inaccurate quantification due to sample container sorption and contamination by polytetrafluoroethylene (PTFE) components. Methods Here, we demonstrate the novel application of a Direct Probe ionisation Mass Spectrometer (DPiMS) to quantify four aqueous anionic PFAS; perfluorooctanoic acid (PFOA), perfluorooctane sulfonic acid (PFOS), perfluorononanoic acid (PFNA) and 1H,1H,2H,2H‐perfluorooctanesulfonic acid (6:2 fluorotelomer surfactant). The DPiMS was operated in both Single Ion Monitoring (SIM) and broad m/z scan range (50–500) modes and the cleaning methodology, ionising voltage and desolvation line heating temperature were optimised. Results The derived method quantified both single component and mixtures of PFAS from 0.5 nM to 200 μM (0.2 ppb to 108 ppm) without use of pre‐concentration. The advantages of this technique over chromatographic techniques are; the speed of analysis (≈3.5 min per sample, including blanks/cleaning), lack of PTFE components and simplified methodology. Conclusions The DPiMS is a useful tool for the rapid screening and estimation of PFAS concentrations with results that are comparable to existing methods. It is anticipated that better sensitivity could be achieved with the use of a triple quadrupole instrument."
-  },
-  {
     "paperId": "8327788f0ca0bbc621d5af981dba1249b522e802",
     "externalIds": {
       "DOI": "10.1016/j.envpol.2025.127210",
@@ -17996,7 +18309,7 @@
       "PubMed": "39992476"
     },
     "url": "https://www.semanticscholar.org/paper/835f8c1e97b2fff8058115e8c29313484f60b88b",
-    "title": "The impact of the fourth regulatory determination on vulnerable populations.",
+    "title": "The impact of the fourth regulatory determination on vulnerable populations",
     "venue": "Environmental Monitoring & Assessment",
     "year": 2025,
     "openAccessPdf": {
@@ -18676,6 +18989,37 @@
       }
     ],
     "abstract": "Human exposure to per- and polyfluoroalkyl substances (PFAS) through the US diet has not been well-characterized. Highly consumed foods are routinely monitored through FDA's Total Diet Study program. Portions of these samples were used to develop and validate a method for PFAS in a wide variety of foods. The extraction of 16 PFAS was performed using the quick, easy, cheap, effective, rugged, and safe (QuEChERS) method and analyzed by liquid chromatography/mass spectrometry. Method optimizations are described including investigations into the QuEChERS sorbents, matrix effects, and solid-phase extraction (SPE) cartridges. The use of a custom push-through SPE cartridge showed promising results as a rapid cleanup option for food samples. Challenges in ion confirmation are discussed, and the use of enhanced product ion (EPI) full-scan MS/MS spectra is presented as a potential option for verifying false positives. The validated method was then used for the analysis of 179 total diet study samples, and positive detects for perfluorooctanesulfonic acid (PFOS) were found in two fish and one meat sample."
+  },
+  {
+    "paperId": "88788e8672c1b59797f40d335f62c9ccdb2af7d7",
+    "externalIds": {
+      "DOI": "10.1007/s11270-025-08215-4",
+      "CorpusId": 279174183
+    },
+    "url": "https://www.semanticscholar.org/paper/88788e8672c1b59797f40d335f62c9ccdb2af7d7",
+    "title": "Mechanochemical Approaches for Emerging Contaminant Removal and Resource Recovery",
+    "venue": "Water, Air and Soil Pollution",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11270-025-08215-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11270-025-08215-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2308898993",
+        "name": "Yuxiang Shi"
+      },
+      {
+        "authorId": "2243250937",
+        "name": "Wei-Xian Zhang"
+      }
+    ],
+    "abstract": null
   },
   {
     "paperId": "88f9ef792072e3db73fd9393a8d7328c98fb1b30",
@@ -19564,8 +19908,8 @@
   {
     "paperId": "912288fe9877193d3c2a8b0b6ed268147cc19cb6",
     "externalIds": {
-      "PubMedCentral": "8241792",
       "MAG": "3014809777",
+      "PubMedCentral": "8241792",
       "DOI": "10.1007/s00204-020-02732-3",
       "CorpusId": 214798693,
       "PubMed": "32253466"
@@ -20369,19 +20713,20 @@
   {
     "paperId": "990d810264046c1832256be17c440f027fa9472b",
     "externalIds": {
+      "PubMedCentral": "12553607",
       "DOI": "10.1007/s11356-025-37055-2",
       "CorpusId": 282100031,
       "PubMed": "41087801"
     },
     "url": "https://www.semanticscholar.org/paper/990d810264046c1832256be17c440f027fa9472b",
-    "title": "Ultrasound for degradation of complex matrices of PFAS mixtures.",
+    "title": "Ultrasound for degradation of complex matrices of PFAS mixtures",
     "venue": "Environmental science and pollution research international",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s11356-025-37055-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s11356-025-37055-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12553607, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -20412,7 +20757,7 @@
         "name": "Jeffrey Davis"
       }
     ],
-    "abstract": "Abstract\n                  This study evaluates the effectiveness of ultrasound technology for degrading per- and polyfluoroalkyl substances (PFAS) in three complex environmental matrices: groundwater (GW), still bottom (SB), and aqueous film-forming foam (AFFF). A 10-L ultrasonic reactor, equipped with multi-frequency piezoelectric elements (850 kHz and 950 kHz), was used to treat PFAS-contaminated samples for 6 to 12 h. Degradation efficiency was measured using liquid chromatography-mass spectrometry (LC–MS/MS), fluoride ion-selective electrode (F-ISE), suppressed conductivity ion chromatography (IC), nuclear magnetic resonance (NMR) spectroscopy, total organically bound fluorine (TOF) analysis, and inductively coupled plasma mass spectrometry (ICP-MS). LC–MS/MS confirmed PFAS degradation, while F-ISE quantified fluoride release, indicating defluorination. IC analysis measured changes in anion concentrations, particularly sulfate and chloride, to assess transformation pathways. NMR and TOF provided structural insights into PFAS breakdown, and ICP-MS tracked variations in metal concentrations, highlighting potential interactions with degradation byproducts. In SB samples, fluoride concentration increased from 0 to 8.71 mg/L after 12 h, indicating successful defluorination of PFAS compounds. For GW samples, fluoride levels rose moderately from 0.54 to 1.78 mg/L, demonstrating that sonolysis can degrade PFAS in lower-concentration matrices. However, AFFF samples, dominated by perfluorooctanesulfonic acid (PFOS), showed only a slight increase in fluoride concentration (0.75 to 1.37 mg/L), indicating resistance to sonolytic degradation due to strong carbon–fluorine bonds. Anion and metal analysis revealed matrix-specific interactions influencing sonolysis outcomes, with energy distribution analysis highlighting the competitive role of chemical oxygen demand (COD) in scavenging reactive radicals. This research demonstrates ultrasound as a promising technology for PFAS degradation in complex matrices. However, the test results for AFFF suggest that with high surfactant concentrations, modifications may be necessary for complete mineralization of PFAS compounds."
+    "abstract": "This study evaluates the effectiveness of ultrasound technology for degrading per- and polyfluoroalkyl substances (PFAS) in three complex environmental matrices: groundwater (GW), still bottom (SB), and aqueous film-forming foam (AFFF). A 10-L ultrasonic reactor, equipped with multi-frequency piezoelectric elements (850 kHz and 950 kHz), was used to treat PFAS-contaminated samples for 6 to 12 h. Degradation efficiency was measured using liquid chromatography-mass spectrometry (LC–MS/MS), fluoride ion-selective electrode (F-ISE), suppressed conductivity ion chromatography (IC), nuclear magnetic resonance (NMR) spectroscopy, total organically bound fluorine (TOF) analysis, and inductively coupled plasma mass spectrometry (ICP-MS). LC–MS/MS confirmed PFAS degradation, while F-ISE quantified fluoride release, indicating defluorination. IC analysis measured changes in anion concentrations, particularly sulfate and chloride, to assess transformation pathways. NMR and TOF provided structural insights into PFAS breakdown, and ICP-MS tracked variations in metal concentrations, highlighting potential interactions with degradation byproducts. In SB samples, fluoride concentration increased from 0 to 8.71 mg/L after 12 h, indicating successful defluorination of PFAS compounds. For GW samples, fluoride levels rose moderately from 0.54 to 1.78 mg/L, demonstrating that sonolysis can degrade PFAS in lower-concentration matrices. However, AFFF samples, dominated by perfluorooctanesulfonic acid (PFOS), showed only a slight increase in fluoride concentration (0.75 to 1.37 mg/L), indicating resistance to sonolytic degradation due to strong carbon–fluorine bonds. Anion and metal analysis revealed matrix-specific interactions influencing sonolysis outcomes, with energy distribution analysis highlighting the competitive role of chemical oxygen demand (COD) in scavenging reactive radicals. This research demonstrates ultrasound as a promising technology for PFAS degradation in complex matrices. However, the test results for AFFF suggest that with high surfactant concentrations, modifications may be necessary for complete mineralization of PFAS compounds."
   },
   {
     "paperId": "997ffadfae9793abf3c9c353ef9449211db3505f",
@@ -20722,7 +21067,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/9cedc578d7474146ed841b91daf09bfe75e55f24",
     "title": "Adsorption characteristics of perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) in granular activated carbon (GAC) and modified GAC",
-    "venue": "Water, Air, &amp; Soil Pollution",
+    "venue": "Water, Air and Soil Pollution",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
@@ -21242,7 +21587,7 @@
       },
       {
         "authorId": "4566783",
-        "name": "Filippo Da Re"
+        "name": "F. Da Re"
       },
       {
         "authorId": "143766052",
@@ -23620,7 +23965,7 @@
         "name": "Alan Kennedy"
       }
     ],
-    "abstract": "The larval fathead minnow, Pimephales promelas, 7-day subchronic survival and growth standard toxicity test method is commonly used for research and regulatory testing of effluents and compounds, including emerging contaminants such as Perfluorooctanesulfonic Acid (PFOS). Existing feeding guidelines for testing are described in multiple methods but are open to interpretation. The current study sought to determine the impact of feeding ration on P. promelas survival and biomass during a subchronic exposure to PFOS. The study was conducted in two phases: (1) a control experiment to determine the most significant feeding ration factors that maximize biomass, with consideration to laboratory logistics, and (2) application of down-selected feeding rations in a PFOS exposure to determine toxicity reference values. The control optimization study supported that feeding ration and feeding frequency were significant factors in fish biomass. In the subsequent PFOS study, fish were fed a high or low ration of Artemia twice daily, while exposed to 0.3 to 3.4 mg/L PFOS. Fish fed a high ration of Artemia had significantly (p < 0.05) greater biomass than fish fed a low ration in all exposure concentrations except 3.4 mg/L, where survival was low in both treatments. The feeding ration was not a significant factor on the survival endpoint for either treatment, but the PFOS concentration was (p < 0.0001) (high ration LC50 = 2.44 mg/L; low ration LC50 = 2.25 mg/L). These findings contribute to a better understanding of the impact feeding ration has in toxicity assessments and downstream regulatory decisions. Supplementary Information The online version contains supplementary material available at 10.1007/s00244-024-01068-8."
+    "abstract": "The larval fathead minnow, Pimephales promelas, 7-day subchronic survival and growth standard toxicity test method is commonly used for research and regulatory testing of effluents and compounds, including emerging contaminants such as Perfluorooctanesulfonic Acid (PFOS). Existing feeding guidelines for testing are described in multiple methods but are open to interpretation. The current study sought to determine the impact of feeding ration on P. promelas survival and biomass during a subchronic exposure to PFOS. The study was conducted in two phases: (1) a control experiment to determine the most significant feeding ration factors that maximize biomass, with consideration to laboratory logistics, and (2) application of down-selected feeding rations in a PFOS exposure to determine toxicity reference values. The control optimization study supported that feeding ration and feeding frequency were significant factors in fish biomass. In the subsequent PFOS study, fish were fed a high or low ration of Artemia twice daily, while exposed to 0.3 to 3.4 mg/L PFOS. Fish fed a high ration of Artemia had significantly (p < 0.05) greater biomass than fish fed a low ration in all exposure concentrations except 3.4 mg/L, where survival was low in both treatments. The feeding ration was not a significant factor on the survival endpoint for either treatment, but the PFOS concentration was (p < 0.0001) (high ration LC50 = 2.44 mg/L; low ration LC50 = 2.25 mg/L). These findings contribute to a better understanding of the impact feeding ration has in toxicity assessments and downstream regulatory decisions."
   },
   {
     "paperId": "afc49cce1bd617340f842eb6bd1322d58a96f382",
@@ -23737,6 +24082,81 @@
       }
     ],
     "abstract": "Perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS), chemicals present in a multitude of consumer products, are persistent organic pollutants. Both compounds induce hepatotoxic effects in rodents, including steatosis, hepatomegaly and liver cancer. The mechanisms of PFOA- and PFOS-induced hepatic dysfunction are not completely understood. We present evidence that PFOA and PFOS induce their hepatic effects via targeting hepatocyte nuclear factor 4-alpha (HNF4α). Human hepatocytes treated with PFOA and PFOS at a concentration relevant to occupational exposure caused a decrease in HNF4α protein without affecting HNF4α mRNA or causing cell death. RNA sequencing analysis combined with Ingenuity Pathway Analysis of global gene expression changes in human hepatocytes treated with PFOA or PFOS indicated alterations in the expression of genes involved in lipid metabolism and tumorigenesis, several of which are regulated by HNF4α. Further investigation of specific HNF4α target gene expression revealed that PFOA and PFOS could promote cellular dedifferentiation and increase cell proliferation by down regulating positive targets (differentiation genes such as CYP7A1) and inducing negative targets of HNF4α (pro-mitogenic genes such as CCND1). Furthermore, in silico docking simulations indicated that PFOA and PFOS could directly interact with HNF4α in a similar manner to endogenous fatty acids. Collectively, these results highlight HNF4α degradation as novel mechanism of PFOA and PFOS-mediated steatosis and tumorigenesis in human livers."
+  },
+  {
+    "paperId": "b04cfb5934b61800d21febd3e33b88600f050035",
+    "externalIds": {
+      "DOI": "10.1007/s12403-025-00703-6",
+      "CorpusId": 277871153
+    },
+    "url": "https://www.semanticscholar.org/paper/b04cfb5934b61800d21febd3e33b88600f050035",
+    "title": "Exploring the Relationships Between Exposure Levels of Per- and Polyfluoroalkyl Substances and Prostate Cancer Occurrence in Southwest China",
+    "venue": "Exposure and Health",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12403-025-00703-6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12403-025-00703-6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2305478934",
+        "name": "Jiaqi Guo"
+      },
+      {
+        "authorId": "2303302093",
+        "name": "Zifan Hu"
+      },
+      {
+        "authorId": "2303666810",
+        "name": "Weiyang Sun"
+      },
+      {
+        "authorId": "2351335489",
+        "name": "Jia Li"
+      },
+      {
+        "authorId": "2152665071",
+        "name": "Xinyi Huang"
+      },
+      {
+        "authorId": "51127353",
+        "name": "Xianghong Zhou"
+      },
+      {
+        "authorId": "2128158961",
+        "name": "Zilong Zhang"
+      },
+      {
+        "authorId": "2280212598",
+        "name": "Yumin Jin"
+      },
+      {
+        "authorId": "2280176694",
+        "name": "Weichao Huang"
+      },
+      {
+        "authorId": "2356582141",
+        "name": "Chunying Luo"
+      },
+      {
+        "authorId": "2355959830",
+        "name": "Koji Harada"
+      },
+      {
+        "authorId": "2301783669",
+        "name": "Shi Qiu"
+      },
+      {
+        "authorId": "2067662861",
+        "name": "Xiaoli Zou"
+      }
+    ],
+    "abstract": null
   },
   {
     "paperId": "b0e1b9f963fe2bff9ddc5e5901d0bd0eeb03d8f3",
@@ -25106,7 +25526,7 @@
         "name": "T. Hamers"
       }
     ],
-    "abstract": "Transthyretin (TTR) and thyroxine-binding globulin (TBG) are two major thyroid hormone (TH) distributor proteins in human plasma, playing important roles in stabilizing the TH levels in plasma, delivery of TH to target tissues, and trans-barrier transport. Binding of xenobiotics to these distributor proteins can potentially affect all these three important roles of distributor proteins. Therefore, fast and cost-effective experimental methods are required for both TTR and TBG to screen both existing and new chemicals for their potential binding. In the present study, the TTR-binding assay was therefore simplified, optimized and pre-validated, while a new TBG-binding assay was developed based on fluorescence polarization as a readout. Seven model compounds (including positive and negative controls) were tested in the pre-validation study of the optimized TTR-binding assay and in the newly developed TBG-binding assay. The dissociation constants of the natural ligand (thyroxine, T4) and potential competitors were determined and compared between two distributor proteins, showing striking differences for perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA). Supplementary Information The online version contains supplementary material available at 10.1007/s00204-024-03842-y."
+    "abstract": "Transthyretin (TTR) and thyroxine-binding globulin (TBG) are two major thyroid hormone (TH) distributor proteins in human plasma, playing important roles in stabilizing the TH levels in plasma, delivery of TH to target tissues, and trans-barrier transport. Binding of xenobiotics to these distributor proteins can potentially affect all these three important roles of distributor proteins. Therefore, fast and cost-effective experimental methods are required for both TTR and TBG to screen both existing and new chemicals for their potential binding. In the present study, the TTR-binding assay was therefore simplified, optimized and pre-validated, while a new TBG-binding assay was developed based on fluorescence polarization as a readout. Seven model compounds (including positive and negative controls) were tested in the pre-validation study of the optimized TTR-binding assay and in the newly developed TBG-binding assay. The dissociation constants of the natural ligand (thyroxine, T4) and potential competitors were determined and compared between two distributor proteins, showing striking differences for perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA)."
   },
   {
     "paperId": "bc6f4cbf6645144f5026923b7596ad3348ab5d28",
@@ -25823,19 +26243,20 @@
   {
     "paperId": "c24fe1408962045d236722cad071f88d02934617",
     "externalIds": {
+      "PubMedCentral": "12590536",
       "DOI": "10.1002/smll.202509275",
       "CorpusId": 281384772,
       "PubMed": "40964952"
     },
     "url": "https://www.semanticscholar.org/paper/c24fe1408962045d236722cad071f88d02934617",
-    "title": "Mechanochemically Synthesized Covalent Organic Framework Effectively Captures PFAS Contaminants.",
+    "title": "Mechanochemically Synthesized Covalent Organic Framework Effectively Captures PFAS Contaminants",
     "venue": "Small",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1002/smll.202509275?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/smll.202509275, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12590536, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -25890,7 +26311,7 @@
         "name": "Franziska Emmerling"
       }
     ],
-    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants that pose significant health risks, prompting urgent efforts to develop effective removal methods and adsorbers. Covalent organic frameworks (COFs) are metal-free adsorbers with high stability and tunable porosity. A highly crystalline COF is synthesised mechanochemically using 1,3,5-tris(4-aminophenyl)benzene (TAPB) and 1,3,5-triformylbenzene (TFB). The formation dynamics are monitored in real time with time-resolved in situ synchrotron X-ray diffraction. The TAPB-TFB COF demonstrates good efficiency in eliminating PFAS from water. Perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) are effectively extracted, and most of the adsorption occurred within the first 10 min. Additionally, X-ray photoelectron spectroscopy, Fourier transform infrared spectroscopy, and DFT calculations are employed to elucidate the molecular interactions between PFAS and the COF framework. The rapid and efficient removal of PFAS makes TAPB-TFB COF a promising material for water treatment applications."
+    "abstract": "Abstract Per‐ and polyfluoroalkyl substances (PFAS) are persistent environmental contaminants that pose significant health risks, prompting urgent efforts to develop effective removal methods and adsorbers. Covalent organic frameworks (COFs) are metal‐free adsorbers with high stability and tunable porosity. A highly crystalline COF is synthesised mechanochemically using 1,3,5‐tris(4‐aminophenyl)benzene (TAPB) and 1,3,5‐triformylbenzene (TFB). The formation dynamics are monitored in real time with time‐resolved in situ synchrotron X‐ray diffraction. The TAPB‐TFB COF demonstrates good efficiency in eliminating PFAS from water. Perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) are effectively extracted, and most of the adsorption occurred within the first 10 min. Additionally, X‐ray photoelectron spectroscopy, Fourier transform infrared spectroscopy, and DFT calculations are employed to elucidate the molecular interactions between PFAS and the COF framework. The rapid and efficient removal of PFAS makes TAPB‐TFB COF a promising material for water treatment applications."
   },
   {
     "paperId": "c26053f39c9dca93ba792d1d2aa6d67c5aea0583",
@@ -26383,6 +26804,54 @@
     "abstract": "Paired surface wastewater samples from seven wastewater treatment plants (WWTPs) in Kaohsiung, Taiwan, were analyzed to quantify environmental PFAS loadings. Seventeen per- and poly-fluoroalkyl substances (PFASs) were analyzed, whereby WWTPs 1-4, treating domestic discharges, exhibited relatively low concentrations of 10.5-46.8 ng L-1. WWTP 5, handling mixed domestic and light industrial wastewater, had moderate levels of 45.7-102.3 ng L-1. WWTPs 6 and 7, which process heavy industrial discharges, recorded the highest PFAS concentrations of up to 2790 ng L-1 and 4290 ng L-1, respectively. The dominant PFAS compounds varied by facility: perfluoropentanoic acid (PFPeA) and 6:2 fluorotelomer sulfonate (6:2 FTS) in WWTPs 1-4, 6:2 FTS and perfluorooctanesulfonic acid (PFOS) in WWTPs 5, 6, and 7. Principal Component Analysis (PCA) confirmed that reverse osmosis (RO) effectively reduced PFAS concentrations, while conventional treatment processes lacked significant degradation capability. Three WWTPs (5-7) in Kaohsiung's heavily industrialized southern region had effluent PFAS levels exceeding the EPA lifetime health advisory limit of 70.0 ng L-1. These findings highlight the urgent need for advanced treatment technologies and provide essential data to support Taiwan EPA's PFAS management regulations in WWTPs."
   },
   {
+    "paperId": "c6fbe4ba075c035fa2ebb481ba98270fa324f5ca",
+    "externalIds": {
+      "DOI": "10.1007/s44169-025-00095-3",
+      "CorpusId": 280763998
+    },
+    "url": "https://www.semanticscholar.org/paper/c6fbe4ba075c035fa2ebb481ba98270fa324f5ca",
+    "title": "Emerging Technologies and Key Factors in PFAS Removal From Wastewater and Biosolids: Focus on PFOA and PFOS",
+    "venue": "Reviews of environmental contamination and toxicology",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s44169-025-00095-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s44169-025-00095-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle",
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "21739282",
+        "name": "B. Asgari Lajayer"
+      },
+      {
+        "authorId": "2292850367",
+        "name": "Debadatta Sethi"
+      },
+      {
+        "authorId": "1473657978",
+        "name": "Soubam Indrakumar Singh"
+      },
+      {
+        "authorId": "2190050700",
+        "name": "Sima Abdoli"
+      },
+      {
+        "authorId": "2271599602",
+        "name": "Weixi Shu"
+      },
+      {
+        "authorId": "2258328868",
+        "name": "G. W. Price"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "c7b53ae9c7254733393761391f5786d8318e302f",
     "externalIds": {
       "DOI": "10.1002/etc.5846",
@@ -26592,6 +27061,61 @@
     "abstract": "A novel vacuum ultraviolet excimer lamp emitting light at 193 nm was used to investigate the degradation of organic micropollutants in ultrapure water and wastewater treatment plant (WWTP) effluent. Overall, light at 193 nm proved to be efficient to degrade the investigated micropollutants (diclofenac, diatrizoic acid, sulfamethoxazole). Experiments with WWTP effluent proved the ability of radiation at 193 nm to degrade micropollutants which are hardly removed with commonly used oxidation technologies like ozonation (diatrizoic acid, ethylenediaminetetraacetic acid, perfluorooctanoic acid, and perfluorooctanesulfonic acid)."
   },
   {
+    "paperId": "c8863719f82748ec8efe4e0eb89fdb18bfdf28fb",
+    "externalIds": {
+      "DOI": "10.1007/s00227-025-04644-1",
+      "CorpusId": 278892472
+    },
+    "url": "https://www.semanticscholar.org/paper/c8863719f82748ec8efe4e0eb89fdb18bfdf28fb",
+    "title": "Effects of PFOS on larval symbiont acquisition, lipidome, and metamorphosis of an Acropora coral",
+    "venue": "Marine Biology",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00227-025-04644-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00227-025-04644-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2114267440",
+        "name": "K. A. Costa"
+      },
+      {
+        "authorId": "5590997",
+        "name": "S. Harii"
+      },
+      {
+        "authorId": "2123116354",
+        "name": "Camden G. Camacho"
+      },
+      {
+        "authorId": "2323046640",
+        "name": "Jessica Donaldson"
+      },
+      {
+        "authorId": "2265193159",
+        "name": "Jeffrey Jolly"
+      },
+      {
+        "authorId": "2333587594",
+        "name": "Shannon McMahon"
+      },
+      {
+        "authorId": "2265192987",
+        "name": "Timothy Ravasi"
+      },
+      {
+        "authorId": "2292439321",
+        "name": "John A. Bowden"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "c8b85bbf0d59dfa171e722d113f829b0ced5cd32",
     "externalIds": {
       "PubMedCentral": "12423910",
@@ -26665,8 +27189,8 @@
         "name": "Cao Thi Hong Hanh"
       },
       {
-        "authorId": "2320873729",
-        "name": "Nghiem Minh Huyen"
+        "authorId": "2359670025",
+        "name": "N. Huyen"
       },
       {
         "authorId": "2321156006",
@@ -27599,6 +28123,49 @@
       }
     ],
     "abstract": "Perfluoroalkyl substances (PFASs) such as perfluorocarboxylic acid (PFCAs) and perfluoroalkane sul fonates (PFSAs) are persistent, bioaccumulative, and toxic substances that are distributed worldwide. Here we investigated the current concentrations of PFASs in the surface sediments from the Seto Inland Sea, Japan. The concentrations of PFCAs in surface sediments from the Sea ranged from 0.05 to 0.67 ng g −1 . Perfluoroundecanoic acid (PFUnDA) was detected at all 15 sampling stations; its concentration was 0.05–0.24 ng g −1 . Perfluorohexanoic acid (PFHxA), which is used as an alternative to perfluorooctanoic acid (PFOA), was detected in Osaka Bay and Kii Channel. The contamination of PFCAs in the sediment from Osaka Bay and Kii Channel is shifting to PFHxA. In contrast, only perfluorooctanesulfonic acid (PFOS) was detected at the center part of the bays in the Sea. The sig nificant positive correlation between the PFCAs concentrations in the sediment and the sedimentation rates was observed in the Sea. Hence, the concentration of PFCAs in surface sediments from the Sea was controlled by the sedimentation rate."
+  },
+  {
+    "paperId": "d136b400ba4cf596eb39201fb21a9ce6a05412c8",
+    "externalIds": {
+      "DOI": "10.1007/s13201-024-02269-1",
+      "CorpusId": 272213189
+    },
+    "url": "https://www.semanticscholar.org/paper/d136b400ba4cf596eb39201fb21a9ce6a05412c8",
+    "title": "Development of laboratory-cooked, water-resistant, and high-performance Cu-MOF: an economic analysis of Cu-MOF for PFOS pollution management and remediation",
+    "venue": "Applied Water Science",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1007/s13201-024-02269-1",
+      "status": "GOLD",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s13201-024-02269-1?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s13201-024-02269-1, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "92780278",
+        "name": "Abdelfattah Amari"
+      },
+      {
+        "authorId": "2264449895",
+        "name": "Ahmad Ismael Saber"
+      },
+      {
+        "authorId": "2260735615",
+        "name": "Haitham Osman"
+      },
+      {
+        "authorId": "6952176",
+        "name": "V. Spalević"
+      },
+      {
+        "authorId": "103530163",
+        "name": "B. Dudić"
+      }
+    ],
+    "abstract": "Water pollution is a pressing global concern, with per- and polyfluoroalkyl substances (PFAS) being considered as “forever contaminants.” Among them, perfluorooctanesulfonic acid (PFOS) has received significant attention for its adverse effects on human health and aquatic ecosystems. This study aimed to design an innovative adsorbent for effective PFOS removal with exceptional water stability, improving its cost-performance trade-off. The current work simultaneously improved the stability of water of Cu-based metal–organic framework (CMOF) and increased its PFOS removal capacity by modifying it with amine-functionalized SiO2 nanoparticles (AF-CMOF). AF-CMOF presented a lower specific surface area of 999 m2 g−1 compared to CMOF with a surface area of 1098 m2 g−1. AF-CMOF showed remarkable PFOS uptake performance of 670 mg/g compared to the performance of the Cu-based MOF which exhibited a PFOS uptake capacity of only 22 mg/g. The most suitable pH for PFOS removal using both adsorbents was determined to be 3. In addition, AF-CMOF demonstrated excellent water stability, retaining its structural integrity even after seven days of water contact, while CMOF structure collapsed rapidly after four days of water exposure. Moreover, the study identified the significant pH influence on the PFOS uptake process, with electrostatic interactions between protonated amine functionalities and PFOS molecules identified as the dominant mechanism. The study’s findings present the potential of synthesized adsorbent as a superior candidate for PFOS uptake and contribute to the development of effective water treatment technologies."
   },
   {
     "paperId": "d1c21a572a3044e790cbee33b577743f5a90c7a9",
@@ -29031,7 +29598,7 @@
         "name": "Tuulia Hyötyläinen"
       }
     ],
-    "abstract": "\n Per- and polyfluoroalkyl substances and nanoplastics frequently co-occur in environmental matrices, yet the effects of co-exposure on cellular responses upon ingestion are poorly understood. Here, we exposed human intestinal Caco-2 cells to perfluorooctanesulfonic acid, nanoplastics, and their combination. Cell painting-based phenomics was used to map phenotypic alterations across subcellular structures, and untargeted metabolomics using ultra-high-performance liquid chromatography coupled to quadrupole time-of-flight mass spectrometry was employed to assess metabolic changes. Results show that perfluorooctanesulfonic acid predominantly affected the actin cytoskeleton, Golgi apparatus, and plasma membrane, while nanoplastics primarily targeted mitochondria. Combined exposure disrupted the endoplasmic reticulum, RNA, and mitochondria. Perfluorooctanesulfonic acid reduced levels of carnitines, free fatty acids, nucleotides, and sugars, whereas nanoplastics inhibited ceramides, triglycerides, sphingomyelins, and additional free fatty acids. Combined exposure produced a metabolic profile resembling that of nanoplastics, with specific differences attributed to perfluorooctanesulfonic acid. Overall, nanoplastics appear as the main drivers of the co-exposure effects."
+    "abstract": "Per- and polyfluoroalkyl substances and nanoplastics frequently co-occur in environmental matrices, yet the effects of co-exposure on cellular responses upon ingestion are poorly understood. Here, we exposed human intestinal Caco-2 cells to perfluorooctanesulfonic acid, nanoplastics, and their combination. Cell painting-based phenomics was used to map phenotypic alterations across subcellular structures, and untargeted metabolomics using ultra-high-performance liquid chromatography coupled to quadrupole time-of-flight mass spectrometry was employed to assess metabolic changes. Results show that perfluorooctanesulfonic acid predominantly affected the actin cytoskeleton, Golgi apparatus, and plasma membrane, while nanoplastics primarily targeted mitochondria. Combined exposure disrupted the endoplasmic reticulum, RNA, and mitochondria. Perfluorooctanesulfonic acid reduced levels of carnitines, free fatty acids, nucleotides, and sugars, whereas nanoplastics inhibited ceramides, triglycerides, sphingomyelins, and additional free fatty acids. Combined exposure produced a metabolic profile resembling that of nanoplastics, with specific differences attributed to perfluorooctanesulfonic acid. Overall, nanoplastics appear as the main drivers of the co-exposure effects."
   },
   {
     "paperId": "e178442063c5be1cf64963c8d0c194f4f554bc9f",
@@ -29566,7 +30133,7 @@
       },
       {
         "authorId": "2269447411",
-        "name": "Motoki Iwasaki"
+        "name": "M. Iwasaki"
       },
       {
         "authorId": "2269274434",
@@ -29754,6 +30321,63 @@
       }
     ],
     "abstract": "The widespread use of perfluorooctanesulfonic acid (PFOS) has raised concerns regarding its potential on pregnant women, particularly in relation to the development of pre-eclampsia (PE). This study investigates the impact of PFOS exposure on the LncRNA/Rnd3 axis in pregnant mice and its association with trophoblast cell functions in PE. Bioinformatics analysis revealed PFOS-related gene alterations in PE, with pathways enriched in apoptotic signaling and cytokine interactions. Experimental findings showed the downregulation of Oip5os1 and Rnd3, along with the upregulation of miR-155, affecting trophoblast behavior. Animal experiments confirmed that PFOS-induced gene expression changes are linked to PE progression. PFOS exposure impairs trophoblast proliferation and migration via the Oip5os1/miR-155/Rnd3 axis, contributing to PE development."
+  },
+  {
+    "paperId": "e57829a49b9dca2d8bbba10e535a0d64668db274",
+    "externalIds": {
+      "PubMedCentral": "12381221",
+      "DOI": "10.1038/s41467-025-63180-0",
+      "CorpusId": 280942918,
+      "PubMed": "40858586"
+    },
+    "url": "https://www.semanticscholar.org/paper/e57829a49b9dca2d8bbba10e535a0d64668db274",
+    "title": "Dehydroxy-Perfluoro-tert-butylation of alcohols with PhSO2C(CF3)3 and insights into the structure of the [C(CF3)3]− anion",
+    "venue": "Nature Communications",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12381221, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2113843122",
+        "name": "Kaidi Zhu"
+      },
+      {
+        "authorId": "2243588561",
+        "name": "Qinyu Luo"
+      },
+      {
+        "authorId": "2377946350",
+        "name": "Pengcheng Xu"
+      },
+      {
+        "authorId": "49985711",
+        "name": "Zhigang Ni"
+      },
+      {
+        "authorId": "2376404481",
+        "name": "Shuo Sun"
+      },
+      {
+        "authorId": "5145398",
+        "name": "Mingyou Hu"
+      },
+      {
+        "authorId": "7445544",
+        "name": "C. Ni"
+      },
+      {
+        "authorId": "2303249412",
+        "name": "Jinbo Hu"
+      }
+    ],
+    "abstract": "Branched PFOA and PFOS have shorter half-lives, lower toxicity, and weaker serum protein binding than linear ones, offering better environmental and health safety. Yet methods to access such branched motifs remain under developed. We now introduce a one-step dehydroxy-perfluoro-tert-butylation of alcohols, in which perfluoro-tert-butyl phenyl sulfone serves both to activate the C–O bond and to deliver the perfluoro-tert-butyl group. Mechanistic studies—including DFT calculations—reveal that perfluoro-tert-butyl phenyl sulfone first generates perfluoroisobutylene in situ to effect C–O bond cleavage, after which a catalytic iodide engages in the C–C bond-forming event. Remarkably, the isolated perfluoro-tert-butyl anion salt, characterized by single-crystal X-ray diffraction, displays significant negative hyperconjugation, as evidenced by the elongated C–F bonds. This operationally simple protocol tolerates a wide array of functional groups and complex substrates, providing rapid access to branched perfluoroalkyl scaffolds with broad implications for drug discovery and advanced materials. Branched perfluorooctanoic acid and perfluorooctanesulfonic acid have shorter half-lives, lower toxicity, and weaker serum protein binding than linear ones, offering better environmental and health safety, but methods to access such branched motifs remain underdeveloped. Here, the authors introduce a one-step dehydroxy-perfluoro-tert-butylation of alcohols, in which perfluoro-tertbutyl phenyl sulfone serves both to activate the C–O bond and to deliver the perfluoro-tert-butyl group."
   },
   {
     "paperId": "e671b9abe42dd6c2a4a7a97afdb1b38e5b563e01",
@@ -30675,19 +31299,20 @@
   {
     "paperId": "ebdfbb0f728f84101bd11185600213997c95e83e",
     "externalIds": {
+      "PubMedCentral": "12568887",
       "DOI": "10.1007/s00244-025-01149-2",
       "CorpusId": 281243038,
       "PubMed": "40925948"
     },
     "url": "https://www.semanticscholar.org/paper/ebdfbb0f728f84101bd11185600213997c95e83e",
-    "title": "Investigation of Anthropogenic and Emerging Contaminants in Sinkholes (Cenotes) of the Great Mayan Aquifer, Yucatán Peninsula.",
+    "title": "Investigation of Anthropogenic and Emerging Contaminants in Sinkholes (Cenotes) of the Great Mayan Aquifer, Yucatán Peninsula",
     "venue": "Archives of Environmental Contamination and Toxicology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00244-025-01149-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00244-025-01149-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12568887, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -30726,7 +31351,7 @@
         "name": "Antonietta Quigg"
       }
     ],
-    "abstract": "Abstract\n          Karst water bodies are vital groundwater resources particularly vulnerable to pollution. Protecting their water quality requires documenting contaminants traditionally associated with anthropogenic activities (metals, nutrients, and fecal indicator bacteria) as well as emerging contaminants, such as antibiotic-resistant organisms (AROs) and perfluoroalkyl substances (PFAS). This study detected contaminants in karst-associated water bodies on the Yucatán Peninsula, including 10 sinkholes (cenotes) and one submarine groundwater discharge (SGD) site. The concentrations of metals (strontium, cadmium, nickel, lead), nutrients (phosphate, silicate, ammonium, nitrate, and nitrite), and fecal indicator bacteria (fecal coliforms, Escherichia coli) were consistent with previous reports, sometimes exceeding recommended standards for groundwater or the protection of aquatic life. This included elevated lead (80.3 µg/L) and nitrate (413 μmol/L) concentrations at two cenotes, and elevated E. coli levels (167 – 1800 CFU/100 mL) in five cenotes. Additionally, 34 antibiotic-resistant E. coli strains were identified in nine cenotes and most strains were multidrug-resistant. Perfluorooctanesulfonic acid (PFOS) and perfluorohexanoic acid (PFHxA) were also detected in eight cenotes and the SGD, with total PFAS concentrations from 0.68 to 10.71 ng/L. The absence of associations between contaminants and urban cover suggests karst hydrology influences contaminant cycling—stable isotope signatures (δ18O, δ2H) confirming that most systems are interconnected to regional groundwater flows, that could allow contaminants to travel long distances. The Yucatán Peninsula’s karst is an important freshwater reservoir used for consumption and recreation; the presence of contaminants and the karst’s vulnerability to their spread raises concerns and highlights the need for continued monitoring and conservation."
+    "abstract": "Karst water bodies are vital groundwater resources particularly vulnerable to pollution. Protecting their water quality requires documenting contaminants traditionally associated with anthropogenic activities (metals, nutrients, and fecal indicator bacteria) as well as emerging contaminants, such as antibiotic-resistant organisms (AROs) and perfluoroalkyl substances (PFAS). This study detected contaminants in karst-associated water bodies on the Yucatán Peninsula, including 10 sinkholes (cenotes) and one submarine groundwater discharge (SGD) site. The concentrations of metals (strontium, cadmium, nickel, lead), nutrients (phosphate, silicate, ammonium, nitrate, and nitrite), and fecal indicator bacteria (fecal coliforms, Escherichia coli) were consistent with previous reports, sometimes exceeding recommended standards for groundwater or the protection of aquatic life. This included elevated lead (80.3 µg/L) and nitrate (413 μmol/L) concentrations at two cenotes, and elevated E. coli levels (167 – 1800 CFU/100 mL) in five cenotes. Additionally, 34 antibiotic-resistant E. coli strains were identified in nine cenotes and most strains were multidrug-resistant. Perfluorooctanesulfonic acid (PFOS) and perfluorohexanoic acid (PFHxA) were also detected in eight cenotes and the SGD, with total PFAS concentrations from 0.68 to 10.71 ng/L. The absence of associations between contaminants and urban cover suggests karst hydrology influences contaminant cycling—stable isotope signatures (δ18O, δ2H) confirming that most systems are interconnected to regional groundwater flows, that could allow contaminants to travel long distances. The Yucatán Peninsula’s karst is an important freshwater reservoir used for consumption and recreation; the presence of contaminants and the karst’s vulnerability to their spread raises concerns and highlights the need for continued monitoring and conservation."
   },
   {
     "paperId": "ec1540f00e470755d856429e9dbc3a099558b8a8",
@@ -31636,7 +32261,7 @@
       "PubMed": "39939416"
     },
     "url": "https://www.semanticscholar.org/paper/f752a787634e73185da18cd5de13e0c53d4fe396",
-    "title": "Risk of serum circulating environmental chemical residues to esophageal squamous cell carcinoma: a nested case-control metabolome-wide association study.",
+    "title": "Risk of serum circulating environmental chemical residues to esophageal squamous cell carcinoma: a nested case–control metabolome-wide association study",
     "venue": "Analytical and Bioanalytical Chemistry",
     "year": 2025,
     "openAccessPdf": {
@@ -31650,7 +32275,7 @@
     ],
     "authors": [
       {
-        "authorId": "2281785109",
+        "authorId": "2388932588",
         "name": "Xiaokun Wang"
       },
       {
@@ -31670,8 +32295,8 @@
         "name": "Qi Li"
       },
       {
-        "authorId": "2145746736",
-        "name": "Xiaolin Wang"
+        "authorId": "2296315353",
+        "name": "Xiaoling Wang"
       },
       {
         "authorId": "2345182585",
@@ -32226,19 +32851,20 @@
   {
     "paperId": "fb743f4b514d1a93a07c600d68aa6d7eeb3feba1",
     "externalIds": {
+      "PubMedCentral": "12560803",
       "DOI": "10.1093/toxsci/kfaf101",
       "CorpusId": 280023594,
       "PubMed": "40700607"
     },
     "url": "https://www.semanticscholar.org/paper/fb743f4b514d1a93a07c600d68aa6d7eeb3feba1",
-    "title": "Perfluorooctanesulfonic acid (PFOS) antagonizes gamma-aminobutyric acid (GABA) receptors in larval zebrafish and mammalian models.",
+    "title": "Perfluorooctanesulfonic acid (PFOS) antagonizes gamma-aminobutyric acid (GABA) receptors in larval zebrafish and mammalian models",
     "venue": "Toxicological Sciences",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1093/toxsci/kfaf101?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1093/toxsci/kfaf101, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12560803, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -32293,7 +32919,7 @@
         "name": "T. Tal"
       }
     ],
-    "abstract": "Per- and polyfluoroalkyl substances (PFAS) are a class of synthetic chemicals detected ubiquitously in the environment, humans, and wildlife. Perfluorooctanesulfonic acid (PFOS) is one prevalent chemical previously shown to cause adverse effects on nervous system function across in vivo and in vitro models, including dark-phase hyperactivity in larval zebrafish. The objective of this study was to evaluate the role of gamma-aminobutyric acid receptors (GABARs), GABAAR and GABABR, as mediators of dark-phase hyperactivity in PFOS-exposed larval zebrafish. Zebrafish were acutely exposed to 7.87-120 μM PFOS, 0.68-12.4 μM picrotoxin (GABAAR antagonist), 0.77-14.05 μM propofol (GABAAR positive allosteric modulator), 4.4-80 μM saclofen (GABABR antagonist), 0.43-7.87 μM CGP13501 (GABABR positive allosteric modulator), or the solvent control 0.4% dimethyl sulfoxide (DMSO) 60 min before behavior assessment at 5 days post fertilization (dpf). Co-exposures to positive allosteric modulators and PFOS were performed. Acute exposure to PFOS caused transient dark-phase hyperactivity. Concentration-dependent dark-phase hypoactivity was observed following acute propofol or CGP13501 exposure, in contrast to the concentration-dependent hyperactivity caused by acute picrotoxin exposure. Saclofen exposure provoked a modest reduction in dark-phase motor activity at the highest concentration tested. PFOS-induced hyperactivity was rescued to baseline activity by co-exposure to propofol or CGP13501. To assess relevance across species, electrophysiological measurements were performed in cultured mouse cortical neurons, and BrainSpheres derived from human-induced pluripotent stem cells (hiPSC). PFOS exposure reduced GABAAR-mediated currents in mouse neurons. GABAAR- and GABABR-dependent units in BrainSphere-derived neural networks exhibited increased spiking activity following PFOS exposure. This study demonstrates that PFOS antagonizes GABARs in zebrafish, mouse, and human experimental systems. Taken together, this supports the concept that early life stage zebrafish can be used to rapidly identify causative mechanisms, conserved across taxa, by which xenobiotic agents alter neuroactivity."
+    "abstract": "Abstract Per- and polyfluoroalkyl substances are a class of synthetic chemicals detected ubiquitously in the environment, humans, and wildlife. Perfluorooctanesulfonic acid (PFOS) is one prevalent chemical previously shown to cause adverse effects on nervous system function across in vivo and in vitro models, including dark-phase hyperactivity in larval zebrafish. The objective of this study was to evaluate the role of gamma-aminobutyric acid receptors (GABARs), GABAAR and GABABR, as mediators of dark-phase hyperactivity in PFOS-exposed larval zebrafish. Zebrafish were acutely exposed to 7.87 to 120 μM PFOS, 0.68 to 12.4 μM picrotoxin (GABAAR antagonist), 0.77 to 14.05 μM propofol (GABAAR-positive allosteric modulator), 4.4 to 80 μM saclofen (GABABR antagonist), 0.43 to 7.87 μM CGP13501 (GABABR-positive allosteric modulator), or the solvent control 0.4% dimethyl sulfoxide 60 min before behavior assessment at 5 days post fertilization. Co-exposures to positive allosteric modulators and PFOS were performed. Acute exposure to PFOS caused transient dark-phase hyperactivity. Concentration-dependent dark-phase hypoactivity was observed following acute propofol or CGP13501 exposure, in contrast to the concentration-dependent hyperactivity caused by acute picrotoxin exposure. Saclofen exposure provoked a modest reduction in dark-phase motor activity at the highest concentration tested. PFOS-induced hyperactivity was rescued to baseline activity by co-exposure to propofol or CGP13501. To assess relevance across species, electrophysiological measurements were performed in cultured mouse cortical neurons and BrainSpheres derived from human-induced pluripotent stem cells. PFOS exposure reduced GABAAR-mediated currents in mouse neurons. GABAAR- and GABABR-dependent units in BrainSphere-derived neural networks exhibited increased spiking activity following PFOS exposure. This study demonstrates that PFOS antagonizes GABARs in zebrafish, mouse, and human experimental systems. Taken together, this study supports the concept that early life-stage zebrafish can be used to rapidly identify causative mechanisms, conserved across taxa, by which xenobiotic agents alter neuroactivity."
   },
   {
     "paperId": "fccbc8dc22c7b69726f8274a4b81fa08e4e1b6f1",
@@ -32645,8 +33271,8 @@
         "name": "Elim Horn"
       },
       {
-        "authorId": "2383797452",
-        "name": "Jose Peralta-Videa"
+        "authorId": "1398153641",
+        "name": "J. Peralta-Videa"
       },
       {
         "authorId": "1404088619",
@@ -32714,19 +33340,20 @@
   {
     "paperId": "fef770e16ccb2030f0d69a1f8077fda126bd5b89",
     "externalIds": {
+      "PubMedCentral": "12583184",
       "DOI": "10.1038/s41370-025-00792-0",
       "CorpusId": 280223044,
       "PubMed": "40681633"
     },
     "url": "https://www.semanticscholar.org/paper/fef770e16ccb2030f0d69a1f8077fda126bd5b89",
-    "title": "Correction: Longitudinal association of perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) exposure with lipid traits, in a healthy unselected population.",
+    "title": "Correction: Longitudinal association of perfluorooctanoic acid (PFOA) and perfluorooctanesulfonic acid (PFOS) exposure with lipid traits, in a healthy unselected population",
     "venue": "Journal of Exposure Science and Environmental Epidemiology",
     "year": 2025,
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41370-025-00792-0?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41370-025-00792-0, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12583184, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": null,
     "authors": [

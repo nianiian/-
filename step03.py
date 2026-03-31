@@ -4,6 +4,10 @@ import logging
 import os
 import sys
 import time
+import requests  # Added for downloading
+import re        # Added for filename sanitization
+import shutil    # Added for moving downloaded files
+import importlib
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -12,44 +16,401 @@ import threading
 import pandas as pd
 from tqdm import tqdm
 
+# Selenium modules are loaded lazily to keep this script runnable without selenium installed.
+webdriver = None
+Options = None
+By = None
+
+
+def _ensure_selenium_modules() -> bool:
+    """Load selenium modules on demand; return True when available."""
+    global webdriver, Options, By
+    if webdriver is not None and Options is not None and By is not None:
+        return True
+    try:
+        selenium_webdriver = importlib.import_module("selenium.webdriver")
+        chrome_options_mod = importlib.import_module("selenium.webdriver.chrome.options")
+        by_mod = importlib.import_module("selenium.webdriver.common.by")
+        webdriver = selenium_webdriver
+        Options = chrome_options_mod.Options
+        By = by_mod.By
+        return True
+    except Exception:
+        webdriver = None
+        Options = None
+        By = None
+        return False
+
 try:
     from openai import OpenAI
 except ImportError:
     OpenAI = None
 
+# Gemini support
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+except ImportError:
+    genai = None
+    GEMINI_AVAILABLE = False
+
 # Configuration file path
-CONFIG_FILE = "api_config.json"
+from config_loader import get_config
 
-def load_config():
-    """Load API keys and settings from config file."""
+# Load configuration (.env first, fallback to api_config.json)
+CONFIG = get_config()
+
+# Validation for API keys needed for downloading
+ELSEVIER_API_KEY = CONFIG.get("elsevier_api_key", os.getenv("ELSEVIER_API_KEY", ""))
+ELSEVIER_INST_TOKEN = CONFIG.get("elsevier_inst_token", os.getenv("ELSEVIER_INST_TOKEN", ""))
+S2_API_KEY = CONFIG.get("semantic_scholar_api_key", "")
+SPRINGER_API_KEY = CONFIG.get("springer_api_key", os.getenv("SPRINGER_API_KEY", ""))
+
+def check_semantic_scholar_pdf(doi: str) -> Optional[str]:
+    """
+    Checks Semantic Scholar for a direct PDF link.
+    Returns the URL string if found, else None.
+    """
     try:
-        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        return config
-    except FileNotFoundError:
-        print(f"[ERROR] Configuration file '{CONFIG_FILE}' not found!")
-        print("Please create the config file with your API keys.")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse config file: {e}")
-        exit(1)
+        paper_id = f"DOI:{doi}"
+        url = f"https://api.semanticscholar.org/graph/v1/paper/{paper_id}"
+        params = {"fields": "openAccessPdf"}
+        headers = {"User-Agent": "ResearchScript/1.0"}
+        if S2_API_KEY:
+            headers["Authorization"] = f"Bearer {S2_API_KEY}"
 
-# Load configuration
-CONFIG = load_config()
+        res = requests.get(url, params=params, headers=headers, timeout=10)
+        if res.status_code == 200:
+            data = res.json()
+            pdf_info = data.get("openAccessPdf")
+            if pdf_info and pdf_info.get("url"):
+                return pdf_info.get("url")
+    except Exception:
+        pass
+    return None
+
+
+def download_springer_jats(doi: str, output_path: Path) -> bool:
+    """
+    Download full-text JATS XML from Springer Nature Open Access API.
+    Only works for Springer/Nature open access articles.
+    Returns True if successful.
+    """
+    if not SPRINGER_API_KEY:
+        return False
+
+    try:
+        # Springer JATS endpoint expects DOI without prefix
+        jats_url = f"https://api.springernature.com/openaccess/jats?q=doi:{doi}&api_key={SPRINGER_API_KEY}"
+        headers = {"Accept": "application/xml", "User-Agent": "ResearchScript/1.0"}
+
+        res = requests.get(jats_url, headers=headers, timeout=30)
+        if res.status_code == 200 and len(res.content) > 1000:
+            # Check if we got actual JATS content (not an error page)
+            content_text = res.content[:500].decode("utf-8", errors="ignore")
+            if "<article" in content_text or "<response" in content_text:
+                # Save as XML with same base name
+                xml_path = output_path.with_suffix(".xml")
+                with open(xml_path, "wb") as f:
+                    f.write(res.content)
+                return True
+    except Exception:
+        pass
+
+    return False
+
+def webpage_to_pdf_via_selenium(doi: str, output_path: Path) -> bool:
+    """
+    將 DOI 對應的網頁截圖轉換為 PDF（最後的 fallback 策略）。
+    使用 Chrome DevTools Protocol 的 Page.printToPDF 功能。
+    Returns True if successful.
+    """
+    if not _ensure_selenium_modules():
+        return False
+    
+    import base64
+    
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--window-size=1920,1080")
+    
+    driver = None
+    try:
+        driver = webdriver.Chrome(options=chrome_options)
+        
+        # 訪問 DOI 頁面
+        start_url = f"https://doi.org/{doi}"
+        driver.get(start_url)
+        time.sleep(5)  # 等待重定向和頁面載入
+        
+        # 使用 Chrome DevTools Protocol 生成 PDF
+        print_options = {
+            'landscape': False,
+            'displayHeaderFooter': False,
+            'printBackground': True,
+            'preferCSSPageSize': True,
+            'paperWidth': 8.27,   # A4 寬度 (英寸)
+            'paperHeight': 11.69, # A4 高度 (英寸)
+            'marginTop': 0.4,
+            'marginBottom': 0.4,
+            'marginLeft': 0.4,
+            'marginRight': 0.4,
+        }
+        
+        result = driver.execute_cdp_cmd('Page.printToPDF', print_options)
+        pdf_data = base64.b64decode(result['data'])
+        
+        # 儲存 PDF
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, 'wb') as f:
+            f.write(pdf_data)
+        
+        # 驗證檔案大小（至少 10KB 才算有效）
+        if output_path.stat().st_size > 10 * 1024:
+            return True
+        else:
+            output_path.unlink(missing_ok=True)
+            return False
+            
+    except Exception:
+        return False
+    finally:
+        if driver:
+            try:
+                driver.quit()
+            except:
+                pass
+
+
+def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
+    """
+    Attempts to download PDF via generic DOI resolution using Selenium.
+    Returns True if successful.
+    """
+    if not _ensure_selenium_modules():
+        return False
+
+    # 1. Setup temp download dir
+    temp_dir = output_path.parent / "temp_selenium_downloads"
+    temp_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Clean temp dir
+    for path in temp_dir.iterdir():
+        try:
+            if path.is_file():
+                path.unlink()
+        except Exception:
+            pass
+
+    # 2. Setup Driver
+    chrome_options = Options()
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--headless=new")  # Run in background without visible window
+    
+    prefs = {
+        "download.default_directory": str(temp_dir.absolute()),
+        "download.prompt_for_download": False,
+        "plugins.always_open_pdf_externally": True
+    }
+    chrome_options.add_experimental_option("prefs", prefs)
+
+    driver = None
+    try:
+        driver = webdriver.Chrome(options=chrome_options)
+        
+        # 3. Visit DOI
+        start_url = f"https://doi.org/{doi}"
+        driver.get(start_url)
+        time.sleep(5) # Wait for redirect
+        
+        # 4. Find PDF Link
+        pdf_link = None
+        
+        # Heuristic 1: Meta Tag (Most reliable)
+        try:
+            meta_pdf = driver.find_element(By.XPATH, "//meta[@name='citation_pdf_url']")
+            if meta_pdf:
+                pdf_link = meta_pdf.get_attribute("content")
+        except:
+            pass
+            
+        # Heuristic 2: Link Analysis
+        if not pdf_link:
+            links = driver.find_elements(By.TAG_NAME, "a")
+            for link in links:
+                try:
+                    href = link.get_attribute("href")
+                    if href and ".pdf" in href.lower():
+                        pdf_link = href
+                        break 
+                except: continue
+        
+        if pdf_link:
+            driver.get(pdf_link)
+            # Wait for download
+            for _ in range(15):
+                time.sleep(1)
+                files = [
+                    p for p in temp_dir.iterdir()
+                    if p.is_file() and p.suffix.lower() not in {".crdownload", ".tmp", ".zip"}
+                ]
+                if files:
+                    # Move to final location
+                    shutil.move(str(files[0]), str(output_path))
+                    return True
+    except Exception:
+        pass
+    finally:
+        if driver:
+            try: driver.quit()
+            except: pass
+        try:
+            temp_dir.rmdir()  # Cleanup if empty
+        except Exception:
+            pass
+            
+    return False
+
+def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_url: str = "") -> str:
+    """
+    Downloads the full text for a given DOI/Title.
+    Strategies:
+    1. Elsevier API (PDF)
+    2. Record openAccessPdf URL (from upstream)
+    3. Semantic Scholar OpenAccess PDF
+    4. Springer Nature Open Access JATS XML
+    5. Selenium DOI Scraper
+    6. Fallback: Elsevier XML
+    """
+    # Create safe filename
+    safe_title = re.sub(r'[\\/*?:"<>|]', "", title)[:50]
+    safe_doi = doi.replace("/", "_")
+    base_filename = f"{safe_doi}_{safe_title.replace(' ', '_')}"
+    final_pdf_path = output_dir / f"{base_filename}.pdf"
+
+    # --- Strategy 1: Elsevier API ---
+    if ELSEVIER_API_KEY:
+        article_url = f"https://api.elsevier.com/content/article/doi/{doi}?view=FULL"
+        headers_dl_pdf = {
+            "X-ELS-APIKey": ELSEVIER_API_KEY,
+            "Accept": "application/pdf",
+            "User-Agent": "ResearchScript/1.0"
+        }
+        if ELSEVIER_INST_TOKEN:
+            headers_dl_pdf["X-ELS-Insttoken"] = ELSEVIER_INST_TOKEN
+
+        try:
+            res_dl = requests.get(article_url, headers=headers_dl_pdf, timeout=20)
+            content_type = res_dl.headers.get("Content-Type", "").lower()
+            content_len = len(res_dl.content)
+            
+            # Heuristic: Full text PDFs are rarely under 400KB
+            is_full_pdf = res_dl.status_code == 200 and "pdf" in content_type and content_len > 400 * 1024
+            
+            if is_full_pdf:
+                with open(final_pdf_path, "wb") as f:
+                    f.write(res_dl.content)
+                return f"Downloaded PDF (Elsevier) ({content_len} bytes)"
+            elif res_dl.status_code == 200 and "xml" in content_type:
+                 # It gave us XML instead of PDF, save it but continue trying for PDF??
+                 # Usually if we asked for PDF and got XML, permission is limited.
+                 # Let's try Strategy 2 before settling for XML.
+                 pass
+                 
+        except Exception as e:
+            pass # Continue to next strategy
+
+    # --- Strategy 2: Open access URL from upstream record ---
+    if open_access_pdf_url:
+        try:
+            res_oa = requests.get(open_access_pdf_url, timeout=30)
+            content_type = res_oa.headers.get("Content-Type", "").lower()
+            if res_oa.status_code == 200 and ("pdf" in content_type or len(res_oa.content) > 50_000):
+                with open(final_pdf_path, "wb") as f:
+                    f.write(res_oa.content)
+                return f"Downloaded PDF (Record openAccessPdf) ({len(res_oa.content)} bytes)"
+        except Exception:
+            pass
+
+    # --- Strategy 3: Semantic Scholar ---
+    s2_pdf_url = check_semantic_scholar_pdf(doi)
+    if s2_pdf_url:
+        try:
+            res_s2 = requests.get(s2_pdf_url, timeout=30)
+            if res_s2.status_code == 200:
+                with open(final_pdf_path, "wb") as f:
+                    f.write(res_s2.content)
+                return f"Downloaded PDF (Semantic Scholar) ({len(res_s2.content)} bytes)"
+        except Exception:
+            pass
+
+    # --- Strategy 4: Springer Nature Open Access JATS ---
+    if SPRINGER_API_KEY:
+        try:
+            if download_springer_jats(doi, final_pdf_path):
+                xml_path = final_pdf_path.with_suffix(".xml")
+                return f"Downloaded JATS XML (Springer OA) ({xml_path.stat().st_size} bytes)"
+        except Exception:
+            pass
+
+    # --- Strategy 5: Selenium DOI Scraper ---
+    # Only try this if we really don't have it yet
+    # This is slow, so maybe log it
+    try:
+        # print(f"Attempting Selenium fallback for {doi}...")
+        if download_via_selenium_doi(doi, final_pdf_path):
+            return "Downloaded PDF (Selenium Scraper)"
+    except Exception:
+        pass
+
+    # --- Fallback: Elsevier XML ---
+    if ELSEVIER_API_KEY:
+         try:
+             headers_dl_xml = headers_dl_pdf.copy()
+             headers_dl_xml["Accept"] = "text/xml"
+             res_xml = requests.get(article_url, headers=headers_dl_xml, timeout=15)
+             if res_xml.status_code == 200:
+                 xml_path = output_dir / f"{base_filename}.xml"
+                 with open(xml_path, "wb") as f:
+                     f.write(res_xml.content)
+                 return f"Downloaded XML Fallback ({len(res_xml.content)} bytes)"
+         except: pass
+
+    # --- Strategy 6: Webpage to PDF (網頁截圖轉 PDF) ---
+    # 最後的 fallback：將網頁內容轉為 PDF
+    try:
+        if webpage_to_pdf_via_selenium(doi, final_pdf_path):
+            return f"Downloaded PDF (Webpage Capture) ({final_pdf_path.stat().st_size} bytes)"
+    except Exception:
+        pass
+
+    return "Failed to download full text"
 
 # Default Configuration
 @dataclass
 class Config:
     input_file: Path = None
     output_file: Path = None
+    # LLM provider: "openai" or "gemini"
+    llm_provider: str = CONFIG.get("default_settings", {}).get("llm_provider", "openai")
+    # OpenAI settings
     openai_api_key: str = CONFIG.get("openai_api_key", "")
     model: str = CONFIG.get("default_settings", {}).get("openai_model", "gpt-4.1-mini")
     models: List[str] = field(default_factory=list)
+    # Gemini settings
+    gemini_api_key: str = CONFIG.get("gemini_api_key", "")
+    gemini_model: str = CONFIG.get("default_settings", {}).get("gemini_model", "gemini-2.0-flash")
+    # Common settings
     temperature: float = 0.0
     max_tokens: int = 1000
     max_retries: int = 3
     target: str = None
     workers: int = 8
+    download_pdf: bool = True
 
 def setup_logger():
     """Set up logging configuration."""
@@ -67,19 +428,38 @@ def build_prompt(title, doi, abstract, target):
     return f"""
 You are a rigorous scientific abstract reviewer. Only use the ABSTRACT below. Do NOT add external knowledge.
 
-Task: Determine whether the abstract explicitly presents a **safer alternative** than **{target}**.
+Task: Determine whether the abstract explicitly presents a **functional substitute** that **REPLACES or REDUCES the usage of {target}**.
+
+**CRITICAL REQUIREMENT**: 
+1. The abstract MUST explicitly mention "{target}" (or its common synonyms/abbreviations) by name.
+2. The alternative must REPLACE or REDUCE the usage of "{target}" itself - either fully or partially.
 
 Decision rules (follow strictly):
-1) Answer **yes** only if the abstract clearly indicates some substance/material/method is **safer than {target}**, or it clearly states safety advantages (e.g., lower toxicity, lower environmental risk/persistence/bioaccumulation/endocrine disruption, better occupational safety) that can reasonably be interpreted as a safer **alternative to {target}**.
-2) If it merely discusses improvements without a clear safety comparison, different use-cases, or lacks a connection to replacing {target}, answer **no**.
-3) Do not infer or speculate beyond what the abstract states.
-4) If the abstract does not name {target} but clearly claims a safer replacement relative to the typical/conventional {target} context, you may answer **yes**; otherwise **no**.
+1) Answer **yes** if ALL of the following conditions are met:
+   a) The abstract explicitly mentions "{target}" by name (or a well-known synonym);
+   b) The abstract indicates that another substance/material:
+      - Fully REPLACES {target} in the same application, OR
+      - Partially REPLACES {target} (e.g., used as a co-monomer to reduce the amount of {target} needed), OR
+      - Is explicitly described as a bio-based/sustainable alternative TO {target} itself (replacing petroleum-based {target}).
+
+2) Answer **no** if ANY of the following is true:
+   - "{target}" is NOT explicitly mentioned in the abstract;
+   - The alternative replaces a DIFFERENT component in the formulation that is NOT {target} (e.g., if the abstract describes a formulation containing {target} but the alternative replaces an additive/coalescent/solvent/surfactant rather than {target} itself);
+   - The alternative is meant only to enhance or modify properties without replacing any {target};
+   - The abstract merely compares {target} with another material without any substitution intent;
+   - It discusses a completely different chemical that happens to share a partial name;
+   - {target} is used only as a reference/comparison material, not as the material being replaced.
+
+3) Key distinction: If the abstract describes a formulation where {target} is one component and something else (like a coalescent, solvent, or additive) is being replaced, answer **no** — the alternative must specifically replace {target}, not other ingredients.
 
 Output format (must be valid JSON; no extra text):
 {{
-  "reasoning": "<1â€"3 sentences with evidence-based explanation for yes/no. If yes, mention the replacement name.>",
-  "alternatives provided": "<'yes' or 'no'>"
+  "reasoning": "<1–3 sentences. First state whether '{target}' is explicitly mentioned. Then explain whether the alternative replaces {target} itself or replaces something else in the formulation.>",
+  "alternatives provided": "<'yes' or 'no'>",
+  "alternatives": ["<name of alternative 1>", "<name of alternative 2>", ...]
 }}
+
+Note: The "alternatives" field should contain the specific names of functional substitutes for {target}. If no alternatives are provided ("alternatives provided": "no"), use an empty array [].
 
 Paper info:
 - Title: {title}
@@ -90,18 +470,41 @@ ABSTRACT:
 """.strip()
 
 class SaferAlternativeAnalyzer:
-    """Analyzer for safer alternatives using OpenAI API."""
+    """Analyzer for safer alternatives using OpenAI or Gemini API."""
     
     def __init__(self, cfg, logger):
         self.cfg = cfg
         self.logger = logger
-        if OpenAI is None:
-            raise RuntimeError("OpenAI Python SDK unavailable.")
-        if not self.cfg.openai_api_key:
-            raise RuntimeError("OpenAI API key not found in config file!")
-        self.client = OpenAI(api_key=self.cfg.openai_api_key)
-        # Resolve model list (fallback to single model)
-        self.models = self.cfg.models if self.cfg.models else [self.cfg.model]
+        self.provider = cfg.llm_provider.lower()
+        
+        if self.provider == "gemini":
+            if not GEMINI_AVAILABLE:
+                raise RuntimeError("Google Generative AI SDK unavailable. Install with: pip install google-generativeai")
+            if not self.cfg.gemini_api_key:
+                raise RuntimeError("Gemini API key not found! Set GEMINI_API_KEY in .env")
+            genai.configure(api_key=self.cfg.gemini_api_key)
+            self.gemini_model = genai.GenerativeModel(
+                self.cfg.gemini_model,
+                generation_config={
+                    "temperature": self.cfg.temperature,
+                    "max_output_tokens": self.cfg.max_tokens,
+                    "response_mime_type": "application/json",
+                }
+            )
+            self.models = [self.cfg.gemini_model]
+            self.client = None
+            logger.info(f"Using Gemini provider with model: {self.cfg.gemini_model}")
+        else:
+            # Default to OpenAI
+            if OpenAI is None:
+                raise RuntimeError("OpenAI Python SDK unavailable.")
+            if not self.cfg.openai_api_key:
+                raise RuntimeError("OpenAI API key not found in config file!")
+            self.client = OpenAI(api_key=self.cfg.openai_api_key)
+            self.models = self.cfg.models if self.cfg.models else [self.cfg.model]
+            self.gemini_model = None
+            logger.info(f"Using OpenAI provider with model(s): {self.models}")
+        
         # Token usage tracking
         self._usage_lock = threading.Lock()
         self._usage = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
@@ -130,7 +533,49 @@ class SaferAlternativeAnalyzer:
             # Be resilient if SDK changes shape
             pass
 
+    def _call_gemini(self, prompt: str, model: str) -> Dict[str, Any]:
+        """Call Gemini API with rate limit handling."""
+        last_err = None
+        system_prompt = "You are a careful scientific abstract reviewer. Output strictly JSON."
+        full_prompt = f"{system_prompt}\n\n{prompt}"
+        
+        for attempt in range(self.cfg.max_retries):
+            try:
+                response = self.gemini_model.generate_content(full_prompt)
+                raw = response.text or "{}"
+                # Handle potential markdown code blocks
+                if raw.startswith("```"):
+                    lines = raw.split("\n")
+                    raw = "\n".join(lines[1:-1]) if lines[-1].strip() == "```" else "\n".join(lines[1:])
+                data = json.loads(raw)
+                reasoning = str(data.get("reasoning", "")).strip()
+                alt_provided = str(data.get("alternatives provided", "")).strip().lower()
+                alt_provided = "yes" if alt_provided == "yes" else "no"
+                alternatives_raw = data.get("alternatives", [])
+                if isinstance(alternatives_raw, list):
+                    alternatives = [str(a).strip() for a in alternatives_raw if a]
+                else:
+                    alternatives = []
+                return {"model": model, "reasoning": reasoning, "alternatives provided": alt_provided, "alternatives": alternatives}
+            except Exception as e:
+                last_err = e
+                err_str = str(e).lower()
+                # Handle rate limit (429) and quota errors with longer backoff
+                if "429" in err_str or "rate" in err_str or "quota" in err_str or "resource" in err_str:
+                    wait_time = min(60, 5 * (2 ** attempt))  # 5, 10, 20, 40, 60 seconds
+                    self.logger.warning(f"Gemini rate limit hit, waiting {wait_time}s (attempt {attempt + 1}/{self.cfg.max_retries})")
+                    time.sleep(wait_time)
+                elif attempt < self.cfg.max_retries - 1:
+                    wait_time = 2 ** attempt
+                    self.logger.debug(f"Gemini error: {e}, retrying in {wait_time}s")
+                    time.sleep(wait_time)
+        raise RuntimeError(last_err or "Unknown Gemini error")
+
     def _call_one_model(self, prompt: str, model: str) -> Dict[str, Any]:
+        if self.provider == "gemini":
+            return self._call_gemini(prompt, model)
+        
+        # OpenAI path
         last_err = None
         for attempt in range(self.cfg.max_retries):
             try:
@@ -151,7 +596,13 @@ class SaferAlternativeAnalyzer:
                 reasoning = str(data.get("reasoning", "")).strip()
                 alt_provided = str(data.get("alternatives provided", "")).strip().lower()
                 alt_provided = "yes" if alt_provided == "yes" else "no"
-                return {"model": model, "reasoning": reasoning, "alternatives provided": alt_provided}
+                # Extract alternatives list
+                alternatives_raw = data.get("alternatives", [])
+                if isinstance(alternatives_raw, list):
+                    alternatives = [str(a).strip() for a in alternatives_raw if a]
+                else:
+                    alternatives = []
+                return {"model": model, "reasoning": reasoning, "alternatives provided": alt_provided, "alternatives": alternatives}
             except Exception as e:
                 last_err = e
                 if attempt < self.cfg.max_retries - 1:
@@ -182,6 +633,7 @@ class SaferAlternativeAnalyzer:
                 "target": self.cfg.target,
                 "reasoning": "No abstract provided.",
                 "alternatives provided": "no",
+                "alternatives": [],
             }
 
         prompt = build_prompt(title, doi, abstract, self.cfg.target)
@@ -204,14 +656,17 @@ class SaferAlternativeAnalyzer:
         yes_count = sum(1 for v in votes if v.get("alternatives provided") == "yes")
         no_count = sum(1 for v in votes if v.get("alternatives provided") == "no")
         final_alt = "yes" if yes_count > no_count else "no"
-        # Choose reasoning from a model that matched the final vote, else any
+        # Choose reasoning and alternatives from a model that matched the final vote, else any
         chosen_reason = ""
+        chosen_alternatives: list = []
         for v in votes:
             if v.get("alternatives provided") == final_alt and v.get("reasoning"):
                 chosen_reason = v["reasoning"]
+                chosen_alternatives = v.get("alternatives", [])
                 break
         if not chosen_reason and votes:
             chosen_reason = votes[0].get("reasoning", "")
+            chosen_alternatives = votes[0].get("alternatives", [])
 
         result: Dict[str, Any] = {
             "title": title,
@@ -220,6 +675,7 @@ class SaferAlternativeAnalyzer:
             "abstract": abstract,
             "target": self.cfg.target,
             "alternatives provided": final_alt,
+            "alternatives": chosen_alternatives,
             "reasoning": chosen_reason,
             "votes": votes,
         }
@@ -245,19 +701,42 @@ class SaferAlternativeAnalyzer:
                 "target": self.cfg.target,
                 "reasoning": "No abstract provided.",
                 "alternatives provided": "no",
+                "alternatives": [],
                 "model_used": model,
             }
         prompt = build_prompt(title, doi, abstract, self.cfg.target)
         res = self._call_one_model(prompt, model)
+        
+        # Check and Download if alternative is found
+        download_status = "N/A"
+        alt_provided = res.get("alternatives provided", "no")
+        
+        if self.cfg.download_pdf and alt_provided.lower() == "yes" and doi:
+            try:
+                # Determine output directory
+                download_dir = self.cfg.output_file.parent / "research_pdf"
+                download_dir.mkdir(parents=True, exist_ok=True)
+                open_access_pdf_url = ""
+                open_access_pdf = record.get("openAccessPdf", {})
+                if isinstance(open_access_pdf, dict):
+                    open_access_pdf_url = str(open_access_pdf.get("url", "") or "").strip()
+                
+                # Call the global download function
+                download_status = download_full_text(doi, title, download_dir, open_access_pdf_url=open_access_pdf_url)
+            except Exception as e:
+                download_status = f"Error triggering download: {e}"
+
         return {
             "title": title,
             "doi": doi,
             "year": year,
             "abstract": abstract,
             "target": self.cfg.target,
-            "alternatives provided": res.get("alternatives provided", "no"),
+            "alternatives provided": alt_provided,
+            "alternatives": res.get("alternatives", []),
             "reasoning": res.get("reasoning", ""),
             "model_used": model,
+            "download_status": download_status,
         }
 
     def run(self, records):
@@ -292,6 +771,7 @@ class SaferAlternativeAnalyzer:
                         "abstract": records[i].get("abstract") or records[i].get("Abstract") or "",
                         "target": self.cfg.target,
                         "alternatives provided": "no",
+                        "alternatives": [],
                         "reasoning": f"Analysis failed: {e}",
                         "errors": {"record": str(e)},
                     }
@@ -336,6 +816,14 @@ def parse_args():
     parser.add_argument("--max_tokens", type=int, default=1000, help="Maximum tokens")
     parser.add_argument("--max_retries", type=int, default=3, help="Maximum retry attempts")
     parser.add_argument("--workers", type=int, default=8, help="Thread workers for parallelism")
+    parser.add_argument(
+        "--download_pdf",
+        action=argparse.BooleanOptionalAction,
+        default=bool(CONFIG.get("default_settings", {}).get("step03_download_pdf", True)),
+        help="Download PDF for records where alternatives provided == yes",
+    )
+    parser.add_argument("--years_back", type=int, default=CONFIG.get("default_settings", {}).get("years_back", 20), 
+                        help="Only analyze papers from the last N years (default 20)")
     return parser.parse_args()
 
 def main():
@@ -360,19 +848,40 @@ def main():
         target=args.target,
         max_retries=args.max_retries,
         workers=args.workers,
+        download_pdf=args.download_pdf,
     )
 
     logger.info(f"Target: {cfg.target}")
     logger.info(f"Input: {cfg.input_file}")
     logger.info(f"Output: {cfg.output_file}")
-    logger.info(f"Using OpenAI API key from config file")
-    if cfg.models:
+    logger.info(f"LLM Provider: {cfg.llm_provider}")
+    logger.info(f"PDF download enabled: {cfg.download_pdf}")
+    if cfg.llm_provider.lower() == "gemini":
+        logger.info(f"Model: {cfg.gemini_model} | mode=distribute")
+    elif cfg.models:
         logger.info(f"Models: {', '.join(cfg.models)} | mode=distribute")
     else:
         logger.info(f"Model: {cfg.model} | mode=distribute")
 
     # Load and process records
     records = load_input_json(cfg.input_file)
+    
+    # Apply time filtering if years_back is specified
+    if args.years_back > 0:
+        from datetime import datetime
+        current_year = datetime.now().year
+        min_year = current_year - max(0, args.years_back - 1)
+        before_count = len(records)
+        
+        records = [
+            record for record in records
+            if isinstance(record, dict) and 
+            isinstance(record.get("year"), int) and 
+            record["year"] >= min_year
+        ]
+        
+        logger.info(f"Time filtering: {len(records)}/{before_count} papers from last {args.years_back} years (>= {min_year})")
+    
     analyzer = SaferAlternativeAnalyzer(cfg, logger)
     results = analyzer.run(records)
     

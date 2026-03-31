@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"? lang="ru_RU">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU" xml:lang="ru-RU">
+<head>
+	<title>Синтез комплексов хрома с углеводородными и гетероциклическими лигандами и применение их в процессах полимеризации и газофазного получения хромкарбидных пленок в работах А.Н. Артемова | Гущин | Химия</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Синтез комплексов хрома с углеводородными и гетероциклическими лигандами и применение их в процессах полимеризации и газофазного получения хромкарбидных пленок в работах А.Н. Артемова" />
+			<meta name="keywords" content="хроморганические соединения; аренхромтрикарбонил; полимеризация; карбид хрома; гетероциклические соединения" />
+	
+	<link rel="icon" href="https://vestnik.susu.ru/public/journals/15/journalFavicon_ru_RU.png" type="image/png" />
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+
+	<meta name="DC.Contributor.Sponsor" xml:lang="en" content=""/>
+	<meta name="DC.Contributor.Sponsor" xml:lang="ru" content=""/>
+	<meta name="DC.Creator.PersonalName" content="Алексей Владимирович Гущин"/>
+	<meta name="DC.Creator.PersonalName" content="Дарья Александровна Хотина"/>
+	<meta name="DC.Creator.PersonalName" content="Владислав Рустамович Вахитов"/>
+	<meta name="DC.Date.created" scheme="ISO8601" content="2024-09-06"/>
+	<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2024-06-06"/>
+	<meta name="DC.Date.issued" scheme="ISO8601" content="2024-09-06"/>
+	<meta name="DC.Date.modified" scheme="ISO8601" content="2024-09-06"/>
+	<meta name="DC.Description" xml:lang="en" content="In the works of Professor A.N. Artemov, the synthesis of chromium-containing isoxazolines by the reaction of 1,3-lipolar cycloaddition was studied and an increase in cis/trans selectivity was demonstrated when introducing a tricarbonylchromium group into molecules of dipoles and dipolarophiles. Arentricarbonylchromium derivatives of six–membered heterocycles with N–C–O bonds, like their five-membered analogues, can be obtained by reaction between heterocycles free of the tricarbonylchromium group, as well as a result of condensation of chromium-containing amino alcohols with carbonyl compounds. The synthesis of bi- and polymetallic compounds in the reactions of organometallic halides with various non-transition metals has been studied. Such reactions make it possible in a one-step process to obtain compounds containing covalent bonds of metals of 12–15 groups (Mg, Zn, Cd, In, Tl, Sn, Pb, Bi) with non-transitive elements (Fe, Mo, W). Styrene chromium tricarbonyl, para-methylstyrene chromium tricarbonyl, α-methylstyrene chromium tricarbonyl, stilbene chromium tricarbonyl, allylbenzene chromium tricarbonyl, and diphenylbutadiene chromium tricarbonyl were studied as polymerization regulators by the mechanism of reversible inhibition for vinyl monomers. α-methylstyrene chromium tricarbonyl, diphenylbutadiene chromium tricarbonyl, allylbenzene chromium tricarbonyl. When they are introduced into the polymerizing mass of methyl methacrylate, butyl acrylate, styrene in quantities commensurate with the concentration of the initiator, they control the termination of the polymer chain at temperatures not exceeding 100 °C. At the same time, the process proceeds at a sufficiently high rate, and the control of chain growth follows the mechanism of reversible inhibition. The gas-phase decomposition of bis-ethylbenzenechromium can proceed with the formation of hard and wear-resistant chromium carbide coatings, as well as with the production of chromium films characterized by a low temperature resistance coefficient."/>
+	<meta name="DC.Description" xml:lang="ru" content="В работах профессора А.Н. Артемова исследован синтез хромсодержащих изоксазолидинов реакцией 1,3-диполярного циклоприсоединения, продемонстрировано повышение цис/транс-селективности при введении хромтрикарбонильной группы в молекулы диполей и ди-полярофилов. Аренхромтрикарбонильные производные шестичленных гетероциклов с N–C–O связями, как и их пятичленные аналоги, можно получить реакцией между свободными от хром-трикарбонильной группы гетероциклами, а также в результате конденсации хромсодержащих аминоспиртов с карбонильными соединениями. Изучен синтез би- и полиметаллоорганических соединений в реакциях металлоорганических галогенидов с различными непереходными метал-лами. Такие реакции позволяют в одностадийном процессе получать соединения, содержащие ковалентные связи металлов 12–15 групп (Mg, Zn, Cd, In, Tl, Sn, Pb, Bi) c непереходными элемен-тами (Fe, Mo, W). В качестве регуляторов полимеризации по механизму обратимого ингибирова-ния для виниловых мономеров исследованы стиролхромтрикарбонил, пара-метилстирол-хромтрикарбонил, α-метилстиролхромтрикарбонил, стильбенхромтрикарбонил, аллилбензолхромтрикарбонил, дифенилбутадиенхромтрикарбонил. α-метилстиролхромтрикарбонил, дифенилбутадиенхромтрикарбонил, аллилбензолхромтрикарбонил. При введении их в полимеризующуюся массу метилметакрилата, бутилакрилата, стирола в количествах, соизмеримых с концентрацией инициатора, они контролируют обрыв полимерной цепи при температурах не выше 100 °С. При этом процесс протекает с достаточно высокой скоростью, и контроль роста цепи идет по механизму обратимого ингибирования. Газофазное разложение бис-этилбензолхрома может протекать с образованием твердых и износостойких хромкарбидных покрытий, так и с получением пленок хрома, отличающихся низким температурным коэффициентом сопротивления."/>
+	<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+	<meta name="DC.Identifier" content="14198"/>
+	<meta name="DC.Identifier.pageNumber" content="5-13"/>
+						<meta name="DC.Identifier.URI" content="https://vestnik.susu.ru/chemistry/article/view/14198"/>
+	<meta name="DC.Language" scheme="ISO639-1" content="ru"/>
+	<meta name="DC.Rights" content="(c) 2024 Химия" />
+	<meta name="DC.Rights" content=""/>
+	<meta name="DC.Source" content="Химия"/>
+	<meta name="DC.Source.ISSN" content="2412-0413"/>
+	<meta name="DC.Source.Issue" content="2"/>	<meta name="DC.Source.URI" content="https://vestnik.susu.ru/chemistry"/>
+	<meta name="DC.Source.Volume" content="16"/>						<meta name="DC.Subject" xml:lang="en" content="organochromium compounds"/>
+								<meta name="DC.Subject" xml:lang="en" content="arenetricarbonylchromium"/>
+								<meta name="DC.Subject" xml:lang="en" content="polymerization"/>
+								<meta name="DC.Subject" xml:lang="en" content="chromium carbide"/>
+								<meta name="DC.Subject" xml:lang="en" content="heterocyclic compounds"/>
+									<meta name="DC.Subject" xml:lang="ru" content="хроморганические соединения"/>
+								<meta name="DC.Subject" xml:lang="ru" content="аренхромтрикарбонил"/>
+								<meta name="DC.Subject" xml:lang="ru" content="полимеризация"/>
+								<meta name="DC.Subject" xml:lang="ru" content="карбид хрома"/>
+								<meta name="DC.Subject" xml:lang="ru" content="гетероциклические соединения"/>
+				<meta name="DC.Title" content="Синтез комплексов хрома с углеводородными и гетероциклическими лигандами и применение их в процессах полимеризации и газофазного получения хромкарбидных пленок в работах А.Н. Артемова"/>
+			<meta name="DC.Title.Alternative" xml:lang="en" content="Synthesis of chromium complexes with hydrocarbon and heterocyclic ligands and their application in polymerization processes and gas-phase production of chromocarbide films in the works of A.N. Artemov"/>
+			<meta name="DC.Type" content="Text.Serial.Journal"/>
+	<meta name="DC.Type.articleType" content="Химия элементоорганических соединений"/>
+		<meta name="gs_meta_revision" content="1.1" />
+	<meta name="citation_journal_title" content="Химия"/>
+	<meta name="citation_issn" content="2412-0413"/>
+        <meta name="citation_author" content="Алексей Владимирович Гущин"/>
+        <meta name="citation_author_institution" content="Нижегородский государственный университет им. Н.И. Лобачевского"/>
+        <meta name="citation_author" content="Дарья Александровна Хотина"/>
+        <meta name="citation_author_institution" content="Нижегородский государственный университет им. Н.И. Лобачевского"/>
+        <meta name="citation_author" content="Владислав Рустамович Вахитов"/>
+        <meta name="citation_author_institution" content="Нижегородский государственный университет им. Н.И. Лобачевского"/>
+<meta name="citation_title" content="Синтез комплексов хрома с углеводородными и гетероциклическими лигандами и применение их в процессах полимеризации и газофазного получения хромкарбидных пленок в работах А.Н. Артемова"/>
+
+	<meta name="citation_date" content="2024/09/06"/>
+
+	<meta name="citation_volume" content="16"/>
+	<meta name="citation_issue" content="2"/>
+
+			<meta name="citation_firstpage" content="5"/>
+				<meta name="citation_lastpage" content="13"/>
+							<meta name="citation_abstract_html_url" content="https://vestnik.susu.ru/chemistry/article/view/14198"/>
+	<meta name="citation_language" content="ru"/>
+						<meta name="citation_keywords" xml:lang="en" content="organochromium compounds"/>
+								<meta name="citation_keywords" xml:lang="en" content="arenetricarbonylchromium"/>
+								<meta name="citation_keywords" xml:lang="en" content="polymerization"/>
+								<meta name="citation_keywords" xml:lang="en" content="chromium carbide"/>
+								<meta name="citation_keywords" xml:lang="en" content="heterocyclic compounds"/>
+									<meta name="citation_keywords" xml:lang="ru" content="хроморганические соединения"/>
+								<meta name="citation_keywords" xml:lang="ru" content="аренхромтрикарбонил"/>
+								<meta name="citation_keywords" xml:lang="ru" content="полимеризация"/>
+								<meta name="citation_keywords" xml:lang="ru" content="карбид хрома"/>
+								<meta name="citation_keywords" xml:lang="ru" content="гетероциклические соединения"/>
+									<meta name="citation_pdf_url" content="https://vestnik.susu.ru/chemistry/article/download/14198/10573"/>
+				
+
+	<link rel="stylesheet" href="https://vestnik.susu.ru/lib/pkp/styles/pkp.css" type="text/css" />
+	<link rel="stylesheet" href="https://vestnik.susu.ru/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/compiled.css" type="text/css" />
+	<!--[if IE]><script src="/public/site/html5shiv.js"></script><script src="/public/site/css3-mediaqueries.js"></script><![endif]-->
+	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/articleView.css" type="text/css" />
+	
+	
+	
+	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/sidebar.css" type="text/css" />	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/leftSidebar.css" type="text/css" />	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/rightSidebar.css" type="text/css" />	<link rel="stylesheet" href="https://vestnik.susu.ru/styles/bothSidebars.css" type="text/css" />
+			<link rel="stylesheet" href="https://vestnik.susu.ru/public/site/sitestyle.css" type="text/css" />
+			<link rel="stylesheet" href="https://vestnik.susu.ru/public/journals/15/journalStyleSheet.css" type="text/css" />
+	
+	<!-- Base Jquery -->
+	<script type="text/javascript" src="//www.google.com/jsapi"></script>
+	<script type="text/javascript">
+		// Provide a local fallback if the CDN cannot be reached
+		if (typeof google == 'undefined') {
+			document.write(unescape("%3Cscript src='https://vestnik.susu.ru/lib/pkp/js/lib/jquery/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+			document.write(unescape("%3Cscript src='https://vestnik.susu.ru/lib/pkp/js/lib/jquery/plugins/jqueryUi.min.js' type='text/javascript'%3E%3C/script%3E"));
+		} else {
+			google.load("jquery", "1.4.4");
+			google.load("jqueryui", "1.8.6");
+		}
+	</script>
+	
+	<!-- Compiled scripts -->
+			
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/lib/jquery/plugins/jquery.cookie.js"></script>
+
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/functions/fontController.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/functions/general.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/functions/jqueryValidatorI18n.js"></script>
+
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/classes/Helper.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/classes/ObjectProxy.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/classes/Handler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/classes/linkAction/LinkActionRequest.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/classes/features/Feature.js"></script>
+
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/SiteHandler.js"></script><!-- Included only for namespace definition -->
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/UrlInDivHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/AutocompleteHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/ExtrasOnDemandHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/form/FormHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/form/AjaxFormHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/form/ClientFormHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/grid/GridHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/controllers/linkAction/LinkActionHandler.js"></script>
+
+<script type="text/javascript" src="https://vestnik.susu.ru/js/pages/search/SearchFormHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/js/statistics/ReportGeneratorFormHandler.js"></script>
+<script type="text/javascript" src="https://vestnik.susu.ru/plugins/generic/lucene/js/LuceneAutocompleteHandler.js"></script>
+
+<script type="text/javascript" src="https://vestnik.susu.ru/lib/pkp/js/lib/jquery/plugins/jquery.pkp.js"></script>	
+	
+	<script type="text/javascript" src="https://vestnik.susu.ru/js/relatedItems.js"></script>
+	<script type="text/javascript" src="https://vestnik.susu.ru/js/inlinePdf.js"></script>
+	<script type="text/javascript" src="https://vestnik.susu.ru/js/pdfobject.js"></script>
+
+</head>
+<body id="pkp-common-openJournalSystems" class="journal common">
+
+<div id="container"><a href="https://www.susu.ru" id="link-susu"></a>
+
+<div id="header">
+<div id="headerTitle">
+<h1>
+	Серия «Химия»
+</h1>
+</div>
+</div>
+
+<div id="body">
+
+	<div id="sidebar">
+					<div id="leftSidebar">
+				<div class="block custom" id="customblock-Menu">
+	<ul> <li class="skip"><a href="#article">Перейти к основному содержимому</a></li> <li><a href="/chemistry/index">Общие сведения о журнале</a></li> <li><a href="/chemistry/issue/current">Свежий выпуск</a></li> <li><a href="/chemistry/issue/archive">Архив — Электронный журнал</a></li> <li><a href="/chemistry/pages/view/about-publication">Сведения об издании</a></li> <li><a href="/chemistry/about/contact">Контактная информация</a></li> <li><a href="/chemistry/about/editorialPolicies#sectionPolicies">Тематика журнала</a></li> <li><a href="/chemistry/pages/view/about-ethics">Редакционная этика журнала</a></li> <li><a href="/chemistry/about/submissions#sub">Требование к оформлению рукописей</a></li> <li><a href="/chemistry/about/submissions#latin">Правила оформления источников в списке литературы на латинице</a></li> <li><a href="/chemistry/about/submissions#annot">Рекомендации по подготовке аннотации статьи</a></li> <li><a href="/chemistry/pages/view/about-review-policy">Порядок рецензирования статей</a></li> </ul>
+
+</div>	<div class="block custom" id="customblock-Banner">
+	<div id="banner">
+<p><a href="http://www.ulrichsweb.com/" target="_blank"><img src="/public/site/images/banner_ulrichs.jpg" alt="Ulrich&rsquo;s periodical directory" /></a></p>
+<p><a href="http://elibrary.ru/title_about.asp?id=28120" target="_blank"><img src="/public/site/images/banner_elibrary.png" alt="eLibrary" /></a></p>
+<p><a href="http://cyberleninka.ru/journal/n/vestnik-yuzhno-uralskogo-gosudarstvennogo-universiteta-seriya-himiya" target="_blank"><img src="/public/site/images/banner_kiberleninka.jpg" alt="cyberleninka" /></a></p>
+<p><a href="https://e.lanbook.com/journal/2558#journal_name" target="_blank"><img src="/public/site/images/banner_lan.jpg" alt="Электронно-библиотечная система &laquo;Лань&raquo;" /></a></p>
+<p><a href="https://readera.org/vestnik-susu-chemistry" target="_blank"> <img src="/public/site/images/banner_readera.png" alt="Платформа публикаций Readera" /></a></p>
+</div>
+</div>	
+			</div>
+							<div id="rightSidebar">
+				<div class="block custom" id="customblock-Language">
+	<ul class="switch-language">
+<li><a href="/chemistry/user/setLocale/en_US">in English</a></li>
+</ul>
+<ul class="submit-article">
+<li><a href="/chemistry/author/submit/1">Отправить статью</a></li>
+</ul>
+</div>	<div class="block" id="sidebarDevelopedBy">
+	<a class="blockTitle" href="http://pkp.sfu.ca/ojs/" id="developedBy">Open Journal Systems</a>
+</div><div class="block" id="sidebarHelp">
+	<a class="blockTitle" href="javascript:openHelp('https://vestnik.susu.ru/chemistry/help')">Помощь</a>
+</div><div class="block" id="sidebarUser">
+			<span class="blockTitle">Пользователь</span>
+	
+												<form method="post" action="https://vestnik.susu.ru/chemistry/login/signIn">
+					<table>
+						<tr>
+							<td><label for="sidebar-username">Имя пользователя</label></td>
+							<td><input type="text" id="sidebar-username" name="username" value="" size="12" maxlength="32" class="textField" /></td>
+						</tr>
+						<tr>
+							<td><label for="sidebar-password">Пароль</label></td>
+							<td><input type="password" id="sidebar-password" name="password" value="" size="12" class="textField" /></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="checkbox" id="remember" name="remember" value="1" /> <label for="remember">Запомнить меня</label></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" value="Войти в систему" class="button" /></td>
+						</tr>
+					</table>
+				</form>
+						</div> <div class="block" id="notification">
+	<span class="blockTitle">Уведомления</span>
+	<ul>
+					<li><a href="https://vestnik.susu.ru/chemistry/notification">Просмотреть</a></li>
+			<li><a href="https://vestnik.susu.ru/chemistry/notification/subscribeMailList">Подписаться</a></li>
+			</ul>
+</div>
+<div class="block" id="sidebarNavigation">
+	<span class="blockTitle">Контент журнала</span>
+
+	<form id="simpleSearchForm" action="https://vestnik.susu.ru/chemistry/search/search">
+		<table id="simpleSearchInput">
+			<tr>
+				<td>
+													<label for="simpleQuery">Поиск <br />
+					<input type="text" id="simpleQuery" name="simpleQuery" size="15" maxlength="255" value="" class="textField" /></label>
+								</td>
+			</tr>
+			<tr>
+				<td><label for="searchField">
+				Область поиска
+				<br />
+				<select id="searchField" name="searchField" size="1" class="selectMenu">
+					<option label="Все" value="query">Все</option>
+<option label="Авторы" value="authors">Авторы</option>
+<option label="Название" value="title">Название</option>
+<option label="Аннотация" value="abstract">Аннотация</option>
+<option label="Термины для индексирования" value="indexTerms">Термины для индексирования</option>
+<option label="Полный текст" value="galleyFullText">Полный текст</option>
+
+				</select></label>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Найти" class="button" /></td>
+			</tr>
+		</table>
+	</form>
+
+	<br />
+
+		<span class="blockSubtitle">Просматривать</span>
+	<ul>
+		<li><a href="https://vestnik.susu.ru/chemistry/issue/archive">По выпускам</a></li>
+		<li><a href="https://vestnik.susu.ru/chemistry/search/authors">По авторам</a></li>
+		<li><a href="https://vestnik.susu.ru/chemistry/search/titles">По названию</a></li>
+		
+					<li><a href="https://vestnik.susu.ru/index">Другие журналы</a></li>
+						</ul>
+	</div>
+
+<!-- Add javascript required for font sizer -->
+<script type="text/javascript">
+	<!--
+	$(function(){
+		fontSize("#sizer", "body", 9, 16, 32, ""); // Initialize the font sizer
+	});
+	// -->
+</script>
+
+<div class="block" id="sidebarFontSize" style="margin-bottom: 4px;">
+	<span class="blockTitle">Размер шрифта</span>
+	<div id="sizer"></div>
+</div>
+<br /><div class="block" id="sidebarInformation">
+	<span class="blockTitle">Информация</span>
+	<ul>
+		<li><a href="https://vestnik.susu.ru/chemistry/information/readers">Для читателей</a></li>		<li><a href="https://vestnik.susu.ru/chemistry/information/authors">Для авторов</a></li>		<li><a href="https://vestnik.susu.ru/chemistry/information/librarians">Для библиотек</a></li>	</ul>
+</div>
+<div class="block custom" id="customblock-License">
+	<p><a href="http://creativecommons.org/licenses/by/4.0/"><img src="/public/site/images/cc-by.png" alt="CC BY" /></a> <br />Содержимое доступно под&nbsp;лицензией <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 License</a>.</p>
+</div>	
+			</div>
+			</div>
+
+<div id="main">
+
+<div id="navbar">
+	<ul class="menu">
+		<li id="home"><a href="https://vestnik.susu.ru/chemistry/index">Главная</a></li>
+		<li id="about"><a href="https://vestnik.susu.ru/chemistry/about">О нас</a></li>
+
+					<li id="login"><a href="https://vestnik.susu.ru/chemistry/login">Вход</a></li>
+							<li id="register"><a href="https://vestnik.susu.ru/chemistry/user/register">Регистрация</a></li>
+												<li id="search"><a href="https://vestnik.susu.ru/chemistry/search">Поиск</a></li>
+		
+					<li id="current"><a href="https://vestnik.susu.ru/chemistry/issue/current">Текущий выпуск</a></li>
+			<li id="archives"><a href="https://vestnik.susu.ru/chemistry/issue/archive">Архивы</a></li>
+		
+				
+
+								</ul>
+</div>
+<div id="breadcrumb">
+	<a href="https://vestnik.susu.ru/chemistry/index" target="_parent">Главная</a> &gt;
+	<a href="https://vestnik.susu.ru/chemistry/issue/view/873" target="_parent">Том 16, № 2 (2024)</a> &gt;	<a href="https://vestnik.susu.ru/chemistry/article/view/14198/0" class="current" target="_parent">Гущин</a>
+</div>
+
+<div id="content">
+
+
+	<div id="topBar">
+					</div>
+		
+	<div id="articleTitle"><h3>Синтез комплексов хрома с углеводородными и гетероциклическими лигандами и применение их в процессах полимеризации и газофазного получения хромкарбидных пленок в работах А.Н. Артемова</h3></div>
+	<div id="authorString"><em>Алексей Владимирович Гущин, Дарья Александровна Хотина, Владислав Рустамович Вахитов</em></div>
+	<br />
+			<div id="articleAbstract">
+		<h4>Аннотация</h4>
+		<br />
+		<div>В работах профессора А.Н. Артемова исследован синтез хромсодержащих изоксазолидинов реакцией 1,3-диполярного циклоприсоединения, продемонстрировано повышение цис/транс-селективности при введении хромтрикарбонильной группы в молекулы диполей и ди-полярофилов. Аренхромтрикарбонильные производные шестичленных гетероциклов с N–C–O связями, как и их пятичленные аналоги, можно получить реакцией между свободными от хром-трикарбонильной группы гетероциклами, а также в результате конденсации хромсодержащих аминоспиртов с карбонильными соединениями. Изучен синтез би- и полиметаллоорганических соединений в реакциях металлоорганических галогенидов с различными непереходными метал-лами. Такие реакции позволяют в одностадийном процессе получать соединения, содержащие ковалентные связи металлов 12–15 групп (Mg, Zn, Cd, In, Tl, Sn, Pb, Bi) c непереходными элемен-тами (Fe, Mo, W). В качестве регуляторов полимеризации по механизму обратимого ингибирова-ния для виниловых мономеров исследованы стиролхромтрикарбонил, пара-метилстирол-хромтрикарбонил, α-метилстиролхромтрикарбонил, стильбенхромтрикарбонил, аллилбензолхромтрикарбонил, дифенилбутадиенхромтрикарбонил. α-метилстиролхромтрикарбонил, дифенилбутадиенхромтрикарбонил, аллилбензолхромтрикарбонил. При введении их в полимеризующуюся массу метилметакрилата, бутилакрилата, стирола в количествах, соизмеримых с концентрацией инициатора, они контролируют обрыв полимерной цепи при температурах не выше 100 °С. При этом процесс протекает с достаточно высокой скоростью, и контроль роста цепи идет по механизму обратимого ингибирования. Газофазное разложение бис-этилбензолхрома может протекать с образованием твердых и износостойких хромкарбидных покрытий, так и с получением пленок хрома, отличающихся низким температурным коэффициентом сопротивления.</div>
+		<br />
+		</div>
+	
+			<div id="articleSubject">
+		<h4>Ключевые слова</h4>
+		<br />
+		<div>хроморганические соединения; аренхромтрикарбонил; полимеризация; карбид хрома; гетероциклические соединения</div>
+		<br />
+		</div>
+	
+				
+			<div id="articleFullText">
+		<h4>Полный текст:</h4>
+									<a href="https://vestnik.susu.ru/chemistry/article/view/14198/10573" class="file" target="_parent">PDF</a>
+														</div>
+	
+	
+																								
+
+<div class="separator"></div>
+
+<h3>Ссылки</h3>
+
+<ul>
+				<li>На текущий момент ссылки отсутствуют.</li>
+	</ul>
+
+
+		
+
+</div><!-- content -->
+</div><!-- main -->
+</div><!-- body -->
+
+
+
+</div> <!-- container -->
+</body>
+</html>

@@ -55,7 +55,7 @@
       "PubMed": "40208354"
     },
     "url": "https://www.semanticscholar.org/paper/0472903262eaa483ac285b3dde8c2f71c9044e64",
-    "title": "Cloning and Expression of the Isoprocarb Hydrolase Gene cehA from the Newly Isolated Isoprocarb-Degrading Strain Sphingobium sp. R-7.",
+    "title": "Cloning and Expression of the Isoprocarb Hydrolase Gene cehA from the Newly Isolated Isoprocarb-Degrading Strain Sphingobium sp. R-7",
     "venue": "Current Microbiology",
     "year": 2025,
     "openAccessPdf": {
@@ -81,7 +81,7 @@
         "name": "Bohan Wang"
       },
       {
-        "authorId": "2355030972",
+        "authorId": "2267599787",
         "name": "Yingxin Yang"
       },
       {
@@ -261,7 +261,7 @@
         "name": "G. Song"
       },
       {
-        "authorId": "87315625",
+        "authorId": "2395729391",
         "name": "W. Lim"
       }
     ],
@@ -983,6 +983,45 @@
       {
         "authorId": "13442740",
         "name": "Shuangju Song"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "13d17d3abe2d9aad97314481549edc71adc62b61",
+    "externalIds": {
+      "DOI": "10.1007/s12649-023-02246-w",
+      "CorpusId": 260756217
+    },
+    "url": "https://www.semanticscholar.org/paper/13d17d3abe2d9aad97314481549edc71adc62b61",
+    "title": "Utilizing Waste from Palm Oil Mills as a Substrate to Produce Antimicrobial Agents Using Fermentation by Streptomyces philanthi RM-1-138: Effectiveness, Stability, and Compound Identification",
+    "venue": "Waste and Biomass Valorization",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12649-023-02246-w?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12649-023-02246-w, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "5711205",
+        "name": "Sawai Boukaew"
+      },
+      {
+        "authorId": "5388692",
+        "name": "P. Prasertsan"
+      },
+      {
+        "authorId": "13548684",
+        "name": "Teera Chookaew"
+      },
+      {
+        "authorId": "6493108",
+        "name": "B. Cheirsilp"
       }
     ],
     "abstract": null
@@ -2860,7 +2899,7 @@
         "name": "A. Ara"
       },
       {
-        "authorId": "1380318545",
+        "authorId": "2398686484",
         "name": "S. Afrin"
       }
     ],
@@ -3285,7 +3324,7 @@
         "name": "Yingming Duan"
       },
       {
-        "authorId": "2320013338",
+        "authorId": "2271585806",
         "name": "Shuqin Liu"
       },
       {
@@ -4314,7 +4353,7 @@
       },
       {
         "authorId": "37279313",
-        "name": "I. Isa"
+        "name": "I. M. Isa"
       },
       {
         "authorId": "35620829",
@@ -4919,7 +4958,7 @@
         "name": "Qing Hong"
       }
     ],
-    "abstract": "ABSTRACT Isoprocarb (IPC), a widely used carbamate insecticide, causes environmental contamination and poses risks to humans and ecosystems. Rhodococcus sp. D-6, capable of utilizing IPC as the sole growth substrate, was isolated by our lab. Strain D-6 initiates IPC degradation through ester bond hydrolysis by the hydrolase IpcH, yielding 2-isopropylphenol (IPP). In this study, the catabolic pathway of IPP in strain D-6 was elucidated, and the ipp gene cluster responsible for its degradation was predicted by transcriptomic analysis. Key genes, including a novel two-component IPP monooxygenase gene ippA1A2 and a 2-isopropylhydroquinone dioxygenase gene ippB, are responsible for the successive conversion of IPP, resulting in the ring cleavage of IPP. IppA1, a group D flavin-dependent monooxygenase, along with its reductase component IppA2, hydroxylates IPP to 2-isopropylhydroquinone using reduced nicotinamide adenine dinucleotide (NADH) and flavin adenine dinucleotide (FAD) as cofactors. The optimal molar ratio of IppA1 to IppA2 was 3:1. The apparent Km and kcat values of IppA1 for IPP were 60.52 ± 1.27 µM and 70.07 ± 0.85 s−1, respectively. IppB, an extradiol dioxygenase, catalyzes 2-isopropylhydroquinone ring cleavage to generate 2-isopropyl-4-hydroxymuconic semialdehyde. The apparent Km and kcat values of IppB for 2-isopropylhydroquinone were 29.07 ± 1.54 μM and 147.65 ± 1.92 s−1, respectively. This study provides critical insights into the molecular mechanisms of IPP degradation, contributing to a comprehensive understanding of IPC degradation. IMPORTANCE Carbamate insecticides kill pests by inhibiting the activity of acetylcholinesterase (AChE) and have been widely used in agriculture. Compared to the studies on the degradation mechanisms of carbofuran and carbaryl, little is known about IPC degradation. An IPC-degrading strain Rhodococcus sp. D-6 was isolated by our lab, and the hydrolase gene ipcH responsible for hydrolyzing IPC to IPP has been identified previously. This study further elucidates the IPP degradation pathway in strain D-6 and identifies the novel two-component IPP monooxygenase IppA1A2 and 2-isopropylhydroquinone dioxygenase IppB, which are respectively responsible for IPP hydroxylation and its subsequent ring cleavage. These findings enhance our understanding of the microbial degradation mechanism of IPC."
+    "abstract": "ABSTRACT Isoprocarb (IPC), a widely used carbamate insecticide, causes environmental contamination and poses risks to humans and ecosystems. Rhodococcus sp. D-6, capable of utilizing IPC as the sole growth substrate, was isolated by our lab. Strain D-6 initiates IPC degradation through ester bond hydrolysis by the hydrolase IpcH, yielding 2-isopropylphenol (IPP). In this study, the catabolic pathway of IPP in strain D-6 was elucidated, and the ipp gene cluster responsible for its degradation was predicted by transcriptomic analysis. Key genes, including a novel two-component IPP monooxygenase gene ippA1A2 and a 2-isopropylhydroquinone dioxygenase gene ippB, are responsible for the successive conversion of IPP, resulting in the ring cleavage of IPP. IppA1, a group D flavin-dependent monooxygenase, along with its reductase component IppA2, hydroxylates IPP to 2-isopropylhydroquinone using reduced nicotinamide adenine dinucleotide (NADH) and flavin adenine dinucleotide (FAD) as cofactors. The optimal molar ratio of IppA1 to IppA2 was 3:1. The apparent Km and kcat values of IppA1 for IPP were 60.52 ± 1.27 µM and 70.07 ± 0.85 s−1, respectively. IppB, an extradiol dioxygenase, catalyzes 2-isopropylhydroquinone ring cleavage to generate 2-isopropyl-4-hydroxymuconic semialdehyde. The apparent Km and kcat values of IppB for 2-isopropylhydroquinone were 29.07 ± 1.54 μM and 147.65 ± 1.92 s−1, respectively. This study provides critical insights into the molecular mechanisms of IPP degradation, contributing to a comprehensive understanding of IPC degradation. IMPORTANCE Carbamate insecticides kill pests by inhibiting the activity of acetylcholinesterase (AChE) and have been widely used in agriculture. Compared to the studies on the degradation mechanisms of carbofuran and carbaryl, little is known about IPC degradation. An IPC-degrading strain Rhodococcus sp. D-6 was isolated by our lab, and the hydrolase gene ipcH responsible for hydrolyzing IPC to IPP has been identified previously. This study further elucidates the IPP degradation pathway in strain D-6 and identifies the novel two-component IPP monooxygenase IppA1A2 and 2-isopropylhydroquinone dioxygenase IppB, which are respectively responsible for IPP hydroxylation and its subsequent ring cleavage. These findings enhance our understanding of the microbial degradation mechanism of IPC. Carbamate insecticides kill pests by inhibiting the activity of acetylcholinesterase (AChE) and have been widely used in agriculture. Compared to the studies on the degradation mechanisms of carbofuran and carbaryl, little is known about IPC degradation. An IPC-degrading strain Rhodococcus sp. D-6 was isolated by our lab, and the hydrolase gene ipcH responsible for hydrolyzing IPC to IPP has been identified previously. This study further elucidates the IPP degradation pathway in strain D-6 and identifies the novel two-component IPP monooxygenase IppA1A2 and 2-isopropylhydroquinone dioxygenase IppB, which are respectively responsible for IPP hydroxylation and its subsequent ring cleavage. These findings enhance our understanding of the microbial degradation mechanism of IPC."
   },
   {
     "paperId": "7c225120f9d45b95425022026fa1efaa87ff7c9b",
@@ -6074,6 +6113,53 @@
       }
     ],
     "abstract": null
+  },
+  {
+    "paperId": "9b0c3f003a1cbe241804a972b8d8980765f0226a",
+    "externalIds": {
+      "DOI": "10.5424/sjar/2025233-21272",
+      "CorpusId": 283859700
+    },
+    "url": "https://www.semanticscholar.org/paper/9b0c3f003a1cbe241804a972b8d8980765f0226a",
+    "title": "A field monitoring study to explore the European honey bee exposure to pesticide residues in orchards",
+    "venue": "Spanish Journal of Agricultural Research",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.5424/sjar/2025233-21272?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.5424/sjar/2025233-21272, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2398508675",
+        "name": "Míriam Gurpegui"
+      },
+      {
+        "authorId": "1401624514",
+        "name": "M. González-Núñez"
+      },
+      {
+        "authorId": "108309081",
+        "name": "A. García-Valcárcel"
+      },
+      {
+        "authorId": "1402380700",
+        "name": "I. Sánchez-Ramos"
+      },
+      {
+        "authorId": "11062736",
+        "name": "C. Ornosa"
+      },
+      {
+        "authorId": "2290766011",
+        "name": "M. D. Hernando"
+      }
+    ],
+    "abstract": "Aim of study: The European honey bee (Apis mellifera L.) is threatened due to diverse pressures, including the habitat fragmentation, the pests or diseases which affect them and the misuse of plant protection products (PPPs). This work aimed to evaluate and compare the degree of exposure of A. mellifera to PPPs residues in orchards, in both conventional and organic production. \nArea of study: Region of Murcia (Spain). \nMaterial and methods: During a three-year period, field monitoring campaigns were organised in peach and apricot orchards under both conventional and organic managements and coinciding with the flowering period. The evaluation of exposure relied on chemical characterisation of pesticide residues using a non-targeted screening by high resolution accurate mass (HRAM) spectrometry. \nMain results: The findings of this study reveal that pesticide residues were detected in honey bees captured in both conventional and organic orchards. Pesticide residues tentatively identified were carbetamide, flufenacet, iprovalicarb, isoprocarb and spiromesifen. Since honey bees, particularly the forager bees, fly up to several km away from the hive to collect pollen and nectar, they may visit conventionally managed plots where crops are treated with PPPs. \nResearch highlights: This study evinces that, in orchards, the forager bees are exposed to agrochemicals during their foraging activity on the flowers of treated fruit trees, either in contiguous or distant plots. The exposure of bees to pesticide residues in organic orchards can be due to the high persistence of some of these substances in the environment, or to the proximity of other orchards where PPPs are applied."
   },
   {
     "paperId": "9c790f9ea971589558a3d9657273497909092383",
@@ -8584,7 +8670,7 @@
         "name": "Huy Huu Truong"
       },
       {
-        "authorId": "2349987352",
+        "authorId": "2269611727",
         "name": "Man Van Tran"
       },
       {

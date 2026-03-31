@@ -1,0 +1,147 @@
+[
+  {
+    "title": "Short-chain fluorocarbon-based polymeric coating with excellent nonwetting ability against chemical warfare agents",
+    "doi": "10.1039/d1ra08326k",
+    "year": 2022,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract discusses a copolymeric coating containing short-chain fluorinated groups as an alternative to long-chain fluorinated compounds, including perfluorooctanesulfonic acid (PFOS). It explicitly mentions safety against toxic PFOS and highlights favorable health and environmental properties, indicating a safer alternative. The replacement is the p(PFOMA-co-EGDMA) copolymeric coating.",
+    "alternatives": "short-chain fluorinated groups; p(PFOMA-co-EGDMA) copolymeric coating",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to perfluorooctanesulfonic acid (PFOS). It only mentions safety against PFOS and perfluorooctanoic acid (PFOA) in the context of the coating's application, without describing any specific toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Evaluation of Developmental Toxicity, Developmental Neurotoxicity, and Tissue Dose in Zebrafish Exposed to GenX and Other PFAS",
+    "doi": "10.1289/EHP5843",
+    "year": 2020,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract compares toxicity of various PFAS including perfluorooctanesulfonic acid (PFOS) and emerging fluoroether PFAS such as GenX, ADONA, and PFESA1. It states that all emerging fluoroether PFAS tested were negative for evaluated toxicity outcomes, while PFOS caused developmental neurotoxicity and other defects. This indicates that the emerging fluoroether PFAS are safer alternatives to PFOS.",
+    "alternatives": "GenX; ADONA; PFESA1",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental neurotoxicity",
+        "failed swim bladder inflation",
+        "abnormal ventroflexion of the tail",
+        "hyperactivity"
+      ],
+      "rationale": "The reasoning text explicitly states that exposure to perfluorooctanesulfonic acid (PFOS) caused failed swim bladder inflation, abnormal ventroflexion of the tail, and hyperactivity at nonteratogenic concentrations, indicating developmental neurotoxicity. These are the explicit harms mentioned for PFOS."
+    },
+    "CHEMICAL HARM": "developmental neurotoxicity, failed swim bladder inflation, abnormal ventroflexion of the tail, hyperactivity"
+  },
+  {
+    "title": "SAT423 Regulation Of The Male Neuroendocrine Axis By Per- And Polyfluoroalkyl Substances (PFASs)",
+    "doi": "10.1210/jendso/bvad114.1054",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly states that short-chain or emerging PFASs, such as perfluorobutanoic acid (PFBA) and perfluorobutanesulfonic acid (PFBS), are thought to be safer than perfluorooctanesulfonic acid (PFOS) due to decreased toxicity and rapid environmental degradation. This indicates a clear safety advantage and suggests these substances as safer alternatives to PFOS.",
+    "alternatives": "perfluorobutanoic acid (PFBA); perfluorobutanesulfonic acid (PFBS)",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disruption",
+        "altered testosterone production (both increased and decreased)",
+        "impacts on male neuroendocrine-reproductive axis",
+        "potential effects on germ cell development",
+        "potential effects on sperm production",
+        "potential effects on male fertility"
+      ],
+      "rationale": "The reasoning text explicitly states that perfluorooctanesulfonic acid (PFOS) affects the male neuroendocrine-reproductive axis by altering testosterone production (both increasing and decreasing depending on dose), changing protein expression related to reproductive hormones, and thereby implicating effects on germ cell development, sperm production, and male fertility. No other explicit harms such as toxicity types beyond endocrine disruption, persistence, bioaccumulation, or occupational hazards are mentioned."
+    },
+    "CHEMICAL HARM": "endocrine disruption, altered testosterone production (both increased and decreased), impacts on male neuroendocrine-reproductive axis, potential effects on germ cell development, potential effects on sperm production, potential effects on male fertility"
+  },
+  {
+    "title": "Comparing Ocular Toxicity of Legacy and Alternative Per- and Polyfluoroalkyl Substances in Zebrafish Larvae",
+    "doi": "10.3390/toxics11121021",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract compares the ocular toxicity of legacy PFAS including perfluorooctanesulfonic acid (PFOS) with alternatives such as perfluorobutanesulfonic acid (PFBS) and perfluorobutanoic acid (PFBA). It reports that PFOS caused significant visual toxicity effects, whereas the alternatives PFBS and PFBA showed no effect at tested concentrations, indicating a safety advantage in terms of ocular toxicity. Thus, PFBS and PFBA are presented as safer alternatives to PFOS.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS); perfluorobutanoic acid (PFBA)",
+    "target_chemical_harm": {
+      "harms": [
+        "visual toxicity",
+        "ocular toxicity",
+        "gene expression downregulation in visual function pathways"
+      ],
+      "rationale": "The reasoning explicitly states that PFOS exposure caused concentration-dependent reductions in phototactic responses and decreased optomotor responses in zebrafish larvae, indicating visual toxicity. Additionally, PFOS markedly downregulated genes involved in photoreceptor opsins and the phototransduction cascade, explaining the observed visual behavior changes."
+    },
+    "CHEMICAL HARM": "visual toxicity, ocular toxicity, gene expression downregulation in visual function pathways"
+  },
+  {
+    "title": "Integrative multi-omics reveals analogous developmental neurotoxicity mechanisms between perfluorobutanesulfonic acid and perfluorooctanesulfonic acid in zebrafish.",
+    "doi": "10.1016/j.jhazmat.2023.131714",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly states that perfluorobutanesulfonic acid (PFBS) is approximately 700 times less toxic than perfluorooctanesulfonic acid (PFOS), indicating a clear safety advantage. PFBS is described as an alternative to legacy PFOS, and the lower toxicity supports it being a safer alternative. Although PFBS exhibits similar neurotoxicity mechanisms, its significantly lower toxicity suggests a safety benefit.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS)",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental neurotoxicity",
+        "neurobehavioral changes",
+        "oxidative stress",
+        "disruption of lipid metabolism",
+        "disruption of glycolysis/gluconeogenesis",
+        "disruption of calcium signaling pathway",
+        "disruption of lipid homeostasis",
+        "disruption of primary bile acid biosynthesis"
+      ],
+      "rationale": "The text explicitly states that PFOS causes developmental neurotoxicity and neurobehavioral changes in zebrafish embryos, with associated biomolecular perturbations including oxidative stress, lipid metabolism disruption, and glycolysis/gluconeogenesis disruption. It also mentions dysregulated molecular mechanisms involving calcium signaling, lipid homeostasis, and bile acid biosynthesis. These harms are directly linked to PFOS, the target chemical."
+    },
+    "CHEMICAL HARM": "developmental neurotoxicity, neurobehavioral changes, oxidative stress, disruption of lipid metabolism, disruption of glycolysis/gluconeogenesis, disruption of calcium signaling pathway, disruption of lipid homeostasis, disruption of primary bile acid biosynthesis"
+  },
+  {
+    "title": "Synthesis, Surface Activity, and Foamability of Two Short-Chain Fluorinated Sulfonate Surfactants with Ether Bonds.",
+    "doi": "10.1021/acs.langmuir.3c01623",
+    "year": 2023,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract explicitly discusses the synthesis of two short-chain fluorinated surfactants (6:2 FTESNa and C72 FEESNa) as alternatives to PFOS. It highlights that these alternatives have superior surface activity and foam performance compared to 6:2 FTSNa, a current PFOS alternative, and implies reduced environmental impact by focusing on short-chain compounds to reduce persistence, bioaccumulation, and biotoxicity. Thus, it clearly presents these substances as safer alternatives to perfluorooctanesulfonic acid.",
+    "alternatives": "6:2 FTESNa; C72 FEESNa",
+    "target_chemical_harm": {
+      "harms": [
+        "high environmental persistence",
+        "bioaccumulation",
+        "biotoxicity"
+      ],
+      "rationale": "The reasoning text explicitly states that perfluorooctanesulfonic acid (PFOS) has high stability causing environmental problems, and mentions the need to reduce environmental persistence, bioaccumulation, and biotoxicity associated with PFOS."
+    },
+    "CHEMICAL HARM": "high environmental persistence, bioaccumulation, biotoxicity"
+  },
+  {
+    "title": "Dehydroxy-Perfluoro-tert-butylation of alcohols with PhSO2C(CF3)3 and insights into the structure of the [C(CF3)3]− anion",
+    "doi": "10.1038/s41467-025-63180-0",
+    "year": 2025,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract states that branched perfluorooctanesulfonic acid (PFOS) has shorter half-lives, lower toxicity, and weaker serum protein binding than linear PFOS, indicating better environmental and health safety. It introduces a method to access branched perfluoroalkyl scaffolds, including branched PFOS, which can be interpreted as a safer alternative to conventional linear PFOS. The replacement implied is branched PFOS accessed via the described dehydroxy-perfluoro-tert-butylation method.",
+    "alternatives": "branched perfluorooctanesulfonic acid (branched PFOS)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text explicitly states that branched perfluorooctanesulfonic acid has lower toxicity and better environmental and health safety compared to linear forms, but does not mention any explicit harms or hazards associated with perfluorooctanesulfonic acid."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Adverse PFAS effects on mouse oocyte in vitro maturation are associated with carbon‐chain length and inclusion of a sulfonate group",
+    "doi": "10.1111/cpr.13353",
+    "year": 2022,
+    "target": "perfluorooctanesulfonic acid",
+    "reasoning": "The abstract compares the toxicity of different PFAS compounds, noting that shorter chain PFSA (perfluorobutanesulfonic acid, PFBS) and all PFCA did not show similar adverse cytotoxicity as perfluorooctanesulfonic acid (PFOS). This indicates that PFBS and PFCA have lower reproductive toxicity compared to PFOS, suggesting they are safer alternatives. The abstract explicitly links the lower toxicity of PFBS and PFCA to their chemical structure relative to PFOS.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS); perfluorocarboxylic acids (PFCA)",
+    "target_chemical_harm": {
+      "harms": [
+        "bioaccumulation",
+        "reproductive toxicity",
+        "cytotoxicity",
+        "immunotoxicity",
+        "neurotoxicity",
+        "induction of reactive oxygen species (ROS)",
+        "decreased mitochondrial membrane potential (MMP)",
+        "chromosome misalignment",
+        "abnormal F-actin organization",
+        "elongated spindle formation",
+        "symmetric division abnormalities"
+      ],
+      "rationale": "The reasoning text explicitly states that PFAS, including perfluorooctanesulfonic acid (PFOS), are persistent and bioaccumulate in humans and animals. Toxicological studies show PFAS toxic effects including cytotoxicity, immunotoxicity, neurotoxicity, and reproductive toxicity. Specifically, PFOS at 600 µM reduces germinal vesicle breakdown and polar body extrusion rates, induces large polar bodies, excess reactive oxygen species, decreased mitochondrial membrane potential, chromosome misalignment, abnormal F-actin organization, elongated spindle formation, and symmetric division abnormalities in oocytes."
+    },
+    "CHEMICAL HARM": "bioaccumulation, reproductive toxicity, cytotoxicity, immunotoxicity, neurotoxicity, induction of reactive oxygen species (ROS), decreased mitochondrial membrane potential (MMP), chromosome misalignment, abnormal F-actin organization, elongated spindle formation, symmetric division abnormalities"
+  }
+]

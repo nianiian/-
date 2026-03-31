@@ -2018,7 +2018,7 @@
       },
       {
         "authorId": "2367704633",
-        "name": "Stephanie Avery‐Gomm"
+        "name": "S. Avery‐Gomm"
       },
       {
         "authorId": "7423549",
@@ -2746,7 +2746,7 @@
         "name": "Z. Dang"
       }
     ],
-    "abstract": null
+    "abstract": "The degradation of 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47) by Pycnoporus sanguineus was investigated in order to explore the impact of the heavy metal Cu2+ on BDE-47 decomposition and the subsequent formation of metabolites, as well as to further elucidate the degradation mechanism of BDE-47. An increase in degradation rate from 18.63% to 49.76% in the first four days and its stabilization at (51.26 ± 0.08)% in the following days of BDE-47 incubation were observed. The presence of Cu2+ at 1 and 2 mg/L was found to promote the degradation rate to 56.41% and 60.79%, respectively, whereas higher level of Cu2+ (≥5 mg/L) inhibited the removal of BDE-47. The similar concentration effects of Cu2+ was also found on contents of fungal protein and amounts of metabolites. Both intracellular and extracellular enzymes played certain roles in BDE-47 transportation with the best degradation rate at 27.90% and 27.67% on the fourth and third day, individually. During the degradation of BDE-47, four types of hydroxylated polybrominated diphenyl ethers (OH-PBDEs), i.e., 6′-OH-BDE-47, 5′-OH-BDE-47, 4′-OH-BDE-17, 2′-OH-BDE-28, and two bromophenols, i.e., 2,4-DBP and 4-BP were detected and considered as degradation products. These metabolites were further removed by P. sanguineus at rates of 22.42%, 23.01%, 27.04%, 27.96%, 64.21%, and 40.62%, respectively."
   },
   {
     "paperId": "1d9fd08b9f72b8272837aef9f682ec83ce71f31e",
@@ -2866,7 +2866,7 @@
       "PubMed": "40353638"
     },
     "url": "https://www.semanticscholar.org/paper/1f8bc9c3b2dcd820b8a58e111b48f028d3d552f7",
-    "title": "Induction of Netosis by 2,2,4,4-Tetrabromodiphenyl Ether (BDE-47) in Cyprinus Carpio.",
+    "title": "Induction of Netosis by 2,2,4,4‐Tetrabromodiphenyl Ether (BDE‐47) in \nCyprinus Carpio",
     "venue": "Environmental Toxicology",
     "year": 2025,
     "openAccessPdf": {
@@ -2904,7 +2904,7 @@
         "name": "Ziwei Zhang"
       }
     ],
-    "abstract": "Polybrominated diphenyl ethers (PBDEs), extensively utilized as brominated flame retardants, have attained pervasive application in diverse products, thereby manifesting as omnipresent contaminants in the global environmental landscape. Among the PBDEs, 2,2',4,4'-Tetrabromodiphenyl ether (BDE-47) exhibits the broadest distribution and is recognized for its adverse impact on fish. The formation of neutrophil extracellular traps (NETs) known as \"NETosis\" is a neutrophil antimicrobial mechanism that plays an important role in the immune system. However, the impact of BDE-47 on the aquatic animal immune system remains unknown. Therefore, our research investigated the toxic mechanism of BDE-47 to fish neutrophils. Firstly, the quantitative analysis of NETs showed that BDE-47 induced the synthesis of NETs. Furthermore, our findings demonstrated that BDE-47 could enhance reactive oxygen species (ROS) levels. The results also suggested that BDE-47 may play a role in promoting neutrophil autophagy and apoptosis. In addition, BDE-47 exposure inhibited the activities of oxidative stress-related antioxidant enzymes and increased malondialdehyde levels, thus causing oxidative stress. Finally, BDE-47 phosphorylated P38 and extracellular signal-regulated Kinase (ERK) pathway proteins. Collectively, BDE-47 promotes NETs formation by facilitating the ROS/P38/ERK axis and oxidative stress in carp neutrophils, promoting cellular autophagy, in addition to activating the mitochondrial apoptotic pathway, and this toxicity exists in a dose-dependent manner. The study investigated the fundamental mechanisms of BDE-47 on carp neutrophils. This investigation offered fresh perspectives on the immunotoxicological mechanisms of BDE-47 and provided a new basis for mitigating the adverse effects of BDE-47 on aquatic animals."
+    "abstract": "Polybrominated diphenyl ethers (PBDEs), extensively utilized as brominated flame retardants, have attained pervasive application in diverse products, thereby manifesting as omnipresent contaminants in the global environmental landscape. Among the PBDEs, 2,2′,4,4′‐Tetrabromodiphenyl ether (BDE‐47) exhibits the broadest distribution and is recognized for its adverse impact on fish. The formation of neutrophil extracellular traps (NETs) known as “NETosis” is a neutrophil antimicrobial mechanism that plays an important role in the immune system. However, the impact of BDE‐47 on the aquatic animal immune system remains unknown. Therefore, our research investigated the toxic mechanism of BDE‐47 to fish neutrophils. Firstly, the quantitative analysis of NETs showed that BDE‐47 induced the synthesis of NETs. Furthermore, our findings demonstrated that BDE‐47 could enhance reactive oxygen species (ROS) levels. The results also suggested that BDE‐47 may play a role in promoting neutrophil autophagy and apoptosis. In addition, BDE‐47 exposure inhibited the activities of oxidative stress‐related antioxidant enzymes and increased malondialdehyde levels, thus causing oxidative stress. Finally, BDE‐47 phosphorylated P38 and extracellular signal‐regulated Kinase (ERK) pathway proteins. Collectively, BDE‐47 promotes NETs formation by facilitating the ROS/P38/ERK axis and oxidative stress in carp neutrophils, promoting cellular autophagy, in addition to activating the mitochondrial apoptotic pathway, and this toxicity exists in a dose‐dependent manner. The study investigated the fundamental mechanisms of BDE‐47 on carp neutrophils. This investigation offered fresh perspectives on the immunotoxicological mechanisms of BDE‐47 and provided a new basis for mitigating the adverse effects of BDE‐47 on aquatic animals."
   },
   {
     "paperId": "1fe487708919338d1a63ca0b944f999b2de8d3a2",
@@ -3580,7 +3580,7 @@
     "authors": [
       {
         "authorId": "80085127",
-        "name": "Jing-O Cheng"
+        "name": "Jing-O. Cheng"
       },
       {
         "authorId": "2968246",
@@ -3992,8 +3992,10 @@
   {
     "paperId": "2a9f136e1c4ebc0a1eb1c5106a8355c3d31f85ce",
     "externalIds": {
+      "PubMedCentral": "12563177",
       "DOI": "10.3390/ijms262010152",
-      "CorpusId": 282208281
+      "CorpusId": 282208281,
+      "PubMed": "41155443"
     },
     "url": "https://www.semanticscholar.org/paper/2a9f136e1c4ebc0a1eb1c5106a8355c3d31f85ce",
     "title": "Dietary Exposure to 2,2′,4,4′-Tetrabromodiphenyl Ether (BDE-47) Causes Inflammation in the Liver of Common Carp (Cyprinus carpio) and Affects Lipid Metabolism by Interfering with Steroid Hormone Biosynthesis Pathways",
@@ -4002,8 +4004,8 @@
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/ijms262010152?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/ijms262010152, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12563177, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -4470,6 +4472,61 @@
     "abstract": "We have previously found that a mixture exposure of 2,2′,4,4′‐tetrabromodiphenyl ether (BDE‐47) and cadmium (Cd) causes kidney damage; however, the mechanism was not fully understood. The aryl hydrocarbon receptor (AhR) is a ligand–receptor transcription factor that plays an important role in the adaptive response or metabolic detoxification of environmental toxins. Thus, this study aimed to examine the role of AhR in kidney toxicity. BDE‐47 (50 μM) or Cd (5 μM) exposure reduced cell viability in renal tubular epithelial cells (HKC), with a larger effect observed in co‐treatment. The cell morphology presented pyroptotic changes, including swollen cells, large bubbles, and plasma membrane pore formation. The gene expressions of AhR, heat shock protein 90 (Hsp90), AhR nuclear translocator (ARNT), and cytochrome P450 1B1 (CYP1B1) were increased, while CYP1A1 was decreased. Reactive oxygen species (ROS) were generated, which was reduced by the AhR antagonist CH223191. The apoptosis, necrosis, and intracellular lactated hydrogenase (LDH) release was elevated, and this was attenuated by N‐acetylcysteine (NAC). Furthermore, the pyroptosis pathway was activated with increased protein levels of cleaved‐caspase‐3 and gasdermin E N‐terminal (GSDME‐NT), while caspase‐8, caspase‐3, and GSDME were decreased. These effects were alleviated by NAC and CH223191. Our data demonstrate a combined effect of BDE‐47 and Cd on nephrotoxicity by activating AhR to induce ROS contributing to GSDME‐dependent pyroptosis, and retardation of the AhR pathway could reduce this toxicity."
   },
   {
+    "paperId": "2f8d853aca24ddc0755c5ce703d11982e45c66a7",
+    "externalIds": {
+      "DOI": "10.1007/s10499-025-02284-2",
+      "CorpusId": 282166851
+    },
+    "url": "https://www.semanticscholar.org/paper/2f8d853aca24ddc0755c5ce703d11982e45c66a7",
+    "title": "BDE-47 induces oxidative stress and apoptosis by interfering with pyruvate and glutathione metabolism in Epinephelus coioides",
+    "venue": "Aquaculture International",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10499-025-02284-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10499-025-02284-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2290248663",
+        "name": "Zongfu Chen"
+      },
+      {
+        "authorId": "2386389269",
+        "name": "Lei Yan"
+      },
+      {
+        "authorId": "2386248086",
+        "name": "Peng Luo"
+      },
+      {
+        "authorId": "2386151887",
+        "name": "Ziyang Xu"
+      },
+      {
+        "authorId": "2386272046",
+        "name": "Tongwen Ni"
+      },
+      {
+        "authorId": "2290238769",
+        "name": "Li Lin"
+      },
+      {
+        "authorId": "2386491668",
+        "name": "Wei Zhang"
+      },
+      {
+        "authorId": "2386197076",
+        "name": "Yanan Li"
+      }
+    ],
+    "abstract": null
+  },
+  {
     "paperId": "2fa5ad45e1b1393623017e707cf3d4c993d58c29",
     "externalIds": {
       "PubMedCentral": "3676375",
@@ -4917,7 +4974,7 @@
       "PubMed": "40835755"
     },
     "url": "https://www.semanticscholar.org/paper/31144e59a93d6dc939e2d851caab7d371c76a17e",
-    "title": "2,2',4,4'-tetrabromodiphenyl ether (BDE-47) induces early hearing loss in guinea pigs via activating AhR to trigger mitochondrial and endoplasmic reticulum stress-regulated autophagy.",
+    "title": "2,2',4,4'-tetrabromodiphenyl ether (BDE-47) induces early hearing loss in guinea pigs via activating AhR to trigger mitochondrial and endoplasmic reticulum stress-regulated autophagy",
     "venue": "Archives of Toxicology",
     "year": 2025,
     "openAccessPdf": {
@@ -5376,8 +5433,8 @@
         "name": "T. Visser"
       },
       {
-        "authorId": "40585550",
-        "name": "M. V. van Velzen"
+        "authorId": "2390593667",
+        "name": "Martin van Velzen"
       },
       {
         "authorId": "144489336",
@@ -6326,6 +6383,56 @@
     "abstract": "Evidence indicates that oxidative stress is the central pathological feature of 2, 2´, 4, 4´-tetrabromodiphenyl ether (BDE-47)-induced neurotoxicity. Protein kinase C delta (PKCδ), an oxidative stress-sensitive kinase, can be proteolytically cleaved to yield a catalytically active fragment (PKCδ-CF) that is involved in various neurodegenerative disorders. Here, we showed that BDE-47 treatment increased ROS, malondialdehyde, and protein carbonyl levels in the mouse hippocampus. In turn, excessive ROS induced caspase-3-dependent PKCδ activation and stimulated NF-κB p65 nuclear translocation, resulting in inflammation in the mouse hippocampus. These changes caused learning and memory deficits in BDE-47-treated mice. Treatment with Z-DEVD-fmk, a caspase-3 inhibitor, or N-acetyl-L-cysteine, an antioxidant, blocked PKCδ activation and subsequently inhibited inflammation, thereby improving learning and memory deficits in BDE-47-treated mice. Our data further showed that activation of ROS-PKCδ signaling was associated with DJ-1 downregulation, which exerted neuroprotective effects against oxidative stress induced by different neurotoxic agents. Adeno-associated viral vector-mediated DJ-1 overexpression in the hippocampus effectively inhibited excessive ROS production, suppressed caspase-3-dependent PKCδ cleavage, blunted inflammation and ultimately reversed learning and memory deficits in BDE-47-treated mice. Taken together, our results demonstrate that DJ-1 plays a pivotal role in BDE-47-induced neurotoxic effects and learning and memory deficits."
   },
   {
+    "paperId": "41a91dbf6e030da00c9fe34f04c55c55cb6ed8a0",
+    "externalIds": {
+      "MAG": "2069787673",
+      "PubMedCentral": "2799472",
+      "DOI": "10.1289/ehp.0901015",
+      "CorpusId": 3986438,
+      "PubMed": "20049217"
+    },
+    "url": "https://www.semanticscholar.org/paper/41a91dbf6e030da00c9fe34f04c55c55cb6ed8a0",
+    "title": "Prenatal Exposure to Organohalogens, Including Brominated Flame Retardants, Influences Motor, Cognitive, and Behavioral Performance at School Age",
+    "venue": "Environmental Health Perspectives",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1289/ehp.0901015",
+      "status": "GOLD",
+      "license": "public-domain",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC2799472, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "152882956",
+        "name": "E. Roze"
+      },
+      {
+        "authorId": "37289008",
+        "name": "L. Meijer"
+      },
+      {
+        "authorId": "2388577028",
+        "name": "Attie Bakker"
+      },
+      {
+        "authorId": "4343296",
+        "name": "K. V. Van Braeckel"
+      },
+      {
+        "authorId": "2242598050",
+        "name": "Pieter J. J. Sauer"
+      },
+      {
+        "authorId": "1974074",
+        "name": "A. Bos"
+      }
+    ],
+    "abstract": "Background Organohalogen compounds (OHCs) are known to have neurotoxic effects on the developing brain. Objective We investigated the influence of prenatal exposure to OHCs, including brominated flame retardants, on motor, cognitive, and behavioral outcome in healthy children of school age. Methods This study was part of the prospective Groningen infant COMPARE (Comparison of Exposure-Effect Pathways to Improve the Assessment of Human Health Risks of Complex Environmental Mixtures of Organohalogens) study. It included 62 children in whose mothers the following compounds had been determined in the 35th week of pregnancy: 2,2′-bis-(4 chlorophenyl)-1,1′-dichloroethene, pentachlorophenol (PCP), polychlorinated biphenyl congener 153 (PCB-153), 4-hydroxy-2,3,3′,4′,5-pentachlorobiphenyl (4OH-CB-107), 4OH-CB-146, 4OH-CB-187, 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47), BDE-99, BDE-100, BDE-153, BDE-154, and hexabromocyclododecane. Thyroid hormones were determined in umbilical cord blood. When the children were 5–6 years of age, we assessed their neuropsychological functioning: motor performance (coordination, fine motor skills), cognition (intelligence, visual perception, visuomotor integration, inhibitory control, verbal memory, and attention), and behavior. Results Brominated flame retardants correlated with worse fine manipulative abilities, worse attention, better coordination, better visual perception, and better behavior. Chlorinated OHCs correlated with less choreiform dyskinesia. Hydroxylated polychlorinated biphenyls correlated with worse fine manipulative abilities, better attention, and better visual perception. The wood protective agent (PCP) correlated with worse coordination, less sensory integrity, worse attention, and worse visuomotor integration. Conclusions Our results demonstrate for the first time that transplacental transfer of polybrominated flame retardants is associated with the development of children at school age. Because of the widespread use of these compounds, especially in the United States, where concentrations in the environment are four times higher than in Europe, these results cause serious concern."
+  },
+  {
     "paperId": "42230f2d0a1e480915a2bba966bdee7a6a87204b",
     "externalIds": {
       "MAG": "2406309632",
@@ -7105,7 +7212,7 @@
       },
       {
         "authorId": "80085127",
-        "name": "Jing-O Cheng"
+        "name": "Jing-O. Cheng"
       },
       {
         "authorId": "49828047",
@@ -7702,7 +7809,7 @@
       },
       {
         "authorId": "2268545440",
-        "name": "Theo K. Bammler"
+        "name": "T. Bammler"
       },
       {
         "authorId": "2269169066",
@@ -7765,7 +7872,7 @@
         "name": "Shun Zhang"
       }
     ],
-    "abstract": "The brominated flame retardant 2, 2′, 4, 4′-tetrabromodiphenyl ether (PBDE-47) is known as a developmental neurotoxicant, yet the underlying mechanisms remain unclear. This study aims to explore its neurotoxic mechanisms by integrating network toxicology with transcriptomics based on human neural precursor cells (hNPCs) and neuron-like PC12 cells. Network toxicology revealed that PBDE-47 crosses the blood-brain barrier more effectively than heavier PBDE congeners, and is associated with disruptions in 159 biological pathways, including cytosolic DNA-sensing pathway, ferroptosis, cellular senescence, and chemokine signaling pathway. Additionally, transcriptomic analyses of hNPCs and PC12 cells exposed to PBDE-47 uncovered substantial gene expression changes, with 855 and 702 genes up- and down-regulated in hNPCs, and 2844 and 2711 genes in PC12 cells, respectively. These differentially expressed genes were primarily implicated in crucial processes like neuroactive ligand-receptor interaction, nucleocytoplasmic transport, ferroptosis, p53 signaling, and cell cycle regulation. Integration of the results identified novel mechanisms of PBDE-47 neurotoxicity, such as neuroinflammation and cellular senescence, alongside established mechanisms like ferroptosis, apoptosis and cell cycle arrest. Overall, these findings provide critical insights into the mechanisms of PBDE-47 neurotoxicity, highlighting the integration of network toxicology and transcriptomics as a novel study approach to explore the modes of action of toxicants."
+    "abstract": null
   },
   {
     "paperId": "50b24597374c2dc3d04f27ac7c099ca002872d74",
@@ -8130,7 +8237,7 @@
       },
       {
         "authorId": "80085127",
-        "name": "Jing-O Cheng"
+        "name": "Jing-O. Cheng"
       },
       {
         "authorId": "2968246",
@@ -10521,7 +10628,7 @@
         "name": "Kusheng Wu"
       }
     ],
-    "abstract": "Polybrominated diphenyl ethers (PBDEs) are persistent organic pollutants in various environmental matrices and organisms and pose a threat to neural systems of organisms. However, though quite a few studies have explored the effect of PBDEs on neural behaviors such as learning and memory abilities in animals, their mechanisms are less known. We used the zebrafish model to evaluate neurotoxicity of PBDEs and observe changes in behavior and related gene expression. In behavioral testing, 50 zebrafish were divided into five groups treated with different concentrations of BDE-47. T-maze exploration was used for learning and memory testing, which was recorded by camera every 7days. After 21days, all fish were killed, and the gene expression of c-fos, bcl-2, lingo1b and grin1b in brain tissue was analyzed by RT-qPCR. The behavioral changes (latency to leave the start zone, reach the reward zone, and stay in the reward zone; accuracy in choosing the right maze arm, accumulation of freezing bouts, etc.) were related to BDE-47 concentration and had a time–effect relation with increasing exposure days, especially with 500μg/L BDE-47. BDE-47 elevated brain bcl-2, grin1b and lingo1b expression. The expression of c-fos showed an increase with 50 and 100μg/L BDE-47 exposure. The PBDE BDE-47 had a negative impact on the neurobehaviors of zebrafish and affected the expression of c-fos, bcl-2, lingo1b and grin1b in zebrafish brain tissue."
+    "abstract": null
   },
   {
     "paperId": "71b17f3dc4526f62f4e05b849a20e50efbc07430",
@@ -14606,8 +14713,10 @@
   {
     "paperId": "9ba8d219123e9c510639f831184a9793fda14c16",
     "externalIds": {
+      "PubMedCentral": "12564836",
       "DOI": "10.3390/brainsci15101091",
-      "CorpusId": 281978389
+      "CorpusId": 281978389,
+      "PubMed": "41154186"
     },
     "url": "https://www.semanticscholar.org/paper/9ba8d219123e9c510639f831184a9793fda14c16",
     "title": "Multi-Omics Integration Reveals PBDE-47 as an Environmental Risk Factor for Intracranial Aneurysm via F2R-Mediated Metabolic and Epigenetic Pathways",
@@ -14616,8 +14725,8 @@
     "openAccessPdf": {
       "url": "",
       "status": null,
-      "license": null,
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/brainsci15101091?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/brainsci15101091, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12564836, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "JournalArticle"
@@ -15495,7 +15604,7 @@
       },
       {
         "authorId": "2268545440",
-        "name": "Theo K. Bammler"
+        "name": "T. Bammler"
       },
       {
         "authorId": "2269169066",
@@ -15661,8 +15770,8 @@
         "name": "O. Arowolo"
       },
       {
-        "authorId": "122482954",
-        "name": "Victoria Salemme"
+        "authorId": "2258462845",
+        "name": "Victoria R Salemme"
       },
       {
         "authorId": "145029493",
@@ -16274,7 +16383,7 @@
         "name": "V.-H. Dang and E.-B. Jeung"
       }
     ],
-    "abstract": "Polybrominated diphenyl ethers (PBDEs) are well known as one class of halogenated organic brominated flame retardants. They were found in the air, soil, sediments, humans, wildlife, and fish. To date, a total of 209 PBDE congeners have been reported. Among them, 2,2′,4,4′-tetrabromodiphenyl ether (BDE-47) is the dominant congener found in humans and animals. A number of studies suggest that BDE-47 possesses the potential to disrupt endocrine and reproductive function(s) via diverse mechanisms. In addition, BDE-47 has been demonstrated to act as a developmental neurotoxicant. Recently, the toxicokinetic properties of BDE-47 have been investigated in order to elucidate the health risk of BDE-47. Thus, in the present study, we employed immature rats as a developmental model to examine the potential involvement of BDE-47 in the expression of uterine calbindin-d9 k (CaBP-9 k), a novel biomarker for screening endocrine disruptors. Immature rats (n = 3) at post-natal Day 16 were treated with different doses (50, 100, and 200 mg kg-1 of BW) of BDE-47 consecutively for 3 days and euthanized at 24 h after the last injection. After treatment with this chemical, the effects on uterine weight gain and CaBP-9 k mRNA were examined by uterotrophic and RT-PCR assays, respectively. Treatment with a high dose (200 mg kg-1 of BW/day) of this chemical resulted in a significant increase in the uterine weight in immature rats, whereas a modest increase was observed with lower doses (50 and 100 mg kg-1 of BW/day). In addition, treatment with BDE-47 at all doses increased the expression level of CaBP-9 k mRNA compared to control. Taken together, these results demonstrate that BDE-47 exposure resulted in an increase of uterotrophic response and CaBP-9 k mRNA in the uterus of immature rats. A further analysis in a time response of this chemical is required to bring new insight into the adverse effect(s) of BDE-47 during the critical window stage of the developing reproductive system."
+    "abstract": "Polybrominated diphenyl ethers (PBDEs) are well known as one class of halogenated organic brominated flame retardants. They were found in the air, soil, sediments, humans, wildlife, and fish. To date, a total of 209 PBDE congeners have been reported. Among them, 2,2',4,4'-tetrabromodiphenyl ether (BDE-47) is the dominant congener found in humans and animals. A number of studies suggest that BDE-47 possesses the potential to disrupt endocrine and reproductive function(s) via diverse mechanisms. In addition, BDE-47 has been demonstrated to act as a developmental neurotoxicant. Recently, the toxicokinetic properties of BDE-47 have been investigated in order to elucidate the health risk of BDE-47. Thus, in the present study, we employed immature rats as a developmental model to examine the potential involvement of BDE-47 in the expression of uterine calbindin-d9 k (CaBP-9 k), a novel biomarker for screening endocrine disruptors. Immature rats ( n = 3) at post-natal Day 16 were treated with different doses (50, 100, and 200 mg kg-1 of BW) of BDE-47 consecutively for 3 days and euthanized at 24 h after the last injection. After treatment with this chemical, the effects on uterine weight gain and CaBP-9 k mRNA were examined by uterotrophic and RT-PCR assays, respectively. Treatment with a high dose (200 mg kg-1 of BW/day) of this chemical resulted in a significant increase in the uterine weight in immature rats, whereas a modest increase was observed with lower doses (50 and 100 mg kg-1 of BW/day). In addition, treatment with BDE-47 at all doses increased the expression level of CaBP-9 k mRNA compared to control. Taken together, these results demonstrate that BDE-47 exposure resulted in an increase of uterotrophic response and CaBP-9 k mRNA in the uterus of immature rats. A further analysis in a time response of this chemical is required to bring new insight into the adverse effect(s) of BDE-47 during the critical window stage of the developing reproductive system."
   },
   {
     "paperId": "ae6f9d339def8b9152750c2fd5065ec2d5247aee",
@@ -18067,7 +18176,7 @@
         "name": "Yupei Dai"
       }
     ],
-    "abstract": "Background The commonly used brominated flame retardant (2,2’,4,4’-Tetrabromodiphenyl Ether, BDE-47) is a persistent organic pollutant that is widely distributed in the environment and is associated with adverse health effects, including an increased risk of osteoarthritis. However, the specific molecular mechanisms by which BDE-47 contributes to the development of osteoarthritis (OA) remain largely unclear. This study aimed to investigate the potential relationship between BDE-47 exposure and osteoarthritis pathogenesis. Methods To achieve this, we employed an integrative approach combining network toxicology, machine learning, SHAP analysis, molecular docking, and molecular dynamics simulations. Results Initially, potential target genes associated with BDE-47 and OA were retrieved from multiple public databases, including PharmMapper, ChEMBL, and GEO. Subsequently, a comprehensive machine learning workflow involving 113 different algorithms was used to identify 10 core target genes as potential mediators of BDE-47-induced osteoarthritis. Finally, SHAP analysis identified FKBP5 as the most critical toxic target. Molecular docking and molecular dynamics (MD) simulations were then performed to evaluate the binding interactions and stability between BDE-47 and FKBP5. Conclusion The research results suggest that BDE-47 may be involved in the pathogenesis of osteoarthritis by targeting and regulating specific toxic targets, with FKBP5 being particularly prominent as the most crucial potential therapeutic target. These insights provide a theoretical foundation for developing preventive and therapeutic strategies against BDE-47-induced OA and underscore the importance of raising public awareness regarding the health risks of environmental pollution. Supplementary Information The online version contains supplementary material available at 10.1186/s40360-025-00990-4."
+    "abstract": "The commonly used brominated flame retardant (2,2’,4,4’-Tetrabromodiphenyl Ether, BDE-47) is a persistent organic pollutant that is widely distributed in the environment and is associated with adverse health effects, including an increased risk of osteoarthritis. However, the specific molecular mechanisms by which BDE-47 contributes to the development of osteoarthritis (OA) remain largely unclear. This study aimed to investigate the potential relationship between BDE-47 exposure and osteoarthritis pathogenesis. To achieve this, we employed an integrative approach combining network toxicology, machine learning, SHAP analysis, molecular docking, and molecular dynamics simulations. Initially, potential target genes associated with BDE-47 and OA were retrieved from multiple public databases, including PharmMapper, ChEMBL, and GEO. Subsequently, a comprehensive machine learning workflow involving 113 different algorithms was used to identify 10 core target genes as potential mediators of BDE-47-induced osteoarthritis. Finally, SHAP analysis identified FKBP5 as the most critical toxic target. Molecular docking and molecular dynamics (MD) simulations were then performed to evaluate the binding interactions and stability between BDE-47 and FKBP5. The research results suggest that BDE-47 may be involved in the pathogenesis of osteoarthritis by targeting and regulating specific toxic targets, with FKBP5 being particularly prominent as the most crucial potential therapeutic target. These insights provide a theoretical foundation for developing preventive and therapeutic strategies against BDE-47-induced OA and underscore the importance of raising public awareness regarding the health risks of environmental pollution."
   },
   {
     "paperId": "c726f7fadf987d5a88961b2339e49a7eff72a8d4",
@@ -19282,7 +19391,7 @@
         "name": "P. Colombo"
       }
     ],
-    "abstract": null
+    "abstract": "Polybrominated diphenyl ethers (PBDEs) are persistent organic pollutants that are added to numerous products to prevent accidental fires. PBDEs are present in the environment and they bio-accumulate in human and animal tissues. Recently, their presence has been correlated to several pathologies but little is known about their effect on the human innate immune system activity. In this study we investigated the effect of the congener 2,2′,4,4′-Tetrabromodiphenyl ether (PBDE-47) on the functional activity of the THP-1 human macrophages cell line and on ex vivo freshly isolated human basophils. Cytotoxicity and genotoxicity studies showed that PBDE-47 was able to induce toxic effects on the THP-1 cell line viability at concentrations ≥25 μM. Immune function of THP-1 was studied after stimulation with bacterial lipopolysaccharide (LPS) and PBDE-47 exposure at concentrations granting macrophage viability. Two dimensional electrophoresis showed modification of the proteome in the 3 μM PBDE-47 treated sample and Real Time PCR and ELISA demonstrated a statistically significant reduction in the expression of IL-1β, IL-6 and TNF-α cytokines. Furthermore, PBDE-47 was able to perturbate genes involved in cell motility upregulating CDH-1 and downregulating MMP-12 expressions. Finally, basophil activation assay showed reduced CD63 activation in PBDE-47 treated samples. In conclusion, our study demonstrated that PBDE-47 may perturb the activities of cells involved in innate immunity dampening the expression of macrophage pro-inflammatory cytokines (IL-1β, IL-6 and TNF-α) and genes involved in cell motility (MMP-12 and E-cadherin) and interfering with basophil activation suggesting that this compound can impair innate immune response."
   },
   {
     "paperId": "d4a4eef8bc84863a46bcdf5c500203acca0055db",
@@ -20893,7 +21002,7 @@
       "PubMed": "38492135"
     },
     "url": "https://www.semanticscholar.org/paper/e414ffb29975f9f803e2372ea0de457b97f3aace",
-    "title": "BDE-47-induced damage prevented by melatonin in grass carp hepatocytes (L8824).",
+    "title": "BDE-47-induced damage prevented by melatonin in grass carp hepatocytes (L8824)",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -21043,7 +21152,7 @@
       },
       {
         "authorId": "6964395",
-        "name": "C. Guo"
+        "name": "Chuling Guo"
       },
       {
         "authorId": "1905258",

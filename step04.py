@@ -1,403 +1,1245 @@
-import argparse
-import json
-from pathlib import Path
-from typing import Any, Dict, List
-from openai import OpenAI
-from typing import Optional
+"""
+Step 04: Dosage Extraction & Inference
 
-# Configuration file path
-CONFIG_FILE = "api_config.json"
+從已找到替代物的同一篇論文全文中提取劑量資訊。
+若無明確數字，則根據論文內容用 LLM 進行推論。
 
-def load_config():
-    """Load API keys and settings from config file."""
-    try:
-        with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
-            config = json.load(f)
-        return config
-    except FileNotFoundError:
-        print(f"[ERROR] Configuration file '{CONFIG_FILE}' not found!")
-        print("Please create the config file with your API keys.")
-        exit(1)
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse config file: {e}")
-        exit(1)
-
-# Load configuration
-CONFIG = load_config()
-
-# Default Configuration from config file
-OPENAI_API_KEY = CONFIG.get("openai_api_key", "")
-MODEL = CONFIG.get("default_settings", {}).get("openai_model", "gpt-4.1-mini")
-JOIN_SEP = "; "
-
-if not OPENAI_API_KEY:
-    print("[ERROR] OpenAI API key not found in config file!")
-    exit(1)
-
-PROMPT_TEMPLATE = """You are a careful information extractor. Read the fields and extract chemical/material names in the REASONING that are explicitly presented as safer alternatives to the TARGET.
-
-Rules:
-- Only return names explicitly framed as safer/greener/less toxic/etc. than TARGET in the REASONING. If it's only implied or not safer, return an empty list.
-- Prefer concrete chemical or chemical-class names (e.g., "alcohol ethoxylates"), not vague terms ("surfactants").
-- Normalize to common English names; include common abbreviations in parentheses if helpful.
-- If multiple valid alternatives appear, return all of them (deduplicated, order by appearance).
-- Do not invent information not found in REASONING. Ignore anything not in REASONING.
-
-Return JSON with this schema:
-{{
-  "alternatives": ["alternative1", "alternative2", ...]
-}}
-
-Record:
-TITLE: {title}
-DOI: {doi}
-TARGET: {target}
-REASONING:
-{reasoning}
+流程：
+1. 讀取 step03 結果（已包含替代物資訊）
+2. 對每篇有替代物的論文：
+   a. 檢查是否有下載的 PDF/XML 全文
+   b. 若有全文，用 LLM 從全文中提取劑量資訊
+   c. 若無明確劑量，用 LLM 根據全文/摘要進行推論
+3. 輸出包含劑量資訊的結果
 """
 
-def ensure_list(obj):
-    """Ensure object is converted to a list of strings."""
-    if obj is None:
-        return []
-    if isinstance(obj, list):
-        return [str(x).strip() for x in obj if str(x).strip()]
-    if isinstance(obj, str):
-        s = obj.replace("ï¼›", ";")
-        parts = [p.strip() for p in s.split(";")]
-        if len(parts) == 1:
-            parts = [p.strip() for p in s.split(",")]
-        return [p for p in parts if p]
-    return []
+import argparse
+import json
+import re
+from pathlib import Path
+from typing import Any, Optional
 
-# Override with a robust implementation to handle full-width commas
-def ensure_list(obj):
-    """Ensure object is converted to a list of strings (robust)."""
-    if obj is None:
-        return []
-    if isinstance(obj, list):
-        return [str(x).strip() for x in obj if str(x).strip()]
-    if isinstance(obj, str):
-        s = obj.replace('，', ';')
-        parts = [p.strip() for p in s.split(';')]
-        if len(parts) == 1:
-            parts = [p.strip() for p in s.split(',')]
-        return [p for p in parts if p]
-    return []
-def ensure_list_safe(obj):
-    """Robust conversion of obj to list[str]; accepts list/str/None."""
-    if obj is None:
-        return []
-    if isinstance(obj, list):
-        return [str(x).strip() for x in obj if str(x).strip()]
-    if isinstance(obj, str):
-        s = obj.replace('，', ';')
-        parts = [p.strip() for p in s.split(';')]
-        if len(parts) == 1:
-            parts = [p.strip() for p in s.split(',')]
-        return [p for p in parts if p]
-    return []
+# Use Windows system CA certificates instead of certifi (fixes SSL issues on some networks)
+try:
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass  # truststore not installed, use default certifi
 
-# --- Token usage tracking helpers ---
-_USAGE = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
+from openai import OpenAI
+from tqdm import tqdm
 
-def _add_usage(response: Optional[object]):
-    """Accumulate token usage from a chat completion response, if present."""
+# Gemini support
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+except ImportError:
+    genai = None
+    GEMINI_AVAILABLE = False
+
+from config_loader import get_config
+
+# Load configuration
+CONFIG = get_config()
+OPENAI_API_KEY = CONFIG.get("openai_api_key", "")
+GEMINI_API_KEY = CONFIG.get("gemini_api_key", "")
+LLM_PROVIDER = CONFIG.get("default_settings", {}).get("llm_provider", "openai")
+MODEL = CONFIG.get("default_settings", {}).get("openai_model", "gpt-4o-mini")
+GEMINI_MODEL = CONFIG.get("default_settings", {}).get("gemini_model", "gemini-2.0-flash")
+MAX_RETRIES = CONFIG.get("default_settings", {}).get("max_retries", 3)
+
+# Validate API keys based on provider
+if LLM_PROVIDER == "gemini":
+    if not GEMINI_API_KEY:
+        print("[ERROR] Gemini API key not found! Set GEMINI_API_KEY in .env")
+        exit(1)
+    if not GEMINI_AVAILABLE:
+        print("[ERROR] google-generativeai not installed. Run: pip install google-generativeai")
+        exit(1)
+else:
+    if not OPENAI_API_KEY:
+        print("[ERROR] OpenAI API key not found in config!")
+        exit(1)
+
+
+# ============================================================
+# LLM Client Wrapper (supports OpenAI and Gemini)
+# ============================================================
+
+class LLMClient:
+    """Unified LLM client supporting OpenAI and Gemini."""
+    
+    def __init__(self, provider: str = None):
+        self.provider = (provider or LLM_PROVIDER).lower()
+        
+        if self.provider == "gemini":
+            genai.configure(api_key=GEMINI_API_KEY)
+            self._gemini_model = genai.GenerativeModel(GEMINI_MODEL)
+            self._gemini_model_fast = genai.GenerativeModel(
+                "gemini-2.0-flash",  # Fast model for scoring
+                generation_config={"response_mime_type": "application/json"}
+            )
+            self._openai_client = None
+            print(f"[INFO] Using Gemini provider with model: {GEMINI_MODEL}")
+        else:
+            self._openai_client = OpenAI(api_key=OPENAI_API_KEY, timeout=60.0)
+            self._gemini_model = None
+            self._gemini_model_fast = None
+            print(f"[INFO] Using OpenAI provider with model: {MODEL}")
+    
+    def chat_completion(
+        self,
+        messages: list[dict],
+        temperature: float = 0.0,
+        max_tokens: int = 1000,
+        json_mode: bool = True,
+        model: str = None
+    ) -> str:
+        """
+        Send a chat completion request.
+        Returns the response text content.
+        """
+        if self.provider == "gemini":
+            return self._gemini_completion(messages, temperature, max_tokens, json_mode, model)
+        else:
+            return self._openai_completion(messages, temperature, max_tokens, json_mode, model)
+    
+    def _openai_completion(
+        self,
+        messages: list[dict],
+        temperature: float,
+        max_tokens: int,
+        json_mode: bool,
+        model: str
+    ) -> str:
+        model = model or MODEL
+        kwargs = {
+            "model": model,
+            "messages": messages,
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+        if json_mode:
+            kwargs["response_format"] = {"type": "json_object"}
+        
+        response = self._openai_client.chat.completions.create(**kwargs)
+        return response.choices[0].message.content or ""
+    
+    def _gemini_completion(
+        self,
+        messages: list[dict],
+        temperature: float,
+        max_tokens: int,
+        json_mode: bool,
+        model: str
+    ) -> str:
+        # Convert OpenAI-style messages to Gemini format
+        prompt_parts = []
+        for msg in messages:
+            role = msg.get("role", "user")
+            content = msg.get("content", "")
+            if role == "system":
+                prompt_parts.insert(0, f"[System]: {content}\n\n")
+            else:
+                prompt_parts.append(content)
+        
+        full_prompt = "".join(prompt_parts)
+        
+        # Use appropriate model
+        if model == "gpt-4o-mini" or "fast" in (model or "").lower():
+            gemini_model = self._gemini_model_fast
+        else:
+            gemini_model = self._gemini_model
+        
+        generation_config = {
+            "temperature": temperature,
+            "max_output_tokens": max_tokens,
+        }
+        if json_mode:
+            generation_config["response_mime_type"] = "application/json"
+        
+        response = gemini_model.generate_content(
+            full_prompt,
+            generation_config=generation_config
+        )
+        
+        raw = response.text or ""
+        # Handle potential markdown code blocks
+        if raw.startswith("```"):
+            lines = raw.split("\n")
+            raw = "\n".join(lines[1:-1]) if lines[-1].strip() == "```" else "\n".join(lines[1:])
+        return raw
+
+
+# ============================================================
+# Fulltext Reading Utilities
+# ============================================================
+
+def is_valid_pdf(file_path: Path) -> bool:
+    """Check if a file is a valid PDF by verifying magic bytes."""
     try:
-        if not response:
-            return
-        usage = getattr(response, "usage", None)
-        if not usage:
-            return
-        _USAGE["prompt_tokens"] += getattr(usage, "prompt_tokens", 0) or 0
-        _USAGE["completion_tokens"] += getattr(usage, "completion_tokens", 0) or 0
-        _USAGE["total_tokens"] += getattr(usage, "total_tokens", 0) or 0
+        with open(file_path, "rb") as f:
+            header = f.read(8)
+            return header.startswith(b"%PDF")
+    except Exception:
+        return False
+
+
+def read_pdf_text(pdf_path: Path) -> str:
+    """Extract text from PDF using PyMuPDF (pymupdf) or pdfplumber."""
+    text = ""
+    
+    # Validate PDF magic bytes first
+    if not is_valid_pdf(pdf_path):
+        print(f"    [WARN] Invalid PDF (not a real PDF file): {pdf_path.name}")
+        return ""
+    
+    # Try PyMuPDF first (faster)
+    try:
+        import pymupdf  # PyMuPDF
+        doc = pymupdf.open(pdf_path)
+        for page in doc:
+            text += page.get_text()
+        doc.close()
+        if text.strip():
+            return text
+    except ImportError:
+        pass
+    except Exception as e:
+        print(f"    [WARN] PyMuPDF failed for {pdf_path.name}: {e}")
+    
+    # Fallback to pdfplumber
+    try:
+        import pdfplumber
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                page_text = page.extract_text()
+                if page_text:
+                    text += page_text + "\n"
+        if text.strip():
+            return text
+    except ImportError:
+        pass
+    except Exception as e:
+        print(f"    [WARN] pdfplumber failed for {pdf_path.name}: {e}")
+    
+    return text
+
+
+def read_xml_text(xml_path: Path) -> str:
+    """Extract text content from XML (Elsevier/JATS format)."""
+    try:
+        import xml.etree.ElementTree as ET
+        tree = ET.parse(xml_path)
+        root = tree.getroot()
+        
+        # Extract all text content
+        texts: list[str] = []
+        for elem in root.iter():
+            if elem.text:
+                texts.append(elem.text.strip())
+            if elem.tail:
+                texts.append(elem.tail.strip())
+        
+        return " ".join(t for t in texts if t)
+    except Exception as e:
+        print(f"    [WARN] XML parsing failed for {xml_path.name}: {e}")
+        return ""
+
+
+def find_fulltext_file(doi: str, research_pdf_dir: Path) -> Optional[Path]:
+    """Find the fulltext file (PDF or XML) for a given DOI."""
+    if not doi or not research_pdf_dir.exists():
+        return None
+    
+    # Normalize DOI for filename matching
+    doi_normalized = doi.replace("/", "_").replace(".", "_").lower()
+    doi_simple = doi.replace("/", "_").lower()
+    
+    for file in research_pdf_dir.iterdir():
+        if file.is_file():
+            filename_lower = file.name.lower()
+            # Check if DOI is in the filename (exact match)
+            if doi_simple in filename_lower or doi_normalized in filename_lower.replace(".", "_"):
+                return file
+    
+    # Try more flexible matching - but require UNIQUE identifier part to match
+    # DOI format: 10.XXXX/suffix - we need the suffix to match
+    doi_suffix = doi.split("/")[-1].lower() if "/" in doi else doi.lower()
+    
+    for file in research_pdf_dir.iterdir():
+        if file.is_file():
+            filename_lower = file.name.lower()
+            # The unique suffix part must be in the filename
+            if doi_suffix in filename_lower:
+                return file
+    
+    return None
+
+
+def get_fulltext(doi: str, research_pdf_dir: Path) -> tuple[str, str]:
+    """
+    Get fulltext content for a paper.
+    Returns (text, source) where source is 'pdf', 'xml', or 'none'.
+    """
+    fulltext_file = find_fulltext_file(doi, research_pdf_dir)
+    
+    if not fulltext_file:
+        return "", "none"
+    
+    if fulltext_file.suffix.lower() == ".pdf":
+        text = read_pdf_text(fulltext_file)
+        return text, "pdf" if text else "none"
+    elif fulltext_file.suffix.lower() == ".xml":
+        text = read_xml_text(fulltext_file)
+        return text, "xml" if text else "none"
+    
+    return "", "none"
+
+
+# ============================================================
+# LLM Prompts
+# ============================================================
+
+DOSAGE_EXTRACTION_PROMPT = """# Role & Objective
+You are an expert Data Extraction AI specialized in Materials Science, Catalysis, and Environmental Engineering.
+Your task is to precisely extract material substitution logic, explicit dosages, and performance metrics from scientific text into a structured JSON format.
+
+# ⚠️ MANDATORY PRE-FILTER: Relevance Check (Execute FIRST)
+
+Before ANY extraction, you MUST determine the ROLE of the target compound "{target}" in this paper:
+
+| Role | Description | Action |
+|------|-------------|--------|
+| **Process Improvement** | The target is STILL the raw material, but with improved catalyst/process (e.g., better catalyst for ethylbenzene → styrene) | ❌ STOP - Return `"status": "irrelevant"` |
+| **Pollutant/VOC/Emission** | The target is an unwanted byproduct or environmental contaminant being measured or reduced | ❌ STOP - Return `"status": "irrelevant"` |
+| **Solvent/Additive/Formulation** | The target is used AS a functional ingredient (solvent, coating, plasticizer) and the paper proposes a REPLACEMENT | ✅ PROCEED with extraction |
+| **Feedstock Substitution** | A DIFFERENT raw material replaces the target to produce the SAME end product (e.g., bio-ethanol replaces ethylbenzene for styrene production) | ✅ PROCEED with extraction |
+
+**Decision Logic:**
+1. If the paper improves how to CONVERT {target} (but {target} is STILL needed) → Irrelevant (process improvement)
+2. If the paper measures {target} as a pollution/emission source → Irrelevant (it's a pollutant)
+3. If the paper proposes a safer/greener chemical to REPLACE {target} in an application → Relevant (proceed)
+4. If the paper proposes a DIFFERENT feedstock to produce the same product that {target} makes → Relevant (feedstock substitution)
+
+**If Irrelevant, return IMMEDIATELY:**
+```json
+{{
+  "status": "irrelevant",
+  "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+  "detected_role": "reactant | pollutant | measurement_subject",
+  "substitution_logic": null,
+  "dosage_found": false,
+  "explicit_dosages": null,
+  "synthesis_conditions": null,
+  "material_properties": null,
+  "performance_metrics": null,
+  "confidence": "high"
+}}
+```
+
+**Only if Relevant, continue to extraction below.**
+
+---
+
+# Strict Extraction Constraints
+
+## 1. Contextual Substitution Logic (`substitution_logic`)
+
+**Domain Identification Rule:**
+- FIRST, identify the paper's domain by reading the abstract and title.
+- THEN, adapt the `target_problem` accordingly:
+
+| Domain | target_problem Examples | Notes |
+|--------|------------------------|-------|
+| **Catalysis / Chemical Synthesis** | "high energy consumption", "thermodynamic limitations", "catalyst deactivation by coke", "low selectivity", "harsh reaction conditions" | Chemicals like ethylbenzene are REACTANTS, NOT pollutants |
+| **Environmental Remediation** | "pollutant emissions", "VOC reduction", "wastewater treatment", "air quality improvement" | The target chemical IS the pollutant |
+| **Materials Engineering** | "poor mechanical properties", "limited durability", "high production cost", "thermal instability" | Focus on material performance gaps |
+
+**CRITICAL:** NEVER blindly default to "emission/pollution reduction" for all papers. Read the context!
+
+## 2. Zero-Inference Dosage Extraction (`explicit_dosages`)
+
+**Extraction Rules:**
+- Extract ONLY explicitly stated material compositions, doping levels, or synthesis ratios
+- Typical sources: Abstract, "Materials and Methods", "Experimental Section", Tables
+- Each dosage MUST include complete physical units
+
+**ENUM STRICT RESTRICTION for `ratio_type`:**
+Choose ONLY from this allowed list:
+- `"wt%"` - weight percentage
+- `"at%"` - atomic percentage  
+- `"vol%"` - volume percentage
+- `"mass_ratio"` - mass ratio (e.g., 1:1, 3:6:1)
+- `"molar_ratio"` - molar ratio
+- `"catalyst_loading"` - catalyst amount (mg, g, wt% on support)
+- `"concentration"` - solution concentration (mM, M, mg/L, mol/L)
+
+**FORBIDDEN ratio_types:** Do NOT use legacy terms like "binder_over_sand", "hardener_over_binder", "reaction_concentration" unless the paper explicitly uses these exact terms.
+
+**ZERO INFERENCE POLICY:**
+- NEVER calculate, multiply, or guess mass/volume based on assumptions
+- If no exact number is found in the text, set `dosage_found` to false
+- Do NOT derive values from percentages × totals (e.g., no "110 kg × 2% = 2.2 kg")
+
+## 3. Dynamic Performance Metrics (`performance_metrics`)
+
+**Mutually Exclusive Rule:**
+NEVER put the following into `explicit_dosages`:
+- Rates with time units (mmol/g/h, h⁻¹, mol·L⁻¹·s⁻¹)
+- Yield percentages
+- Conversion rates
+- Selectivity values
+- TOF (turnover frequency)
+- kcat values
+- Removal/reduction percentages
+
+These MUST go into `performance_metrics` array.
+
+**Dynamic Naming:**
+- Define `metric_name` based on what the paper evaluates
+- Examples: "styrene_selectivity", "ethylbenzene_conversion", "BTEX_reduction", "specific_activity", "TOF"
+
+**Comparison Baseline:**
+- If the paper provides a reference point (e.g., "compared to pristine catalyst 12.1%"), capture it
+- If no baseline exists, set `comparison_baseline` to null
+
+## 4. Synthesis Conditions (`synthesis_conditions`)
+
+**Purpose:** Capture process parameters used during material preparation
+**Allowed Data Types:**
+- Temperature (°C, K)
+- Pressure (atm, bar, Pa)
+- Time/Duration (h, min, s)
+- Atmosphere (N2, Ar, air, vacuum)
+- pH values
+- Calcination/Annealing conditions
+- CVD/ALD cycle counts
+
+**CRITICAL:** These are NOT dosages - they describe HOW the material was made, not its composition.
+
+## 5. Material Properties (`material_properties`)
+
+**Purpose:** Capture physical/structural characteristics of the synthesized material
+**Allowed Data Types:**
+- Layer count (e.g., "2-5 layers")
+- Particle size (nm, μm)
+- Surface area (m²/g, BET)
+- Pore size/volume
+- Crystallinity
+- Morphology descriptors
+- Thickness
+
+**CRITICAL:** These describe WHAT the material IS, not its formulation ratio.
+
+---
+
+TARGET POLLUTANT/REACTANT: {target}
+ALTERNATIVE SOLUTION: {alternative}
+PAPER TITLE: {title}
+DOI: {doi}
+
+TEXT CONTENT:
+{text}
+
+---
+
+Return JSON with this exact schema:
+{{
+  "substitution_logic": {{
+    "target_problem": "the SPECIFIC technical pain point from THIS paper (domain-aware, NOT generic)",
+    "traditional_material_replaced": "the conventional material/process being replaced",
+    "alternative_solution": "the safer/better replacement material/process",
+    "relationship_type": "catalyst_substitution | material_substitution | process_substitution | solvent_substitution | fuel_substitution"
+  }},
+  "dosage_found": true/false,
+  "explicit_dosages": [
+    {{
+      "material": "specific material name as stated in paper",
+      "value": "exact value with unit (e.g., '0.2 at%', '30 mg', '2.5 wt%')",
+      "ratio_type": "wt% | at% | vol% | mass_ratio | molar_ratio | catalyst_loading | concentration",
+      "evidence_location": "Table X | Section Y.Z | Figure caption | exact quote",
+      "context": "brief experimental context"
+    }}
+  ],
+  "synthesis_conditions": [
+    {{
+      "parameter": "condition name (e.g., calcination_temperature, CVD_cycles, reaction_time, atmosphere)",
+      "value": "exact value with unit (e.g., '800 °C', '12 cycles', '2 h', 'N2')",
+      "evidence_location": "Section X | Table Y",
+      "context": "brief description of the synthesis step"
+    }}
+  ],
+  "material_properties": [
+    {{
+      "property": "property name (e.g., layer_count, particle_size, surface_area, pore_volume)",
+      "value": "exact value with unit (e.g., '2-5 layers', '50 nm', '120 m²/g')",
+      "evidence_location": "Section X | Figure Y | Table Z",
+      "context": "measurement method or characterization technique if mentioned"
+    }}
+  ],
+  "performance_metrics": [
+    {{
+      "metric_name": "dynamically determined (e.g., conversion_rate, selectivity, TOF, BTEX_reduction)",
+      "metric_value": "exact value with unit as stated (e.g., '32.6%', '25.3 mmol·g⁻¹·h⁻¹', '>90%')",
+      "comparison_baseline": "reference point if mentioned, or null"
+    }}
+  ],
+  "confidence": "high | medium | low"
+}}
+
+**REMINDER:** Even if dosage_found is false, you MUST still extract all performance metrics from the abstract/conclusions.
+"""
+
+DOSAGE_INFERENCE_PROMPT = """You are a chemistry expert. The paper did NOT provide explicit dosage data. Your task is to determine if DETERMINISTIC CALCULATION is possible based on partial data in the text.
+
+=== INFERENCE GUIDELINES (推算守則) ===
+
+**1. ENTITY DECOUPLING PRINCIPLE (實體解耦原則)**
+- NEVER equate the concentration/mass of the TARGET POLLUTANT (e.g., VOCs, ethylbenzene) with the dosage of the ALTERNATIVE SOLUTION (e.g., geopolymer, sodium silicate).
+- The alternative material dosage can ONLY be calculated based on:
+  * CARRIER weight (載體重量): e.g., sand mold weight, substrate mass
+  * SOLVENT volume (溶劑體積): e.g., reaction medium volume
+  * SUPPORT surface area (載體表面積): e.g., catalyst support area
+- The pollutant emission level is an OUTPUT METRIC, not an input for dosage calculation.
+
+**2. PARAMETER HARVESTING & PROVENANCE (參數收割與溯源)**
+Before any calculation, you MUST extract these BASE VARIABLES from the text:
+- Total carrier/substrate weight or volume (with evidence location)
+- Percentage ratio stated in the paper (with evidence location)
+- Any explicit mass or volume values (with evidence location)
+
+Each extracted variable MUST include:
+- Exact value with unit
+- Source location: "Table X", "Section Y.Z", "line quote: '...'"
+
+**3. DETERMINISTIC CALCULATION TRACE (確定性運算軌跡)**
+- FORBIDDEN: Using unstated "industry rules of thumb" (e.g., "typically 10-25%")
+- REQUIRED: All calculations must be shown as mathematical formulas
+  Example: "110 kg (sand) × 1.6% (binder ratio from Table 3) = 1.76 kg"
+- If a CRITICAL VARIABLE is missing (e.g., percentage given but no total weight), 
+  you MUST abandon the calculation and set calculated_dosage to null.
+
+=== STRICT CONSTRAINTS ===
+1. DO NOT fabricate dosage values based on molecular weight ratios.
+2. DO NOT use "typical concentrations" from external knowledge.
+3. Only perform calculations when ALL required variables are explicitly stated.
+
+TARGET POLLUTANT: {target}
+ALTERNATIVE SOLUTION: {alternative}
+PAPER TITLE: {title}
+
+AVAILABLE TEXT:
+{text}
+
+REASONING FROM EARLIER ANALYSIS:
+{reasoning}
+
+=== WHAT TO REPORT ===
+Look for these types of information:
+- Base variables that could enable calculation
+- Qualitative descriptors: "low concentration", "excess", "stoichiometric"
+- Relative comparisons: "similar to", "higher than", "reduced by X%"
+- References to other papers with specific dosage data
+
+Return JSON:
+{{
+  "partial_data_found": true/false,
+  "base_variables_extracted": [
+    {{
+      "variable_name": "e.g., total_sand_weight | binder_percentage | substrate_mass",
+      "value": "exact value with unit",
+      "evidence_location": "Table X | Section Y | exact quote"
+    }}
+  ],
+  "calculation_attempted": true/false,
+  "calculated_dosage": {{
+    "formula": "mathematical expression showing the calculation",
+    "result": "calculated value with unit (or null if calculation cannot be completed)",
+    "variables_used": ["list of variable names used"],
+    "missing_variables": ["list of variables needed but not found in text"]
+  }},
+  "qualitative_indicators": [
+    {{
+      "description": "exact quote or paraphrase from text",
+      "implication": "what this suggests without numerical speculation"
+    }}
+  ],
+  "referenced_studies": [
+    {{
+      "citation": "if paper references another study with dosage data",
+      "relevance": "why this reference might be useful"
+    }}
+  ],
+  "data_gaps": [
+    "specific information that would be needed but is missing"
+  ],
+  "recommendation": "suggest_fulltext_review | suggest_cited_reference | insufficient_data"
+}}
+"""
+
+
+# ============================================================
+# Smart Chunking System
+# ============================================================
+
+CHUNK_RELEVANCE_PROMPT = """You are quickly scanning a text segment from a scientific paper.
+
+Task: Rate if this segment contains dosage/concentration OR performance/reduction data about the alternative substance.
+
+TARGET POLLUTANT: {target}
+ALTERNATIVE SOLUTION: {alternative}
+
+=== TEXT SEGMENT ===
+{chunk}
+
+=== SCORING CRITERIA ===
+Score 0: No relevant information (theoretical discussion, literature review only)
+Score 1: Mentions the alternative but no quantities
+Score 2: Contains experimental methods with potential dosage hints
+Score 3: Contains tables, formulas, specific numerical data, OR reduction/performance percentages
+Score 4: Contains EXPLICIT dosage/concentration values OR emission reduction data (e.g., ">90% BTEX reduction")
+
+Return JSON only:
+{{"score": <0-4>, "reason": "<brief 10-word reason>"}}
+"""
+
+
+def split_text_into_chunks(text: str, chunk_size: int = 2500, overlap: int = 200) -> list[dict]:
+    """
+    Split text into overlapping chunks for relevance scoring.
+    
+    Args:
+        text: Full text to split
+        chunk_size: Target size of each chunk in characters
+        overlap: Overlap between chunks to avoid cutting important content
+    
+    Returns:
+        List of dicts with 'text', 'start', 'end' keys
+    """
+    chunks = []
+    start = 0
+    text_len = len(text)
+    
+    while start < text_len:
+        end = min(start + chunk_size, text_len)
+        
+        # Try to end at a paragraph or sentence boundary
+        if end < text_len:
+            # Look for paragraph break first
+            para_break = text.rfind('\n\n', start + chunk_size // 2, end)
+            if para_break > start:
+                end = para_break + 2
+            else:
+                # Look for sentence end
+                sentence_end = text.rfind('. ', start + chunk_size // 2, end)
+                if sentence_end > start:
+                    end = sentence_end + 2
+        
+        chunks.append({
+            'text': text[start:end],
+            'start': start,
+            'end': end
+        })
+        
+        # Move to next chunk with overlap
+        start = end - overlap if end < text_len else text_len
+    
+    return chunks
+
+
+def score_chunk_relevance(
+    chunk: str,
+    target: str,
+    alternative: str,
+    client: "LLMClient"
+) -> int:
+    """
+    Use LLM to quickly score a chunk's relevance for dosage information.
+    Returns score 0-4.
+    """
+    prompt = CHUNK_RELEVANCE_PROMPT.format(
+        target=target,
+        alternative=alternative,
+        chunk=chunk[:2000]  # Limit chunk size for scoring
+    )
+    
+    try:
+        content = client.chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.0,
+            max_tokens=100,
+            json_mode=True,
+            model="gpt-4o-mini"  # Use fast model for scoring
+        )
+        
+        if content:
+            result = json.loads(content)
+            return int(result.get("score", 0))
     except Exception:
         pass
+    
+    return 1  # Default score if scoring fails
 
-def call_model(client, title, doi, target, reasoning):
-    """Call OpenAI model to extract alternatives."""
-    try:
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {
-                    "role": "system",
-                    "content": "You are a careful information extractor. Extract chemical/material names that are explicitly presented as safer alternatives in the provided text. Return only valid JSON."
-                },
-                {
-                    "role": "user",
-                    "content": PROMPT_TEMPLATE.format(title=title, doi=doi, target=target, reasoning=reasoning)
-                }
-            ],
-            response_format={
-                "type": "json_object"
-            },
-            temperature=0,
-            max_tokens=1000
-        )
-        _add_usage(response)
 
-        # Extract response content
-        response_text = response.choices[0].message.content
-        
-        # Parse JSON response
-        try:
-            data = json.loads(response_text)
-            return ensure_list_safe(data.get("alternatives", []))
-        except json.JSONDecodeError as e:
-            print(f"[WARN] JSON parsing failed for response: {response_text[:200]}... Error: {e}")
-            return []
-            
-    except Exception as e:
-        print(f"[ERROR] API call failed: {e}")
-        return []
-def assess_chemical_harm(client, target: str, alternatives: List[str], reasoning: str) -> List[Dict[str, Any]]:
-    """Extract what harms each alternative may cause, based ONLY on REASONING.
-    Returns a list of objects: { name: str, harms: [str], rationale: str }.
-    If no explicit harms are stated, returns empty harms with brief rationale.
+def smart_chunk_selection(
+    text: str,
+    target: str,
+    alternative: str,
+    client: "LLMClient",
+    max_output_len: int = 20000,
+    min_score: int = 2
+) -> str:
     """
-    if not alternatives:
-        return []
-    try:
-        prompt = (
-            "You are a cautious extractor. Based ONLY on the REASONING text below, "
-            "list any explicit harms or hazards that are stated for each ALTERNATIVE (e.g., toxicity types, endocrine disruption, persistence, bioaccumulation, occupational hazards). "
-            "If the REASONING does not state harms for an alternative, return an empty list for that item and explain briefly. Do NOT invent information.\n\n"
-            f"TARGET: {target}\n"
-            f"ALTERNATIVES: {', '.join(alternatives)}\n"
-            f"REASONING:\n{reasoning}\n\n"
-            "Output only valid JSON with schema: {\n"
-            "  \"harm\": [ { \"name\": string, \"harms\": [string], \"rationale\": string } ]\n"
-            "}"
-        )
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {"role": "system", "content": "Return only valid JSON."},
-                {"role": "user", "content": prompt},
-            ],
-            response_format={"type": "json_object"},
-            temperature=0,
-            max_tokens=900,
-        )
-        _add_usage(response)
-        text = response.choices[0].message.content or "{}"
-        data = json.loads(text)
-        items = data.get("harm", [])
-        results: List[Dict[str, Any]] = []
-        for it in items:
-            name = str(it.get("name", "")).strip()
-            harms_val = it.get("harms", [])
-            if isinstance(harms_val, str):
-                harms = ensure_list_safe(harms_val)
-            else:
-                harms = [str(h).strip() for h in harms_val if str(h).strip()]
-            rationale = str(it.get("rationale", "")).strip()
-            if name:
-                results.append({"name": name, "harms": harms, "rationale": rationale})
-        # Ensure all alternatives present
-        known = {r["name"].lower() for r in results}
-        for alt in alternatives:
-            if alt.lower() not in known:
-                results.append({"name": alt, "harms": [], "rationale": "No explicit harms stated in reasoning."})
-        return results
-    except Exception:
-        return [{"name": a, "harms": [], "rationale": "Harm extraction failed."} for a in alternatives]
-
-def assess_target_harm(client, target: str, reasoning: str) -> Dict[str, Any]:
-    """Extract explicit harms stated for the TARGET chemical from REASONING only.
-
-    Returns: { harms: [str], rationale: str }
+    Intelligently select relevant chunks from long text.
+    
+    Strategy:
+    1. If text is short enough, return as-is
+    2. Split into chunks and score each
+    3. Keep high-scoring chunks (score >= min_score)
+    4. Always keep first chunk (abstract/intro) and last chunk (conclusions)
+    5. Combine selected chunks up to max_output_len
+    
+    Args:
+        text: Full text to process
+        target: Target pollutant
+        alternative: Alternative solution
+        client: LLM client wrapper
+        max_output_len: Maximum output text length
+        min_score: Minimum relevance score to include a chunk
+    
+    Returns:
+        Selected text with markers for truncated sections
     """
-    try:
-        prompt = (
-            "You are a cautious extractor. Based ONLY on the REASONING text, "
-            "list any explicit harms/hazards stated for the TARGET chemical (e.g., toxicity types, endocrine disruption, persistence, bioaccumulation, occupational hazards). "
-            "If no harms are explicitly stated, return an empty list and explain briefly. Do NOT add external knowledge.\n\n"
-            f"TARGET: {target}\n"
-            f"REASONING:\n{reasoning}\n\n"
-            "Output only valid JSON with schema: {\\n  \"harms\": [string], \\n   \"rationale\": string\\n}"
-        )
-        response = client.chat.completions.create(
-            model=MODEL,
-            messages=[
-                {"role": "system", "content": "Return only valid JSON."},
-                {"role": "user", "content": prompt},
-            ],
-            response_format={"type": "json_object"},
-            temperature=0,
-            max_tokens=600,
-        )
-        _add_usage(response)
-        text = response.choices[0].message.content or "{}"
-        data = json.loads(text)
-        harms_val = data.get("harms", [])
-        harms = ensure_list_safe(harms_val) if isinstance(harms_val, (list, str)) else []
-        rationale = str(data.get("rationale", "")).strip()
-        return {"harms": harms, "rationale": rationale}
-    except Exception:
-        return {"harms": [], "rationale": "Harm extraction failed."}
-
-def load_input_data(input_file):
-    """Load input data from JSON file."""
-    try:
-        with open(input_file, 'r', encoding='utf-8') as f:
-            records = json.load(f)
-    except FileNotFoundError:
-        print(f"[ERROR] Input file not found: {input_file}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse input JSON: {e}")
-        return None
-        
-    if not isinstance(records, list):
-        raise ValueError("Input JSON must be a list of objects")
+    # If text is short enough, return as-is
+    if len(text) <= max_output_len:
+        return text
     
-    return records
-
-def save_output_files(out_records, output_file):
-    """Save output files in JSON and CSV formats."""
-    output_path = Path(output_file)
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    print(f"      [SMART CHUNK] Text length {len(text):,} > {max_output_len:,}, applying intelligent selection...")
     
-    # Write output JSON
-    try:
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(out_records, f, ensure_ascii=False, indent=2)
-        print(f"JSON output written to: {output_path}")
-    except Exception as e:
-        print(f"[ERROR] Failed to write JSON: {e}")
-
-    # Write output CSV
-    try:
-        import pandas as pd
-        df = pd.DataFrame(out_records, columns=["title", "doi", "year", "target", "reasoning", "alternatives", "CHEMICAL HARM"])  # CSV includes CHEMICAL HARM column
-        csv_path = output_path.with_suffix('.csv')
-        df.to_csv(csv_path, index=False, encoding='utf-8')
-        print(f"CSV output written to: {csv_path}")
-    except ImportError:
-        print("[WARN] pandas not available, skipping CSV output")
-    except Exception as e:
-        print(f"[WARN] Failed to write CSV: {e}")
-
-def process_records(records, client, target, drop_empty: bool = False):
-    """Process all records to extract alternatives."""
-    out_records = []
-    total_records = len(records)
+    # Split into chunks
+    chunks = split_text_into_chunks(text, chunk_size=2500, overlap=200)
+    print(f"      [SMART CHUNK] Split into {len(chunks)} chunks, scoring relevance...")
     
-    for i, rec in enumerate(records, 1):
-        print(f"Processing record {i}/{total_records} for target: {target}")
-        
-        title = str(rec.get("title", "")).strip()
-        doi = str(rec.get("doi", "")).strip()
-        year = rec.get("year", "")
-        reasoning = str(rec.get("reasoning", "")).strip()
-        abstract = str(rec.get("abstract", "")).strip()
-
-
-        if not reasoning:
-            print(f"[WARN] Empty reasoning field for record {i}")
-            alts_list = []
+    # Score each chunk
+    scored_chunks: list[tuple[int, int, dict]] = []  # (score, index, chunk)
+    for i, chunk in enumerate(chunks):
+        # Always include first and last chunks
+        if i == 0 or i == len(chunks) - 1:
+            score = 4  # Ensure first/last are always included
         else:
-            alts_list = call_model(client, title=title, doi=doi, target=target, reasoning=reasoning)
-
-        # Extract CHEMICAL HARM for the TARGET chemical (prefer ABSTRACT, fallback to reasoning)
-        source_text = abstract if abstract else reasoning
-        target_harm = assess_target_harm(client, target=target, reasoning=source_text) if source_text else {"harms": [], "rationale": ""}
-        harm_str = ", ".join(target_harm.get("harms", [])) if target_harm.get("harms") else ""
-
-        # Optionally skip records where no concrete alternatives were extracted
-        if drop_empty and not alts_list:
-            print(f"[INFO] Skipping record {i}: no concrete alternatives extracted")
-            continue
-
-        out_records.append({
-            "title": title,
-            "doi": doi,
-            "year": year,
-            "target": target,
-            "reasoning": reasoning,  # 新增 reasoning 欄位
-            "alternatives": JOIN_SEP.join(alts_list),
-            # Target chemical harm details and CSV-friendly summary
-            "target_chemical_harm": target_harm,
-            "CHEMICAL HARM": harm_str
-        })
+            score = score_chunk_relevance(chunk['text'], target, alternative, client)
+        
+        scored_chunks.append((score, i, chunk))
     
-    return out_records
+    # Sort by score (descending) then by position (ascending) for tie-breaking
+    scored_chunks.sort(key=lambda x: (-x[0], x[1]))
+    
+    # Select chunks until we reach max_output_len
+    selected_indices: set[int] = set()
+    current_len = 0
+    
+    for score, idx, chunk in scored_chunks:
+        if score < min_score:
+            continue
+        
+        chunk_len = len(chunk['text'])
+        if current_len + chunk_len <= max_output_len:
+            selected_indices.add(idx)
+            current_len += chunk_len
+    
+    # Build output in original order
+    output_parts: list[str] = []
+    prev_end = 0
+    
+    for i, chunk in enumerate(chunks):
+        if i in selected_indices:
+            # Add truncation marker if there's a gap
+            if chunk['start'] > prev_end + 100:  # Gap > 100 chars
+                output_parts.append("\n\n[... section skipped (low relevance) ...]\n\n")
+            output_parts.append(chunk['text'])
+            prev_end = chunk['end']
+    
+    result = ''.join(output_parts)
+    
+    # Count how many chunks were kept
+    high_score_count = sum(1 for s, _, _ in scored_chunks if s >= min_score)
+    print(f"      [SMART CHUNK] Selected {len(selected_indices)}/{len(chunks)} chunks (score >= {min_score}), output: {len(result):,} chars")
+    
+    return result
 
-def parse_args():
+
+# ============================================================
+# LLM Functions
+# ============================================================
+
+def extract_dosage_from_text(
+    text: str,
+    title: str,
+    doi: str,
+    target: str,
+    alternative: str,
+    client: "LLMClient"
+) -> dict[str, Any]:
+    """Use LLM to extract explicit dosage information from text."""
+    # Use smart chunking for long texts instead of simple truncation
+    max_text_len = 20000
+    if len(text) > max_text_len:
+        text = smart_chunk_selection(
+            text=text,
+            target=target,
+            alternative=alternative,
+            client=client,
+            max_output_len=max_text_len,
+            min_score=2
+        )
+    
+    prompt = DOSAGE_EXTRACTION_PROMPT.format(
+        target=target,
+        alternative=alternative,
+        title=title,
+        doi=doi,
+        text=text
+    )
+    
+    for attempt in range(MAX_RETRIES):
+        try:
+            content = client.chat_completion(
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.0,
+                max_tokens=1000,
+                json_mode=True
+            )
+            
+            if content:
+                return json.loads(content)
+            return {"dosage_found": False, "dosages": []}
+            
+        except json.JSONDecodeError:
+            continue
+        except Exception as e:
+            if attempt == MAX_RETRIES - 1:
+                print(f"    [WARN] LLM extraction failed: {e}")
+            
+    return {"dosage_found": False, "dosages": []}
+
+
+def infer_dosage(
+    text: str,
+    title: str,
+    target: str,
+    alternative: str,
+    reasoning: str,
+    client: "LLMClient"
+) -> dict[str, Any]:
+    """Use LLM to infer dosage when explicit values are not available."""
+    # Use smart chunking for long texts
+    max_text_len = 12000
+    if len(text) > max_text_len:
+        text = smart_chunk_selection(
+            text=text,
+            target=target,
+            alternative=alternative,
+            client=client,
+            max_output_len=max_text_len,
+            min_score=1  # Lower threshold for inference
+        )
+    
+    prompt = DOSAGE_INFERENCE_PROMPT.format(
+        target=target,
+        alternative=alternative,
+        title=title,
+        text=text if text else "(No fulltext available - using abstract only)",
+        reasoning=reasoning
+    )
+    
+    for attempt in range(MAX_RETRIES):
+        try:
+            content = client.chat_completion(
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,  # Slightly higher for inference
+                max_tokens=1200,
+                json_mode=True
+            )
+            
+            if content:
+                return json.loads(content)
+            return {}
+            
+        except json.JSONDecodeError:
+            continue
+        except Exception as e:
+            if attempt == MAX_RETRIES - 1:
+                print(f"    [WARN] LLM inference failed: {e}")
+    
+    return {}
+
+
+# ============================================================
+# Main Processing
+# ============================================================
+
+def process_paper_for_dosage(
+    record: dict[str, Any],
+    target: str,
+    research_pdf_dir: Path,
+    client: "LLMClient"
+) -> dict[str, Any]:
+    """Process a single paper to extract or infer dosage information."""
+    result = record.copy()
+    
+    doi = record.get("doi", "")
+    title = record.get("title", "")
+    # Handle alternatives as list (from step03) or string (legacy step04)
+    alternatives_raw = record.get("alternatives", "")
+    if isinstance(alternatives_raw, list):
+        alternative = ", ".join(alternatives_raw)
+    else:
+        alternative = str(alternatives_raw) if alternatives_raw else ""
+    reasoning = record.get("reasoning", "")
+    abstract = record.get("abstract", "")
+    
+    # Get download strategy from step03 result
+    download_status = record.get("download_status", "")
+    
+    if not alternative:
+        result["dosage_info"] = {
+            "status": "no_alternative",
+            "explicit_dosage": None,
+            "inferred_dosage": None,
+            "extraction_method": None
+        }
+        return result
+    
+    # Step 1: Try to get fulltext
+    fulltext, source = get_fulltext(doi, research_pdf_dir)
+    text_to_analyze = fulltext if fulltext else abstract
+    
+    result["fulltext_source"] = source
+    
+    # Determine extraction method details
+    if fulltext:
+        # Parse download strategy from step03's download_status
+        if "Elsevier" in download_status:
+            extraction_method = "fulltext_pdf_elsevier"
+        elif "Semantic Scholar" in download_status:
+            extraction_method = "fulltext_pdf_semantic_scholar"
+        elif "Springer" in download_status or "JATS" in download_status:
+            extraction_method = "fulltext_xml_springer"
+        elif "Selenium Scraper" in download_status:
+            extraction_method = "fulltext_pdf_selenium_scraper"
+        elif "Webpage Capture" in download_status:
+            extraction_method = "fulltext_pdf_webpage_capture"
+        elif "openAccessPdf" in download_status:
+            extraction_method = "fulltext_pdf_open_access"
+        elif source == "xml":
+            extraction_method = "fulltext_xml"
+        else:
+            extraction_method = "fulltext_pdf"
+    else:
+        extraction_method = "abstract_only"
+    
+    # Step 2: Extract explicit dosage from text
+    extraction_result = extract_dosage_from_text(
+        text=text_to_analyze,
+        title=title,
+        doi=doi,
+        target=target,
+        alternative=alternative,
+        client=client
+    )
+    
+    # Handle "irrelevant" status from pre-filter
+    if extraction_result.get("status") == "irrelevant":
+        dosage_info: dict[str, Any] = {
+            "status": "irrelevant",
+            "reason": extraction_result.get("reason", "Target compound role mismatch"),
+            "detected_role": extraction_result.get("detected_role"),
+            "substitution_logic": None,
+            "explicit_dosages": None,
+            "synthesis_conditions": None,
+            "material_properties": None,
+            "performance_metrics": None,
+            "partial_data": None,
+            "text_source": source if fulltext else "abstract",
+            "extraction_method": extraction_method,
+            "download_strategy": download_status if download_status else "N/A",
+            "confidence": "high"
+        }
+        result["dosage_info"] = dosage_info
+        return result
+    
+    # New schema with substitution_logic support
+    dosage_info: dict[str, Any] = {
+        "status": "extracted" if extraction_result.get("dosage_found") else "not_found",
+        "substitution_logic": extraction_result.get("substitution_logic"),
+        "explicit_dosages": extraction_result.get("explicit_dosages") if extraction_result.get("dosage_found") else None,
+        "synthesis_conditions": extraction_result.get("synthesis_conditions"),
+        "material_properties": extraction_result.get("material_properties"),
+        "performance_metrics": extraction_result.get("performance_metrics"),
+        "partial_data": None,
+        "text_source": source if fulltext else "abstract",
+        "extraction_method": extraction_method,
+        "download_strategy": download_status if download_status else "N/A",
+        "confidence": extraction_result.get("confidence", "low")
+    }
+    
+    # Step 3: If no explicit dosage found, look for partial data (NO inference)
+    if not extraction_result.get("dosage_found"):
+        partial_result = infer_dosage(
+            text=text_to_analyze,
+            title=title,
+            target=target,
+            alternative=alternative,
+            reasoning=reasoning,
+            client=client
+        )
+        
+        # New logic: only store partial data, never fabricated inferences
+        if partial_result and partial_result.get("partial_data_found"):
+            dosage_info["status"] = "partial_data"
+            dosage_info["partial_data"] = partial_result
+        else:
+            dosage_info["status"] = "insufficient_data"
+            dosage_info["data_gaps"] = partial_result.get("data_gaps", [])
+            dosage_info["recommendation"] = partial_result.get("recommendation", "insufficient_data")
+    
+    result["dosage_info"] = dosage_info
+    return result
+
+
+def run_step04(
+    input_file: Path,
+    output_file: Path,
+    target: str,
+    research_pdf_dir: Optional[Path] = None,
+    drop_empty: bool = False,
+    cid: Optional[str] = None,
+    final_dir: Optional[str] = None
+) -> None:
+    """Main execution function for Step 04."""
+    print(f"\n{'='*60}")
+    print(f"Step 04: Dosage Extraction & Inference")
+    print(f"Target compound: {target}")
+    print(f"Input file: {input_file}")
+    print(f"{'='*60}\n")
+    
+    # Load step03 results
+    if not input_file.exists():
+        print(f"[ERROR] Input file not found: {input_file}")
+        return
+    
+    with open(input_file, "r", encoding="utf-8") as f:
+        step03_results = json.load(f)
+    
+    if not isinstance(step03_results, list):
+        print("[ERROR] Invalid input format - expected list")
+        return
+    
+    # Determine research_pdf directory
+    if research_pdf_dir is None:
+        research_pdf_dir = input_file.parent / "research_pdf"
+    
+    pdf_count = len(list(research_pdf_dir.glob('*'))) if research_pdf_dir.exists() else 0
+    print(f"Research PDF directory: {research_pdf_dir}")
+    print(f"PDF/XML files found: {pdf_count}")
+    
+    # Count records with alternatives
+    # Handle both list (from step03) and string (legacy) formats
+    def has_alternatives(r: dict) -> bool:
+        alts = r.get("alternatives", "")
+        if isinstance(alts, list):
+            return len(alts) > 0
+        return bool(alts)
+    
+    records_with_alts = [r for r in step03_results if has_alternatives(r)]
+    print(f"Records with alternatives: {len(records_with_alts)}/{len(step03_results)}\n")
+    
+    if not records_with_alts:
+        print("[INFO] No alternatives found - nothing to process")
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump({"no_alternatives": True}, f, ensure_ascii=False, indent=2)
+        return
+    
+    # Initialize LLM client (supports both OpenAI and Gemini)
+    client = LLMClient()
+    
+    # Process ONLY records with alternatives (skip the rest)
+    results: list[dict[str, Any]] = []
+    stats = {
+        "extracted": 0, 
+        "partial_data": 0, 
+        "partial_with_calculation": 0,  # New: successful deterministic calculation
+        "insufficient_data": 0, 
+        "not_found": 0,
+        "irrelevant": 0  # Papers where target is reactant/pollutant, not substituted material
+    }
+    
+    update_interval = max(1, len(records_with_alts) // 100)  # Update every 1%
+    with tqdm(total=len(records_with_alts), desc="Processing papers with alternatives", miniters=update_interval) as pbar:
+        for record in records_with_alts:
+            alt_raw = record.get("alternatives", "")
+            if isinstance(alt_raw, list):
+                alt = ", ".join(alt_raw)
+            else:
+                alt = str(alt_raw) if alt_raw else ""
+            pbar.set_postfix_str(f"{alt[:25]}...")
+            
+            processed = process_paper_for_dosage(
+                record=record,
+                target=target,
+                research_pdf_dir=research_pdf_dir,
+                client=client
+            )
+            results.append(processed)
+            
+            # Update stats
+            status = processed.get("dosage_info", {}).get("status", "not_found")
+            if status in stats:
+                stats[status] += 1
+            
+            # Track successful deterministic calculations
+            if status == "partial_data":
+                partial_data = processed.get("dosage_info", {}).get("partial_data", {})
+                calc_result = partial_data.get("calculated_dosage", {})
+                if calc_result and calc_result.get("result") is not None:
+                    stats["partial_with_calculation"] += 1
+            
+            pbar.update(1)
+    
+    # Save results (only papers with alternatives)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+    
+    # Print summary
+    print(f"\n{'='*60}")
+    print(f"Step 04 Complete")
+    print(f"{'='*60}")
+    print(f"Papers with alternatives processed: {len(results)}")
+    print(f"  - Explicit dosage extracted: {stats['extracted']}")
+    print(f"  - Partial data found: {stats['partial_data']}")
+    print(f"    └─ With deterministic calculation: {stats['partial_with_calculation']}")
+    print(f"  - Insufficient data: {stats['insufficient_data']}")
+    print(f"  - Irrelevant (reactant/pollutant): {stats['irrelevant']}")
+    print(f"  - Not found: {stats['not_found']}")
+    print(f"\nOutput saved to: {output_file}")
+    
+    # Save detailed summary (new schema with substitution_logic)
+    # Generate summary filename based on output filename (e.g., step04_results_gemini.json -> step04_summary_gemini.json)
+    output_stem = output_file.stem  # e.g., "step04_results_gemini"
+    if output_stem.startswith("step04_results"):
+        suffix = output_stem.replace("step04_results", "")  # e.g., "_gemini" or ""
+        summary_filename = f"step04_summary{suffix}.json"
+    else:
+        summary_filename = "step04_summary.json"
+    summary_file = output_file.parent / summary_filename
+    summary = {
+        "target": target,
+        "total_records": len(results),
+        "statistics": stats,
+        "records_with_dosage": [
+            {
+                "title": r.get("title", "")[:80],
+                "doi": r.get("doi"),
+                "alternative": r.get("alternatives"),
+                "dosage_status": r.get("dosage_info", {}).get("status"),
+                "fulltext_source": r.get("fulltext_source"),
+                "extraction_method": r.get("dosage_info", {}).get("extraction_method"),
+                "download_strategy": r.get("dosage_info", {}).get("download_strategy"),
+                "substitution_logic": r.get("dosage_info", {}).get("substitution_logic"),
+                "explicit_dosages": r.get("dosage_info", {}).get("explicit_dosages"),
+                "synthesis_conditions": r.get("dosage_info", {}).get("synthesis_conditions"),
+                "material_properties": r.get("dosage_info", {}).get("material_properties"),
+                "performance_metrics": r.get("dosage_info", {}).get("performance_metrics"),
+                "partial_data": r.get("dosage_info", {}).get("partial_data"),
+                "confidence": r.get("dosage_info", {}).get("confidence")
+            }
+            for r in results
+            if r.get("dosage_info", {}).get("status") in ("extracted", "partial_data")
+        ]
+    }
+    
+    with open(summary_file, "w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    print(f"Summary saved to: {summary_file}")
+    
+    # If CID and final_dir provided, create final output file
+    if cid and final_dir:
+        from datetime import datetime
+        final_output_dir = Path(final_dir)
+        final_output_dir.mkdir(parents=True, exist_ok=True)
+        date_str = datetime.now().strftime("%Y%m%d")
+        final_filename = f"{date_str}_{cid}.json"
+        final_file = final_output_dir / final_filename
+        
+        # Filter results if drop_empty is True
+        final_results = results
+        if drop_empty:
+            final_results = [r for r in results if r.get("dosage_info", {}).get("status") in ("extracted", "partial_data")]
+        
+        with open(final_file, "w", encoding="utf-8") as f:
+            json.dump(final_results, f, ensure_ascii=False, indent=2)
+        print(f"Final output saved to: {final_file} ({len(final_results)} records)")
+
+
+def parse_args() -> argparse.Namespace:
     """Parse command line arguments."""
-    parser = argparse.ArgumentParser(description="Extract safer alternative names from reasoning field")
-    parser.add_argument("--input_file", required=True, help="Input JSON file path")
-    parser.add_argument("--output_file", required=True, help="Output JSON file path")
-    parser.add_argument("--target", required=True, help="Target compound name")
-    parser.add_argument("--api_key", help="OpenAI API key (optional, overrides config file)")
-    parser.add_argument("--model", help="OpenAI model name (optional, overrides config file)")
-    parser.add_argument("--process_all", action="store_true", help="Process all records (default only those with alternatives provided == 'yes')")
-    parser.add_argument("--drop_empty", action="store_true", help="Drop records where no concrete alternatives were extracted")
+    parser = argparse.ArgumentParser(
+        description="Step 04: Dosage Extraction & Inference from same paper"
+    )
+    parser.add_argument(
+        "--input_file",
+        required=True,
+        help="Input JSON file (step03 results)"
+    )
+    parser.add_argument(
+        "--output_file",
+        required=True,
+        help="Output JSON file path"
+    )
+    parser.add_argument(
+        "--target",
+        required=True,
+        help="Target compound name (the original toxic chemical)"
+    )
+    parser.add_argument(
+        "--research_pdf_dir",
+        help="Directory containing downloaded PDFs/XMLs (default: same as input_file parent/research_pdf)"
+    )
+    parser.add_argument(
+        "--drop_empty",
+        action="store_true",
+        help="Drop records with no alternatives found"
+    )
+    parser.add_argument(
+        "--cid",
+        help="PubChem Compound ID for the target compound"
+    )
+    parser.add_argument(
+        "--final_dir",
+        help="Directory for final output files (named by date_cid)"
+    )
     return parser.parse_args()
 
-def main():
-    """Main execution function."""
+
+def main() -> None:
+    """Main entry point."""
     args = parse_args()
     
-    # Use provided API key or config file key
-    api_key = args.api_key or OPENAI_API_KEY
-    model = args.model or MODEL
+    research_pdf_dir = Path(args.research_pdf_dir) if args.research_pdf_dir else None
     
-    print(f"Extracting alternatives for target: {args.target}")
-    print(f"Input file: {args.input_file}")
-    print(f"Output file: {args.output_file}")
-    print(f"Using OpenAI API key from config file")
-    
-    # Load input data
-    records = load_input_data(args.input_file)
-    if records is None:
-        return
+    run_step04(
+        input_file=Path(args.input_file),
+        output_file=Path(args.output_file),
+        target=args.target,
+        research_pdf_dir=research_pdf_dir,
+        drop_empty=args.drop_empty,
+        cid=args.cid,
+        final_dir=args.final_dir
+    )
 
-    # Filter records by default to those with alternatives provided == "yes".
-    # Use --process_all to override and process every record.
-    if args.process_all:
-        filtered_records = records
-        print(f"Processing {len(filtered_records)} records for target harm extraction (out of {len(records)} total)")
-    else:
-        filtered_records = [r for r in records if r.get("alternatives provided") == "yes"]
-        if not filtered_records:
-            print(f"[WARN] No records with alternatives found for {args.target}")
-            # Still create empty output file
-            save_output_files([], args.output_file)
-            return
-        print(f"Processing {len(filtered_records)} records with alternatives (out of {len(records)} total)")
-
-    # Initialize OpenAI client
-    client = OpenAI(api_key=api_key)
-
-    # Process filtered records
-    out_records = process_records(filtered_records, client, args.target, drop_empty=args.drop_empty)
-
-    # Save output files
-    save_output_files(out_records, args.output_file)
-
-    # Print summary
-    alternatives_found = sum(1 for r in out_records if r.get("alternatives", "").strip())
-    print(f"\n=== SUMMARY ===")
-    print(f"Target compound: {args.target}")
-    print(f"Total records processed: {len(out_records)}")
-    print(f"Records with extracted alternatives: {alternatives_found}")
-    print(f"Results saved to: {args.output_file}")
-    if args.drop_empty:
-        print("Note: Records without extracted alternatives were dropped (--drop_empty).")
-
-    # Persist token usage summary next to output
-    try:
-        usage_path = Path(args.output_file).with_name("step04_token_usage.json")
-        with open(usage_path, "w", encoding="utf-8") as f:
-            json.dump(_USAGE, f, ensure_ascii=False, indent=2)
-        print(f"Token usage saved to: {usage_path}")
-        print(f"Token usage total: {_USAGE.get('total_tokens', 0)} (prompt={_USAGE.get('prompt_tokens', 0)}, completion={_USAGE.get('completion_tokens', 0)})")
-    except Exception as e:
-        print(f"[WARN] Failed to write token usage file: {e}")
 
 if __name__ == "__main__":
     main()

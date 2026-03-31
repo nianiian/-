@@ -1,0 +1,470 @@
+[
+  {
+    "paperId": "00005f94057fbe35af8c5b0f264ecd0c73108860",
+    "externalIds": {
+      "MAG": "2177080539",
+      "DOI": "10.1080/00958972.2015.1082554",
+      "CorpusId": 98667761
+    },
+    "url": "https://www.semanticscholar.org/paper/00005f94057fbe35af8c5b0f264ecd0c73108860",
+    "title": "Syntheses, crystal structures and antibacterial activities of M(II) benzene-1,2,3-triyltris(oxy)triacetic acid complexes",
+    "venue": "",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/00958972.2015.1082554?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/00958972.2015.1082554, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "5880438",
+        "name": "Hui-Liang Wen"
+      },
+      {
+        "authorId": "2717290",
+        "name": "Bowen Lai"
+      },
+      {
+        "authorId": "2219010218",
+        "name": "Haitao Hu"
+      },
+      {
+        "authorId": "92678628",
+        "name": "Yun-Han Wen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00006a9c7ef4a355259c6def2775e4e4b3513946",
+    "externalIds": {
+      "DOI": "10.3390/fire6090347",
+      "CorpusId": 261595141
+    },
+    "url": "https://www.semanticscholar.org/paper/00006a9c7ef4a355259c6def2775e4e4b3513946",
+    "title": "Evaluation of Air Quality inside Self-Contained Breathing Apparatus Used by Firefighters",
+    "venue": "Fire",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2571-6255/6/9/347/pdf?version=1694002398",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/fire6090347?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/fire6090347, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2138553623",
+        "name": "S. Kim"
+      },
+      {
+        "authorId": "7588870",
+        "name": "Seunghon Ham"
+      }
+    ],
+    "abstract": "(1) Background: When a fire breaks out, combustibles are burned and toxic substances such as carbon monoxide (CO), polycyclic aromatic hydrocarbons (PAH), benzene, and hydrogen cyanide are produced. The purpose of this study is to evaluate the air quality inside self-contained breathing apparatus (SCBA) by comparing it to that in the environment where the SCBA charger is installed. (2) Methods: The design of this study was a simulation-based case-control experiment study, and the experiment was conducted at two fire stations located on land and on water. When charging the SCBA, it was differentiated according to the presence or absence of exposure to harmful substances and the degree of exposure. The air quality inside the SCBA in the charging room installed in the fire station garages located on land and in the water, which were not completely isolated from harmful substances, was evaluated. CO, carbon dioxide (CO2), water, and oil mist were measured and analyzed to determine the air quality inside the SCBA. (3) Results: In the case of land firefighting stations, the mean CO among the SCBA internal air quality items was 20 times higher than the outside the SCBA, and higher than the safe range in the group with the highest exposure at the sites of firefighting buildings completely isolated from hazardous substances. The CO levels of all items of water were analyzed to be higher than the safe range in the floating fire station. (4) Conclusions: It was confirmed that the installation environment of an SCBA charging room can affect the safety of the charged internal air quality components. The results of this study can be actively used for the operation and management of SCBA charging room environments when building firefighting buildings in the future for the hygiene, safety, and health of firefighters."
+  },
+  {
+    "paperId": "0000c0f743087f51cb17990e5d00074f3863d27f",
+    "externalIds": {
+      "MAG": "1976007354",
+      "DOI": "10.1080/00397910500514121",
+      "CorpusId": 93159615
+    },
+    "url": "https://www.semanticscholar.org/paper/0000c0f743087f51cb17990e5d00074f3863d27f",
+    "title": "Regioselective Synthesis of 6‐Prenylpolyhydroxyisoflavone (Wighteone) and Wighteone Hydrate with Hypervalent Iodine",
+    "venue": "",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/00397910500514121?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/00397910500514121, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "91945712",
+        "name": "Takanori Tokuoka"
+      },
+      {
+        "authorId": "48512378",
+        "name": "K. Yamashita"
+      },
+      {
+        "authorId": "32223975",
+        "name": "Y. Kawamura"
+      },
+      {
+        "authorId": "46366137",
+        "name": "M. Tsukayama"
+      },
+      {
+        "authorId": "1749210315",
+        "name": "Mohammad M. Hossain"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0000ff567d5630c0c9ada100fae0b109ad96a6f1",
+    "externalIds": {
+      "MAG": "2885478592",
+      "DOI": "10.1007/978-3-662-54089-3_2119",
+      "CorpusId": 105568206
+    },
+    "url": "https://www.semanticscholar.org/paper/0000ff567d5630c0c9ada100fae0b109ad96a6f1",
+    "title": "Diffusion coefficient of 3-phenyl-propenoic acid in benzene at infinite dilution",
+    "venue": "",
+    "year": 2018,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/978-3-662-54089-3_2119?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/978-3-662-54089-3_2119, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "46734973",
+        "name": "J. Winkelmann"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00011878425bab1b1fa1a28c42cbaa91e17d37e0",
+    "externalIds": {
+      "MAG": "2083272155",
+      "DOI": "10.1039/C39910000626",
+      "CorpusId": 98198322
+    },
+    "url": "https://www.semanticscholar.org/paper/00011878425bab1b1fa1a28c42cbaa91e17d37e0",
+    "title": "Photochemistry of some benzopyrazinobarrelenes",
+    "venue": "",
+    "year": 1991,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1039/C39910000626?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1039/C39910000626, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "34692066",
+        "name": "C. Liao"
+      },
+      {
+        "authorId": "93329336",
+        "name": "Pwa-Hwa Yang"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "000183b6a8a3b05fef6e64c834f39c79b1828168",
+    "externalIds": {
+      "MAG": "2952505211",
+      "DOI": "10.1016/0040-4020(76)80068-3",
+      "CorpusId": 94065734
+    },
+    "url": "https://www.semanticscholar.org/paper/000183b6a8a3b05fef6e64c834f39c79b1828168",
+    "title": "Polymethylations of bis(cyanomethyl)benzenes",
+    "venue": "",
+    "year": 1976,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/0040-4020(76)80068-3?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/0040-4020(76)80068-3, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "49583494",
+        "name": "S. Brenner"
+      },
+      {
+        "authorId": "92318917",
+        "name": "B. Alterovich"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0001d4ce44ce334f77ea87b6737606d447987272",
+    "externalIds": {
+      "MAG": "2472725261",
+      "CorpusId": 99871684
+    },
+    "url": "https://www.semanticscholar.org/paper/0001d4ce44ce334f77ea87b6737606d447987272",
+    "title": "Ion radicals of organometallic compounds. I: The products and the decomposition of methylbenzene tricarbonylchromium cation radicals",
+    "venue": "",
+    "year": 1983,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1905667",
+        "name": "T. Ikeshoji"
+      },
+      {
+        "authorId": "6620841",
+        "name": "V. Parker"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "000251324569a955118a96ef1235b6a8c058652c",
+    "externalIds": {
+      "MAG": "2381051304",
+      "CorpusId": 98841570
+    },
+    "url": "https://www.semanticscholar.org/paper/000251324569a955118a96ef1235b6a8c058652c",
+    "title": "Analysis of Benzene Series in Groundwater by Gas Chromatography with Needle trap-Headspace Sampling",
+    "venue": "",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "39149579",
+        "name": "Cui Zhe"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00028c3541158f2cf8258977b8142b8ec0a31b66",
+    "externalIds": {
+      "MAG": "2053483625",
+      "DOI": "10.1246/CL.1974.235",
+      "CorpusId": 97146253
+    },
+    "url": "https://www.semanticscholar.org/paper/00028c3541158f2cf8258977b8142b8ec0a31b66",
+    "title": "A NEW METHOD FOR MEASURING Sn←S1 ABSORPTION SPECTRA",
+    "venue": "",
+    "year": 1974,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1246/CL.1974.235?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1246/CL.1974.235, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "94399948",
+        "name": "KobayashiTakayoshi"
+      },
+      {
+        "authorId": "94080376",
+        "name": "MatsumotoSatoru"
+      },
+      {
+        "authorId": "91940029",
+        "name": "NagakuraSaburo"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0003732804940b97012ae70ff00e98c47a653568",
+    "externalIds": {
+      "MAG": "2009208481",
+      "DOI": "10.1134/S0965544112060035",
+      "CorpusId": 94921749
+    },
+    "url": "https://www.semanticscholar.org/paper/0003732804940b97012ae70ff00e98c47a653568",
+    "title": "Composition of volatile products of flash pyrolysis of natural asphaltite and its resin-asphaltene and oil components",
+    "venue": "Petroleum chemistry (1991)",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1134/S0965544112060035?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1134/S0965544112060035, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "92230160",
+        "name": "V. Antipenko"
+      },
+      {
+        "authorId": "92833873",
+        "name": "V. N. Melenevskii"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00037faa2c8e8c5a9c18b677b14b6df6d0022323",
+    "externalIds": {
+      "MAG": "2087106423",
+      "DOI": "10.1098/RSPA.1928.0164",
+      "CorpusId": 98364038
+    },
+    "url": "https://www.semanticscholar.org/paper/00037faa2c8e8c5a9c18b677b14b6df6d0022323",
+    "title": "Researches on the chemistry of coal. Part V.—The maturing of coal considered from the standpoint of its benzene-pressure-extraction",
+    "venue": "",
+    "year": 1928,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1098/rspa.1928.0164",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1098/RSPA.1928.0164?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1098/RSPA.1928.0164, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "40448717",
+        "name": "W. Bone"
+      },
+      {
+        "authorId": "52621097",
+        "name": "L. Horton"
+      },
+      {
+        "authorId": "46842373",
+        "name": "L. Tei"
+      }
+    ],
+    "abstract": "In Part III of this series it was shown that on extraction with benzene under “soxhlet” conditions, at pressures between about 18 and 48 atmospheres (corresponding with temperatures between 240° and 285° C.), the coal substance of some typical coking bituminous and non-coking sub-bituminous coals yielded between about 5 and 12 per cent, of its weight of an extract which, on treatment, successively, with light petroleum and ethyl alcohol, could be fractionated into four portions, as follows:— Concentrated Benzene Solution of Crude Extract ↓ Poured into Light Petroleum ↓ A B Soluble Insoluble ↓ ↓ Light Petroleum free from Benzene Ethyl Alcohol Soluble Insoluble Soluble Insoluble Fraction I Fraction II Fraction III Fraction IV Fraction I consisted of neutral, yellowish-brown, non-nitrogenous, viscous oils or vaseline-like substances containing C = 83.3 to 89.7, H = 8.1 to 10.8, O = 2.3 to 5.5 per cent. Fraction II was a reddish-brown solid, softening about 25° C., and more difficult to characterise than the others."
+  },
+  {
+    "paperId": "000445b93946fb626f4ccd6b655ade7585fcfb04",
+    "externalIds": {
+      "MAG": "1989686083",
+      "DOI": "10.1111/J.1699-0463.1970.TB02529.X",
+      "CorpusId": 26133962,
+      "PubMed": "5476626"
+    },
+    "url": "https://www.semanticscholar.org/paper/000445b93946fb626f4ccd6b655ade7585fcfb04",
+    "title": "Benzene induced chromosome abnormalities in rat bone marrow cells.",
+    "venue": "Acta pathologica et microbiologica Scandinavica. Section A, Pathology",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1699-0463.1970.TB02529.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1699-0463.1970.TB02529.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "50029304",
+        "name": "P. Philip"
+      },
+      {
+        "authorId": "40471710",
+        "name": "M. K. Jensen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "000490f8f6ede5bd7ce0ff3d874ccedcb09e58ca",
+    "externalIds": {
+      "MAG": "2014845665",
+      "DOI": "10.1107/S1600536806026134",
+      "CorpusId": 209644372
+    },
+    "url": "https://www.semanticscholar.org/paper/000490f8f6ede5bd7ce0ff3d874ccedcb09e58ca",
+    "title": "2,4,6‐Tris(2,4,6‐tribromo­phen­oxy)‐1,3,5‐triazine",
+    "venue": "",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1107/S1600536806026134?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1107/S1600536806026134, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2146311643",
+        "name": "Feng Li"
+      },
+      {
+        "authorId": "2156396394",
+        "name": "Hongzhen Jiang"
+      },
+      {
+        "authorId": "2108274296",
+        "name": "Xue-mei Li"
+      },
+      {
+        "authorId": "50202042",
+        "name": "Shusheng Zhang"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "000513f6013fcdc5b9914d7451042a86310b543a",
+    "externalIds": {
+      "MAG": "2359940715",
+      "CorpusId": 101237906
+    },
+    "url": "https://www.semanticscholar.org/paper/000513f6013fcdc5b9914d7451042a86310b543a",
+    "title": "Study on the Pyrolysis Characteristics of Biomass with TG-MS Analyzer",
+    "venue": "",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1411418530",
+        "name": "Luo Yong-hao"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00051c06b2baf94a26948c8feaab6977bbd0648c",
+    "externalIds": {
+      "MAG": "2125639437",
+      "DOI": "10.1002/047084289X.RD241M",
+      "CorpusId": 209669728
+    },
+    "url": "https://www.semanticscholar.org/paper/00051c06b2baf94a26948c8feaab6977bbd0648c",
+    "title": "Diiodo(methyl)bis(triphenylphosphine)rhodium(III)",
+    "venue": "",
+    "year": 2001,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1002/047084289X.RD241M?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1002/047084289X.RD241M, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "3877043",
+        "name": "S. Westcott"
+      }
+    ],
+    "abstract": null
+  }
+]

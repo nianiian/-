@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Harmless and ecologically acceptable fabrication of long-acting injectable microspheres.",
+    "doi": "10.5582/ddt.2023.01008",
+    "year": 2023,
+    "target": "Methylene Chloride",
+    "reasoning": "The abstract discusses the use of non-halogenated solvents as alternatives to methylene chloride in the fabrication of PLA and PLGA microspheres, highlighting advantages related to environment and worker safety. This indicates that these non-halogenated solvents are presented as safer alternatives to methylene chloride.",
+    "alternatives": "non-halogenated solvents",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with methylene chloride. It only mentions its use and the importance of safety measures without detailing specific toxicity or hazard information."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "NOVEL ECOFRIENDLY TECHNIQUE FOR SPECTROPHOTOMETRIC ANALYSIS OF DICLOFENAC SODIUM TABLETS USING MELTED N, N- DIMETHYLUREA AS SOLID SOLVENT",
+    "doi": "10.53879/id.59.04.12403",
+    "year": 2022,
+    "target": "Methylene Chloride",
+    "reasoning": "The abstract proposes using aqueous solutions of N, N-dimethylurea as a hydrotropic agent to replace organic solvents including methylene chloride for spectrophotometric analysis. It explicitly states that the new method is ecofriendly and free from toxicity of organic solvents, indicating a safety advantage over methylene chloride.",
+    "alternatives": "N, N-dimethylurea",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity",
+        "pollution"
+      ],
+      "rationale": "The reasoning text explicitly states that organic solvents, including methylene chloride, have drawbacks such as toxicity and pollution."
+    },
+    "CHEMICAL HARM": "toxicity, pollution"
+  },
+  {
+    "title": "Removing Acrylic Conformal Coating with Safer Solvents for Re-Manufacturing Electronics",
+    "doi": "10.3390/polym13060937",
+    "year": 2021,
+    "target": "Methylene Chloride",
+    "reasoning": "The abstract explicitly states that the research identified safer solvent blends as alternatives to Methylene Chloride (DCM) for acrylic conformal coating stripping. It highlights that these alternatives provide equivalent stripping performance with improved safety and toxicity profiles, indicating a safer alternative to DCM.",
+    "alternatives": "safer solvent blends",
+    "target_chemical_harm": {
+      "harms": [
+        "high toxicity",
+        "increased human health risk during exposure"
+      ],
+      "rationale": "The reasoning explicitly states that methylene chloride (DCM) has high toxicity which increases human health risk when workers are exposed during conformal coating removal processes."
+    },
+    "CHEMICAL HARM": "high toxicity, increased human health risk during exposure"
+  },
+  {
+    "title": "Improved and Novel Methods for Investigating Organophosphate Esters in Particulate Matter",
+    "doi": "10.3390/analytica5040032",
+    "year": 2024,
+    "target": "Methylene Chloride",
+    "reasoning": "The abstract explicitly states that the developed pressurized liquid extraction (PLE) method does not use potentially harmful organic solvents like methylene chloride, instead using a combination of hexane and ethyl acetate. This indicates a safer alternative to methylene chloride due to the avoidance of its use and the implication of reduced harm.",
+    "alternatives": "hexane; ethyl acetate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to methylene chloride; it only mentions that the method avoids using potentially harmful organic solvents like methylene chloride without specifying the nature of those harms."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Conventional versus novel extraction techniques for wheat germ oil recovery: multi-response optimization of supercritical fluid extraction",
+    "doi": "10.1080/01496395.2020.1784941",
+    "year": 2020,
+    "target": "Methylene Chloride",
+    "reasoning": "The abstract compares conventional Soxhlet extraction using methylene chloride with novel techniques including supercritical fluid extraction (SFE). It states that SFE provides advantages such as absence of organic solvent residues and similar or higher antioxidant activity, implying a safety benefit over methylene chloride use. Therefore, SFE is presented as a safer alternative to methylene chloride.",
+    "alternatives": "supercritical fluid extraction (SFE)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards related to methylene chloride. It only mentions its use in microwave-assisted extraction and compares extraction techniques without discussing toxicity, persistence, bioaccumulation, or other hazards."
+    },
+    "CHEMICAL HARM": ""
+  }
+]

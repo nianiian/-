@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Insecticide Induced Resurgence of Brown Planthopper, Nilaparvata lugens (Stål) on Rice",
+    "doi": "10.52804/ijaas2021.227",
+    "year": 2021,
+    "target": "isoprocarb",
+    "reasoning": "The abstract compares the resurgence ratios of various insecticides, including Isoprocarb, with Pymetrozine showing a significantly lower resurgence ratio (0.26) compared to Isoprocarb (0.43). This indicates that Pymetrozine is a safer alternative in terms of inducing less resurgence of the brown planthopper, thus suggesting a safety advantage over Isoprocarb.",
+    "alternatives": "Pymetrozine",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with isoprocarb. It discusses the effects of various insecticides on pest resurgence and yield loss but does not mention toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to isoprocarb."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Metabolite Formation of Pesticide Isoprocarb in Coffee Beans During Short-Term Storage and Condition",
+    "doi": "10.14710/jksa.27.2.45-52",
+    "year": 2024,
+    "target": "isoprocarb",
+    "reasoning": "The abstract indicates that o-cumenol is less toxic than isoprocarb, as concluded from the LC50 and LD50 data. This suggests that o-cumenol could be considered a safer alternative to isoprocarb due to its lower toxicity.",
+    "alternatives": "o-cumenol",
+    "target_chemical_harm": {
+      "harms": [
+        "toxicity"
+      ],
+      "rationale": "The reasoning explicitly states that isoprocarb is a toxic compound and mentions its toxicity in comparison to its metabolite, o-cumenol."
+    },
+    "CHEMICAL HARM": "toxicity"
+  }
+]

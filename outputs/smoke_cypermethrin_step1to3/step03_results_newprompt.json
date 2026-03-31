@@ -1,0 +1,324 @@
+[
+  {
+    "title": "Influence of dietary cypermethrin, vitamin E and selenium on biochemical parameters of the lepidopteran model host Galleria mellonella",
+    "doi": "10.1016/j.toxlet.2017.07.496",
+    "year": 2017,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Toxicity of Insecticides to Frankliniella invasor (Thysanoptera: Thripidae) Under Laboratory Conditions",
+    "doi": "10.1653/024.097.0239",
+    "year": 2014,
+    "abstract": "Abstract \n Mango cv. ‘Ataulfo’ is perhaps the most popular mango produced in Mexico. The presence of high densities of thrips in mango blossoms, mainly the species Frankliniella invasor Sakimura, has been linked to yield decline. Growers spray synthetic insecticides on a regular basis against thrips to reduce their numbers, but no studies on the effectiveness of these insecticides have been conducted. The present study was undertaken with the objective of assessing the toxicity of 4 insecticides commonly used by growers. Commercial formulations of spinosad, imidacloprid, malathion, and &agr;-cypermethrin were evaluated on adults of F. invasor under laboratory conditions. Six concentrations of each insecticide were assessed: 0.1, 1, 10, 100, 1000, and 10,000 ppm. Snap bean pods were submerged into the different concentrations of insecticides, dried on paper towels, and placed in a plastic container with the thrips adults. A completely randomized design with 10 replicates per treatment was performed. Probit analyses revealed that spinosad and &agr;-cypermethrin were the most toxic insecticides for F. invasor with estimated LC50 values of 0.413 and 0.636 ppm, respectively. No significant differences in toxicity were found between imidacloprid (LC50 = 23.013 ppm) and malathion (LC50 = 34.422 ppm). Mortality in control treatments (distilled water) was never higher than 14%. Our study suggests the use of spinosad and &agr;-cypermethrin as the best control for F. invasor. However, these results should be complemented with field evaluations before being recommended to mango growers.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract evaluates the toxicity of various insecticides, including α-cypermethrin, but does not explicitly present a safer alternative to it. While spinosad is mentioned as one of the most toxic insecticides, there is no clear indication that it is safer than α-cypermethrin or that it serves as a replacement. Therefore, the abstract does not meet the criteria for presenting a safer alternative.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "TOXICIDADE DE INSETICIDAS UTILIZADOS NO MELOEIRO SOBRE PRIMEIRO INSTAR DE Chrysoperla genanigra FREITAS (NEUROPTERA: CHRYSOPIDAE)",
+    "doi": "10.1590/1983-21252017V30N314RC",
+    "year": 2017,
+    "abstract": "Brazil is one of the world's largest producers of melon (Cucumis melo L.), and Rio Grande do Norte and Ceara are the largest producers states of the country (99% of exports). This crop had great socio-economic importance in the Brazilian Northeast, however, it is affected by insect pests and consequently, large amounts of pesticides are applied to it, which greatly affect beneficial organisms, such as Chrysopidae. This bioassay evaluated the toxicity of nine insecticides used in commercial crops of muskmelon, applied to first-instar larvae of Chrysoperla genanigra of up to 24-hour-old, from mass rearing cultures. Sublethal effects were evaluated, classifying the insecticides into the toxicity classes recommended by the IOBC. A completely randomized design was used, consisting of ten treatments (clothianidin, pymetrozine, lambda-cyhalothrin, chlorantraniliprole, indoxacarb, pyriproxyfen, beta-cyfluthrin+imidacloprid, imidacloprid, beta-cypermethrin and a control consisted of distilled water). The treatments consisted of exposure of thirty larvae to dry residues of each product in Petri dishes, assessing their mortality, duration of instars, sex ratio, fecundity and viability of eggs from adults of the insects evaluated. The products were classified in toxicity classes as harmful (Class 4) (clothianidin, pymetrozine, indoxacarb, lambda-cyhalothrin, beta-cyfluthrin+imidacloprid, imidacloprid, beta-cypermethrin and pyriproxyfen) and innocuous (Class 1) (chlorantraniliprole) to first-instar larvae of C. genanigra, by calculate their total effect. Based on this work, chlorantraniliprole is the only recommended insecticide for use in integrated pest management (IPM) programs in muskmelon crops.",
+    "target": "cypermethrin",
+    "alternatives provided": "yes",
+    "reasoning": "The abstract explicitly states that chlorantraniliprole is classified as innocuous (Class 1) and is recommended for use in integrated pest management (IPM) programs, indicating it is a safer alternative to the other insecticides, including beta-cypermethrin, which are classified as harmful (Class 4).",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Record openAccessPdf) (510027 bytes)"
+  },
+  {
+    "title": "Screening Aedes aegypti (Diptera: Culicidae) Populations From Pernambuco, Brazil for Resistance to Temephos, Diflubenzuron, and Cypermethrin and Characterization of Potential Resistance Mechanisms",
+    "doi": "10.1093/jisesa/iez054",
+    "year": 2019,
+    "abstract": "Abstract Resistance to chemical insecticides detected in Aedes aegypti (L.) mosquitoes has been a problem for the National Dengue Control Program (PNCD) over the last years. In order to provide deeper knowledge of resistance to xenobiotics, our study evaluated the susceptibility profile of temephos, diflubenzuron, and cypermethrin insecticides in natural mosquito populations from the Pernambuco State, associating these results with the local historical use of such compounds. Furthermore, mechanisms that may be associated with this particular type of resistance were characterized. Bioassays with multiple temephos and diflubenzuron concentrations were performed to detect and quantify resistance. For cypermethrin, diagnostic dose assays were performed. Biochemical tests were carried out to quantify the activity of detoxification enzymes. In addition, a screening of mutations present in the voltage-gated sodium channel gene (NaV) was performed in samples previously submitted to bioassays with cypermethrin. The populations under study were resistant to temephos and showed a positive correlation between insecticide consumption and the resistance ratio (RR) to the compound. For diflubenzuron, the biological activity ratio (BAR) ranged from 1.3 to 4.7 times, when compared to the susceptible strain. All populations showed resistance to cypermethrin. Altered enzymatic profiles of alpha, p-nitrophenyl acetate (PNPA) esterases and glutathione-S-transferases were recorded in most of these samples. Molecular analysis demonstrated that Arcoverde was the only population that presented the mutated form 1016Ile/Ile. These findings show that the situation is critical vis-à-vis the effectiveness of mosquito control using chemical insecticides, since resistance to temephos and cypermethrin is widespread in Ae. aegypti from Pernambuco.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses resistance to cypermethrin and other insecticides but does not explicitly present a safer alternative to cypermethrin. It focuses on resistance profiles and mechanisms rather than proposing a replacement or indicating safety advantages of any alternative.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "V1016G and F1534C Mutation in the VGSC Gene of Cypermethrin Resistant Aedes aegypti from Central Java",
+    "doi": "10.1166/asl.2017.9178",
+    "year": 2017,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Integrated control of an acaricide-resistant strain of the cattle tick Rhipicephalus microplus by applying Metarhizium anisopliae associated with cypermethrin and chlorpyriphos under field conditions.",
+    "doi": "10.1016/j.vetpar.2014.11.021",
+    "year": 2015,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Curcumin and Quercetin Ameliorated Cypermethrin and Deltamethrin-Induced Reproductive System Impairment in Male Wistar Rats by Upregulating The Activity of Pituitary-Gonadal Hormones and Steroidogenic Enzymes",
+    "doi": "10.22074/ijfs.2018.5160",
+    "year": 2018,
+    "abstract": "Background Dietary antioxidants protect tissues and organs against insecticides/xenobiotic-induced damage. In the present study, we evaluated the results of exposure to synthetic pyrethroid insecticides, cypermethrin (Cyp) and deltamethrin (Del) and possible protective effects of curcumin and quercetin on reproductive system in male Wistar rats. Materials and Methods In this controlled experimental study, 42 male Wistar rats were randomly divided into 7 groups of 6 animals. Group A served as control, group B was exposed to Cyp (2 mg/kg.bw), group C was exposed to Del (2 mg/kg.bw), group D was exposed to Cyp+Del (2 mg/kg.bw each), group E was exposed to Cyp+Del and treated with curcumin (100 mg/kg.bw), group F was exposed to Cyp+Del and treated with quercetin (100 mg/kg.bw) and group G was exposed to Cyp+Del and treated with quercetin+curcumin for 45 days. Results Exposure to Cyp and Del caused decreases in reproductive organs weight, sperm count, sperm motility, level of sex hormones viz. testosterone (T), follicle stimulating hormone (FSH) and luteinizing hormone (LH), steroidogenic enzymes viz. 3β-hydroxyl steroid dehydrogenase (3β-HSD) and 17β-HSD, non-enzymatic antioxi- dant glutathione (GSH) and enzymatic antioxidants viz. superoxide dismutase (SOD), catalase (CAT), glutathione peroxidase (GPx), glutathione-S-transferase (GST) and glutathione reductase (GR) activity and increases in sperm abnormalities and lipid peroxidation (LPO). The exposure also adversely affected the histo-achitecture of testes. Single and combined treatment with curcumin and quercetin significantly ameliorated Cyp and Del-induced damage in reproductive system. Conclusion Curcumin and quercetin protected against Cyp and Del-induced reproductive system toxicity and oxidative damage in rats. The increases in activities of 3β-HSD and 17β-HSD with concomitant increases in testosterone were mainly responsible for ameliorating effects of curcumin and quercetin. Curcumin showed slightly better activity as compared to quercetin. The combination of both antioxidants offered more protection compared to each one alone.",
+    "target": "cypermethrin",
+    "alternatives provided": "yes",
+    "reasoning": "The abstract indicates that curcumin and quercetin significantly ameliorated the reproductive system toxicity and oxidative damage induced by cypermethrin and deltamethrin. This suggests that these substances provide protective effects against the harmful impacts of cypermethrin, implying they could be considered safer alternatives.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Failed to download full text"
+  },
+  {
+    "title": "Cascading effects of insecticides and road salt on wetland communities.",
+    "doi": "10.1016/j.envpol.2020.116006",
+    "year": 2020,
+    "abstract": "Novel stressors introduced by human activities increasingly threaten freshwater ecosystems. The annual application of more than 2.3 billion kg of pesticide active ingredient and 22 billion kg of road salt has led to the contamination of temperate waterways. While pesticides and road salt are known to cause direct and indirect effects in aquatic communities, their possible interactive effects remain widely unknown. Using outdoor mesocosms, we created wetland communities consisting of zooplankton, phytoplankton, periphyton, and leopard frog (Rana pipiens) tadpoles. We evaluated the toxic effects of six broad-spectrum insecticides from three families (neonicotinoids: thiamethoxam, imidacloprid; organophosphates: chlorpyrifos, malathion; pyrethroids: cypermethrin, permethrin), as well as the potentially interactive effects of four of these insecticides with three concentrations of road salt (NaCl; 44, 160, 1600 Cl- mg/L). Organophosphate exposure decreased zooplankton abundance, elevated phytoplankton biomass, and reduced tadpole mass whereas exposure to neonicotinoids and pyrethroids decreased zooplankton abundance but had no significant effect on phytoplankton abundance or tadpole mass. While organophosphates decreased zooplankton abundance at all salt concentrations, effects on phytoplankton abundance and tadpole mass were dependent upon salt concentration. In contrast, while pyrethroids had no effects in the absence of salt, they decreased zooplankton and phytoplankton density under increased salt concentrations. Our results highlight the importance of multiple-stressor research under natural conditions. As human activities continue to imperil freshwater systems, it is vital to move beyond single-stressor experiments that exclude potentially interactive effects of chemical contaminants.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses various insecticides, including cypermethrin, but does not propose a safer alternative or indicate any substance that is safer than cypermethrin. It focuses on the effects of different insecticides without suggesting replacements or safety advantages.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Resistance of Spodoptera exigua to ten insecticides in Shandong, China",
+    "doi": "10.1007/s12600-011-0157-5",
+    "year": 2011,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Characteristics and evaluation of pesticide residues in surface soils and grapes from main grape-producing areas of Xuzhou city",
+    "doi": "",
+    "year": 2013,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Exposure of Young Children to Permethrin and Cypermethrin Insecticides in the Residential Environment",
+    "doi": "10.3390/toxics12070477",
+    "year": 2024,
+    "abstract": "The aims of this study were to evaluate the exposure to permethrin and cypermethrin of young children aged between 2 and 5 years in Nakhon Pathom and Sing Buri provinces, Thailand. A questionnaire that included general demographic information, household characteristics, insecticide usage and exposure-related behavior in children was used to interview parents or family caregivers. Permethrin and cypermethrin concentrations on floor surfaces and children’s hands, as well as their urinary metabolites, were analyzed by gas chromatography coupled with mass spectrometry. The results showed that permethrin and cypermethrin were detected in 62% and 83% of the children’s hand wipe samples, with geometric mean (GM) levels of 0.02 µg and 0.04 µg, respectively. Permethrin and cypermethrin were detected in 79% and 93% of floor surface wipe samples, with GM levels of 0.90 µg/m2, and 1.49 µg/m2, respectively. For children’s urine, the GM concentrations of cis- and trans-DCCA, 3-PBA, and total pyrethroid metabolites were 0.84, 0.31 and 1.23 nmol/g creatinine, respectively. This study found that household insecticide product usage and having a tile floor were associated with increased permethrin concentrations on the children’s hands and floor surfaces. However, cypermethrin concentrations on floor surfaces were significantly higher in families using aerosol insecticide sprays and insecticide products in the living room and bedroom. The predictors of the total pyrethroid, DCCA and 3-PBA metabolites are permethrin on children’s hands or floor surfaces and cypermethrin on floor surfaces.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract does not present any substance, material, or method that is explicitly stated as a safer alternative to cypermethrin. It primarily discusses the exposure levels of permethrin and cypermethrin without proposing a replacement or indicating safety advantages over cypermethrin.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Protecive effect of Curculigo orchioides on hemato- biochemical alterations induced by cypermethrin subacute toxicity in wistar rats",
+    "doi": "",
+    "year": 2019,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Histopathological changes in the kidney tissues of White Swiss Mice (Mus musculus L.) exposed to α-Cypermethrin",
+    "doi": "10.34172/jnp.2022.17303",
+    "year": 2022,
+    "abstract": "α- Cypermethrin is a pyrethroid insecticide. Chronic exposure to α -cypermethrin for use in household pest control or through drinking water and fruits and vegetables contaminated with it. The kidneys are an essential organ in the human and animal body because they perform a number of major functions. One of the causes of nephrotoxicity is exposure to environmental pollutants, which often lead to direct injury to the kidney tissues, causing pathological changes. The current study was designed to investigate the deleterious effects of α- Cypermethrin when taken in two doses in the kidney tissues of Swiss laboratory mice. And the Humasan method was used to prepare the tissue sections of the kidney. Treated mice groups showed many Histopathological changes in kidney, among these in low dose in females the shrinkage of some tubular cells nuclei and necrosis of others with vacuolization in cytoplasm of cells in the glomerular shape, the emergence of a clumping of mesenchymal cells in many regions with increased tubular cells enlargement. The effects varied in the form of bleeding at one time, congestion and edema at other times and aggregation of fat cells of different sizes and inflammation and death of renal cells. In males the effects varied in the form of loss of the glomerulus, congestion and dilation of Bowman's space, glomerular necrosis or loss of glomerulus,Hemorrhage congestion, renal cell death and cells hyperplasia. In females and males at high doses, the effects in females were represented by swelling of tubular cells, loss of the glomerulus, death of tubular cells again and loss of the renal glomeruli while in males they were represented by hemorrhage and death of the renal epithelium, loss of the glomerulus and congestion of its tubules. The results of this study confirmed that α- Cypermethrin causes seriously deteriorate in Kidney tissues of Albino Swiss mice.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the deleterious effects of α-Cypermethrin on kidney tissues but does not propose any safer alternative or mention any substance or method that is safer than α-Cypermethrin. It focuses solely on the negative impacts of α-Cypermethrin without suggesting a replacement.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "꿀벌과 서양뒤영벌에 대한 농약의 독성평가",
+    "doi": "",
+    "year": 2008,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Pesticide-related safety risks among vegetable farmers : a cross sectional study",
+    "doi": "10.4314/ESA.V27I2.5",
+    "year": 2016,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Synthesis and Insecticidal Activity of Bis 4, 4′-(2-Substituted Aryl Thiazolidine-4-One) Diphenyl Sulphone",
+    "doi": "",
+    "year": 2009,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "FIELD EFFICACY OF SELECTED INSECTICIDES AGAINST THRIPS INFESTING TOMATO (Lycopersicon esculentum Mill.)",
+    "doi": "10.56557/upjoz/2022/v43i183169",
+    "year": 2022,
+    "abstract": "The present investigation on Field efficacy of selected insecticides against thrips (Scirtothrips dorsalis) infesting tomato (Lycopersicon esculentum Mill.) in district Namakkal (Tamil Nadu) was carried out at agricultural land at Mallasamudram, Namakkal district(Tamil nadu) in year 2020-2021 during rabi season. The experiment laid in RBD with seven treatments and one controlled plot, each were replicated thrice. On the basis of the effectiveness of different treatments against tomato thrips, the mean efficacy of the different treatments after spray revealed that spinosad 45SC @ 125 ml/ha found to be significantly superior against thrips (1.13 thrips/3 leaves/plant). The next best treatment was flonicamid 50WG (1.18 thrips/3 leaves/plant) followed by imidacloprid 17.8SL (1.22 thrips/3leaves/plant), fipronil 5SC(1.35 thrips/3 leaves/plant), thiamethoxam 25WG(1.41 thrips/3 leaves/plant), acetamiprid 20SP (1.60 thrips/3 leaves/plant ). Cypermethrin 25 EC was least effective recording 1.77 thrips per 3 leaves per plant. All the treatments were significantly superior over the control which recorded highest thrips population (3.40 thrips /3 leaves).",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract compares the efficacy of various insecticides against thrips, including cypermethrin, but does not explicitly state that any of the alternatives (such as spinosad or flonicamid) are safer than cypermethrin in terms of toxicity or environmental impact. It focuses on effectiveness rather than safety advantages.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Quantification of Pesticide Residues in Fresh Vegetables Available in Local Markets for Human Consumption and the Associated Health Risks",
+    "doi": "10.3390/agronomy11091804",
+    "year": 2021,
+    "abstract": "Human health risks as a result of consuming pesticide residues in fresh vegetables have drawn serious attention to the scientific community, particularly in developing countries. This study analyzed country bean (Lablab purpureus L.) and eggplant (Solanum melongena L.) for widely used neonicotinoid, synthetic pyrethroid, and dithiocarbamate pesticide residues in order to ensure food safety. The analyzed vegetables contained residues of acetamiprid and cypermethrin in 17% of bean and 13% of eggplant samples, respectively; among them, 3% of bean and 1% of eggplant samples had residues of acetamiprid that were above the maximum residue limits set by the European Union (EU-MRLs). None of the samples for either of the analyzed vegetables contained the residue of thiram and lambda-cyhalothrin. In contrast, 83% of bean and 87% of eggplant samples had no detectable pesticides. Thus, the findings were surprising considering the repeated and overuse of pesticides in vegetables in the investigated areas. However, this outcome supports the general claim of pesticide adulteration in terms of the active ingredients, which is another drawback to ensuring food safety. The non-cancer health risk assessment based on the acute health risk to consumer (aHI) and chronic hazard quotient (HQ) indicates that contaminated vegetables might pose a potential threat to children’s health and alarming for adults. This study reflects the overall scenario of pesticide residues in marketed vegetables of Barishal district of Bangladesh, which could help the consumers to bring awareness, and to take necessary actions by the pesticide suppliers and policymakers.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the presence of cypermethrin residues in vegetables and mentions acetamiprid, but it does not explicitly state that acetamiprid is a safer alternative to cypermethrin or provide any safety advantages that would qualify it as such. Therefore, it does not meet the criteria for presenting a safer alternative.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "EFFECTS OF CYPERMETHRIN ON SOME HAEMATOLOGICAL PARAMETERS IN HETEROPNEUSTES FOSSILIS (BLOCH)",
+    "doi": "",
+    "year": 2012,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "MicroRNA‑30a‑5p regulates cypermethrin-induced apoptosis of Sertoli cells by targeting KLF9 in vitro.",
+    "doi": "10.1016/j.reprotox.2023.108414",
+    "year": 2023,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "INSECTICIDAL IMPACTS ON FECUNDITY AND LARVAL DAMAGE POTENTIALS OF PINK BOLLWORM Pectinophora gossypiella",
+    "doi": "10.34016/pjbt.2024.21.01.851",
+    "year": 2024,
+    "abstract": "Pink bollworm (Pectinophora gossypiella) is one of the most notorious insects causing severe damage to cotton crops thought the world. A huge amount of different chemical formulations has been used for the control of P. gossypiella population that affects its biology. The present research was executed to determine the influence of insecticides on adult fecundity and boll damage potentials by the larvae. The results elucidated that a mixture of Deltamethrin+Triazophos had a maximum impact in fecundity reduction and boll damage by the larva when tested at one, three and twenty-four hours of post-application intervals (PAI). The damage to cotton bolls was in the ranges of 27.50±0.57 to 57.50±1.44 at 3 to 144-hours PAIs respectively. Damage to cotton bolls and reduction in fecundity was at the highest 82.50±1.34, and 49.65±1.51% when a mixture of Deltamethrin+Triazophos and Alpha-Cypermethrin were applied at 144-hours PAI respectively.  The experimental results highlighted the critical efficacy of the test insecticide for the control of P. gossypiella by reducing the boll damage and oviposition at different intervals of application.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract does not explicitly present a safer alternative to cypermethrin. It discusses the effects of a mixture of Deltamethrin+Triazophos and Alpha-Cypermethrin on fecundity and boll damage but does not indicate that these alternatives are safer than cypermethrin in terms of toxicity or environmental impact.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Individual and combined biochemical and histological effect of Cypermethrin and Carbendazim in male albino rats",
+    "doi": "",
+    "year": 2011,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Determination Of Organochlorine And Synthetic Pyrethroid Pesticide Residues in Fresh Pepper From Selected Farmlands In Edozhigi, Gbako L.G.A., Niger State, Nigeria",
+    "doi": "10.4314/jcsn.v50i3.6",
+    "year": 2025,
+    "abstract": "In this research, the concentrations of Synthetic pyrethroids (SPP) and Organochlorine (OCP) pesticide residues level in fresh Pepper (Capsicum annum) from selected farms in Edozhigi, Gbako Local Government area of Niger state, Nigeria was determined using QuEChERS and GC-MS for sample preparation and analysis respectively. The results obtained from this research indicates the presence of OCP and SPP residues including: Heptachlor, Aldrin, Dieldrin, Heptachlor epoxide, Endosulfan II and Endosulfan sulfate; Lambda-cyhalothrin, β-Cypermethrin and zeta-Cypermethrin with concentrations of 1.33 mg/kg, 1.55 mg/kg, 0.33 mg/kg, 0.22 mg/kg,1.31 mg/kg,0.45 mg/kg and 1.00 mg/kg, 1.29 mg/kg and 1.08 mg/kg. All the detected OCPs were above the maximum residue limits. Indeed, these concentrations of both the organochlorine and pyrethroid pesticides detected in the pepper sample analysed were observed to be above the maximum residue limits (MRLs) by the Codex 2009 (WHO and FAO), and hence at alarming levels.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the presence of various pesticide residues, including cypermethrin, but does not propose any safer alternative or indicate any safety advantages compared to cypermethrin. It focuses on the detection of residues and their levels without suggesting a replacement.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Preparation and Properties of Pesticide/Cyclodextrin Complex Intercalated into ZnAl-Layered Double Hydroxide",
+    "doi": "10.1021/ACS.IECR.5B04001",
+    "year": 2016,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Analysis of insecticides in long-lasting insecticidal nets using X-ray fluorescence spectroscopy and correlation with bioefficacy",
+    "doi": "10.3389/fpara.2023.1258429",
+    "year": 2023,
+    "abstract": "Background Long-lasting insecticidal nets (LLINs) are a key vector control tool used for the prevention of malaria. Active ingredient (AI) measurements in LLINs are essential for evaluating their quality and efficacy. The main aim of the present study was to determine the utility of X-ray fluorescence (XRF) spectroscopy as a suitable field-deployable tool for total AI quantification in LLINs. Methods New and unused LLIN samples containing deltamethrin (PermaNet® 2.0, n = 35) and alpha-cypermethrin (SafeNet®, n = 43) were obtained from batches delivered to Papua New Guinea (PNG) for mass distribution. Insecticides were extracted from the LLINs using a simple extraction technique and quantified using liquid chromatography mass spectrometry (LC-MS). The LC-MS results were correlated with XRF spectroscopy measurements on the same nets. Operators were blinded regarding the type of net. Bioefficacy of the LLIN samples was tested using WHO cone bioassays and test results were correlated with total AI content. Results The results indicate correlation between quantitative XRF and LC-MS. Interestingly, the total AI content was negatively correlated with bioefficacy in PermaNet® 2.0 (especially in recently manufactured nets). In contrast, AI content was positively correlated with bioefficacy in SafeNet®. These results indicate that the chemical content analysis in predelivery inspections does not always predict bioefficacy. Conclusion XRF is a promising field-deployable tool for quantification of both deltamethrin- and alpha-cypermethrin-coated LLINs. Because total AI content is not always a predictor of the efficacy of LLINs to kill mosquitoes, bioefficacy measurements should be included in predelivery inspections.",
+    "target": "cypermethrin",
+    "alternatives provided": "no",
+    "reasoning": "The abstract discusses the bioefficacy of LLINs containing alpha-cypermethrin (SafeNet®) and indicates that its AI content is positively correlated with bioefficacy, suggesting it may be a safer alternative to conventional cypermethrin-based approaches. However, it does not explicitly state that SafeNet® is safer than cypermethrin or provide specific safety advantages.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "N/A"
+  },
+  {
+    "title": "Immunoprotective effect of curcumin on cypermethrin-induced toxicity in rats",
+    "doi": "10.1080/02772248.2010.493156",
+    "year": 2010,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Assessment of field evolved resistance to some broad-spectrum insecticides in cotton jassid, Amrasca devastans from southern Punjab, Pakistan",
+    "doi": "10.1007/s12600-018-0667-5",
+    "year": 2018,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Recent Advances in Sediment Toxicity Identification Evaluations Emphasizing Pyrethroid Pesticides",
+    "doi": "10.1021/bk-2008-0991.ch017",
+    "year": 2008,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Determination of Pesticide Residues in Teas via QuEChERS Combined with Dispersive Liquid–Liquid Microextraction Followed by Gas Chromatography–Tandem Mass Spectrometry",
+    "doi": "10.1007/s10337-017-3362-7",
+    "year": 2017,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Effect of chemical inputs on the mycelial growth of Stropharia rugoso-annulata",
+    "doi": "",
+    "year": 2012,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  },
+  {
+    "title": "Selectivity of seven insecticides against pupae and adults of Chrysoperla externa (Neuroptera: Chrysopidae)",
+    "doi": "",
+    "year": 2013,
+    "abstract": "",
+    "target": "cypermethrin",
+    "reasoning": "No abstract provided.",
+    "alternatives provided": "no",
+    "model_used": "gpt-4o-mini"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Evaluation of Developmental Toxicity, Developmental Neurotoxicity, and Tissue Dose in Zebrafish Exposed to GenX and Other PFAS",
+    "doi": "10.1289/EHP5843",
+    "year": 2020,
+    "target": "perfluorohexanesulfonic acid",
+    "reasoning": "The abstract compares the toxicity of several PFAS including perfluorohexanesulfonic acid (PFHxS) and emerging fluoroether PFAS such as GenX, ADONA, and PFESA1. It states that all emerging fluoroether PFAS tested were negative for evaluated developmental toxicity and neurotoxicity outcomes, whereas PFHxS caused developmental neurotoxicity effects. This indicates that these emerging fluoroether PFAS, including GenX, have safety advantages over PFHxS and can be interpreted as safer alternatives.",
+    "alternatives": "GenX; ADONA; PFESA1",
+    "target_chemical_harm": {
+      "harms": [
+        "developmental neurotoxicity",
+        "failed swim bladder inflation",
+        "abnormal ventroflexion of the tail",
+        "hyperactivity at nonteratogenic concentrations"
+      ],
+      "rationale": "The reasoning text explicitly states that exposure to perfluorohexanesulfonic acid (PFHxS) caused failed swim bladder inflation, abnormal ventroflexion of the tail, and hyperactivity at nonteratogenic concentrations, indicating developmental neurotoxicity effects."
+    },
+    "CHEMICAL HARM": "developmental neurotoxicity, failed swim bladder inflation, abnormal ventroflexion of the tail, hyperactivity at nonteratogenic concentrations"
+  },
+  {
+    "title": "Adverse PFAS effects on mouse oocyte in vitro maturation are associated with carbon‐chain length and inclusion of a sulfonate group",
+    "doi": "10.1111/cpr.13353",
+    "year": 2022,
+    "target": "perfluorohexanesulfonic acid",
+    "reasoning": "The abstract compares the toxicity of different PFAS compounds, specifically noting that perfluorobutanesulfonic acid (PFBS) and all perfluoroalkyl carboxylic acids (PFCA) did not show similar adverse cytotoxicity as perfluorohexanesulfonic acid (PFHxS) and perfluorooctanesulfonic acid (PFOS). This indicates that PFBS and PFCA have lower reproductive toxicity and thus can be interpreted as safer alternatives to PFHxS.",
+    "alternatives": "perfluorobutanesulfonic acid (PFBS); perfluoroalkyl carboxylic acids (PFCA)",
+    "target_chemical_harm": {
+      "harms": [
+        "persistence",
+        "bioaccumulation",
+        "cytotoxicity",
+        "immunotoxicity",
+        "neurotoxicity",
+        "reproductive toxicity",
+        "induction of reactive oxygen species (ROS)",
+        "decreased mitochondrial membrane potential (MMP)",
+        "chromosome misalignment",
+        "abnormal F-actin organization",
+        "elongated spindle formation",
+        "symmetric division abnormalities in oocytes"
+      ],
+      "rationale": "The reasoning text explicitly states that PFAS, including perfluorohexanesulfonic acid (PFHxS), are persistent and bioaccumulative. Toxicological studies show PFAS cause cytotoxicity, immunotoxicity, neurotoxicity, and reproductive toxicity. Specifically, PFHxS at 600 µM reduces germinal vesicle breakdown and polar body extrusion rates, induces large polar bodies, excess reactive oxygen species, decreased mitochondrial membrane potential, chromosome misalignment, abnormal F-actin organization, elongated spindle formation, and symmetric division abnormalities in oocytes."
+    },
+    "CHEMICAL HARM": "persistence, bioaccumulation, cytotoxicity, immunotoxicity, neurotoxicity, reproductive toxicity, induction of reactive oxygen species (ROS), decreased mitochondrial membrane potential (MMP), chromosome misalignment, abnormal F-actin organization, elongated spindle formation, symmetric division abnormalities in oocytes"
+  }
+]

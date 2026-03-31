@@ -1036,7 +1036,7 @@
         "name": "Burak Kuzu"
       }
     ],
-    "abstract": "Commercial decabromodiphenyl ether (c-decaBDE) is a widely used additive flame retardant in textiles and plastics. This formulation predominantly consists of the congener BDE-209, with trace amounts of other brominated diphenyl ether congeners, such as nonabromodiphenyl ether and octabromodiphenyl ether. Recognized as a persistent organic pollutant due to its potential for long-range environmental transport, c-decaBDE poses significant environmental threats and serious human health risks, including endocrine, reproductive, developmental, and neurotoxic effects. The mechanisms underlying its neurotoxicity remain largely undefined. This study investigates the neurotoxic effects of BDE-209 in humans through network toxicology, multi-level bioinformatics approaches, and molecular docking analyses. Prediction results indicate that BDE-209 can cross the blood-brain barrier, entering the central nervous system and inducing neurotoxic effects. A comprehensive analysis has identified 294 potential targets linked to the neurotoxicity induced by BDE-209. Gene-gene interaction and pathway enrichment analyses revealed significant associations related to cellular responses to chemical stress and synaptic transmission. Further investigation of protein-protein interactions, combined with centrality analysis, identified 14 hub targets, including CaMK-II alpha, PSD-95, GluR-1, and GluN2B, as key proteins in this process. Molecular docking results indicate that BDE-209 exhibits a stronger binding affinity to GluN2B, a subunit of the N-methyl-D-aspartate (NMDA) receptors, compared to other key targets. These findings suggest that BDE-209 may disrupt the function of GluN2B-containing NMDA receptors, potentially leading to their inhibition. Such inhibition could result in reduced excitatory neurotransmission, impairing synaptic potentiation and plasticity, and ultimately contributing to neurotoxicity. Supplementary Information The online version contains supplementary material available at 10.1007/s12640-025-00741-7."
+    "abstract": "Commercial decabromodiphenyl ether (c-decaBDE) is a widely used additive flame retardant in textiles and plastics. This formulation predominantly consists of the congener BDE-209, with trace amounts of other brominated diphenyl ether congeners, such as nonabromodiphenyl ether and octabromodiphenyl ether. Recognized as a persistent organic pollutant due to its potential for long-range environmental transport, c-decaBDE poses significant environmental threats and serious human health risks, including endocrine, reproductive, developmental, and neurotoxic effects. The mechanisms underlying its neurotoxicity remain largely undefined. This study investigates the neurotoxic effects of BDE-209 in humans through network toxicology, multi-level bioinformatics approaches, and molecular docking analyses. Prediction results indicate that BDE-209 can cross the blood-brain barrier, entering the central nervous system and inducing neurotoxic effects. A comprehensive analysis has identified 294 potential targets linked to the neurotoxicity induced by BDE-209. Gene-gene interaction and pathway enrichment analyses revealed significant associations related to cellular responses to chemical stress and synaptic transmission. Further investigation of protein-protein interactions, combined with centrality analysis, identified 14 hub targets, including CaMK-II alpha, PSD-95, GluR-1, and GluN2B, as key proteins in this process. Molecular docking results indicate that BDE-209 exhibits a stronger binding affinity to GluN2B, a subunit of the N-methyl-D-aspartate (NMDA) receptors, compared to other key targets. These findings suggest that BDE-209 may disrupt the function of GluN2B-containing NMDA receptors, potentially leading to their inhibition. Such inhibition could result in reduced excitatory neurotransmission, impairing synaptic potentiation and plasticity, and ultimately contributing to neurotoxicity."
   },
   {
     "paperId": "0641ff841fe78f2bd59053ecd90d341b02f2dcf0",
@@ -1046,7 +1046,7 @@
       "PubMed": "38316742"
     },
     "url": "https://www.semanticscholar.org/paper/0641ff841fe78f2bd59053ecd90d341b02f2dcf0",
-    "title": "Investigation of the effects of different substrates on the promotion of the soil microbial consortium, encompassing bacteria and fungi, in the bioremediation of decabromodiphenyl ether (BDE-209).",
+    "title": "Investigation of the effects of different substrates on the promotion of the soil microbial consortium, encompassing bacteria and fungi, in the bioremediation of decabromodiphenyl ether (BDE-209)",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -10233,18 +10233,18 @@
     "paperId": "3c491160bb1425e75b2b0d911c04d7e19f4bb422",
     "externalIds": {
       "MAG": "2809941368",
-      "DOI": "10.4209/AAQR.2018.03.0095",
+      "DOI": "10.4209/aaqr.2018.03.0095",
       "CorpusId": 58911868
     },
     "url": "https://www.semanticscholar.org/paper/3c491160bb1425e75b2b0d911c04d7e19f4bb422",
     "title": "Levels of Non-PBDE Halogenated Fire Retardants and Brominated Dioxins and their Toxicological Effects in Indoor Environments - A Review",
-    "venue": "",
+    "venue": "Aerosol and Air Quality Research",
     "year": 2018,
     "openAccessPdf": {
       "url": "http://www.aaqr.org/article/download?articleId=6762&path=/files/article/6762/7_AAQR-18-03-OA-0095_2047-2063.pdf",
       "status": "GOLD",
       "license": "CCBY",
-      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/AAQR.2018.03.0095?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/AAQR.2018.03.0095, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4209/aaqr.2018.03.0095?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4209/aaqr.2018.03.0095, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
     },
     "publicationTypes": [
       "Review"
@@ -10279,7 +10279,7 @@
         "name": "H. Chao"
       }
     ],
-    "abstract": "Non-polybrominated diphenyl ether (non-PBDE) halogenated fire retardants (HFRs) such as new or novel brominated fire retardants (NBFRs) and dechlorane plus (DP) have been widely spread in the environment and recognized as emerging persistent organic pollutants (POPs) in the recent years, mainly due to the continuous increase in their global demand, especially after the worldwide restrictions on PBDE use. Polybrominated dibenzo-p-dioxins/furans (PBDD/Fs) are the unintentional byproducts of PBDE commercial formulations in the indoor environment. Although HFRs, including NBFRs, DP, and PBDD/Fs, are ubiquitous in the indoor environment due to the large-volume release from the surfaces of consumer products, only a few in vitro and in vivo studies have addressed their toxic effects. In this review article, global data on NBFRs, including decabromodiphenyl ethane (DBDPE), 1,2-bis(2,4,6-tribromophenoxy) ethane (BTBPE), bis(2-ethylhexyl)-3,4,5,6-tetrabromophthalate (BEH-TEBP), and 2-ethylhexyl-2,3,4,5-tetrabromobenzoate (EH-TBB), DP, including syn-DP and anti-DP, and PBDD/Fs in indoor aerosol and dust are summarized from recent literature. Based on the gathered data, indoor dust is a major sink for indoor contamination and is of great concern due to the fact that dust ingestion is one of the primary routes for human exposure to these chemicals. Lastly, the toxic effects of NBFRs, DP, and PBDD/Fs identified in in vitro and in vivo studies are summarized and discussed based on the current published reports. However, there is still a lack of sufficient toxicity data for assessing their risks. Future works are encouraged to focus on indoor PM2.5-bound HFR levels to further evaluate their toxic effects on human health."
+    "abstract": "Non-polybrominated diphenyl ether (non-PBDE) halogenated fire retardants (HFRs) such as new or novel brominated fire retardants (NBFRs) and dechlorane plus (DP) have been widely spread in the environment and recognized as emerging persistent organic pollutants (POPs) in the recent years, mainly due to the continuous increase in their global demand, especially after the worldwide restrictions on PBDE use. Polybrominated dibenzo-p-dioxins/furans (PBDD/Fs) are the unintentional byproducts of PBDE commercial formulations in the indoor environment. Although HFRs, including NBFRs, DP, and PBDD/Fs, are ubiquitous in the indoor environment due to the large-volume release from the surfaces of consumer products, only a few in vitro and in vivo studies have addressed their toxic effects. In this review article, global data on NBFRs, including decabromodiphenyl ethane (DBDPE), 1,2-bis(2,4,6-tribromophenoxy) ethane (BTBPE), bis(2-ethylhexyl)-3,4,5,6-tetrabromophthalate (BEH-TEBP), and 2-ethylhexyl-2,3,4,5-tetrabromobenzoate (EH-TBB), DP, including syn-DP and anti-DP, and PBDD/Fs in indoor aerosol and dust are summarized from recent literature. Based on the gathered data, indoor dust is a major sink for indoor contamination and is of great concern due to the fact that dust ingestion is one of the primary routes for human exposure to these chemicals. Lastly, the toxic effects of NBFRs, DP, and PBDD/Fs identified in in vitro and in vivo studies are summarized and discussed based on the current published reports. However, there is still a lack of sufficient toxicity data for assessing their risks. Future works are encouraged to focus on indoor PM2.5-bound HFR levels to further evaluate their toxic effects on human health."
   },
   {
     "paperId": "3c590ce7eccfd5ba7133be1f68afbf7cae5a9001",
@@ -14107,7 +14107,7 @@
         "name": "T. Minh"
       },
       {
-        "authorId": "2287607310",
+        "authorId": "2390250165",
         "name": "Duong Thi"
       },
       {
@@ -21991,7 +21991,7 @@
       "PubMed": "38286932"
     },
     "url": "https://www.semanticscholar.org/paper/8fe9b48508ed944ab36d35de125bf1f87fcc70a1",
-    "title": "Disclosing phototransformation mechanisms of decabromodiphenyl ether (BDE-209) in different media by simulated sunlight: Implication by compound-specific stable isotope analysis.",
+    "title": "Disclosing phototransformation mechanisms of decabromodiphenyl ether (BDE-209) in different media by simulated sunlight: Implication by compound-specific stable isotope analysis",
     "venue": "Environmental science and pollution research international",
     "year": 2024,
     "openAccessPdf": {
@@ -24090,7 +24090,7 @@
         "name": "Zhixiong Shi"
       }
     ],
-    "abstract": null
+    "abstract": "Decabromodiphenyl ether (BDE-209) and its substitute decabromodiphenyl ethane (DBDPE) are heavily used in various industrial products as flame retardant. They have been found to be persistent in the environment and have adverse health effects in humans. Although some former studies have reported toxic effects of BDE-209, the study of DBDPE's toxic effects is still in its infancy, and the effects of DBDPE on hepatotoxicity are also unclear. This study aimed to evaluate and compare the hepatotoxicity induced by BDE-209 and DBDPE using a rat model. Sprague-Dawley rats were administered DBDPE or BDE-209 (5, 50, 500 mg/kg bodyweight) intragastrically once a day for 28 days. Twenty-four hours after the end of treatment, the rats were sacrificed, and body liver weight, blood biochemical parameters, liver pathology, oxidative stress, inflammation, pregnane X receptor (PXR), constitutive androstane receptor (CAR), and changes in cytochrome P450 (CYP3A) enzymes were measured. Our results showed that both BDE-209 and DBDPE could cause liver morphological changes, induce oxidative stress, increase γ-glutamyl transferase and glucose levels in serum, and down-regulate PXR, CAR, and CYP3A expression. In addition, BDE-209 was found to increase liver weight and the ratio of liver/body weight, lead to elevated total bilirubin and indirect bilirubin levels in serum, and induce inflammation. The present study indicated that BDE-209 and DBDPE may interfere with normal metabolism in rats through oxidative stress and inflammation, which inhibit PXR and CAR to induce the expression of CYP3A enzymes, and finally produce hepatotoxic effects and cause liver damage in rats. Comparatively, our results show that the damage caused by BDE-209 was more serious than that caused by DBDPE."
   },
   {
     "paperId": "9ffa9ce0bdbc4aead539f92a952fe8d313244d9a",
@@ -26108,7 +26108,7 @@
         "name": "Jianbo Zhang"
       }
     ],
-    "abstract": "Decabromodiphenyl ether (decaBDE) is a highly brominated flame retardant that recent studies have identified as a potential persistent organic pollutant. Large amounts of decaBDE have been consumed and released in the environment in China, while no emission inventory has been available until now. In this study, a substance flow analysis was applied to establish the emission inventory of decaBDE in China from 1982 (the first year of decaBDE production in China) until 2013 based on activity data, transfer coefficients, and emission factors. The results show that the stock of decaBDE continually increased, reaching a peak of 290,000tons in 2007. The annual processing capacity of decaBDE also increased, and the processing capacity in 2013 was 49,000tons. Historical accumulative emissions were estimated to be 313.3tons from 1982 to 2013, and the annual emissions peaked in 2003 at 27.5tons. On average, decaBDE processing was the major source (58.4%) of total emissions, followed by treatment, production, and usage processes. From 1982 to 2013, decaBDE was released mainly into water sources, accounting for 50.7% of the accumulative emissions. At the provincial level, Guangdong, Shandong, and Zhejiang provinces were the largest producers in China. Simulations produced by the level III fugacity model showed that the projected concentration was very consistent with the measured value. The stock of decaBDE in the soil and sediment phases accounted for 99.8% of the total stock, and the transfer among the four environmental phases occurred mainly at the atmosphere–soil interface."
+    "abstract": null
   },
   {
     "paperId": "adeb0ce4c733db831408a7f3f1c2cedeac90515d",
@@ -26318,7 +26318,7 @@
         "name": "E. Zeng"
       }
     ],
-    "abstract": "Diet is considered as the most important human exposure pathway for polybrominated diphenyl ethers (PBDEs). Metabolism and accumulation patterns of PBDEs in different growth periods of chickens are helpful for evaluating human dietary exposure, but such information is scarce. In this study, female chickens were fed with food spiked with BDE-209 at 85 mg kg−1, and the intake, accumulation, and excretion of BDE-209 and its main metabolites in various tissues were examined. Concentrations of BDE-209 in chicken tissues increased over time in a tissue-specific manner; they were the greatest in liver and generally the lowest in breast meat during the entire exposure period. The kinetic patterns were dependent on both growth-dilution effects and accumulated concentrations of BDE-209. Tissue concentrations of ∑8PBDE (sum of BDE-28, 47, 99, 100, 153, 154, 183, and 209) followed the sequence of liver > blood > skin > intestine > stomach > leg meat > breast meat. Different tissue partition coefficients and perfusion rates for blood may have resulted in different PBDE concentrations in tissues. The absorption efficiency of BDE-209 in chicken tissues followed the sequence of liver (0.15 ± 0.032%) > skin (0.14 ± 0.038%) > intestine (0.071 ± 0.021%) > breast meat (0.062 ± 0.020%) > leg meat (0.059 ± 0.016%) > stomach (0.021 ± 0.0095%), likely due in part to facilitated absorption of BDE-209 by transport proteins (P-glycoproteins). On average, 9.3 ± 1.7% of BDE-209 was excreted in feces. Estimated human average dietary intake via the consumption of chicken tissues of ∑8PBDE for adults and children was 319 and 1380 ng day−1 for liver, 211 and 632 ng day−1 for leg meat, and 104 and 311 ng day−1 for breast meat from the contaminated group. Liver clearly poses the highest exposure risk for human consumption, particularly if chickens are fed with contaminated feed."
+    "abstract": null
   },
   {
     "paperId": "af3ba2f77e9113ec86b0d18e505cea727d10ba34",
@@ -27329,7 +27329,7 @@
         "name": "Zhixiong Shi"
       }
     ],
-    "abstract": null
+    "abstract": "Recent reports indicated that decabrominated diphenyl ether (BDE-209) and decabromodiphenyl ethane (DBDPE) exist extensively in the environment. The toxicity of BDE-209 has been reported in quite a few studies, whereas the data of DBDPE are relatively rare. However, databases regarding cardiovascular toxicities of both BDE-209 and DBDPE are lacking. In this study, we investigated the vascular/cardiac trauma induced by DBDPE after oral exposure and compared the results with those of BDE-209 using rat model. Male rats were orally administered with corn oil containing DBDPE or BDE-209 (5, 50, 500 mg/kg/day) for 28 days, then oxidative stress, morphological and ultrastructural changes of the heart and abdominal aorta, levels of creatine kinase (CK) and lactate dehydrogenase (LDH), inflammatory cytokines, endothelin-1 (ET-1), and intercellular adhesion molecule-1 (ICAM-1) in the serum were monitored. Results showed that BDE-209 and DBDPE caused heart and abdominal aorta morphological and ultrastructural damage, serum CK and LDH elevation, and antioxidant enzyme activity changes. BDE-209 and DBDPE-induced inflammation was characterized by the upregulation of key inflammatory mediators, including interleukin-1beta (IL-1β), IL-6, IL-10, and tumor necrosis factor alpha (TNFα). Additionally, BDE-209 and DBDPE led to endothelial dysfunction, as evidenced by the ET-1 and ICAM-1 elevation. Our findings demonstrated that BDE-209 and DBDPE could induce oxidative stress, inflammation, and eventually lead to endothelial dysfunction and cardiovascular injury. Compared to DBDPE, these toxic responses were stronger in the hearts and abdominal aorta of Sprague-Dawley rats exposed to BDE-209. Our findings indicated a potential deleterious effect of BDE-209 and DBDPE on the cardiovascular system."
   },
   {
     "paperId": "b585025bbe97dcc922b5f186aa65dd7ae4db93c7",
@@ -28387,8 +28387,8 @@
         "name": "Phạm Đăng"
       },
       {
-        "authorId": "2258346332",
-        "name": "Trịnh Hải"
+        "authorId": "29443620",
+        "name": "T. Hai"
       },
       {
         "authorId": "2258345394",
@@ -31630,7 +31630,7 @@
         "name": "L. Melymuk"
       }
     ],
-    "abstract": "Vehicles are unique indoor environments, with interiors dominated by plastic/synthetic materials and exposure to extremes of temperature and radiation, leading to substantial potential for emissions of plastic additives from vehicle materials and subsequent exposure to drivers and passengers. Flame retardants (FRs) and per- and polyfluoroalkyl substances (PFAS) were measured in 30 dust samples collected from dashboards, seats, and trunks of cars of the same make and model (year of manufacture 1996–2021) to evaluate levels in dust and time patterns in additive use across cars of different ages. PFAS were detected in all dust samples at low levels, while FRs were detected in all samples, with some compounds consistently exceeding µg/g levels, especially tris(1,3-dichloro-2-propyl) phosphate (TDCIPP) and decabromodiphenyl ether (BDE-209), substantially higher than in other indoor environments. Although cars were of the same model, large variations were observed in FR concentrations in dust between cars, emphasizing the challenge in generalizing FR exposures from vehicle dust. Concentrations of BDE-209 in vehicle dust did not decrease over the 1996–2021 period, suggesting that restrictions on DecaBDE have had limited impact, likely due to exemptions in regulations for the automotive industry. The high FR levels indicate ongoing use of both organophosphate and brominated FRs in vehicles on the European market, although flammability standards for interior car materials are not mandated by European regulations, and the continued presence of long-restricted FRs suggests the presence of recycled plastics in vehicles; this potential exposure source may be increasing as vehicle producers aim to improve material circularity. Supplementary Information The online version contains supplementary material available at 10.1007/s10661-025-13822-z."
+    "abstract": "Vehicles are unique indoor environments, with interiors dominated by plastic/synthetic materials and exposure to extremes of temperature and radiation, leading to substantial potential for emissions of plastic additives from vehicle materials and subsequent exposure to drivers and passengers. Flame retardants (FRs) and per- and polyfluoroalkyl substances (PFAS) were measured in 30 dust samples collected from dashboards, seats, and trunks of cars of the same make and model (year of manufacture 1996–2021) to evaluate levels in dust and time patterns in additive use across cars of different ages. PFAS were detected in all dust samples at low levels, while FRs were detected in all samples, with some compounds consistently exceeding µg/g levels, especially tris(1,3-dichloro-2-propyl) phosphate (TDCIPP) and decabromodiphenyl ether (BDE-209), substantially higher than in other indoor environments. Although cars were of the same model, large variations were observed in FR concentrations in dust between cars, emphasizing the challenge in generalizing FR exposures from vehicle dust. Concentrations of BDE-209 in vehicle dust did not decrease over the 1996–2021 period, suggesting that restrictions on DecaBDE have had limited impact, likely due to exemptions in regulations for the automotive industry. The high FR levels indicate ongoing use of both organophosphate and brominated FRs in vehicles on the European market, although flammability standards for interior car materials are not mandated by European regulations, and the continued presence of long-restricted FRs suggests the presence of recycled plastics in vehicles; this potential exposure source may be increasing as vehicle producers aim to improve material circularity."
   },
   {
     "paperId": "d244e4eb639e021d567d38198544395825639c3a",
@@ -36978,7 +36978,7 @@
     },
     "url": "https://www.semanticscholar.org/paper/f511117ed2c2ad99e8706c880d00a85ab2f1b892",
     "title": "Metagenomic Studies on Microbiomes Capable of Degrading the Decabromodiphenyl Ether in River Sediments",
-    "venue": "Water, Air, &amp; Soil Pollution",
+    "venue": "Water, Air and Soil Pollution",
     "year": 2025,
     "openAccessPdf": {
       "url": "",

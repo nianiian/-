@@ -1,0 +1,148 @@
+[
+  {
+    "title": "Photocatalytic hydroxylation of benzene to phenol with dioxygen using sodium decatungstate",
+    "doi": "10.1016/j.mcat.2021.111933",
+    "year": 2021,
+    "abstract": "Abstract A one-pot hydroxylation reaction, in which benzene is converted to phenol using oxygen under mild conditions has attracted attention as an environmentally benign alternative to the cumene method. Herein, we report on the photocatalytic hydroxylation of benzene to phenol with O2 by using sodium decatungstate (W10O324−) in air atmosphere (1 atm) and at low temperature (10 °C). W10O324− was active for the benzene hydroxylation process in pure water, which achieved a ca. 16–23% phenol yield with a ca. 61–70% selectivity within 60 min. The phenol yield and the selectivity were improved through the addition of acetic acid to the reaction solution. This enhancement was due to the improved benzene solubility and suppressed benzene vaporization and phenol overoxidation. The effect of the reaction conditions on the phenol formation was investigated in detail. Under anaerobic conditions, the reduced form of W10O324− was generated, with the simultaneous formation of phenol, whereas phenol was not formed in the reoxidation of the reduced decatungstate with O2. According to a kinetic isotopic effect, the C−H bond activation process in benzene hydroxylation was dominated by electron transfer (KIE, kH/kD = 1.0). The reaction mechanism for hydroxylation of benzene to phenol was also discussed.",
+    "target": "cumene",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "sodium decatungstate"
+    ],
+    "reasoning": "'cumene' is explicitly mentioned in the abstract as part of the comparison to the described method. The alternative, sodium decatungstate, is presented as an environmentally benign alternative to the cumene method, indicating it serves as a replacement for cumene in the hydroxylation process of benzene to phenol.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded XML Fallback (431269 bytes)",
+    "fulltext_source": "xml",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "xml",
+      "extraction_method": "fulltext_xml",
+      "download_strategy": "Downloaded XML Fallback (431269 bytes)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "An iron-containing POM-based hybrid compound as a heterogeneous catalyst for one-step hydroxylation of benzene to phenol.",
+    "doi": "10.1039/d3dt03560c",
+    "year": 2023,
+    "abstract": "It is a major challenge to perform one-pot hydroxylation of benzene to phenol under mild conditions, which replaces the environmentally harmful cumene method. Thus, finding highly efficient heterogeneous catalysts that can be recycled is extremely significant. Herein, a (POM)-based hybrid compound {[FeII(pyim)2(C2H5O)][FeII(pyim)2(H2O)][PMoV2MoVI9VIV3O42]}·H2O (pyim = 2-(2-pyridyl)benzimidazole) (Fe2-PMo11V3) was successfully prepared by hydrothermal synthesis using typical Keggin POMs, iron ions and pyim ligands. Single-crystal diffraction shows that the Fe-pyim unit in Fe2-PMo11V3 forms a stable double-supported skeleton by Fe-O bonding to the polyacid anion. Remarkably, due to the introduction of vanadium, Fe2-PMo11V3 forms a divanadium-capped conformation. Benzene oxidation experiments indicated that Fe2-PMo11V3 can catalyze the benzene hydroxylation reaction to phenol in a mixed solution of acetonitrile and acetic acid containing H2O2 at 60 °C, affording a phenol yield of about 16.2% and a selectivity of about 94%.",
+    "target": "cumene",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "Fe2-PMo11V3"
+    ],
+    "reasoning": "The abstract explicitly mentions 'cumene' and indicates that the method described replaces the environmentally harmful cumene method for hydroxylation of benzene to phenol. Therefore, it suggests a functional substitute that reduces the usage of cumene.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Selenium Scraper)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "extracted",
+      "substitution_logic": {
+        "target_problem": "high energy consumption and toxic intermediates produced by the conventional cumene method for phenol production",
+        "traditional_material_replaced": "cumene method for phenol production",
+        "alternative_solution": "Fe2-PMo11V3 as a catalyst for one-pot hydroxylation of benzene to phenol",
+        "relationship_type": "process_substitution"
+      },
+      "explicit_dosages": [
+        {
+          "material": "H2O2",
+          "value": "30 mmol",
+          "ratio_type": "concentration",
+          "evidence_location": "Table 3",
+          "context": "used as an oxidant in the hydroxylation reaction"
+        },
+        {
+          "material": "Fe2-PMo11V3",
+          "value": "10 mg",
+          "ratio_type": "catalyst_loading",
+          "evidence_location": "Table 2",
+          "context": "optimal catalyst dosage for the reaction"
+        },
+        {
+          "material": "acetic acid",
+          "value": "1 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Table 3",
+          "context": "used as a co-solvent in the reaction"
+        },
+        {
+          "material": "acetonitrile",
+          "value": "5 mL",
+          "ratio_type": "volume",
+          "evidence_location": "Table 3",
+          "context": "used as a solvent in the reaction"
+        }
+      ],
+      "synthesis_conditions": [
+        {
+          "parameter": "reaction_time",
+          "value": "6 h",
+          "evidence_location": "Table 2",
+          "context": "duration of the hydroxylation reaction"
+        },
+        {
+          "parameter": "temperature",
+          "value": "60 °C",
+          "evidence_location": "Table 2",
+          "context": "reaction temperature for the hydroxylation of benzene"
+        }
+      ],
+      "material_properties": [],
+      "performance_metrics": [
+        {
+          "metric_name": "phenol_yield",
+          "metric_value": "16.2%",
+          "comparison_baseline": null
+        },
+        {
+          "metric_name": "phenol_selectivity",
+          "metric_value": "94%",
+          "comparison_baseline": null
+        }
+      ],
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_selenium_scraper",
+      "download_strategy": "Downloaded PDF (Selenium Scraper)",
+      "confidence": "high"
+    }
+  },
+  {
+    "title": "Highly Dispersed Vanadia Anchored on Protonated g-C3N4 as an Efficient and Selective Catalyst for the Hydroxylation of Benzene into Phenol",
+    "doi": "10.3390/molecules27206965",
+    "year": 2022,
+    "abstract": "The direct hydroxylation of benzene is a green and economical-efficient alternative to the existing cumene process for phenol production. However, the undesired phenol selectivity at high benzene conversion hinders its wide application. Here, we develop a one-pot synthesis of protonated g-C3N4 supporting vanadia catalysts (V-pg-C3N4) for the efficient and selective hydroxylation of benzene. Characterizations suggest that protonating g-C3N4 in diluted HCl can boost the generation of amino groups (NH/NH2) without changing the bulk structure. The content of surface amino groups, which determines the dispersion of vanadia, can be easily regulated by the amount of HCl added in the preparation. Increasing the content of surface amino groups benefits the dispersion of vanadia, which eventually leads to improved H2O2 activation and benzene hydroxylation. The optimal catalyst, V-pg-C3N4-0.46, achieves 60% benzene conversion and 99.7% phenol selectivity at 60 oC with H2O2 as the oxidant.",
+    "target": "cumene",
+    "alternatives provided": "yes",
+    "alternatives": [
+      "protonated g-C3N4 supporting vanadia catalysts (V-pg-C3N4)"
+    ],
+    "reasoning": "'cumene' is explicitly mentioned in the abstract as part of the existing process for phenol production. The abstract describes a new method for phenol production that serves as an alternative to the cumene process, indicating that it could replace the cumene process itself.",
+    "model_used": "gpt-4o-mini",
+    "download_status": "Downloaded PDF (Webpage Capture) (44475 bytes)",
+    "fulltext_source": "pdf",
+    "dosage_info": {
+      "status": "irrelevant",
+      "reason": "[Target] is used as a [reactant|pollutant|measurement subject], not a material being substituted.",
+      "detected_role": "reactant",
+      "substitution_logic": null,
+      "explicit_dosages": null,
+      "synthesis_conditions": null,
+      "material_properties": null,
+      "performance_metrics": null,
+      "partial_data": null,
+      "text_source": "pdf",
+      "extraction_method": "fulltext_pdf_webpage_capture",
+      "download_strategy": "Downloaded PDF (Webpage Capture) (44475 bytes)",
+      "confidence": "high"
+    }
+  }
+]

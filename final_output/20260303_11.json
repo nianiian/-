@@ -1,0 +1,348 @@
+[
+  {
+    "title": "Relationship Between Sulfidated Nano Zero Valent Iron and a Reductive Dechlorinating Microbial Culture - Synergistic or Antagonistic?",
+    "doi": "10.3897/aca.6.e111354",
+    "year": 2023,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the use of CMC-S-nZVI as a treatment that successfully degrades 1,2-dichloroethane (1,2-DCA) in combination with a microbial culture, suggesting it is a safer alternative due to its ability to generate lesser amounts of toxic intermediates compared to conventional methods. This indicates a safety advantage over 1,2-dichloroethane-based approaches.",
+    "alternatives": "CMC-S-nZVI",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It discusses the degradation of 1,2-dichloroethane and its interaction with other substances but does not mention toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to the chemical."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Efficient Isomerization of α-Pinene Oxide to Campholenic Aldehyde Promoted by a Mixed-Ring Analogue of Molybdenocene",
+    "doi": "10.1021/ACSSUSCHEMENG.9B03087",
+    "year": 2019,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that the ionic liquid [Choline][NTf2] can achieve similar or better yields in a shorter time compared to the use of 1,2-dichloroethane, suggesting it is a safer alternative due to its improved performance and potential environmental benefits.",
+    "alternatives": "[Choline][NTf2]",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Modification of Zero-valent Iron with Fe-N4 Coordination Structure Enables Dechlorination of 1,2-Dichloroethane.",
+    "doi": "10.1021/acs.est.5c08914",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract presents a modified zero-valent iron composite (Fe0@FeNC) that demonstrates effective dechlorination of 1,2-dichloroethane, indicating it as a safer alternative due to its ability to degrade this contaminant significantly. The performance of Fe0@FeNC suggests it can replace conventional methods that are ineffective against 1,2-DCA.",
+    "alternatives": "Fe0@FeNC",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the dechlorination process and the effectiveness of ZVI composites in degrading the chemical without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Selective Adsorption of VOCs/Water Vapor on Activated Carbon: The Role of Adsorbent and VOC Molecular Polarity",
+    "doi": "10.3390/separations12040086",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the performance of heat-treated coconut shell activated carbon (HCSC) in selectively adsorbing toluene compared to 1,2-dichloroethane, indicating that HCSC has superior adsorption selectivity for toluene over 1,2-dichloroethane. This suggests that HCSC may serve as a safer alternative in contexts where 1,2-dichloroethane is typically used, particularly in humid industrial conditions.",
+    "alternatives": "heat-treated coconut shell activated carbon (HCSC)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane, such as toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Microencapsulation of Lead-Halide Perovskites in an Oil-in-Fluorine Emulsion for Cell Imaging",
+    "doi": "10.3390/nano13091540",
+    "year": 2023,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract describes the development of CsPbBr3 microcapsules that exhibit extremely low cytotoxicity and improved stability compared to conventional methods involving 1,2-dichloroethane. This suggests that the microcapsules are a safer alternative due to their biosafety and reduced toxicity.",
+    "alternatives": "CsPbBr3 microcapsules",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Exploring Solvent Effects in the Radiosynthesis of 18F-Labeled Thymidine Analogues toward Clinical Translation for Positron Emission Tomography Imaging.",
+    "doi": "10.1021/acsptsci.0c00184",
+    "year": 2020,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract explicitly states that 1,4-dioxane is used to replace 1,2-dichloroethane and is analyzed as a better solvent in terms of radiochemical yield and toxicity concern, indicating it is a safer alternative.",
+    "alternatives": "1,4-dioxane",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It only mentions that 1,4-dioxane is a better solvent in terms of toxicity concern compared to 1,2-dichloroethane, but does not provide specific details about the harms of 1,2-dichloroethane itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Novel and Efficient Synthesis of Phenethyl Formate via Enzymatic Esterification of Formic Acid",
+    "doi": "10.3390/biom10010070",
+    "year": 2020,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that when 1,2-dichloroethane is replaced with toluene as the solvent, the process remains efficient and is described as more environmentally friendly than current methods. This suggests that toluene is a safer alternative to 1,2-dichloroethane.",
+    "alternatives": "toluene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the synthesis process and comparisons with other solvents without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Degradation of 1,2-dichloroethane in real polluted groundwater by using enriched bacterial consortia in aerobic and anaerobic laboratory-scale conditions",
+    "doi": "10.1016/j.ibiod.2023.105644",
+    "year": 2023,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the use of poly-β-hydroxybutyrate (PHB) as an electron donor in the degradation of 1,2-dichloroethane, indicating that PHB can sustain reductive dechlorination processes. This suggests that PHB may serve as a safer alternative to 1,2-dichloroethane-based methods, as it facilitates the removal of the contaminant while potentially reducing associated risks.",
+    "alternatives": "poly-β-hydroxybutyrate (PHB)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the experimental setup and results related to its removal from contaminated groundwater without mentioning specific toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Fabrication of Superhydrophobic/Superoleophilic Bamboo Cellulose Foam for Oil/Water Separation",
+    "doi": "10.3390/polym14235162",
+    "year": 2022,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract presents bamboo cellulose foam as a biodegradable, low-cost, and environmentally friendly alternative for oil absorption, which implies a safer option compared to conventional materials like 1,2-dichloroethane. It highlights the foam's recyclability and natural composition, suggesting safety advantages over 1,2-dichloroethane.",
+    "alternatives": "bamboo cellulose foam",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the development of a bamboo cellulose foam for oil absorption and does not mention toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to the chemical."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "1,2-Dichloroethane induces testicular pyroptosis by activating piR-mmu-1019957/IRF7 pathway and the protective effects of melatonin.",
+    "doi": "10.1016/j.envint.2024.108480",
+    "year": 2024,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that melatonin mitigates the testicular toxicity caused by 1,2-Dichloroethane, suggesting its potential as a therapeutic intervention against the harmful effects of 1,2-Dichloroethane. This implies that melatonin could be considered a safer alternative in this context.",
+    "alternatives": "melatonin",
+    "target_chemical_harm": {
+      "harms": [
+        "testicular toxicity",
+        "induction of pyroptosis",
+        "cellular membrane pore formation",
+        "lactate dehydrogenase leakage"
+      ],
+      "rationale": "The reasoning text explicitly states various harms associated with 1,2-dichloroethane, including testicular toxicity and cellular damage mechanisms such as pyroptosis and membrane disruption."
+    },
+    "CHEMICAL HARM": "testicular toxicity, induction of pyroptosis, cellular membrane pore formation, lactate dehydrogenase leakage"
+  },
+  {
+    "title": "Pump-and-treat enhanced in situ chemical oxidation for 1,2-dichloroethane remediation: sandbox simulation and field-scale application",
+    "doi": "10.1016/j.jwpe.2025.108263",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the development of a pump-and-treat enhanced in situ chemical oxidation system using sodium persulphate, which is implied to be a safer and more effective method for remediating groundwater contaminated by 1,2-dichloroethane. It highlights significant improvements in remediation efficiency and reduced environmental risks, suggesting that this method serves as a safer alternative to conventional ISCO methods that utilize 1,2-dichloroethane.",
+    "alternatives": "sodium persulphate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text discusses groundwater contamination by 1,2-dichloroethane and the development of remediation methods, but it does not explicitly state any specific harms or hazards associated with the chemical itself."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Headspace GC/MS Analysis of Residual Solvents in Dietary Supplements, Cosmetics, and Household Products Using Ethyl Lactate as a Dissolution Medium.",
+    "doi": "10.5740/jaoacint.19-0260",
+    "year": 2020,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract presents ethyl lactate (EL) as a solvent with low toxicity and less environmental impact, indicating it as a safer alternative to DMSO and DMF. While it does not explicitly compare EL to 1,2-dichloroethane, the context of establishing a safer dissolution medium implies a relative safety advantage in the conventional use-case involving toxic solvents, including 1,2-dichloroethane.",
+    "alternatives": "ethyl lactate",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It primarily discusses the use of ethyl lactate as an alternative solvent and does not provide specific information on toxicity types, endocrine disruption, persistence, bioaccumulation, or occupational hazards related to 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Green Catalytic Synthesis of Ethylenediamine from Ethylene Glycol and Monoethanolamine: A Review",
+    "doi": "10.1021/acsomega.4c00709",
+    "year": 2024,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract explicitly states that the catalytic amination of ethylene glycol (EG) is an 'economical and environmentally benign route' compared to the 'industrial approach of ammonolysis of 1,2-dichloroethane', indicating that this method is a safer alternative to 1,2-dichloroethane.",
+    "alternatives": "ethylene glycol (EG)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Research on the Anti-Corrosion Performance of HNS Spill Containment Materials on Water",
+    "doi": "10.1109/ICTIS68762.2025.11214849",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that EPDM rubber outperforms PVC in corrosion resistance and is suitable for containment applications involving 1,2-dichloroethane, suggesting it is a safer alternative in this context.",
+    "alternatives": "EPDM rubber",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the material properties and performance of EPDM rubber in relation to various hazardous and noxious substances (HNS), without detailing specific toxicological or environmental impacts of the target chemical."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Extraction of β-carotene from peppers by means of certain organic solvents",
+    "doi": "10.1051/bioconf/202412201019",
+    "year": 2024,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that isopropanol is the best organic solvent for extracting β-carotene from peppers, suggesting it has superior extraction ability compared to 1,2-dichloroethane. This implies that isopropanol may be a safer alternative due to its effectiveness in extraction without highlighting the safety concerns of 1,2-dichloroethane directly.",
+    "alternatives": "isopropanol",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Electron Fluxes in Biocathode Bioelectrochemical Systems Performing Dechlorination of Chlorinated Aliphatic Hydrocarbons",
+    "doi": "10.3389/fmicb.2018.02306",
+    "year": 2018,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the dechlorination of 1,2-dichloroethane (1,2-DCA) using a biocathode bioelectrochemical system, which results in the production of non-toxic ethene as the final metabolite. This indicates a safer alternative to 1,2-dichloroethane due to the non-toxic nature of the end product.",
+    "alternatives": "ethene",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It primarily discusses the dechlorination process and the efficiency of biocathodes without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Involvement of CYP2E1 in the Course of Brain Edema Induced by Subacute Poisoning With 1,2-Dichloroethane in Mice",
+    "doi": "10.3389/fphar.2018.01317",
+    "year": 2018,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the effects of diallyl sulfide (DAS) as an intervention in mice poisoned with 1,2-dichloroethane, showing improvements in brain edema and oxidative damage. This suggests that DAS may serve as a safer alternative to 1,2-dichloroethane, as it mitigates the harmful effects associated with 1,2-DCE exposure.",
+    "alternatives": "diallyl sulfide (DAS)",
+    "target_chemical_harm": {
+      "harms": [
+        "induced brain edema",
+        "oxidative damage",
+        "tight junction disruption"
+      ],
+      "rationale": "The reasoning text explicitly mentions harms related to brain edema, oxidative damage, and tight junction disruption caused by 1,2-dichloroethane poisoning."
+    },
+    "CHEMICAL HARM": "induced brain edema, oxidative damage, tight junction disruption"
+  },
+  {
+    "title": "Distinct Catalytic Behaviors between Two 1,4-Dioxane Degrading Monooxygenases: Kinetics, Inhibition, and Substrate Range.",
+    "doi": "10.1021/acs.est.9b05671",
+    "year": 2019,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the catalytic behavior of propane monooxygenase (PRM) in degrading 1,4-dioxane and its ability to also break down chlorinated pollutants, including 1,2-dichloroethane. It suggests that PRM may be more physiologically and ecologically advantageous, indicating a safer alternative to conventional methods involving 1,2-dichloroethane.",
+    "alternatives": "propane monooxygenase (PRM)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It primarily discusses the degradation of dioxane and the performance of specific enzymes without detailing any toxicological effects or environmental hazards related to 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Caffeic acid phenethyl ester alleviates 1,2-dichloroethane-induced toxic cerebral edema: central and peripheral mechanisms",
+    "doi": "10.3389/fphar.2025.1734227",
+    "year": 2026,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract presents caffeic acid phenethyl ester (CAPE) as a protective agent against the toxic effects of 1,2-dichloroethane, indicating its potential as a safer alternative by alleviating cerebral edema and reducing inflammation and oxidative stress associated with 1,2-DCE exposure.",
+    "alternatives": "caffeic acid phenethyl ester (CAPE)",
+    "target_chemical_harm": {
+      "harms": [
+        "toxic cerebral edema",
+        "inflammation",
+        "oxidative stress"
+      ],
+      "rationale": "The reasoning text explicitly mentions toxic cerebral edema as a harm caused by 1,2-dichloroethane, along with inflammation and oxidative stress as key mechanisms involved in this toxicity."
+    },
+    "CHEMICAL HARM": "toxic cerebral edema, inflammation, oxidative stress"
+  },
+  {
+    "title": "Ipso‐Nitration of p‐tert‐Butylcalix[4]arenes with tert‐Butyl Nitrite",
+    "doi": "10.1002/slct.202500878",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that tert‐butyl nitrite can be used as an alternative and efficient reagent for ipso‐nitration, suggesting it may serve as a safer alternative to 1,2-dichloroethane, although it does not explicitly state safety advantages. However, the context implies a comparison to conventional methods involving 1,2-dichloroethane.",
+    "alternatives": "tert‐butyl nitrite",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Identification of Catalytic Active Sites in Nitrogen-Doped Carbon for Electrocatalytic Dechlorination of 1,2-Dichloroethane",
+    "doi": "10.1021/acscatal.9b02853",
+    "year": 2019,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that nitrogen (N)-doped carbon materials are considered a promising alternative to noble-metal catalysts for the electrocatalytic dechlorination of 1,2-dichloroethane (DCE). This suggests that these materials may provide a safer option in the context of DCE dechlorination, as they are being proposed as a replacement for conventional catalysts used in this process.",
+    "alternatives": "nitrogen-doped carbon",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It focuses on the development of catalysts for its dechlorination without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Rapid removal of detergent in glycolipids using ionic liquids",
+    "doi": "10.1007/s44211-022-00139-x",
+    "year": 2022,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract explicitly states that ionic liquids, specifically 1-butyl-3-methylimidazolium iodide, were used as a suitable alternative to 1,2-dichloroethane (DCE) for detergent removal, addressing the drawbacks associated with DCE, such as environmental risks and harmful effects.",
+    "alternatives": "1-butyl-3-methylimidazolium iodide",
+    "target_chemical_harm": {
+      "harms": [
+        "potentially carcinogenic",
+        "environmental risks",
+        "high vaporability",
+        "flammability"
+      ],
+      "rationale": "The reasoning text explicitly mentions harmful effects, including potential carcinogenicity, as well as environmental risks and physical hazards such as high vaporability and flammability associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": "potentially carcinogenic, environmental risks, high vaporability, flammability"
+  },
+  {
+    "title": "Catalytic Upcycling of PET: From Waste to Chemicals and Degradable Polymers.",
+    "doi": "10.1021/acs.accounts.5c00493",
+    "year": 2025,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract discusses the development of a degradable polyester, poly(ethylene terephthalate)-poly(ethylene-1,4-cyclohexanedicarboxylate) (PET-PECHD), which is presented as a sustainable alternative for packaging materials. This implies a safer alternative to conventional plastics, including 1,2-dichloroethane-based approaches, due to its degradability and preservation of mechanical properties.",
+    "alternatives": "poly(ethylene terephthalate)-poly(ethylene-1,4-cyclohexanedicarboxylate) (PET-PECHD)",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane. It primarily discusses the upcycling of PET and related processes without mentioning toxicity, endocrine disruption, persistence, bioaccumulation, or occupational hazards."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Pd supported catalyst for gas-phase 1,2-dichloroethane abatement: Efficiency and high selectivity towards oxygenated products",
+    "doi": "10.1016/J.JIEC.2017.08.010",
+    "year": 2018,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that the Pd/HAP system does not yield the vinyl chloride intermediate product, which is a known toxic byproduct associated with 1,2-dichloroethane oxidation. This suggests a safety advantage, implying that Pd/HAP could be a safer alternative to conventional systems that utilize 1,2-dichloroethane.",
+    "alternatives": "Pd/HAP",
+    "target_chemical_harm": {
+      "harms": [],
+      "rationale": "The reasoning text does not explicitly state any harms or hazards associated with 1,2-dichloroethane."
+    },
+    "CHEMICAL HARM": ""
+  },
+  {
+    "title": "Factors ameliorate pro-inflammatory microglia polarization through inhibition of reactive astrocytes induced by 2-chloroethanol.",
+    "doi": "10.1016/j.ecoenv.2023.115130",
+    "year": 2023,
+    "target": "1,2-dichloroethane",
+    "reasoning": "The abstract indicates that fluorocitrate (FC), GIBH-130 (GI), and diacerein (Dia) may serve as potential therapeutic agents for 1,2-dichloroethane (1,2-DCE) poisoning, suggesting they could be safer alternatives by ameliorating the pro-inflammatory effects associated with 1,2-DCE exposure.",
+    "alternatives": "fluorocitrate; GIBH-130; diacerein",
+    "target_chemical_harm": {
+      "harms": [
+        "neuroinflammatory response",
+        "brain edema"
+      ],
+      "rationale": "The reasoning text explicitly mentions neuroinflammatory response and brain edema as harms associated with 1,2-dichloroethane intoxication in mice."
+    },
+    "CHEMICAL HARM": "neuroinflammatory response, brain edema"
+  }
+]

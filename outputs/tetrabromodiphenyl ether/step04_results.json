@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Reproductive toxicity of emerging plasticizers, flame retardants, and bisphenols, using culture of the rat fetal testis",
+    "doi": "10.1093/biolre/ioad018",
+    "year": 2023,
+    "target": "tetrabromodiphenyl ether",
+    "reasoning": "The abstract compares the toxicity of legacy chemicals including 2,2′4,4′-tetrabromodiphenyl ether (BDE47) with their replacements, specifically tributoxyethyl phosphate and isopropylated triphenyl phosphate as replacements for BDE47. It states that a decrease in germ cell density was observed only after treatment with MEHP or BDE47, implying that the replacements did not cause this toxicity. It also concludes that some replacement chemicals appear less toxic in this model, indicating a safety advantage over BDE47.",
+    "alternatives": "tributoxyethyl phosphate; isopropylated triphenyl phosphate",
+    "target_chemical_harm": {
+      "harms": [
+        "endocrine disrupting activity",
+        "decrease in germ cell density"
+      ],
+      "rationale": "The reasoning text explicitly states that 2,2′4,4′-tetrabromodiphenyl ether (BDE47) is regulated due to its endocrine disrupting activities and that exposure to BDE47 caused a decrease in germ cell density in fetal rat testis organ culture."
+    },
+    "CHEMICAL HARM": "endocrine disrupting activity, decrease in germ cell density"
+  }
+]

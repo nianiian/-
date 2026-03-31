@@ -1,0 +1,1619 @@
+[
+  {
+    "paperId": "000754ab68b294571845d575dcf4d4f7c46afbd7",
+    "externalIds": {
+      "MAG": "2766167282",
+      "DOI": "10.1016/j.toxlet.2017.07.496",
+      "CorpusId": 89923871
+    },
+    "url": "https://www.semanticscholar.org/paper/000754ab68b294571845d575dcf4d4f7c46afbd7",
+    "title": "Influence of dietary cypermethrin, vitamin E and selenium on biochemical parameters of the lepidopteran model host Galleria mellonella",
+    "venue": "",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.toxlet.2017.07.496?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.toxlet.2017.07.496, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "144093408",
+        "name": "M. Coşkun"
+      },
+      {
+        "authorId": "11419017",
+        "name": "Tamer Kayis"
+      },
+      {
+        "authorId": "13209124",
+        "name": "E. Gulsu"
+      },
+      {
+        "authorId": "84533499",
+        "name": "E. Alp"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0015ea29e0b01ea178c65c2945fa4ed6fbc13b30",
+    "externalIds": {
+      "MAG": "2151622928",
+      "DOI": "10.1653/024.097.0239",
+      "CorpusId": 53131705
+    },
+    "url": "https://www.semanticscholar.org/paper/0015ea29e0b01ea178c65c2945fa4ed6fbc13b30",
+    "title": "Toxicity of Insecticides to Frankliniella invasor (Thysanoptera: Thripidae) Under Laboratory Conditions",
+    "venue": "",
+    "year": 2014,
+    "openAccessPdf": {
+      "url": "https://bioone.org/journals/florida-entomologist/volume-97/issue-2/024.097.0239/Toxicity-of-Insecticides-to-Frankliniella-invasor-Thysanoptera--Thripidae-Under/10.1653/024.097.0239.pdf",
+      "status": "GOLD",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1653/024.097.0239?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1653/024.097.0239, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "145616894",
+        "name": "F. Infante"
+      },
+      {
+        "authorId": "1406480995",
+        "name": "J. D. Leon"
+      },
+      {
+        "authorId": "1402994546",
+        "name": "J. Valle-Mora"
+      },
+      {
+        "authorId": "2679235",
+        "name": "J. Funderburk"
+      }
+    ],
+    "abstract": "Abstract \n Mango cv. ‘Ataulfo’ is perhaps the most popular mango produced in Mexico. The presence of high densities of thrips in mango blossoms, mainly the species Frankliniella invasor Sakimura, has been linked to yield decline. Growers spray synthetic insecticides on a regular basis against thrips to reduce their numbers, but no studies on the effectiveness of these insecticides have been conducted. The present study was undertaken with the objective of assessing the toxicity of 4 insecticides commonly used by growers. Commercial formulations of spinosad, imidacloprid, malathion, and &agr;-cypermethrin were evaluated on adults of F. invasor under laboratory conditions. Six concentrations of each insecticide were assessed: 0.1, 1, 10, 100, 1000, and 10,000 ppm. Snap bean pods were submerged into the different concentrations of insecticides, dried on paper towels, and placed in a plastic container with the thrips adults. A completely randomized design with 10 replicates per treatment was performed. Probit analyses revealed that spinosad and &agr;-cypermethrin were the most toxic insecticides for F. invasor with estimated LC50 values of 0.413 and 0.636 ppm, respectively. No significant differences in toxicity were found between imidacloprid (LC50 = 23.013 ppm) and malathion (LC50 = 34.422 ppm). Mortality in control treatments (distilled water) was never higher than 14%. Our study suggests the use of spinosad and &agr;-cypermethrin as the best control for F. invasor. However, these results should be complemented with field evaluations before being recommended to mango growers."
+  },
+  {
+    "paperId": "001e4b4d6835c43c7fb8fbe89962ba577fe44178",
+    "externalIds": {
+      "MAG": "2265403121",
+      "CorpusId": 87666266
+    },
+    "url": "https://www.semanticscholar.org/paper/001e4b4d6835c43c7fb8fbe89962ba577fe44178",
+    "title": "Studies on the residues fate of quinalphos, methomyl and alpha-cypermethrin in paddy under West Bengal conditions",
+    "venue": "",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "5500052",
+        "name": "A. Samanta"
+      },
+      {
+        "authorId": "152709701",
+        "name": "S. Jana"
+      },
+      {
+        "authorId": "143903147",
+        "name": "N. Nair"
+      },
+      {
+        "authorId": "48372801",
+        "name": "A. Chowdhury"
+      },
+      {
+        "authorId": "12785521",
+        "name": "A. Somchoudhury"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "002910efcf40b56a4ea343be4ea56efae1ea206f",
+    "externalIds": {
+      "MAG": "2616073954",
+      "DOI": "10.1590/1983-21252017V30N314RC",
+      "CorpusId": 89956249
+    },
+    "url": "https://www.semanticscholar.org/paper/002910efcf40b56a4ea343be4ea56efae1ea206f",
+    "title": "TOXICIDADE DE INSETICIDAS UTILIZADOS NO MELOEIRO SOBRE PRIMEIRO INSTAR DE Chrysoperla genanigra FREITAS (NEUROPTERA: CHRYSOPIDAE)",
+    "venue": "",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "http://www.scielo.br/pdf/rcaat/v30n3/1983-2125-rcaat-30-03-00662.pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1590/1983-21252017V30N314RC?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1590/1983-21252017V30N314RC, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "143975087",
+        "name": "Bárbara K. Silva"
+      },
+      {
+        "authorId": "36690276",
+        "name": "M. S. Godoy"
+      },
+      {
+        "authorId": "89060098",
+        "name": "Alricélia Gomes de Lima"
+      },
+      {
+        "authorId": "1441563940",
+        "name": "A. K. S. D. Oliveira"
+      },
+      {
+        "authorId": "39873125",
+        "name": "P. Pastori"
+      }
+    ],
+    "abstract": "Brazil is one of the world's largest producers of melon (Cucumis melo L.), and Rio Grande do Norte and Ceara are the largest producers states of the country (99% of exports). This crop had great socio-economic importance in the Brazilian Northeast, however, it is affected by insect pests and consequently, large amounts of pesticides are applied to it, which greatly affect beneficial organisms, such as Chrysopidae. This bioassay evaluated the toxicity of nine insecticides used in commercial crops of muskmelon, applied to first-instar larvae of Chrysoperla genanigra of up to 24-hour-old, from mass rearing cultures. Sublethal effects were evaluated, classifying the insecticides into the toxicity classes recommended by the IOBC. A completely randomized design was used, consisting of ten treatments (clothianidin, pymetrozine, lambda-cyhalothrin, chlorantraniliprole, indoxacarb, pyriproxyfen, beta-cyfluthrin+imidacloprid, imidacloprid, beta-cypermethrin and a control consisted of distilled water). The treatments consisted of exposure of thirty larvae to dry residues of each product in Petri dishes, assessing their mortality, duration of instars, sex ratio, fecundity and viability of eggs from adults of the insects evaluated. The products were classified in toxicity classes as harmful (Class 4) (clothianidin, pymetrozine, indoxacarb, lambda-cyhalothrin, beta-cyfluthrin+imidacloprid, imidacloprid, beta-cypermethrin and pyriproxyfen) and innocuous (Class 1) (chlorantraniliprole) to first-instar larvae of C. genanigra, by calculate their total effect. Based on this work, chlorantraniliprole is the only recommended insecticide for use in integrated pest management (IPM) programs in muskmelon crops."
+  },
+  {
+    "paperId": "002cadcb28a7d8637787bf41910254445442ae26",
+    "externalIds": {
+      "MAG": "2117510296",
+      "DOI": "10.1111/J.1751-0813.1990.TB07728.X",
+      "CorpusId": 42708082,
+      "PubMed": "2375721"
+    },
+    "url": "https://www.semanticscholar.org/paper/002cadcb28a7d8637787bf41910254445442ae26",
+    "title": "Evaluation of ear tags impregnated with cypermethrin for the control of sheep body lice (Damalinia ovis).",
+    "venue": "Australian Veterinary Journal",
+    "year": 1990,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1111/J.1751-0813.1990.TB07728.X?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/J.1751-0813.1990.TB07728.X, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2173059482",
+        "name": "P. James"
+      },
+      {
+        "authorId": "13217605",
+        "name": "P. Erkerlenz"
+      },
+      {
+        "authorId": "2063091864",
+        "name": "R. Meade"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "003968c9c7f7e540a30500cb4ac9c785728537a7",
+    "externalIds": {
+      "PubMedCentral": "6556078",
+      "MAG": "2963834797",
+      "DOI": "10.1093/jisesa/iez054",
+      "CorpusId": 182950123,
+      "PubMed": "31175834"
+    },
+    "url": "https://www.semanticscholar.org/paper/003968c9c7f7e540a30500cb4ac9c785728537a7",
+    "title": "Screening Aedes aegypti (Diptera: Culicidae) Populations From Pernambuco, Brazil for Resistance to Temephos, Diflubenzuron, and Cypermethrin and Characterization of Potential Resistance Mechanisms",
+    "venue": "Journal of Insect Science",
+    "year": 2019,
+    "openAccessPdf": {
+      "url": "https://academic.oup.com/jinsectscience/article-pdf/19/3/16/28954091/iez054.pdf",
+      "status": "GOLD",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC6556078, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2320294002",
+        "name": "Ana Paula de Araújo"
+      },
+      {
+        "authorId": "48032782",
+        "name": "M. S. Paiva"
+      },
+      {
+        "authorId": "146032491",
+        "name": "A. Cabral"
+      },
+      {
+        "authorId": "89552799",
+        "name": "Antônio Emanuel Holanda Dias Cavalcanti"
+      },
+      {
+        "authorId": "145094837",
+        "name": "Luiz Fernando Freitas Pessoa"
+      },
+      {
+        "authorId": "5283582",
+        "name": "Diego Felipe Araujo Diniz"
+      },
+      {
+        "authorId": "6775650",
+        "name": "Elisama Helvecio"
+      },
+      {
+        "authorId": "51010660",
+        "name": "É. D. da Silva"
+      },
+      {
+        "authorId": "32859366",
+        "name": "N. M. da Silva"
+      },
+      {
+        "authorId": "8977952",
+        "name": "D. Anastácio"
+      },
+      {
+        "authorId": "144313237",
+        "name": "C. Pontes"
+      },
+      {
+        "authorId": "47930239",
+        "name": "V. Nunes"
+      },
+      {
+        "authorId": "144596001",
+        "name": "M. F. D. de Souza"
+      },
+      {
+        "authorId": "40239383",
+        "name": "F. Magalhães"
+      },
+      {
+        "authorId": "4010681",
+        "name": "M. A. V. de Melo Santos"
+      },
+      {
+        "authorId": "145606915",
+        "name": "C. Ayres"
+      }
+    ],
+    "abstract": "Abstract Resistance to chemical insecticides detected in Aedes aegypti (L.) mosquitoes has been a problem for the National Dengue Control Program (PNCD) over the last years. In order to provide deeper knowledge of resistance to xenobiotics, our study evaluated the susceptibility profile of temephos, diflubenzuron, and cypermethrin insecticides in natural mosquito populations from the Pernambuco State, associating these results with the local historical use of such compounds. Furthermore, mechanisms that may be associated with this particular type of resistance were characterized. Bioassays with multiple temephos and diflubenzuron concentrations were performed to detect and quantify resistance. For cypermethrin, diagnostic dose assays were performed. Biochemical tests were carried out to quantify the activity of detoxification enzymes. In addition, a screening of mutations present in the voltage-gated sodium channel gene (NaV) was performed in samples previously submitted to bioassays with cypermethrin. The populations under study were resistant to temephos and showed a positive correlation between insecticide consumption and the resistance ratio (RR) to the compound. For diflubenzuron, the biological activity ratio (BAR) ranged from 1.3 to 4.7 times, when compared to the susceptible strain. All populations showed resistance to cypermethrin. Altered enzymatic profiles of alpha, p-nitrophenyl acetate (PNPA) esterases and glutathione-S-transferases were recorded in most of these samples. Molecular analysis demonstrated that Arcoverde was the only population that presented the mutated form 1016Ile/Ile. These findings show that the situation is critical vis-à-vis the effectiveness of mosquito control using chemical insecticides, since resistance to temephos and cypermethrin is widespread in Ae. aegypti from Pernambuco."
+  },
+  {
+    "paperId": "0064b4389d5f3fd79321890cb2c2f18a94f72cbf",
+    "externalIds": {
+      "CorpusId": 251840877
+    },
+    "url": "https://www.semanticscholar.org/paper/0064b4389d5f3fd79321890cb2c2f18a94f72cbf",
+    "title": "Neuronal survival activity of S100 (cid:98)(cid:98) is enhanced by calcineurin inhibitors and requires activation of NF- (cid:107) B",
+    "venue": "",
+    "year": 1999,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "6692495",
+        "name": "A. Alexanian"
+      },
+      {
+        "authorId": "3710149",
+        "name": "J. Bamburg"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "006a542d8294c14c1488d39b7877b3c84f408c0c",
+    "externalIds": {
+      "MAG": "2633405244",
+      "DOI": "10.1166/asl.2017.9178",
+      "CorpusId": 113498536
+    },
+    "url": "https://www.semanticscholar.org/paper/006a542d8294c14c1488d39b7877b3c84f408c0c",
+    "title": "V1016G and F1534C Mutation in the VGSC Gene of Cypermethrin Resistant Aedes aegypti from Central Java",
+    "venue": "",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1166/asl.2017.9178?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1166/asl.2017.9178, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1392675908",
+        "name": "Dyah Widiastuti"
+      },
+      {
+        "authorId": "120308182",
+        "name": "Agustiningsih"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0080c53bcfac831ded76f96b8a20b67c8b6c2cfb",
+    "externalIds": {
+      "MAG": "1996892316",
+      "DOI": "10.1016/j.vetpar.2014.11.021",
+      "CorpusId": 10525905,
+      "PubMed": "25577676"
+    },
+    "url": "https://www.semanticscholar.org/paper/0080c53bcfac831ded76f96b8a20b67c8b6c2cfb",
+    "title": "Integrated control of an acaricide-resistant strain of the cattle tick Rhipicephalus microplus by applying Metarhizium anisopliae associated with cypermethrin and chlorpyriphos under field conditions.",
+    "venue": "Veterinary parasitology",
+    "year": 2015,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.vetpar.2014.11.021?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.vetpar.2014.11.021, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "14543058",
+        "name": "A. Webster"
+      },
+      {
+        "authorId": "145645770",
+        "name": "J. Reck"
+      },
+      {
+        "authorId": "38529361",
+        "name": "L. Santi"
+      },
+      {
+        "authorId": "37802171",
+        "name": "U. Souza"
+      },
+      {
+        "authorId": "1400777158",
+        "name": "B. Dall’Agnol"
+      },
+      {
+        "authorId": "4382959",
+        "name": "G. Klafke"
+      },
+      {
+        "authorId": "1401507236",
+        "name": "W. O. Beys-da-Silva"
+      },
+      {
+        "authorId": "145028187",
+        "name": "J. R. Martins"
+      },
+      {
+        "authorId": "6527602",
+        "name": "A. Schrank"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0084c8da9c0231a3482fcf98527b2335c2e70cb3",
+    "externalIds": {
+      "MAG": "2985329898",
+      "PubMedCentral": "5767937",
+      "DOI": "10.22074/ijfs.2018.5160",
+      "CorpusId": 4474966,
+      "PubMed": "29334211"
+    },
+    "url": "https://www.semanticscholar.org/paper/0084c8da9c0231a3482fcf98527b2335c2e70cb3",
+    "title": "Curcumin and Quercetin Ameliorated Cypermethrin and Deltamethrin-Induced Reproductive System Impairment in Male Wistar Rats by Upregulating The Activity of Pituitary-Gonadal Hormones and Steroidogenic Enzymes",
+    "venue": "International Journal of Fertility and Sterility",
+    "year": 2018,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC5767937, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "145457274",
+        "name": "Poonam Sharma"
+      },
+      {
+        "authorId": "2378924956",
+        "name": "Irshad Khan"
+      },
+      {
+        "authorId": "2115268977",
+        "name": "Rambir Singh"
+      }
+    ],
+    "abstract": "Background Dietary antioxidants protect tissues and organs against insecticides/xenobiotic-induced damage. In the present study, we evaluated the results of exposure to synthetic pyrethroid insecticides, cypermethrin (Cyp) and deltamethrin (Del) and possible protective effects of curcumin and quercetin on reproductive system in male Wistar rats. Materials and Methods In this controlled experimental study, 42 male Wistar rats were randomly divided into 7 groups of 6 animals. Group A served as control, group B was exposed to Cyp (2 mg/kg.bw), group C was exposed to Del (2 mg/kg.bw), group D was exposed to Cyp+Del (2 mg/kg.bw each), group E was exposed to Cyp+Del and treated with curcumin (100 mg/kg.bw), group F was exposed to Cyp+Del and treated with quercetin (100 mg/kg.bw) and group G was exposed to Cyp+Del and treated with quercetin+curcumin for 45 days. Results Exposure to Cyp and Del caused decreases in reproductive organs weight, sperm count, sperm motility, level of sex hormones viz. testosterone (T), follicle stimulating hormone (FSH) and luteinizing hormone (LH), steroidogenic enzymes viz. 3β-hydroxyl steroid dehydrogenase (3β-HSD) and 17β-HSD, non-enzymatic antioxi- dant glutathione (GSH) and enzymatic antioxidants viz. superoxide dismutase (SOD), catalase (CAT), glutathione peroxidase (GPx), glutathione-S-transferase (GST) and glutathione reductase (GR) activity and increases in sperm abnormalities and lipid peroxidation (LPO). The exposure also adversely affected the histo-achitecture of testes. Single and combined treatment with curcumin and quercetin significantly ameliorated Cyp and Del-induced damage in reproductive system. Conclusion Curcumin and quercetin protected against Cyp and Del-induced reproductive system toxicity and oxidative damage in rats. The increases in activities of 3β-HSD and 17β-HSD with concomitant increases in testosterone were mainly responsible for ameliorating effects of curcumin and quercetin. Curcumin showed slightly better activity as compared to quercetin. The combination of both antioxidants offered more protection compared to each one alone."
+  },
+  {
+    "paperId": "008c730e0f5de8fd58e5f7f514fbe283d157e77c",
+    "externalIds": {
+      "MAG": "2393595547",
+      "CorpusId": 88964331
+    },
+    "url": "https://www.semanticscholar.org/paper/008c730e0f5de8fd58e5f7f514fbe283d157e77c",
+    "title": "Efficacy of New Kinds of Pesticides on Controlling Cotton Aphid(Aphis gossypii Glover) in the Transgenic Bt Cotton Field",
+    "venue": "",
+    "year": 2006,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2040533838",
+        "name": "Peng Jun"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "009521e5edccea232bf632a6c32df491ae5132c3",
+    "externalIds": {
+      "MAG": "3095655860",
+      "DOI": "10.1016/j.envpol.2020.116006",
+      "CorpusId": 226972359,
+      "PubMed": "33189447"
+    },
+    "url": "https://www.semanticscholar.org/paper/009521e5edccea232bf632a6c32df491ae5132c3",
+    "title": "Cascading effects of insecticides and road salt on wetland communities.",
+    "venue": "Environmental Pollution",
+    "year": 2020,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.envpol.2020.116006?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.envpol.2020.116006, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "1498920133",
+        "name": "Jacquelyn L. Lewis"
+      },
+      {
+        "authorId": "2025464268",
+        "name": "G. Agostini"
+      },
+      {
+        "authorId": "2157345938",
+        "name": "Devin K. Jones"
+      },
+      {
+        "authorId": "6048969",
+        "name": "R. Relyea"
+      }
+    ],
+    "abstract": "Novel stressors introduced by human activities increasingly threaten freshwater ecosystems. The annual application of more than 2.3 billion kg of pesticide active ingredient and 22 billion kg of road salt has led to the contamination of temperate waterways. While pesticides and road salt are known to cause direct and indirect effects in aquatic communities, their possible interactive effects remain widely unknown. Using outdoor mesocosms, we created wetland communities consisting of zooplankton, phytoplankton, periphyton, and leopard frog (Rana pipiens) tadpoles. We evaluated the toxic effects of six broad-spectrum insecticides from three families (neonicotinoids: thiamethoxam, imidacloprid; organophosphates: chlorpyrifos, malathion; pyrethroids: cypermethrin, permethrin), as well as the potentially interactive effects of four of these insecticides with three concentrations of road salt (NaCl; 44, 160, 1600 Cl- mg/L). Organophosphate exposure decreased zooplankton abundance, elevated phytoplankton biomass, and reduced tadpole mass whereas exposure to neonicotinoids and pyrethroids decreased zooplankton abundance but had no significant effect on phytoplankton abundance or tadpole mass. While organophosphates decreased zooplankton abundance at all salt concentrations, effects on phytoplankton abundance and tadpole mass were dependent upon salt concentration. In contrast, while pyrethroids had no effects in the absence of salt, they decreased zooplankton and phytoplankton density under increased salt concentrations. Our results highlight the importance of multiple-stressor research under natural conditions. As human activities continue to imperil freshwater systems, it is vital to move beyond single-stressor experiments that exclude potentially interactive effects of chemical contaminants."
+  },
+  {
+    "paperId": "00955a3f0421677c5e3611e0daafb7c240c349cf",
+    "externalIds": {
+      "MAG": "1978453839",
+      "DOI": "10.1007/s12600-011-0157-5",
+      "CorpusId": 33608709
+    },
+    "url": "https://www.semanticscholar.org/paper/00955a3f0421677c5e3611e0daafb7c240c349cf",
+    "title": "Resistance of Spodoptera exigua to ten insecticides in Shandong, China",
+    "venue": "Phytoparasitica",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12600-011-0157-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12600-011-0157-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2110841713",
+        "name": "Chao Zhou"
+      },
+      {
+        "authorId": "46399518",
+        "name": "Yongqiang Liu"
+      },
+      {
+        "authorId": "2218682346",
+        "name": "Weili Yu"
+      },
+      {
+        "authorId": "153123503",
+        "name": "Zhaorong Deng"
+      },
+      {
+        "authorId": "113979555",
+        "name": "M. Gao"
+      },
+      {
+        "authorId": "50207872",
+        "name": "Feng Liu"
+      },
+      {
+        "authorId": "145453790",
+        "name": "W. Mu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00b7ebef8b9eba9b808ee7d8c4c925891f339b28",
+    "externalIds": {
+      "MAG": "2353808179",
+      "CorpusId": 131745535
+    },
+    "url": "https://www.semanticscholar.org/paper/00b7ebef8b9eba9b808ee7d8c4c925891f339b28",
+    "title": "Characteristics and evaluation of pesticide residues in surface soils and grapes from main grape-producing areas of Xuzhou city",
+    "venue": "",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "52291067",
+        "name": "Qin Yue-hua"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00c1442854c3f68d33f38a04d2bb793f37f23a39",
+    "externalIds": {
+      "PubMedCentral": "11280751",
+      "DOI": "10.3390/toxics12070477",
+      "CorpusId": 270903073,
+      "PubMed": "39058129"
+    },
+    "url": "https://www.semanticscholar.org/paper/00c1442854c3f68d33f38a04d2bb793f37f23a39",
+    "title": "Exposure of Young Children to Permethrin and Cypermethrin Insecticides in the Residential Environment",
+    "venue": "Toxics",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3390/toxics12070477",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11280751, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2309385558",
+        "name": "Siriporn Sirikanyaporn"
+      },
+      {
+        "authorId": "10245732",
+        "name": "N. Nankongnab"
+      },
+      {
+        "authorId": "5187933",
+        "name": "P. Kongtip"
+      },
+      {
+        "authorId": "3400926",
+        "name": "S. Siri"
+      },
+      {
+        "authorId": "2308669595",
+        "name": "W. Suk"
+      },
+      {
+        "authorId": "6642574",
+        "name": "S. Woskie"
+      }
+    ],
+    "abstract": "The aims of this study were to evaluate the exposure to permethrin and cypermethrin of young children aged between 2 and 5 years in Nakhon Pathom and Sing Buri provinces, Thailand. A questionnaire that included general demographic information, household characteristics, insecticide usage and exposure-related behavior in children was used to interview parents or family caregivers. Permethrin and cypermethrin concentrations on floor surfaces and children’s hands, as well as their urinary metabolites, were analyzed by gas chromatography coupled with mass spectrometry. The results showed that permethrin and cypermethrin were detected in 62% and 83% of the children’s hand wipe samples, with geometric mean (GM) levels of 0.02 µg and 0.04 µg, respectively. Permethrin and cypermethrin were detected in 79% and 93% of floor surface wipe samples, with GM levels of 0.90 µg/m2, and 1.49 µg/m2, respectively. For children’s urine, the GM concentrations of cis- and trans-DCCA, 3-PBA, and total pyrethroid metabolites were 0.84, 0.31 and 1.23 nmol/g creatinine, respectively. This study found that household insecticide product usage and having a tile floor were associated with increased permethrin concentrations on the children’s hands and floor surfaces. However, cypermethrin concentrations on floor surfaces were significantly higher in families using aerosol insecticide sprays and insecticide products in the living room and bedroom. The predictors of the total pyrethroid, DCCA and 3-PBA metabolites are permethrin on children’s hands or floor surfaces and cypermethrin on floor surfaces."
+  },
+  {
+    "paperId": "00c7c7a9a422d5c641e7bf8c918c3239d6e0a486",
+    "externalIds": {
+      "MAG": "2028965598",
+      "DOI": "10.3109/00498258309052238",
+      "CorpusId": 1858344,
+      "PubMed": "6880240"
+    },
+    "url": "https://www.semanticscholar.org/paper/00c7c7a9a422d5c641e7bf8c918c3239d6e0a486",
+    "title": "Human dose-excretion studies with the pyrethroid insecticide, cypermethrin.",
+    "venue": "Xenobiotica; the fate of foreign compounds in biological systems",
+    "year": 1983,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.3109/00498258309052238?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3109/00498258309052238, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "11489792",
+        "name": "C. Eadsforth"
+      },
+      {
+        "authorId": "87263005",
+        "name": "M. Baldwin"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00cc02696c22fa23dc606394efcafe137567c48b",
+    "externalIds": {
+      "CorpusId": 223584849
+    },
+    "url": "https://www.semanticscholar.org/paper/00cc02696c22fa23dc606394efcafe137567c48b",
+    "title": "Protecive effect of Curculigo orchioides on hemato- biochemical alterations induced by cypermethrin subacute toxicity in wistar rats",
+    "venue": "",
+    "year": 2019,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "73337745",
+        "name": "B. Poonam"
+      },
+      {
+        "authorId": "2088939656",
+        "name": "Rathod Payal"
+      },
+      {
+        "authorId": "89888009",
+        "name": "S. Waghmare"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00d459d2f1d08aa43ec55e05887cf8fa1c632839",
+    "externalIds": {
+      "MAG": "2888348757",
+      "CorpusId": 105934142
+    },
+    "url": "https://www.semanticscholar.org/paper/00d459d2f1d08aa43ec55e05887cf8fa1c632839",
+    "title": "Insecticide composition, control methods and the plant propagation material treated in this method of using the same pest",
+    "venue": "",
+    "year": 1997,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "95326504",
+        "name": "젠트 로베르트"
+      },
+      {
+        "authorId": "95109150",
+        "name": "페터 마이엔피쉬"
+      },
+      {
+        "authorId": "2077662810",
+        "name": "비쓰 페터"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "00f5009f8b133267e67ac59cc1cb3ad79549d961",
+    "externalIds": {
+      "DOI": "10.34172/jnp.2022.17303",
+      "CorpusId": 261362075
+    },
+    "url": "https://www.semanticscholar.org/paper/00f5009f8b133267e67ac59cc1cb3ad79549d961",
+    "title": "Histopathological changes in the kidney tissues of White Swiss Mice (Mus musculus L.) exposed to α-Cypermethrin",
+    "venue": "Journal of Nephropathology",
+    "year": 2022,
+    "openAccessPdf": {
+      "url": "https://nephropathol.com/Inpress/jnp-17303.pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.34172/jnp.2022.17303?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.34172/jnp.2022.17303, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2236299508",
+        "name": "Maysoon Hussein Zain"
+      },
+      {
+        "authorId": "2169063158",
+        "name": "Saphia Ali Aitte"
+      }
+    ],
+    "abstract": "α- Cypermethrin is a pyrethroid insecticide. Chronic exposure to α -cypermethrin for use in household pest control or through drinking water and fruits and vegetables contaminated with it. The kidneys are an essential organ in the human and animal body because they perform a number of major functions. One of the causes of nephrotoxicity is exposure to environmental pollutants, which often lead to direct injury to the kidney tissues, causing pathological changes. The current study was designed to investigate the deleterious effects of α- Cypermethrin when taken in two doses in the kidney tissues of Swiss laboratory mice. And the Humasan method was used to prepare the tissue sections of the kidney. Treated mice groups showed many Histopathological changes in kidney, among these in low dose in females the shrinkage of some tubular cells nuclei and necrosis of others with vacuolization in cytoplasm of cells in the glomerular shape, the emergence of a clumping of mesenchymal cells in many regions with increased tubular cells enlargement. The effects varied in the form of bleeding at one time, congestion and edema at other times and aggregation of fat cells of different sizes and inflammation and death of renal cells. In males the effects varied in the form of loss of the glomerulus, congestion and dilation of Bowman's space, glomerular necrosis or loss of glomerulus,Hemorrhage congestion, renal cell death and cells hyperplasia. In females and males at high doses, the effects in females were represented by swelling of tubular cells, loss of the glomerulus, death of tubular cells again and loss of the renal glomeruli while in males they were represented by hemorrhage and death of the renal epithelium, loss of the glomerulus and congestion of its tubules. The results of this study confirmed that α- Cypermethrin causes seriously deteriorate in Kidney tissues of Albino Swiss mice."
+  },
+  {
+    "paperId": "00fe6348257f3f2a33679416cb6afffbae307a81",
+    "externalIds": {
+      "MAG": "2098063341",
+      "CorpusId": 86754399
+    },
+    "url": "https://www.semanticscholar.org/paper/00fe6348257f3f2a33679416cb6afffbae307a81",
+    "title": "꿀벌과 서양뒤영벌에 대한 농약의 독성평가",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "80666488",
+        "name": "안기수"
+      },
+      {
+        "authorId": "88124851",
+        "name": "오만균"
+      },
+      {
+        "authorId": "87513972",
+        "name": "안희근"
+      },
+      {
+        "authorId": "88452851",
+        "name": "윤창만"
+      },
+      {
+        "authorId": "81485179",
+        "name": "김길하"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0103fc1074f4616cd5b529a599832752cc5d59c3",
+    "externalIds": {
+      "MAG": "2327158426",
+      "DOI": "10.4314/ESA.V27I2.5",
+      "CorpusId": 111927086
+    },
+    "url": "https://www.semanticscholar.org/paper/0103fc1074f4616cd5b529a599832752cc5d59c3",
+    "title": "Pesticide-related safety risks among vegetable farmers : a cross sectional study",
+    "venue": "",
+    "year": 2016,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.4314/ESA.V27I2.5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4314/ESA.V27I2.5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "2110084184",
+        "name": "J. Lu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01070ca75e2da7c2a83ebefc2b08306dcfd060c2",
+    "externalIds": {
+      "MAG": "2345450781",
+      "CorpusId": 97911076
+    },
+    "url": "https://www.semanticscholar.org/paper/01070ca75e2da7c2a83ebefc2b08306dcfd060c2",
+    "title": "Synthesis and Insecticidal Activity of Bis 4, 4′-(2-Substituted Aryl Thiazolidine-4-One) Diphenyl Sulphone",
+    "venue": "",
+    "year": 2009,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "92535922",
+        "name": "C. Gantla"
+      },
+      {
+        "authorId": "2093359505",
+        "name": "M. Sarat"
+      },
+      {
+        "authorId": "48713208",
+        "name": "Y. Suresh"
+      },
+      {
+        "authorId": "116910397",
+        "name": "S. Harikrishana"
+      },
+      {
+        "authorId": "49358801",
+        "name": "S. Shrivastava"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "011f6ab8a7ef496e6bb0aadcb6a6336708f95a66",
+    "externalIds": {
+      "DOI": "10.56557/upjoz/2022/v43i183169",
+      "CorpusId": 252864209
+    },
+    "url": "https://www.semanticscholar.org/paper/011f6ab8a7ef496e6bb0aadcb6a6336708f95a66",
+    "title": "FIELD EFFICACY OF SELECTED INSECTICIDES AGAINST THRIPS INFESTING TOMATO (Lycopersicon esculentum Mill.)",
+    "venue": "Uttar Pradesh Journal of Zoology",
+    "year": 2022,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.56557/upjoz/2022/v43i183169?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.56557/upjoz/2022/v43i183169, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2187645738",
+        "name": "R. Athivarman"
+      },
+      {
+        "authorId": "2155991032",
+        "name": "Ashwani Kumar"
+      }
+    ],
+    "abstract": "The present investigation on Field efficacy of selected insecticides against thrips (Scirtothrips dorsalis) infesting tomato (Lycopersicon esculentum Mill.) in district Namakkal (Tamil Nadu) was carried out at agricultural land at Mallasamudram, Namakkal district(Tamil nadu) in year 2020-2021 during rabi season. The experiment laid in RBD with seven treatments and one controlled plot, each were replicated thrice. On the basis of the effectiveness of different treatments against tomato thrips, the mean efficacy of the different treatments after spray revealed that spinosad 45SC @ 125 ml/ha found to be significantly superior against thrips (1.13 thrips/3 leaves/plant). The next best treatment was flonicamid 50WG (1.18 thrips/3 leaves/plant) followed by imidacloprid 17.8SL (1.22 thrips/3leaves/plant), fipronil 5SC(1.35 thrips/3 leaves/plant), thiamethoxam 25WG(1.41 thrips/3 leaves/plant), acetamiprid 20SP (1.60 thrips/3 leaves/plant ). Cypermethrin 25 EC was least effective recording 1.77 thrips per 3 leaves per plant. All the treatments were significantly superior over the control which recorded highest thrips population (3.40 thrips /3 leaves)."
+  },
+  {
+    "paperId": "0126d543602af22a969a1629ec0c421efbda674c",
+    "externalIds": {
+      "MAG": "3196307007",
+      "DOI": "10.3390/agronomy11091804",
+      "CorpusId": 239669209
+    },
+    "url": "https://www.semanticscholar.org/paper/0126d543602af22a969a1629ec0c421efbda674c",
+    "title": "Quantification of Pesticide Residues in Fresh Vegetables Available in Local Markets for Human Consumption and the Associated Health Risks",
+    "venue": "Agronomy",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2073-4395/11/9/1804/pdf?version=1631153494",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.3390/agronomy11091804?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.3390/agronomy11091804, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2135102442",
+        "name": "Umme Salma Nisha"
+      },
+      {
+        "authorId": "2109172552",
+        "name": "Md. Sirajul Islam Khan"
+      },
+      {
+        "authorId": "15886275",
+        "name": "M. Prodhan"
+      },
+      {
+        "authorId": "1580191127",
+        "name": "I. M. Meftaul"
+      },
+      {
+        "authorId": "9946619",
+        "name": "N. Begum"
+      },
+      {
+        "authorId": "1580180194",
+        "name": "A. Parven"
+      },
+      {
+        "authorId": "90512590",
+        "name": "S. Shahriar"
+      },
+      {
+        "authorId": "70551579",
+        "name": "A. Juraimi"
+      },
+      {
+        "authorId": "49375698",
+        "name": "M. A. Hakim"
+      }
+    ],
+    "abstract": "Human health risks as a result of consuming pesticide residues in fresh vegetables have drawn serious attention to the scientific community, particularly in developing countries. This study analyzed country bean (Lablab purpureus L.) and eggplant (Solanum melongena L.) for widely used neonicotinoid, synthetic pyrethroid, and dithiocarbamate pesticide residues in order to ensure food safety. The analyzed vegetables contained residues of acetamiprid and cypermethrin in 17% of bean and 13% of eggplant samples, respectively; among them, 3% of bean and 1% of eggplant samples had residues of acetamiprid that were above the maximum residue limits set by the European Union (EU-MRLs). None of the samples for either of the analyzed vegetables contained the residue of thiram and lambda-cyhalothrin. In contrast, 83% of bean and 87% of eggplant samples had no detectable pesticides. Thus, the findings were surprising considering the repeated and overuse of pesticides in vegetables in the investigated areas. However, this outcome supports the general claim of pesticide adulteration in terms of the active ingredients, which is another drawback to ensuring food safety. The non-cancer health risk assessment based on the acute health risk to consumer (aHI) and chronic hazard quotient (HQ) indicates that contaminated vegetables might pose a potential threat to children’s health and alarming for adults. This study reflects the overall scenario of pesticide residues in marketed vegetables of Barishal district of Bangladesh, which could help the consumers to bring awareness, and to take necessary actions by the pesticide suppliers and policymakers."
+  },
+  {
+    "paperId": "014218905a0cf04ab3dd8565e847a4ad20b0430c",
+    "externalIds": {
+      "MAG": "2188501494",
+      "CorpusId": 53705911
+    },
+    "url": "https://www.semanticscholar.org/paper/014218905a0cf04ab3dd8565e847a4ad20b0430c",
+    "title": "EFFECTS OF CYPERMETHRIN ON SOME HAEMATOLOGICAL PARAMETERS IN HETEROPNEUSTES FOSSILIS (BLOCH)",
+    "venue": "",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "90590420",
+        "name": "C. Deka"
+      },
+      {
+        "authorId": "153003483",
+        "name": "K. Dutta"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "0146afa9d884eb5d8241f8734aa7aaffaa1ffff0",
+    "externalIds": {
+      "DOI": "10.1016/j.reprotox.2023.108414",
+      "CorpusId": 258950875,
+      "PubMed": "37245696"
+    },
+    "url": "https://www.semanticscholar.org/paper/0146afa9d884eb5d8241f8734aa7aaffaa1ffff0",
+    "title": "MicroRNA‑30a‑5p regulates cypermethrin-induced apoptosis of Sertoli cells by targeting KLF9 in vitro.",
+    "venue": "Reproductive Toxicology",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.reprotox.2023.108414?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.reprotox.2023.108414, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2151570637",
+        "name": "Qi Wang"
+      },
+      {
+        "authorId": "2166244777",
+        "name": "Jia-fei Xie"
+      },
+      {
+        "authorId": "2068296753",
+        "name": "Ting-ting Yao"
+      },
+      {
+        "authorId": "2163619601",
+        "name": "Xu-Xu Wang"
+      },
+      {
+        "authorId": "2215357751",
+        "name": "Qianqian Guo"
+      },
+      {
+        "authorId": "2153517907",
+        "name": "Lu-Shan Wang"
+      },
+      {
+        "authorId": "2166756341",
+        "name": "Yue Yu"
+      },
+      {
+        "authorId": "4723933",
+        "name": "Li-Chun Xu"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "014a2c0f9e5fe7a76f8b2c6c7e7fb911e389eac7",
+    "externalIds": {
+      "DOI": "10.1021/es0506354.s001",
+      "CorpusId": 15974533
+    },
+    "url": "https://www.semanticscholar.org/paper/014a2c0f9e5fe7a76f8b2c6c7e7fb911e389eac7",
+    "title": "Aquatic Toxicity Due to Residential Use of Pyrethroid Insecticides",
+    "venue": "",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "https://figshare.com/articles/journal_contribution/Aquatic_Toxicity_Due_to_Residential_Use_of_Pyrethroid_Insecticides/3251281/1/files/5086642.pdf",
+      "status": "GREEN",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1021/es0506354.s001?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/es0506354.s001, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2082538571",
+        "name": "D. P. W E S T O N"
+      },
+      {
+        "authorId": "2103769383",
+        "name": "R. W. H. O L M E S"
+      },
+      {
+        "authorId": "2104493179",
+        "name": "J. Y. O U"
+      }
+    ],
+    "abstract": "Pyrethroids are the active ingredients in most insecticides available to consumers for residential use in the United States. Yet despite their dominance in the marketplace, there has been no attempt to analyze for most of these compounds in watercourses draining residential areas. Roseville, California was selected as a typical suburban development, and several creeks that drain subdivisions of single-family homes were examined. Nearly all creek sediments collected caused toxicity in laboratory exposures to an aquatic species, the amphipod Hyalella azteca, and about half the samples caused nearly complete mortality. This same species was also found as a resident in the system, but its presence was limited to areas where residential influence was least. The pyrethroid bifenthrin is implicated as the primary cause of the toxicity, with additional contributions to toxicity from the pyrethroids cyfluthrin and cypermethrin. The dominant sources of these pyrethroids are structural pest control by professional applicators and/ or homeowner use of insecticides, particularly lawn care products. The suburbs of Roseville are unlikely to be unique, and similar sediment quality degradation is likely in other suburban areas, particularly in dry regions where landscape irrigation can dominate seasonal flow in some water bodies."
+  },
+  {
+    "paperId": "014d4bc277f702d9adfb9b704ac52abdf1f8a42d",
+    "externalIds": {
+      "DOI": "10.34016/pjbt.2024.21.01.851",
+      "CorpusId": 267621419
+    },
+    "url": "https://www.semanticscholar.org/paper/014d4bc277f702d9adfb9b704ac52abdf1f8a42d",
+    "title": "INSECTICIDAL IMPACTS ON FECUNDITY AND LARVAL DAMAGE POTENTIALS OF PINK BOLLWORM Pectinophora gossypiella",
+    "venue": "Pakistan journal of biotechnology",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://pjbt.org/index.php/pjbt/article/download/851/825",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.34016/pjbt.2024.21.01.851?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.34016/pjbt.2024.21.01.851, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2276807044",
+        "name": "Shamim Akhtar"
+      },
+      {
+        "authorId": "2261224402",
+        "name": "Faheem Akhtar"
+      },
+      {
+        "authorId": "2283793703",
+        "name": "Javeria Tariq"
+      },
+      {
+        "authorId": "2258648693",
+        "name": "Saba Saeed"
+      },
+      {
+        "authorId": "2130360326",
+        "name": "Misbah Ali"
+      },
+      {
+        "authorId": "2283796469",
+        "name": "Talal Ihsan"
+      },
+      {
+        "authorId": "2283798157",
+        "name": "Muhammad Bilal"
+      },
+      {
+        "authorId": "2276918838",
+        "name": "Ferkhanda Farooq"
+      }
+    ],
+    "abstract": "Pink bollworm (Pectinophora gossypiella) is one of the most notorious insects causing severe damage to cotton crops thought the world. A huge amount of different chemical formulations has been used for the control of P. gossypiella population that affects its biology. The present research was executed to determine the influence of insecticides on adult fecundity and boll damage potentials by the larvae. The results elucidated that a mixture of Deltamethrin+Triazophos had a maximum impact in fecundity reduction and boll damage by the larva when tested at one, three and twenty-four hours of post-application intervals (PAI). The damage to cotton bolls was in the ranges of 27.50±0.57 to 57.50±1.44 at 3 to 144-hours PAIs respectively. Damage to cotton bolls and reduction in fecundity was at the highest 82.50±1.34, and 49.65±1.51% when a mixture of Deltamethrin+Triazophos and Alpha-Cypermethrin were applied at 144-hours PAI respectively.  The experimental results highlighted the critical efficacy of the test insecticide for the control of P. gossypiella by reducing the boll damage and oviposition at different intervals of application."
+  },
+  {
+    "paperId": "0152698168f9e565acf7a4ba290f6c027ddd2604",
+    "externalIds": {
+      "MAG": "2552271086",
+      "CorpusId": 39468756
+    },
+    "url": "https://www.semanticscholar.org/paper/0152698168f9e565acf7a4ba290f6c027ddd2604",
+    "title": "Individual and combined biochemical and histological effect of Cypermethrin and Carbendazim in male albino rats",
+    "venue": "",
+    "year": 2011,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "5531190",
+        "name": "P. Muthuraman"
+      },
+      {
+        "authorId": "14180043",
+        "name": "V. Muthuviveganandavel"
+      },
+      {
+        "authorId": "2377110149",
+        "name": "S. Muthu"
+      },
+      {
+        "authorId": "5603307",
+        "name": "K. Srikumar"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01587cdc27aa95fe5e33a22131b1cff0dabb8470",
+    "externalIds": {
+      "DOI": "10.4314/jcsn.v50i3.6",
+      "CorpusId": 283639155
+    },
+    "url": "https://www.semanticscholar.org/paper/01587cdc27aa95fe5e33a22131b1cff0dabb8470",
+    "title": "Determination Of Organochlorine And Synthetic Pyrethroid Pesticide Residues in Fresh Pepper From Selected Farmlands In Edozhigi, Gbako L.G.A., Niger State, Nigeria",
+    "venue": "Journal of Chemical Society of Nigeria",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4314/jcsn.v50i3.6?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4314/jcsn.v50i3.6, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "2292864170",
+        "name": "A. Salihu"
+      },
+      {
+        "authorId": "2396925521",
+        "name": "W. Okotubu"
+      },
+      {
+        "authorId": "90600907",
+        "name": "E. Y. Shaba"
+      },
+      {
+        "authorId": "2074014802",
+        "name": "S. Idris"
+      },
+      {
+        "authorId": "2397016327",
+        "name": "N. K. Gwadabe"
+      },
+      {
+        "authorId": "2397019734",
+        "name": "K. A. Adedokun"
+      }
+    ],
+    "abstract": "In this research, the concentrations of Synthetic pyrethroids (SPP) and Organochlorine (OCP) pesticide residues level in fresh Pepper (Capsicum annum) from selected farms in Edozhigi, Gbako Local Government area of Niger state, Nigeria was determined using QuEChERS and GC-MS for sample preparation and analysis respectively. The results obtained from this research indicates the presence of OCP and SPP residues including: Heptachlor, Aldrin, Dieldrin, Heptachlor epoxide, Endosulfan II and Endosulfan sulfate; Lambda-cyhalothrin, β-Cypermethrin and zeta-Cypermethrin with concentrations of 1.33 mg/kg, 1.55 mg/kg, 0.33 mg/kg, 0.22 mg/kg,1.31 mg/kg,0.45 mg/kg and 1.00 mg/kg, 1.29 mg/kg and 1.08 mg/kg. All the detected OCPs were above the maximum residue limits. Indeed, these concentrations of both the organochlorine and pyrethroid pesticides detected in the pepper sample analysed were observed to be above the maximum residue limits (MRLs) by the Codex 2009 (WHO and FAO), and hence at alarming levels."
+  },
+  {
+    "paperId": "0165f857d1752d74f5ad22eee8ac51b5a3821c75",
+    "externalIds": {
+      "MAG": "2276749681",
+      "DOI": "10.1021/ACS.IECR.5B04001",
+      "CorpusId": 101073071
+    },
+    "url": "https://www.semanticscholar.org/paper/0165f857d1752d74f5ad22eee8ac51b5a3821c75",
+    "title": "Preparation and Properties of Pesticide/Cyclodextrin Complex Intercalated into ZnAl-Layered Double Hydroxide",
+    "venue": "",
+    "year": 2016,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/ACS.IECR.5B04001?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/ACS.IECR.5B04001, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2117932966",
+        "name": "Xiao-guang Zhang"
+      },
+      {
+        "authorId": "11666013",
+        "name": "Jie-xiang Liu"
+      },
+      {
+        "authorId": "40517196",
+        "name": "W. Hou"
+      },
+      {
+        "authorId": "2026165383",
+        "name": "J. Tong"
+      },
+      {
+        "authorId": "7857629",
+        "name": "L. Ren"
+      },
+      {
+        "authorId": "48845653",
+        "name": "Guoying Sun"
+      },
+      {
+        "authorId": "2143350827",
+        "name": "Y. Sun"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "017142e61a661f1840a4a1f71a1daad9255e88ef",
+    "externalIds": {
+      "PubMedCentral": "11732067",
+      "DOI": "10.3389/fpara.2023.1258429",
+      "CorpusId": 264096710,
+      "PubMed": "39816824"
+    },
+    "url": "https://www.semanticscholar.org/paper/017142e61a661f1840a4a1f71a1daad9255e88ef",
+    "title": "Analysis of insecticides in long-lasting insecticidal nets using X-ray fluorescence spectroscopy and correlation with bioefficacy",
+    "venue": "Frontiers in Parasitology",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://www.frontiersin.org/articles/10.3389/fpara.2023.1258429/pdf?isPublishedV2=False",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11732067, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "JournalArticle"
+    ],
+    "authors": [
+      {
+        "authorId": "9893255",
+        "name": "M. Koinari"
+      },
+      {
+        "authorId": "1658857953",
+        "name": "Nakei Bubun"
+      },
+      {
+        "authorId": "2243627677",
+        "name": "David Wilson"
+      },
+      {
+        "authorId": "2191918702",
+        "name": "Evodia Anetul"
+      },
+      {
+        "authorId": "4704463",
+        "name": "L. Timinao"
+      },
+      {
+        "authorId": "2242535496",
+        "name": "Petrina Johnson"
+      },
+      {
+        "authorId": "2242725005",
+        "name": "Norelle Daly"
+      },
+      {
+        "authorId": "1823673",
+        "name": "M. Laman"
+      },
+      {
+        "authorId": "2242740061",
+        "name": "Tim Freeman"
+      },
+      {
+        "authorId": "48342016",
+        "name": "S. Karl"
+      }
+    ],
+    "abstract": "Background Long-lasting insecticidal nets (LLINs) are a key vector control tool used for the prevention of malaria. Active ingredient (AI) measurements in LLINs are essential for evaluating their quality and efficacy. The main aim of the present study was to determine the utility of X-ray fluorescence (XRF) spectroscopy as a suitable field-deployable tool for total AI quantification in LLINs. Methods New and unused LLIN samples containing deltamethrin (PermaNet® 2.0, n = 35) and alpha-cypermethrin (SafeNet®, n = 43) were obtained from batches delivered to Papua New Guinea (PNG) for mass distribution. Insecticides were extracted from the LLINs using a simple extraction technique and quantified using liquid chromatography mass spectrometry (LC-MS). The LC-MS results were correlated with XRF spectroscopy measurements on the same nets. Operators were blinded regarding the type of net. Bioefficacy of the LLIN samples was tested using WHO cone bioassays and test results were correlated with total AI content. Results The results indicate correlation between quantitative XRF and LC-MS. Interestingly, the total AI content was negatively correlated with bioefficacy in PermaNet® 2.0 (especially in recently manufactured nets). In contrast, AI content was positively correlated with bioefficacy in SafeNet®. These results indicate that the chemical content analysis in predelivery inspections does not always predict bioefficacy. Conclusion XRF is a promising field-deployable tool for quantification of both deltamethrin- and alpha-cypermethrin-coated LLINs. Because total AI content is not always a predictor of the efficacy of LLINs to kill mosquitoes, bioefficacy measurements should be included in predelivery inspections."
+  },
+  {
+    "paperId": "01788dd5bd7a5ce4fbccda9b71df3bd2d445a372",
+    "externalIds": {
+      "MAG": "2369283162",
+      "CorpusId": 88204408
+    },
+    "url": "https://www.semanticscholar.org/paper/01788dd5bd7a5ce4fbccda9b71df3bd2d445a372",
+    "title": "Preliminary Study on Resistance of Spodoptera exigua to Tebufenozide",
+    "venue": "",
+    "year": 2005,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2076582602",
+        "name": "Qiu Li-hong"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "018aa7c4605ace8eabc75ca8db9961bce93052a3",
+    "externalIds": {
+      "MAG": "2037100751",
+      "DOI": "10.1080/02772248.2010.493156",
+      "CorpusId": 84533007
+    },
+    "url": "https://www.semanticscholar.org/paper/018aa7c4605ace8eabc75ca8db9961bce93052a3",
+    "title": "Immunoprotective effect of curcumin on cypermethrin-induced toxicity in rats",
+    "venue": "",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1080/02772248.2010.493156?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/02772248.2010.493156, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "144130452",
+        "name": "P. Sankar"
+      },
+      {
+        "authorId": "35189124",
+        "name": "A. Telang"
+      },
+      {
+        "authorId": "2014945",
+        "name": "A. Manimaran"
+      },
+      {
+        "authorId": "2337331",
+        "name": "J. Malik"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "018d32db6dcd5bf371f3b156b57f1caa4968e7c7",
+    "externalIds": {
+      "MAG": "2799921835",
+      "DOI": "10.1007/s12600-018-0667-5",
+      "CorpusId": 19105033
+    },
+    "url": "https://www.semanticscholar.org/paper/018d32db6dcd5bf371f3b156b57f1caa4968e7c7",
+    "title": "Assessment of field evolved resistance to some broad-spectrum insecticides in cotton jassid, Amrasca devastans from southern Punjab, Pakistan",
+    "venue": "Phytoparasitica",
+    "year": 2018,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s12600-018-0667-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s12600-018-0667-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2121092143",
+        "name": "N. Abbas"
+      },
+      {
+        "authorId": "145504016",
+        "name": "M. Ismail"
+      },
+      {
+        "authorId": "14253778",
+        "name": "Masood Ejaz"
+      },
+      {
+        "authorId": "41029890",
+        "name": "Iqra Asghar"
+      },
+      {
+        "authorId": "122765825",
+        "name": "Aima Irum"
+      },
+      {
+        "authorId": "5454747",
+        "name": "S. Shad"
+      },
+      {
+        "authorId": "5954144",
+        "name": "M. Binyameen"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01a07cb2c4adb43c26d7b6e8846292d9bc99a998",
+    "externalIds": {
+      "MAG": "2355039246",
+      "CorpusId": 87306093
+    },
+    "url": "https://www.semanticscholar.org/paper/01a07cb2c4adb43c26d7b6e8846292d9bc99a998",
+    "title": "Effects of Beta-Cypermethrin on Immune Function of Male Mice",
+    "venue": "",
+    "year": 2002,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "1439579550",
+        "name": "Lu Xiang-zheng"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01a36ceec9beac7b76f9863ff96d4c6c7fa64240",
+    "externalIds": {
+      "MAG": "2460301962",
+      "DOI": "10.1021/bk-2008-0991.ch017",
+      "CorpusId": 133518249
+    },
+    "url": "https://www.semanticscholar.org/paper/01a36ceec9beac7b76f9863ff96d4c6c7fa64240",
+    "title": "Recent Advances in Sediment Toxicity Identification Evaluations Emphasizing Pyrethroid Pesticides",
+    "venue": "",
+    "year": 2008,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1021/bk-2008-0991.ch017?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1021/bk-2008-0991.ch017, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": [
+      "Review"
+    ],
+    "authors": [
+      {
+        "authorId": "8299932",
+        "name": "B. Anderson"
+      },
+      {
+        "authorId": "2184768",
+        "name": "B. Phillips"
+      },
+      {
+        "authorId": "32316393",
+        "name": "J. Hunt"
+      },
+      {
+        "authorId": "3904595",
+        "name": "J. Voorhees"
+      },
+      {
+        "authorId": "37648719",
+        "name": "Sara L Clark"
+      },
+      {
+        "authorId": "4800017",
+        "name": "A. Mekebri"
+      },
+      {
+        "authorId": "145558229",
+        "name": "D. Crane"
+      },
+      {
+        "authorId": "5261672",
+        "name": "R. Tjeerdema"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01abb889b54a37ba30d8d8742f4baa6f36c087ac",
+    "externalIds": {
+      "MAG": "2742069910",
+      "DOI": "10.1007/s10337-017-3362-7",
+      "CorpusId": 103251838
+    },
+    "url": "https://www.semanticscholar.org/paper/01abb889b54a37ba30d8d8742f4baa6f36c087ac",
+    "title": "Determination of Pesticide Residues in Teas via QuEChERS Combined with Dispersive Liquid–Liquid Microextraction Followed by Gas Chromatography–Tandem Mass Spectrometry",
+    "venue": "Chromatographia",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s10337-017-3362-7?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s10337-017-3362-7, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "2109093619",
+        "name": "Jianxun Li"
+      },
+      {
+        "authorId": "2115372150",
+        "name": "Mengyuan Sun"
+      },
+      {
+        "authorId": "36723761",
+        "name": "Qiaoying Chang"
+      },
+      {
+        "authorId": "5067837",
+        "name": "Xue-yan Hu"
+      },
+      {
+        "authorId": "2111626042",
+        "name": "Jian Kang"
+      },
+      {
+        "authorId": "50551219",
+        "name": "C. Fan"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01bfe3e9dd6932f9919c7845cc3aee34fe1e1d23",
+    "externalIds": {
+      "MAG": "2367839673",
+      "CorpusId": 88279411
+    },
+    "url": "https://www.semanticscholar.org/paper/01bfe3e9dd6932f9919c7845cc3aee34fe1e1d23",
+    "title": "Effect of chemical inputs on the mycelial growth of Stropharia rugoso-annulata",
+    "venue": "",
+    "year": 2012,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "87651337",
+        "name": "Wang Jian-bao"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "01c886c74c0e14559d1bdb55b7e592f277b4c716",
+    "externalIds": {
+      "MAG": "1705930978",
+      "CorpusId": 55083662
+    },
+    "url": "https://www.semanticscholar.org/paper/01c886c74c0e14559d1bdb55b7e592f277b4c716",
+    "title": "Selectivity of seven insecticides against pupae and adults of Chrysoperla externa (Neuroptera: Chrysopidae)",
+    "venue": "",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null
+    },
+    "publicationTypes": null,
+    "authors": [
+      {
+        "authorId": "87434604",
+        "name": "T. AndreadeFátima"
+      },
+      {
+        "authorId": "87847323",
+        "name": "C. GerardoAndrade"
+      },
+      {
+        "authorId": "30826731",
+        "name": "L. V. Costa"
+      },
+      {
+        "authorId": "87496450",
+        "name": "M. ValériaFonseca"
+      }
+    ],
+    "abstract": null
+  }
+]

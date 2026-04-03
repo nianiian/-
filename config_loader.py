@@ -79,6 +79,7 @@ def get_config() -> Dict[str, Any]:
         "openai_api_key": getenv("OPENAI_API_KEY"),
         "gemini_api_key": getenv("GEMINI_API_KEY", getenv("GOOGLE_API_KEY", "")),
         "unpaywall_email": getenv("UNPAYWALL_EMAIL", getenv("CONTACT_EMAIL", "")),
+        "rest_api_key": getenv("REST_API_KEY"),
         "default_settings": {
             "llm_provider": getenv("LLM_PROVIDER", "openai"),  # "openai" or "gemini"
             "openai_model": getenv("OPENAI_MODEL", "gpt-4.1-mini"),

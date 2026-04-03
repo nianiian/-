@@ -15,3 +15,8 @@ test_outputs/
 .env
 env/
 .venv/
+
+# Python cache files
+__pycache__/
+pycache/
+*.pyc

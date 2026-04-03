@@ -8,6 +8,7 @@ import requests  # Added for downloading
 import re        # Added for filename sanitization
 import shutil    # Added for moving downloaded files
 import importlib
+from urllib.parse import parse_qs, urlparse
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -65,6 +66,12 @@ ELSEVIER_API_KEY = CONFIG.get("elsevier_api_key", os.getenv("ELSEVIER_API_KEY", 
 ELSEVIER_INST_TOKEN = CONFIG.get("elsevier_inst_token", os.getenv("ELSEVIER_INST_TOKEN", ""))
 S2_API_KEY = CONFIG.get("semantic_scholar_api_key", "")
 SPRINGER_API_KEY = CONFIG.get("springer_api_key", os.getenv("SPRINGER_API_KEY", ""))
+OPENALEX_EMAIL = CONFIG.get("openalex_email", os.getenv("OPENALEX_EMAIL", ""))
+UNPAYWALL_EMAIL = CONFIG.get(
+    "unpaywall_email",
+    os.getenv("UNPAYWALL_EMAIL", os.getenv("CONTACT_EMAIL", "")),
+)
+REST_API_KEY = CONFIG.get("rest_api_key", os.getenv("REST_API_KEY", ""))
 
 def check_semantic_scholar_pdf(doi: str) -> Optional[str]:
     """
@@ -118,6 +125,139 @@ def download_springer_jats(doi: str, output_path: Path) -> bool:
         pass
 
     return False
+
+
+def check_openalex_pdf(doi: str) -> Optional[str]:
+    """
+    Query OpenAlex by DOI and return a best-effort OA full-text URL.
+    Returns URL string when found, else None.
+    """
+    if not doi:
+        return None
+
+    # Normalize DOI input (strip possible https://doi.org/ prefix)
+    normalized_doi = re.sub(r"^https?://(dx\\.)?doi\\.org/", "", doi.strip(), flags=re.IGNORECASE)
+    if not normalized_doi:
+        return None
+
+    params = {
+        "filter": f"doi:https://doi.org/{normalized_doi}",
+        "per-page": 1,
+    }
+    if OPENALEX_EMAIL:
+        params["mailto"] = OPENALEX_EMAIL
+
+    try:
+        res = requests.get(
+            "https://api.openalex.org/works",
+            params=params,
+            headers={"User-Agent": "ResearchScript/1.0"},
+            timeout=15,
+        )
+        if res.status_code != 200:
+            logging.getLogger("safer_alt_en").debug(
+                "OpenAlex lookup failed for DOI %s with status %s",
+                normalized_doi,
+                res.status_code,
+            )
+            return None
+
+        data = res.json()
+        results = data.get("results", []) if isinstance(data, dict) else []
+        if not results:
+            return None
+
+        work = results[0]
+        open_access = work.get("open_access", {}) if isinstance(work, dict) else {}
+        best_location = work.get("best_oa_location", {}) if isinstance(work, dict) else {}
+        primary_location = work.get("primary_location", {}) if isinstance(work, dict) else {}
+
+        for candidate in [
+            open_access.get("oa_url"),
+            best_location.get("pdf_url"),
+            primary_location.get("pdf_url"),
+            best_location.get("landing_page_url"),
+            primary_location.get("landing_page_url"),
+        ]:
+            if isinstance(candidate, str) and candidate.strip():
+                return candidate.strip()
+
+        locations = work.get("locations", []) if isinstance(work, dict) else []
+        if isinstance(locations, list):
+            for location in locations:
+                if not isinstance(location, dict):
+                    continue
+                pdf_url = location.get("pdf_url")
+                if isinstance(pdf_url, str) and pdf_url.strip():
+                    return pdf_url.strip()
+        return None
+    except Exception as exc:
+        logging.getLogger("safer_alt_en").debug(
+            "OpenAlex lookup exception for DOI %s: %s",
+            normalized_doi,
+            exc,
+        )
+        return None
+
+
+def _extract_unpaywall_email(raw_value: str) -> str:
+    """Extract contact email from REST_API_KEY value (email or URL form)."""
+    raw = (raw_value or "").strip()
+    if not raw:
+        return ""
+
+    if "@" in raw and "http" not in raw.lower():
+        return raw
+
+    candidate = raw if raw.lower().startswith("http") else f"https://{raw}"
+    try:
+        query = parse_qs(urlparse(candidate).query)
+        return (query.get("email", [""])[0] or "").strip()
+    except Exception:
+        return ""
+
+
+def check_unpaywall_pdf(doi: str) -> Optional[str]:
+    """
+    Query Unpaywall by DOI and return a best OA full-text URL.
+    Returns URL string when found, else None.
+    """
+    if not doi:
+        return None
+
+    email = (UNPAYWALL_EMAIL or "").strip() or _extract_unpaywall_email(REST_API_KEY)
+    if not email:
+        return None
+
+    normalized_doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi.strip(), flags=re.IGNORECASE)
+    if not normalized_doi:
+        return None
+
+    try:
+        url = f"https://api.unpaywall.org/v2/{normalized_doi}"
+        res = requests.get(url, params={"email": email}, timeout=20)
+        if res.status_code != 200:
+            return None
+
+        payload = res.json()
+        data = payload if isinstance(payload, dict) else {}
+        best = data.get("best_oa_location") or {}
+
+        for candidate in [best.get("url_for_pdf"), best.get("url")]:
+            if isinstance(candidate, str) and candidate.strip():
+                return candidate.strip()
+
+        locations = data.get("oa_locations") or []
+        if isinstance(locations, list):
+            for location in locations:
+                if not isinstance(location, dict):
+                    continue
+                for candidate in [location.get("url_for_pdf"), location.get("url")]:
+                    if isinstance(candidate, str) and candidate.strip():
+                        return candidate.strip()
+        return None
+    except Exception:
+        return None
 
 def webpage_to_pdf_via_selenium(doi: str, output_path: Path) -> bool:
     """
@@ -283,8 +423,11 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     2. Record openAccessPdf URL (from upstream)
     3. Semantic Scholar OpenAccess PDF
     4. Springer Nature Open Access JATS XML
-    5. Selenium DOI Scraper
-    6. Fallback: Elsevier XML
+    5. OpenAlex Open Access URL
+    6. Unpaywall Open Access URL
+    7. Selenium DOI Scraper
+    8. Fallback: Elsevier XML
+    9. Webpage capture to PDF via Selenium
     """
     # Create safe filename
     safe_title = re.sub(r'[\\/*?:"<>|]', "", title)[:50]
@@ -357,7 +500,33 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
         except Exception:
             pass
 
-    # --- Strategy 5: Selenium DOI Scraper ---
+    # --- Strategy 5: OpenAlex ---
+    openalex_url = check_openalex_pdf(doi)
+    if openalex_url:
+        try:
+            res_openalex = requests.get(openalex_url, timeout=30)
+            content_type = res_openalex.headers.get("Content-Type", "").lower()
+            if res_openalex.status_code == 200 and ("pdf" in content_type or len(res_openalex.content) > 50_000):
+                with open(final_pdf_path, "wb") as f:
+                    f.write(res_openalex.content)
+                return f"Downloaded PDF (OpenAlex) ({len(res_openalex.content)} bytes)"
+        except Exception:
+            pass
+
+    # --- Strategy 6: Unpaywall ---
+    unpaywall_url = check_unpaywall_pdf(doi)
+    if unpaywall_url:
+        try:
+            res_unpaywall = requests.get(unpaywall_url, timeout=30)
+            content_type = res_unpaywall.headers.get("Content-Type", "").lower()
+            if res_unpaywall.status_code == 200 and ("pdf" in content_type or len(res_unpaywall.content) > 50_000):
+                with open(final_pdf_path, "wb") as f:
+                    f.write(res_unpaywall.content)
+                return f"Downloaded PDF (Unpaywall) ({len(res_unpaywall.content)} bytes)"
+        except Exception:
+            pass
+
+    # --- Strategy 7: Selenium DOI Scraper ---
     # Only try this if we really don't have it yet
     # This is slow, so maybe log it
     try:
@@ -367,7 +536,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     except Exception:
         pass
 
-    # --- Fallback: Elsevier XML ---
+    # --- Strategy 8: Fallback Elsevier XML ---
     if ELSEVIER_API_KEY:
          try:
              headers_dl_xml = headers_dl_pdf.copy()
@@ -380,7 +549,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
                  return f"Downloaded XML Fallback ({len(res_xml.content)} bytes)"
          except: pass
 
-    # --- Strategy 6: Webpage to PDF (網頁截圖轉 PDF) ---
+    # --- Strategy 9: Webpage to PDF (網頁截圖轉 PDF) ---
     # 最後的 fallback：將網頁內容轉為 PDF
     try:
         if webpage_to_pdf_via_selenium(doi, final_pdf_path):

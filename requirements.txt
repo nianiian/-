@@ -40,6 +40,11 @@ dataclasses  # Built-in in Python 3.7+
 
 # Random utilities (built-in)
 # random - built-in module
+
+# Google Gemini API (new SDK - replacing deprecated google.generativeai)
+google-genai>=0.1.0
+
 # PDF and document parsing (Step 05)
 PyMuPDF>=1.20.0
-pdfplumber>=0.9.0truststore
+pdfplumber>=0.9.0
+truststore

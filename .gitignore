@@ -20,3 +20,6 @@ env/
 __pycache__/
 pycache/
 *.pyc
+
+# Test files
+chemicals_test.csv

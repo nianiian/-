@@ -31,7 +31,7 @@ from tqdm import tqdm
 
 # Gemini support
 try:
-    import google.generativeai as genai
+    import google.genai as genai
     GEMINI_AVAILABLE = True
 except ImportError:
     genai = None
@@ -54,7 +54,7 @@ if LLM_PROVIDER == "gemini":
         print("[ERROR] Gemini API key not found! Set GEMINI_API_KEY in .env")
         exit(1)
     if not GEMINI_AVAILABLE:
-        print("[ERROR] google-generativeai not installed. Run: pip install google-generativeai")
+        print("[ERROR] google-genai not installed. Run: pip install google-genai")
         exit(1)
 else:
     if not OPENAI_API_KEY:
@@ -73,18 +73,11 @@ class LLMClient:
         self.provider = (provider or LLM_PROVIDER).lower()
         
         if self.provider == "gemini":
-            genai.configure(api_key=GEMINI_API_KEY)
-            self._gemini_model = genai.GenerativeModel(GEMINI_MODEL)
-            self._gemini_model_fast = genai.GenerativeModel(
-                "gemini-2.0-flash",  # Fast model for scoring
-                generation_config={"response_mime_type": "application/json"}
-            )
+            self.gemini_client = genai.Client(api_key=GEMINI_API_KEY)
             self._openai_client = None
             print(f"[INFO] Using Gemini provider with model: {GEMINI_MODEL}")
         else:
             self._openai_client = OpenAI(api_key=OPENAI_API_KEY, timeout=60.0)
-            self._gemini_model = None
-            self._gemini_model_fast = None
             print(f"[INFO] Using OpenAI provider with model: {MODEL}")
     
     def chat_completion(
@@ -145,22 +138,19 @@ class LLMClient:
         
         full_prompt = "".join(prompt_parts)
         
-        # Use appropriate model
+        # Determine which model to use
+        gemini_model = model or GEMINI_MODEL
         if model == "gpt-4o-mini" or "fast" in (model or "").lower():
-            gemini_model = self._gemini_model_fast
-        else:
-            gemini_model = self._gemini_model
+            gemini_model = "gemini-2.0-flash"
         
-        generation_config = {
-            "temperature": temperature,
-            "max_output_tokens": max_tokens,
-        }
-        if json_mode:
-            generation_config["response_mime_type"] = "application/json"
-        
-        response = gemini_model.generate_content(
-            full_prompt,
-            generation_config=generation_config
+        response = self.gemini_client.models.generate_content(
+            model=gemini_model,
+            contents=full_prompt,
+            config=genai.types.GenerateContentConfig(
+                temperature=temperature,
+                max_output_tokens=max_tokens,
+                response_mime_type="application/json" if json_mode else None
+            )
         )
         
         raw = response.text or ""

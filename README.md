@@ -22,17 +22,27 @@
 4.  **Output**: 生成符合 Schema 的 JSON 檔案並寫入 Graph Database。
 
 ## Current Pipeline Implementation (現有流程實作)
-本專案目前包含一個由 Controller 管理的腳本式流程：
-1. **Step 01:** 獲取論文 (針對原始有毒物質) - `step01.py`
+本專案目前由 Controller (`pipeline_controller.py`) 管理腳本式流程，並具備智能回退（Fallback）的雙階段搜尋機制：
+
+### 雙階段搜尋架構 (Two-Phase Search Architecture)
+* **Phase A (Standard Search):** 預設使用目標化學物質的名稱直接進行文獻檢索（從 Step 01 開始，不執行 Step 00）。
+* **Phase B (AI Agentic Search):** 若 Phase A 未能成功找到任何安全替代物，則自動觸發執行 Step 00，透過 AI 生成進階探索策略與關鍵字重新進行完整檢索。
+
+### 流程步驟 (Pipeline Steps)
+0. **Step 00:** 生成進階搜尋關鍵字 (Fallback AI Search) - `step00.py`
+   - *觸發:* **僅在 Phase A 搜尋失敗時觸發**。
+   - 透過 LLM 分析該有毒化學物質的工業用途與化學特性，擴展搜尋策略（如：結合用途與「綠色替代品」等關鍵詞），打破單一名稱搜尋的限制。
+1. **Step 01:** 獲取文獻資料 - `step01.py`
+   - 透過 Semantic Scholar API 檢索文獻（Phase A 使用原名，Phase B 使用 Step 00 生成之關鍵字）。
 2. **Step 02:** 獲取摘要並初步篩選 - `step02.py`
+   - 過濾並挑選與「安全替代物 (safer alternatives)」相關的論文摘要。
 3. **Step 03:** 分析替代品 (LLM) - `step03.py`
-   - *Check:* 是否存在安全替代物？
-   - 直接萃取具體的替代物化學名稱
-   - 下載相關論文 PDF/XML 全文
-4. **Step 04:** 劑量萃取與推論 (Dosage Extraction & Inference) - `step04.py`
-   - 從**同一篇論文全文**中萃取明確的劑量/濃度資訊
-   - 若無明確數字，則用 LLM 進行科學推論（含可信度評分）
-   - 支援 PDF 與 XML 全文解析
+   - 分析摘要，判斷文獻中是否提出明確的替代物化學名稱。
+   - 自動啟動並下載關聯文獻的 PDF/XML 全文供後續分析。
+4. **Step 04:** 劑量萃取與分析 (Dosage Extraction & Inference) - `step04.py`
+   - 自動解析 PDF 與 XML 下載檔。
+   - 從**文獻全文**中精準萃取替代物使用的具體劑量、濃度與比例配方。
+   - 針對無明確數值但有上下文證據的文獻，採取嚴謹的局部推算分析 (Partial Data Analysis)。
 
 ## Getting Started
 ```bash

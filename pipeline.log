@@ -1776,3 +1776,193 @@
 2026-03-26 14:29:07,868 - INFO - Found alternatives for benzene within 10 years
 2026-03-26 14:29:18,417 - INFO - Step 04 completed successfully for benzene
 2026-03-26 14:29:18,418 - INFO - Pipeline completed for benzene
+2026-04-12 17:52:45,791 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-12 17:56:38,382 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-12 17:56:38,383 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-12 17:57:00,796 - ERROR - Step 03 failed for 1,2-dichloroethane with return code 3221225786
+2026-04-12 17:58:29,750 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-12 18:02:23,660 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-12 18:02:23,661 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-12 18:07:17,288 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-04-12 18:07:17,305 - INFO - Step03 results: 10/1319 papers have alternatives
+2026-04-12 18:07:17,306 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-04-12 18:08:33,925 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-04-12 18:08:33,927 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-04-21 15:17:09,577 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-21 15:22:23,528 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-21 15:22:23,530 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-21 16:33:23,773 - INFO - Step 03 completed successfully for ethylbenzene
+2026-04-21 16:33:23,902 - INFO - Step03 results: 0/2971 papers have alternatives
+2026-04-21 16:33:23,906 - INFO - No alternatives found in 10 years. Extending search to 20 years...
+2026-04-21 16:33:23,920 - INFO - Searching for alternatives in last 20 years for ethylbenzene
+2026-04-21 17:39:09,615 - INFO - Step 03 completed successfully for ethylbenzene
+2026-04-21 17:39:09,792 - INFO - Step03 results: 2/6585 papers have alternatives
+2026-04-21 17:39:09,798 - INFO - Found alternatives for ethylbenzene within 20 years
+2026-04-21 17:39:43,755 - INFO - Step 04 completed successfully for ethylbenzene
+2026-04-21 17:39:43,759 - INFO - Pipeline completed for ethylbenzene
+2026-04-21 17:43:08,511 - INFO - Step 01 completed successfully for butyl acrylate
+2026-04-21 17:49:44,535 - INFO - Step 02 completed successfully for butyl acrylate
+2026-04-21 17:49:44,537 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-04-22 01:03:23,565 - ERROR - Step 01 failed for ethylbenzene with return code 3221225786
+2026-04-22 01:36:37,648 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 01:39:08,879 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 01:40:01,108 - ERROR - Step 02 failed for ethylbenzene with return code 3221225786
+2026-04-22 01:40:11,541 - INFO - Generating search queries for 'ethylbenzene' using gemini-3.1-flash-lite-preview
+2026-04-22 01:40:11,542 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 01:40:27,481 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 01:40:27,482 - INFO - Generated 5 queries successfully.
+2026-04-22 01:40:27,483 - INFO - Generated 5 queries for ethylbenzene, saved to step00_queries.json
+2026-04-22 01:40:54,976 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 01:40:55,489 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-22 01:40:55,490 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-22 01:41:05,498 - ERROR - Step 03 failed for ethylbenzene with return code 1
+2026-04-22 01:41:05,499 - WARNING - Step03 execution failed for ethylbenzene with 10 years
+2026-04-22 01:41:05,499 - WARNING - Step 03 failed for ethylbenzene, skipping remaining steps
+2026-04-22 01:42:37,651 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-22 01:42:37,652 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-22 01:50:21,303 - INFO - Generating search queries for 'ethylbenzene' using gemini-3.1-flash-lite-preview
+2026-04-22 01:50:21,304 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 01:50:30,832 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 01:50:30,835 - INFO - Generated 5 queries successfully.
+2026-04-22 01:50:30,839 - INFO - Generated 5 queries for ethylbenzene, saved to step00_queries.json
+2026-04-22 01:52:45,368 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 01:52:45,646 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-22 01:52:45,647 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-22 01:52:52,021 - ERROR - Step 03 failed for ethylbenzene with return code 3221225786
+2026-04-22 02:08:14,579 - INFO - Generating search queries for 'ethylbenzene' using gemini-3.1-flash-lite-preview
+2026-04-22 02:08:14,580 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:08:31,092 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 02:08:31,094 - INFO - Generated 4 queries successfully.
+2026-04-22 02:08:31,100 - INFO - Generated 4 queries for ethylbenzene, saved to step00_queries.json
+2026-04-22 02:08:52,261 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 02:08:58,414 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-22 02:08:58,414 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-22 02:10:03,409 - INFO - Step 03 completed successfully for ethylbenzene
+2026-04-22 02:10:03,410 - INFO - Step03 results: 1/22 papers have alternatives
+2026-04-22 02:10:03,410 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-04-22 02:10:32,905 - INFO - Step 04 completed successfully for ethylbenzene
+2026-04-22 02:10:32,906 - INFO - Pipeline completed for ethylbenzene
+2026-04-22 02:17:47,411 - INFO - Generating search queries for 'ethylbenzene' using gemini-3.1-flash-lite-preview
+2026-04-22 02:17:47,412 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:17:57,519 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 02:17:57,521 - INFO - Generated 5 queries successfully.
+2026-04-22 02:17:57,527 - INFO - Generated 5 queries for ethylbenzene, saved to step00_queries.json
+2026-04-22 02:18:25,362 - INFO - Step 01 completed successfully for ethylbenzene
+2026-04-22 02:18:32,228 - INFO - Step 02 completed successfully for ethylbenzene
+2026-04-22 02:18:32,229 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-04-22 02:19:37,307 - INFO - Step 03 completed successfully for ethylbenzene
+2026-04-22 02:19:37,309 - INFO - Step03 results: 1/22 papers have alternatives
+2026-04-22 02:19:37,309 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-04-22 02:20:01,625 - INFO - Step 04 completed successfully for ethylbenzene
+2026-04-22 02:20:01,625 - INFO - Pipeline completed for ethylbenzene
+2026-04-22 02:36:44,699 - INFO - Generating search queries for '2-dichloroethane' using gemini-3.1-flash-lite-preview
+2026-04-22 02:36:44,700 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:36:52,326 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 02:36:52,328 - INFO - Generated 5 queries successfully.
+2026-04-22 02:36:52,330 - INFO - Generated 5 queries for 2-dichloroethane, saved to step00_queries.json
+2026-04-22 02:37:17,813 - ERROR - Step 01 failed for 2-dichloroethane with return code 3221225786
+2026-04-22 02:37:35,846 - INFO - Generating search queries for '2-dichloroethane' using gemini-3.1-flash-lite-preview
+2026-04-22 02:37:35,846 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:37:42,792 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 02:37:42,795 - INFO - Generated 4 queries successfully.
+2026-04-22 02:37:42,803 - INFO - Generated 4 queries for 2-dichloroethane, saved to step00_queries.json
+2026-04-22 02:38:04,215 - INFO - Step 01 completed successfully for 2-dichloroethane
+2026-04-22 02:38:09,886 - INFO - Step 02 completed successfully for 2-dichloroethane
+2026-04-22 02:38:09,886 - INFO - Searching for alternatives in last 10 years for 2-dichloroethane
+2026-04-22 02:38:59,511 - INFO - Step 03 completed successfully for 2-dichloroethane
+2026-04-22 02:38:59,512 - INFO - Step03 results: 1/12 papers have alternatives
+2026-04-22 02:38:59,513 - INFO - Found alternatives for 2-dichloroethane within 10 years
+2026-04-22 02:39:34,970 - INFO - Step 04 completed successfully for 2-dichloroethane
+2026-04-22 02:39:34,971 - INFO - Pipeline completed for 2-dichloroethane
+2026-04-22 02:41:17,563 - INFO - Generating search queries for '1,2-dichloroethane' using gemini-3.1-flash-lite-preview
+2026-04-22 02:41:17,563 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:41:37,264 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-22 02:41:37,268 - INFO - Generated 4 queries successfully.
+2026-04-22 02:41:37,272 - INFO - Generated 4 queries for 1,2-dichloroethane, saved to step00_queries.json
+2026-04-22 02:42:01,604 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-22 02:42:07,527 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-22 02:42:07,527 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-22 02:42:59,231 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-04-22 02:42:59,233 - INFO - Step03 results: 1/12 papers have alternatives
+2026-04-22 02:42:59,233 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-04-22 02:43:23,265 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-04-22 02:43:23,266 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-04-22 02:46:30,130 - INFO - Generating search queries for '1,2-dichloroethane' using gemini-3.1-flash-lite-preview
+2026-04-22 02:46:30,131 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-22 02:46:34,511 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-04-22 02:46:34,514 - ERROR - Error calling Gemini or parsing response: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-04-22 02:46:34,514 - WARNING - No queries generated for 1,2-dichloroethane, continuing with standard search.
+2026-04-22 02:46:56,073 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-22 02:47:02,694 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-22 02:47:02,694 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-22 02:48:01,280 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-04-22 02:48:01,281 - INFO - Step03 results: 1/12 papers have alternatives
+2026-04-22 02:48:01,281 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-04-22 02:48:24,338 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-04-22 02:48:24,338 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-04-22 02:50:43,419 - INFO - Step 03 completed successfully for ethylbenzene
+2026-04-22 02:50:43,452 - INFO - Step03 results: 1/3377 papers have alternatives
+2026-04-22 02:50:43,452 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-04-22 02:51:10,490 - INFO - Step 04 completed successfully for ethylbenzene
+2026-04-22 02:51:10,491 - INFO - Pipeline completed for ethylbenzene
+2026-04-22 03:16:46,559 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-22 03:19:41,023 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-22 03:20:37,632 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-22 03:20:37,632 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-22 03:20:38,859 - ERROR - Step 03 failed for 1,2-dichloroethane with return code 1
+2026-04-22 03:20:38,860 - WARNING - Step03 execution failed for 1,2-dichloroethane with 10 years
+2026-04-22 03:20:38,860 - INFO - Standard search yielded no alternatives for 1,2-dichloroethane. Triggering AI Agentic Search (Phase B).
+2026-04-22 03:20:38,865 - ERROR - google-genai package is required.
+2026-04-22 03:20:38,865 - ERROR - Error in step 00 for 1,2-dichloroethane: google.genai package is required to use the Gemini provider.
+2026-04-22 03:20:38,866 - WARNING - Both search phases failed to find alternatives for 1,2-dichloroethane, skipping remaining steps
+2026-04-22 03:22:55,520 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-04-22 03:23:24,640 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-22 03:23:24,640 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-22 03:26:43,168 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-04-22 03:26:43,169 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-04-22 03:43:27,130 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-04-22 03:43:27,140 - INFO - Step03 results: 8/1319 papers have alternatives
+2026-04-22 03:43:27,140 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-04-22 03:45:20,807 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-04-22 03:45:20,807 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-04-22 03:46:27,158 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-04-22 03:46:27,168 - INFO - Step03 results: 9/1319 papers have alternatives
+2026-04-22 03:46:27,168 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-04-22 03:49:04,875 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-04-22 03:49:04,876 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-04-29 15:37:22,535 - INFO - Step 01 completed successfully for butyl acrylate
+2026-04-29 15:43:29,500 - INFO - Step 02 completed successfully for butyl acrylate
+2026-04-29 15:43:29,501 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-04-29 16:41:43,158 - INFO - Step 03 completed successfully for butyl acrylate
+2026-04-29 16:41:43,192 - INFO - Step03 results: 10/2262 papers have alternatives
+2026-04-29 16:41:43,193 - INFO - Found alternatives for butyl acrylate within 10 years
+2026-04-29 16:45:20,679 - INFO - Step 04 completed successfully for butyl acrylate
+2026-04-29 16:45:20,681 - INFO - Pipeline completed for butyl acrylate
+2026-04-29 16:47:17,094 - INFO - Step 01 completed successfully for acrylonitrile
+2026-04-29 16:52:28,916 - INFO - Step 02 completed successfully for acrylonitrile
+2026-04-29 16:52:28,918 - INFO - Searching for alternatives in last 10 years for acrylonitrile
+2026-04-29 16:55:50,911 - ERROR - Step 03 failed for acrylonitrile with return code 3221225786
+2026-04-29 16:58:07,345 - INFO - Step 01 completed successfully for butyl acrylate
+2026-04-29 17:04:15,388 - INFO - Step 02 completed successfully for butyl acrylate
+2026-04-29 17:04:15,390 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-04-29 18:00:55,078 - INFO - Step 03 completed successfully for butyl acrylate
+2026-04-29 18:00:55,100 - INFO - Step03 results: 9/2262 papers have alternatives
+2026-04-29 18:00:55,101 - INFO - Found alternatives for butyl acrylate within 10 years
+2026-04-29 18:04:53,552 - INFO - Step 04 completed successfully for butyl acrylate
+2026-04-29 18:04:53,553 - INFO - Pipeline completed for butyl acrylate
+2026-04-29 18:06:47,961 - INFO - Step 01 completed successfully for acrylonitrile
+2026-04-29 18:11:58,483 - INFO - Step 02 completed successfully for acrylonitrile
+2026-04-29 18:11:58,484 - INFO - Searching for alternatives in last 10 years for acrylonitrile
+2026-04-29 19:31:35,946 - INFO - Step 03 completed successfully for acrylonitrile
+2026-04-29 19:31:35,979 - INFO - Step03 results: 11/3636 papers have alternatives
+2026-04-29 19:31:35,980 - INFO - Found alternatives for acrylonitrile within 10 years
+2026-04-29 19:36:01,848 - INFO - Step 04 completed successfully for acrylonitrile
+2026-04-29 19:36:01,849 - INFO - Pipeline completed for acrylonitrile
+2026-04-29 19:37:44,879 - INFO - Step 01 completed successfully for formaldehyde
+2026-04-29 19:42:26,582 - INFO - Step 02 completed successfully for formaldehyde
+2026-04-29 19:42:26,583 - INFO - Searching for alternatives in last 10 years for formaldehyde
+2026-04-29 21:32:21,348 - INFO - Step 03 completed successfully for formaldehyde
+2026-04-29 21:32:21,373 - INFO - Step03 results: 140/3420 papers have alternatives
+2026-04-29 21:32:21,374 - INFO - Found alternatives for formaldehyde within 10 years
+2026-04-29 22:49:08,606 - INFO - Step 04 completed successfully for formaldehyde
+2026-04-29 22:49:08,607 - INFO - Pipeline completed for formaldehyde

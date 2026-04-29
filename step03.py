@@ -49,7 +49,7 @@ except ImportError:
 
 # Gemini support
 try:
-    import google.generativeai as genai
+    import google.genai as genai
     GEMINI_AVAILABLE = True
 except ImportError:
     genai = None
@@ -648,18 +648,11 @@ class SaferAlternativeAnalyzer:
         
         if self.provider == "gemini":
             if not GEMINI_AVAILABLE:
-                raise RuntimeError("Google Generative AI SDK unavailable. Install with: pip install google-generativeai")
+                raise RuntimeError("Google Generative AI SDK unavailable. Install with: pip install google-genai")
             if not self.cfg.gemini_api_key:
                 raise RuntimeError("Gemini API key not found! Set GEMINI_API_KEY in .env")
-            genai.configure(api_key=self.cfg.gemini_api_key)
-            self.gemini_model = genai.GenerativeModel(
-                self.cfg.gemini_model,
-                generation_config={
-                    "temperature": self.cfg.temperature,
-                    "max_output_tokens": self.cfg.max_tokens,
-                    "response_mime_type": "application/json",
-                }
-            )
+            self.gemini_client = genai.Client(api_key=self.cfg.gemini_api_key)
+            self.gemini_model = None  # Not used with new API
             self.models = [self.cfg.gemini_model]
             self.client = None
             logger.info(f"Using Gemini provider with model: {self.cfg.gemini_model}")
@@ -710,7 +703,15 @@ class SaferAlternativeAnalyzer:
         
         for attempt in range(self.cfg.max_retries):
             try:
-                response = self.gemini_model.generate_content(full_prompt)
+                response = self.gemini_client.models.generate_content(
+                    model=model,
+                    contents=full_prompt,
+                    config=genai.types.GenerateContentConfig(
+                        temperature=self.cfg.temperature,
+                        max_output_tokens=self.cfg.max_tokens,
+                        response_mime_type="application/json"
+                    )
+                )
                 raw = response.text or "{}"
                 # Handle potential markdown code blocks
                 if raw.startswith("```"):
@@ -983,8 +984,18 @@ def parse_args():
     parser.add_argument("--models", help="Comma-separated list of OpenAI model names to run in parallel")
     parser.add_argument("--temperature", type=float, default=0.0, help="Temperature setting")
     parser.add_argument("--max_tokens", type=int, default=1000, help="Maximum tokens")
-    parser.add_argument("--max_retries", type=int, default=3, help="Maximum retry attempts")
-    parser.add_argument("--workers", type=int, default=8, help="Thread workers for parallelism")
+    parser.add_argument(
+        "--max_retries",
+        type=int,
+        default=CONFIG.get("default_settings", {}).get("max_retries", 3),
+        help="Maximum retry attempts",
+    )
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=CONFIG.get("default_settings", {}).get("step03_workers", 8),
+        help="Thread workers for parallelism",
+    )
     parser.add_argument(
         "--download_pdf",
         action=argparse.BooleanOptionalAction,
@@ -1063,7 +1074,10 @@ def main():
 
     logger.info(f"Analysis completed for {cfg.target}")
     logger.info(f"Total records processed: {total_records}")
-    logger.info(f"Records with alternatives: {alternatives_found} ({alternatives_found/total_records*100:.1f}%)")
+    if total_records > 0:
+        logger.info(f"Records with alternatives: {alternatives_found} ({alternatives_found/total_records*100:.1f}%)")
+    else:
+        logger.info(f"Records with alternatives: {alternatives_found} (0.0%)")
     logger.info(f"Results saved to: {cfg.output_file}")
 
     # Save token usage summary next to output

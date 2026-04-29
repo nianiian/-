@@ -25,6 +25,11 @@ COMPOUND_COLUMN = "name"  # CSV 中化合物名稱的欄位名
 
 # Pipeline steps configuration 
 STEP  = { 
+    "step00": {
+        "script": "step00.py",
+        "output_file": "step00_queries.json",
+        "description": "Generating search queries"
+    },
     "step01": {
         "script": "step01.py",
         "output_file": "step01_results.json",
@@ -230,6 +235,35 @@ class PipelineController:
             self.logger.error(f"{step_name} failed for {compound}: {e}")
             return False
     
+    def run_step00(self, compound: str, compound_dir: Path) -> bool:
+        """Run step 00: Generate search queries via AI Agentic Search."""
+        print(f"\n{'='*60}")
+        print(f"Step 00: Generating search queries for {compound}")
+        print(f"{'='*60}")
+        
+        command_args = [
+            sys.executable, str(SCRIPT_DIR / "step00.py"),
+            compound
+        ]
+        
+        # We can run it directly and save the queries to JSON
+        try:
+            from step00 import generate_search_queries
+            queries = generate_search_queries(compound)
+            if not queries:
+                self.logger.warning(f"No queries generated for {compound}, continuing with standard search.")
+                return True # non-fatal
+                
+            out_file = compound_dir / "step00_queries.json"
+            with open(out_file, "w", encoding="utf-8") as f:
+                json.dump({"compound": compound, "queries": queries}, f, indent=2, ensure_ascii=False)
+            
+            self.logger.info(f"Generated {len(queries)} queries for {compound}, saved to {out_file.name}")
+            return True
+        except Exception as e:
+            self.logger.error(f"Error in step 00 for {compound}: {e}")
+            return False
+
     def run_step01(self, compound: str, compound_dir: Path) -> bool:
         """Run step 01: Fetch papers for a compound."""
         print(f"\n{'='*60}")
@@ -349,34 +383,76 @@ class PipelineController:
         # Create compound directory
         compound_dir = self.create_compound_directory(compound)
         
+        # Remove old AI queries if they exist so standard search uses only the compound name
+        step00_file = compound_dir / "step00_queries.json"
+        if step00_file.exists():
+            try:
+                step00_file.unlink()
+            except Exception as e:
+                self.logger.warning(f"Failed to delete old step00_queries.json: {e}")
+        
         # Track step results
         step_results = {}
         
-        # Run each step sequentially
+        # -------------------------------------------------------------
+        # PHASE A: Standard Search (Using exact compound name)
+        # -------------------------------------------------------------
+        print(f"\n{'='*60}")
+        print(f"PHASE A: Standard Search for {compound}")
+        print(f"{'='*60}")
+        
         step_results["step01"] = self.run_step01(compound, compound_dir)
-        compound_progress.set_description(f"{compound} - Step 1 completed")
-        if not step_results["step01"]:
-            self.logger.warning(f"Step 01 failed for {compound}, skipping remaining steps")
+        compound_progress.set_description(f"{compound} - Step 1 (Standard) completed")
+        
+        if step_results["step01"]:
+            step_results["step02"] = self.run_step02(compound, compound_dir)
+            compound_progress.set_description(f"{compound} - Step 2 (Standard) completed")
+            
+            if step_results["step02"]:
+                # Use recursive search for step03
+                default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
+                step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
+                compound_progress.set_description(f"{compound} - Step 3 (Standard) completed")
+        
+        # Check if Phase A was successful in finding alternatives
+        found_alternatives = step_results.get("step03", False)
+        
+        # -------------------------------------------------------------
+        # PHASE B: AI Agentic Search (If Phase A failed to find alternatives)
+        # -------------------------------------------------------------
+        if not found_alternatives:
+            self.logger.info(f"Standard search yielded no alternatives for {compound}. Triggering AI Agentic Search (Phase B).")
+            print(f"\n{'='*60}")
+            print(f"PHASE B: AI Agentic Search for {compound}")
+            print(f"{'='*60}")
+            
+            step_results["step00"] = self.run_step00(compound, compound_dir)
+            compound_progress.set_description(f"{compound} - Step 0 (AI) completed")
+            
+            if step_results.get("step00", False):
+                step_results["step01"] = self.run_step01(compound, compound_dir)
+                compound_progress.set_description(f"{compound} - Step 1 (AI) completed")
+                
+                if step_results["step01"]:
+                    step_results["step02"] = self.run_step02(compound, compound_dir)
+                    compound_progress.set_description(f"{compound} - Step 2 (AI) completed")
+                    
+                    if step_results["step02"]:
+                        default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
+                        step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
+                        compound_progress.set_description(f"{compound} - Step 3 (AI) completed")
+            
+            # Check success of Phase B
+            found_alternatives = step_results.get("step03", False)
+
+        if not found_alternatives:
+            self.logger.warning(f"Both search phases failed to find alternatives for {compound}, skipping remaining steps")
             compound_progress.update(1)
             return step_results
         
-        step_results["step02"] = self.run_step02(compound, compound_dir)
-        compound_progress.set_description(f"{compound} - Step 2 completed")
-        if not step_results["step02"]:
-            self.logger.warning(f"Step 02 failed for {compound}, skipping remaining steps")
-            compound_progress.update(1)
-            return step_results
-         
-        # Use recursive search for step03
-        default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
-        step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
-        compound_progress.set_description(f"{compound} - Step 3 completed")
-        
-        if not step_results["step03"]:
-            self.logger.warning(f"Step 03 failed for {compound}, skipping remaining steps")
-            compound_progress.update(1)
-            return step_results
-        
+        # -------------------------------------------------------------
+        # Step 04: Extraction
+        # -------------------------------------------------------------
         step_results["step04"] = self.run_step04(compound, compound_dir)
         compound_progress.set_description(f"{compound} - All steps completed")
         
@@ -384,7 +460,7 @@ class PipelineController:
         self.logger.info(f"Pipeline completed for {compound}")
         return step_results
     
-    def run_full_pipeline(self) -> Dict[str, Dict[str, bool]]:
+    def run_full_pipeline(self) -> dict[str, dict[str, bool]]:
         """Run pipeline for all compounds."""
         print(f"\n{'*'*80}")
         print("STARTING FULL PIPELINE FOR ALL COMPOUNDS")

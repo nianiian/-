@@ -198,19 +198,48 @@ def main():
     print(f"Year range: last {args.year_range} years")
     print(f"Using Semantic Scholar API key from config file")
     
-    papers, total_available = fetch_all_papers_with_token(
-        args.keyword, 
-        max_results=args.max_results,
-        year_range=args.year_range
-    )
+    # Check if step00_queries.json exists
+    queries_file = Path(args.output_dir) / "step00_queries.json"
+    queries = [args.keyword]
+    if queries_file.exists():
+        try:
+            with open(queries_file, 'r', encoding='utf-8') as f:
+                ai_queries = json.load(f)
+                if isinstance(ai_queries, list) and ai_queries:
+                    queries = ai_queries
+                elif isinstance(ai_queries, dict) and "queries" in ai_queries:
+                    queries = ai_queries["queries"]
+            print(f"Loaded {len(queries)} AI-generated queries from step00")
+        except Exception as e:
+            print(f"Failed to read {queries_file}: {e}. Fallback to default keyword.")
+
+    all_collected_papers = {}  # Use dict to deduplicate by paperId
+    total_available_overall = 0
+
+    for query in queries:
+        print(f"\n--- Running query: {query} ---")
+        papers_cur, total_cur = fetch_all_papers_with_token(
+            query, 
+            max_results=args.max_results,
+            year_range=args.year_range
+        )
+        total_available_overall = max(total_available_overall, total_cur)
+        
+        # Deduplicate
+        for p in papers_cur:
+            pid = p.get("paperId")
+            if pid and pid not in all_collected_papers:
+                all_collected_papers[pid] = p
+                
+    papers = list(all_collected_papers.values())
     
     if papers:
-        print(f"Collected {len(papers)} papers for {args.keyword}")
+        print(f"\nCollected {len(papers)} unique papers across all queries for {args.keyword}")
         output_file = Path(args.output_dir) / args.output_file
         save_results(papers, output_file)
         print(f"Successfully fetched {len(papers)} papers for {args.keyword}")
     else:
-        print(f"No papers found for {args.keyword}")
+        print(f"\nNo papers found for {args.keyword}")
 
 if __name__ == "__main__":
     main()

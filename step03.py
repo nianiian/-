@@ -925,18 +925,41 @@ class SaferAlternativeAnalyzer:
         # --- Automatic Checkpoint & Resume Logic ---
         processed_dois = {}
         processed_titles = {}
-        if self.cfg.output_file.exists():
+        
+        # 1. 蒐集並讀取所有歷史備份檔 (backup) 與當前指定的輸出檔
+        import glob
+        from pathlib import Path
+        out_dir = self.cfg.output_file.parent
+        # 尋找同一資料夾下的 step03_results_backup_*.json
+        backup_files = list(out_dir.glob("step03_results_backup_*.json"))
+        
+        files_to_read = backup_files
+        if self.cfg.output_file.exists() and self.cfg.output_file not in files_to_read:
+            files_to_read.append(self.cfg.output_file)
+            
+        total_cached = 0
+        for cache_file in files_to_read:
             try:
-                with open(self.cfg.output_file, 'r', encoding='utf-8') as f:
+                with open(cache_file, 'r', encoding='utf-8') as f:
                     cached = json.load(f)
+                
+                # 如果是空殼檔案 (例如被覆寫的 {"no_paper_found": True})，自動略過不作為有效快取
+                if isinstance(cached, dict) and cached.get("no_paper_found"):
+                    continue
+                if not isinstance(cached, list):
+                    continue
+                    
                 for r in cached:
                     if r.get("doi"):
                         processed_dois[r["doi"]] = r
                     elif r.get("title"):
                         processed_titles[r["title"]] = r
-                self.logger.info(f"Loaded {len(cached)} cached records from {self.cfg.output_file.name}")
+                total_cached += len(cached)
             except Exception as e:
-                self.logger.warning(f"Failed to load cache from {self.cfg.output_file.name}: {e}")
+                self.logger.warning(f"Failed to load cache from {cache_file.name}: {e}")
+
+        if total_cached > 0:
+            self.logger.info(f"Loaded {len(processed_dois) + len(processed_titles)} unique cached records from {len(files_to_read)} files in {out_dir}")
 
         tasks_to_run = []
         for i, rec in enumerate(records):

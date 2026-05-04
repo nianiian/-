@@ -204,7 +204,9 @@ class PipelineController:
             
             # Backup current results before trying extended search
             original_step03_file = compound_dir / self.get_step03_filename()
-            backup_step03_file = compound_dir / f"step03_results_backup_{current_years}y.json"
+            import time
+            timestamp = int(time.time())
+            backup_step03_file = compound_dir / f"step03_results_backup_{current_years}y_{timestamp}.json"
             if original_step03_file.exists():
                 import shutil
                 shutil.copy2(original_step03_file, backup_step03_file)

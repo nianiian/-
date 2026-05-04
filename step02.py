@@ -102,48 +102,61 @@ def _build_client() -> httpx.Client:
     transport = httpx.HTTPTransport(retries=3)
     return httpx.Client(transport=transport, follow_redirects=True)
 
-def fill_missing_abstracts(records, workers: int = 8):
+def fill_missing_abstracts(records, persistent_cache: dict, workers: int = 8):
     """Fill missing abstracts using DOI lookups with parallel requests."""
-    # Cache per DOI to avoid duplicate requests
-    cache = {}
-
-    # Build work list: indices of records needing abstract and their DOIs
+    # Build work list: indices of records needing abstract and their DOIs OR titles
     work = []
+    cache_hits = 0
     for idx, entry in enumerate(records):
         abstract = (entry.get("abstract") or "").strip()
         doi = (entry.get("externalIds", {}).get("DOI") or "").strip()
-        if abstract == "" and doi:
-            work.append((idx, doi))
+        title = (entry.get("title") or entry.get("Article title") or "").strip()
+        
+        if not abstract:
+            # Check persistent cache first
+            if doi and doi in persistent_cache:
+                records[idx]["abstract"] = persistent_cache[doi]
+                cache_hits += 1
+            elif title and title in persistent_cache:
+                records[idx]["abstract"] = persistent_cache[title]
+                cache_hits += 1
+            elif doi:
+                # Still missing, need to fetch
+                work.append((idx, doi, title))
 
     if not work:
-        print("All records already have abstracts.")
-        return 0
+        print(f"All records have abstracts. (Cache hits: {cache_hits})")
+        return cache_hits
 
-    print(f"Need to fetch abstracts for {len(work)} records (using {workers} workers)...")
+    print(f"Need to fetch abstracts for {len(work)} records (using {workers} workers, Cache hits: {cache_hits})...")
     client = _build_client()
 
-    def fetch_for_doi(doi: str):
-        if doi in cache:
-            return cache[doi]
+    def fetch_for_doi(doi: str, title: str):
+        if doi in persistent_cache:
+            return persistent_cache[doi]
         # Priority: Semantic Scholar (fastest) -> Elsevier -> Crossref
         abs_txt = fetch_abstract_from_semantic_scholar(doi, client=client)
         if not abs_txt:
             abs_txt = fetch_abstract_from_elsevier(doi, client=client)
         if not abs_txt:
             abs_txt = fetch_abstract_from_crossref(doi, client=client)
-        cache[doi] = abs_txt
+            
+        if abs_txt:
+            persistent_cache[doi] = abs_txt
+            if title:
+                persistent_cache[title] = abs_txt
         return abs_txt
 
     filled_count = 0
     with ThreadPoolExecutor(max_workers=workers) as ex:
-        future_map = {ex.submit(fetch_for_doi, doi): (idx, doi) for idx, doi in work}
+        future_map = {ex.submit(fetch_for_doi, doi, title): (idx, doi, title) for idx, doi, title in work}
         # Update progress every 1% (miniters = total / 100)
         update_interval = max(1, len(future_map) // 100)
         pbar = tqdm(as_completed(future_map), total=len(future_map), 
                     desc="Filling missing abstracts", miniters=update_interval,
                     dynamic_ncols=True, file=sys.stdout)
         for fut in pbar:
-            idx, doi = future_map[fut]
+            idx, doi, title = future_map[fut]
             try:
                 new_abs = fut.result()
             except Exception:
@@ -151,9 +164,9 @@ def fill_missing_abstracts(records, workers: int = 8):
             if new_abs:
                 records[idx]["abstract"] = new_abs
                 filled_count += 1
-            pbar.set_postfix(filled=filled_count, refresh=False)
+            pbar.set_postfix(fetched=filled_count, refresh=False)
 
-    return filled_count
+    return cache_hits + filled_count
 
 def parse_args():
     """Parse command line arguments."""
@@ -172,7 +185,46 @@ def main():
     
     records = load_records(args.input_file)
     
-    filled_count = fill_missing_abstracts(records, workers=args.workers)
+    # --- Abstract Caching System ---
+    output_path = Path(args.output_file)
+    output_dir = output_path.parent
+    output_dir.mkdir(parents=True, exist_ok=True)
+    cache_file = output_dir / "abstract_cache.json"
+    
+    persistent_cache = {}
+    if cache_file.exists():
+        try:
+            with open(cache_file, "r", encoding="utf-8") as f:
+                persistent_cache.update(json.load(f))
+        except Exception:
+            pass
+            
+    if output_path.exists():
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                old_records = json.load(f)
+                for rec in old_records:
+                    doi = str(rec.get("externalIds", {}).get("DOI", "")).strip()
+                    title = str(rec.get("title", "") or rec.get("Article title", "")).strip()
+                    abstract = str(rec.get("abstract", "")).strip()
+                    if abstract:
+                        if doi: persistent_cache[doi] = abstract
+                        if title: persistent_cache[title] = abstract
+        except Exception:
+            pass
+            
+    print(f"Loaded {len(persistent_cache)} abstracts from local cache.")
+
+    filled_count = fill_missing_abstracts(records, persistent_cache, workers=args.workers)
+    
+    # Save the updated cache back
+    try:
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(persistent_cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        print(f"Failed to save abstract cache: {e}")
+        
+    # --- End Caching System ---
     
     # Save in the original order
     save_records(records, args.output_file)

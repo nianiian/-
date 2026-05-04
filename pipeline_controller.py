@@ -73,6 +73,23 @@ class PipelineController:
             ]
         )
         self.logger = logging.getLogger(__name__)
+
+    @property
+    def current_model_name(self) -> str:
+        # Get the model string, handle commas if multiple models are specified
+        models = CONFIG.get("default_settings", {}).get("openai_models", "")
+        model = models.split(",")[0] if models else CONFIG.get("default_settings", {}).get("openai_model", "default")
+        return model.replace(":", "-").replace("/", "-")
+
+    def get_step03_filename(self) -> str:
+        return f"step03_results_{self.current_model_name}.json"
+
+    def get_step04_filename(self) -> str:
+        return f"step04_results_{self.current_model_name}.json"
+
+    def get_step04_summary_filename(self) -> str:
+        return f"step04_summary_{self.current_model_name}.json"
+
     
     def load_compounds(self) -> List[str]:
         """Load compound names (and optional CID) from CSV file.
@@ -110,9 +127,29 @@ class PipelineController:
         compound_dir.mkdir(parents=True, exist_ok=True)
         return compound_dir
     
+    def check_step04_has_data(self, compound_dir: Path) -> bool:
+        """Check if step04 extracted any dosage data."""
+        step04_summary_file = compound_dir / self.get_step04_summary_filename()
+        if not step04_summary_file.exists():
+            return False
+            
+        try:
+            with open(step04_summary_file, 'r', encoding='utf-8') as f:
+                summary = json.load(f)
+                
+            stats = summary.get("statistics", {})
+            # Now we just check if any safety/harm analysis was successfully extracted
+            useful_data_count = stats.get("harm_extracted", 0)
+            
+            return useful_data_count > 0
+            
+        except Exception as e:
+            self.logger.error(f"Error reading step04 summary: {e}")
+            return False
+
     def check_step03_has_alternatives(self, compound_dir: Path) -> bool:
         """Check if step03 found any alternatives (alternatives provided = 'yes')."""
-        step03_file = compound_dir / "step03_results.json"
+        step03_file = compound_dir / self.get_step03_filename()
         if not step03_file.exists():
             self.logger.warning(f"Step03 results file not found: {step03_file}")
             return False
@@ -166,7 +203,7 @@ class PipelineController:
             self.logger.info(f"No alternatives found in {current_years} years. Extending search to {next_years} years...")
             
             # Backup current results before trying extended search
-            original_step03_file = compound_dir / "step03_results.json"
+            original_step03_file = compound_dir / self.get_step03_filename()
             backup_step03_file = compound_dir / f"step03_results_backup_{current_years}y.json"
             if original_step03_file.exists():
                 import shutil
@@ -177,7 +214,7 @@ class PipelineController:
         else:
             self.logger.info(f"Reached maximum search range of {max_search_years} years for {compound}. No alternatives found.")
             # 覆蓋 step03_results.json 寫入 no paper found
-            step03_file = compound_dir / "step03_results.json"
+            step03_file = compound_dir / self.get_step03_filename()
             with open(step03_file, "w", encoding="utf-8") as f:
                 json.dump({"no paper found": True}, f, ensure_ascii=False, indent=2)
             
@@ -320,7 +357,7 @@ class PipelineController:
         command_args = [
             sys.executable, str(SCRIPT_DIR / "step03.py"),
             "--input_file", str(input_file),
-            "--output_file", str(compound_dir / "step03_results.json"),
+            "--output_file", str(compound_dir / self.get_step03_filename()),
             "--target", compound
         ]
         # If config specifies parallel models, pass them through
@@ -352,7 +389,7 @@ class PipelineController:
         print(f"Step 04: Extracting alternatives for {compound}")
         print(f"{'='*60}")
         
-        input_file = compound_dir / "step03_results.json"
+        input_file = compound_dir / self.get_step03_filename()
         if not input_file.exists():
             self.logger.error(f"Input file not found for step 04: {input_file}")
             return False
@@ -360,7 +397,7 @@ class PipelineController:
         command_args = [
             sys.executable, str(SCRIPT_DIR / "step04.py"),
             "--input_file", str(input_file),
-            "--output_file", str(compound_dir / "step04_results.json"),
+            "--output_file", str(compound_dir / self.get_step04_filename()),
             "--target", compound
         ]
         # Optional: drop empty alternatives as per config
@@ -413,9 +450,18 @@ class PipelineController:
                 default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
                 step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
                 compound_progress.set_description(f"{compound} - Step 3 (Standard) completed")
+                
+                if step_results["step03"]:
+                    step_results["step04"] = self.run_step04(compound, compound_dir)
+                    compound_progress.set_description(f"{compound} - Step 4 (Standard) completed")
         
         # Check if Phase A was successful in finding alternatives
         found_alternatives = step_results.get("step03", False)
+        if found_alternatives:
+            step04_success = self.check_step04_has_data(compound_dir)
+            if not step04_success:
+                self.logger.warning(f"Step 03 found alternatives, but Step 04 found no useful safety/harm data for {compound}. Treating Phase A as failed.")
+                found_alternatives = False
         
         # -------------------------------------------------------------
         # PHASE B: AI Agentic Search (If Phase A failed to find alternatives)
@@ -441,20 +487,23 @@ class PipelineController:
                         default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
                         step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
                         compound_progress.set_description(f"{compound} - Step 3 (AI) completed")
+                        
+                        if step_results["step03"]:
+                            step_results["step04"] = self.run_step04(compound, compound_dir)
+                            compound_progress.set_description(f"{compound} - Step 4 (AI) completed")
             
             # Check success of Phase B
             found_alternatives = step_results.get("step03", False)
+            if found_alternatives:
+                step04_success = self.check_step04_has_data(compound_dir)
+                if not step04_success:
+                    self.logger.warning(f"Phase B Step 04 also found no useful safety/harm data for {compound}.")
+                    found_alternatives = False
 
         if not found_alternatives:
-            self.logger.warning(f"Both search phases failed to find alternatives for {compound}, skipping remaining steps")
+            self.logger.warning(f"Both search phases failed to find valid safety context for {compound}, skipping remaining steps")
             compound_progress.update(1)
             return step_results
-        
-        # -------------------------------------------------------------
-        # Step 04: Extraction
-        # -------------------------------------------------------------
-        step_results["step04"] = self.run_step04(compound, compound_dir)
-        compound_progress.set_description(f"{compound} - All steps completed")
         
         compound_progress.update(1)
         self.logger.info(f"Pipeline completed for {compound}")

@@ -1966,3 +1966,81 @@
 2026-04-29 21:32:21,374 - INFO - Found alternatives for formaldehyde within 10 years
 2026-04-29 22:49:08,606 - INFO - Step 04 completed successfully for formaldehyde
 2026-04-29 22:49:08,607 - INFO - Pipeline completed for formaldehyde
+2026-04-29 23:28:06,717 - INFO - Step 01 completed successfully for allyl alcohol
+2026-04-29 23:31:43,479 - INFO - Step 02 completed successfully for allyl alcohol
+2026-04-29 23:31:43,480 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-04-29 23:56:19,046 - INFO - Step 03 completed successfully for allyl alcohol
+2026-04-29 23:56:19,056 - INFO - Step03 results: 1/1208 papers have alternatives
+2026-04-29 23:56:19,056 - INFO - Found alternatives for allyl alcohol within 10 years
+2026-04-29 23:56:50,995 - INFO - Step 04 completed successfully for allyl alcohol
+2026-04-29 23:56:50,996 - INFO - Pipeline completed for allyl alcohol
+2026-04-29 23:58:35,297 - INFO - Step 01 completed successfully for bisphenol A
+2026-04-30 00:04:02,716 - INFO - Step 02 completed successfully for bisphenol A
+2026-04-30 00:04:02,716 - INFO - Searching for alternatives in last 10 years for bisphenol A
+2026-04-30 02:07:40,909 - INFO - Step 03 completed successfully for bisphenol A
+2026-04-30 02:07:40,947 - INFO - Step03 results: 144/4694 papers have alternatives
+2026-04-30 02:07:40,949 - INFO - Found alternatives for bisphenol A within 10 years
+2026-04-30 02:51:16,004 - INFO - Step 04 completed successfully for bisphenol A
+2026-04-30 02:51:16,004 - INFO - Pipeline completed for bisphenol A
+2026-04-30 02:51:54,003 - INFO - Step 01 completed successfully for cumene
+2026-04-30 02:54:10,856 - INFO - Step 02 completed successfully for cumene
+2026-04-30 02:54:10,856 - INFO - Searching for alternatives in last 10 years for cumene
+2026-04-30 03:09:10,569 - INFO - Step 03 completed successfully for cumene
+2026-04-30 03:09:10,575 - INFO - Step03 results: 11/843 papers have alternatives
+2026-04-30 03:09:10,575 - INFO - Found alternatives for cumene within 10 years
+2026-04-30 03:13:02,459 - INFO - Step 04 completed successfully for cumene
+2026-04-30 03:13:02,460 - INFO - Pipeline completed for cumene
+2026-04-30 14:20:38,217 - INFO - Step 01 completed successfully for allyl alcohol
+2026-04-30 14:24:03,072 - INFO - Step 02 completed successfully for allyl alcohol
+2026-04-30 14:24:03,073 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-04-30 14:58:19,931 - INFO - Step 03 completed successfully for allyl alcohol
+2026-04-30 14:58:19,940 - INFO - Step03 results: 1/1208 papers have alternatives
+2026-04-30 14:58:19,940 - INFO - Found alternatives for allyl alcohol within 10 years
+2026-04-30 14:58:47,281 - INFO - Step 04 completed successfully for allyl alcohol
+2026-04-30 14:58:47,282 - WARNING - Step 03 found alternatives, but Step 04 found no useful dosage data for allyl alcohol. Treating Phase A as failed.
+2026-04-30 14:58:47,282 - INFO - Standard search yielded no alternatives for allyl alcohol. Triggering AI Agentic Search (Phase B).
+2026-04-30 14:58:54,286 - INFO - Generating search queries for 'allyl alcohol' using gemini-3.1-flash-lite-preview
+2026-04-30 14:58:54,287 - INFO - AFC is enabled with max remote calls: 10.
+2026-04-30 14:59:00,208 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-04-30 14:59:00,209 - INFO - Generated 4 queries successfully.
+2026-04-30 14:59:00,212 - INFO - Generated 4 queries for allyl alcohol, saved to step00_queries.json
+2026-04-30 14:59:21,427 - INFO - Step 01 completed successfully for allyl alcohol
+2026-04-30 14:59:26,148 - INFO - Step 02 completed successfully for allyl alcohol
+2026-04-30 14:59:26,149 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-04-30 15:00:00,378 - INFO - Step 03 completed successfully for allyl alcohol
+2026-04-30 15:00:00,379 - INFO - Step03 results: 0/11 papers have alternatives
+2026-04-30 15:00:00,380 - INFO - No alternatives found in 10 years. Extending search to 20 years...
+2026-04-30 15:00:00,389 - INFO - Searching for alternatives in last 20 years for allyl alcohol
+2026-04-30 15:01:03,505 - INFO - Step 03 completed successfully for allyl alcohol
+2026-04-30 15:01:03,506 - INFO - Step03 results: 0/24 papers have alternatives
+2026-04-30 15:01:03,506 - INFO - No alternatives found in 20 years. Extending search to 30 years...
+2026-04-30 15:01:03,511 - INFO - Searching for alternatives in last 30 years for allyl alcohol
+2026-04-30 15:03:15,332 - INFO - Step 03 completed successfully for allyl alcohol
+2026-04-30 15:03:15,333 - INFO - Step03 results: 0/28 papers have alternatives
+2026-04-30 15:03:15,333 - INFO - Reached maximum search range of 30 years for allyl alcohol. No alternatives found.
+2026-04-30 15:03:15,336 - INFO - Created no paper found file: P:\Disks\Nikki\ntu\¹êÅç«Ç\ºÓ½×\pipeline_hazard\final_output\20260430_7858.json
+2026-04-30 15:03:15,337 - WARNING - Both search phases failed to find usable dosage for allyl alcohol, skipping remaining steps
+2026-04-30 15:25:09,073 - INFO - Step 01 completed successfully for vinyl acetate
+2026-04-30 15:30:30,977 - INFO - Step 02 completed successfully for vinyl acetate
+2026-04-30 15:30:30,978 - INFO - Searching for alternatives in last 10 years for vinyl acetate
+2026-04-30 16:48:55,017 - INFO - Step 03 completed successfully for vinyl acetate
+2026-04-30 16:48:55,068 - INFO - Step03 results: 35/2904 papers have alternatives
+2026-04-30 16:48:55,069 - INFO - Found alternatives for vinyl acetate within 10 years
+2026-04-30 16:55:21,790 - ERROR - Step 04 failed for vinyl acetate with return code 1
+2026-04-30 16:55:21,792 - INFO - Pipeline completed for vinyl acetate
+2026-04-30 16:56:13,734 - INFO - Step 01 completed successfully for oxirane
+2026-04-30 16:59:35,476 - INFO - Step 02 completed successfully for oxirane
+2026-04-30 16:59:35,477 - INFO - Searching for alternatives in last 10 years for oxirane
+2026-04-30 17:28:13,905 - INFO - Step 03 completed successfully for oxirane
+2026-04-30 17:28:13,914 - INFO - Step03 results: 5/1310 papers have alternatives
+2026-04-30 17:28:13,914 - INFO - Found alternatives for oxirane within 10 years
+2026-04-30 17:31:09,233 - INFO - Step 04 completed successfully for oxirane
+2026-04-30 17:31:09,234 - INFO - Pipeline completed for oxirane
+2026-04-30 17:33:04,949 - INFO - Step 01 completed successfully for vinyl chloride
+2026-04-30 17:39:15,904 - INFO - Step 02 completed successfully for vinyl chloride
+2026-04-30 17:39:15,904 - INFO - Searching for alternatives in last 10 years for vinyl chloride
+2026-04-30 22:55:59,110 - ERROR - Step 03 failed for vinyl chloride with return code 3221225786
+2026-04-30 22:58:04,880 - INFO - Step 01 completed successfully for vinyl acetate
+2026-04-30 23:03:59,875 - INFO - Step 02 completed successfully for vinyl acetate
+2026-04-30 23:03:59,876 - INFO - Searching for alternatives in last 10 years for vinyl acetate
+2026-05-01 02:15:55,131 - ERROR - Step 01 failed for vinyl acetate with return code 3221225786

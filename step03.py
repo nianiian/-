@@ -280,6 +280,7 @@ def webpage_to_pdf_via_selenium(doi: str, output_path: Path) -> bool:
     driver = None
     try:
         driver = webdriver.Chrome(options=chrome_options)
+        driver.set_page_load_timeout(15)  # Add timeout limit
         
         # 訪問 DOI 頁面
         start_url = f"https://doi.org/{doi}"
@@ -361,6 +362,7 @@ def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
     driver = None
     try:
         driver = webdriver.Chrome(options=chrome_options)
+        driver.set_page_load_timeout(15)  # Add timeout limit
         
         # 3. Visit DOI
         start_url = f"https://doi.org/{doi}"
@@ -915,9 +917,41 @@ class SaferAlternativeAnalyzer:
         Records are assigned to models in round-robin (one model per record).
         """
         from concurrent.futures import ThreadPoolExecutor, as_completed
+        import json
 
         total = len(records)
         results: List[Optional[Dict[str, Any]]] = [None] * total
+
+        # --- Automatic Checkpoint & Resume Logic ---
+        processed_dois = {}
+        processed_titles = {}
+        if self.cfg.output_file.exists():
+            try:
+                with open(self.cfg.output_file, 'r', encoding='utf-8') as f:
+                    cached = json.load(f)
+                for r in cached:
+                    if r.get("doi"):
+                        processed_dois[r["doi"]] = r
+                    elif r.get("title"):
+                        processed_titles[r["title"]] = r
+                self.logger.info(f"Loaded {len(cached)} cached records from {self.cfg.output_file.name}")
+            except Exception as e:
+                self.logger.warning(f"Failed to load cache from {self.cfg.output_file.name}: {e}")
+
+        tasks_to_run = []
+        for i, rec in enumerate(records):
+            doi = rec.get("externalIds", {}).get("DOI", "") if isinstance(rec.get("externalIds"), dict) else ""
+            title = rec.get("title") or rec.get("Article title") or ""
+            
+            cached_res = processed_dois.get(doi) if doi else processed_titles.get(title)
+            expected_model = self.models[i % len(self.models)] if self.models else self.cfg.model
+            
+            # 若快取的模型與本次預計使用的模型相同，才套用快取；否則視為沒跑過，重新放入排程
+            if cached_res and cached_res.get("model_used") == expected_model:
+                results[i] = cached_res
+            else:
+                tasks_to_run.append((i, rec))
+        # --------------------------------------------
 
         def task_distribute(idx_record):
             idx, rec = idx_record
@@ -925,26 +959,52 @@ class SaferAlternativeAnalyzer:
             model = self.models[idx % len(self.models)] if self.models else self.cfg.model
             return idx, self.analyze_one_with_model(rec, model)
 
-        with ThreadPoolExecutor(max_workers=max(1, int(self.cfg.workers))) as ex:
-            futures = {ex.submit(task_distribute, (i, rec)): i for i, rec in enumerate(records)}
-            for fut in tqdm(as_completed(futures), total=total, desc=f"Analyzing abstracts for {self.cfg.target}"):
-                i = futures[fut]
-                try:
-                    idx, res = fut.result()
-                    results[idx] = res
-                except Exception as e:
-                    # On failure, store a minimal error result to keep alignment
-                    results[i] = {
-                        "title": str(records[i].get("title", "")),
-                        "doi": str(records[i].get("externalIds", {}).get("DOI", "")),
-                        "year": records[i].get("year") or records[i].get("Year") or "",
-                        "abstract": records[i].get("abstract") or records[i].get("Abstract") or "",
-                        "target": self.cfg.target,
-                        "alternatives provided": "no",
-                        "alternatives": [],
-                        "reasoning": f"Analysis failed: {e}",
-                        "errors": {"record": str(e)},
-                    }
+        if tasks_to_run:
+            self.logger.info(f"Resuming {len(tasks_to_run)} uncompleted tasks out of {total} total.")
+            with ThreadPoolExecutor(max_workers=max(1, int(self.cfg.workers))) as ex:
+                futures = {ex.submit(task_distribute, item): item[0] for item in tasks_to_run}
+                
+                completed = total - len(tasks_to_run)
+                pbar = tqdm(total=total, initial=completed, desc=f"Analyzing abstracts for {self.cfg.target}")
+                save_interval = min(50, max(2, len(tasks_to_run) // 10))  # Checkpoint frequency
+                completed_since_save = 0
+
+                for fut in as_completed(futures):
+                    i = futures[fut]
+                    try:
+                        idx, res = fut.result()
+                        results[idx] = res
+                    except Exception as e:
+                        # On failure, store a minimal error result to keep alignment
+                        results[i] = {
+                            "title": str(records[i].get("title", "")),
+                            "doi": str(records[i].get("externalIds", {}).get("DOI", "")),
+                            "year": records[i].get("year") or records[i].get("Year") or "",
+                            "abstract": records[i].get("abstract") or records[i].get("Abstract") or "",
+                            "target": self.cfg.target,
+                            "alternatives provided": "no",
+                            "alternatives": [],
+                            "reasoning": f"Analysis failed: {e}",
+                            "errors": {"record": str(e)},
+                        }
+                    
+                    pbar.update(1)
+                    completed_since_save += 1
+                    
+                    # Checkpoint save
+                    if completed_since_save >= save_interval:
+                        try:
+                            # Save currently completed records
+                            current_completed = [r for r in results if r is not None]
+                            with open(self.cfg.output_file, 'w', encoding='utf-8') as f:
+                                json.dump(current_completed, f, ensure_ascii=False, indent=2)
+                            completed_since_save = 0
+                        except Exception:
+                            pass
+
+                pbar.close()
+        else:
+            self.logger.info("All records were already processed and loaded from cache.")
 
         # Filter out any None placeholders (shouldn't happen) and return in input order
         return [r for r in results if r is not None]
@@ -1082,7 +1142,14 @@ def main():
 
     # Save token usage summary next to output
     try:
-        usage_path = cfg.output_file.with_name("step03_token_usage.json")
+        output_stem = cfg.output_file.stem
+        if output_stem.startswith("step03_results"):
+            suffix = output_stem.replace("step03_results", "")
+            usage_filename = f"step03_token_usage{suffix}.json"
+        else:
+            usage_filename = "step03_token_usage.json"
+        
+        usage_path = cfg.output_file.with_name(usage_filename)
         with usage_path.open("w", encoding="utf-8") as f:
             json.dump({
                 "model_list": analyzer.models,

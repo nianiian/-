@@ -225,10 +225,11 @@ def main():
         )
         total_available_overall = max(total_available_overall, total_cur)
         
-        # Deduplicate
+        # Deduplicate and track query keyword
         for p in papers_cur:
             pid = p.get("paperId")
             if pid and pid not in all_collected_papers:
+                p["query_keyword"] = query
                 all_collected_papers[pid] = p
                 
     papers = list(all_collected_papers.values())

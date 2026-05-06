@@ -76,9 +76,14 @@ class PipelineController:
 
     @property
     def current_model_name(self) -> str:
-        # Get the model string, handle commas if multiple models are specified
-        models = CONFIG.get("default_settings", {}).get("openai_models", "")
-        model = models.split(",")[0] if models else CONFIG.get("default_settings", {}).get("openai_model", "default")
+        # Get the provider and model string, handle commas if multiple models are specified
+        provider = CONFIG.get("default_settings", {}).get("llm_provider", "openai").lower()
+        if provider == "gemini":
+            models = CONFIG.get("default_settings", {}).get("gemini_models", "")
+            model = models.split(",")[0] if models else CONFIG.get("default_settings", {}).get("gemini_model", "gemini-1.5-flash")
+        else:
+            models = CONFIG.get("default_settings", {}).get("openai_models", "")
+            model = models.split(",")[0] if models else CONFIG.get("default_settings", {}).get("openai_model", "default")
         return model.replace(":", "-").replace("/", "-")
 
     def get_step03_filename(self) -> str:
@@ -138,8 +143,8 @@ class PipelineController:
                 summary = json.load(f)
                 
             stats = summary.get("statistics", {})
-            # Now we just check if any safety/harm analysis was successfully extracted
-            useful_data_count = stats.get("harm_extracted", 0)
+            # Check if any dosage data was successfully extracted
+            useful_data_count = stats.get("extracted", 0)
             
             return useful_data_count > 0
             
@@ -206,7 +211,7 @@ class PipelineController:
             original_step03_file = compound_dir / self.get_step03_filename()
             import time
             timestamp = int(time.time())
-            backup_step03_file = compound_dir / f"step03_results_backup_{current_years}y_{timestamp}.json"
+            backup_step03_file = compound_dir / f"step03_results_backup_{self.current_model_name}_{current_years}y_{timestamp}.json"
             if original_step03_file.exists():
                 import shutil
                 shutil.copy2(original_step03_file, backup_step03_file)

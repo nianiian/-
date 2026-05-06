@@ -191,15 +191,19 @@ def is_valid_pdf(file_path: Path) -> bool:
         return False
 
 
-def read_pdf_text(pdf_path: Path) -> str:
+def read_pdf_text(pdf_path: Path) -> str | None:
     """Extract text from PDF using PyMuPDF (pymupdf) or pdfplumber."""
     text = ""
     
     # Validate PDF magic bytes first
     if not is_valid_pdf(pdf_path):
         safe_name = str(pdf_path.name).encode(sys.stdout.encoding or 'ascii', errors='replace').decode(sys.stdout.encoding or 'ascii')
-        print(f"    [WARN] Invalid PDF (not a real PDF file): {safe_name}")
-        return ""
+        print(f"    [WARN] Invalid PDF (not a real PDF file): {safe_name}. Deleting it.")
+        try:
+            pdf_path.unlink()
+        except Exception as e:
+            print(f"    [WARN] Failed to delete {safe_name}: {e}")
+        return None
     
     # Try PyMuPDF first (faster)
     try:
@@ -298,6 +302,8 @@ def get_fulltext(doi: str, research_pdf_dir: Path) -> tuple[str, str]:
     
     if fulltext_file.suffix.lower() == ".pdf":
         text = read_pdf_text(fulltext_file)
+        if text is None:
+            return "", "deleted_pdf"
         return text, "pdf" if text else "none"
     elif fulltext_file.suffix.lower() == ".xml":
         text = read_xml_text(fulltext_file)
@@ -926,31 +932,60 @@ def process_paper_for_dosage(
     # Step 1: Try to get fulltext
     fulltext, source = get_fulltext(doi, research_pdf_dir)
     
-    # Check if download was reported as failure in step03,
-    # but we DO have a file in research_pdf. This means step 04 should 
-    # definitely use the found file.
-    if source != "none" and fulltext.strip():
-        # It's an actual file and it has readable content. Let's make sure it's noted.
-        if "Failed" in download_status or not download_status:
-            download_status = f"Local check found valid {source}"
-            
-    text_to_analyze = fulltext if fulltext else abstract
-    
-    if not text_to_analyze:
-        # If both fulltext and abstract are empty, try to trigger a download
-        print(f"    [INFO] No text found for {doi}. Attempting to download via step03 functionality...")
+    if source == "deleted_pdf":
+        print(f"    [INFO] Fake PDF deleted for {doi}. Forcing a re-download attempt via step03...")
+        text_to_analyze = ""
         try:
             from step03 import download_full_text
-            # Call step03's downloader mapping
             dl_status = download_full_text(doi, title, research_pdf_dir)
-            
-            # Check again after download attempt
             fulltext, source = get_fulltext(doi, research_pdf_dir)
             if source != "none" and fulltext.strip():
                 text_to_analyze = fulltext
-                download_status = dl_status or f"Downloaded {source} on demand"
+                download_status = dl_status or f"Downloaded {source} after deleting fake PDF"
+            else:
+                text_to_analyze = abstract
         except ImportError:
-            pass
+            text_to_analyze = abstract
+            
+    else:
+        # Check if download was reported as failure in step03,
+        # but we DO have a file in research_pdf. This means step 04 should 
+        # definitely use the found file.
+        if source != "none" and fulltext.strip():
+            # It's an actual file and it has readable content. Let's make sure it's noted.
+            if "Failed" in download_status or not download_status:
+                download_status = f"Local check found valid {source}"
+        
+        # If we failed to get fulltext locally, we can also try to trigger a download
+        # if the download_status says it failed, because maybe we can fetch it now.
+        if source == "none" and ("Failed" in download_status or not download_status):
+            print(f"    [INFO] No local file and step03 reported failure for {doi}. Retrying download now...")
+            try:
+                from step03 import download_full_text
+                dl_status = download_full_text(doi, title, research_pdf_dir)
+                fulltext, source = get_fulltext(doi, research_pdf_dir)
+                if source != "none" and fulltext.strip():
+                    download_status = dl_status or f"Downloaded {source} after missing local file"
+            except ImportError:
+                pass
+                
+        text_to_analyze = fulltext if fulltext else abstract
+        
+        if not text_to_analyze:
+            # If both fulltext and abstract are empty, try to trigger a download
+            print(f"    [INFO] No text found for {doi}. Attempting to download via step03 functionality...")
+            try:
+                from step03 import download_full_text
+                # Call step03's downloader mapping
+                dl_status = download_full_text(doi, title, research_pdf_dir)
+                
+                # Check again after download attempt
+                fulltext, source = get_fulltext(doi, research_pdf_dir)
+                if source != "none" and fulltext.strip():
+                    text_to_analyze = fulltext
+                    download_status = dl_status or f"Downloaded {source} on demand"
+            except ImportError:
+                pass
             
     if not text_to_analyze:
         # Still nothing
@@ -1111,7 +1146,36 @@ def run_step04(
             json.dump({"no_alternatives": True}, f, ensure_ascii=False, indent=2)
         return
     
-    # Initialize LLM client (supports both OpenAI and Gemini)
+    # --- Dosage Extraction Caching System ---
+    out_dir = output_file.parent
+    cached_dosage_results = {}
+    cache_hits = 0
+    if out_dir.exists():
+        import glob
+        existing_files = list(out_dir.glob("step04_results*.json"))
+        for cache_file in existing_files:
+            try:
+                with open(cache_file, "r", encoding="utf-8") as cache_f:
+                    cached_data = json.load(cache_f)
+                    if isinstance(cached_data, dict) and cached_data.get("no_alternatives"):
+                        continue
+                    if isinstance(cached_data, list):
+                        for c_rec in cached_data:
+                            # Verify this record has some dosage info
+                            d_info = c_rec.get("dosage_info")
+                            if d_info:
+                                doi = str(c_rec.get("externalIds", {}).get("DOI", "")).strip()
+                                title = str(c_rec.get("title", "") or c_rec.get("Article title", "")).strip()
+                                
+                                if doi: cached_dosage_results[doi] = c_rec
+                                if title: cached_dosage_results[title] = c_rec
+            except Exception as e:
+                print(f"Warning: Failed to read cache {cache_file.name}: {e}")
+                
+    print(f"Loaded {len(cached_dosage_results)} cached Step 04 records from {out_dir.name}")
+    # --- End Caching System ---
+
+    # Initialize LLM client    # Initialize LLM client    # Initialize LLM client (supports both OpenAI and Gemini)
     client = LLMClient()
     
     # Process ONLY records with alternatives (skip the rest)
@@ -1135,12 +1199,29 @@ def run_step04(
                 alt = str(alt_raw) if alt_raw else ""
             pbar.set_postfix_str(f"{alt[:25]}...")
             
-            processed = process_paper_for_dosage(
-                record=record,
-                target=target,
-                research_pdf_dir=research_pdf_dir,
-                client=client
-            )
+            # Use Cache if available
+            doi = str(record.get("externalIds", {}).get("DOI", "")).strip()
+            title = str(record.get("title", "") or record.get("Article title", "")).strip()
+            
+            processed = None
+            if doi and doi in cached_dosage_results:
+                processed = cached_dosage_results[doi]
+            elif title and title in cached_dosage_results:
+                processed = cached_dosage_results[title]
+                
+            if processed and "dosage_info" in processed:
+                # Merge cached dosage info into current record to keep other info up-to-date
+                record["dosage_info"] = processed["dosage_info"]
+                processed = record
+                cache_hits += 1
+            else:
+                processed = process_paper_for_dosage(
+                    record=record,
+                    target=target,
+                    research_pdf_dir=research_pdf_dir,
+                    client=client
+                )
+            
             results.append(processed)
             
             # Update stats

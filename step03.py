@@ -259,71 +259,55 @@ def check_unpaywall_pdf(doi: str) -> Optional[str]:
     except Exception:
         return None
 
-def webpage_to_pdf_via_selenium(doi: str, output_path: Path) -> bool:
+
+def check_pmc_fulltext(doi: str, output_path: Path) -> Optional[str]:
     """
-    將 DOI 對應的網頁截圖轉換為 PDF（最後的 fallback 策略）。
-    使用 Chrome DevTools Protocol 的 Page.printToPDF 功能。
-    Returns True if successful.
+    Query NCBI E-utilities to get PMC full-text XML.
+    First converts DOI to PMC ID, then fetches full text via efetch.
+    Returns path to saved XML file if successful, else None.
     """
-    if not _ensure_selenium_modules():
-        return False
+    if not doi:
+        return None
     
-    import base64
-    
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--window-size=1920,1080")
-    
-    driver = None
     try:
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.set_page_load_timeout(15)  # Add timeout limit
+        # Step 1: Convert DOI to PMC ID using NCBI ID Converter
+        # https://www.ncbi.nlm.nih.gov/pmc/tools/idconv/
+        idconv_url = f"https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids={doi}&format=json"
+        res = requests.get(idconv_url, timeout=15)
+        if res.status_code != 200:
+            return None
         
-        # 訪問 DOI 頁面
-        start_url = f"https://doi.org/{doi}"
-        driver.get(start_url)
-        time.sleep(5)  # 等待重定向和頁面載入
+        data = res.json()
+        records = data.get("records", [])
+        if not records:
+            return None
         
-        # 使用 Chrome DevTools Protocol 生成 PDF
-        print_options = {
-            'landscape': False,
-            'displayHeaderFooter': False,
-            'printBackground': True,
-            'preferCSSPageSize': True,
-            'paperWidth': 8.27,   # A4 寬度 (英寸)
-            'paperHeight': 11.69, # A4 高度 (英寸)
-            'marginTop': 0.4,
-            'marginBottom': 0.4,
-            'marginLeft': 0.4,
-            'marginRight': 0.4,
-        }
+        pmcid = records[0].get("pmcid")
+        if not pmcid:
+            return None
         
-        result = driver.execute_cdp_cmd('Page.printToPDF', print_options)
-        pdf_data = base64.b64decode(result['data'])
+        # Step 2: Fetch full text XML via E-utilities efetch
+        # Extract numeric ID from PMCxxxxxxx
+        pmc_num = pmcid.replace("PMC", "")
+        efetch_url = f"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id={pmc_num}"
         
-        # 儲存 PDF
-        output_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(output_path, 'wb') as f:
-            f.write(pdf_data)
+        res = requests.get(efetch_url, timeout=60)
+        if res.status_code != 200:
+            return None
         
-        # 驗證檔案大小（至少 10KB 才算有效）
-        if output_path.stat().st_size > 10 * 1024:
-            return True
-        else:
-            output_path.unlink(missing_ok=True)
-            return False
-            
+        content_type = res.headers.get("Content-Type", "").lower()
+        if "xml" not in content_type:
+            return None
+        
+        # Save XML file
+        xml_path = output_path.with_suffix(".xml")
+        with open(xml_path, "wb") as f:
+            f.write(res.content)
+        
+        return str(xml_path)
+    
     except Exception:
-        return False
-    finally:
-        if driver:
-            try:
-                driver.quit()
-            except:
-                pass
+        return None
 
 
 def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
@@ -335,17 +319,11 @@ def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
         return False
 
     # 1. Setup temp download dir
-    temp_dir = output_path.parent / "temp_selenium_downloads"
+    import uuid
+    uid = uuid.uuid4().hex[:8]
+    temp_dir = output_path.parent / f"temp_selenium_{uid}"
     temp_dir.mkdir(parents=True, exist_ok=True)
     
-    # Clean temp dir
-    for path in temp_dir.iterdir():
-        try:
-            if path.is_file():
-                path.unlink()
-        except Exception:
-            pass
-
     # 2. Setup Driver
     chrome_options = Options()
     chrome_options.add_argument("--disable-gpu")
@@ -380,40 +358,49 @@ def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
         except:
             pass
             
-        # Heuristic 2: Link Analysis
+        # Heuristic 2: Link Analysis (look for .pdf or /pdf endpoints)
         if not pdf_link:
             links = driver.find_elements(By.TAG_NAME, "a")
             for link in links:
                 try:
                     href = link.get_attribute("href")
-                    if href and ".pdf" in href.lower():
-                        pdf_link = href
-                        break 
+                    if href:
+                        # Match .pdf files or /pdf endpoints (MDPI style)
+                        if ".pdf" in href.lower() or href.rstrip("/").endswith("/pdf"):
+                            pdf_link = href
+                            break 
                 except: continue
         
+        # Heuristic 3: Try appending /pdf to current URL (MDPI, Frontiers, etc.)
+        if not pdf_link:
+            current_url = driver.current_url.rstrip("/")
+            if not current_url.endswith("/pdf"):
+                pdf_link = current_url + "/pdf"
+        
         if pdf_link:
-            driver.get(pdf_link)
-            # Wait for download
-            for _ in range(15):
-                time.sleep(1)
-                files = [
-                    p for p in temp_dir.iterdir()
-                    if p.is_file() and p.suffix.lower() not in {".crdownload", ".tmp", ".zip"}
-                ]
-                if files:
-                    # Move to final location
-                    shutil.move(str(files[0]), str(output_path))
+            # Use requests to download the PDF directly (headless Chrome doesn't reliably trigger downloads)
+            driver.quit()
+            driver = None
+            try:
+                # Use a browser-like User-Agent that works with most publishers
+                headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+                resp = requests.get(pdf_link, timeout=30, headers=headers)
+                if resp.status_code == 200 and resp.content[:4] == b'%PDF':
+                    with open(output_path, 'wb') as f:
+                        f.write(resp.content)
                     return True
+            except Exception:
+                pass
     except Exception:
         pass
     finally:
         if driver:
             try: driver.quit()
             except: pass
-        try:
-            temp_dir.rmdir()  # Cleanup if empty
-        except Exception:
-            pass
+        if temp_dir.exists():
+            import shutil
+            try: shutil.rmtree(temp_dir)
+            except Exception: pass
             
     return False
 
@@ -427,9 +414,9 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     4. Springer Nature Open Access JATS XML
     5. OpenAlex Open Access URL
     6. Unpaywall Open Access URL
-    7. Selenium DOI Scraper
-    8. Fallback: Elsevier XML
-    9. Webpage capture to PDF via Selenium
+    7. PMC E-utilities (Full-text XML)
+    8. Selenium DOI Scraper
+    9. Fallback: Elsevier XML
     """
     # Create safe filename
     safe_title = re.sub(r'[\\/*?:"<>|]', "", title)[:50]
@@ -474,7 +461,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
         try:
             res_oa = requests.get(open_access_pdf_url, timeout=30)
             content_type = res_oa.headers.get("Content-Type", "").lower()
-            if res_oa.status_code == 200 and ("pdf" in content_type or len(res_oa.content) > 50_000):
+            if res_oa.status_code == 200 and ("pdf" in content_type or len(res_oa.content) > 50_000) and not res_oa.content.startswith(b"<!DOCTYPE html>"):
                 with open(final_pdf_path, "wb") as f:
                     f.write(res_oa.content)
                 return f"Downloaded PDF (Record openAccessPdf) ({len(res_oa.content)} bytes)"
@@ -486,7 +473,8 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     if s2_pdf_url:
         try:
             res_s2 = requests.get(s2_pdf_url, timeout=30)
-            if res_s2.status_code == 200:
+            content_type = res_s2.headers.get("Content-Type", "").lower()
+            if res_s2.status_code == 200 and ("application/pdf" in content_type or len(res_s2.content) > 50_000) and not res_s2.content.startswith(b"<!DOCTYPE html>"):
                 with open(final_pdf_path, "wb") as f:
                     f.write(res_s2.content)
                 return f"Downloaded PDF (Semantic Scholar) ({len(res_s2.content)} bytes)"
@@ -508,7 +496,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
         try:
             res_openalex = requests.get(openalex_url, timeout=30)
             content_type = res_openalex.headers.get("Content-Type", "").lower()
-            if res_openalex.status_code == 200 and ("pdf" in content_type or len(res_openalex.content) > 50_000):
+            if res_openalex.status_code == 200 and ("pdf" in content_type or len(res_openalex.content) > 50_000) and not res_openalex.content.startswith(b"<!DOCTYPE html>"):
                 with open(final_pdf_path, "wb") as f:
                     f.write(res_openalex.content)
                 return f"Downloaded PDF (OpenAlex) ({len(res_openalex.content)} bytes)"
@@ -521,14 +509,22 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
         try:
             res_unpaywall = requests.get(unpaywall_url, timeout=30)
             content_type = res_unpaywall.headers.get("Content-Type", "").lower()
-            if res_unpaywall.status_code == 200 and ("pdf" in content_type or len(res_unpaywall.content) > 50_000):
+            if res_unpaywall.status_code == 200 and ("pdf" in content_type or len(res_unpaywall.content) > 50_000) and not res_unpaywall.content.startswith(b"<!DOCTYPE html>"):
                 with open(final_pdf_path, "wb") as f:
                     f.write(res_unpaywall.content)
                 return f"Downloaded PDF (Unpaywall) ({len(res_unpaywall.content)} bytes)"
         except Exception:
             pass
 
-    # --- Strategy 7: Selenium DOI Scraper ---
+    # --- Strategy 7: PMC E-utilities (Full-text XML) ---
+    try:
+        pmc_xml_path = check_pmc_fulltext(doi, final_pdf_path)
+        if pmc_xml_path:
+            return f"Downloaded XML (PMC E-utilities) ({Path(pmc_xml_path).stat().st_size} bytes)"
+    except Exception:
+        pass
+
+    # --- Strategy 8: Selenium DOI Scraper ---
     # Only try this if we really don't have it yet
     # This is slow, so maybe log it
     try:
@@ -538,7 +534,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     except Exception:
         pass
 
-    # --- Strategy 8: Fallback Elsevier XML ---
+    # --- Strategy 9: Fallback Elsevier XML ---
     if ELSEVIER_API_KEY:
          try:
              headers_dl_xml = headers_dl_pdf.copy()
@@ -550,14 +546,6 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
                      f.write(res_xml.content)
                  return f"Downloaded XML Fallback ({len(res_xml.content)} bytes)"
          except: pass
-
-    # --- Strategy 9: Webpage to PDF (網頁截圖轉 PDF) ---
-    # 最後的 fallback：將網頁內容轉為 PDF
-    try:
-        if webpage_to_pdf_via_selenium(doi, final_pdf_path):
-            return f"Downloaded PDF (Webpage Capture) ({final_pdf_path.stat().st_size} bytes)"
-    except Exception:
-        pass
 
     return "Failed to download full text"
 

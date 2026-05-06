@@ -2044,3 +2044,428 @@
 2026-04-30 23:03:59,875 - INFO - Step 02 completed successfully for vinyl acetate
 2026-04-30 23:03:59,876 - INFO - Searching for alternatives in last 10 years for vinyl acetate
 2026-05-01 02:15:55,131 - ERROR - Step 01 failed for vinyl acetate with return code 3221225786
+2026-05-06 14:02:09,152 - INFO - Step 01 completed successfully for oxirane
+2026-05-06 14:05:44,461 - INFO - Step 02 completed successfully for oxirane
+2026-05-06 14:05:44,461 - INFO - Searching for alternatives in last 10 years for oxirane
+2026-05-06 14:22:55,267 - INFO - Step 03 completed successfully for oxirane
+2026-05-06 14:22:55,272 - INFO - Step03 results: 5/1310 papers have alternatives
+2026-05-06 14:22:55,272 - INFO - Found alternatives for oxirane within 10 years
+2026-05-06 14:24:08,879 - INFO - Step 04 completed successfully for oxirane
+2026-05-06 14:24:08,880 - WARNING - Step 03 found alternatives, but Step 04 found no useful safety/harm data for oxirane. Treating Phase A as failed.
+2026-05-06 14:24:08,880 - INFO - Standard search yielded no alternatives for oxirane. Triggering AI Agentic Search (Phase B).
+2026-05-06 14:24:16,037 - INFO - Generating search queries for 'oxirane' using gemini-3.1-flash-lite-preview
+2026-05-06 14:24:16,053 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 14:24:38,823 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-05-06 14:24:38,823 - INFO - Generated 4 queries successfully.
+2026-05-06 14:24:38,823 - INFO - Generated 4 queries for oxirane, saved to step00_queries.json
+2026-05-06 14:24:59,162 - INFO - Step 01 completed successfully for oxirane
+2026-05-06 14:24:59,541 - INFO - Step 02 completed successfully for oxirane
+2026-05-06 14:24:59,542 - INFO - Searching for alternatives in last 10 years for oxirane
+2026-05-06 14:25:08,996 - INFO - Step 03 completed successfully for oxirane
+2026-05-06 14:25:08,997 - INFO - Step03 results: 2/82 papers have alternatives
+2026-05-06 14:25:08,997 - INFO - Found alternatives for oxirane within 10 years
+2026-05-06 14:25:18,403 - INFO - Step 04 completed successfully for oxirane
+2026-05-06 14:25:18,403 - WARNING - Phase B Step 04 also found no useful safety/harm data for oxirane.
+2026-05-06 14:25:18,403 - WARNING - Both search phases failed to find valid safety context for oxirane, skipping remaining steps
+2026-05-06 14:27:12,297 - INFO - Step 01 completed successfully for vinyl chloride
+2026-05-06 14:27:54,717 - ERROR - Step 02 failed for vinyl chloride with return code 3221225786
+2026-05-06 14:49:40,425 - INFO - Step 01 completed successfully for oxirane
+2026-05-06 14:49:41,074 - INFO - Step 02 completed successfully for oxirane
+2026-05-06 14:49:41,074 - INFO - Searching for alternatives in last 10 years for oxirane
+2026-05-06 14:54:47,003 - INFO - Step 03 completed successfully for oxirane
+2026-05-06 14:54:47,013 - INFO - Step03 results: 7/1310 papers have alternatives
+2026-05-06 14:54:47,013 - INFO - Found alternatives for oxirane within 10 years
+2026-05-06 14:55:40,521 - INFO - Step 04 completed successfully for oxirane
+2026-05-06 14:55:40,523 - WARNING - Step 03 found alternatives, but Step 04 found no useful safety/harm data for oxirane. Treating Phase A as failed.
+2026-05-06 14:55:40,523 - INFO - Standard search yielded no alternatives for oxirane. Triggering AI Agentic Search (Phase B).
+2026-05-06 14:55:47,710 - INFO - Generating search queries for 'oxirane' using gemini-3.1-flash-lite-preview
+2026-05-06 14:55:47,710 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 14:55:48,182 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-05-06 14:55:48,182 - ERROR - Error calling Gemini or parsing response: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-05-06 14:55:48,182 - WARNING - No queries generated for oxirane, continuing with standard search.
+2026-05-06 14:56:36,429 - INFO - Step 01 completed successfully for oxirane
+2026-05-06 14:56:37,125 - INFO - Step 02 completed successfully for oxirane
+2026-05-06 14:56:37,126 - INFO - Searching for alternatives in last 10 years for oxirane
+2026-05-06 14:56:44,156 - INFO - Step 03 completed successfully for oxirane
+2026-05-06 14:56:44,156 - INFO - Step03 results: 7/1310 papers have alternatives
+2026-05-06 14:56:44,156 - INFO - Found alternatives for oxirane within 10 years
+2026-05-06 14:56:51,399 - INFO - Step 04 completed successfully for oxirane
+2026-05-06 14:56:51,400 - WARNING - Phase B Step 04 also found no useful safety/harm data for oxirane.
+2026-05-06 14:56:51,400 - WARNING - Both search phases failed to find valid safety context for oxirane, skipping remaining steps
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2026-05-06 15:15:47,549 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 15:21:53,948 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 15:21:53,949 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 15:32:45,219 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 15:32:45,252 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 15:32:45,252 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 15:37:42,809 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 15:37:42,811 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 16:03:20,738 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 16:03:21,455 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 16:03:21,455 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 16:03:28,175 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 16:03:28,175 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 16:03:28,175 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 16:03:34,829 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 16:03:34,829 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 16:05:14,786 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 16:05:15,953 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 16:05:15,953 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 16:05:23,053 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 16:05:23,089 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 16:05:23,090 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 16:05:29,985 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 16:05:29,985 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 16:34:35,646 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 16:34:36,428 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 16:34:36,428 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 16:34:43,473 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 16:34:43,489 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 16:34:43,490 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 16:34:50,389 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 16:34:50,389 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 16:36:47,140 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 16:36:47,892 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 16:36:47,892 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 16:36:54,754 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 16:36:54,772 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 16:36:54,772 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 16:37:01,554 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 16:37:01,554 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 16:40:42,613 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 16:40:43,834 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 16:40:43,834 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 16:40:50,795 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 16:40:50,822 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 16:40:50,822 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 16:40:57,508 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 16:40:57,508 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 16:54:30,070 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 16:54:30,827 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 16:54:30,827 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 16:54:37,703 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 16:54:37,719 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 16:54:37,720 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 16:54:44,519 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 16:54:44,519 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 16:56:27,452 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 16:56:28,698 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 16:56:28,698 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 16:56:35,684 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 16:56:35,718 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 16:56:35,718 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 16:56:42,504 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 16:56:42,504 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 17:01:50,177 - ERROR - Step 01 failed for 1,2-dichloroethane with return code 3221225786
+2026-05-06 17:03:13,839 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:03:14,569 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:03:14,569 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:03:21,378 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:03:21,395 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:03:21,395 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:03:28,011 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:03:28,011 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:05:11,107 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 17:05:12,315 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 17:05:12,315 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 17:05:19,126 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 17:05:19,160 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 17:05:19,160 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 17:05:25,800 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 17:05:25,800 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 17:11:59,795 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:00,542 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:00,542 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:12:07,502 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:07,519 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:12:07,520 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:12:11,289 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:11,966 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:11,966 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:12:13,274 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:12:13,274 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:12:13,274 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:13:31,484 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:13:31,484 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:13:44,299 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:13:44,301 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:18:26,513 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 17:18:27,680 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 17:18:27,681 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 17:18:29,146 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 17:18:29,184 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 17:18:29,184 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 17:18:30,357 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 17:18:30,357 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 17:21:32,012 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:21:32,746 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:21:32,746 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:27:29,137 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:27:29,137 - INFO - Step03 results: 11/1323 papers have alternatives
+2026-05-06 17:27:29,137 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:28:44,053 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:28:44,055 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:43:03,909 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:47:01,256 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:47:01,256 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:48:52,077 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:48:52,706 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:48:52,707 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:51:33,688 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:51:34,352 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:51:34,352 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:52:04,889 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:52:04,901 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:52:04,902 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:52:38,751 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:52:38,761 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:52:38,761 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:53:09,435 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:53:09,444 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:53:09,444 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:56:40,120 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 17:56:40,807 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 17:56:40,807 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 17:56:42,041 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 17:56:42,051 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 17:56:42,051 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 17:57:23,189 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:57:23,189 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:57:48,936 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 17:57:48,936 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 17:59:53,782 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 17:59:54,929 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 17:59:54,929 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 17:59:56,339 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 17:59:56,360 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 17:59:56,360 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 17:59:57,504 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 17:59:57,504 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 18:00:32,554 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:00:32,554 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:01:16,752 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:01:17,506 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:01:17,506 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:01:24,553 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:01:24,573 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:01:24,574 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:01:31,735 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:01:31,736 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:06:22,833 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:06:23,564 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:06:23,564 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:06:32,929 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:06:32,929 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:06:32,929 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:06:39,626 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:06:39,627 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:07:55,550 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 18:07:56,729 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 18:07:56,729 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 18:07:58,182 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 18:07:58,213 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 18:07:58,213 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 18:07:59,375 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 18:07:59,377 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 18:15:49,574 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:15:50,289 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:15:50,289 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:15:51,588 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:15:51,599 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:15:51,599 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:15:52,789 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:15:52,789 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:17:33,779 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:17:34,520 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:17:34,520 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:18:13,823 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:18:13,832 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:18:13,834 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:18:20,554 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:18:20,555 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:18:43,551 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 18:18:44,661 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 18:18:44,661 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 18:18:46,130 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 18:18:46,161 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 18:18:46,162 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 18:18:47,361 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 18:18:47,361 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 18:21:41,259 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:21:41,987 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:21:41,987 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:22:21,874 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:22:21,886 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:22:21,887 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:22:29,115 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:22:29,115 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:24:11,586 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:12,294 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:12,294 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:24:41,633 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:41,643 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:24:41,643 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:24:42,816 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:42,817 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:24:42,993 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:43,658 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:43,659 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:24:44,921 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:44,931 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:24:44,931 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:24:46,038 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:24:46,039 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:26:32,308 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:26:33,064 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:26:33,064 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:26:40,095 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:26:40,114 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:26:40,114 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:26:47,078 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:26:47,078 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:28:07,849 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 18:28:09,079 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 18:28:09,080 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 18:28:10,509 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 18:28:10,527 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 18:28:10,527 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 18:28:11,715 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 18:28:11,716 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 18:29:25,404 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 18:29:26,562 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 18:29:26,562 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 18:29:27,976 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 18:29:28,019 - INFO - Step03 results: 18/3385 papers have alternatives
+2026-05-06 18:29:28,019 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 18:29:29,170 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 18:29:29,170 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 18:33:59,157 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:33:59,869 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:33:59,869 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 18:40:16,737 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 18:40:16,748 - INFO - Step03 results: 12/1323 papers have alternatives
+2026-05-06 18:40:16,748 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 18:45:35,808 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 18:45:35,810 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 18:53:33,329 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 18:53:34,089 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 18:53:34,089 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 19:00:28,743 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 19:00:28,754 - INFO - Step03 results: 13/1323 papers have alternatives
+2026-05-06 19:00:28,755 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 19:06:29,973 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 19:06:29,973 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 19:10:26,598 - INFO - Step 01 completed successfully for 1,2-dichloroethane
+2026-05-06 19:10:27,352 - INFO - Step 02 completed successfully for 1,2-dichloroethane
+2026-05-06 19:10:27,352 - INFO - Searching for alternatives in last 10 years for 1,2-dichloroethane
+2026-05-06 19:56:58,283 - INFO - Step 03 completed successfully for 1,2-dichloroethane
+2026-05-06 19:56:58,295 - INFO - Step03 results: 8/1323 papers have alternatives
+2026-05-06 19:56:58,295 - INFO - Found alternatives for 1,2-dichloroethane within 10 years
+2026-05-06 19:57:18,196 - INFO - Step 04 completed successfully for 1,2-dichloroethane
+2026-05-06 19:57:18,196 - INFO - Pipeline completed for 1,2-dichloroethane
+2026-05-06 20:20:25,428 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 20:20:26,625 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 20:20:26,625 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 20:21:02,372 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 20:21:02,409 - INFO - Step03 results: 1/3385 papers have alternatives
+2026-05-06 20:21:02,409 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 20:21:19,677 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 20:21:19,690 - INFO - Pipeline completed for ethylbenzene
+2026-05-06 20:26:43,207 - INFO - Step 01 completed successfully for butyl acrylate
+2026-05-06 20:26:49,838 - INFO - Step 02 completed successfully for butyl acrylate
+2026-05-06 20:26:49,838 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-05-06 20:27:20,505 - INFO - Step 03 completed successfully for butyl acrylate
+2026-05-06 20:27:20,523 - INFO - Step03 results: 9/2268 papers have alternatives
+2026-05-06 20:27:20,523 - INFO - Found alternatives for butyl acrylate within 10 years
+2026-05-06 20:29:42,833 - INFO - Step 04 completed successfully for butyl acrylate
+2026-05-06 20:29:42,833 - INFO - Pipeline completed for butyl acrylate
+2026-05-06 21:38:53,615 - INFO - Step 01 completed successfully for butyl acrylate
+2026-05-06 21:38:54,517 - INFO - Step 02 completed successfully for butyl acrylate
+2026-05-06 21:38:54,517 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-05-06 21:47:34,826 - INFO - Step 03 completed successfully for butyl acrylate
+2026-05-06 21:47:34,841 - INFO - Step03 results: 1/1374 papers have alternatives
+2026-05-06 21:47:34,842 - INFO - Found alternatives for butyl acrylate within 10 years
+2026-05-06 21:47:41,589 - INFO - Step 04 completed successfully for butyl acrylate
+2026-05-06 21:47:41,589 - WARNING - Step 03 found alternatives, but Step 04 found no useful safety/harm data for butyl acrylate. Treating Phase A as failed.
+2026-05-06 21:47:41,589 - INFO - Standard search yielded no alternatives for butyl acrylate. Triggering AI Agentic Search (Phase B).
+2026-05-06 21:47:48,567 - INFO - Generating search queries for 'butyl acrylate' using gemini-3.1-flash-lite-preview
+2026-05-06 21:47:48,567 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 21:48:03,675 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-05-06 21:48:03,675 - INFO - Generated 5 queries successfully.
+2026-05-06 21:48:03,675 - INFO - Generated 5 queries for butyl acrylate, saved to step00_queries.json
+2026-05-06 21:48:30,264 - INFO - Step 01 completed successfully for butyl acrylate
+2026-05-06 21:48:40,457 - INFO - Step 02 completed successfully for butyl acrylate
+2026-05-06 21:48:40,457 - INFO - Searching for alternatives in last 10 years for butyl acrylate
+2026-05-06 21:49:39,002 - INFO - Step 03 completed successfully for butyl acrylate
+2026-05-06 21:49:39,002 - INFO - Step03 results: 2/41 papers have alternatives
+2026-05-06 21:49:39,002 - INFO - Found alternatives for butyl acrylate within 10 years
+2026-05-06 21:49:45,620 - INFO - Step 04 completed successfully for butyl acrylate
+2026-05-06 21:49:45,620 - INFO - Pipeline completed for butyl acrylate
+2026-05-06 22:09:57,714 - INFO - Step 01 completed successfully for allyl alcohol
+2026-05-06 22:14:33,880 - INFO - Step 02 completed successfully for allyl alcohol
+2026-05-06 22:14:33,881 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-05-06 22:35:20,573 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 22:35:20,573 - INFO - Step03 results: 1/1208 papers have alternatives
+2026-05-06 22:35:20,573 - INFO - Found alternatives for allyl alcohol within 10 years
+2026-05-06 22:36:26,118 - INFO - Step 04 completed successfully for allyl alcohol
+2026-05-06 22:36:26,118 - WARNING - Step 03 found alternatives, but Step 04 found no useful safety/harm data for allyl alcohol. Treating Phase A as failed.
+2026-05-06 22:36:26,118 - INFO - Standard search yielded no alternatives for allyl alcohol. Triggering AI Agentic Search (Phase B).
+2026-05-06 22:36:33,125 - INFO - Generating search queries for 'allyl alcohol' using gemini-3.1-flash-lite-preview
+2026-05-06 22:36:33,125 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 22:36:34,268 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-05-06 22:36:34,268 - INFO - Generated 4 queries successfully.
+2026-05-06 22:36:34,279 - INFO - Generated 4 queries for allyl alcohol, saved to step00_queries.json
+2026-05-06 22:38:03,337 - INFO - Step 01 completed successfully for allyl alcohol
+2026-05-06 22:38:03,755 - INFO - Step 02 completed successfully for allyl alcohol
+2026-05-06 22:38:03,756 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-05-06 22:38:12,890 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 22:38:12,890 - INFO - Step03 results: 0/2 papers have alternatives
+2026-05-06 22:38:12,890 - INFO - No alternatives found in 10 years. Extending search to 20 years...
+2026-05-06 22:38:12,904 - INFO - Searching for alternatives in last 20 years for allyl alcohol
+2026-05-06 22:38:39,091 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 22:38:39,091 - INFO - Step03 results: 0/3 papers have alternatives
+2026-05-06 22:38:39,091 - INFO - No alternatives found in 20 years. Extending search to 30 years...
+2026-05-06 22:38:39,091 - INFO - Searching for alternatives in last 30 years for allyl alcohol
+2026-05-06 22:39:04,255 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 22:39:04,255 - INFO - Step03 results: 0/6 papers have alternatives
+2026-05-06 22:39:04,255 - INFO - Reached maximum search range of 30 years for allyl alcohol. No alternatives found.
+2026-05-06 22:39:04,255 - INFO - Created no paper found file: P:\Disks\Nikki\ntu\實驗室\碩論\pipeline_hazard\final_output\20260506_7858.json
+2026-05-06 22:39:04,255 - WARNING - Both search phases failed to find valid safety context for allyl alcohol, skipping remaining steps
+2026-05-06 23:06:29,184 - INFO - Step 01 completed successfully for allyl alcohol
+2026-05-06 23:06:29,821 - INFO - Step 02 completed successfully for allyl alcohol
+2026-05-06 23:06:29,821 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-05-06 23:25:30,583 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 23:25:30,593 - INFO - Step03 results: 1/1208 papers have alternatives
+2026-05-06 23:25:30,593 - INFO - Found alternatives for allyl alcohol within 10 years
+2026-05-06 23:26:07,021 - INFO - Step 04 completed successfully for allyl alcohol
+2026-05-06 23:26:07,022 - WARNING - Step 03 found alternatives, but Step 04 found no useful safety/harm data for allyl alcohol. Treating Phase A as failed.
+2026-05-06 23:26:07,022 - INFO - Standard search yielded no alternatives for allyl alcohol. Triggering AI Agentic Search (Phase B).
+2026-05-06 23:26:14,332 - INFO - Generating search queries for 'allyl alcohol' using gemini-3.1-flash-lite-preview
+2026-05-06 23:26:14,332 - INFO - AFC is enabled with max remote calls: 10.
+2026-05-06 23:26:15,463 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite-preview:generateContent "HTTP/1.1 200 OK"
+2026-05-06 23:26:15,475 - INFO - Generated 4 queries successfully.
+2026-05-06 23:26:15,478 - INFO - Generated 4 queries for allyl alcohol, saved to step00_queries.json
+2026-05-06 23:26:37,492 - INFO - Step 01 completed successfully for allyl alcohol
+2026-05-06 23:26:37,891 - INFO - Step 02 completed successfully for allyl alcohol
+2026-05-06 23:26:37,891 - INFO - Searching for alternatives in last 10 years for allyl alcohol
+2026-05-06 23:26:47,719 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 23:26:47,719 - INFO - Step03 results: 0/11 papers have alternatives
+2026-05-06 23:26:47,719 - INFO - No alternatives found in 10 years. Extending search to 20 years...
+2026-05-06 23:26:47,719 - INFO - Searching for alternatives in last 20 years for allyl alcohol
+2026-05-06 23:26:58,168 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 23:26:58,168 - INFO - Step03 results: 0/24 papers have alternatives
+2026-05-06 23:26:58,168 - INFO - No alternatives found in 20 years. Extending search to 30 years...
+2026-05-06 23:26:58,168 - INFO - Searching for alternatives in last 30 years for allyl alcohol
+2026-05-06 23:27:24,498 - INFO - Step 03 completed successfully for allyl alcohol
+2026-05-06 23:27:24,499 - INFO - Step03 results: 0/28 papers have alternatives
+2026-05-06 23:27:24,499 - INFO - Reached maximum search range of 30 years for allyl alcohol. No alternatives found.
+2026-05-06 23:27:24,503 - INFO - Created no paper found file: P:\Disks\Nikki\ntu\實驗室\碩論\pipeline_hazard\final_output\20260506_7858.json
+2026-05-06 23:27:24,503 - WARNING - Both search phases failed to find valid safety context for allyl alcohol, skipping remaining steps
+2026-05-06 23:47:48,594 - INFO - Step 01 completed successfully for ethylbenzene
+2026-05-06 23:47:49,835 - INFO - Step 02 completed successfully for ethylbenzene
+2026-05-06 23:47:49,836 - INFO - Searching for alternatives in last 10 years for ethylbenzene
+2026-05-06 23:48:03,197 - INFO - Step 03 completed successfully for ethylbenzene
+2026-05-06 23:48:03,237 - INFO - Step03 results: 18/3386 papers have alternatives
+2026-05-06 23:48:03,238 - INFO - Found alternatives for ethylbenzene within 10 years
+2026-05-06 23:58:50,331 - INFO - Step 04 completed successfully for ethylbenzene
+2026-05-06 23:58:50,332 - INFO - Pipeline completed for ethylbenzene

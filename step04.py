@@ -55,6 +55,78 @@ MODEL = CONFIG.get("default_settings", {}).get("openai_model", "gpt-4o-mini")
 GEMINI_MODEL = CONFIG.get("default_settings", {}).get("gemini_model", "gemini-2.0-flash")
 MAX_RETRIES = CONFIG.get("default_settings", {}).get("max_retries", 3)
 
+# ============================================================
+# Dosage Type Classification
+# ============================================================
+
+# Material dosage types (INPUT: how much reagent to use)
+MATERIAL_DOSAGE_TYPES = {
+    "molar_ratio", "eq", "equivalent", "equivalents",
+    "wt%", "wt percent", "weight_percent", "weight_ratio",
+    "vol%", "volume_percent", "volume_ratio",
+    "mol%", "molar_percent",
+    "catalyst_loading", "loading",
+    "mass_ratio", "feed_ratio",
+}
+
+# Result dosage types (OUTPUT: product specification)
+RESULT_DOSAGE_TYPES = {
+    "concentration", "content", "yield",
+    "degree_of_functionalization", "conversion",
+    "capacity", "activity",
+}
+
+
+def is_material_dosage(dosage: dict) -> bool:
+    """Check if a dosage entry is a material dosage (input) vs result dosage (output)."""
+    ratio_type = (dosage.get("ratio_type") or "").lower().replace(" ", "_")
+    value = (dosage.get("value") or "").lower()
+    
+    # Check ratio_type against known material types
+    for mat_type in MATERIAL_DOSAGE_TYPES:
+        if mat_type in ratio_type:
+            return True
+    
+    # Check value for material dosage patterns (e.g., "3 eq", "10 wt%", "5 mol/L")
+    material_patterns = [
+        r'\d+\.?\d*\s*(eq|equiv)',
+        r'\d+\.?\d*\s*(wt|vol|mol)\s*%',
+        r'\d+\.?\d*\s*mg\s*/\s*(mL|L|g)',
+        r'\d+\.?\d*\s*g\s*/\s*(mol|mmol)',
+    ]
+    for pattern in material_patterns:
+        if re.search(pattern, value, re.IGNORECASE):
+            return True
+    
+    return False
+
+
+def has_material_dosage(explicit_dosages: list[dict] | None) -> bool:
+    """Check if any of the explicit dosages is a material dosage."""
+    if not explicit_dosages:
+        return False
+    return any(is_material_dosage(d) for d in explicit_dosages)
+
+
+def classify_extraction_completeness(extraction_result: dict) -> str:
+    """
+    Classify extraction result as:
+    - 'complete': has material dosage (input quantities)
+    - 'partial_result_only': has only result/output dosages
+    - 'insufficient': no dosages found
+    """
+    if not extraction_result.get("dosage_found"):
+        return "insufficient"
+    
+    dosages = extraction_result.get("explicit_dosages", [])
+    if not dosages:
+        return "insufficient"
+    
+    if has_material_dosage(dosages):
+        return "complete"
+    else:
+        return "partial_result_only"
+
 # Validate API keys based on provider
 if LLM_PROVIDER == "gemini":
     if not GEMINI_API_KEY:
@@ -290,26 +362,141 @@ def find_fulltext_file(doi: str, research_pdf_dir: Path) -> Optional[Path]:
     return None
 
 
+def find_esi_files(doi: str, research_pdf_dir: Path) -> list[Path]:
+    """
+    Find ESI (Electronic Supplementary Information) files for a given DOI.
+    
+    ESI files typically have naming patterns like:
+    - CSSC-18-e202402051-s001.pdf  (journal abbreviation + article ID + s00X)
+    - xxx_ESI_yyy.pdf (with _ESI_ marker)
+    - DOI-based: 10.1002_cssc.202402051_ESI.pdf
+    - Wiley: cssc202402051-sup-0001-misc_information.pdf
+    
+    Returns list of ESI file paths found.
+    """
+    if not doi or not research_pdf_dir.exists():
+        return []
+    
+    esi_files: list[Path] = []
+    
+    # Extract identifiers from DOI for matching
+    # e.g., "10.1002/cssc.202402051" -> ["cssc", "202402051", "cssc.202402051"]
+    doi_lower = doi.lower()
+    doi_suffix = doi.split("/")[-1].lower() if "/" in doi else doi_lower  # "cssc.202402051"
+    
+    # Extract article ID pattern (e.g., "202402051" or "e202402051")
+    article_id_match = re.search(r'[a-z]*(\d{6,})', doi_suffix)
+    article_id = article_id_match.group(0) if article_id_match else ""
+    
+    # Extract journal abbreviation (e.g., "cssc" from "cssc.202402051")
+    journal_abbrev = doi_suffix.split(".")[0] if "." in doi_suffix else ""
+    
+    for file in research_pdf_dir.iterdir():
+        if not file.is_file():
+            continue
+        fname = file.name.lower()
+        
+        # Skip main article files (already handled by find_fulltext_file)
+        # Main files typically have the DOI directly in name WITHOUT ESI markers
+        doi_simple = doi.replace("/", "_").lower()
+        # Only skip if it has DOI but NO ESI markers
+        has_esi_marker = (
+            "_esi" in fname or 
+            "supporting" in fname or 
+            "supplementary" in fname or 
+            "-sup-" in fname or  # Wiley pattern: -sup-0001
+            re.search(r'-s\d{3}', fname)
+        )
+        if doi_simple in fname and not has_esi_marker:
+            continue
+        
+        # Check for ESI patterns
+        is_esi = False
+        
+        # Pattern 1: Contains "-s001", "-s002", etc. (supplementary file suffix)
+        if re.search(r'-s\d{3}', fname):
+            # Must also match journal/article identifier
+            if journal_abbrev and journal_abbrev in fname:
+                is_esi = True
+            elif article_id and article_id in fname:
+                is_esi = True
+            elif doi_simple in fname:
+                is_esi = True
+        
+        # Pattern 2: Wiley pattern "-sup-0001", "-sup-0002", etc.
+        if re.search(r'-sup-\d{4}', fname):
+            # Must match article_id or journal abbreviation
+            if article_id and article_id in fname:
+                is_esi = True
+            elif journal_abbrev and journal_abbrev in fname:
+                is_esi = True
+        
+        # Pattern 3: Contains "_ESI" or "_esi" (our naming convention)
+        if "_esi" in fname:
+            # Must match DOI identifier or article_id
+            if doi_simple in fname:
+                is_esi = True
+            elif article_id and article_id in fname:
+                is_esi = True
+            elif journal_abbrev and journal_abbrev in fname:
+                is_esi = True
+        
+        # Pattern 4: Contains "supporting" or "supplementary" in name
+        if "supporting" in fname or "supplementary" in fname:
+            if article_id and article_id in fname:
+                is_esi = True
+            elif doi_simple in fname:
+                is_esi = True
+        
+        if is_esi:
+            esi_files.append(file)
+    
+    return esi_files
+
+
 def get_fulltext(doi: str, research_pdf_dir: Path) -> tuple[str, str]:
     """
-    Get fulltext content for a paper.
-    Returns (text, source) where source is 'pdf', 'xml', or 'none'.
+    Get fulltext content for a paper, including ESI if available.
+    Returns (text, source) where source is 'pdf', 'xml', 'pdf+esi', 'xml+esi', or 'none'.
     """
     fulltext_file = find_fulltext_file(doi, research_pdf_dir)
+    main_text = ""
+    source = "none"
     
-    if not fulltext_file:
-        return "", "none"
+    # Read main article
+    if fulltext_file:
+        if fulltext_file.suffix.lower() == ".pdf":
+            text = read_pdf_text(fulltext_file)
+            if text is None:
+                return "", "deleted_pdf"
+            main_text = text
+            source = "pdf" if text else "none"
+        elif fulltext_file.suffix.lower() == ".xml":
+            main_text = read_xml_text(fulltext_file)
+            source = "xml" if main_text else "none"
     
-    if fulltext_file.suffix.lower() == ".pdf":
-        text = read_pdf_text(fulltext_file)
-        if text is None:
-            return "", "deleted_pdf"
-        return text, "pdf" if text else "none"
-    elif fulltext_file.suffix.lower() == ".xml":
-        text = read_xml_text(fulltext_file)
-        return text, "xml" if text else "none"
+    # Find and read ESI files
+    esi_files = find_esi_files(doi, research_pdf_dir)
+    esi_texts: list[str] = []
     
-    return "", "none"
+    for esi_file in esi_files:
+        esi_text = ""
+        if esi_file.suffix.lower() == ".pdf":
+            esi_text = read_pdf_text(esi_file) or ""
+        elif esi_file.suffix.lower() == ".xml":
+            esi_text = read_xml_text(esi_file) or ""
+        
+        if esi_text:
+            esi_texts.append(f"\n\n=== SUPPLEMENTARY INFORMATION ({esi_file.name}) ===\n\n{esi_text}")
+            print(f"    [INFO] Found ESI: {esi_file.name} ({len(esi_text)} chars)")
+    
+    # Combine main text with ESI
+    if esi_texts:
+        combined_text = main_text + "".join(esi_texts)
+        source = f"{source}+esi" if source != "none" else "esi"
+        return combined_text, source
+    
+    return main_text, source
 
 
 # ============================================================
@@ -379,6 +566,15 @@ Before ANY extraction, you MUST determine the ROLE of the target compound "{targ
 - Extract ONLY explicitly stated material compositions, doping levels, or synthesis ratios
 - Typical sources: Abstract, "Materials and Methods", "Experimental Section", Tables
 - Each dosage MUST include complete physical units
+
+**CRITICAL: Baseline Comparison Required**
+- ALWAYS extract BOTH the alternative material's dosage AND the target compound's baseline dosage when available
+- The baseline (target compound) dosage is essential for calculating relative performance improvement
+- Use `"role": "baseline"` for the target compound and `"role": "alternative"` for the replacement
+- **SCAN THE ENTIRE TEXT** for comparison statements like "X contained ~0.5 mmol/g whereas Y displayed ~1.9 mmol/g"
+- When multiple materials are compared in the SAME PARAGRAPH, extract ALL their dosages
+- If a numerical value exists for the target compound (even if lower/worse), you MUST capture it
+- DO NOT mark baseline value as "not explicitly stated" if the text contains a number like "~0.5 mmol/g"
 
 **ENUM STRICT RESTRICTION for `ratio_type`:**
 Choose ONLY from this allowed list:
@@ -473,6 +669,7 @@ Return JSON with this exact schema:
       "material": "specific material name as stated in paper",
       "value": "exact value with unit (e.g., '0.2 at%', '30 mg', '2.5 wt%')",
       "ratio_type": "wt% | at% | vol% | mass_ratio | molar_ratio | catalyst_loading | concentration",
+      "role": "baseline | alternative",
       "evidence_location": "Table X | Section Y.Z | Figure caption | exact quote",
       "context": "brief experimental context"
     }}
@@ -736,6 +933,74 @@ def smart_chunk_selection(
     chunks = split_text_into_chunks(text, chunk_size=2500, overlap=200)
     print(f"      [SMART CHUNK] Split into {len(chunks)} chunks, scoring relevance...")
     
+    # Pattern-based pre-scorer: boost chunks that contain the alternative name
+    # AND a numeric dosage indicator in close proximity.  This guards against
+    # the LLM scorer underrating chunks that use chemical shorthand such as
+    # "4 equivalents", "10 mol%", "2:1 ratio", etc.
+    _DOSAGE_PATTERN = re.compile(
+        r'\d+(\.\d+)?\s*'
+        r'(equiv(alent)?s?|eq\.?|mmol|mol\s*%|wt\s*%|g/[lL]|mg/[lL]|'
+        r'μ[mM]|n[mM]|m[mM]|[μμ]mol|[mM]ol/[lL]|'
+        r'equivalents?\s+of|parts?)',
+        re.IGNORECASE,
+    )
+
+    def _get_alt_variants(alt: str) -> list[str]:
+        """Generate simple chemical-name variants for matching."""
+        alt_lower = alt.lower().strip()
+        variants = {alt_lower}
+
+        suffixes = ["carbonate", "chloride", "alcohol", "oxide", "ester", "ether", "amine", "acid"]
+        prefixes = ["diallyl", "allyl", "methyl", "ethyl", "propyl", "butyl", "vinyl", "phenyl"]
+
+        # normalize hyphen/space variants
+        variants.add(alt_lower.replace("-", " "))
+        variants.add(alt_lower.replace(" ", ""))
+        variants.add(alt_lower.replace("-", ""))
+
+        # split known suffix only if it is at the end
+        for suffix in suffixes:
+            if alt_lower.endswith(suffix) and not alt_lower.endswith(f" {suffix}"):
+                base = alt_lower[:-len(suffix)].strip("- ")
+                if base:
+                    variants.add(f"{base} {suffix}")
+
+        # split known prefix only if directly attached
+        for prefix in prefixes:
+            if alt_lower.startswith(prefix) and not alt_lower.startswith(f"{prefix} "):
+                rest = alt_lower[len(prefix):].strip("- ")
+                if rest:
+                    variants.add(f"{prefix} {rest}")
+
+        # also generate hyphenated forms from spaced variants
+        extra = set()
+        for v in variants:
+            if " " in v:
+                extra.add(v.replace(" ", "-"))
+        variants.update(extra)
+
+        return sorted(v for v in variants if v)
+
+    def _pattern_boost(chunk_text: str) -> int:
+        """Return 3 if chunk has numeric dosage pattern near the alternative OR target (baseline)."""
+        text_lower = chunk_text.lower()
+        
+        # Try all name variants for ALTERNATIVE
+        for alt_variant in _get_alt_variants(alternative):
+            for m in re.finditer(re.escape(alt_variant), text_lower):
+                vicinity = text_lower[max(0, m.start() - 400): m.end() + 400]
+                if _DOSAGE_PATTERN.search(vicinity):
+                    return 3
+        
+        # ALSO check TARGET for baseline dosage comparison data
+        for target_variant in _get_alt_variants(target):
+            for m in re.finditer(re.escape(target_variant), text_lower):
+                vicinity = text_lower[max(0, m.start() - 400): m.end() + 400]
+                if _DOSAGE_PATTERN.search(vicinity):
+                    return 3  # Baseline comparison data is equally important
+        
+        return 0
+
     # Score each chunk
     scored_chunks: list[tuple[int, int, dict]] = []  # (score, index, chunk)
     for i, chunk in enumerate(chunks):
@@ -743,8 +1008,15 @@ def smart_chunk_selection(
         if i == 0 or i == len(chunks) - 1:
             score = 4  # Ensure first/last are always included
         else:
-            score = score_chunk_relevance(chunk['text'], target, alternative, client)
-        
+            pattern_score = _pattern_boost(chunk['text'])
+            # If pattern_boost found dosage near alternative, prioritize this chunk highly
+            # Score 5 ensures these chunks are selected before LLM-scored chunks
+            if pattern_score >= 3:
+                score = 5  # Highest priority - dosage data detected
+            else:
+                llm_score = score_chunk_relevance(chunk['text'], target, alternative, client)
+                score = max(pattern_score, llm_score)
+
         scored_chunks.append((score, i, chunk))
     
     # Sort by score (descending) then by position (ascending) for tie-breaking
@@ -891,6 +1163,48 @@ def infer_dosage(
 
 
 # ============================================================
+# Fulltext Quality Check
+# ============================================================
+
+_ERROR_PAGE_PATTERNS: list[str] = [
+    "the requested url was rejected",
+    "access denied",
+    "403 forbidden",
+    "404 not found",
+    "page not found",
+    "unauthorized",
+    "your request has been blocked",
+    "enable javascript",
+    "please enable cookies",
+    "robot or human",
+    "captcha",
+    "cloudflare",
+    "just a moment",
+    "checking your browser",
+    "ddos protection",
+    "too many requests",
+]
+
+_MIN_MEANINGFUL_CHARS = 300
+
+
+def _is_meaningful_fulltext(text: str, title: str = "") -> bool:
+    """
+    Return True if ``text`` looks like genuine scientific paper content.
+    Return False if it appears to be an error page, access-denial message,
+    or otherwise too short to be useful.
+    """
+    stripped = text.strip()
+    if len(stripped) < _MIN_MEANINGFUL_CHARS:
+        return False
+    lower = stripped.lower()
+    for pattern in _ERROR_PAGE_PATTERNS:
+        if pattern in lower:
+            return False
+    return True
+
+
+# ============================================================
 # Main Processing
 # ============================================================
 
@@ -969,8 +1283,14 @@ def process_paper_for_dosage(
             except ImportError:
                 pass
                 
+        # Validate fulltext is meaningful scientific content (not an error page)
+        if fulltext and not _is_meaningful_fulltext(fulltext, title):
+            print(f"    [WARN] Fulltext for {doi} appears to be an error page or garbage; falling back to abstract.")
+            fulltext = ""
+            source = "none"
+
         text_to_analyze = fulltext if fulltext else abstract
-        
+
         if not text_to_analyze:
             # If both fulltext and abstract are empty, try to trigger a download
             print(f"    [INFO] No text found for {doi}. Attempting to download via step03 functionality...")
@@ -1053,9 +1373,22 @@ def process_paper_for_dosage(
         result["dosage_info"] = dosage_info
         return result
     
+    # Classify extraction completeness (complete = has material dosage)
+    completeness = classify_extraction_completeness(extraction_result)
+    
+    # Map completeness to status
+    if completeness == "complete":
+        status = "extracted"  # Full extraction with material dosage
+    elif completeness == "partial_result_only":
+        status = "partial_data"  # Has dosages but only result/output, not input
+    else:
+        status = "not_found"
+    
     # New schema with substitution_logic support
     dosage_info: dict[str, Any] = {
-        "status": "extracted" if extraction_result.get("dosage_found") else "not_found",
+        "status": status,
+        "completeness": completeness,  # New field to indicate extraction quality
+        "has_material_dosage": has_material_dosage(extraction_result.get("explicit_dosages")),
         "substitution_logic": extraction_result.get("substitution_logic"),
         "explicit_dosages": extraction_result.get("explicit_dosages") if extraction_result.get("dosage_found") else None,
         "synthesis_conditions": extraction_result.get("synthesis_conditions"),
@@ -1068,8 +1401,8 @@ def process_paper_for_dosage(
         "confidence": extraction_result.get("confidence", "low")
     }
     
-    # Step 3: If no explicit dosage found, look for partial data (NO inference)
-    if not extraction_result.get("dosage_found"):
+    # Step 3: If no material dosage found, look for partial data (NO inference)
+    if completeness != "complete":
         partial_result = infer_dosage(
             text=text_to_analyze,
             title=title,
@@ -1079,14 +1412,21 @@ def process_paper_for_dosage(
             client=client
         )
         
-        # New logic: only store partial data, never fabricated inferences
-        if partial_result and partial_result.get("partial_data_found"):
+        # Logic: prioritize completeness classification
+        if completeness == "partial_result_only":
+            # Has result dosages but missing material dosages → may need ESI
+            dosage_info["status"] = "partial_data"
+            dosage_info["missing"] = "material_dosage"
+            dosage_info["recommendation"] = "suggest_esi_for_material_dosage"
+            if partial_result:
+                dosage_info["partial_data"] = partial_result
+        elif partial_result and partial_result.get("partial_data_found"):
             dosage_info["status"] = "partial_data"
             dosage_info["partial_data"] = partial_result
         else:
             dosage_info["status"] = "insufficient_data"
-            dosage_info["data_gaps"] = partial_result.get("data_gaps", [])
-            dosage_info["recommendation"] = partial_result.get("recommendation", "insufficient_data")
+            dosage_info["data_gaps"] = partial_result.get("data_gaps", []) if partial_result else []
+            dosage_info["recommendation"] = partial_result.get("recommendation", "insufficient_data") if partial_result else "insufficient_data"
     
     result["dosage_info"] = dosage_info
     return result
@@ -1285,6 +1625,7 @@ def run_step04(
                 "title": r.get("title", "")[:80],
                 "doi": r.get("doi"),
                 "alternative": r.get("alternatives"),
+                "reasoning": r.get("reasoning"),
                 "dosage_status": r.get("dosage_info", {}).get("status"),
                 "fulltext_source": r.get("fulltext_source"),
                 "extraction_method": r.get("dosage_info", {}).get("extraction_method"),

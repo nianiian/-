@@ -48,8 +48,16 @@ You are an expert in chemical engineering and toxicology.
 We are building a pipeline to find safer alternatives for the following chemical: "{target_chemical}".
 
 Your task:
-1. Identify the primary and secondary industrial uses, functions, or applications for this chemical.
-2. Generate 3 to 5 optimized Semantic Scholar search queries to find scientific literature discussing safer, less toxic, or green alternatives to this chemical.
+1. First, identify ALL common names, synonyms, abbreviations, and industrial trade names for "{target_chemical}".
+   Examples:
+   - "oxirane" → also known as "ethylene oxide", "EO", "1,2-epoxyethane", "oxacyclopropane"
+   - "cumene" → also known as "isopropylbenzene", "2-phenylpropane"
+   - "vinyl chloride" → also known as "chloroethylene", "VCM", "vinyl chloride monomer"
+   - "allyl alcohol" → also known as "2-propen-1-ol", "propenol"
+2. Identify the primary and secondary industrial uses, functions, or applications for this chemical.
+3. Generate 4 to 6 optimized Semantic Scholar search queries to find scientific literature discussing safer, less toxic, or green alternatives to this chemical.
+   - At least 1-2 queries MUST use the most common industrial name/synonym (not necessarily the IUPAC name).
+   - Use varied application contexts across the queries (sterilization, synthesis, solvent, etc.).
 
 CRITICAL INSTRUCTION: Semantic Scholar Bulk Search API struggles with long natural language sentences.
 You MUST use precise boolean logic with AND / OR and double quotes. Keep the query concise, ideally maximum 3-5 terms.
@@ -57,11 +65,12 @@ DO NOT write long sentences like "safer alternatives to ethylbenzene in industri
 DO write database-friendly queries like: "{target_chemical}" AND "alternative" AND "solvent"
 
 Return ONLY a JSON array of strings containing the queries. Do NOT return any markdown formatting like ```json or other text.
-Example format:
+Example format for "oxirane":
 [
-  "\"{target_chemical}\" AND \"alternative\" AND (\"solvent\" OR \"coating\")",
-  "\"{target_chemical}\" AND \"substitute\" AND \"green chemistry\"",
-  "\"{target_chemical}\" AND (\"replacement\" OR \"free\") AND \"synthesis\""
+  "\"oxirane\" AND \"alternative\" AND \"green chemistry\"",
+  "\"ethylene oxide\" AND \"safer\" AND \"sterilization\"",
+  "\"ethylene oxide\" AND \"substitute\" AND \"industrial\"",
+  "\"EO\" AND (\"replacement\" OR \"free\") AND \"synthesis\""
 ]
     """.strip()
     

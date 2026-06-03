@@ -143,8 +143,7 @@ def fill_missing_abstracts(records, persistent_cache: dict, workers: int = 8):
             
         if abs_txt:
             persistent_cache[doi] = abs_txt
-            if title:
-                persistent_cache[title] = abs_txt
+            # Do NOT duplicate with title key when DOI is already used
         return abs_txt
 
     filled_count = 0
@@ -208,8 +207,10 @@ def main():
                     title = str(rec.get("title", "") or rec.get("Article title", "")).strip()
                     abstract = str(rec.get("abstract", "")).strip()
                     if abstract:
-                        if doi: persistent_cache[doi] = abstract
-                        if title: persistent_cache[title] = abstract
+                        if doi:
+                            persistent_cache[doi] = abstract
+                        elif title:
+                            persistent_cache[title] = abstract
         except Exception:
             pass
             

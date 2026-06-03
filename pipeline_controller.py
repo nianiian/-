@@ -3,9 +3,11 @@ import os
 import sys
 import json
 import logging
+import importlib
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import subprocess
+from urllib.parse import urljoin
 from tqdm import tqdm
 from pathlib import Path
 
@@ -64,12 +66,15 @@ class PipelineController:
         
     def setup_logging(self):
         """Setup logging configuration."""
+        stdout_handler = logging.StreamHandler(
+            open(sys.stdout.fileno(), mode='w', encoding='utf-8', errors='replace', closefd=False)
+        )
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler(SCRIPT_DIR / 'pipeline.log'),
-                logging.StreamHandler(sys.stdout)
+                logging.FileHandler(SCRIPT_DIR / 'pipeline.log', encoding='utf-8'),
+                stdout_handler,
             ]
         )
         self.logger = logging.getLogger(__name__)
@@ -443,7 +448,7 @@ class PipelineController:
             with open(step04_file, encoding="utf-8") as f:
                 results = json.load(f)
             has_dosage = any(
-                r.get("dosage_info", {}).get("status") in ("extracted", "partial_data")
+                r.get("dosage_info", {}).get("status") == "extracted"
                 for r in results
             )
             if has_dosage:
@@ -488,12 +493,17 @@ class PipelineController:
         
         return False
 
-    def get_insufficient_papers_needing_esi(self, compound_dir: Path) -> list[dict]:
+    def get_insufficient_papers_needing_esi(
+        self, compound_dir: Path, skip_dois: Optional[set[str]] = None
+    ) -> list[dict]:
         """Find papers without complete extraction (missing material dosage) that might have ESI.
         
         Complete extraction = has material dosage (input quantities like eq, wt%, mol ratio)
         Papers with only result dosages (output like concentration, yield) need ESI supplement.
-        
+
+        skip_dois: DOIs already attempted in a previous ESI pass (e.g. Phase A), to avoid
+                   retrying the same papers in Phase B.
+
         Returns list of dicts with keys: doi, title, alternatives, reason
         """
         step04_file = compound_dir / self.get_step04_filename()
@@ -528,6 +538,10 @@ class PipelineController:
                 doi = r.get("doi", "")
                 if not doi:
                     continue
+
+                # Skip DOIs already attempted in a prior ESI pass
+                if skip_dois and doi in skip_dois:
+                    continue
                 
                 # Check if ESI already exists in research_pdf
                 existing_esi = self._find_existing_esi(doi, research_pdf_dir)
@@ -552,8 +566,6 @@ class PipelineController:
                 })
         except Exception as e:
             self.logger.error(f"Error finding papers needing ESI: {e}")
-        
-        return papers
         
         return papers
 
@@ -584,10 +596,13 @@ class PipelineController:
 
     def _get_esi_url_from_doi(self, doi: str) -> str | None:
         """Get ESI download URL for a DOI by visiting the article page."""
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
-        from selenium.webdriver.common.by import By
-        import time
+        try:
+            sync_api = importlib.import_module("playwright.sync_api")
+            PlaywrightError = sync_api.Error
+            sync_playwright = sync_api.sync_playwright
+        except ModuleNotFoundError:
+            self.logger.warning("[ESI] playwright not installed; skipping browser-based ESI URL lookup.")
+            return None
         
         # Determine publisher and article URL
         if "wiley" in doi.lower() or doi.startswith("10.1002/"):
@@ -602,111 +617,135 @@ class PipelineController:
             # Generic DOI resolver
             article_url = f"https://doi.org/{doi}"
         
-        options = Options()
-        # Non-headless to bypass Cloudflare
-        options.add_argument('--disable-gpu')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--start-maximized')
-        options.add_argument('--disable-blink-features=AutomationControlled')
-        options.add_experimental_option('excludeSwitches', ['enable-automation'])
-        
-        driver = None
         try:
-            driver = webdriver.Chrome(options=options)
-            self.logger.info(f"Visiting {article_url} to find ESI link...")
-            driver.get(article_url)
-            
-            # Wait for Cloudflare challenge to pass
-            for _ in range(15):
-                time.sleep(1)
-                if 'Just a moment' not in driver.title and '請稍候' not in driver.title:
-                    break
-            
-            # Find ESI download links
-            esi_links = driver.find_elements(By.XPATH, '//a[contains(@href, "Supplement") or contains(@href, "supplement") or contains(@href, "Support") or contains(@href, "support")]')
-            
-            for link in esi_links:
-                href = link.get_attribute('href') or ''
-                if 'pdf' in href.lower() or 'download' in href.lower():
-                    return href
-            
-            return None
-        except Exception as e:
+            with sync_playwright() as playwright:
+                browser = playwright.chromium.launch(
+                    headless=False,
+                    args=[
+                        '--disable-blink-features=AutomationControlled',
+                        '--start-maximized',
+                    ],
+                )
+                context = browser.new_context(accept_downloads=True, no_viewport=True)
+                page = context.new_page()
+                self.logger.info(f"Visiting {article_url} to find ESI link...")
+                page.goto(article_url, wait_until="domcontentloaded", timeout=60000)
+
+                max_wait = 30000 if doi.startswith("10.1002/") else 15000
+                page.wait_for_timeout(max_wait)
+
+                esi_xpaths = [
+                    '//a[contains(@href, "/doi/suppl/") and contains(@href, "suppl_file")]',
+                    '//a[contains(@href, "downloadSupplement")]',
+                    '//a[contains(@href, "suppdata")]',
+                    '//a[contains(@href, "supplement") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+                    '//a[contains(@href, "Supplement") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+                    '//a[contains(@href, "supporting") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+                    '//a[contains(text(), "Supporting Information") and not(contains(@href, "?goto="))]',
+                    '//a[contains(text(), "Supplementary") and not(contains(@href, "?goto="))]',
+                    '//section[@id="support-info"]//a[contains(@href, ".pdf")]',
+                ]
+
+                for xpath in esi_xpaths:
+                    locator = page.locator(f'xpath={xpath}')
+                    count = locator.count()
+                    if count == 0:
+                        continue
+                    for index in range(count):
+                        href = locator.nth(index).get_attribute('href') or ''
+                        if href and ('pdf' in href.lower() or 'download' in href.lower()):
+                            return urljoin(page.url, href)
+                return None
+        except PlaywrightError as e:
             self.logger.error(f"Error finding ESI URL for {doi}: {e}")
             return None
-        finally:
-            if driver:
-                driver.quit()
 
-    def _get_esi_direct_url(self, doi: str) -> str | None:
-        """Get direct ESI download URL for supported publishers."""
-        doi_suffix = doi.split("/")[-1].lower() if "/" in doi else doi.lower()
-        
-        # RSC: https://www.rsc.org/suppdata/{first_part}/{journal}/{doi_suffix}/{doi_suffix}1.pdf
-        # Example: 10.1039/d0py00545b -> suppdata/d0/py/d0py00545b/d0py00545b1.pdf
-        if doi.startswith("10.1039/"):
-            first_part = doi_suffix[:2]  # e.g., "d0"
-            journal = doi_suffix[2:4]    # e.g., "py"
-            return f"https://www.rsc.org/suppdata/{first_part}/{journal}/{doi_suffix}/{doi_suffix}1.pdf"
-        
-        # Wiley: Pattern varies, try common format
-        # Example: 10.1002/cssc.202402051 -> might need Selenium
-        
-        # ACS: https://pubs.acs.org/doi/suppl/{doi}/suppl_file/{article_id}_si_001.pdf
-        # This is complex as article_id varies, so skip direct download
-        
-        return None
+    def _save_esi_content(
+        self, content: bytes, doi_safe: str, index: int, research_pdf_dir: Path
+    ) -> Optional[Path]:
+        """Save ESI content with correct extension (.pdf or .xml).
+        Returns saved path, or None if content appears invalid (too short)."""
+        if len(content) < 1000:
+            return None
+        if content[:4] == b"%PDF":
+            ext = ".pdf"
+        elif content[:5] in (b"<?xml", b"<art ") or b"<article" in content[:200]:
+            ext = ".xml"
+        else:
+            ext = ".pdf"  # Assume PDF as fallback
+        suffix = f"_ESI{index}" if index > 1 else "_ESI"
+        out_path = research_pdf_dir / f"{doi_safe}{suffix}{ext}"
+        out_path.write_bytes(content)
+        self.logger.info(f"[ESI] Saved: {out_path.name} ({len(content)} bytes)")
+        return out_path
+
+    def _try_rsc_esi(self, doi: str, research_pdf_dir: Path) -> bool:
+        """Download RSC ESI files, cycling through {suffix}1.pdf, {suffix}2.pdf until 404."""
+        import httpx
+        research_pdf_dir.mkdir(parents=True, exist_ok=True)
+        doi_suffix = doi.split("/")[-1].lower()
+        first_part = doi_suffix[:2]
+        journal = doi_suffix[2:4]
+        base_url = f"https://www.rsc.org/suppdata/{first_part}/{journal}/{doi_suffix}"
+        doi_safe = doi.replace("/", "_")
+        downloaded = False
+        try:
+            with httpx.Client(follow_redirects=True, timeout=300) as client:
+                for i in range(1, 6):  # Try ESI 1–5
+                    url = f"{base_url}/{doi_suffix}{i}.pdf"
+                    out_pdf = research_pdf_dir / f"{doi_safe}_ESI{i}.pdf"
+                    out_xml = research_pdf_dir / f"{doi_safe}_ESI{i}.xml"
+                    if out_pdf.exists() or out_xml.exists():
+                        downloaded = True
+                        continue
+                    try:
+                        resp = client.get(url)
+                        if resp.status_code == 200:
+                            saved = self._save_esi_content(resp.content, doi_safe, i, research_pdf_dir)
+                            if saved:
+                                downloaded = True
+                        elif resp.status_code == 404:
+                            break  # No more ESI files
+                    except Exception as e:
+                        self.logger.warning(f"[ESI][RSC] ESI {i} error: {e}")
+                        break
+        except Exception as e:
+            self.logger.warning(f"[ESI][RSC] Client error: {e}")
+        return downloaded
 
     def try_download_esi_direct(self, doi: str, research_pdf_dir: Path) -> bool:
-        """Try to download ESI directly via HTTP (no Selenium needed).
-        
-        Returns True if ESI was successfully downloaded.
-        """
-        import httpx
-        
-        esi_url = self._get_esi_direct_url(doi)
-        if not esi_url:
-            return False
-        
-        research_pdf_dir.mkdir(parents=True, exist_ok=True)
-        output_file = research_pdf_dir / f"{doi.replace('/', '_')}_ESI.pdf"
-        
-        if output_file.exists():
-            self.logger.info(f"[ESI] Already exists: {output_file.name}")
-            return True
-        
-        try:
-            self.logger.info(f"[ESI] Direct download: {esi_url[:60]}...")
-            with httpx.Client(follow_redirects=True, timeout=60) as client:
-                resp = client.get(esi_url)
-                
-                if resp.status_code == 200 and len(resp.content) > 1000:
-                    output_file.write_bytes(resp.content)
-                    self.logger.info(f"[ESI] Downloaded: {output_file.name} ({len(resp.content)} bytes)")
-                    return True
-                else:
-                    self.logger.warning(f"[ESI] Direct download failed: {resp.status_code}")
-                    return False
-        except Exception as e:
-            self.logger.warning(f"[ESI] Direct download error: {e}")
-            return False
+        """Try to download ESI directly via HTTP (no browser automation needed).
 
-    def try_download_esi_selenium(self, doi: str, research_pdf_dir: Path) -> bool:
-        """Download ESI PDF using Selenium (non-headless for Cloudflare bypass).
+        Currently supports RSC (10.1039/) only: cycles {suffix}1.pdf … {suffix}5.pdf
+        until 404. XML ESI files are saved with .xml extension and parsed by
+        find_esi_files() in step04.
+
+        Returns True if at least one ESI was successfully downloaded.
+        """
+        research_pdf_dir.mkdir(parents=True, exist_ok=True)
+        if doi.startswith("10.1039/"):
+            return self._try_rsc_esi(doi, research_pdf_dir)
+        return False
+
+    def try_download_esi_playwright(self, doi: str, research_pdf_dir: Path) -> bool:
+        """Download ESI files using Playwright Chromium after resolving article page.
         
         Returns True if ESI was successfully downloaded.
         """
-        # First try direct download (faster, no Selenium needed)
+        # First try direct download (faster, no browser automation needed)
         if self.try_download_esi_direct(doi, research_pdf_dir):
             return True
-        
-        from selenium import webdriver
-        from selenium.webdriver.chrome.options import Options
-        from selenium.webdriver.common.by import By
-        import time
+
+        try:
+            sync_api = importlib.import_module("playwright.sync_api")
+            PlaywrightError = sync_api.Error
+            sync_playwright = sync_api.sync_playwright
+        except ModuleNotFoundError:
+            self.logger.warning("[ESI] playwright not installed; skipping browser-based ESI download. "
+                                "Run: python -m playwright install chromium")
+            return False
         
         research_pdf_dir.mkdir(parents=True, exist_ok=True)
-        download_dir = str(research_pdf_dir.resolve())
         
         # Determine article URL based on DOI prefix
         if doi.startswith("10.1002/"):
@@ -718,144 +757,220 @@ class PipelineController:
         else:
             self.logger.info(f"ESI download not supported for DOI prefix: {doi}")
             return False
-        
-        options = Options()
-        # Non-headless mode to bypass Cloudflare
-        options.add_argument('--disable-gpu')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--start-maximized')
-        options.add_argument('--disable-blink-features=AutomationControlled')
-        options.add_experimental_option('excludeSwitches', ['enable-automation'])
-        prefs = {
-            'download.default_directory': download_dir,
-            'download.prompt_for_download': False,
-            'plugins.always_open_pdf_externally': True,
-        }
-        options.add_experimental_option('prefs', prefs)
-        
-        driver = None
+
+        doi_safe = doi.replace("/", "_")
+        esi_xpaths = [
+            '//a[contains(@href, "/doi/suppl/") and contains(@href, "suppl_file")]',
+            '//a[contains(@href, "downloadSupplement")]',
+            '//a[contains(@href, "suppdata")]',
+            '//a[contains(@href, "supplement") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+            '//a[contains(@href, "Supplement") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+            '//a[contains(@href, "supporting") and not(contains(@href, "?goto=")) and contains(@href, ".pdf")]',
+            '//a[contains(text(), "Supporting Information") and not(contains(@href, "?goto="))]',
+            '//a[contains(text(), "Supplementary") and not(contains(@href, "?goto="))]',
+            '//section[@id="support-info"]//a[contains(@href, ".pdf")]',
+        ]
+
+        def _detect_extension(candidate_url: str, content_type: str, content: bytes) -> str:
+            lower_url = candidate_url.lower()
+            lower_type = content_type.lower()
+            if content[:4] == b"%PDF":
+                return ".pdf"
+            if content[:5] in (b"<?xml", b"<art ") or b"<article" in content[:200]:
+                return ".xml"
+            for ext in (".docx", ".doc", ".xlsx", ".zip"):
+                if lower_url.endswith(ext):
+                    return ext
+            if "wordprocessingml" in lower_type:
+                return ".docx"
+            if "msword" in lower_type:
+                return ".doc"
+            if "spreadsheetml" in lower_type or "excel" in lower_type:
+                return ".xlsx"
+            if "zip" in lower_type:
+                return ".zip"
+            return ".pdf"
+
         try:
-            driver = webdriver.Chrome(options=options)
-            self.logger.info(f"[ESI] Visiting {article_url}...")
-            driver.get(article_url)
-            
-            # Wait for Cloudflare challenge (longer for Wiley)
-            max_wait = 30 if doi.startswith("10.1002/") else 15
-            for i in range(max_wait):
-                time.sleep(1)
-                if 'Just a moment' not in driver.title and '請稍候' not in driver.title:
-                    break
-            
-            # Extra wait for page to fully load
-            time.sleep(3)
-            
-            self.logger.info(f"[ESI] Page loaded: {driver.title[:60]}")
-            
-            # Find ESI download link (different publishers use different names)
-            # Wiley: "Supporting Information", RSC: "Supplementary", ACS: "Supporting Info"
-            esi_xpaths = [
-                '//a[contains(@href, "Supplement") or contains(@href, "supplement")]',
-                '//a[contains(@href, "Supporting") or contains(@href, "supporting")]',
-                '//a[contains(text(), "Supporting Information")]',
-                '//a[contains(text(), "Supplementary")]',
-                '//section[@id="support-info"]//a[contains(@href, ".pdf")]',
-            ]
-            
-            esi_links = []
-            for xpath in esi_xpaths:
-                esi_links = driver.find_elements(By.XPATH, xpath)
-                if esi_links:
-                    self.logger.info(f"[ESI] Found {len(esi_links)} link(s) with pattern: {xpath[:50]}...")
-                    break
-            
-            if not esi_links:
+            with sync_playwright() as playwright:
+                for _headless in (True, False):
+                    launch_args = ["--disable-blink-features=AutomationControlled"]
+                    if not _headless:
+                        launch_args.append("--start-maximized")
+                    try:
+                        browser = playwright.chromium.launch(
+                            headless=_headless,
+                            args=launch_args,
+                        )
+                        break
+                    except Exception:
+                        continue
+                else:
+                    return False
+                context = browser.new_context(
+                    accept_downloads=True,
+                    no_viewport=True,
+                    user_agent=(
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) "
+                        "Chrome/124.0.0.0 Safari/537.36"
+                    ),
+                )
+                page = context.new_page()
+                self.logger.info(f"[ESI] Visiting {article_url}...")
+                page.goto(article_url, wait_until="domcontentloaded", timeout=60000)
+
+                max_wait_ms = 30000 if doi.startswith("10.1002/") else 15000
+                page.wait_for_timeout(max_wait_ms)
+                page.wait_for_timeout(3000)
+
+                self.logger.info(f"[ESI] Page loaded: {page.title()[:60]}")
+
+                for xpath in esi_xpaths:
+                    locator = page.locator(f'xpath={xpath}')
+                    count = locator.count()
+                    if count == 0:
+                        continue
+                    self.logger.info(f"[ESI] Found {count} link(s) with pattern: {xpath[:50]}...")
+                    for index in range(count):
+                        link = locator.nth(index)
+                        href = link.get_attribute('href') or ''
+                        esi_url = urljoin(page.url, href) if href else None
+                        self.logger.info(
+                            f"[ESI] Attempting download from: {(esi_url or 'click-only link')[:80]}..."
+                        )
+
+                        try:
+                            link.scroll_into_view_if_needed(timeout=5000)
+                            with page.expect_download(timeout=30000) as download_info:
+                                link.click(force=True, timeout=10000)
+                            download = download_info.value
+                            suggested_name = download.suggested_filename or (
+                                Path(esi_url).name if esi_url else f"{doi_safe}_ESI.pdf"
+                            )
+                            extension = Path(suggested_name).suffix.lower() or ".pdf"
+                            output_path = research_pdf_dir / f"{doi_safe}_ESI{extension}"
+                            if output_path.exists():
+                                self.logger.info(f"[ESI] Already exists: {output_path.name}")
+                                return True
+
+                            download.save_as(str(output_path))
+                            self.logger.info(f"[ESI] Downloaded via browser: {output_path.name}")
+                            return True
+                        except PlaywrightError as download_error:
+                            self.logger.warning(
+                                f"[ESI] Browser download failed for {doi} ({xpath[:40]}): {download_error}"
+                            )
+
+                        if not esi_url:
+                            continue
+
+                        response = context.request.get(
+                            esi_url,
+                            fail_on_status_code=False,
+                            timeout=60000,
+                            headers={
+                                "referer": page.url,
+                                "user-agent": page.evaluate("() => navigator.userAgent"),
+                            },
+                        )
+                        if not response.ok:
+                            self.logger.warning(
+                                f"[ESI] Download request failed for {doi}: {response.status}"
+                            )
+                            continue
+
+                        content = response.body()
+                        if len(content) < 1000:
+                            self.logger.warning(f"[ESI] Downloaded content too small for {doi}")
+                            continue
+
+                        extension = _detect_extension(
+                            esi_url,
+                            response.headers.get('content-type', ''),
+                            content,
+                        )
+                        output_path = research_pdf_dir / f"{doi_safe}_ESI{extension}"
+                        if output_path.exists():
+                            self.logger.info(f"[ESI] Already exists: {output_path.name}")
+                            return True
+
+                        output_path.write_bytes(content)
+                        self.logger.info(f"[ESI] Downloaded via request fallback: {output_path.name}")
+                        return True
+
                 self.logger.info(f"[ESI] No ESI links found for {doi}")
                 return False
-            
-            # Get the ESI URL and navigate to it
-            esi_url = esi_links[0].get_attribute('href')
-            self.logger.info(f"[ESI] Downloading from: {esi_url[:80]}...")
-            
-            # Get existing PDFs before download
-            existing_pdfs = set(research_pdf_dir.glob("*.pdf"))
-            
-            driver.get(esi_url)
-            
-            # Wait for download with dynamic checking (max 30 seconds)
-            for _ in range(30):
-                time.sleep(1)
-                current_pdfs = set(research_pdf_dir.glob("*.pdf"))
-                new_pdfs = current_pdfs - existing_pdfs
-                # Check if download completed (no .crdownload or .tmp files)
-                downloading = any(
-                    f.suffix.lower() in ('.crdownload', '.tmp', '.part') 
-                    for f in research_pdf_dir.iterdir()
-                )
-                if new_pdfs and not downloading:
-                    break
-            
-            # Check if PDF was downloaded
-            current_pdfs = set(research_pdf_dir.glob("*.pdf"))
-            new_pdfs = current_pdfs - existing_pdfs
-            if new_pdfs:
-                new_file = list(new_pdfs)[0]
-                self.logger.info(f"[ESI] Downloaded: {new_file.name}")
-                return True
-            else:
-                self.logger.warning(f"[ESI] Download may have failed for {doi}")
-                return False
-            
-        except Exception as e:
+
+        except PlaywrightError as e:
             self.logger.error(f"[ESI] Error downloading ESI for {doi}: {e}")
+            self.logger.error("[ESI] Ensure Playwright and Chromium are installed: python -m playwright install chromium")
             return False
-        finally:
-            if driver:
-                driver.quit()
 
     def run_esi_fallback(self, compound: str, compound_dir: Path) -> bool:
-        """Try to download ESI for papers without complete extraction and re-run step04.
-        
-        ESI fallback triggers ONLY when:
-        - No paper in step04 summary has complete extraction (has_material_dosage=True)
-        
-        If at least one paper has complete extraction, ESI fallback is skipped.
-        
+        """Try to download ESI for every paper with alternatives but incomplete extraction.
+
+        ESI is attempted for ALL papers where material dosage is still missing,
+        regardless of whether other papers already have complete extraction.
+
         Returns True if any ESI was downloaded and step04 was re-run.
         """
-        # First check: if any paper has complete extraction, skip ESI fallback entirely
-        if self.has_any_complete_extraction(compound_dir):
-            self.logger.info("[ESI Fallback] Skipped: At least one paper has complete extraction (with material dosage).")
-            return False
-        
         papers = self.get_insufficient_papers_needing_esi(compound_dir)
         if not papers:
             self.logger.info("[ESI Fallback] No papers need ESI download.")
             return False
-        
-        self.logger.info(f"[ESI Fallback] No complete extraction found. Attempting ESI for {len(papers)} paper(s):")
+
+        self.logger.info(f"[ESI Fallback] Attempting ESI for {len(papers)} paper(s) with incomplete extraction:")
         for p in papers:
             reason = p.get('reason', 'unknown')
             self.logger.info(f"  - {p['doi']}: {p['title']} [{reason}]")
         
         research_pdf_dir = compound_dir / "research_pdf"
-        downloaded_any = False
-        
+        downloaded_dois: list[str] = []
+
         for paper in papers:
             doi = paper["doi"]
             self.logger.info(f"[ESI Fallback] Attempting ESI download for {doi}...")
-            if self.try_download_esi_selenium(doi, research_pdf_dir):
-                downloaded_any = True
-        
-        if downloaded_any:
-            self.logger.info("[ESI Fallback] Re-running step04 with ESI content...")
-            # Delete step04 cache to force re-processing
-            step04_file = compound_dir / self.get_step04_filename()
-            if step04_file.exists():
-                step04_file.unlink()
-            
+            if self.try_download_esi_playwright(doi, research_pdf_dir):
+                downloaded_dois.append(doi)
+
+        if downloaded_dois:
+            self.logger.info(
+                f"[ESI Fallback] Re-running step04 for {len(downloaded_dois)} paper(s) with new ESI content..."
+            )
+            # Invalidate only the entries that got new ESI — other papers keep their cache
+            self._invalidate_step04_dois(compound_dir, downloaded_dois)
             return self.run_step04(compound, compound_dir, write_final=True)
-        
+
         return False
+
+    def _invalidate_step04_dois(self, compound_dir: Path, dois: list[str]) -> None:
+        """Remove specific DOI entries from the step04 results file so step04 re-processes
+        only those papers while keeping the cache for all other entries intact."""
+        step04_file = compound_dir / self.get_step04_filename()
+        if not step04_file.exists():
+            return
+        try:
+            with open(step04_file, encoding="utf-8") as f:
+                records = json.load(f)
+            dois_set = {d.lower().strip() for d in dois}
+            filtered = [
+                r for r in records
+                if str(r.get("externalIds", {}).get("DOI", "") or r.get("doi", "")).lower().strip()
+                not in dois_set
+            ]
+            removed = len(records) - len(filtered)
+            if removed > 0:
+                with open(step04_file, "w", encoding="utf-8") as f:
+                    json.dump(filtered, f, ensure_ascii=False, indent=2)
+                self.logger.info(
+                    f"[ESI] Invalidated {removed} step04 cache entry/entries for re-extraction; "
+                    f"{len(filtered)} entries kept from cache."
+                )
+        except Exception as e:
+            self.logger.error(f"[ESI] Error invalidating step04 cache: {e}; falling back to full re-run")
+            # Fallback: delete the whole file so step04 re-processes everything
+            step04_file.unlink(missing_ok=True)
 
     def extract_phase_c_seeds(self, compound_dir: Path) -> list[dict[str, str]]:
         """Extract (alternative, application_context) pairs from step04 results
@@ -1279,22 +1394,24 @@ class PipelineController:
         # Create compound directory
         compound_dir = self.create_compound_directory(compound)
         
-        # Remove old AI queries if they exist so standard search uses only the compound name
-        step00_file = compound_dir / "step00_queries.json"
-        if step00_file.exists():
-            try:
-                step00_file.unlink()
-            except Exception as e:
-                self.logger.warning(f"Failed to delete old step00_queries.json: {e}")
-        
         # Track step results
         step_results = {}
-        
+
         # -------------------------------------------------------------
-        # PHASE A: Standard Search (Using exact compound name)
+        # STEP 0: Generate AI-expanded search keywords (always, non-fatal)
+        # step01 will union-merge compound name + these queries automatically
         # -------------------------------------------------------------
         print(f"\n{'='*60}")
-        print(f"PHASE A: Standard Search for {compound}")
+        print(f"STEP 0: Generating AI search keywords for {compound}")
+        print(f"{'='*60}")
+        step_results["step00"] = self.run_step00(compound, compound_dir)
+        compound_progress.set_description(f"{compound} - Step 0 (AI keywords) completed")
+
+        # -------------------------------------------------------------
+        # UNIFIED SEARCH: compound name + AI keywords → single pool
+        # -------------------------------------------------------------
+        print(f"\n{'='*60}")
+        print(f"UNIFIED SEARCH (Step 1–4) for {compound}")
         print(f"{'='*60}")
         
         step_results["step01"] = self.run_step01(compound, compound_dir)
@@ -1302,104 +1419,45 @@ class PipelineController:
         
         if step_results["step01"]:
             step_results["step02"] = self.run_step02(compound, compound_dir)
-            compound_progress.set_description(f"{compound} - Step 2 (Standard) completed")
+            compound_progress.set_description(f"{compound} - Step 2 completed")
             
             if step_results["step02"]:
                 # Use recursive search for step03
                 default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
                 step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
-                compound_progress.set_description(f"{compound} - Step 3 (Standard) completed")
+                compound_progress.set_description(f"{compound} - Step 3 completed")
                 
                 if step_results["step03"]:
                     step_results["step04"] = self.run_step04(compound, compound_dir)
-                    compound_progress.set_description(f"{compound} - Step 4 (Standard) completed")
+                    compound_progress.set_description(f"{compound} - Step 4 completed")
         
-        # Check if Phase A was successful in finding alternatives
+        # Check if unified search found alternatives
         found_alternatives = step_results.get("step03", False)
         if found_alternatives:
             step04_success = self.check_step04_has_data(compound_dir)
             if not step04_success:
-                self.logger.warning(f"Step 03 found alternatives, but Step 04 found no useful safety/harm data for {compound}. Treating Phase A as failed.")
+                self.logger.warning(f"Step 03 found alternatives, but Step 04 found no useful safety/harm data for {compound}.")
                 found_alternatives = False
         
         # -------------------------------------------------------------
-        # ESI FALLBACK (After Phase A): Try downloading ESI when no complete extraction
+        # ESI FALLBACK: Try downloading ESI for papers with incomplete extraction
         # -------------------------------------------------------------
         papers_needing_esi = self.get_insufficient_papers_needing_esi(compound_dir)
-        if papers_needing_esi and not self.has_any_complete_extraction(compound_dir):
+        if papers_needing_esi:
             self.logger.info(
-                f"Phase A: No complete extraction (missing material dosage). "
+                f"ESI Fallback: {len(papers_needing_esi)} paper(s) with incomplete extraction. "
                 f"Attempting ESI fallback for {compound}..."
             )
             print(f"\n{'='*60}")
-            print(f"ESI FALLBACK (Phase A): Attempting to download ESI for {compound}")
+            print(f"ESI FALLBACK: Attempting to download ESI for {compound}")
             print(f"{'='*60}")
             esi_success = self.run_esi_fallback(compound, compound_dir)
-            step_results["esi_fallback_a"] = esi_success
+            step_results["esi_fallback"] = esi_success
             if esi_success:
-                # Re-check if we now have complete extraction
                 if self.has_any_complete_extraction(compound_dir):
                     found_alternatives = True
-                    self.logger.info(f"ESI fallback (Phase A) succeeded - complete extraction for {compound}")
-            compound_progress.set_description(f"{compound} - ESI Fallback (A) completed")
-        
-        # -------------------------------------------------------------
-        # PHASE B: AI Agentic Search (If Phase A + ESI failed)
-        # -------------------------------------------------------------
-        if not found_alternatives:
-            self.logger.info(f"Phase A + ESI yielded no complete extraction for {compound}. Triggering AI Agentic Search (Phase B).")
-            print(f"\n{'='*60}")
-            print(f"PHASE B: AI Agentic Search for {compound}")
-            print(f"{'='*60}")
-            
-            step_results["step00"] = self.run_step00(compound, compound_dir)
-            compound_progress.set_description(f"{compound} - Step 0 (AI) completed")
-            
-            if step_results.get("step00", False):
-                step_results["step01"] = self.run_step01(compound, compound_dir)
-                compound_progress.set_description(f"{compound} - Step 1 (AI) completed")
-                
-                if step_results["step01"]:
-                    step_results["step02"] = self.run_step02(compound, compound_dir)
-                    compound_progress.set_description(f"{compound} - Step 2 (AI) completed")
-                    
-                    if step_results["step02"]:
-                        default_years_back = CONFIG.get("default_settings", {}).get("years_back", 10)
-                        step_results["step03"] = self.recursive_step03_search(compound, compound_dir, default_years_back)
-                        compound_progress.set_description(f"{compound} - Step 3 (AI) completed")
-                        
-                        if step_results["step03"]:
-                            step_results["step04"] = self.run_step04(compound, compound_dir)
-                            compound_progress.set_description(f"{compound} - Step 4 (AI) completed")
-            
-            # Check success of Phase B
-            found_alternatives = step_results.get("step03", False)
-            if found_alternatives:
-                step04_success = self.check_step04_has_data(compound_dir)
-                if not step04_success:
-                    self.logger.warning(f"Phase B Step 04 also found no useful safety/harm data for {compound}.")
-                    found_alternatives = False
-
-        # -------------------------------------------------------------
-        # ESI FALLBACK (After Phase B): Try downloading ESI for Phase B results
-        # -------------------------------------------------------------
-        papers_needing_esi = self.get_insufficient_papers_needing_esi(compound_dir)
-        if papers_needing_esi and not self.has_any_complete_extraction(compound_dir):
-            self.logger.info(
-                f"Phase B: No complete extraction (missing material dosage). "
-                f"Attempting ESI fallback for {compound}..."
-            )
-            print(f"\n{'='*60}")
-            print(f"ESI FALLBACK (Phase B): Attempting to download ESI for {compound}")
-            print(f"{'='*60}")
-            esi_success = self.run_esi_fallback(compound, compound_dir)
-            step_results["esi_fallback_b"] = esi_success
-            if esi_success:
-                # Re-check if we now have complete extraction
-                if self.has_any_complete_extraction(compound_dir):
-                    found_alternatives = True
-                    self.logger.info(f"ESI fallback (Phase B) succeeded - complete extraction for {compound}")
-            compound_progress.set_description(f"{compound} - ESI Fallback (B) completed")
+                    self.logger.info(f"ESI fallback succeeded - complete extraction for {compound}")
+            compound_progress.set_description(f"{compound} - ESI Fallback completed")
 
         # -------------------------------------------------------------
         # PHASE C: Alternative + Context Fallback Search
@@ -1407,7 +1465,7 @@ class PipelineController:
         # -------------------------------------------------------------
         if not found_alternatives and self.check_step04_needs_phase_c(compound_dir):
             self.logger.info(
-                f"Alternatives found but no dosage in Phase A/B. "
+                f"Alternatives found but no dosage in unified search. "
                 f"Triggering Phase C (alternative+context search) for {compound}."
             )
             print(f"\n{'='*60}")

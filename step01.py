@@ -198,18 +198,25 @@ def main():
     print(f"Year range: last {args.year_range} years")
     print(f"Using Semantic Scholar API key from config file")
     
-    # Check if step00_queries.json exists
+    # Check if step00_queries.json exists — UNION merge: keep compound name + append AI queries
     queries_file = Path(args.output_dir) / "step00_queries.json"
     queries = [args.keyword]
     if queries_file.exists():
         try:
             with open(queries_file, 'r', encoding='utf-8') as f:
                 ai_queries = json.load(f)
-                if isinstance(ai_queries, list) and ai_queries:
-                    queries = ai_queries
-                elif isinstance(ai_queries, dict) and "queries" in ai_queries:
-                    queries = ai_queries["queries"]
-            print(f"Loaded {len(queries)} AI-generated queries from step00")
+            ai_list: list[str] = []
+            if isinstance(ai_queries, list):
+                ai_list = ai_queries
+            elif isinstance(ai_queries, dict) and "queries" in ai_queries:
+                ai_list = ai_queries["queries"]
+            # Union: compound name first, then non-duplicate AI queries
+            seen: set[str] = {args.keyword}
+            for q in ai_list:
+                if q not in seen:
+                    queries.append(q)
+                    seen.add(q)
+            print(f"Unified query pool: compound name + {len(queries) - 1} AI queries = {len(queries)} total")
         except Exception as e:
             print(f"Failed to read {queries_file}: {e}. Fallback to default keyword.")
 

@@ -8,7 +8,7 @@ import requests  # Added for downloading
 import re        # Added for filename sanitization
 import shutil    # Added for moving downloaded files
 import importlib
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urlparse, urljoin
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -16,31 +16,6 @@ import threading
 
 import pandas as pd
 from tqdm import tqdm
-
-# Selenium modules are loaded lazily to keep this script runnable without selenium installed.
-webdriver = None
-Options = None
-By = None
-
-
-def _ensure_selenium_modules() -> bool:
-    """Load selenium modules on demand; return True when available."""
-    global webdriver, Options, By
-    if webdriver is not None and Options is not None and By is not None:
-        return True
-    try:
-        selenium_webdriver = importlib.import_module("selenium.webdriver")
-        chrome_options_mod = importlib.import_module("selenium.webdriver.chrome.options")
-        by_mod = importlib.import_module("selenium.webdriver.common.by")
-        webdriver = selenium_webdriver
-        Options = chrome_options_mod.Options
-        By = by_mod.By
-        return True
-    except Exception:
-        webdriver = None
-        Options = None
-        By = None
-        return False
 
 try:
     from openai import OpenAI
@@ -310,99 +285,213 @@ def check_pmc_fulltext(doi: str, output_path: Path) -> Optional[str]:
         return None
 
 
-def download_via_selenium_doi(doi: str, output_path: Path) -> bool:
-    """
-    Attempts to download PDF via generic DOI resolution using Selenium.
-    Returns True if successful.
-    """
-    if not _ensure_selenium_modules():
+def download_via_playwright_doi(doi: str, output_path: Path) -> bool:
+    """Attempt to download a PDF by resolving the DOI in Playwright."""
+    try:
+        sync_api = importlib.import_module("playwright.sync_api")
+        sync_playwright = sync_api.sync_playwright
+        playwright_error = sync_api.Error
+    except Exception:
         return False
 
-    # 1. Setup temp download dir
-    import uuid
-    uid = uuid.uuid4().hex[:8]
-    temp_dir = output_path.parent / f"temp_selenium_{uid}"
-    temp_dir.mkdir(parents=True, exist_ok=True)
-    
-    # 2. Setup Driver
-    chrome_options = Options()
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--headless=new")  # Run in background without visible window
-    
-    prefs = {
-        "download.default_directory": str(temp_dir.absolute()),
-        "download.prompt_for_download": False,
-        "plugins.always_open_pdf_externally": True
-    }
-    chrome_options.add_experimental_option("prefs", prefs)
-
-    driver = None
+    start_url = f"https://doi.org/{doi}"
+    browser = None
     try:
-        driver = webdriver.Chrome(options=chrome_options)
-        driver.set_page_load_timeout(15)  # Add timeout limit
-        
-        # 3. Visit DOI
-        start_url = f"https://doi.org/{doi}"
-        driver.get(start_url)
-        time.sleep(5) # Wait for redirect
-        
-        # 4. Find PDF Link
-        pdf_link = None
-        
-        # Heuristic 1: Meta Tag (Most reliable)
-        try:
-            meta_pdf = driver.find_element(By.XPATH, "//meta[@name='citation_pdf_url']")
-            if meta_pdf:
-                pdf_link = meta_pdf.get_attribute("content")
-        except:
-            pass
-            
-        # Heuristic 2: Link Analysis (look for .pdf or /pdf endpoints)
-        if not pdf_link:
-            links = driver.find_elements(By.TAG_NAME, "a")
-            for link in links:
+        with sync_playwright() as playwright:
+            # Try headless first; fall back to headful if the site blocks headless browsers.
+            for _headless in (True, False):
+                launch_args = ["--disable-blink-features=AutomationControlled"]
+                if not _headless:
+                    launch_args.append("--start-maximized")
                 try:
-                    href = link.get_attribute("href")
-                    if href:
-                        # Match .pdf files or /pdf endpoints (MDPI style)
-                        if ".pdf" in href.lower() or href.rstrip("/").endswith("/pdf"):
-                            pdf_link = href
-                            break 
-                except: continue
-        
-        # Heuristic 3: Try appending /pdf to current URL (MDPI, Frontiers, etc.)
-        if not pdf_link:
-            current_url = driver.current_url.rstrip("/")
-            if not current_url.endswith("/pdf"):
-                pdf_link = current_url + "/pdf"
-        
-        if pdf_link:
-            # Use requests to download the PDF directly (headless Chrome doesn't reliably trigger downloads)
-            driver.quit()
-            driver = None
+                    browser = playwright.chromium.launch(
+                        headless=_headless,
+                        args=launch_args,
+                    )
+                except Exception:
+                    continue
+                break
+            if browser is None:
+                return False
+            context = browser.new_context(
+                accept_downloads=True,
+                no_viewport=True,
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/124.0.0.0 Safari/537.36"
+                ),
+            )
+            page = context.new_page()
+            page.goto(start_url, wait_until="domcontentloaded", timeout=30000)
+
+            max_wait_ms = 30000 if doi.startswith("10.1002/") else 15000
+            page.wait_for_timeout(max_wait_ms)
+            page.wait_for_timeout(3000)
+
+            pdf_link: Optional[str] = None
+
+            meta_pdf = page.locator("meta[name='citation_pdf_url']")
+            if meta_pdf.count() > 0:
+                meta_href = meta_pdf.first.get_attribute("content")
+                if meta_href:
+                    pdf_link = urljoin(page.url, meta_href)
+
+            if not pdf_link:
+                links = page.locator("a[href]")
+                link_count = links.count()
+                for index in range(link_count):
+                    href = links.nth(index).get_attribute("href")
+                    if not href:
+                        continue
+                    resolved_href = urljoin(page.url, href)
+                    resolved_lower = resolved_href.lower()
+                    if any(token in resolved_lower for token in ("/suppl/", "suppl_file", "support", "supplement")):
+                        continue
+                    if ".pdf" in resolved_lower or resolved_href.rstrip("/").endswith("/pdf"):
+                        pdf_link = resolved_href
+                        break
+
+            candidate_links: list[str] = []
+            if pdf_link:
+                candidate_links.append(pdf_link)
+
+            current_url = page.url.rstrip("/")
+
+            # Publisher-specific PDF URL derivations (tried after meta/link heuristic)
+            publisher_guesses: list[str] = []
+
+            if doi.startswith("10.1002/"):
+                # Wiley: /doi/pdf/ and /doi/epdf/ endpoints
+                base = f"https://onlinelibrary.wiley.com/doi/pdf/{doi}"
+                epdf = f"https://onlinelibrary.wiley.com/doi/epdf/{doi}"
+                publisher_guesses += [base, epdf]
+                # Sub-journal mirrors (e.g. chemistry-europe, advanced)
+                mirror_base = current_url.replace("/doi/10.", "/doi/pdf/10.").replace("/doi/full/", "/doi/pdf/").replace("/doi/abs/", "/doi/pdf/")
+                mirror_epdf = mirror_base.replace("/doi/pdf/", "/doi/epdf/")
+                publisher_guesses += [mirror_base, mirror_epdf]
+
+            elif doi.startswith("10.1021/"):
+                # ACS: /doi/pdf/ and /doi/pdfplus/
+                publisher_guesses += [
+                    f"https://pubs.acs.org/doi/pdf/{doi}",
+                    f"https://pubs.acs.org/doi/pdfplus/{doi}",
+                    f"https://pubs.acs.org/doi/epdf/{doi}",
+                ]
+
+            # Generic URL-transform guesses for other publishers
+            generic_guesses = [
+                current_url + "/pdf" if not current_url.endswith("/pdf") else current_url,
+                current_url.replace("/doi/abs/", "/doi/pdf/"),
+                current_url.replace("/doi/full/", "/doi/pdf/"),
+                current_url.replace("/doi/", "/doi/pdf/"),
+            ]
+
+            for link in publisher_guesses + generic_guesses:
+                if link and link not in candidate_links:
+                    candidate_links.append(link)
+
+            user_agent = page.evaluate("() => navigator.userAgent")
+
+            # --- Strategy A: request.get() with Referer for each candidate URL ---
+            for candidate_link in candidate_links:
+                response = context.request.get(
+                    candidate_link,
+                    timeout=30000,
+                    fail_on_status_code=False,
+                    headers={
+                        "Referer": page.url,
+                        "User-Agent": user_agent,
+                    },
+                )
+                if response.status != 200:
+                    continue
+                content = response.body()
+                if content[:4] != b"%PDF":
+                    continue
+                with open(output_path, "wb") as f:
+                    f.write(content)
+                return True
+
+            # --- Strategy B: publisher-specific network interceptor via browser navigation ---
+            # Some publishers (e.g. Wiley) deliver PDF through an HTML viewer page that
+            # internally loads the real PDF binary — intercepting network responses catches it.
+            pdf_viewer_candidates: list[str] = []
+
+            if doi.startswith("10.1002/"):
+                # Wiley: navigate to /doi/pdf/ viewer which embeds pdfdirect
+                meta_pdf2 = page.locator("meta[name='citation_pdf_url']")
+                if meta_pdf2.count() > 0:
+                    href2 = meta_pdf2.first.get_attribute("content")
+                    if href2:
+                        pdf_viewer_candidates.append(urljoin(page.url, href2))
+                pdf_viewer_candidates.append(f"https://onlinelibrary.wiley.com/doi/pdf/{doi}")
+
+            elif doi.startswith("10.1021/"):
+                # ACS: same pattern — viewer page embeds the real PDF
+                pdf_viewer_candidates.append(f"https://pubs.acs.org/doi/pdf/{doi}")
+                pdf_viewer_candidates.append(f"https://pubs.acs.org/doi/pdfplus/{doi}")
+
+            for viewer_url in pdf_viewer_candidates:
+                # Intercept only the URL of PDF responses (avoids 1 MB body cap),
+                # then download the full file using context.request.get() afterwards.
+                pdf_url_found: list[str] = []
+
+                def _on_response(response: Any, _u: str = viewer_url) -> None:  # type: ignore[override]
+                    try:
+                        if pdf_url_found:
+                            return  # already found one
+                        ct = response.headers.get("content-type", "").lower()
+                        url = response.url
+                        if "application/pdf" in ct or ("pdf" in ct and url.lower().endswith(".pdf")):
+                            pdf_url_found.append(url)
+                    except Exception:
+                        pass
+
+                viewer_page = context.new_page()
+                viewer_page.on("response", _on_response)
+                try:
+                    viewer_page.goto(viewer_url, wait_until="domcontentloaded", timeout=30000)
+                    viewer_page.wait_for_timeout(10000)
+                except Exception:
+                    pass
+                finally:
+                    try:
+                        viewer_ua = viewer_page.evaluate("() => navigator.userAgent")
+                    except Exception:
+                        viewer_ua = ua
+                    try:
+                        viewer_page.close()
+                    except Exception:
+                        pass
+
+                if pdf_url_found:
+                    try:
+                        full_resp = context.request.get(
+                            pdf_url_found[0],
+                            headers={"Referer": viewer_url, "User-Agent": viewer_ua},
+                            timeout=60000,
+                        )
+                        body = full_resp.body()
+                        if body[:4] == b"%PDF":
+                            with open(output_path, "wb") as f:
+                                f.write(body)
+                            return True
+                    except Exception:
+                        pass
+
+            return False
+    except playwright_error:
+        return False
+    except Exception:
+        return False
+    finally:
+        if browser:
             try:
-                # Use a browser-like User-Agent that works with most publishers
-                headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
-                resp = requests.get(pdf_link, timeout=30, headers=headers)
-                if resp.status_code == 200 and resp.content[:4] == b'%PDF':
-                    with open(output_path, 'wb') as f:
-                        f.write(resp.content)
-                    return True
+                browser.close()
             except Exception:
                 pass
-    except Exception:
-        pass
-    finally:
-        if driver:
-            try: driver.quit()
-            except: pass
-        if temp_dir.exists():
-            import shutil
-            try: shutil.rmtree(temp_dir)
-            except Exception: pass
-            
-    return False
+
 
 def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_url: str = "") -> str:
     """
@@ -415,7 +504,7 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     5. OpenAlex Open Access URL
     6. Unpaywall Open Access URL
     7. PMC E-utilities (Full-text XML)
-    8. Selenium DOI Scraper
+    8. Playwright DOI Scraper
     9. Fallback: Elsevier XML
     """
     # Create safe filename
@@ -524,13 +613,13 @@ def download_full_text(doi: str, title: str, output_dir: Path, open_access_pdf_u
     except Exception:
         pass
 
-    # --- Strategy 8: Selenium DOI Scraper ---
+    # --- Strategy 8: Playwright DOI Scraper ---
     # Only try this if we really don't have it yet
     # This is slow, so maybe log it
     try:
-        # print(f"Attempting Selenium fallback for {doi}...")
-        if download_via_selenium_doi(doi, final_pdf_path):
-            return "Downloaded PDF (Selenium Scraper)"
+        # print(f"Attempting Playwright fallback for {doi}...")
+        if download_via_playwright_doi(doi, final_pdf_path):
+            return "Downloaded PDF (Playwright Scraper)"
     except Exception:
         pass
 
@@ -607,7 +696,9 @@ Decision rules (follow strictly):
    - The alternative is meant only to enhance or modify properties without replacing any {target};
    - The abstract merely compares {target} with another material without any substitution intent;
    - It discusses a completely different chemical that happens to share a partial name;
-   - {target} is used only as a reference/comparison material, not as the material being replaced.
+   - {target} is used only as a reference/comparison material, not as the material being replaced;
+   - "{target}" appears ONLY as a measurement metric, analytical parameter, or product property descriptor (e.g., "oxirane number", "formaldehyde content", "vinyl chloride monomer residue") rather than as the actual chemical being replaced — in such cases, the paper is studying products that CONTAIN {target} or its functional groups, not replacing {target} itself.
+   - The paper's PRIMARY purpose is to study the **toxicity, environmental fate, bioaccumulation, or health effects** of a chemical that is already known as a substitute for {target}. Even if that chemical is described as a "PFOS substitute" or "{target} replacement", if the paper is investigating THAT substitute's own hazards rather than proposing it as a functionally superior or safer alternative, answer **no**.
 
 3) Key distinction: If the abstract describes a formulation where {target} is one component and something else (like a coalescent, solvent, or additive) is being replaced, answer **no** — the alternative must specifically replace {target}, not other ingredients.
 
@@ -709,6 +800,8 @@ class SaferAlternativeAnalyzer:
                     raw = "\n".join(lines[1:-1]) if lines[-1].strip() == "```" else "\n".join(lines[1:])
                 data = json.loads(raw)
                 reasoning = str(data.get("reasoning", "")).strip()
+                if not reasoning:
+                    raise ValueError("Model returned empty reasoning — treating as failed call")
                 alt_provided = str(data.get("alternatives provided", "")).strip().lower()
                 alt_provided = "yes" if alt_provided == "yes" else "no"
                 alternatives_raw = data.get("alternatives", [])
@@ -754,6 +847,8 @@ class SaferAlternativeAnalyzer:
                 raw = completion.choices[0].message.content or "{}"
                 data = json.loads(raw)
                 reasoning = str(data.get("reasoning", "")).strip()
+                if not reasoning:
+                    raise ValueError("Model returned empty reasoning — treating as failed call")
                 alt_provided = str(data.get("alternatives provided", "")).strip().lower()
                 alt_provided = "yes" if alt_provided == "yes" else "no"
                 # Extract alternatives list
@@ -957,8 +1052,11 @@ class SaferAlternativeAnalyzer:
             cached_res = processed_dois.get(doi) if doi else processed_titles.get(title)
             expected_model = self.models[i % len(self.models)] if self.models else self.cfg.model
             
-            # 若快取的模型與本次預計使用的模型相同，才套用快取；否則視為沒跑過，重新放入排程
-            if cached_res and cached_res.get("model_used") == expected_model:
+            # 若快取的模型與本次預計使用的模型相同，且 reasoning 非空，才套用快取；
+            # reasoning 空代表當時 LLM 回傳無效結果，視為 cache miss 重新排程
+            if (cached_res
+                    and cached_res.get("model_used") == expected_model
+                    and str(cached_res.get("reasoning", "")).strip()):
                 results[i] = cached_res
             else:
                 tasks_to_run.append((i, rec))

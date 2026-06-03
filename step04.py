@@ -101,6 +101,115 @@ def is_material_dosage(dosage: dict) -> bool:
     return False
 
 
+def is_synthesis_scale(dosage: dict) -> bool:
+    """Return True if this dosage entry represents a total lab batch size
+    (e.g., '>55 g synthesized') or a production/industrial scale quantity
+    (e.g., '291.6 kg catalyst per stage', '16700 t/year feedstock'),
+    rather than a functional composition ratio.
+    Such values are useless for functional-equivalence dosage comparison.
+    """
+    ratio_type = (dosage.get("ratio_type") or "").lower()
+    value = (dosage.get("value") or "").lower()
+    context = (dosage.get("context") or "").lower()
+
+    # ── Guard 1: production/industrial throughput units (always discard) ──────
+    # e.g. "16700.2 t/year", "4.2 billion liters", "20873 tonnes/year"
+    if re.search(r'\d[\d.,]*\s*(million|billion|thousand)?\s*(t|tonne|ton|liters?|litres?)'  # volume/mass
+                 r'\s*(/|per)\s*(year|yr|annum|day)',
+                 value, re.IGNORECASE):
+        return True
+    if re.search(r'\d[\d.,]*\s*(million|billion)\s*(liters?|litres?|kg|g|t\b)', value, re.IGNORECASE):
+        return True
+
+    # ── Guard 2: catalyst_loading or mass_ratio with absolute-mass units ──────
+    if ratio_type not in ("mass_ratio", "catalyst_loading"):
+        return False
+
+    # If value contains a ratio separator or relative unit, it IS compositional — keep it
+    if re.search(r'[:/]|wt%|vol%|mol%|\beq\b|\bequiv\b|\bwt\b|\bvol\b|\bmol\b', value):
+        return False
+
+    # Absolute mass (g, mg, kg) with synthesis-scale context keywords → discard
+    is_absolute_mass = bool(re.search(r'\d+\.?\d*\s*(>|<|~)?\s*(kg|g|mg)\b', value))
+    synthesis_keywords = (
+        "synthesis scale", "synthesized", "batch", "prepared", "scale up",
+        "total yield", "total amount", "lab scale", "gram scale",
+        "milligram scale", "reaction scale", "synthesis of",
+        # industrial process contexts
+        "per stage", "per tray", "reactor", "distillation", "column",
+        "plant", "production unit",
+    )
+    if is_absolute_mass and any(kw in context for kw in synthesis_keywords):
+        return True
+
+    return False
+
+
+def is_impurity_concentration(dosage: dict) -> bool:
+    """Return True if this dosage entry measures an impurity / contaminant /
+    leached species within a material, or a macroscopic production/consumption
+    statistic, NOT the functional dosage of the alternative material itself.
+    These pollute explicit_dosages and should be discarded.
+    """
+    ratio_type = (dosage.get("ratio_type") or "").lower()
+    context = (dosage.get("context") or "").lower()
+    material = (dosage.get("material") or "").lower()
+    value = (dosage.get("value") or "").lower()
+
+    if ratio_type != "concentration":
+        return False
+
+    # Context signals impurity / contamination measurement
+    impurity_context_keywords = (
+        "found in", "concentration in", "detected in", "leaching",
+        "migration", "leakage", "impurity", "contamination",
+        "additive", "extracted from", "measured in", "content in",
+        "mean concentration",
+    )
+    if any(kw in context for kw in impurity_context_keywords):
+        return True
+
+    # Context signals global/national production or consumption statistics
+    production_stat_keywords = (
+        "annual consumption", "annual production", "annual output",
+        "global consumption", "global production", "worldwide consumption",
+        "per year", "per annum", "raising the octane", "octane number",
+        "for raising",
+    )
+    if any(kw in context for kw in production_stat_keywords):
+        return True
+
+    # Value itself is a production-scale volume (already caught by is_synthesis_scale
+    # for other ratio_types; duplicate check here for concentration type)
+    if re.search(r'\d[\d.,]*\s*(million|billion|thousand)?\s*(t|tonne|ton|liters?|litres?)'
+                 r'\s*(/|per)\s*(year|yr|annum)',
+                 value, re.IGNORECASE):
+        return True
+
+    # Material name is a metal element / ion (not the alternative polymer)
+    metal_pattern = (
+        r'^(barium|ba|zinc|zn|lead|pb|cadmium|cd|tin|sn|chromium|cr|'
+        r'mercury|hg|arsenic|as|iron|fe|copper|cu|nickel|ni|cobalt|co)\b'
+    )
+    if re.match(metal_pattern, material, re.IGNORECASE):
+        return True
+
+    return False
+
+
+def filter_functional_dosages(explicit_dosages: list[dict] | None) -> list[dict]:
+    """Remove synthesis-scale and impurity-concentration entries from a
+    dosages list, returning only entries that represent true functional
+    composition / usage ratios of the alternative material.
+    """
+    if not explicit_dosages:
+        return []
+    return [
+        d for d in explicit_dosages
+        if not is_synthesis_scale(d) and not is_impurity_concentration(d)
+    ]
+
+
 def has_material_dosage(explicit_dosages: list[dict] | None) -> bool:
     """Check if any of the explicit dosages is a material dosage."""
     if not explicit_dosages:
@@ -114,14 +223,21 @@ def classify_extraction_completeness(extraction_result: dict) -> str:
     - 'complete': has material dosage (input quantities)
     - 'partial_result_only': has only result/output dosages
     - 'insufficient': no dosages found
+
+    Filters out synthesis-scale values and impurity concentrations before
+    classifying, so those false positives no longer count as 'complete'.
     """
     if not extraction_result.get("dosage_found"):
         return "insufficient"
-    
-    dosages = extraction_result.get("explicit_dosages", [])
+
+    raw_dosages = extraction_result.get("explicit_dosages", [])
+    if not raw_dosages:
+        return "insufficient"
+
+    dosages = filter_functional_dosages(raw_dosages)
     if not dosages:
         return "insufficient"
-    
+
     if has_material_dosage(dosages):
         return "complete"
     else:
@@ -332,6 +448,24 @@ def read_xml_text(xml_path: Path) -> str:
         return ""
 
 
+def read_docx_text(docx_path: Path) -> str:
+    """Extract plain text from a .docx (Word) supplementary file."""
+    try:
+        from docx import Document
+        doc = Document(docx_path)
+        paragraphs = [p.text for p in doc.paragraphs if p.text.strip()]
+        # Also extract text from tables
+        for table in doc.tables:
+            for row in table.rows:
+                row_text = " | ".join(cell.text.strip() for cell in row.cells if cell.text.strip())
+                if row_text:
+                    paragraphs.append(row_text)
+        return "\n".join(paragraphs)
+    except Exception as e:
+        print(f"    [WARN] DOCX parsing failed for {docx_path.name}: {e}")
+        return ""
+
+
 def find_fulltext_file(doi: str, research_pdf_dir: Path) -> Optional[Path]:
     """Find the fulltext file (PDF or XML) for a given DOI."""
     if not doi or not research_pdf_dir.exists():
@@ -388,11 +522,20 @@ def find_esi_files(doi: str, research_pdf_dir: Path) -> list[Path]:
     article_id_match = re.search(r'[a-z]*(\d{6,})', doi_suffix)
     article_id = article_id_match.group(0) if article_id_match else ""
     
-    # Extract journal abbreviation (e.g., "cssc" from "cssc.202402051")
-    journal_abbrev = doi_suffix.split(".")[0] if "." in doi_suffix else ""
+    # Extract journal abbreviation from DOI suffix.
+    # Strategy: take the longest purely-alphabetic segment (≥2 chars) among all dot-separated parts.
+    # This handles:
+    #   - "cssc.202402051"          → "cssc"
+    #   - "j.radphyschem.2017.07.008" → "radphyschem"  (Elsevier: "j." is publisher prefix)
+    #   - "acs.jchemed.1c00001"     → "jchemed"
+    doi_parts = doi_suffix.split(".")
+    alpha_parts = [p for p in doi_parts if p.isalpha() and len(p) >= 2]
+    journal_abbrev = max(alpha_parts, key=len) if alpha_parts else ""
     
     for file in research_pdf_dir.iterdir():
         if not file.is_file():
+            continue
+        if file.suffix.lower() not in (".pdf", ".xml", ".docx"):
             continue
         fname = file.name.lower()
         
@@ -485,6 +628,8 @@ def get_fulltext(doi: str, research_pdf_dir: Path) -> tuple[str, str]:
             esi_text = read_pdf_text(esi_file) or ""
         elif esi_file.suffix.lower() == ".xml":
             esi_text = read_xml_text(esi_file) or ""
+        elif esi_file.suffix.lower() == ".docx":
+            esi_text = read_docx_text(esi_file) or ""
         
         if esi_text:
             esi_texts.append(f"\n\n=== SUPPLEMENTARY INFORMATION ({esi_file.name}) ===\n\n{esi_text}")
@@ -515,7 +660,9 @@ Before ANY extraction, you MUST determine the ROLE of the target compound "{targ
 |------|-------------|--------|
 | **Process Improvement** | The target is STILL the raw material, but with improved catalyst/process (e.g., better catalyst for ethylbenzene → styrene) | ❌ STOP - Return `"status": "irrelevant"` |
 | **Pollutant/VOC/Emission** | The target is an unwanted byproduct or environmental contaminant being measured or reduced | ❌ STOP - Return `"status": "irrelevant"` |
-| **Solvent/Additive/Formulation** | The target is used AS a functional ingredient (solvent, coating, plasticizer) and the paper proposes a REPLACEMENT | ✅ PROCEED with extraction |
+| **Structural/Molecular Sub** | The target is a sub-molecular structural moiety (e.g., "benzene ring") replaced in drug design / scaffold hopping. | ❌ STOP - Return `"status": "irrelevant"` |
+| **Generic/Illustrative Mention** | The target is named only as one item in a GENERIC LIST of substances to avoid (e.g., "organic solvents such as benzene, toluene, chloroform…") and the study does NOT specifically design an experiment to replace `{target}` by name. The substitution target of the paper is a class of solvents, not `{target}` individually. | ❌ STOP - Return `"status": "irrelevant"` |
+| **Solvent/Additive/Formulation** | The target is used AS a functional ingredient (solvent, coating, plasticizer) and the paper proposes a REPLACEMENT — AND `{target}` is either the PRIMARY named target or a major component being explicitly replaced (not merely listed in a generic category). | ✅ PROCEED with extraction |
 | **Feedstock Substitution** | A DIFFERENT raw material replaces the target to produce the SAME end product (e.g., bio-ethanol replaces ethylbenzene for styrene production) | ✅ PROCEED with extraction |
 
 **Decision Logic:**
@@ -523,6 +670,7 @@ Before ANY extraction, you MUST determine the ROLE of the target compound "{targ
 2. If the paper measures {target} as a pollution/emission source → Irrelevant (it's a pollutant)
 3. If the paper proposes a safer/greener chemical to REPLACE {target} in an application → Relevant (proceed)
 4. If the paper proposes a DIFFERENT feedstock to produce the same product that {target} makes → Relevant (feedstock substitution)
+5. If `{target}` is merely cited in a generic list of harmful solvents/chemicals as background justification, while the study's named substitution target is a broader CATEGORY (e.g., "volatile organic solvents", "BTX aromatics") and `{target}` is not the specific compound being replaced in the experimental protocol → Irrelevant (generic list mention)
 
 **If Irrelevant, return IMMEDIATELY:**
 ```json
@@ -564,6 +712,8 @@ Before ANY extraction, you MUST determine the ROLE of the target compound "{targ
 
 **Extraction Rules:**
 - Extract ONLY explicitly stated material compositions, doping levels, or synthesis ratios
+- **CRITICAL RESTRICTION ON `material`**: The extracted `material` MUST be either the `{alternative}` or the `{target}`. NEVER extract dosages for auxiliary chemicals, buffers, salts, solvents, or dye assistants. If the text only has numbers for these unrelated chemicals, treat it as missing dosage!
+- **FORBIDDEN — Synthesis-of-alternative dosages**: If the paper describes HOW TO MAKE the alternative compound (e.g., synthesis reaction of the proposed replacement), the raw materials and molar ratios used in THAT synthesis are NOT the dosage of the alternative replacing `{target}`. Those must go into `synthesis_conditions`, NOT `explicit_dosages`. Dosages in `explicit_dosages` must reflect the USAGE or LOADING of the alternative in the APPLICATION context where it replaces `{target}`.
 - Typical sources: Abstract, "Materials and Methods", "Experimental Section", Tables
 - Each dosage MUST include complete physical units
 
@@ -640,8 +790,11 @@ These MUST go into `performance_metrics` array.
 - Crystallinity
 - Morphology descriptors
 - Thickness
+- **For surfactants:** Critical micelle concentration (CMC), surface tension at CMC (γCMC), Krafft point — these are intrinsic physical properties of the surfactant, NOT application dosages. Place them in `material_properties`, NOT in `explicit_dosages`. An application dosage would be the actual use concentration in a formulation (e.g., wt% in a foam, mg/L in a cleaning bath).
+- **Elemental / molecular composition:** wt% or mol% describing the elemental content of a synthesized material (e.g., "fluorine content 19.3 wt%", "fluorous content 51 wt%", "carbon content 65 wt%") is a structural characteristic, NOT an application dosage. Place it in `material_properties`.
+- **Measurement conditions ≠ application dosages:** A concentration used only for characterisation (e.g., "1 wt% aqueous solution for surface tension measurement", "0.1 mg/mL stock for spectroscopy") is NOT an application dosage. Do NOT place it in `explicit_dosages`. Report `insufficient_data` unless a separate, real-world use concentration is also stated.
 
-**CRITICAL:** These describe WHAT the material IS, not its formulation ratio.
+**CRITICAL:** These describe WHAT the material IS, not its formulation ratio. An `explicit_dosage` must answer "how much of the alternative was added to achieve the desired function in a real application."
 
 ---
 
@@ -1330,8 +1483,8 @@ def process_paper_for_dosage(
             extraction_method = "fulltext_pdf_semantic_scholar"
         elif "Springer" in download_status or "JATS" in download_status:
             extraction_method = "fulltext_xml_springer"
-        elif "Selenium Scraper" in download_status:
-            extraction_method = "fulltext_pdf_selenium_scraper"
+        elif "Playwright Scraper" in download_status:
+            extraction_method = "fulltext_pdf_playwright_scraper"
         elif "Webpage Capture" in download_status:
             extraction_method = "fulltext_pdf_webpage_capture"
         elif "openAccessPdf" in download_status:
@@ -1355,21 +1508,48 @@ def process_paper_for_dosage(
     
     # Handle "irrelevant" status from pre-filter
     if extraction_result.get("status") == "irrelevant":
-        dosage_info: dict[str, Any] = {
-            "status": "irrelevant",
-            "reason": extraction_result.get("reason", "Target compound role mismatch"),
-            "detected_role": extraction_result.get("detected_role"),
-            "substitution_logic": None,
-            "explicit_dosages": None,
-            "synthesis_conditions": None,
-            "material_properties": None,
-            "performance_metrics": None,
-            "partial_data": None,
-            "text_source": source if fulltext else "abstract",
-            "extraction_method": extraction_method,
-            "download_strategy": download_status if download_status else "N/A",
-            "confidence": "high"
-        }
+        # If step03 confirmed alternatives exist in this paper, upgrade to insufficient_data
+        # so the alternative names are preserved and Phase C can potentially trigger.
+        step03_confirmed_alternatives = result.get("alternatives provided", "").lower() == "yes"
+        detected_role = extraction_result.get("detected_role")
+        if step03_confirmed_alternatives:
+            known_alternatives = result.get("alternatives") or []
+            dosage_info: dict[str, Any] = {
+                "status": "insufficient_data",
+                "reason": (
+                    f"Paper confirmed alternatives exist but target is identified as "
+                    f"{detected_role or 'pollutant/measurement subject'} — "
+                    f"no application dosage found."
+                ),
+                "detected_role": detected_role,
+                "known_alternatives": known_alternatives,
+                "substitution_logic": None,
+                "explicit_dosages": None,
+                "synthesis_conditions": None,
+                "material_properties": None,
+                "performance_metrics": None,
+                "partial_data": None,
+                "text_source": source if fulltext else "abstract",
+                "extraction_method": extraction_method,
+                "download_strategy": download_status if download_status else "N/A",
+                "confidence": "high"
+            }
+        else:
+            dosage_info = {
+                "status": "irrelevant",
+                "reason": extraction_result.get("reason", "Target compound role mismatch"),
+                "detected_role": detected_role,
+                "substitution_logic": None,
+                "explicit_dosages": None,
+                "synthesis_conditions": None,
+                "material_properties": None,
+                "performance_metrics": None,
+                "partial_data": None,
+                "text_source": source if fulltext else "abstract",
+                "extraction_method": extraction_method,
+                "download_strategy": download_status if download_status else "N/A",
+                "confidence": "high"
+            }
         result["dosage_info"] = dosage_info
         return result
     
@@ -1385,12 +1565,15 @@ def process_paper_for_dosage(
         status = "not_found"
     
     # New schema with substitution_logic support
+    # Filter out synthesis-scale values and impurity concentrations before storing
+    _raw_dosages = extraction_result.get("explicit_dosages") if extraction_result.get("dosage_found") else None
+    _filtered_dosages = filter_functional_dosages(_raw_dosages) or None
     dosage_info: dict[str, Any] = {
         "status": status,
         "completeness": completeness,  # New field to indicate extraction quality
-        "has_material_dosage": has_material_dosage(extraction_result.get("explicit_dosages")),
+        "has_material_dosage": has_material_dosage(_filtered_dosages),
         "substitution_logic": extraction_result.get("substitution_logic"),
-        "explicit_dosages": extraction_result.get("explicit_dosages") if extraction_result.get("dosage_found") else None,
+        "explicit_dosages": _filtered_dosages,
         "synthesis_conditions": extraction_result.get("synthesis_conditions"),
         "material_properties": extraction_result.get("material_properties"),
         "performance_metrics": extraction_result.get("performance_metrics"),
@@ -1420,9 +1603,25 @@ def process_paper_for_dosage(
             dosage_info["recommendation"] = "suggest_esi_for_material_dosage"
             if partial_result:
                 dosage_info["partial_data"] = partial_result
+                # Upgrade to extracted if calculation is complete (result obtained, no missing variables)
+                calc = partial_result.get("calculated_dosage", {})
+                if (
+                    partial_result.get("calculation_attempted")
+                    and calc.get("result") is not None
+                    and not calc.get("missing_variables")
+                ):
+                    dosage_info["status"] = "extracted"
         elif partial_result and partial_result.get("partial_data_found"):
             dosage_info["status"] = "partial_data"
             dosage_info["partial_data"] = partial_result
+            # Upgrade to extracted if calculation is complete (result obtained, no missing variables)
+            calc = partial_result.get("calculated_dosage", {})
+            if (
+                partial_result.get("calculation_attempted")
+                and calc.get("result") is not None
+                and not calc.get("missing_variables")
+            ):
+                dosage_info["status"] = "extracted"
         else:
             dosage_info["status"] = "insufficient_data"
             dosage_info["data_gaps"] = partial_result.get("data_gaps", []) if partial_result else []

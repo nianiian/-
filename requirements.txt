@@ -47,4 +47,6 @@ google-genai>=0.1.0
 # PDF and document parsing (Step 05)
 PyMuPDF>=1.20.0
 pdfplumber>=0.9.0
+python-docx>=1.1.0
 truststore
+playwright>=1.52.0
